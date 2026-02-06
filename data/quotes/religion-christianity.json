@@ -1,0 +1,764 @@
+[
+  {
+    "id": "religion-chr-001",
+    "text": "Faith is taking the first step even when you don't see the whole staircase.",
+    "author": "Martin Luther King Jr.",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-002",
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+    "author": "Philippians 4:6",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-003",
+    "text": "For I know the plans I have for you, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "author": "Jeremiah 29:11",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-004",
+    "text": "Patience is not the ability to wait, but the ability to keep a good attitude while waiting.",
+    "author": "Joyce Meyer",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-005",
+    "text": "Let all that you do be done in love.",
+    "author": "1 Corinthians 16:14",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-006",
+    "text": "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.",
+    "author": "Martin Luther King Jr.",
+    "source": "A Testament of Hope: The Essential Writings and Speeches",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-007",
+    "text": "How prideful we must be to believe our sins are greater than His mercy.",
+    "author": "Anonymous",
+    "source": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-008",
+    "text": "I thank God life isn't fair. Because if life was fair we'd all be hanging on a cross.",
+    "author": "Anonymous",
+    "source": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-009",
+    "text": "The Lord is my shepherd; I shall not want.",
+    "author": "Psalms 23:1",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-010",
+    "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me.",
+    "author": "Psalms 23:4",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-011",
+    "text": "Be still, and know that I am God.",
+    "author": "Psalms 46:10",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-012",
+    "text": "Let your unfailing love comfort me, O Lord, as you have promised.",
+    "author": "Psalms 119:76",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-013",
+    "text": "He who dwells in the shelter of the Most High will rest in the shadow of the Almighty.",
+    "author": "Psalms 91:2",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-014",
+    "text": "The fool has said in his heart, There is no God.",
+    "author": "Psalms 14:1",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-015",
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.",
+    "author": "Proverbs 3:5-6",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-016",
+    "text": "A wise woman builds her house, but a foolish one tears hers down with her own hands.",
+    "author": "Proverbs 14:1",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-017",
+    "text": "She is clothed in strength and dignity; she can laugh at the days to come.",
+    "author": "Proverbs 31:25",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-018",
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "author": "Romans 8:28",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-019",
+    "text": "What, then, shall we say in response to these things? If God is for us, who can be against us?",
+    "author": "Romans 8:31",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-020",
+    "text": "Yet in all these things we are more than conquerors through Him who loved us.",
+    "author": "Romans 8:37",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-021",
+    "text": "We also glory in our sufferings, because we know that suffering produces perseverance; perseverance, character; and character, hope.",
+    "author": "Romans 5:3-4",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-022",
+    "text": "For since the creation of the world His invisible qualities — his eternal power and divine nature — have been clearly seen, being understood from what has been made.",
+    "author": "Romans 1:20",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-023",
+    "text": "Let each of you look not only to his own interests, but also to the interests of others.",
+    "author": "Philippians 2:4",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-024",
+    "text": "I can do all things through Christ who strengthens me.",
+    "author": "Philippians 4:13",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-025",
+    "text": "Forgetting what is behind and straining toward what is ahead, I press on toward the goal to win the prize for which Christ Jesus has called me heavenward.",
+    "author": "Philippians 3:13-14",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-026",
+    "text": "Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the meek, for they shall inherit the earth.",
+    "author": "Matthew 5:3-5",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-027",
+    "text": "Therefore I tell you, do not worry about your life, what you will eat or drink; or about your body, what you will wear. Is not life more than food, and the body more than clothes? Consider the birds of the field.",
+    "author": "Matthew 6:25-26",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-028",
+    "text": "But seek first His kingdom and His righteousness, and all these things shall be added to you.",
+    "author": "Matthew 6:33",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-029",
+    "text": "And surely I am with you always, to the very end of the age.",
+    "author": "Matthew 28:20",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-030",
+    "text": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+    "author": "John 3:16",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-031",
+    "text": "Jesus said to her, I am the resurrection and the life. He who believes in me, though he may die, he shall live.",
+    "author": "John 11:25",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-032",
+    "text": "Jesus said to him, I am the way, the truth, and the life. No one comes to the Father except through me.",
+    "author": "John 14:6",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-033",
+    "text": "So if the Son sets you free, you will be free indeed.",
+    "author": "John 8:36",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-034",
+    "text": "They that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; they shall walk, and not faint.",
+    "author": "Isaiah 40:31",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-035",
+    "text": "Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you; I will help you; I will uphold you with my righteous right hand.",
+    "author": "Isaiah 41:10",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-036",
+    "text": "But now thus says the Lord who created you, O Jacob, and He who formed you, O Israel: Fear not, for I have redeemed you; I have called you by your name; you are mine.",
+    "author": "Isaiah 43:1",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-037",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "author": "1 Corinthians 13:4-5",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-038",
+    "text": "No temptation has seized you except what is common to man. And God is faithful; He will not let you be tempted beyond what you can bear.",
+    "author": "1 Corinthians 10:13",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-039",
+    "text": "Behold, I tell you a mystery: We shall not all sleep, but we shall all be changed.",
+    "author": "1 Corinthians 15:51",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-040",
+    "text": "For it is by grace you have been saved, through faith — and this is not from yourselves; it is the gift of God, not the result of works.",
+    "author": "Ephesians 2:8-9",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-041",
+    "text": "Finally, be strong in the Lord and in his mighty power.",
+    "author": "Ephesians 6:10",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-042",
+    "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of any kind, because you know that the testing of your faith produces perseverance.",
+    "author": "James 1:2-3",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-043",
+    "text": "Blessed is the one who perseveres under trial because, having stood the test, that person will receive the crown of life that the Lord has promised to those who love him.",
+    "author": "James 1:12",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-044",
+    "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.",
+    "author": "Colossians 3:23",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-045",
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "author": "1 Peter 5:7",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-046",
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "author": "Hebrews 11:1",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-047",
+    "text": "Jesus Christ is the same yesterday and today and forever.",
+    "author": "Hebrews 13:8",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-048",
+    "text": "We have all been given so much by God. It is not ours to keep — it is ours to give.",
+    "author": "C.S. Lewis",
+    "source": "Mere Christianity",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-049",
+    "text": "If we find ourselves with a desire that nothing in this world can satisfy, the most probable explanation is that we were made for another world.",
+    "author": "C.S. Lewis",
+    "source": "Mere Christianity",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-050",
+    "text": "Pain is the greatest herald of God: you have never heard His address. You never will.",
+    "author": "C.S. Lewis",
+    "source": "The Problem of Pain",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-051",
+    "text": "It is not our job to play God. It is our job to love as He loves — completely, without condition, without reservation.",
+    "author": "C.S. Lewis",
+    "source": "Mere Christianity",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-052",
+    "text": "The greatest thing a man can do for his heavenly Father is to forgive a fellow man.",
+    "author": "C.S. Lewis",
+    "source": "Mere Christianity",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-053",
+    "text": "If you really want to know our Lord, you must love Him. And if you love Him, you must serve Him.",
+    "author": "Mother Teresa",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-054",
+    "text": "Not all of us can do great things. But we can do small things with great love.",
+    "author": "Mother Teresa",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-055",
+    "text": "The moment we refuse to suffer, we refuse to love.",
+    "author": "Mother Teresa",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-056",
+    "text": "Prayer is the simplest prayer: let us pray that God uses us as instruments of His peace and love.",
+    "author": "Mother Teresa",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-057",
+    "text": "God doesn't call the qualified. He qualifies the called.",
+    "author": "Billy Graham",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-058",
+    "text": "Salvation is free, but it is not cheap. It cost God His only Son.",
+    "author": "Billy Graham",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-059",
+    "text": "The most important decision any of us will ever make is whether to accept the salvation that Jesus Christ offers.",
+    "author": "Billy Graham",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-060",
+    "text": "Heaven is real. It is not a fairy tale. It is not a legend. It is the eternal home of every believer.",
+    "author": "Billy Graham",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-061",
+    "text": "God has a purpose for your pain, a reason for your struggles, and a reward for your faithfulness. Trust Him.",
+    "author": "Rick Warren",
+    "source": "The Purpose Driven Life",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-062",
+    "text": "You were made for more than just surviving. You were made for significance.",
+    "author": "Rick Warren",
+    "source": "The Purpose Driven Life",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-063",
+    "text": "The only way to know God's will is to submit your will to His. Surrender is not weakness — it is the greatest strength.",
+    "author": "Rick Warren",
+    "source": "The Purpose Driven Life",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-064",
+    "text": "Life is not about you. It is about God and what He wants to do through you.",
+    "author": "Rick Warren",
+    "source": "The Purpose Driven Life",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-065",
+    "text": "The cost of obeying Jesus can never be compared to the cost of not obeying Him.",
+    "author": "Dietrich Bonhoeffer",
+    "source": "The Cost of Discipleship",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-066",
+    "text": "Cheap grace is grace without demands, without price, without cost. Expensive grace is the treasury of the church into which we dip the gifts of God with thankful hearts.",
+    "author": "Dietrich Bonhoeffer",
+    "source": "The Cost of Discipleship",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-067",
+    "text": "To be a Christian means to follow Christ — not merely to affirm belief in Him, but to stake one's life on Him.",
+    "author": "Dietrich Bonhoeffer",
+    "source": "The Cost of Discipleship",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-068",
+    "text": "Silence in the face of evil is itself evil. God will not hold us guiltless.",
+    "author": "Dietrich Bonhoeffer",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-069",
+    "text": "You may never see beyond the darkness, but I promise you that the light is there — and it has already conquered.",
+    "author": "Corrie ten Boom",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-070",
+    "text": "No matter what happens, hold fast to God. He is the one constant in a world of change.",
+    "author": "Corrie ten Boom",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-071",
+    "text": "When you belong to God, you belong to His family — and family never abandons its own.",
+    "author": "Corrie ten Boom",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-072",
+    "text": "God is not a God who makes promises and fails to keep them. He is faithful in every season of life.",
+    "author": "Max Lucado",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-073",
+    "text": "You are God's masterpiece. Not a rough draft. Not a work in progress. A masterpiece.",
+    "author": "Max Lucado",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-074",
+    "text": "The best news in the world is this: you cannot earn God's love. You already have it.",
+    "author": "Max Lucado",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-075",
+    "text": "When you pray, you don't have to have all the answers. You just have to trust that God does.",
+    "author": "Max Lucado",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-076",
+    "text": "God has not placed a limit on your potential. He has placed a purpose in your heart.",
+    "author": "Beth Moore",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-077",
+    "text": "You are never so far from God that a single prayer cannot reach Him. Trust in the nearness of His grace.",
+    "author": "Beth Moore",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-078",
+    "text": "The greatest enemy of faith is not doubt — it is fear. But perfect love casts out fear.",
+    "author": "Beth Moore",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-079",
+    "text": "The way to move from head knowledge to heart knowledge is through surrender and trust in the Lord.",
+    "author": "Beth Moore",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-080",
+    "text": "The way to get started is to quit talking and begin to do.",
+    "author": "D.L. Moody",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-081",
+    "text": "If God sends us on strong ground, it is to give us a chance to show what the grace of God can do.",
+    "author": "D.L. Moody",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-082",
+    "text": "Nine-tenths of a Christian life is filled with forgiveness — giving it and receiving it.",
+    "author": "D.L. Moody",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-083",
+    "text": "A man who is filled with the Holy Spirit starts to lift others up. That's one of the signs of the Spirit.",
+    "author": "D.L. Moody",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-084",
+    "text": "To God's praise lives the glory of everything that is good and beautiful in this world. Dip your hands into that glory and let it spill into all you do.",
+    "author": "Charles Spurgeon",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-085",
+    "text": "Prayer is the mystic breath which makes the Christian to live.",
+    "author": "Charles Spurgeon",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-086",
+    "text": "A prayer that is not answered is not necessarily a prayer that is ignored. God answers every prayer — sometimes with a no.",
+    "author": "Charles Spurgeon",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-087",
+    "text": "God is too good to be untrue. God is too wise to be mistaken. Everything that comes into your life you can use for good and for God's glory if you are willing.",
+    "author": "Charles Spurgeon",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-088",
+    "text": "Joy is not dependent on the absence of trouble, but on the presence of God.",
+    "author": "Charles Spurgeon",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-089",
+    "text": "The Christian life begins with an act of faith in a Savior who loves, and it continues with a walk of faith in a Lord who leads.",
+    "author": "Charles Spurgeon",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-090",
+    "text": "God does not see as people see; people look at the outward appearance, but the Lord looks at the heart.",
+    "author": "1 Samuel 16:7",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-091",
+    "text": "The earth has no sorrow that heaven cannot heal.",
+    "author": "Thomas Moore",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-092",
+    "text": "We must pray not only for what we need, but for the wisdom to know what we need.",
+    "author": "Augustine of Hippo",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-093",
+    "text": "Our hearts are restless, O Lord, until they rest in Thee.",
+    "author": "Augustine of Hippo",
+    "source": "Confessions",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-094",
+    "text": "Love God above all else and then rejoice — for all good things flow from that single devotion.",
+    "author": "Augustine of Hippo",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-095",
+    "text": "The man who has ceased to pray has ceased to live as a Christian.",
+    "author": "Dwight L. Moody",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-096",
+    "text": "There is no fear in love; but perfect love casts out fear.",
+    "author": "1 John 4:18",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-097",
+    "text": "Do everything in love.",
+    "author": "1 Corinthians 16:14",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-098",
+    "text": "The Lord bless you and keep you; the Lord make His face shine upon you and be gracious to you; the Lord turn His face toward you and give you peace.",
+    "author": "Numbers 6:24-26",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-099",
+    "text": "Godly wisdom begins with humility. The humble in heart are the ones who find themselves closest to the Throne of Grace.",
+    "author": "Charles Spurgeon",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-100",
+    "text": "The cross is the measure of God's love. All of heaven is amazed by it, and all of eternity will celebrate it.",
+    "author": "Billy Graham",
+    "category": "religion",
+    "subcategory": "christianity"
+  }
+]

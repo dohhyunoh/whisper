@@ -1,0 +1,757 @@
+[
+  {
+    "id": "religion-bud-001",
+    "text": "When you let go of what you are, you become what you might be.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-002",
+    "text": "Three things cannot be long hidden: the sun, the moon, and the truth.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-003",
+    "text": "In the end, only three things matter: how much you loved, how gently you lived, and how gracefully you let go of things not meant for you.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-004",
+    "text": "Peace comes from within. Do not seek it without.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-005",
+    "text": "Every morning we are born again. What we do today is what matters most.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-006",
+    "text": "Mind is everything. What you think you become.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-007",
+    "text": "All that we are is the result of what we have thought. The mind is everything; what we think, we become.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-008",
+    "text": "Hatred does not cease by hatred, but only by love; this is the eternal rule.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-009",
+    "text": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-010",
+    "text": "There is no fire like passion, no shark like hatred, no snare like folly, no torrent like greed and lust.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-011",
+    "text": "The mind acts as a mirror: what you put in is what comes back to you.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-012",
+    "text": "Easeful death is but a phase of transition and not a finale.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-013",
+    "text": "The one who has renounced violence towards all living beings, weak or strong, who neither kills nor causes others to kill — him I call a brahmin.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-014",
+    "text": "To conquer oneself is a mightier victory than to conquer all other men.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-015",
+    "text": "Life is a bridge; cross over it but do not build a house on it.",
+    "author": "Buddha",
+    "source": "Majjhima Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-016",
+    "text": "A monk who has attained the unconditioned does not cling to life, does not cling to death, but waits with equanimity.",
+    "author": "Buddha",
+    "source": "Majjhima Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-017",
+    "text": "When the mind is free, there is no more suffering. This is the truth.",
+    "author": "Buddha",
+    "source": "Majjhima Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-018",
+    "text": "I teach one thing: suffering and the end of suffering.",
+    "author": "Buddha",
+    "source": "Majjhima Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-019",
+    "text": "The middle way is the path that avoids extremes and leads to wisdom and clarity.",
+    "author": "Buddha",
+    "source": "Samyutta Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-020",
+    "text": "The river of suffering flows through all beings. The raft that carries you across is the practice of awareness.",
+    "author": "Buddha",
+    "source": "Samyutta Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-021",
+    "text": "What is not eternal is not worth clinging to. Release and you will find freedom.",
+    "author": "Buddha",
+    "source": "Samyutta Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-022",
+    "text": "Impermanence is not a cause for grief; it is a teacher. Listen to it and you will understand the nature of existence.",
+    "author": "Buddha",
+    "source": "Samyutta Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-023",
+    "text": "Goodness comes to those who practice it. Evil comes to those who plant it.",
+    "author": "Buddha",
+    "source": "Samyutta Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-024",
+    "text": "When you sit in meditation, do not fight your thoughts. Simply notice them as clouds passing through the sky.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-025",
+    "text": "The ego is the greatest obstacle to awakening. When you see through it, liberation is near.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-026",
+    "text": "Compassion for all beings is the foundation of the spiritual life.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-027",
+    "text": "The eightfold path — right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, right concentration — is the road to the end of suffering.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-028",
+    "text": "What you think, you become. What you feel, you attract. What you imagine, you create.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-029",
+    "text": "The root of all suffering is attachment. Let go, and you will find peace.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-030",
+    "text": "Karma is not fate. It is the sum of your choices, and it can be transformed by wisdom and right action.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-031",
+    "text": "The present moment is the only moment available to us, and it is the doorway to all moments.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-032",
+    "text": "Mindfulness is the miracle by which we master and restore ourselves.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-033",
+    "text": "When you breathe, you connect yourself to the life-giving force of the universe. Each breath is a gift.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-034",
+    "text": "The miracle is not to walk on water. The miracle is to walk on the green earth, dwelling deeply in the present moment.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-035",
+    "text": "Peace is every step. The mind of peace is the mind of love, and love makes peace.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-036",
+    "text": "When we are truly aware, we see the interconnectedness of all living things.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-037",
+    "text": "Smile, breathe, and go slowly. This is the way to happiness.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-038",
+    "text": "We have more possibilities in each moment than we can imagine.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-039",
+    "text": "Your compassion is the most meaningful gift you can offer the world.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-040",
+    "text": "If you want others to be happy, practice compassion. If you want to be happy, practice compassion.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-041",
+    "text": "The purpose of our lives is to be happy.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-042",
+    "text": "In the end, the only things that count are love, compassion, and wisdom. All else is decoration.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-043",
+    "text": "Sleep is the best meditation.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-044",
+    "text": "Inner peace is the ultimate source of happiness. One can achieve a kind of happiness even amidst great suffering if the mind is at peace.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-045",
+    "text": "If you lose, don't be discouraged. If you win, don't be arrogant. Just carry on.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-046",
+    "text": "The greatest happiness is to have no fixed mind, to drift along with the current of life.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-047",
+    "text": "To study the Buddha Way is to study the self. To study the self is to forget the self. To forget the self is to be verified by all things.",
+    "author": "Dogen",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-048",
+    "text": "The way is not difficult for those who have no preferences. When love and hate are both absent everything becomes clear and undisguised.",
+    "author": "Dogen",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-049",
+    "text": "Sitting quietly, doing nothing, spring comes, and the grass grows by itself.",
+    "author": "Dogen",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-050",
+    "text": "In the beginner's mind there are many possibilities, but in the expert's mind there are few.",
+    "author": "Shunryu Suzuki",
+    "source": "Zen Mind, Beginner's Mind",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-051",
+    "text": "The best way to control a cow is to give it a large, spacious meadow.",
+    "author": "Shunryu Suzuki",
+    "source": "Zen Mind, Beginner's Mind",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-052",
+    "text": "Each of you is perfect the way you are. And you can use a little improvement.",
+    "author": "Shunryu Suzuki",
+    "source": "Zen Mind, Beginner's Mind",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-053",
+    "text": "We are all complete. The practice is simply the uncovering of that completeness.",
+    "author": "Shunryu Suzuki",
+    "source": "Zen Mind, Beginner's Mind",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-054",
+    "text": "If you walk the path, it walks you. Do not resist its rhythm.",
+    "author": "Shunryu Suzuki",
+    "source": "Zen Mind, Beginner's Mind",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-055",
+    "text": "The most important thing in the world is feeling alive.",
+    "author": "Pema Chodron",
+    "source": "When Things Fall Apart",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-056",
+    "text": "The most fundamental aggression to yourself, the most destructive thing you can do to yourself, is to take the attitude that you are not worth your own time or energy.",
+    "author": "Pema Chodron",
+    "source": "When Things Fall Apart",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-057",
+    "text": "When things fall apart and everything is in chaos, a very unconventional path becomes possible. This is the way.",
+    "author": "Pema Chodron",
+    "source": "When Things Fall Apart",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-058",
+    "text": "We can approach our meditation practice with the spirit of a warrior — not one who fights, but one who is awake.",
+    "author": "Pema Chodron",
+    "source": "When Things Fall Apart",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-059",
+    "text": "Groundlessness — not having any ground — is the condition we most deeply fear. But it is also the most spacious and liberating state.",
+    "author": "Pema Chodron",
+    "source": "When Things Fall Apart",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-060",
+    "text": "The practice of mindfulness is the practice of freedom. Each moment is a chance to begin again.",
+    "author": "Sharon Salzberg",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-061",
+    "text": "Loving-kindness is not a feeling; it is a practice. You cultivate it the way you cultivate any skill — with patience and repetition.",
+    "author": "Sharon Salzberg",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-062",
+    "text": "You don't have to like your meditation. You just have to do it.",
+    "author": "Sharon Salzberg",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-063",
+    "text": "Mindfulness is simply paying attention to what is happening, right now, without judgment.",
+    "author": "Sharon Salzberg",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-064",
+    "text": "The whole secret of existence is to know what is our purpose. To find that, we must look within.",
+    "author": "Ajahn Chah",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-065",
+    "text": "If you let go a little, you will have a little peace. If you let go a lot, you will have a lot of peace. If you let go completely, you will have complete peace.",
+    "author": "Ajahn Chah",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-066",
+    "text": "Try to be at peace with everything you see — man, woman, tree, mountain, river. If you cannot make peace with these things, you will never make peace with yourself.",
+    "author": "Ajahn Chah",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-067",
+    "text": "If you truly understand what emptiness is, and you truly understand what form is, then you understand life.",
+    "author": "Ajahn Chah",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-068",
+    "text": "Emptiness is not nothingness. It is the space in which everything can arise.",
+    "author": "Nagarjuna",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-069",
+    "text": "All phenomena are dependent on conditions. Nothing exists independently. This is the great truth of interdependence.",
+    "author": "Nagarjuna",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-070",
+    "text": "If you understand emptiness, you understand compassion — for emptiness is the mother of all compassion.",
+    "author": "Nagarjuna",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-071",
+    "text": "The mind that clings to nothing is already free.",
+    "author": "Nagarjuna",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-072",
+    "text": "A man who has attained nirvana is not reborn, not not-reborn. He simply is beyond the reach of concepts.",
+    "author": "Bodhidharma",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-073",
+    "text": "The Buddha is not someone who lived long ago. The Buddha is the awakened mind in you, right now.",
+    "author": "Bodhidharma",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-074",
+    "text": "Not knowing is most intimate.",
+    "author": "Bodhidharma",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-075",
+    "text": "Wall-gazing is the gate to entering the way.",
+    "author": "Bodhidharma",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-076",
+    "text": "The way flows like water, naturally and without force. Do not push; let it come.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-077",
+    "text": "The greatest mistakes are made when we try to control life. Let it unfold.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-078",
+    "text": "Water is the softest thing, yet it erodes mountains and stones. This is because it yields with ease.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-079",
+    "text": "The empty space in a wheel is what makes it useful. The empty space in a cup is what makes it useful. Know the value of emptiness.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-080",
+    "text": "Nature does not hurry, yet everything is accomplished.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-081",
+    "text": "The awakened one does not cling to the idea of awakening. That very clinging is the chain.",
+    "author": "Buddha",
+    "source": "Majjhima Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-082",
+    "text": "Do not dwell in the past, do not dream of the future. Keep your mind in the present moment.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-083",
+    "text": "The mind that is still is the mind that knows.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-084",
+    "text": "Suffering is a condition of existence. But the end of suffering — nibbana — is attainable.",
+    "author": "Buddha",
+    "source": "Samyutta Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-085",
+    "text": "No one can do your spiritual work for you. You alone must walk the path.",
+    "author": "Buddha",
+    "source": "Majjhima Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-086",
+    "text": "Do not be afraid of shadows — they are only the absence of light. And the light is always there.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-087",
+    "text": "The way to take care of yourself is to take care of everyone else.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-088",
+    "text": "When you touch someone with love, you touch yourself. We are all one.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-089",
+    "text": "Every moment of awareness is an invitation to come home to yourself.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-090",
+    "text": "Do not rush. The flower does not rush and it blooms fully in its time.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-091",
+    "text": "Happiness cannot be found in external things. It is a state of mind.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-092",
+    "text": "The more you practice with an open heart, the more compassionate you will naturally become.",
+    "author": "Dalai Lama",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-093",
+    "text": "In silence we find truth. In solitude we find strength. In stillness we find God.",
+    "author": "Buddha",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-094",
+    "text": "All beings wish to be free from suffering. All beings wish to be happy. This is the ground on which compassion stands.",
+    "author": "Buddha",
+    "source": "Samyutta Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-095",
+    "text": "The watcher and the watched are one. The seer and the seen are one. Realize this, and you are free.",
+    "author": "Nagarjuna",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-096",
+    "text": "Do not attach yourself to anything that will destroy your peace. Look within and find the stillness.",
+    "author": "Ajahn Chah",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-097",
+    "text": "The practice is not separate from life. Every moment is a chance to practice — eating, walking, speaking, breathing.",
+    "author": "Pema Chodron",
+    "source": "When Things Fall Apart",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-098",
+    "text": "Only our own compassion and wisdom can truly set us free.",
+    "author": "Buddha",
+    "source": "Dhammapada",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-099",
+    "text": "Everything is impermanent. This is not a cause for despair — it is the invitation to be fully alive.",
+    "author": "Thich Nhat Hanh",
+    "source": "Plum Village",
+    "category": "religion",
+    "subcategory": "buddhism"
+  },
+  {
+    "id": "religion-bud-100",
+    "text": "The Buddha said: Do not accept what I say because I said it. Test it as a goldsmith tests gold — by cutting, rubbing, and burning.",
+    "author": "Buddha",
+    "source": "Majjhima Nikaya",
+    "category": "religion",
+    "subcategory": "buddhism"
+  }
+]

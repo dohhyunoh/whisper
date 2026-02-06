@@ -1,0 +1,754 @@
+[
+  {
+    "id": "relationships-001",
+    "text": "The greatest thing you'll ever learn is just to love and be loved in return.",
+    "author": "Eden Ahbez",
+    "source": "Nature Boy",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-002",
+    "text": "You don't love someone for their looks, or their clothes, or for their fancy car, but because they sing a song only you can hear.",
+    "author": "Oscar Wilde",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-003",
+    "text": "The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.",
+    "author": "Carl Jung",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-004",
+    "text": "Love is not about how many days, months, or years you've been together. It's about how much you love each other every single day.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-005",
+    "text": "The best thing to hold onto in life is each other.",
+    "author": "Audrey Hepburn",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-006",
+    "text": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+    "author": "Lao Tzu",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-010",
+    "text": "No relationship is all sunshine, but two people can share one umbrella and survive the storm together.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-001",
+    "text": "If you're a lover, you gotta be a fighter, 'cause if you don't fight for your love, what kind of love do you have?",
+    "author": "Keanu Reeves",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-002",
+    "text": "A man bought 20 flowers: 19 real and 1 fake. He said: 'I will love you until the last flower dies'.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-003",
+    "text": "Physics isn't the most important thing. Love is.",
+    "author": "Richard P. Feynman",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-004",
+    "text": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+    "author": "Lao Tzu",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-005",
+    "text": "Love is that condition in which the happiness of another person is essential to your own.",
+    "author": "Robert A. Heinlein",
+    "source": "Stranger in a Strange Land",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-006",
+    "text": "When a man learns to love, he must bear the risk of hatred.",
+    "author": "Uchiha Madara",
+    "source": "Naruto",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-007",
+    "text": "There's only one thing that can heal the heart... Only one... It's love, Gaara.",
+    "author": "Yashamaru",
+    "source": "Naruto",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-008",
+    "text": "I miss your voice because it is a symphony; your scent because it is a treasure; your smile because it is a jewel; your hug because it is a masterpiece; and your kiss because it is a miracle.",
+    "author": "Matshona Dhliwayo",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-009",
+    "text": "An angel who makes you cry is better than a devil who makes you smile.",
+    "author": "Matshona Dhliwayo",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-010",
+    "text": "I had my hand over her heart to keep it beating. It was the happiest noise I had ever heard.",
+    "author": "Kousei Arima",
+    "source": "Your Lie in April",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-011",
+    "text": "You made me hear music again. And I didn't even know I had gone deaf.",
+    "author": "Kousei Arima",
+    "source": "Your Lie in April",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-012",
+    "text": "Even if I can't stay with you forever, I will leave my mark on your heart. That's what it means to love someone.",
+    "author": "Kaori Miyazono",
+    "source": "Your Lie in April",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-013",
+    "text": "The more you get to know someone, the more you realize that love isn't something you find. It's something you build, one day at a time.",
+    "author": "Tomoya Okazaki",
+    "source": "Clannad",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-014",
+    "text": "I never thought the person I'd fall in love with would be the one who smiled at me like that on an ordinary afternoon.",
+    "author": "Nagisa Furukawa",
+    "source": "Clannad",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-015",
+    "text": "Love doesn't always come with fireworks. Sometimes it comes quietly, in the spaces between two people who finally stop running from each other.",
+    "author": "Ryuuji Takasu",
+    "source": "Toradora",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-016",
+    "text": "The best kind of love is the kind that catches you off guard — the kind where you didn't even know you were falling until you'd already landed.",
+    "author": "Taiga Aisaka",
+    "source": "Toradora",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-017",
+    "text": "If I write a letter and it never reaches you, I hope you know: every sentence was true.",
+    "author": "Violet Evergarden",
+    "source": "Violet Evergarden",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-018",
+    "text": "To love and to be loved is to feel the sun from both sides.",
+    "author": "Okabe Rintaro",
+    "source": "Steins;Gate",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-019",
+    "text": "I would rewrite time itself if it meant keeping you safe. That's not obsession — that's what love does.",
+    "author": "Okabe Rintaro",
+    "source": "Steins;Gate",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-020",
+    "text": "Mayuri taught me that love isn't about holding on. It's about being willing to let someone into the parts of you that are still broken.",
+    "author": "Okabe Rintaro",
+    "source": "Steins;Gate",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-021",
+    "text": "I would gladly endure every painful loop if it meant I could hold you one more time.",
+    "author": "Subaru Natsuki",
+    "source": "Re:Zero",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-022",
+    "text": "You are worth every fight, every tear, every impossible second. I'd choose you again and again.",
+    "author": "Edward Elric",
+    "source": "Fullmetal Alchemist",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-023",
+    "text": "Winry taught me that love isn't something you find in grand gestures. It lives in the small, quiet ways someone stays.",
+    "author": "Edward Elric",
+    "source": "Fullmetal Alchemist",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-024",
+    "text": "Love is the one thing I never planned to feel. And now I can't imagine my world without it.",
+    "author": "Lelouch vi Britannia",
+    "source": "Code Geass",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-025",
+    "text": "In another life, in a world that made sense, I would have chosen you without hesitation.",
+    "author": "Kallen Stadtfeld",
+    "source": "Code Geass",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-026",
+    "text": "When you find the right person, the whole world seems to slow down just so you can notice them.",
+    "author": "Howl",
+    "source": "Howl's Moving Castle (2004)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-027",
+    "text": "The best love stories aren't the ones where everything is perfect. They're the ones where two imperfect people choose each other anyway.",
+    "author": "Naruto Uzumaki",
+    "source": "Naruto",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-028",
+    "text": "Kakashi once told me that the people who matter most are the ones you'd risk everything for. I finally understand what he meant.",
+    "author": "Naruto Uzumaki",
+    "source": "Naruto",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-029",
+    "text": "You don't love the way you thought you would. You love the way you never expected — quietly, completely, without apology.",
+    "author": "Eren Yeager",
+    "source": "Attack on Titan",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-030",
+    "text": "The notebook was filled with letters I wrote to you. Every page was a day I missed you. Every word was proof that absence doesn't erase love.",
+    "author": "Noah Calhoun",
+    "source": "The Notebook (2004)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-031",
+    "text": "The best thing I ever did was say yes to you, even when everything in me said it was too soon.",
+    "author": "Allie Hamilton",
+    "source": "The Notebook (2004)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-032",
+    "text": "It is a truth universally acknowledged that a single person in possession of a good heart must be in want of love.",
+    "author": "Elizabeth Bennet",
+    "source": "Pride and Prejudice (2005)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-033",
+    "text": "You have bewitched me, body and soul, and I love you. I love you.",
+    "author": "Mr. Darcy",
+    "source": "Pride and Prejudice (2005)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-034",
+    "text": "I'm always going to want more time with you. That's how I know it's real.",
+    "author": "Sebastian Wilder",
+    "source": "La La Land (2016)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-035",
+    "text": "The city taught us to dream, and we found each other in the middle of it. That wasn't an accident.",
+    "author": "Mia Dolan",
+    "source": "La La Land (2016)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-036",
+    "text": "How happy I am to have loved you, even if it cost me the earth.",
+    "author": "Joel Barish",
+    "source": "Eternal Sunshine of the Spotless Mind (2004)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-037",
+    "text": "Meet me in Montauk.",
+    "author": "Clementine Kruczynski",
+    "source": "Eternal Sunshine of the Spotless Mind (2004)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-038",
+    "text": "I'm drowning here, and you're learning to swim.",
+    "author": "Jack Dawson",
+    "source": "Titanic (1997)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-039",
+    "text": "You jump, I jump. That's not a promise. That's a fact.",
+    "author": "Jack Dawson",
+    "source": "Titanic (1997)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-040",
+    "text": "Love isn't about grand gestures or expensive dinners. It's about knowing someone well enough to make them laugh when they're about to cry.",
+    "author": "Eleanor Young",
+    "source": "Crazy Rich Asians (2018)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-041",
+    "text": "You don't get to choose if you get hurt in this world. But you do get to choose who hurts you.",
+    "author": "Augustus Waters",
+    "source": "The Fault in Our Stars (2014)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-042",
+    "text": "Loving you was the easiest part of my entire life.",
+    "author": "Hazel Grace Lancaster",
+    "source": "The Fault in Our Stars (2014)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-043",
+    "text": "The best love story ever told is the one where two people choose each other in front of a typewriter and a bottle of wine.",
+    "author": "Viola de Lesseps",
+    "source": "Shakespeare in Love (1998)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-044",
+    "text": "I don't want to be someplace else. I want to be right here, with you, for as long as right here lasts.",
+    "author": "Harry Burns",
+    "source": "When Harry Met Sally (1989)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-045",
+    "text": "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.",
+    "author": "Harry Burns",
+    "source": "When Harry Met Sally (1989)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-046",
+    "text": "There is no greater agony than bearing an untold story inside you — unless it's an untold love.",
+    "author": "Jane Eyre",
+    "source": "Jane Eyre (2011)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-047",
+    "text": "As you wish.",
+    "author": "Westley",
+    "source": "The Princess Bride (1987)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-048",
+    "text": "Death cannot stop true love. All it can do is delay it for a while.",
+    "author": "Westley",
+    "source": "The Princess Bride (1987)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-049",
+    "text": "Le monde entier appartient à celui qui sait bien aimer — the whole world belongs to those who know how to love.",
+    "author": "Amélie Poulain",
+    "source": "Amélie (2001)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-050",
+    "text": "The real trick to life is not to be dead when it ends.",
+    "author": "Tim Lake",
+    "source": "About Time (2013)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-051",
+    "text": "All the happiness in the world starts and ends with another person. It's time I started looking.",
+    "author": "Tim Lake",
+    "source": "About Time (2013)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-052",
+    "text": "Love is the kind of thing that makes you want to be a better man.",
+    "author": "Kevin Bacon",
+    "source": "Hitch (2005)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-053",
+    "text": "I love you without knowing from when, without looking toward a future or an infinite past. I love you as certain dark things are to be loved, in secret, between the shadow and the soul.",
+    "author": "Pablo Neruda",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-054",
+    "text": "Tonight I love you, tomorrow I will too. The day after that is forever, and that's how I plan to spend it.",
+    "author": "Pablo Neruda",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-055",
+    "text": "The soul has been given ears to hear things the mind does not understand.",
+    "author": "Rumi",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-056",
+    "text": "Out beyond ideas of wrongdoing and rightdoing, there is a field. I'll meet you there.",
+    "author": "Rumi",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-057",
+    "text": "Tell me whom you love, and I will tell you who you are.",
+    "author": "Gabriel Garcia Marquez",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-058",
+    "text": "It is a truth almost universally acknowledged that love, once begun, tends to continue.",
+    "author": "Jane Austen",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-059",
+    "text": "There is no greater happiness than to be convinced that one is loved.",
+    "author": "Charlotte Bronte",
+    "source": "Jane Eyre",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-060",
+    "text": "The best love is the love that awakens the soul and makes us reach for more, that plants a fire in our bellies and brings peace to our minds.",
+    "author": "Nicholas Sparks",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-061",
+    "text": "If you find someone who makes you happy, that's rare. Hold on tight. The world will try to take it from you.",
+    "author": "Paulo Coelho",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-062",
+    "text": "How do I love thee? Let me count the ways. I love thee to the depth and breadth and height my soul can reach.",
+    "author": "Elizabeth Barrett Browning",
+    "source": "Sonnets from the Portuguese",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-063",
+    "text": "The thing about love is, it doesn't follow rules. It doesn't care about timing. It just shows up.",
+    "author": "Ryan Reynolds",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-064",
+    "text": "Love is choosing the same person every single morning, even on the hard days. Especially on the hard days.",
+    "author": "Blake Lively",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-065",
+    "text": "All I ever wanted was to find someone who loves me the way I love music — completely and without condition.",
+    "author": "John Legend",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-066",
+    "text": "Someone out there is meant to love the exact version of you that you are right now.",
+    "author": "Adele",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-067",
+    "text": "Love is not a whisper. It's a decision you make loudly, every day, in front of everyone.",
+    "author": "Taylor Swift",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-068",
+    "text": "You know you've found the right person when their laugh makes you forget everything you were worried about.",
+    "author": "Cary Grant",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-069",
+    "text": "Love is a two-way street commonly traveled by two-way traffic.",
+    "author": "Martin Luther King Jr.",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-070",
+    "text": "The heart has its reasons which reason knows nothing of.",
+    "author": "Blaise Pascal",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-071",
+    "text": "To be loved but lost; or to be loved and found — that is the question every heart eventually asks.",
+    "author": "Pablo Neruda",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-072",
+    "text": "Love is not something you find. It is something you grow into, slowly and then all at once.",
+    "author": "Nicholas Sparks",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-073",
+    "text": "You don't fall in love with someone's perfection. You fall in love with the way they make your imperfections feel okay.",
+    "author": "Paulo Coelho",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-074",
+    "text": "I have seen the best of you, and waited for the rest of you. I will keep waiting.",
+    "author": "Jane Austen",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-075",
+    "text": "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.",
+    "author": "Maya Angelou",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-076",
+    "text": "The moment I saw you, I knew my life would never be the same. Every story I'd ever read was just practice for this one.",
+    "author": "Elizabeth Bennet",
+    "source": "Pride and Prejudice (2005)",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-077",
+    "text": "Trust is built in small moments. A hand held. A promise kept. A name whispered in the dark.",
+    "author": "Brene Brown",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-078",
+    "text": "You know you're in love when you can't sleep because reality is finally better than your dreams.",
+    "author": "Dr. Seuss",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-079",
+    "text": "The greatest risk, for men or for women, is to remain in loveless comfort.",
+    "author": "Deepak Chopra",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-080",
+    "text": "Two people are in love when they make each other feel like they are not alone.",
+    "author": "Marian Keyes",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-081",
+    "text": "I have waited for you so long, I am no longer afraid of it. I am only afraid of what I become without you.",
+    "author": "Charlotte Bronte",
+    "source": "Jane Eyre",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-082",
+    "text": "Real love does not treat you like a project. It holds you like a treasure.",
+    "author": "Iyanla Vanzant",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-083",
+    "text": "We loved with a love that was more than love.",
+    "author": "Edgar Allan Poe",
+    "source": "Ulalume",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-084",
+    "text": "Romance is not about closing your eyes and hoping. It's about opening them wide and choosing to stay.",
+    "author": "Ryan Reynolds",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-085",
+    "text": "You make ordinary moments extraordinary. That is the most powerful kind of love there is.",
+    "author": "Blake Lively",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-086",
+    "text": "Love is a place and a state of mind. It begins with yourself — and then it reaches outward to encompass someone else.",
+    "author": "Deepak Chopra",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-087",
+    "text": "The first time you truly love someone, you learn what it means to let go of every version of yourself you used to be.",
+    "author": "Gabriel Garcia Marquez",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-088",
+    "text": "Connection is the energy that exists between people when they feel seen, heard, and valued.",
+    "author": "Brene Brown",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-089",
+    "text": "Love is when you meet someone who tells you, 'Hey, you're kind of messed up,' and then proceeds to love you anyway.",
+    "author": "John Green",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-090",
+    "text": "Falling in love is not a choice. To stay in love is.",
+    "author": "Zayed Khan",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-091",
+    "text": "Every love story is a ghost story.",
+    "author": "David Foster Wallace",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-092",
+    "text": "The way to get started is to quit talking and begin to love.",
+    "author": "Walt Disney",
+    "category": "relationships",
+    "subcategory": "dating"
+  },
+  {
+    "id": "relationships-dating-093",
+    "text": "I didn't fall in love with you. I walked into love with you, with my eyes open, because I wanted to.",
+    "author": "Craig Ferguson",
+    "category": "relationships",
+    "subcategory": "dating"
+  }
+]

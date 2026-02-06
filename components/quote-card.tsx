@@ -1,0 +1,292 @@
+import { LikeButton } from '@/components/like-button';
+import { ShareButton } from '@/components/share-button';
+import { CATEGORY_GRADIENTS } from '@/constants/categories';
+import { IMAGE_THEMES, isImageTheme, PREMIUM_FONTS } from '@/constants/premium';
+import { Quote } from '@/data/types';
+import { useLikes } from '@/hooks/use-likes';
+import { usePremium } from '@/hooks/use-premium';
+import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
+import { LinearGradient } from 'expo-linear-gradient';
+import * as Sharing from 'expo-sharing';
+import React, { useCallback, useEffect, useMemo, useRef } from 'react';
+import { ImageBackground, Share, StyleSheet, Text, View } from 'react-native';
+import { Gesture, GestureDetector } from 'react-native-gesture-handler';
+import Animated, {
+  runOnJS,
+  useAnimatedStyle,
+  useSharedValue,
+  withSequence,
+  withSpring,
+  withTiming,
+} from 'react-native-reanimated';
+import ViewShot, { captureRef } from 'react-native-view-shot';
+
+interface QuoteCardProps {
+  quote: Quote;
+  height: number;
+}
+
+export function QuoteCard({ quote, height }: QuoteCardProps) {
+  const { isLiked, toggleLike } = useLikes();
+  const { currentTheme, currentFont } = usePremium();
+  const opacity = useSharedValue(0);
+  const heartScale = useSharedValue(0);
+  const heartOpacity = useSharedValue(0);
+  const tapX = useSharedValue(0);
+  const tapY = useSharedValue(0);
+
+  useEffect(() => {
+    opacity.value = withTiming(1, { duration: 400 });
+  }, []);
+
+  const handleDoubleTap = useCallback(() => {
+    // Only trigger like if not already liked
+    if (!isLiked(quote.id)) {
+      toggleLike(quote.id);
+    }
+    // Always show heart animation on double-tap
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    heartOpacity.value = 1;
+    heartScale.value = withSequence(
+      withSpring(1.2, { damping: 6, stiffness: 200 }),
+      withSpring(1, { damping: 8 }),
+      withTiming(1, { duration: 300 }),
+      withTiming(0, { duration: 200 })
+    );
+    heartOpacity.value = withSequence(
+      withTiming(1, { duration: 0 }),
+      withTiming(1, { duration: 600 }),
+      withTiming(0, { duration: 200 })
+    );
+  }, [isLiked, toggleLike, quote.id]);
+
+  const doubleTapGesture = Gesture.Tap()
+    .numberOfTaps(2)
+    .onEnd((event) => {
+      tapX.value = event.x;
+      tapY.value = event.y;
+      runOnJS(handleDoubleTap)();
+    });
+
+  const heartAnimatedStyle = useAnimatedStyle(() => ({
+    left: tapX.value - 30,
+    top: tapY.value - 30,
+    transform: [{ scale: heartScale.value }],
+    opacity: heartOpacity.value,
+  }));
+
+  const fadeStyle = useAnimatedStyle(() => ({
+    opacity: opacity.value,
+  }));
+
+  // Determine if we're using shuffle mode for backgrounds
+  const isShuffleMode = currentTheme.key === 'shuffle';
+
+  // Get shuffled image theme when in shuffle mode
+  const shuffledImageTheme = useMemo(() => {
+    if (!isShuffleMode) return null;
+    // Use quote.id to deterministically pick an image theme (stable per quote)
+    const hash = quote.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+    const index = hash % IMAGE_THEMES.length;
+    return IMAGE_THEMES[index];
+  }, [isShuffleMode, quote.id]);
+
+  // Check if current theme is an image theme (or shuffle mode)
+  const isImageBackground = useMemo(() => {
+    return isShuffleMode || isImageTheme(currentTheme);
+  }, [currentTheme, isShuffleMode]);
+
+  // Get the actual image theme to use (either current or shuffled)
+  const activeImageTheme = useMemo(() => {
+    if (isShuffleMode && shuffledImageTheme) {
+      return shuffledImageTheme;
+    }
+    if (isImageTheme(currentTheme)) {
+      return currentTheme;
+    }
+    return null;
+  }, [currentTheme, isShuffleMode, shuffledImageTheme]);
+
+  // Determine gradient colors: use theme if not 'default', otherwise use category gradient
+  const gradientColors = useMemo(() => {
+    if (isImageBackground) {
+      return CATEGORY_GRADIENTS[quote.category]; // fallback, won't be used for image themes
+    }
+    if (currentTheme.key === 'default') {
+      return CATEGORY_GRADIENTS[quote.category];
+    }
+    return 'gradientColors' in currentTheme ? currentTheme.gradientColors : CATEGORY_GRADIENTS[quote.category];
+  }, [currentTheme, quote.category, isImageBackground]);
+
+  // Determine text colors based on theme (use active image theme for shuffle mode)
+  const activeTheme = activeImageTheme || currentTheme;
+  const textColor = currentTheme.key === 'default' ? '#3A6B80' : activeTheme.textColor;
+  const secondaryColor = currentTheme.key === 'default' ? '#5A8BA8' : activeTheme.secondaryTextColor;
+  const tertiaryColor = currentTheme.key === 'default' ? '#7B9AAA' : activeTheme.secondaryTextColor;
+
+  // Determine font family: shuffle picks randomly per quote, otherwise use selected font
+  const fontFamily = useMemo(() => {
+    if (currentFont.key === 'shuffle') {
+      // Use quote.id to deterministically pick a font (stable per quote)
+      const hash = quote.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+      const index = hash % PREMIUM_FONTS.length;
+      return PREMIUM_FONTS[index];
+    }
+    return currentFont.fontFamily;
+  }, [currentFont, quote.id]);
+
+  const viewShotRef = useRef<ViewShot>(null);
+
+  const handleShare = useCallback(async () => {
+    try {
+      if (viewShotRef.current) {
+        const uri = await captureRef(viewShotRef);
+        await Sharing.shareAsync(uri, { mimeType: 'image/png' });
+        return;
+      }
+    } catch {}
+    // Fallback to text share
+    const message = quote.source
+      ? `"${quote.text}"\n\n— ${quote.author}, ${quote.source}`
+      : `"${quote.text}"\n\n— ${quote.author}`;
+    await Share.share({ message });
+  }, [quote]);
+
+  const quoteTextContent = (
+    <Animated.View style={[styles.inner, fadeStyle]}>
+      <View style={styles.quoteArea}>
+        <Text
+          style={[
+            styles.quoteText,
+            { color: textColor },
+            fontFamily && { fontFamily },
+          ]}
+        >
+          "{quote.text}"
+        </Text>
+        <Text style={[styles.author, { color: secondaryColor }]}>
+          — {quote.author}
+        </Text>
+        {quote.source && (
+          <Text style={[styles.source, { color: tertiaryColor }]}>
+            {quote.source}
+          </Text>
+        )}
+      </View>
+    </Animated.View>
+  );
+
+  if (isImageBackground && activeImageTheme) {
+    return (
+      <GestureDetector gesture={doubleTapGesture}>
+        <Animated.View style={[styles.container, { height }]}>
+          <ViewShot ref={viewShotRef} style={StyleSheet.absoluteFill} >
+            <ImageBackground
+              source={activeImageTheme.imageSource}
+              style={StyleSheet.absoluteFill}
+              resizeMode="cover"
+            >
+              <View style={styles.imageOverlay} />
+              {quoteTextContent}
+            </ImageBackground>
+          </ViewShot>
+
+          <View style={styles.actions}>
+            <LikeButton
+              liked={isLiked(quote.id)}
+              onToggle={() => toggleLike(quote.id)}
+              color={textColor}
+            />
+            <ShareButton quote={quote} color={textColor} onShare={handleShare} />
+          </View>
+
+          <Animated.View style={[styles.heartOverlay, heartAnimatedStyle]}>
+            <Ionicons name="heart" size={60} color="#FF6B8A" />
+          </Animated.View>
+        </Animated.View>
+      </GestureDetector>
+    );
+  }
+
+  return (
+    <GestureDetector gesture={doubleTapGesture}>
+      <View style={[styles.container, { height }]}>
+        <ViewShot ref={viewShotRef} style={StyleSheet.absoluteFill} >
+          <LinearGradient
+            colors={gradientColors}
+            locations={[0, 0.3, 0.7, 1]}
+            style={StyleSheet.absoluteFill}
+          >
+            {quoteTextContent}
+          </LinearGradient>
+        </ViewShot>
+
+        <View style={styles.actions}>
+          <LikeButton
+            liked={isLiked(quote.id)}
+            onToggle={() => toggleLike(quote.id)}
+            color={textColor}
+          />
+          <ShareButton quote={quote} color={textColor} onShare={handleShare} />
+        </View>
+
+        <Animated.View style={[styles.heartOverlay, heartAnimatedStyle]}>
+          <Ionicons name="heart" size={60} color="#FF6B8A" />
+        </Animated.View>
+      </View>
+    </GestureDetector>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    width: '100%',
+  },
+  imageOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(0, 0, 0, 0.35)',
+  },
+  inner: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 36,
+  },
+  quoteArea: {
+    alignItems: 'center',
+    gap: 16,
+    flex: 1,
+    justifyContent: 'center',
+  },
+  quoteText: {
+    fontSize: 26,
+    fontWeight: '300',
+    textAlign: 'center',
+    lineHeight: 38,
+  },
+  author: {
+    fontSize: 16,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  source: {
+    fontSize: 14,
+    fontStyle: 'italic',
+    textAlign: 'center',
+  },
+  actions: {
+    flexDirection: 'row',
+    gap: 40,
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 200,
+  },
+  heartOverlay: {
+    position: 'absolute',
+    pointerEvents: 'none',
+  },
+});

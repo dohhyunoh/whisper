@@ -1,0 +1,740 @@
+[
+  {
+    "id": "health-mental-001",
+    "text": "It's okay to not be okay.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-002",
+    "text": "You don't have to control your thoughts. You just have to stop letting them control you.",
+    "author": "Dan Millman",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-003",
+    "text": "Mental health is not a destination, but a process. It's about how you drive, not where you're going.",
+    "author": "Noam Shpancer",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-004",
+    "text": "You are not your illness. You have an individual story to tell. You have a name, a history, a personality.",
+    "author": "Julian Seifter",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-005",
+    "text": "Self-care is how you take your power back.",
+    "author": "Lalah Delia",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-006",
+    "text": "The strongest people are not those who show strength in front of us, but those who win battles we know nothing about.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-007",
+    "text": "There is hope, even when your brain tells you there isn't.",
+    "author": "John Green",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-008",
+    "text": "Healing takes time, and asking for help is a courageous step.",
+    "author": "Mariska Hargitay",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-009",
+    "text": "You are allowed to be both a masterpiece and a work in progress simultaneously.",
+    "author": "Sophia Bush",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-010",
+    "text": "Not everything that weighs you down is yours to carry.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-011",
+    "text": "Recovery is not one and done. It is a lifelong journey that takes place one day, one step at a time.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-012",
+    "text": "What mental health needs is more sunlight, more candor, and more unashamed conversation.",
+    "author": "Glenn Close",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-013",
+    "text": "Be gentle with yourself. You're doing the best you can.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-014",
+    "text": "Your mental health is a priority. Your happiness is essential. Your self-care is a necessity.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-015",
+    "text": "Sometimes the people around you won't understand your journey. They don't need to, it's not for them.",
+    "author": "Joubert Botha",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-016",
+    "text": "Sometimes the worst place you can be is in your own head.",
+    "author": "Timothy Ferriss",
+    "source": "The 4-Hour Workweek",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-017",
+    "text": "You are stronger than you think. You have gotten through every bad day in your life, and you are undefeated.",
+    "author": "Lori Gottlieb",
+    "source": "Maybe You Should Talk to Someone",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-018",
+    "text": "Rock bottom became the solid foundation on which I rebuilt my life.",
+    "author": "J.K. Rowling",
+    "source": "Very Good Lives",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-019",
+    "text": "The best way out is always through.",
+    "author": "Robert Frost",
+    "source": "A Servant to Servants",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-020",
+    "text": "Fall seven times, stand up eight.",
+    "author": "Japanese Proverb",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-021",
+    "text": "It's not whether you get knocked down; it's whether you get up.",
+    "author": "Vince Lombardi",
+    "source": "What It Takes to Be Number One",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-022",
+    "text": "The greatest weapon against stress is our ability to choose one thought over another.",
+    "author": "William James",
+    "source": "The Varieties of Religious Experience",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-023",
+    "text": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-024",
+    "text": "The sun himself is weak when he first rises, and gathers strength and courage as the day gets on.",
+    "author": "Charles Dickens",
+    "source": "The Old Curiosity Shop",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-025",
+    "text": "You are not a drop in the ocean. You are the entire ocean in a drop.",
+    "author": "Rumi",
+    "source": "The Essential Rumi",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-026",
+    "text": "Be soft. Do not let the world make you hard.",
+    "author": "Iain S. Thomas",
+    "source": "I Wrote This for You",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-027",
+    "text": "You have been criticizing yourself for years, and it hasn't worked. Try approving of yourself and see what happens.",
+    "author": "Louise Hay",
+    "source": "You Can Heal Your Life",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-028",
+    "text": "You are your best thing.",
+    "author": "Toni Morrison",
+    "source": "Beloved",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-029",
+    "text": "You don't have to be fearless. Doing it afraid is just as brave.",
+    "author": "Susan Jeffers",
+    "source": "Feel the Fear and Do It Anyway",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-030",
+    "text": "Owning our story and loving ourselves through that process is the bravest thing that we'll ever do.",
+    "author": "Brené Brown",
+    "source": "The Gifts of Imperfection",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-031",
+    "text": "The only journey is the one within.",
+    "author": "Rainer Maria Rilke",
+    "source": "Letters to a Young Poet",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-032",
+    "text": "It's never too late to be what you might have been.",
+    "author": "George Eliot",
+    "source": "Middlemarch",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-033",
+    "text": "Even the darkest night will end, and the sun will rise.",
+    "author": "Victor Hugo",
+    "source": "Les Misérables",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-034",
+    "text": "In the middle of winter, I at last discovered that there was in me an invincible summer.",
+    "author": "Albert Camus",
+    "source": "The Myth of Sisyphus",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-035",
+    "text": "Just when the caterpillar thought the world was over, it became a butterfly.",
+    "author": "Barbara Haines Howett",
+    "source": "Ladies of the Borobudur",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-036",
+    "text": "We are all broken, that's how the light gets in.",
+    "author": "Ernest Hemingway",
+    "source": "A Farewell to Arms",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-037",
+    "text": "You can't stop the waves, but you can learn to surf.",
+    "author": "Jon Kabat-Zinn",
+    "source": "Wherever You Go, There You Are",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-038",
+    "text": "This too shall pass.",
+    "author": "Persian Proverb",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-039",
+    "text": "Peace is not the absence of conflict, but the ability to cope with it.",
+    "author": "Mahatma Gandhi",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-040",
+    "text": "You don't drown by falling in the water; you drown by staying there.",
+    "author": "Edwin Louis Cole",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-041",
+    "text": "You must do the thing you think you cannot do.",
+    "author": "Eleanor Roosevelt",
+    "source": "You Learn by Living",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-042",
+    "text": "You don't have to see the whole staircase, just take the first step.",
+    "author": "Martin Luther King Jr.",
+    "source": "Let Nobody Turn Us Around",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-043",
+    "text": "Life is ten percent what happens to you and ninety percent how you respond to it.",
+    "author": "Charles R. Swindoll",
+    "source": "The Grace Awakening",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-044",
+    "text": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt",
+    "source": "An Autobiography",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-045",
+    "text": "You have within you right now, everything you need to deal with whatever the world can throw at you.",
+    "author": "Brian Tracy",
+    "source": "No Excuses! The Power of Self-Discipline",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-046",
+    "text": "Promise me you'll always remember: You're braver than you believe, and stronger than you seem, and smarter than you think.",
+    "author": "A.A. Milne",
+    "source": "Winnie-the-Pooh",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-047",
+    "text": "It's not the load that breaks you down, it's the way you carry it.",
+    "author": "Lou Holtz",
+    "source": "Winning Every Day",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-048",
+    "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+    "author": "Viktor Frankl",
+    "source": "Man's Search for Meaning",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-049",
+    "text": "Life is about creating yourself, not finding yourself.",
+    "author": "George Bernard Shaw",
+    "source": "Man and Superman",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-050",
+    "text": "Our greatest glory is not in never falling, but in rising every time we fall.",
+    "author": "Confucius",
+    "source": "The Analects of Confucius",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-051",
+    "text": "Life isn't about waiting for the storm to pass; it's about learning to dance in the rain.",
+    "author": "Vivian Greene",
+    "source": "Victory Over Verbal Abuse",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-052",
+    "text": "What we achieve inwardly will change outer reality.",
+    "author": "Plutarch",
+    "source": "On Listening to Lectures",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-053",
+    "text": "Life is never made unbearable by circumstances, but only by lack of meaning and purpose.",
+    "author": "Viktor Frankl",
+    "source": "Man's Search for Meaning",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-054",
+    "text": "We must let go of the life we have planned, so as to accept the one that is waiting for us.",
+    "author": "Joseph Campbell",
+    "source": "A Joseph Campbell Companion",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-055",
+    "text": "To perceive is to suffer.",
+    "author": "Aristotle",
+    "source": "Metaphysics",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-056",
+    "text": "The sun will rise, and we will try again.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-057",
+    "text": "Everything negative – pressure, challenges – is all an opportunity for me to rise.",
+    "author": "Kobe Bryant",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-058",
+    "text": "Let go of who you think you're supposed to be; embrace who you are.",
+    "author": "Brené Brown",
+    "source": "The Gifts of Imperfection",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-059",
+    "text": "Don't speak negatively about yourself, even as a joke. Your body doesn't know the difference. Words are energy and they cast spells, that's why it's called spelling. Change the way you speak about yourself, and you can change your life.",
+    "author": "Bruce Lee",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-060",
+    "text": "Believe in the me that believes in you.",
+    "author": "Kamina",
+    "source": "Tengen Toppa Gurren Lagann (2007)",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-061",
+    "text": "Just believe in yourself. Even if you don't pretend that you do and, and some point, you will.",
+    "author": "Venus Williams",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-062",
+    "text": "Every time you thought you couldn't keep moving forward, you did. Take a moment to appreciate your strength.",
+    "author": "Karen Salmanson",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-063",
+    "text": "Lying tears hurt others. lying smiles hurt one's self.",
+    "author": "C.C.",
+    "source": "Code Geass",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-064",
+    "text": "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
+    "author": "Marilyn Monroe",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-065",
+    "text": "You've gotta dance like there's nobody watching, Love like you'll never be hurt, Sing like there's nobody listening, And live like it's heaven on earth.",
+    "author": "William W. Purkey",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-066",
+    "text": "Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.",
+    "author": "Marilyn Monroe",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-067",
+    "text": "Almost everything will work again if you unplug it for a few minutes, including you.",
+    "author": "Anne Lamott",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-068",
+    "text": "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.'",
+    "author": "Mary Anne Radmacher",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-069",
+    "text": "One day you will tell your story of how you overcame what you went through and it will be someone else's survival guide.",
+    "author": "Morgan Harper Nichols",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-070",
+    "text": "Don't believe everything you think.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-071",
+    "text": "Comparison is the thief of joy.",
+    "author": "Theodore Roosevelt",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-072",
+    "text": "You can't pour from an empty cup. Take care of yourself first.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-073",
+    "text": "I am not what happened to me, I am what I choose to become.",
+    "author": "Carl Jung",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-074",
+    "text": "Breathe. It's just a bad day, not a bad life.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-075",
+    "text": "Healing doesn't mean the damage never existed. It means the damage no longer controls our lives.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-076",
+    "text": "Feelings are something you have; not something you are.",
+    "author": "Shannon L. Alder",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-077",
+    "text": "Nothing diminishes anxiety faster than action.",
+    "author": "Walter Anderson",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-078",
+    "text": "Don't let yesterday take up too much of today.",
+    "author": "Will Rogers",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-079",
+    "text": "You alone are enough. You have nothing to prove to anybody.",
+    "author": "Maya Angelou",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-080",
+    "text": "There is no health without mental health.",
+    "author": "David Satcher",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-081",
+    "text": "What you think, you become. What you feel, you attract. What you imagine, you create.",
+    "author": "Buddha",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-082",
+    "text": "We suffer more often in imagination than in reality.",
+    "author": "Seneca",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-083",
+    "text": "Doubt kills more dreams than failure ever will.",
+    "author": "Suzy Kassem",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-084",
+    "text": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-085",
+    "text": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-086",
+    "text": "Act as if what you do makes a difference. It does.",
+    "author": "William James",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-087",
+    "text": "Happiness is not something ready made. It comes from your own actions.",
+    "author": "Dalai Lama",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-088",
+    "text": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+    "author": "Walt Whitman",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-089",
+    "text": "What you do today can improve all your tomorrows.",
+    "author": "Ralph Marston",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-090",
+    "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-091",
+    "text": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-092",
+    "text": "A smooth sea never made a skilled sailor.",
+    "author": "Franklin D. Roosevelt",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-093",
+    "text": "If you're going through hell, keep going.",
+    "author": "Winston Churchill",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-094",
+    "text": "Stars can't shine without darkness.",
+    "author": "D.H. Sidebottom",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-095",
+    "text": "Grow through what you go through.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-096",
+    "text": "Everything you've ever wanted is on the other side of fear.",
+    "author": "George Addair",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-097",
+    "text": "The greatest of all mistakes is to continue practicing your faults.",
+    "author": "Dale Carnegie",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-098",
+    "text": "You are allowed to outgrow the version of yourself that you created when you were in pain.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-099",
+    "text": "Mental health is not a destination, but a journey. Every day is different, and that's okay.",
+    "author": "Unknown",
+    "category": "health",
+    "subcategory": "mental"
+  },
+  {
+    "id": "health-mental-100",
+    "text": "Stillness is where creativity happens.",
+    "author": "Robin Sharma",
+    "category": "health",
+    "subcategory": "mental"
+  }
+]

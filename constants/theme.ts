@@ -27,6 +27,25 @@ export const Colors = {
   },
 };
 
+export const WhisperColors = {
+  primary: '#5A8BA8',
+  primaryDark: '#3A6B80',
+  secondary: '#7B9AAA',
+  accent: '#E85D75',
+  textDark: '#3A6B80',
+  textMedium: '#5A8BA8',
+  textLight: '#7B9AAA',
+  textMuted: '#9BB8C7',
+  bgGradientStart: '#B8D9E8',
+  bgGradientMid1: '#D4E8F0',
+  bgGradientMid2: '#EEF4F7',
+  bgGradientEnd: '#F5F5F0',
+  cardBg: 'rgba(255, 255, 255, 0.85)',
+  cardBorder: 'rgba(184, 217, 232, 0.4)',
+  tabBar: '#F5F5F0',
+  tabBarBorder: 'rgba(184, 217, 232, 0.3)',
+};
+
 export const Fonts = Platform.select({
   ios: {
     /** iOS `UIFontDescriptorSystemDesignDefault` */
