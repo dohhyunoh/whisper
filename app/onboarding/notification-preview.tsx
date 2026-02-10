@@ -4,7 +4,8 @@ import { Image } from 'expo-image';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { Alert, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Alert, Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Animated, {
   useAnimatedStyle,
   useSharedValue,
@@ -45,6 +46,10 @@ function useTypewriter(text: string, delayMs: number, speedMs: number) {
 export default function NotificationPreviewScreen() {
   const router = useRouter();
   const { state, dispatch } = useAppContext();
+
+  const insets = useSafeAreaInsets();
+  const { width, height } = useWindowDimensions();
+  const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
   const [perDay, setPerDay] = useState(3);
   const [startHour, setStartHour] = useState(8);
@@ -112,30 +117,30 @@ export default function NotificationPreviewScreen() {
       locations={[0, 0.3, 0.7, 1]}
       style={styles.gradient}
     >
-      <View style={styles.content}>
+      <View style={[styles.content, { paddingTop: insets.top + height * 0.06, paddingBottom: insets.bottom + 16, paddingHorizontal: 32 * s }]}>
         {/* Header */}
-        <View style={styles.top}>
-          <Text style={styles.title}>
+        <View style={[styles.top, { marginBottom: 24 * s }]}>
+          <Text style={[styles.title, { fontSize: 34 * s, lineHeight: 42 * s }]}>
             Messages,{'\n'}when you need them
           </Text>
-          <Text style={styles.subtitle}>
+          <Text style={[styles.subtitle, { fontSize: 15 * s, marginTop: 8 * s }]}>
             Thoughtful messages, to guide your mindset.
           </Text>
         </View>
 
         {/* Liquid glass notification */}
-        <Animated.View style={[styles.notification, notifStyle]}>
+        <Animated.View style={[styles.notification, { padding: 14 * s, marginBottom: 24 * s }, notifStyle]}>
           <View style={styles.notifContent}>
             <Image
               source={require('@/assets/images/icon.png')}
-              style={styles.appIcon}
+              style={[styles.appIcon, { width: 40 * s, height: 40 * s, borderRadius: 10 * s }]}
             />
             <View style={styles.notifTextArea}>
               <View style={styles.notifTitleRow}>
-                <Text style={styles.notifAppName}>Whisper</Text>
-                <Text style={styles.notifTime}>now</Text>
+                <Text style={[styles.notifAppName, { fontSize: 14 * s }]}>Whisper</Text>
+                <Text style={[styles.notifTime, { fontSize: 12 * s }]}>now</Text>
               </View>
-              <Text style={styles.notifBody} numberOfLines={2}>
+              <Text style={[styles.notifBody, { fontSize: 13 * s, lineHeight: 18 * s }]} numberOfLines={2}>
                 {typedQuote}
                 <Text style={styles.cursor}>|</Text>
               </Text>
@@ -144,65 +149,65 @@ export default function NotificationPreviewScreen() {
         </Animated.View>
 
         {/* Controls */}
-        <Animated.View style={[styles.controls, controlsStyle]}>
+        <Animated.View style={[styles.controls, { gap: 12 * s }, controlsStyle]}>
           {/* Per day */}
-          <View style={styles.controlRow}>
-            <Text style={styles.controlLabel}>Quotes per day</Text>
-            <View style={styles.stepper}>
+          <View style={[styles.controlRow, { paddingVertical: 12 * s, paddingHorizontal: 18 * s }]}>
+            <Text style={[styles.controlLabel, { fontSize: 15 * s }]}>Quotes per day</Text>
+            <View style={[styles.stepper, { gap: 12 * s }]}>
               <Pressable
-                style={styles.stepperBtn}
+                style={[styles.stepperBtn, { width: 30 * s, height: 30 * s, borderRadius: 15 * s }]}
                 onPress={() => setPerDay((v) => Math.max(1, v - 1))}
               >
-                <Text style={styles.stepperBtnText}>−</Text>
+                <Text style={[styles.stepperBtnText, { fontSize: 18 * s }]}>−</Text>
               </Pressable>
-              <Text style={styles.stepperValue}>{perDay}</Text>
+              <Text style={[styles.stepperValue, { fontSize: 15 * s, minWidth: 60 * s }]}>{perDay}</Text>
               <Pressable
-                style={styles.stepperBtn}
+                style={[styles.stepperBtn, { width: 30 * s, height: 30 * s, borderRadius: 15 * s }]}
                 onPress={() => setPerDay((v) => Math.min(10, v + 1))}
               >
-                <Text style={styles.stepperBtnText}>+</Text>
+                <Text style={[styles.stepperBtnText, { fontSize: 18 * s }]}>+</Text>
               </Pressable>
             </View>
           </View>
 
           {/* Time range — unified card */}
           <View style={styles.timeCard}>
-            <View style={styles.timeRow}>
-              <Text style={styles.controlLabel}>Starting at</Text>
-              <View style={styles.stepper}>
+            <View style={[styles.timeRow, { paddingVertical: 12 * s, paddingHorizontal: 18 * s }]}>
+              <Text style={[styles.controlLabel, { fontSize: 15 * s }]}>Starting at</Text>
+              <View style={[styles.stepper, { gap: 12 * s }]}>
                 <Pressable
-                  style={styles.stepperBtn}
+                  style={[styles.stepperBtn, { width: 30 * s, height: 30 * s, borderRadius: 15 * s }]}
                   onPress={() => setStartHour((v) => Math.max(0, v - 1))}
                 >
-                  <Text style={styles.stepperBtnText}>−</Text>
+                  <Text style={[styles.stepperBtnText, { fontSize: 18 * s }]}>−</Text>
                 </Pressable>
-                <Text style={styles.stepperValue}>{formatHour(startHour)}</Text>
+                <Text style={[styles.stepperValue, { fontSize: 15 * s, minWidth: 60 * s }]}>{formatHour(startHour)}</Text>
                 <Pressable
-                  style={styles.stepperBtn}
+                  style={[styles.stepperBtn, { width: 30 * s, height: 30 * s, borderRadius: 15 * s }]}
                   onPress={() => setStartHour((v) => Math.min(endHour - 1, v + 1))}
                 >
-                  <Text style={styles.stepperBtnText}>+</Text>
+                  <Text style={[styles.stepperBtnText, { fontSize: 18 * s }]}>+</Text>
                 </Pressable>
               </View>
             </View>
 
             <View style={styles.timeDivider} />
 
-            <View style={styles.timeRow}>
-              <Text style={styles.controlLabel}>Ending at</Text>
-              <View style={styles.stepper}>
+            <View style={[styles.timeRow, { paddingVertical: 12 * s, paddingHorizontal: 18 * s }]}>
+              <Text style={[styles.controlLabel, { fontSize: 15 * s }]}>Ending at</Text>
+              <View style={[styles.stepper, { gap: 12 * s }]}>
                 <Pressable
-                  style={styles.stepperBtn}
+                  style={[styles.stepperBtn, { width: 30 * s, height: 30 * s, borderRadius: 15 * s }]}
                   onPress={() => setEndHour((v) => Math.max(startHour + 1, v - 1))}
                 >
-                  <Text style={styles.stepperBtnText}>−</Text>
+                  <Text style={[styles.stepperBtnText, { fontSize: 18 * s }]}>−</Text>
                 </Pressable>
-                <Text style={styles.stepperValue}>{formatHour(endHour)}</Text>
+                <Text style={[styles.stepperValue, { fontSize: 15 * s, minWidth: 60 * s }]}>{formatHour(endHour)}</Text>
                 <Pressable
-                  style={styles.stepperBtn}
+                  style={[styles.stepperBtn, { width: 30 * s, height: 30 * s, borderRadius: 15 * s }]}
                   onPress={() => setEndHour((v) => Math.min(23, v + 1))}
                 >
-                  <Text style={styles.stepperBtnText}>+</Text>
+                  <Text style={[styles.stepperBtnText, { fontSize: 18 * s }]}>+</Text>
                 </Pressable>
               </View>
             </View>
@@ -210,15 +215,16 @@ export default function NotificationPreviewScreen() {
         </Animated.View>
 
         {/* Bottom */}
-        <Animated.View style={[styles.bottom, bottomStyle]}>
+        <Animated.View style={[styles.bottom, { paddingTop: 16 * s }, bottomStyle]}>
           <Pressable
             style={({ pressed }) => [
               styles.button,
+              { paddingVertical: 18 * s, paddingHorizontal: 36 * s },
               pressed ? styles.buttonPressed : undefined,
             ]}
             onPress={handleContinue}
           >
-            <Text style={styles.buttonText}>Send me Whispers</Text>
+            <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Send me Whispers</Text>
           </Pressable>
         </Animated.View>
       </View>
@@ -232,24 +238,16 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    paddingHorizontal: 32,
-    paddingTop: 100,
-    paddingBottom: 40,
+    justifyContent: 'space-between',
   },
-  top: {
-    marginBottom: 28,
-  },
+  top: {},
   title: {
-    fontSize: 34,
     fontWeight: '700',
     color: '#5A8BA8',
-    lineHeight: 42,
   },
   subtitle: {
-    fontSize: 16,
     fontWeight: '300',
     color: '#6B8F9E',
-    marginTop: 8,
   },
 
   // Liquid glass notification
@@ -259,23 +257,17 @@ const styles = StyleSheet.create({
     borderRadius: 22,
     borderWidth: 1,
     borderColor: 'rgba(255, 255, 255, 0.65)',
-    padding: 16,
     shadowColor: '#5A8BA8',
     shadowOffset: { width: 0, height: 10 },
     shadowOpacity: 0.12,
     shadowRadius: 20,
-    marginBottom: 32,
   },
   notifContent: {
     flexDirection: 'row',
     alignItems: 'flex-start',
     gap: 12,
   },
-  appIcon: {
-    width: 44,
-    height: 44,
-    borderRadius: 11,
-  },
+  appIcon: {},
   notifTextArea: {
     flex: 1,
     gap: 4,
@@ -286,20 +278,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   notifAppName: {
-    fontSize: 15,
     fontWeight: '600',
     color: '#3A6B80',
   },
   notifTime: {
-    fontSize: 13,
     fontWeight: '400',
     color: '#9BB8C7',
   },
   notifBody: {
-    fontSize: 14,
     fontWeight: '400',
     color: '#5A8BA8',
-    lineHeight: 20,
   },
   cursor: {
     color: '#5A8BA8',
@@ -308,8 +296,6 @@ const styles = StyleSheet.create({
 
   // Controls
   controls: {
-    gap: 16,
-    marginTop: 'auto',
     marginBottom: 8,
   },
   controlRow: {
@@ -320,8 +306,6 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     borderWidth: 1,
     borderColor: 'rgba(184, 217, 232, 0.3)',
-    paddingVertical: 14,
-    paddingHorizontal: 20,
   },
   timeCard: {
     backgroundColor: 'rgba(255, 255, 255, 0.6)',
@@ -334,8 +318,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingVertical: 14,
-    paddingHorizontal: 20,
   },
   timeDivider: {
     height: 1,
@@ -343,34 +325,26 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
   },
   controlLabel: {
-    fontSize: 16,
     fontWeight: '500',
     color: '#3A6B80',
   },
   stepper: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 14,
   },
   stepperBtn: {
-    width: 34,
-    height: 34,
-    borderRadius: 17,
     backgroundColor: 'rgba(90, 139, 168, 0.12)',
     justifyContent: 'center',
     alignItems: 'center',
   },
   stepperBtnText: {
-    fontSize: 20,
     fontWeight: '500',
     color: '#5A8BA8',
     lineHeight: 22,
   },
   stepperValue: {
-    fontSize: 16,
     fontWeight: '600',
     color: '#5A8BA8',
-    minWidth: 70,
     textAlign: 'center',
   },
 
@@ -378,14 +352,11 @@ const styles = StyleSheet.create({
   bottom: {
     alignItems: 'center',
     gap: 18,
-    paddingTop: 20,
   },
   button: {
     width: '100%',
     backgroundColor: '#5A8BA8',
     borderRadius: 100,
-    paddingVertical: 22,
-    paddingHorizontal: 40,
     alignItems: 'center',
     shadowColor: '#3A6B80',
     shadowOffset: { width: 0, height: 8 },
@@ -396,7 +367,6 @@ const styles = StyleSheet.create({
     transform: [{ translateY: 2 }],
   },
   buttonText: {
-    fontSize: 20,
     fontWeight: '700',
     color: '#FFFFFF',
     letterSpacing: 0.5,

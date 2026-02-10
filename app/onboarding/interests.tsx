@@ -1,21 +1,17 @@
+import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
-import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, useWindowDimensions } from 'react-native';
 
 const interestOptions = [
-  // Main categories
   { label: 'Motivation', value: 'motivation' },
   { label: 'Philosophy', value: 'philosophy' },
-  // Health subcategories
   { label: 'Mental Health', value: 'health:mental' },
   { label: 'Physical Health', value: 'health:physical' },
-  // Relationships subcategories
   { label: 'Dating', value: 'relationships:dating' },
   { label: 'Breaking Up', value: 'relationships:breaking-up' },
   { label: 'Single', value: 'relationships:single' },
-  // Religion subcategories
   { label: 'Christianity', value: 'religion:christianity' },
   { label: 'Islam', value: 'religion:islam' },
   { label: 'Hinduism', value: 'religion:hinduism' },
@@ -26,6 +22,8 @@ export default function InterestsScreen() {
   const router = useRouter();
   const { state, dispatch } = useAppContext();
   const [selected, setSelected] = useState<string[]>([]);
+  const { width, height } = useWindowDimensions();
+  const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
   const toggleInterest = (value: string) => {
     setSelected((prev) =>
@@ -50,111 +48,54 @@ export default function InterestsScreen() {
   };
 
   return (
-    <LinearGradient
-      colors={['#B8D9E8', '#D4E8F0', '#EEF4F7', '#F5F5F0']}
-      locations={[0, 0.3, 0.7, 1]}
-      style={styles.gradient}
+    <OnboardingLayout
+      title={"What speaks\nto you?"}
+      subtitle={"These topics will be\nused to personalize your feed."}
+      onContinue={handleContinue}
+      onSkip={handleContinue}
+      buttonDisabled={selected.length === 0}
     >
-      <View style={styles.content}>
-        <View style={styles.top}>
-          <Text style={styles.title}>What speaks{'\n'}to you?</Text>
-          <Text style={styles.subtitle}>
-            These topics will be{'\n'}used to personalize your feed.
-          </Text>
-        </View>
-
-        <ScrollView
-          style={styles.scrollView}
-          contentContainerStyle={styles.pillsContainer}
-          showsVerticalScrollIndicator={false}
-        >
-          {interestOptions.map((option) => (
-            <Pressable
-              key={option.value}
-              style={({ pressed }) => [
-                styles.pill,
-                selected.includes(option.value) && styles.pillSelected,
-                pressed ? styles.pillPressed : undefined,
-              ]}
-              onPress={() => toggleInterest(option.value)}
-            >
-              <Text
-                style={[
-                  styles.pillText,
-                  selected.includes(option.value) && styles.pillTextSelected,
-                ]}
-              >
-                {option.label}
-              </Text>
-            </Pressable>
-          ))}
-        </ScrollView>
-
-        <View style={styles.bottom}>
+      <ScrollView
+        style={styles.scrollView}
+        contentContainerStyle={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', rowGap: 12 * s, columnGap: 10 * s, paddingBottom: 20 * s, flexGrow: 1, alignContent: 'center' }}
+        showsVerticalScrollIndicator={false}
+      >
+        {interestOptions.map((option) => (
           <Pressable
+            key={option.value}
             style={({ pressed }) => [
-              styles.button,
-              selected.length === 0 && styles.buttonDisabled,
-              pressed && selected.length > 0 ? styles.buttonPressed : undefined,
+              styles.pill,
+              { paddingVertical: 10 * s, paddingHorizontal: 18 * s },
+              selected.includes(option.value) && styles.pillSelected,
+              pressed ? styles.pillPressed : undefined,
             ]}
-            onPress={handleContinue}
-            disabled={selected.length === 0}
+            onPress={() => toggleInterest(option.value)}
           >
-            <Text style={[styles.buttonText, selected.length === 0 && styles.buttonTextDisabled]}>
-              Continue
+            <Text
+              style={[
+                styles.pillText,
+                { fontSize: 15 * s },
+                selected.includes(option.value) && styles.pillTextSelected,
+              ]}
+            >
+              {option.label}
             </Text>
           </Pressable>
-
-          <Pressable onPress={handleContinue}>
-            <Text style={styles.skipText}>Skip</Text>
-          </Pressable>
-        </View>
-      </View>
-    </LinearGradient>
+        ))}
+      </ScrollView>
+    </OnboardingLayout>
   );
 }
 
 const styles = StyleSheet.create({
-  gradient: {
-    flex: 1,
-  },
-  content: {
-    flex: 1,
-    paddingHorizontal: 32,
-    paddingTop: 140,
-    paddingBottom: 60,
-  },
-  top: {
-    gap: 12,
-    marginBottom: 24,
-  },
-  title: {
-    fontSize: 34,
-    fontWeight: '700',
-    color: '#5A8BA8',
-    lineHeight: 42,
-  },
-  subtitle: {
-    fontSize: 16,
-    fontWeight: '300',
-    color: '#6B8F9E',
-  },
   scrollView: {
     flex: 1,
-  },
-  pillsContainer: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 10,
-    paddingBottom: 20,
   },
   pill: {
     backgroundColor: 'rgba(255, 255, 255, 0.85)',
     borderRadius: 100,
     borderWidth: 2,
     borderColor: 'rgba(184, 217, 232, 0.4)',
-    paddingVertical: 12,
-    paddingHorizontal: 20,
   },
   pillSelected: {
     backgroundColor: '#5A8BA8',
@@ -164,51 +105,10 @@ const styles = StyleSheet.create({
     transform: [{ translateY: 1 }],
   },
   pillText: {
-    fontSize: 16,
     fontWeight: '600',
     color: '#5A8BA8',
   },
   pillTextSelected: {
     color: '#FFFFFF',
-  },
-  bottom: {
-    paddingTop: 16,
-    alignItems: 'center',
-    gap: 16,
-  },
-  skipText: {
-    fontSize: 16,
-    fontWeight: '500',
-    color: '#6B8F9E',
-  },
-  button: {
-    width: '100%',
-    backgroundColor: 'rgba(255, 255, 255, 0.95)',
-    borderRadius: 100,
-    borderWidth: 2,
-    borderColor: 'rgba(184, 217, 232, 0.4)',
-    paddingVertical: 22,
-    paddingHorizontal: 40,
-    alignItems: 'center',
-    shadowColor: '#5A8BA8',
-    shadowOffset: { width: 0, height: 8 },
-    shadowOpacity: 0.15,
-    shadowRadius: 12,
-  },
-  buttonDisabled: {
-    backgroundColor: 'rgba(255, 255, 255, 0.5)',
-    shadowOpacity: 0,
-  },
-  buttonPressed: {
-    transform: [{ translateY: 2 }],
-  },
-  buttonText: {
-    fontSize: 20,
-    fontWeight: '700',
-    color: '#5A8BA8',
-    letterSpacing: 0.5,
-  },
-  buttonTextDisabled: {
-    color: 'rgba(90, 139, 168, 0.4)',
   },
 });

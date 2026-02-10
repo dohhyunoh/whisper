@@ -10,7 +10,7 @@ import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import * as Sharing from 'expo-sharing';
 import React, { useCallback, useEffect, useMemo, useRef } from 'react';
-import { ImageBackground, Share, StyleSheet, Text, View } from 'react-native';
+import { ImageBackground, Share, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import Animated, {
   runOnJS,
@@ -28,6 +28,7 @@ interface QuoteCardProps {
 }
 
 export function QuoteCard({ quote, height }: QuoteCardProps) {
+  const { height: screenHeight } = useWindowDimensions();
   const { isLiked, toggleLike } = useLikes();
   const { currentTheme, currentFont } = usePremium();
   const opacity = useSharedValue(0);
@@ -153,7 +154,7 @@ export function QuoteCard({ quote, height }: QuoteCardProps) {
     await Share.share({ message });
   }, [quote]);
 
-  const quoteTextContent = (
+  const quoteTextContent = (actionButtons: React.ReactNode) => (
     <Animated.View style={[styles.inner, fadeStyle]}>
       <View style={styles.quoteArea}>
         <Text
@@ -173,8 +174,20 @@ export function QuoteCard({ quote, height }: QuoteCardProps) {
             {quote.source}
           </Text>
         )}
+        {actionButtons}
       </View>
     </Animated.View>
+  );
+
+  const actionButtons = (
+    <View style={[styles.actions, { marginTop: screenHeight * 0.03 }]}>
+      <LikeButton
+        liked={isLiked(quote.id)}
+        onToggle={() => toggleLike(quote.id)}
+        color={textColor}
+      />
+      <ShareButton quote={quote} color={textColor} onShare={handleShare} />
+    </View>
   );
 
   if (isImageBackground && activeImageTheme) {
@@ -188,18 +201,9 @@ export function QuoteCard({ quote, height }: QuoteCardProps) {
               resizeMode="cover"
             >
               <View style={styles.imageOverlay} />
-              {quoteTextContent}
+              {quoteTextContent(actionButtons)}
             </ImageBackground>
           </ViewShot>
-
-          <View style={styles.actions}>
-            <LikeButton
-              liked={isLiked(quote.id)}
-              onToggle={() => toggleLike(quote.id)}
-              color={textColor}
-            />
-            <ShareButton quote={quote} color={textColor} onShare={handleShare} />
-          </View>
 
           <Animated.View style={[styles.heartOverlay, heartAnimatedStyle]}>
             <Ionicons name="heart" size={60} color="#FF6B8A" />
@@ -218,18 +222,9 @@ export function QuoteCard({ quote, height }: QuoteCardProps) {
             locations={[0, 0.3, 0.7, 1]}
             style={StyleSheet.absoluteFill}
           >
-            {quoteTextContent}
+            {quoteTextContent(actionButtons)}
           </LinearGradient>
         </ViewShot>
-
-        <View style={styles.actions}>
-          <LikeButton
-            liked={isLiked(quote.id)}
-            onToggle={() => toggleLike(quote.id)}
-            color={textColor}
-          />
-          <ShareButton quote={quote} color={textColor} onShare={handleShare} />
-        </View>
 
         <Animated.View style={[styles.heartOverlay, heartAnimatedStyle]}>
           <Ionicons name="heart" size={60} color="#FF6B8A" />
@@ -280,10 +275,6 @@ const styles = StyleSheet.create({
     gap: 40,
     alignItems: 'center',
     justifyContent: 'center',
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    bottom: 200,
   },
   heartOverlay: {
     position: 'absolute',

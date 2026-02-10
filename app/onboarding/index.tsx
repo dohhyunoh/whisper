@@ -12,8 +12,8 @@ import {
 } from '@shopify/react-native-skia';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
-import React, { useCallback, useEffect, useState } from 'react';
-import { Dimensions, Pressable, StyleSheet, Text, View } from 'react-native';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import Animated, {
   Easing,
   SharedValue,
@@ -60,20 +60,27 @@ const moods = [
 // ---------------------------------------------------------------------------
 // Layout constants
 // ---------------------------------------------------------------------------
-const { width: SCREEN_W, height: SCREEN_H } = Dimensions.get('window');
-const BUBBLE_RADIUS = 60;
-const TOUCH_TARGET_SIZE = 160;
-const GRID_GAP = 20;
-const GRID_WIDTH = TOUCH_TARGET_SIZE * 2 + GRID_GAP;
-const GRID_LEFT = (SCREEN_W - GRID_WIDTH) / 2;
-const GRID_TOP = SCREEN_H * 0.35;
+// Base sizes at iPhone 14 (390×844)
+const BASE_BUBBLE_RADIUS = 60;
+const BASE_TOUCH_TARGET = 160;
+const BASE_GRID_GAP = 20;
 
-function getBubbleCenter(index: number) {
+function getScale(screenW: number, screenH: number) {
+  return Math.max(0.85, Math.min(1, Math.min(screenW / 390, screenH / 844)));
+}
+
+function getBubbleCenter(index: number, screenW: number, screenH: number) {
+  const s = getScale(screenW, screenH);
+  const touchTarget = BASE_TOUCH_TARGET * s;
+  const gridGap = BASE_GRID_GAP * s;
+  const gridWidth = touchTarget * 2 + gridGap;
+  const gridLeft = (screenW - gridWidth) / 2;
+  const gridTop = screenH * 0.35;
   const col = index % 2;
   const row = Math.floor(index / 2);
   return {
-    x: GRID_LEFT + col * (TOUCH_TARGET_SIZE + GRID_GAP) + TOUCH_TARGET_SIZE / 2,
-    y: GRID_TOP + row * (TOUCH_TARGET_SIZE + GRID_GAP) + TOUCH_TARGET_SIZE / 2,
+    x: gridLeft + col * (touchTarget + gridGap) + touchTarget / 2,
+    y: gridTop + row * (touchTarget + gridGap) + touchTarget / 2,
   };
 }
 
@@ -134,37 +141,42 @@ function SkiaBubble({
   selectedIndex,
   expansionProgress,
   breathing,
+  screenW,
+  screenH,
 }: {
   mood: (typeof moods)[0];
   index: number;
   selectedIndex: SharedValue<number>;
   expansionProgress: SharedValue<number>;
   breathing: SharedValue<number>;
+  screenW: number;
+  screenH: number;
 }) {
-  const center = getBubbleCenter(index);
+  const center = getBubbleCenter(index, screenW, screenH);
+  const bubbleRadius = BASE_BUBBLE_RADIUS * getScale(screenW, screenH);
 
   // 1. Radius Logic
   const r = useDerivedValue(() => {
     if (selectedIndex.value === index) {
-      return mix(expansionProgress.value, BUBBLE_RADIUS, SCREEN_H * 1.2);
+      return mix(expansionProgress.value, bubbleRadius, screenH * 1.2);
     }
     if (selectedIndex.value !== -1) {
-      return mix(expansionProgress.value, BUBBLE_RADIUS, 0);
+      return mix(expansionProgress.value, bubbleRadius, 0);
     }
-    return mix(breathing.value, BUBBLE_RADIUS, BUBBLE_RADIUS + 5);
+    return mix(breathing.value, bubbleRadius, bubbleRadius + 5);
   });
 
   // 2. Position Logic
   const cx = useDerivedValue(() => {
     if (selectedIndex.value === index) {
-      return mix(expansionProgress.value, center.x, SCREEN_W / 2);
+      return mix(expansionProgress.value, center.x, screenW / 2);
     }
     return center.x;
   });
 
   const cy = useDerivedValue(() => {
     if (selectedIndex.value === index) {
-      return mix(expansionProgress.value, center.y, SCREEN_H / 2);
+      return mix(expansionProgress.value, center.y, screenH / 2);
     }
     return center.y;
   });
@@ -222,6 +234,15 @@ function SkiaBubble({
 // ---------------------------------------------------------------------------
 export default function OnboardingScreen() {
   const router = useRouter();
+  const { width: screenW, height: screenH } = useWindowDimensions();
+
+  const s = useMemo(() => getScale(screenW, screenH), [screenW, screenH]);
+  const touchTarget = BASE_TOUCH_TARGET * s;
+  const gridTop = useMemo(() => screenH * 0.35, [screenH]);
+  const bubbleCenters = useMemo(
+    () => moods.map((_, i) => getBubbleCenter(i, screenW, screenH)),
+    [screenW, screenH],
+  );
 
   // ---- shared animation values ----
   const selectedIndex = useSharedValue(-1);
@@ -308,6 +329,8 @@ export default function OnboardingScreen() {
             selectedIndex={selectedIndex}
             expansionProgress={expansionProgress}
             breathing={breathing}
+            screenW={screenW}
+            screenH={screenH}
           />
         ))}
       </Canvas>
@@ -320,20 +343,20 @@ export default function OnboardingScreen() {
         <SparkleParticle style={{ top: '40%', right: '15%' }} size={4} delay={1500} duration={3000} />
       </View>
 
-      <Animated.View style={[styles.questionContainer, { top: GRID_TOP - 80 }, questionStyle]} pointerEvents="none">
-        <Text style={styles.questionText}>How does your mind feel?</Text>
+      <Animated.View style={[styles.questionContainer, { top: gridTop - 80 * s }, questionStyle]} pointerEvents="none">
+        <Text style={[styles.questionText, { fontSize: 24 * s }]}>How does your mind feel?</Text>
       </Animated.View>
 
       <View style={StyleSheet.absoluteFill} pointerEvents="box-none">
         {moods.map((mood, index) => {
-          const center = getBubbleCenter(index);
+          const center = bubbleCenters[index];
           return (
             <Pressable
               key={mood.id}
-              style={[styles.touchTarget, { left: center.x - TOUCH_TARGET_SIZE / 2, top: center.y - TOUCH_TARGET_SIZE / 2 }]}
+              style={[styles.touchTarget, { width: touchTarget, height: touchTarget, left: center.x - touchTarget / 2, top: center.y - touchTarget / 2 }]}
               onPress={() => handleSelect(index)}
             >
-              <Animated.Text style={[styles.label, questionStyle]}>{mood.label}</Animated.Text>
+              <Animated.Text style={[styles.label, { marginTop: 80 * s, fontSize: 15 * s }, questionStyle]}>{mood.label}</Animated.Text>
             </Pressable>
           );
         })}
@@ -347,12 +370,12 @@ export default function OnboardingScreen() {
         <Text style={styles.logoMessage}>{moodMessage}</Text>
       </Animated.View>
 
-      <Animated.View style={[styles.buttonWrapper, btnStyle]}>
+      <Animated.View style={[styles.buttonWrapper, { bottom: 80 * s, left: 32 * s, right: 32 * s }, btnStyle]}>
         <Pressable
-          style={({ pressed }) => [styles.button, pressed && styles.buttonPressed]}
+          style={({ pressed }) => [styles.button, { paddingVertical: 18 * s, paddingHorizontal: 40 * s }, pressed && styles.buttonPressed]}
           onPress={() => router.push('/onboarding/name-input')}
         >
-          <Text style={styles.buttonText}>Get Started</Text>
+          <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Get Started</Text>
         </Pressable>
       </Animated.View>
     </View>
@@ -362,14 +385,14 @@ export default function OnboardingScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1 },
   questionContainer: { position: 'absolute', left: 0, right: 0, alignItems: 'center' },
-  questionText: { fontSize: 24, fontWeight: '300', color: '#5A8BA8' },
-  touchTarget: { position: 'absolute', width: TOUCH_TARGET_SIZE, height: TOUCH_TARGET_SIZE, alignItems: 'center', justifyContent: 'center' },
-  label: { marginTop: 80, fontSize: 16, fontWeight: '500', color: '#64748b', letterSpacing: 0.5 },
+  questionText: { fontWeight: '300', color: '#5A8BA8' },
+  touchTarget: { position: 'absolute', alignItems: 'center', justifyContent: 'center' },
+  label: { fontWeight: '500', color: '#64748b', letterSpacing: 0.5 },
   logoContainer: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, alignItems: 'center', justifyContent: 'center', gap: 12 },
   logoTitle: { fontSize: 52, fontWeight: '300', color: '#FFFFFF', letterSpacing: 2 },
   logoMessage: { fontSize: 18, fontWeight: '400', color: 'rgba(255,255,255,0.9)' },
-  buttonWrapper: { position: 'absolute', bottom: 80, left: 32, right: 32 },
-  button: { width: '100%', backgroundColor: 'rgba(255, 255, 255, 0.95)', borderRadius: 100, borderWidth: 2, borderColor: 'rgba(184, 217, 232, 0.4)', paddingVertical: 22, paddingHorizontal: 40, alignItems: 'center', shadowColor: '#5A8BA8', shadowOffset: { width: 0, height: 8 }, shadowOpacity: 0.15, shadowRadius: 12 },
+  buttonWrapper: { position: 'absolute' },
+  button: { width: '100%', backgroundColor: 'rgba(255, 255, 255, 0.95)', borderRadius: 100, borderWidth: 2, borderColor: 'rgba(184, 217, 232, 0.4)', alignItems: 'center', shadowColor: '#5A8BA8', shadowOffset: { width: 0, height: 8 }, shadowOpacity: 0.15, shadowRadius: 12 },
   buttonPressed: { transform: [{ translateY: 2 }] },
-  buttonText: { fontSize: 20, fontWeight: '700', color: '#5A8BA8', letterSpacing: 0.5 },
+  buttonText: { fontWeight: '700', color: '#5A8BA8', letterSpacing: 0.5 },
 });

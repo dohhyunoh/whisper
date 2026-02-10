@@ -2,6 +2,7 @@ import { QuoteCard } from '@/components/quote-card';
 import { Quote } from '@/data/types';
 import React, { useCallback, useEffect, useState } from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Animated, {
   Easing,
   interpolate,
@@ -25,6 +26,7 @@ export function QuoteFeed({
   showSwipeHint = false,
   onHintDismissed,
 }: QuoteFeedProps) {
+  const insets = useSafeAreaInsets();
   const [hintActive, setHintActive] = useState(showSwipeHint);
   const hintAnim = useSharedValue(0);
 
@@ -97,7 +99,7 @@ export function QuoteFeed({
       />
 
       {hintActive && (
-        <Animated.View style={[styles.hintOverlay, hintStyle]} pointerEvents="none">
+        <Animated.View style={[styles.hintOverlay, { bottom: insets.bottom + 20 }, hintStyle]} pointerEvents="none">
           <Text style={styles.hintArrow}>↑</Text>
           <Text style={styles.hintText}>swipe up</Text>
         </Animated.View>
@@ -112,7 +114,6 @@ const styles = StyleSheet.create({
   },
   hintOverlay: {
     position: 'absolute',
-    bottom: 60,
     left: 0,
     right: 0,
     alignItems: 'center',

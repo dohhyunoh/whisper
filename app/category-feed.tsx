@@ -7,7 +7,7 @@ import { usePremium } from '@/hooks/use-premium';
 import { useQuotes, useQuotesByIds } from '@/hooks/use-quotes';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useMemo } from 'react';
-import { Dimensions, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 function getCategoryLabel(category: Category, subcategory?: string): string {
@@ -33,7 +33,7 @@ export default function CategoryFeedScreen() {
   }>();
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const { height: screenHeight } = Dimensions.get('window');
+  const { height: screenHeight } = useWindowDimensions();
   const { isCategoryLocked, isPremium } = usePremium();
   const { state } = useAppContext();
 
