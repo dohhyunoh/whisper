@@ -1,9 +1,11 @@
 import { useAppContext } from '@/context/app-context';
+import { IS_EARLY_BIRD_RELEASE } from '@/constants/premium';
 import { requestPermissions, scheduleQuoteNotifications } from '@/utils/notifications';
 import { Image } from 'expo-image';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
+import { posthog, Events } from '@/utils/posthog';
 import { Alert, Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Animated, {
@@ -64,6 +66,10 @@ export default function NotificationPreviewScreen() {
   const typedQuote = useTypewriter(QUOTE_TEXT, 800, 35);
 
   useEffect(() => {
+    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'notification_preview' });
+  }, []);
+
+  useEffect(() => {
     notifOpacity.value = withTiming(1, { duration: 500 });
     notifScale.value = withSpring(1, { damping: 12, stiffness: 120 });
 
@@ -107,8 +113,13 @@ export default function NotificationPreviewScreen() {
       );
     }
 
-    dispatch({ type: 'COMPLETE_ONBOARDING' });
-    router.replace('/home');
+    if (IS_EARLY_BIRD_RELEASE) {
+      posthog.capture(Events.ONBOARDING_COMPLETED, { method: 'grandfathered' });
+      dispatch({ type: 'COMPLETE_ONBOARDING' });
+      router.replace('/home');
+    } else {
+      router.push('/onboarding/paywall');
+    }
   };
 
   return (

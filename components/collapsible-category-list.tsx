@@ -16,7 +16,7 @@ export function CollapsibleCategoryList() {
 
   const handleOwnQuotesPress = () => {
     if (!isPremium) {
-      router.push('/premium-modal');
+      router.push('/onboarding/paywall');
       return;
     }
     router.push({ pathname: '/category-feed', params: { ownQuotes: 'true' } });
@@ -24,7 +24,7 @@ export function CollapsibleCategoryList() {
 
   const handleOwnQuotesToggle = () => {
     if (!isPremium) {
-      router.push('/premium-modal');
+      router.push('/onboarding/paywall');
       return;
     }
     const updated = isOwnQuotesFollowed
@@ -45,7 +45,7 @@ export function CollapsibleCategoryList() {
           </Text>
         </Pressable>
         {!isPremium ? (
-          <IconSymbol name="lock.fill" size={16} color="#7B9AAA" />
+          <IconSymbol name="lock.fill" size={16} color="#7B9AAA" style={styles.chevronButton} />
         ) : (
           <>
             <Pressable onPress={handleOwnQuotesToggle} hitSlop={8}>

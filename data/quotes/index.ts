@@ -1,30 +1,65 @@
 import { Quote } from '@/data/types';
-import motivation from './motivation.json';
-import philosophy from './philosophy.json';
-import healthMental from './health-mental.json';
-import healthPhysical from './health-physical.json';
+
+// Self-Love & Wellness
+import selfLoveSelfWorth from './self-love-self-worth.json';
+import selfLoveBodyPositivity from './self-love-body-positivity.json';
+import selfLoveMentalHealth from './self-love-mental-health.json';
+import selfLoveRestRecharge from './self-love-rest-recharge.json';
+
+// Love & Relationships
 import relationshipsDating from './relationships-dating.json';
-import relationshipsBreakingUp from './relationships-breaking-up.json';
-import relationshipsSingle from './relationships-single.json';
+import relationshipsPartnership from './relationships-partnership.json';
+import relationshipsFriendship from './relationships-friendship.json';
+import relationshipsBreakups from './relationships-breakups.json';
+import relationshipsFamily from './relationships-family.json';
+
+// Empowerment & Career
+import empowermentCareer from './empowerment-career.json';
+import empowermentOvercomingObstacles from './empowerment-overcoming-obstacles.json';
+import empowermentFinancialIndependence from './empowerment-financial-independence.json';
+import empowermentFindingVoice from './empowerment-finding-voice.json';
+
+// Faith & Spirituality
+import religionGeneralSpirituality from './religion-general-spirituality.json';
 import religionChristianity from './religion-christianity.json';
 import religionIslam from './religion-islam.json';
 import religionHinduism from './religion-hinduism.json';
 import religionBuddhism from './religion-buddhism.json';
-import religionOther from './religion-other.json';
+
+// Mood Boosters
+import moodDailyMotivation from './mood-daily-motivation.json';
+import moodHumor from './mood-humor.json';
+import moodCalm from './mood-calm.json';
+import moodGratitude from './mood-gratitude.json';
 
 const allQuotes: Quote[] = [
-  ...motivation,
-  ...philosophy,
-  ...healthMental,
-  ...healthPhysical,
+  // Self-Love & Wellness
+  ...selfLoveSelfWorth,
+  ...selfLoveBodyPositivity,
+  ...selfLoveMentalHealth,
+  ...selfLoveRestRecharge,
+  // Love & Relationships
   ...relationshipsDating,
-  ...relationshipsBreakingUp,
-  ...relationshipsSingle,
+  ...relationshipsPartnership,
+  ...relationshipsFriendship,
+  ...relationshipsBreakups,
+  ...relationshipsFamily,
+  // Empowerment & Career
+  ...empowermentCareer,
+  ...empowermentOvercomingObstacles,
+  ...empowermentFinancialIndependence,
+  ...empowermentFindingVoice,
+  // Faith & Spirituality
+  ...religionGeneralSpirituality,
   ...religionChristianity,
   ...religionIslam,
   ...religionHinduism,
   ...religionBuddhism,
-  ...religionOther,
+  // Mood Boosters
+  ...moodDailyMotivation,
+  ...moodHumor,
+  ...moodCalm,
+  ...moodGratitude,
 ] as Quote[];
 
 export default allQuotes;

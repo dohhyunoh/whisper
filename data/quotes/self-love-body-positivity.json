@@ -1,0 +1,562 @@
+[
+  {
+    "id": "self-love-bp-001",
+    "text": "Feeling beautiful has nothing to do with what you look like.",
+    "author": "Emma Watson",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-002",
+    "text": "Love your body because you only have one.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-003",
+    "text": "And I said to my body, softly, 'I want to be your friend. It took a long breath and replied, 'I've been waiting my whole life for this.'",
+    "author": "Nayyirah Waheed",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-004",
+    "text": "The best gift you are ever going to give someone — the permission to feel safe in their own skin.",
+    "author": "Hannah Brencher",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-005",
+    "text": "Fat is not a bad word.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-006",
+    "text": "Loving yourself is the greatest revolution.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-007",
+    "text": "That game of comparison you play will strip you of the marvel in your story.",
+    "author": "Ariella Estoria",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-008",
+    "text": "One day I decided that I was beautiful and so I carried out my life as if I was a beautiful girl. It doesn't have anything to do with how the world perceives you. What matters is what you see.",
+    "author": "Gabourey Sidibe",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-010",
+    "text": "Confidence is the only key. I can't think of any better representation of beauty than someone who is unafraid to be herself.",
+    "author": "Emma Stone",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-011",
+    "text": "You can be the most beautiful person in the world and everybody sees light and rainbows when they look at you, but if you yourself don't know it, all of that doesn't even matter. Every second that you spend on doubting your worth, every moment that you use to criticize yourself; is a second of your life wasted, is a moment of your life thrown away. It's not like you have forever, so don't waste any of your seconds, don't throw even one of your moments away.",
+    "author": "C. JoyBell C.",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-012",
+    "text": "When you discover your self-worth you will lose interest in anyone who doesn't see it.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-014",
+    "text": "Dear Body, you were never a problem. There is nothing wrong with your size… you're good enough already.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-015",
+    "text": "I've finally recognized my body for what it is: a personality-delivery system, designed expressly to carry my character from place to place, now and in the years to come.",
+    "author": "Anna Quindlen",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-016",
+    "text": "Is 'fat' really the worst thing a human being can be? Is 'fat' worse than 'vindictive,' 'jealous,' 'shallow,' 'vain,' 'boring,' or 'cruel'? Not to me.",
+    "author": "J.K. Rowling",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-017",
+    "text": "This is it: This body is home. This is where I live and hang my hat. This is where I settle into my hips and sit easy in myself, slung together with strong muscles and bones, made gentle and forging with flesh. This body is durable, has lasted for years, hunkered down through fierce storms and allows for the peaceful erosions of age. It is like a cottage on the shore: weathered and well made, a place where a person could comfortably live. I like it here. It is my own.",
+    "author": "Marya Hornbacher",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-018",
+    "text": "Weight loss does not make people happy. Or peaceful. Being thin does not address the emptiness that has no shape or weight or name. Even a wildly successful diet is a colossal failure because inside the new body is the same sinking heart.",
+    "author": "Geneen Roth",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-019",
+    "text": "You can't eat beauty, it doesn't sustain you. What is fundamentally beautiful is compassion, for yourself and those around you. That kind of beauty enflames the heart and enchants the soul.",
+    "author": "Lupita Nyong'o",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-020",
+    "text": "We can't hate ourselves into a version of ourselves we can love.",
+    "author": "Lori Deschene",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-021",
+    "text": "You have to stand up and say, 'There's nothing wrong with me or my shape or who I am; you're the one with the problem!'",
+    "author": "Jennifer Lopez",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-022",
+    "text": "My limbs work, so I'm not going to complain about the way my body is shaped.",
+    "author": "Drew Barrymore",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-023",
+    "text": "Girls of all kinds can be beautiful—from the thin, plus-sized, short, very tall, ebony to porcelain-skinned; the quirky, clumsy, shy, outgoing and all in between. It's not easy though because many people still put beauty into a confining, narrow box…think outside of the box.",
+    "author": "Tyra Banks",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-024",
+    "text": "Beauty comes in all shapes and sizes.",
+    "author": "Emme",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-025",
+    "text": "There is nothing more rare, nor more beautiful, than a woman being unapologetically herself; comfortable in her perfect imperfection. To me, that is the true essence of beauty.",
+    "author": "Steve Maraboli",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-027",
+    "text": "You are not a mistake. You are not a problem to be solved. But you won't discover this until you are willing to stop banging your head against the wall of shaming and caging and fearing yourself.",
+    "author": "Geneen Roth",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-028",
+    "text": "People often say that 'beauty is in the eye of the beholder,' and I say that the most liberating thing about beauty is realizing that you are the beholder.",
+    "author": "Salma Hayek",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-029",
+    "text": "I want to enjoy life, and I can't if I'm not eating and miserable.",
+    "author": "Kate Upton",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-030",
+    "text": "My body is normal, and I'm not trying to prove anything.",
+    "author": "Lucy Hale",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-031",
+    "text": "My smile is my favorite part of my body. I think a smile can make your whole body.",
+    "author": "Serena Williams",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-033",
+    "text": "I have learned to enjoy my body when I have a few extra pounds on, just being more voluptuous.",
+    "author": "Fergie",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-034",
+    "text": "My heart. My Body. For they are soft. I'm so done being sorry for my softness. Instead, I've grown quite fond of it.",
+    "author": "Sarah Nicole",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-035",
+    "text": "One day I had to sit down with myself and decide that I loved myself no matter what my body looked like and what other people thought about my body.",
+    "author": "Gabourey Sidibe",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-036",
+    "text": "I've never wanted to look like models on the cover of magazines. I represent the majority of women and I'm very proud of that.",
+    "author": "Adele",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-037",
+    "text": "I'm not going to sacrifice my mental health to have the perfect body.",
+    "author": "Demi Lovato",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-038",
+    "text": "I'm not going to conform and hurt myself and do something crazy to be a size 2.",
+    "author": "Amber Riley",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-039",
+    "text": "Who cares if there are lumps on my thighs? I'm guilty of having human legs made up of fat, muscle, and skin, and sometimes when you sit, they get bumpy.",
+    "author": "Kristen Bell",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-040",
+    "text": "I don't look in the mirror and go, 'Oh, I look fantastic!' Of course, I don't. Nobody is perfect. I just don't believe in perfection. But I do believe in saying, 'This is who I am and look at me not being perfect!' I'm proud of that.",
+    "author": "Kate Winslet",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-042",
+    "text": "I wish I could tell my younger self that she was always more than a body. She always had more to offer the world than weight loss and flat abs. So much more.",
+    "author": "Megan Jayne Crabbe",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-043",
+    "text": "You need to be able to create a relationship with your body. Stop thinking about how other people will judge you, or other peoples opinion and find self-love first.",
+    "author": "Harnaam Kaur",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-044",
+    "text": "We are a gorgeous, infinite circle of women of all shades, all styles, in all the ways we were made, inside of us everything blooms.",
+    "author": "Alicia Keys",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-045",
+    "text": "My body is not yours to critique and discuss. My body is not yours for consumption. My body is my vessel. An archive of experiences. A weapon that has fought battles only I understand. A library of love, pain, struggle, victory, and mystery. Your eyes cannot define all it has endured. Do not place value upon my body, place it upon my being.",
+    "author": "Sophie Lewis",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-046",
+    "text": "In owning the parts of me that I so badly wanted to ignore and hide, I've dismantled the shame I've held for years, and began building self acceptance for myself in its place.",
+    "author": "Lenea Sims",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-047",
+    "text": "I think your whole life shows in your face and you should be proud of that.",
+    "author": "Lauren Bacall",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-048",
+    "text": "Stop trying to fix your body. It was never broken.",
+    "author": "Eve Ensler",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-049",
+    "text": "Your words have so much power. Every day, if you tell yourself 'I love you,' if you give yourself one word of validation, it will change your mind.",
+    "author": "Ashley Graham",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-050",
+    "text": "If you retain nothing else, always remember the most important rule of beauty, which is: who cares?",
+    "author": "Tina Fey",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-051",
+    "text": "Feeling confident, being comfortable in your skin—that's what really makes you beautiful.",
+    "author": "Bobbi Brown",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-052",
+    "text": "Each individual woman's body demands to be accepted on its own terms.",
+    "author": "Gloria Steinem",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-053",
+    "text": "You have been criticizing yourself for years, and it hasn't worked. Try approving of yourself and see what happens.",
+    "author": "Louise Hay",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-054",
+    "text": "Just because we have acne, tummy rolls, and chafing thighs doesn't mean we need fixed. Period.",
+    "author": "Mik Zazon",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-055",
+    "text": "Remember that our bodies are always changing, and that's okay. What's really unhealthy is trying to fit into an unrealistic norm of what is seen as perfect.",
+    "author": "Olakemi",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-056",
+    "text": "Don't let your mind bully your body.",
+    "author": "June Tomaso Wood",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-057",
+    "text": "I think it's awesome people have killer bodies and are proud to show them off (I really do!!) but I know how hard it can be to forget what (for lack of a better word) regular ol' bodies look like when everyone looks bonkers amazing.",
+    "author": "Chrissy Teigen",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-058",
+    "text": "Some people are meant to be bigger, and that's okay.",
+    "author": "Michelle Carter",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-059",
+    "text": "It only took 45 years to find myself. Right where I am supposed to be. And it's not perfect. But it's me.",
+    "author": "Drew Barrymore",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-060",
+    "text": "Nobody is perfect. I just don't believe in perfection. But I do believe in saying, 'This is who I am and look at me not being perfect'. I'm proud of that.",
+    "author": "Kate Winslet",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-061",
+    "text": "You've got to love yourself first. You've got to be OK on your own before you can be OK with somebody else. You've got to value yourself and know that you're worth everything.",
+    "author": "Jennifer Lopez",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-062",
+    "text": "The more you mature, you realize that these imperfections make you more beautiful.",
+    "author": "Beyonce",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-063",
+    "text": "The minute you learn to love yourself you won't want to be anyone else.",
+    "author": "Rihanna",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-064",
+    "text": "Don't waste so much time thinking about how much you weigh. There is no more mind-numbing, boring, idiotic, self-destructive diversion from the fun of living.",
+    "author": "Meryl Streep",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-065",
+    "text": "I choose to take care of myself because I want to, not to prove anything to anyone.",
+    "author": "Selena Gomez",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-066",
+    "text": "Bodies change. Bodies grow. Bodies shrink. It's all love (don't let anyone tell you otherwise).",
+    "author": "Anne Hathaway",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-067",
+    "text": "People call me arrogant. I call it self-assurance I am who I am…you like it great. You don't like it - I don't care.",
+    "author": "Priyanka Chopra",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-068",
+    "text": "I've learned to love me. I've been like this my whole life and I embrace me. I love how I look. I am a full woman and I'm strong, and I'm powerful, and I'm beautiful at the same time.",
+    "author": "Serena Williams",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-069",
+    "text": "Self-esteem comes from being able to define the world in your own terms and refusing to abide by the judgment of others.",
+    "author": "Lady Gaga",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-070",
+    "text": "You have all the things you need to be beautiful…When you learn to appreciate and love everything in you, that's when you'll be most beautiful.",
+    "author": "Sandra Bullock",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-071",
+    "text": "It's not about being a certain size or bodyweight or anything…It's just about loving the journey that you're on.",
+    "author": "Rebel Wilson",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-072",
+    "text": "As women gain weight, they start judging themselves. But who cares! Embrace what you have. Say, 'Belly, you might be poking out today, but I'm going to choose to love you and nurture you'.",
+    "author": "Ashley Graham",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-073",
+    "text": "So often many of the people told me, when they were young, there was a figure in their life, who was either a parent, teacher, an adult, who spoke to them in a way that was recriminating, fundamentally being hurtful towards one another with what we say has real-life health concerns. And, it seems like, a single enough thing, we can do better to change that.",
+    "author": "Brandon Fraser",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-074",
+    "text": "All I can say is that I looked fabulous.",
+    "author": "Sam Smith",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-075",
+    "text": "Public scrutiny doesn't determine how healthy, happy, or sexy I am.",
+    "author": "Camila Cabello",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-076",
+    "text": "Don't change your body to get respect from society. Instead, let's change society to respect our bodies.",
+    "author": "Golda Poretsky",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-077",
+    "text": "I've learned to appreciate my body because it's taken me all the way here and will take me to the end.",
+    "author": "Clémentine Desseaux",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-078",
+    "text": "When we're awake in our bodies and sense, the world comes alive. Wisdom, creativity, and love are discovered as we relax and awaken through our bodies.",
+    "author": "Tara Brach",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-079",
+    "text": "It doesn't have anything to do with how the world perceives you. What matters is what you see.",
+    "author": "Gabourey Sidibe",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-080",
+    "text": "Each life is made up of mistakes and learning, waiting and growing, practicing patience and being persistent.",
+    "author": "Billy Graham",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-081",
+    "text": "Accept yourself, love yourself, and keep moving forward. If you want to fly, you have to give up what weighs you down.",
+    "author": "Roy T. Bennett",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-082",
+    "text": "The challenge is not to be perfect—it is to be whole.",
+    "author": "Jane Fonda",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-083",
+    "text": "You are magnificent beyond measure, perfect in your imperfections, and wonderfully made.",
+    "author": "Abiola Abrams",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-084",
+    "text": "People who love themselves come across as very loving, generous, and kind; they express their self-confidence through humility, forgiveness, and inclusiveness.",
+    "author": "Sanaya Roman",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  },
+  {
+    "id": "self-love-bp-085",
+    "text": "Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.",
+    "author": "Stephen Covey",
+    "category": "self-love",
+    "subcategory": "body-positivity"
+  }
+]

@@ -4,6 +4,10 @@ import { ImageSourcePropType } from 'react-native';
 // Toggle this to false for v1.1+ to disable early bird grandfathering
 export const IS_EARLY_BIRD_RELEASE = true;
 
+// RevenueCat
+export const REVENUECAT_API_KEY = 'appl_ztDnaUZoxdvOCUoQGYtZjTxccLn';
+export const REVENUECAT_ENTITLEMENT_ID = 'pro';
+
 export interface FontOption {
   key: PremiumFontKey;
   displayName: string;

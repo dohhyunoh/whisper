@@ -18,6 +18,8 @@ interface QuoteFeedProps {
   cardHeight: number;
   showSwipeHint?: boolean;
   onHintDismissed?: () => void;
+  onSwipe?: () => void;
+  onLike?: () => void;
 }
 
 export function QuoteFeed({
@@ -25,6 +27,8 @@ export function QuoteFeed({
   cardHeight,
   showSwipeHint = false,
   onHintDismissed,
+  onSwipe,
+  onLike,
 }: QuoteFeedProps) {
   const insets = useSafeAreaInsets();
   const [hintActive, setHintActive] = useState(showSwipeHint);
@@ -54,7 +58,8 @@ export function QuoteFeed({
       setHintActive(false);
       onHintDismissed?.();
     }
-  }, [hintActive, onHintDismissed]);
+    onSwipe?.();
+  }, [hintActive, onHintDismissed, onSwipe]);
 
   const hintStyle = useAnimatedStyle(() => ({
     opacity: hintActive
@@ -76,9 +81,9 @@ export function QuoteFeed({
 
   const renderItem = useCallback(
     ({ item }: { item: Quote }) => (
-      <QuoteCard quote={item} height={cardHeight} />
+      <QuoteCard quote={item} height={cardHeight} onLike={onLike} />
     ),
-    [cardHeight],
+    [cardHeight, onLike],
   );
 
   const keyExtractor = useCallback((item: Quote) => item.id, []);

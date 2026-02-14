@@ -33,6 +33,7 @@ export function useQuotes(category?: Category, subcategory?: SubCategory, applyI
   const { state } = useAppContext();
   const interests = state.user?.interests;
   const isPremium = hasPremiumAccess(state.premium.status);
+  const ownQuotes = state.ownQuotes;
 
   return useMemo(() => {
     let filtered = category
@@ -52,9 +53,21 @@ export function useQuotes(category?: Category, subcategory?: SubCategory, applyI
     }
     if (applyInterests) {
       filtered = filterByInterests(filtered, interests);
+
+      // Merge own quotes into the feed when selected
+      if (interests?.includes('ownQuotes') && ownQuotes.length > 0) {
+        const ownAsQuotes: Quote[] = ownQuotes.map((oq) => ({
+          id: oq.id,
+          text: oq.text,
+          author: oq.author || 'You',
+          source: oq.source,
+          category: 'empowerment' as Category,
+        }));
+        filtered = [...filtered, ...ownAsQuotes];
+      }
     }
     return shuffle(filtered);
-  }, [category, subcategory, interests, applyInterests, isPremium]);
+  }, [category, subcategory, interests, applyInterests, isPremium, ownQuotes]);
 }
 
 export function useQuotesByIds(ids: string[]): Quote[] {

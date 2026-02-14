@@ -11,48 +11,67 @@ export interface CategoryInfo {
   subcategories?: SubcategoryInfo[];
 }
 
-export const RELATIONSHIP_SUBCATEGORIES: SubcategoryInfo[] = [
-  { key: 'dating', label: 'Dating' },
-  { key: 'breaking-up', label: 'Breaking Up' },
-  { key: 'single', label: 'Single' },
+export const SELF_LOVE_SUBCATEGORIES: SubcategoryInfo[] = [
+  { key: 'self-worth', label: 'Self-Worth' },
+  { key: 'body-positivity', label: 'Body Positivity' },
+  { key: 'mental-health', label: 'Mental Health' },
+  { key: 'rest-recharge', label: 'Rest & Recharge' },
 ];
 
-export const HEALTH_SUBCATEGORIES: SubcategoryInfo[] = [
-  { key: 'mental', label: 'Mental' },
-  { key: 'physical', label: 'Physical' },
+export const RELATIONSHIP_SUBCATEGORIES: SubcategoryInfo[] = [
+  { key: 'dating', label: 'Dating' },
+  { key: 'partnership', label: 'Partnership' },
+  { key: 'friendship', label: 'Friendship' },
+  { key: 'breakups', label: 'Breakups' },
+  { key: 'family', label: 'Family' },
+];
+
+export const EMPOWERMENT_SUBCATEGORIES: SubcategoryInfo[] = [
+  { key: 'career', label: 'Career' },
+  { key: 'overcoming-obstacles', label: 'Overcoming Obstacles' },
+  { key: 'financial-independence', label: 'Financial Independence' },
+  { key: 'finding-voice', label: 'Finding Voice' },
 ];
 
 export const RELIGION_SUBCATEGORIES: SubcategoryInfo[] = [
+  { key: 'general-spirituality', label: 'General Spirituality' },
   { key: 'christianity', label: 'Christianity' },
   { key: 'islam', label: 'Islam' },
   { key: 'hinduism', label: 'Hinduism' },
   { key: 'buddhism', label: 'Buddhism' },
 ];
 
+export const MOOD_BOOSTER_SUBCATEGORIES: SubcategoryInfo[] = [
+  { key: 'daily-motivation', label: 'Daily Motivation' },
+  { key: 'humor', label: 'Humor' },
+  { key: 'calm', label: 'Calm' },
+  { key: 'gratitude', label: 'Gratitude' },
+];
+
 export const CATEGORIES: CategoryInfo[] = [
-  { key: 'motivation', label: 'Motivation' },
-  { key: 'philosophy', label: 'Philosophy' },
-  { key: 'health', label: 'Health', subcategories: HEALTH_SUBCATEGORIES },
-  { key: 'relationships', label: 'Relationships', subcategories: RELATIONSHIP_SUBCATEGORIES },
-  { key: 'religion', label: 'Religion', subcategories: RELIGION_SUBCATEGORIES },
+  { key: 'self-love', label: 'Self-Love & Wellness', subcategories: SELF_LOVE_SUBCATEGORIES },
+  { key: 'relationships', label: 'Love & Relationships', subcategories: RELATIONSHIP_SUBCATEGORIES },
+  { key: 'empowerment', label: 'Empowerment & Career', subcategories: EMPOWERMENT_SUBCATEGORIES },
+  { key: 'religion', label: 'Faith & Spirituality', subcategories: RELIGION_SUBCATEGORIES },
+  { key: 'mood-boosters', label: 'Mood Boosters', subcategories: MOOD_BOOSTER_SUBCATEGORIES },
 ];
 
 export const CATEGORY_GRADIENTS: Record<Category, readonly [string, string, string, string]> = {
-  motivation: ['#F0E0C8', '#F2E9DC', '#F7F4EE', '#F5F5F0'],
-  philosophy: ['#C8E0F0', '#DCE9F2', '#EEF4F7', '#F5F5F0'],
-  health: ['#C8F0C8', '#DCF2DC', '#EEF7EE', '#F5F5F0'],
+  'self-love': ['#F0C8E0', '#F2DCE9', '#F7EEF4', '#F5F5F0'],
   relationships: ['#F0C8D8', '#F2DCE4', '#F7EEF0', '#F5F5F0'],
+  empowerment: ['#F0E0C8', '#F2E9DC', '#F7F4EE', '#F5F5F0'],
   religion: ['#D4C8F0', '#E2DCF2', '#F0EEF7', '#F5F5F0'],
+  'mood-boosters': ['#C8F0D8', '#DCF2E4', '#EEF7F0', '#F5F5F0'],
 };
 
 // Premium locking - categories that are always free
-export const FREE_CATEGORIES: Category[] = ['motivation', 'philosophy'];
+export const FREE_CATEGORIES: Category[] = ['empowerment', 'mood-boosters'];
 
 // Categories that require premium (except for daily rotation)
-export const LOCKED_CATEGORIES: Category[] = ['relationships', 'religion', 'health'];
+export const LOCKED_CATEGORIES: Category[] = ['self-love', 'relationships', 'religion'];
 
 // Daily rotation order (index = day % 3)
-export const DAILY_UNLOCK_ORDER: Category[] = ['relationships', 'religion', 'health'];
+export const DAILY_UNLOCK_ORDER: Category[] = ['self-love', 'relationships', 'religion'];
 
 export function getTodayUnlockedCategory(): Category {
   const dayOfYear = Math.floor(Date.now() / (1000 * 60 * 60 * 24));

@@ -5,12 +5,14 @@ import {
   loadLikedIds,
   loadOnboardingComplete,
   loadOwnQuotes,
+  loadStreakDates,
   loadUser,
   saveLikedIds,
   saveOnboardingComplete,
   saveOwnQuotes,
   savePremiumSettings,
   savePremiumStatus,
+  saveStreakDates,
   saveUser,
 } from '@/utils/storage';
 import { initializePremiumStatus } from '@/utils/premium-check';
@@ -25,6 +27,7 @@ const initialState: AppState = {
   onboardingComplete: false,
   likedIds: [],
   ownQuotes: [],
+  streakDates: [],
   hydrated: false,
   premium: defaultPremiumState,
 };
@@ -52,6 +55,7 @@ function reducer(state: AppState, action: AppAction): AppState {
         onboardingComplete: action.payload.onboardingComplete,
         likedIds: action.payload.likedIds,
         ownQuotes: action.payload.ownQuotes,
+        streakDates: action.payload.streakDates,
         premium: action.payload.premium,
         hydrated: true,
       };
@@ -95,6 +99,11 @@ function reducer(state: AppState, action: AppAction): AppState {
         ...state,
         ownQuotes: state.ownQuotes.filter((q) => q.id !== action.payload),
       };
+    case 'RECORD_DAILY_OPEN': {
+      const dateStr = action.payload;
+      if (state.streakDates.includes(dateStr)) return state;
+      return { ...state, streakDates: [...state.streakDates, dateStr] };
+    }
     default:
       return state;
   }
@@ -116,14 +125,15 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   // Hydrate from AsyncStorage on mount
   useEffect(() => {
     (async () => {
-      const [user, onboardingComplete, likedIds, ownQuotes, premium] = await Promise.all([
+      const [user, onboardingComplete, likedIds, ownQuotes, streakDates, premium] = await Promise.all([
         loadUser(),
         loadOnboardingComplete(),
         loadLikedIds(),
         loadOwnQuotes(),
+        loadStreakDates(),
         initializePremiumStatus(),
       ]);
-      dispatch({ type: 'HYDRATE', payload: { user, onboardingComplete, likedIds, ownQuotes, premium } });
+      dispatch({ type: 'HYDRATE', payload: { user, onboardingComplete, likedIds, ownQuotes, streakDates, premium } });
     })();
   }, []);
 
@@ -152,6 +162,12 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     if (!state.hydrated) return;
     saveOwnQuotes(state.ownQuotes);
   }, [state.ownQuotes, state.hydrated]);
+
+  // Persist streak dates
+  useEffect(() => {
+    if (!state.hydrated) return;
+    saveStreakDates(state.streakDates);
+  }, [state.streakDates, state.hydrated]);
 
   // Persist premium status
   useEffect(() => {

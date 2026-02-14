@@ -2,27 +2,35 @@ import { IconSymbol } from '@/components/ui/icon-symbol';
 import { BlurView } from 'expo-blur';
 import { router } from 'expo-router';
 import React from 'react';
-import { Pressable, StyleProp, StyleSheet, View, ViewStyle } from 'react-native';
+import { Pressable, StyleProp, StyleSheet, View, ViewStyle, useWindowDimensions } from 'react-native';
 
 interface ProfileButtonProps {
   style?: StyleProp<ViewStyle>;
 }
 
+const BASE_SIZE = 44;
+const BASE_SCREEN_WIDTH = 375;
+const MAX_SCREEN_WIDTH = 430;
+
 export function ProfileButton({ style }: ProfileButtonProps) {
+  const { width } = useWindowDimensions();
+  const scale = 1 + ((Math.min(width, MAX_SCREEN_WIDTH) - BASE_SCREEN_WIDTH) / (MAX_SCREEN_WIDTH - BASE_SCREEN_WIDTH)) * 0.3;
+  const size = Math.round(BASE_SIZE * scale);
+
   const handlePress = () => {
     router.push('/profile-modal');
   };
 
   return (
-    <Pressable 
-      onPress={handlePress} 
+    <Pressable
+      onPress={handlePress}
       style={({ pressed }) => [
-        style, 
-        pressed && { opacity: 0.8, transform: [{ scale: 0.96 }] } // Tactile press effect
-      ]} 
+        style,
+        pressed && { opacity: 0.8, transform: [{ scale: 0.96 }] }
+      ]}
       hitSlop={12}
     >
-      <View style={styles.glassContainer}>
+      <View style={[styles.glassContainer, { width: size, height: size, borderRadius: size / 2 }]}>
         {/* Dark material tint for the premium liquid look */}
         <BlurView 
           intensity={80} 

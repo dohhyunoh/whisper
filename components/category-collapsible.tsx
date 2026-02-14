@@ -55,7 +55,7 @@ export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
 
   const handlePress = () => {
     if (isLocked) {
-      router.push('/premium-modal');
+      router.push('/onboarding/paywall');
       return;
     }
     if (hasSubcategories) {
@@ -80,9 +80,11 @@ export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
   return (
     <View style={styles.container}>
       {isLocked ? (
-        <Pressable onPress={handlePress} style={styles.header}>
-          <Text style={[styles.label, styles.labelLocked]}>{category.label}</Text>
-          <IconSymbol name="lock.fill" size={16} color="#7B9AAA" />
+        <Pressable onPress={handlePress} style={styles.headerRow}>
+          <View style={[styles.header, styles.headerFill]}>
+            <Text style={[styles.label, styles.labelLocked]}>{category.label}</Text>
+          </View>
+          <IconSymbol name="lock.fill" size={16} color="#7B9AAA" style={styles.chevronButton} />
         </Pressable>
       ) : hasSubcategories ? (
         <Pressable onPress={handlePress} style={styles.header}>

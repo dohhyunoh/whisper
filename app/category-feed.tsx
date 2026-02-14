@@ -50,7 +50,7 @@ export default function CategoryFeedScreen() {
       text: oq.text,
       author: oq.author || 'You',
       source: oq.source,
-      category: 'motivation' as Category,
+      category: 'empowerment' as Category,
     }));
   }, [state.ownQuotes]);
 
@@ -59,11 +59,11 @@ export default function CategoryFeedScreen() {
 
   useEffect(() => {
     if (isOwnQuotes && !isPremium) {
-      router.replace('/premium-modal');
+      router.replace('/onboarding/paywall');
       return;
     }
     if (category && !isFavorites && !isOwnQuotes && isCategoryLocked(category)) {
-      router.replace('/premium-modal');
+      router.replace('/onboarding/paywall');
     }
   }, [category, isFavorites, isOwnQuotes, isCategoryLocked, isPremium, router]);
 

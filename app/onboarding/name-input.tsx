@@ -1,7 +1,9 @@
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
+import { defaultUserData } from '@/data/types';
 import { useRouter } from 'expo-router';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { posthog, Events } from '@/utils/posthog';
 import { StyleSheet, TextInput, useWindowDimensions } from 'react-native';
 
 export default function NameInputScreen() {
@@ -11,21 +13,19 @@ export default function NameInputScreen() {
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
+  useEffect(() => {
+    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'name_input' });
+  }, []);
+
   return (
     <OnboardingLayout
-      title={"What should\nwe call you?"}
-      subtitle="This is how we'll greet you in the app."
+      title={"Let's change the\nforecast together."}
+      subtitle="What should we call you?"
       onContinue={() => {
         if (name.trim()) {
           dispatch({
             type: 'SET_USER',
-            payload: {
-              name: name.trim(),
-              gender: state.user?.gender ?? '',
-              interests: state.user?.interests ?? [],
-              stuckReason: state.user?.stuckReason ?? '',
-              stuckResponse: state.user?.stuckResponse ?? '',
-            },
+            payload: { ...defaultUserData, ...state.user, name: name.trim() },
           });
           router.push('/onboarding/gender-selection');
         }

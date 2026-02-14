@@ -12,6 +12,9 @@ import { useFonts as useLuckiestGuy, LuckiestGuy_400Regular } from '@expo-google
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { AppProvider } from '@/context/app-context';
+import { configureRevenueCat } from '@/utils/revenuecat';
+import { PostHogProvider } from 'posthog-react-native';
+import { posthog } from '@/utils/posthog';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -33,6 +36,10 @@ export default function RootLayout() {
   const fontsLoaded = indieFlowerLoaded && permanentMarkerLoaded && luckiestGuyLoaded;
 
   useEffect(() => {
+    configureRevenueCat();
+  }, []);
+
+  useEffect(() => {
     if (fontsLoaded) {
       SplashScreen.hideAsync();
     }
@@ -43,6 +50,7 @@ export default function RootLayout() {
   }
 
   return (
+    <PostHogProvider client={posthog}>
     <GestureHandlerRootView style={{ flex: 1 }}>
       <AppProvider>
         <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
@@ -64,13 +72,6 @@ export default function RootLayout() {
                 headerShown: false,
                 gestureEnabled: true,
                 fullScreenGestureEnabled: true,
-              }}
-            />
-            <Stack.Screen
-              name="premium-modal"
-              options={{
-                presentation: 'modal',
-                headerShown: false,
               }}
             />
             <Stack.Screen
@@ -100,10 +101,36 @@ export default function RootLayout() {
                 fullScreenGestureEnabled: true,
               }}
             />
+            <Stack.Screen
+              name="add-quote-modal"
+              options={{
+                presentation: 'modal',
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="appearance"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen
+              name="streak-detail"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
           </Stack>
           <StatusBar style="auto" />
         </ThemeProvider>
       </AppProvider>
     </GestureHandlerRootView>
+    </PostHogProvider>
   );
 }

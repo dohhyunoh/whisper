@@ -1,3 +1,5 @@
+import { useAppContext } from '@/context/app-context';
+import { defaultUserData } from '@/data/types';
 import { Ionicons } from '@expo/vector-icons';
 import {
   BlurMask,
@@ -13,7 +15,8 @@ import {
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { posthog, Events } from '@/utils/posthog';
+import { Image, Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import Animated, {
   Easing,
   SharedValue,
@@ -234,6 +237,7 @@ function SkiaBubble({
 // ---------------------------------------------------------------------------
 export default function OnboardingScreen() {
   const router = useRouter();
+  const { state, dispatch } = useAppContext();
   const { width: screenW, height: screenH } = useWindowDimensions();
 
   const s = useMemo(() => getScale(screenW, screenH), [screenW, screenH]);
@@ -258,6 +262,10 @@ export default function OnboardingScreen() {
 
   const [moodMessage, setMoodMessage] = useState('');
 
+  useEffect(() => {
+    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'welcome' });
+  }, []);
+
   // Breathing loop
   useEffect(() => {
     breathing.value = withRepeat(
@@ -272,6 +280,7 @@ export default function OnboardingScreen() {
     if (selectedIndex.value >= 0) return;
     selectedIndex.value = index;
     setMoodMessage(moods[index].message);
+    posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'welcome', choice: moods[index].label });
 
     // Expand
     expansionProgress.value = withTiming(1, {
@@ -364,7 +373,7 @@ export default function OnboardingScreen() {
 
       <Animated.View style={[styles.logoContainer, logoContainerStyle]} pointerEvents="none">
         <Animated.View style={cloudStyle}>
-          <Ionicons name="cloud" size={52} color="rgba(255,255,255,0.9)" />
+          <Image source={require('@/assets/images/mascot.png')} style={{ width: 52, height: 52 }} resizeMode="contain" />
         </Animated.View>
         <Text style={styles.logoTitle}>Whisper</Text>
         <Text style={styles.logoMessage}>{moodMessage}</Text>
@@ -373,7 +382,17 @@ export default function OnboardingScreen() {
       <Animated.View style={[styles.buttonWrapper, { bottom: 80 * s, left: 32 * s, right: 32 * s }, btnStyle]}>
         <Pressable
           style={({ pressed }) => [styles.button, { paddingVertical: 18 * s, paddingHorizontal: 40 * s }, pressed && styles.buttonPressed]}
-          onPress={() => router.push('/onboarding/name-input')}
+          onPress={() => {
+            const selectedMood = moods[selectedIndex.value];
+            if (selectedMood) {
+              dispatch({
+                type: 'SET_USER',
+                payload: { ...defaultUserData, ...state.user, weatherMood: selectedMood.label },
+              });
+            }
+            posthog.capture(Events.ONBOARDING_STARTED);
+            router.push('/onboarding/weather-source');
+          }}
         >
           <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Get Started</Text>
         </Pressable>

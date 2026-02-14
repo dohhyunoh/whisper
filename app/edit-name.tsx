@@ -1,5 +1,6 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
+import { defaultUserData } from '@/data/types';
 import { router } from 'expo-router';
 import React, { useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
@@ -13,13 +14,7 @@ export default function EditNameScreen() {
   const handleSave = () => {
     dispatch({
       type: 'SET_USER',
-      payload: {
-        name,
-        gender: state.user?.gender ?? '',
-        interests: state.user?.interests ?? [],
-        stuckReason: state.user?.stuckReason ?? '',
-        stuckResponse: state.user?.stuckResponse ?? '',
-      },
+      payload: { ...defaultUserData, ...state.user, name },
     });
     router.back();
   };

@@ -1,0 +1,672 @@
+[
+  {
+    "id": "rel-breakup-001",
+    "text": "When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one which has opened for us.",
+    "author": "Alexander Graham Bell",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-002",
+    "text": "I believe that everything happens for a reason. People change so that you can learn to let go, things go wrong so that you appreciate them when they're right, you believe lies so you eventually learn to trust no one but yourself, and sometimes good things fall apart so better things can fall together.",
+    "author": "Marilyn Monroe",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-003",
+    "text": "Some of us think holding on makes us strong; but sometimes it is letting go.",
+    "author": "Hermann Hesse",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-004",
+    "text": "If you love someone, set them free. If they come back they're yours; if they don't they never were.",
+    "author": "Richard Bach",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-005",
+    "text": "Don't cry because it's over. Smile because it happened.",
+    "author": "Dr. Seuss",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-006",
+    "text": "'Tis better to have loved and lost than never to have loved at all.",
+    "author": "Alfred Lord Tennyson",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-007",
+    "text": "I don't think breakups are ever easy for anybody. If they are, they aren't much of a breakup.",
+    "author": "Chris Young",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-008",
+    "text": "I find it quite difficult to think that there's, you know, about 20 million people listening to my album that I wrote very selfishly to get over a breakup. I didn't write it being that it's going to be a hit.",
+    "author": "Adele",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-009",
+    "text": "Hair is so important and emotional. I dyed mine black and blond after a breakup - there's something really powerful about changing your hair when you're in a weird place.",
+    "author": "Kate Nash",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-010",
+    "text": "I just always have to cry out a breakup, and then I can make peace with it pretty quickly.",
+    "author": "Brittany Murphy",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-011",
+    "text": "The cure for a broken heart is self-love.",
+    "author": "Jonathan Harnisch",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-012",
+    "text": "The best way to mend a broken heart is time and girlfriends.",
+    "author": "Gwyneth Paltrow",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-014",
+    "text": "The heart will break, but broken live on.",
+    "author": "Lord Byron",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-015",
+    "text": "A girl doesn't need anyone who doesn't need her.",
+    "author": "Marilyn Monroe",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-016",
+    "text": "We are never ever, ever getting back together.",
+    "author": "Taylor Swift",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-017",
+    "text": "Every time your heart is broken, a doorway cracks open to a world full of new beginnings, new opportunities.",
+    "author": "Patti Roberts",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-018",
+    "text": "When you are in love, and you get hurt, it's like a cut—it will heal, but there will always be a scar.",
+    "author": "Soo Jie",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-019",
+    "text": "I'm really a very happy, contented little person in spite of my broken heart.",
+    "author": "L.M. Montgomery",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-020",
+    "text": "I know my heart will never be the same. But I'm telling myself I'll be okay.",
+    "author": "Sara Evans",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-021",
+    "text": "It's so empowering to say, 'This isn't serving me,' and walk away in peace.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-022",
+    "text": "You can clutch the past so tightly to your chest that it leaves your arms too full to embrace the present.",
+    "author": "Jan Glidewell",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-023",
+    "text": "We too, like trees can shake off our dead leaves and begin again.",
+    "author": "A.Y. Greyson",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-024",
+    "text": "You get through it. It's a process that's not easy, but I get less and less sad about it every day.",
+    "author": "Ryan Phillippe",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-025",
+    "text": "The only way out is through.",
+    "author": "Robert Frost",
+    "source": "Servant to Servant",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-026",
+    "text": "Just believe that the heartbreak was a gift in itself. Cry if you have to, but it won't be forever! You will find love again, and it will be even more beautiful! In the meantime enjoy all that YOU are!",
+    "author": "Rihanna",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-027",
+    "text": "You cannot prevent the birds of sorrow from flying over your head, but you can prevent them from building nests in your hair.",
+    "author": "Chinese Proverb",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-028",
+    "text": "Just believe in yourself. Even if you don't pretend that you do and, and some point, you will.",
+    "author": "Venus Williams",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-029",
+    "text": "The greatest win is walking away and choosing not to engage in drama and toxic energy at all.",
+    "author": "Lalah Delia",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-030",
+    "text": "Isn't it strange how life won't flow, like a river, but moves in jumps, as if it were held back by locks that are opened now and then to let it jump forwards in a kind of flood?",
+    "author": "Anita Desai",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-031",
+    "text": "Every time you thought you couldn't keep moving forward, you did. Take a moment to appreciate your strength.",
+    "author": "Karen Salmanson",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-032",
+    "text": "I was so scared of ever being alone, and I think, conquering that fear, this year, was actually bigger than any other transition that I had, this entire year.",
+    "author": "Miley Cyrus",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-033",
+    "text": "If you truly want to be respected by people you love, you must prove to them that you can survive without them.",
+    "author": "Michael Bassey Johnson",
+    "source": "The Infinity Sign",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-034",
+    "text": "Every woman that finally figured out her worth, has picked up her suitcases of pride and boarded a flight to freedom, which landed in the valley of change.",
+    "author": "Shannon L. Alder",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-035",
+    "text": "The truth is, unless you let go, unless you forgive yourself, unless you forgive the situation, unless you realize that the situation is over, you cannot move forward.",
+    "author": "Steve Maraboli",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-036",
+    "text": "When I let go of what I am, I become what I might be. When I let go of what I have, I receive what I need.",
+    "author": "Lao Tzu",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-037",
+    "text": "Moving on is not forgetting — moving on is being able to remember without feeling awful about it.",
+    "author": "Sam Madison",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-038",
+    "text": "Sadness flies away on the wings of time.",
+    "author": "Jean de La Fontaine",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-040",
+    "text": "That's all you can do in this world, no matter how strong the current beats against you, or how heavy your burden, or how tragic your love story. You keep going.",
+    "author": "Robyn Schneider",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-041",
+    "text": "When you do things from your soul, you feel a river moving in you, a joy.",
+    "author": "Rumi",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-042",
+    "text": "Whoever you are, no matter how lonely, the world offers itself to your imagination, calls to you like the wild geese, harsh and exciting – over and over announcing your place in the family of things.",
+    "author": "Mary Oliver",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-043",
+    "text": "You can't move things by not moving.",
+    "author": "Suzy Kassem",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-044",
+    "text": "I always get to where I am going by walking away from where I have been.",
+    "author": "A. A. Milne",
+    "source": "Winnie the Pooh",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-045",
+    "text": "You can't start the next chapter of your life if you keep re-reading the last one.",
+    "author": "Michael McMillian",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-046",
+    "text": "A very wise man once told me that you can't look back – you just have to put the past behind you, and find something better in your future.",
+    "author": "Jodi Picoult",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-047",
+    "text": "I'm not sure what the future holds but I do know that I'm going to be positive and not wake up feeling desperate.",
+    "author": "Nicole Kidman",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-048",
+    "text": "It's hard to be clear about who you are when you are carrying around a bunch of baggage from the past. I've learned to let go and move more quickly into the next place.",
+    "author": "Angelina Jolie",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-049",
+    "text": "There are things that we never want to let go of, people we never want to leave behind. But keep in mind that letting go isn't the end of the world, it's the beginning of a new life.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-050",
+    "text": "Keep your face always toward the sunshine — and shadows will fall behind you.",
+    "author": "Walt Whitman",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-051",
+    "text": "One taught me love. One taught me patience. And one taught me pain. Now, I'm so amazing. Say I've loved and I've lost. But that's not what I see. So, look what I got. Look what you taught me.",
+    "author": "Ariana Grande",
+    "source": "Thank u, next",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-052",
+    "text": "I'd rather love a million times and have my heart broken every time, than hold a permanently empty heart forever.",
+    "author": "H.C. Paye",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-053",
+    "text": "Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you.",
+    "author": "Tyrion Lannister",
+    "source": "Game of Thrones",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-054",
+    "text": "Accept yourself, love yourself, and keep moving forward. If you want to fly, you have to give up what weighs you down.",
+    "author": "Roy T. Bennett",
+    "source": "The Light in the Heart",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-055",
+    "text": "Whatever you do, never run back to what broke you.",
+    "author": "Frank Ocean",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-056",
+    "text": "So many things become beautiful when you really look.",
+    "author": "Lauren Oliver",
+    "source": "Before I Fall",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-057",
+    "text": "Only time can heal his heart, just as only time can heal his broken arms and legs.",
+    "author": "Miss Piggy",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-058",
+    "text": "If my life is going to mean anything, I have to live it myself.",
+    "author": "Rick Riordan",
+    "source": "The Lightning Thief",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-059",
+    "text": "Someday you will wake up feeling 51 percent happy and slowly, molecule by molecule, you will feel like yourself again.",
+    "author": "Amy Poehler",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-061",
+    "text": "It is always important to know when something has reached its end. Closing circles, shutting doors, finishing chapters, it doesn't matter what we call it; what matters is to leave in the past those moments in life that are over.",
+    "author": "Paulo Coelho",
+    "source": "The Zahir",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-062",
+    "text": "I promise you there is something worse out there than being sad, and that's being alone and being sad. Ain't no one in this room alone.",
+    "author": "Ted Lasso",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-063",
+    "text": "Don't worry. Just when you think your life is over, a new storyline falls from the sky and lands right in your lap.",
+    "author": "Rebekah Crane",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-064",
+    "text": "Don't be sorry, be fierce.",
+    "author": "RuPaul",
+    "source": "RuPaul's Drag Race",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-065",
+    "text": "It is strange how often a heart must be broken before the years can make it wise.",
+    "author": "Sara Teasdale",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-066",
+    "text": "Gonna love myself, no, I don't need anybody else.",
+    "author": "Hailee Steinfeld",
+    "source": "Love Myself",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-067",
+    "text": "Everybody has bad relationships and, at the end of the day, they are just a great way to set yourself up for a good relationship.",
+    "author": "Anne Hathaway",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-068",
+    "text": "Life becomes easier when you learn to accept an apology you never got.",
+    "author": "Robert Brault",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-069",
+    "text": "Don't change yourself so that other people will like you. Be yourself, and the right people will like you.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-070",
+    "text": "This is the part of me that you're never gonna ever take away from me, no! Throw your sticks and your stones, throw your bombs and your blow. But you're not gonna break my soul.",
+    "author": "Katy Perry",
+    "source": "Part Of Me",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-071",
+    "text": "We must be willing to let go of the life we planned so as to have the life that is waiting for us.",
+    "author": "Joseph Campbell",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-072",
+    "text": "You stop revisiting memories when you outgrow the people you made them with.",
+    "author": "Nikki Rowe",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-073",
+    "text": "I would rather have my heart broken a thousand times than never to love at all. I have so much love to give — I'm not empty of love, I'm full of love.",
+    "author": "Cameron Diaz",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-074",
+    "text": "You're gonna make it after all.",
+    "author": "The Mary Tyler Moore Show",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-075",
+    "text": "The great courageous act that we must all do, is to have the courage to step out of our history and past so that we can live our dreams.",
+    "author": "Oprah Winfrey",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-076",
+    "text": "Let everything happen to you. Beauty and terror. Just keep going. No feeling is final.",
+    "author": "Rainer Maria Rilke",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-077",
+    "text": "If it doesn't agree with your spirit let it go.",
+    "author": "Germany Kent",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-078",
+    "text": "I'm breaking down, gonna start from scratch. Shake it off like an Etch-A-Sketch. My lips are saying goodbye. My eyes are finally dry.",
+    "author": "Fifth Harmony",
+    "source": "Miss Movin On",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-079",
+    "text": "After all, tomorrow is another day.",
+    "author": "Scarlett O'Hara",
+    "source": "Gone with the Wind",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-080",
+    "text": "The truth is, I should be angry, resentful and disillusioned about relationships. But I'm not. Love did not work with that person. But it can work with another.",
+    "author": "Eva Longoria",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-081",
+    "text": "When your heart is broken, your boats are burned: nothing matters anymore. It is the end of happiness and the beginning of peace.",
+    "author": "George Bernard Shaw",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-082",
+    "text": "Sometimes love means letting go when you want to hold on tighter.",
+    "author": "Melissa Marr",
+    "source": "Ink Exchange",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-083",
+    "text": "If you didn't love him, this never would have happened. But you did. And accepting that love and everything that followed it is part of letting it go.",
+    "author": "Sarah Dessen",
+    "source": "Dreamland",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-085",
+    "text": "It's always darkest before the dawn.",
+    "author": "Thomas Fuller",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-086",
+    "text": "My wish for you is that you continue. Continue to be who you are, to astonish a mean world with your acts of kindness.",
+    "author": "Maya Angelou",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-087",
+    "text": "Someday you're gonna look back on this moment of your life as such a sweet time of grieving. You'll see that you were in mourning and your heart was broken, but your life was changing.",
+    "author": "Elizabeth Gilbert",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-088",
+    "text": "Happiness always looks small while you hold it in your hands, but let it go, and you learn at once how big and precious it is.",
+    "author": "Maxim Gorky",
+    "source": "The Lower Depths and Other Plays",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-089",
+    "text": "It's no use going back to yesterday, because I was a different person then.",
+    "author": "Lewis Carroll",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-090",
+    "text": "I will not allow myself to not feel chosen every single day. And I'll wait till whenever that is.",
+    "author": "Hannah Brown",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-091",
+    "text": "Hope, Smiles from the threshold of the year to come, Whispering 'it will be happier'...",
+    "author": "Alfred Lord Tennyson",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-093",
+    "text": "Breaking up is like knocking over a Coke machine. You can't do it in one push. You gotta rock it back and forth a few times, and then it goes over.",
+    "author": "Jerry Seinfeld",
+    "source": "Seinfeld",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-094",
+    "text": "It took you two weeks to go off and date her. Guess you didn't cheat but you're still a traitor.",
+    "author": "Olivia Rodrigo",
+    "source": "traitor",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-095",
+    "text": "I just wanted to listen to Taylor Swift alone.",
+    "author": "Jessica Day",
+    "source": "New Girl",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {
+    "id": "rel-breakup-096",
+    "text": "Years of love have been forgot, in the hatred of a minute.",
+    "author": "Edgar Allan Poe",
+    "category": "relationships",
+    "subcategory": "breakups"
+  },
+  {"id": "rel-breakup-097",
+    "text": "In another life, I want to be born as you and love me.",
+    "author": "Brand",
+    "category": "relationships",
+     "subcategory": "breakups"
+   },
+   {
+    "id": "rel-dating-098",
+    "text": "Practically all the relationships I know are based on a foundation of lies and mutually accepted delusion.",
+    "author": "Kim Cattrall",
+    "category": "relationships",
+    "subcategory": "breakups"
+  }
+]

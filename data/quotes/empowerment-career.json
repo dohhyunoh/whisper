@@ -1,0 +1,767 @@
+[
+  {
+    "id": "emp-career-001",
+    "text": "Why do they always teach us that it's easy and evil to do what we want and that we need discipline to restrain ourselves? It's the hardest thing in the world--to do what we want. And it takes the greatest kind of courage. I mean, what we really want.",
+    "author": "Ayn Rand",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-002",
+    "text": "What would you do if you weren't afraid?",
+    "author": "Sheryl Sandberg",
+    "source": "Lean In: Women, Work, and the Will to Lead",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-003",
+    "text": "I've learned that making a 'living' is not the same thing as 'making a life'.",
+    "author": "Maya Angelou",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-004",
+    "text": "Done is better than perfect.",
+    "author": "Sheryl Sandberg",
+    "source": "Lean In: Women, Work, and the Will to Lead",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-005",
+    "text": "Pleasure in the job puts perfection in the work.",
+    "author": "Aristotle",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-006",
+    "text": "Choose a job you love, and you will never have to work a day in your life.",
+    "author": "Confucius",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-007",
+    "text": "Work to become, not to acquire.",
+    "author": "Elbert Hubbard",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-008",
+    "text": "The best way to find yourself is to lose yourself in the service of others.",
+    "author": "Mahatma Gandhi",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-009",
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-010",
+    "text": "Find out what you like doing best and get someone to pay you for doing it.",
+    "author": "Katharine Whitehorn",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-011",
+    "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+    "author": "Steve Jobs",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-012",
+    "text": "Meaningful work is not about the particular job you do; it's about the way in which you do it.",
+    "author": "Mihaly Csikszentmihalyi",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-013",
+    "text": "To find joy in work is to discover the fountain of youth.",
+    "author": "Pearl S. Buck",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-014",
+    "text": "Each of us have the power to deliver joy and happiness to the people around us through the work we do.",
+    "author": "Alex Kakuyo",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-015",
+    "text": "I am a great believer in luck, and I find the harder I work, the more I have of it.",
+    "author": "Thomas Jefferson",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-016",
+    "text": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-017",
+    "text": "Do not hire a man who does your work for money, but him who does it for the love of it.",
+    "author": "Henry David Thoreau",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-018",
+    "text": "When your work speaks for itself, don't interrupt.",
+    "author": "Henry J. Kaiser",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-019",
+    "text": "Real success is finding your lifework in the work that you love.",
+    "author": "David McCullough",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-020",
+    "text": "The only true happiness comes from squandering ourselves for a purpose.",
+    "author": "William Cowper",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-021",
+    "text": "Work is love made visible.",
+    "author": "Khalil Gibran",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-022",
+    "text": "The man who moves a mountain begins by carrying away small stones.",
+    "author": "Confucius",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-023",
+    "text": "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
+    "author": "Franklin D. Roosevelt",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-024",
+    "text": "If you cannot do great things, do small things in a great way.",
+    "author": "Napoleon Hill",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-025",
+    "text": "Passion is the difference between having a job or having a career.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-026",
+    "text": "Work hard in silence, let your success be your noise.",
+    "author": "Frank Ocean",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-027",
+    "text": "I'd rather be a failure at something I love than a success at something I hate.",
+    "author": "George Burns",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-028",
+    "text": "The only way to achieve the impossible is to believe it is possible.",
+    "author": "Charles Kingsleigh",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-029",
+    "text": "Don't judge each day by the harvest you reap but by the seeds that you plant.",
+    "author": "Robert Louis Stevenson",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-030",
+    "text": "Dedicate some of your life to others. Your dedication will not be a sacrifice. It will be an exhilarating experience because it is an intense effort applied toward a meaningful end.",
+    "author": "Dr. Thomas Dooley",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-031",
+    "text": "It's not what you achieve, it's what you overcome. That's what defines your career.",
+    "author": "Carlton Fisk",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-032",
+    "text": "To be successful, the first thing to do is fall in love with your work.",
+    "author": "Sister Mary Lauretta",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-033",
+    "text": "The difference between a job and a career is the difference between forty and sixty hours a week.",
+    "author": "Robert Frost",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-034",
+    "text": "Find a purpose in life so big it will challenge every capacity to be at your best.",
+    "author": "David O. McKay",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-035",
+    "text": "Too many of us are not living our dreams because we are living our fears.",
+    "author": "Les Brown",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-036",
+    "text": "Build your own dreams, or someone else will hire you to build theirs.",
+    "author": "Farrah Gray",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-037",
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-038",
+    "text": "It is never too late to be what you might have been.",
+    "author": "George Eliot",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-039",
+    "text": "Happiness is the real sense of fulfillment that comes from hard work.",
+    "author": "Joseph Barbara",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-040",
+    "text": "A dream doesn't become reality through magic; it takes sweat, determination, and hard work.",
+    "author": "Colin Powell",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-041",
+    "text": "You are never too old to set another goal or to dream a new dream.",
+    "author": "C.S. Lewis",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-042",
+    "text": "Do what you love and the money will follow.",
+    "author": "Marsha Sinetar",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-044",
+    "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-045",
+    "text": "Find something you're passionate about and keep tremendously interested in it.",
+    "author": "Julia Child",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-046",
+    "text": "The expert in anything was once a beginner.",
+    "author": "Helen Hayes",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-047",
+    "text": "Don't settle for what life gives you; make life better and build something.",
+    "author": "Ashton Kutcher",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-048",
+    "text": "Every job is a self-portrait of the person who did it. Autograph your work with excellence.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-049",
+    "text": "Happiness is not in doing what one likes, but in liking what one does.",
+    "author": "J.M. Barrie",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-050",
+    "text": "Your profession is not what brings home your paycheck. Your profession is what you were put on earth to do with such passion and such intensity that it becomes spiritual in calling.",
+    "author": "Vincent van Gogh",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-051",
+    "text": "To love what you do and feel that it matters—how could anything be more fun?",
+    "author": "Katharine Graham",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-052",
+    "text": "Everyone has been made for some particular work, and the desire for that work has been put in every heart.",
+    "author": "Rumi",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-053",
+    "text": "Be not afraid of going slowly, be afraid only of standing still.",
+    "author": "Chinese Proverb",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-054",
+    "text": "The only limits you have are the limits you believe.",
+    "author": "Wayne Dyer",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-055",
+    "text": "Outer achievements should be expressions of inner abundance, not compensations for inner poverty.",
+    "author": "Sangharakshita",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-056",
+    "text": "The work of your heart, the work of taking time, to listen, to help, is also your gift to the whole of the world.",
+    "author": "Jack Kornfield",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-057",
+    "text": "Success is liking yourself, liking what you do, and liking how you do it.",
+    "author": "Maya Angelou",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-058",
+    "text": "Work hard for what you want because it won't come to you without a fight.",
+    "author": "Leah LaBelle",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-059",
+    "text": "What you do makes a difference, and you have to decide what kind of difference you want to make.",
+    "author": "Jane Goodall",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-060",
+    "text": "When we strive to become better than we are, everything around us becomes better too.",
+    "author": "Paulo Coelho",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-061",
+    "text": "The best way to appreciate your job is to imagine yourself without one.",
+    "author": "Oscar Wilde",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-062",
+    "text": "Find joy in everything you choose to do. Every job, relationship, home... it's your responsibility to love it, or change it.",
+    "author": "Chuck Palahniuk",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-063",
+    "text": "Motivation is what gets you started. Habit is what keeps you going.",
+    "author": "Jim Ryun",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-064",
+    "text": "Cultivating a close, warmhearted feeling for others automatically puts the mind at ease. It is the principal source of success in life.",
+    "author": "His Holiness the 14th Dalai Lama",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+      "id": "emp-career-065",
+    "text": "The best preparation for good work tomorrow is to do good work today.",
+    "author": "Elbert Hubbard",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-066",
+    "text": "If you can't find joy in the path you are on and what you are working toward, now is the time to move away from it.",
+    "author": "Jean Chatzky",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-067",
+    "text": "Joy comes from using your potential.",
+    "author": "Will Schultz",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-068",
+    "text": "Satisfaction lies in the effort, not in the attainment. Full effort is full victory.",
+    "author": "Mahatma Gandhi",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-069",
+    "text": "We have the power to improve our work lives immeasurably through awareness, compassion, patience & ingenuity.",
+    "author": "Sharon Salzberg",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-070",
+    "text": "Unless your work is your meditation, your meditation is not meditation.",
+    "author": "Sangharakshita",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-071",
+    "text": "Fulfillment isn't found over the rainbow—it's found in the here and now.",
+    "author": "Tony Hsieh",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-072",
+    "text": "The secret of joy in work is contained in one word—excellence. To know how to do something well is to enjoy it.",
+    "author": "Pearl S. Buck",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-073",
+    "text": "Work to me is a sacred thing.",
+    "author": "Margaret Bourke-White",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-074",
+    "text": "One of the symptoms of an approaching nervous breakdown is the belief that one's work is terribly important.",
+    "author": "Bertrand Russell",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-075",
+    "text": "The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task at hand.",
+    "author": "Vince Lombardi",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-076",
+    "text": "Vocation is the place where our deep gladness meets the world's deep need.",
+    "author": "Frederick Buechner",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-077",
+    "text": "There is no greater joy nor greater reward than to make a fundamental difference in someone's life.",
+    "author": "Sister Mary Rose McGeady",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-078",
+    "text": "Purpose is the place where your deep gladness meets the world's needs.",
+    "author": "Frederick Buechner",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-079",
+    "text": "Doing what you love is the cornerstone of having abundance in your life.",
+    "author": "Wayne Dyer",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-080",
+    "text": "As we let our own light shine, we unconsciously give other people permission to do the same.",
+    "author": "Marianne Williamson",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-081",
+    "text": "Do more than belong: participate. Do more than care: help. Do more than believe: practice. Do more than be fair: be kind. Do more than forgive: forget. Do more than dream: work.",
+    "author": "William Arthur Ward",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+      "id": "emp-career-082",
+    "text": "It's not the hours you put into your work that counts, it's the work you put in the hours.",
+    "author": "Sam Ewing",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-083",
+    "text": "The fruit of your own hard work is the sweetest.",
+    "author": "Deepika Padukone",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-084",
+    "text": "You've achieved success in your field when you don't know whether what you're doing is work or play.",
+    "author": "Warren Beatty",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-085",
+    "text": "The meaning of life is to find your gift. The purpose of life is to give it away.",
+    "author": "Pablo Picasso",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-086",
+    "text": "We work to become, not to acquire.",
+    "author": "Elbert Hubbard",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-087",
+    "text": "I know of no great men except those who have rendered great service to the human race.",
+    "author": "Voltaire",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-088",
+    "text": "No work is insignificant. All labor that uplifts humanity has dignity and importance and should be undertaken with painstaking excellence.",
+    "author": "Martin Luther King Jr.",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-089",
+    "text": "It Takes as Much Energy to Wish as It Does to Plan.",
+    "author": "Eleanor Roosevelt",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-090",
+    "text": "Whenever You Become Empowered, You Will Be Tested.",
+    "author": "Caroline Myss",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-091",
+    "text": "Don't Stand in the Corner Waiting for the Chance / Make Your Own Music, Start Your Own Dance.",
+    "author": "Madonna",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-092",
+    "text": "We Must Be Willing to Let Go of the Life We Planned so as to Have the Life That Is Waiting for Us.",
+    "author": "Joseph Campbell",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-093",
+    "text": "You Don't Get What You Wish for. You Don't Even Get What You Hope for. You Get What You Believe.",
+    "author": "Oprah Winfrey",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-094",
+    "text": "There is no limit to what we, as women, can accomplish.",
+    "author": "Michelle Obama",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-095",
+    "text": "When there are no ceilings, the sky's the limit. So let's keep going.",
+    "author": "Hillary Clinton",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-096",
+    "text": "Leadership is about making others better as a result of your presence and making sure that impact lasts in our absence.",
+    "author": "Sheryl Sandberg",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-097",
+    "text": "Learn from every mistake, because every experience, particularly your mistakes, are there to teach you and force you into being more of who you are.",
+    "author": "Oprah Winfrey",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-098",
+    "text": "There is no force more powerful than a woman determined to rise.",
+    "author": "Bosa Sebele",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-099",
+    "text": "A strong woman is a woman determined to do something others are determined not to be done.",
+    "author": "Marge Piercy",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-100",
+    "text": "A woman is the full circle. Within her is the power to create, nurture and transform.",
+    "author": "Diane Mariechild",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-101",
+    "text": "Women hold up half the sky.",
+    "author": "Chinese proverb",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-102",
+    "text": "A strong woman understands that the gifts such as logic, decisiveness, and strength are just as feminine as intuition and emotional connection. She values and uses all of her gifts.",
+    "author": "Nancy Rathburn",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-103",
+    "text": "I never dreamt of success. I worked for it.",
+    "author": "Estee Lauder",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-104",
+    "text": "The question isn't who is going to let me; it is who is going to stop me.",
+    "author": "Ayn Rand",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-095",
+    "text": "You can have unbelievable intelligence, you can have connections, you can have opportunities fall out of the sky. But in the end, hard work is the true, enduring characteristic of successful people.",
+    "author": "Marsha Evans",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-096",
+    "text": "Just watch, all of you men. I'll show you what a woman can do…I'll go across the country, I'll race to the Moon… I'll never look back.",
+    "author": "Edna Gardner Whyte",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-097",
+    "text": "Woman must not accept; she must challenge. She must not be awed by that which has been built up around her; she must reverence that woman in her which struggles for expression.",
+    "author": "Margaret Sanger",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-098",
+    "text": "Everyone has inside of her a piece of good news. The good news is that you don't know how great you can be! How much you can love! What you can accomplish! And what your potential is!",
+    "author": "Anne Frank",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-099",
+    "text": "Always go with the choice that scares you the most, because that's the one that is going to require the most from you.",
+    "author": "Caroline Myss",
+    "category": "empowerment",
+    "subcategory": "career"
+  },
+  {
+    "id": "emp-career-100",
+    "text": "My mother told me that fear was not an option. I was always told that women are stronger, so I believed it.",
+    "author": "Diane Von Furstenberg",
+    "category": "empowerment",
+    "subcategory": "career"
+  }
+]

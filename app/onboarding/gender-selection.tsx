@@ -1,7 +1,9 @@
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
+import { defaultUserData } from '@/data/types';
 import { useRouter } from 'expo-router';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { posthog, Events } from '@/utils/posthog';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const options = ['Female', 'Male', 'Other', 'Prefer not to say'];
@@ -13,6 +15,10 @@ export default function GenderSelectionScreen() {
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
+  useEffect(() => {
+    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'gender_selection' });
+  }, []);
+
   return (
     <OnboardingLayout
       title="I identify as..."
@@ -20,18 +26,12 @@ export default function GenderSelectionScreen() {
         if (selected) {
           dispatch({
             type: 'SET_USER',
-            payload: {
-              name: state.user?.name ?? '',
-              gender: selected,
-              interests: state.user?.interests ?? [],
-              stuckReason: state.user?.stuckReason ?? '',
-              stuckResponse: state.user?.stuckResponse ?? '',
-            },
+            payload: { ...defaultUserData, ...state.user, gender: selected },
           });
-          router.push('/onboarding/interests');
+          router.push('/onboarding/primary-emotion');
         }
       }}
-      onSkip={() => router.push('/onboarding/interests')}
+      onSkip={() => router.push('/onboarding/primary-emotion')}
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>
@@ -46,7 +46,10 @@ export default function GenderSelectionScreen() {
                 active && styles.pillSelected,
                 pressed ? styles.pillPressed : undefined,
               ]}
-              onPress={() => setSelected(option)}
+              onPress={() => {
+                setSelected(option);
+                posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'gender_selection', choice: option });
+              }}
             >
               <Text
                 style={[

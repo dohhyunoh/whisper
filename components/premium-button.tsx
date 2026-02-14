@@ -3,22 +3,28 @@ import { usePremium } from '@/hooks/use-premium';
 import { BlurView } from 'expo-blur';
 import { router } from 'expo-router';
 import React from 'react';
-import { Pressable, StyleProp, StyleSheet, View, ViewStyle } from 'react-native';
+import { Pressable, StyleProp, StyleSheet, View, ViewStyle, useWindowDimensions } from 'react-native';
 
 interface PremiumButtonProps {
   style?: StyleProp<ViewStyle>;
 }
 
+const BASE_SIZE = 44;
+const BASE_SCREEN_WIDTH = 375;
+const MAX_SCREEN_WIDTH = 430;
+
 export function PremiumButton({ style }: PremiumButtonProps) {
   const { isPremium } = usePremium();
+  const { width } = useWindowDimensions();
+  const scale = 1 + ((Math.min(width, MAX_SCREEN_WIDTH) - BASE_SCREEN_WIDTH) / (MAX_SCREEN_WIDTH - BASE_SCREEN_WIDTH)) * 0.3;
+  const size = Math.round(BASE_SIZE * scale);
 
-  // Hide the button entirely for premium users
   if (isPremium) {
     return null;
   }
 
   const handlePress = () => {
-    router.push('/premium-modal');
+    router.push('/onboarding/paywall');
   };
 
   return (
@@ -30,7 +36,7 @@ export function PremiumButton({ style }: PremiumButtonProps) {
       ]}
       hitSlop={12}
     >
-      <View style={styles.glassContainer}>
+      <View style={[styles.glassContainer, { width: size, height: size, borderRadius: size / 2 }]}>
         <BlurView
           intensity={80}
           tint="light"

@@ -102,14 +102,6 @@
     "subcategory": "christianity"
   },
   {
-    "id": "religion-chr-014",
-    "text": "The fool has said in his heart, There is no God.",
-    "author": "Psalms 14:1",
-    "source": "The Bible",
-    "category": "religion",
-    "subcategory": "christianity"
-  },
-  {
     "id": "religion-chr-015",
     "text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.",
     "author": "Proverbs 3:5-6",
@@ -758,6 +750,41 @@
     "id": "religion-chr-100",
     "text": "The cross is the measure of God's love. All of heaven is amazed by it, and all of eternity will celebrate it.",
     "author": "Billy Graham",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-101",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.” – 1 Corinthians 13:4",
+    "author": "1 Corinthians 13:4",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-102",
+    "text": "Above all, love each other deeply, because love covers over a multitude of sins.” – 1 Peter 4:8",
+    "author": "1 Peter 4:8",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-103",
+    "text": "Let all that you do be done in love.” – 1 Corinthians 16:14",
+    "author": "1 Corinthians 16:14",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-104",
+    "text": "And over all these virtues put on love, which binds them all together in perfect unity.” – Colossians 3:14",
+    "author": "Colossians 3:14",
+    "category": "religion",
+    "subcategory": "christianity"
+  },
+  {
+    "id": "religion-chr-105",
+    "text": "We love because he first loved us.” – 1 John 4:19",
+    "author": "1 John 4:19",
     "category": "religion",
     "subcategory": "christianity"
   }

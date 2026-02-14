@@ -1,5 +1,6 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
+import { defaultUserData } from '@/data/types';
 import { router } from 'expo-router';
 import React, { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
@@ -15,13 +16,7 @@ export default function EditGenderScreen() {
   const handleSave = () => {
     dispatch({
       type: 'SET_USER',
-      payload: {
-        name: state.user?.name ?? '',
-        gender: gender ?? '',
-        interests: state.user?.interests ?? [],
-        stuckReason: state.user?.stuckReason ?? '',
-        stuckResponse: state.user?.stuckResponse ?? '',
-      },
+      payload: { ...defaultUserData, ...state.user, gender: gender ?? '' },
     });
     router.back();
   };
