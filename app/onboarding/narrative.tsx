@@ -42,10 +42,10 @@ export default function NarrativeScreen() {
             type: 'SET_USER',
             payload: { ...defaultUserData, ...state.user, narrative: selected.join(', ') },
           });
-          router.push('/onboarding/heart-check');
+          router.push('/onboarding/rest-compassion');
         }
       }}
-      onSkip={() => router.push('/onboarding/heart-check')}
+      onSkip={() => router.push('/onboarding/rest-compassion')}
       buttonDisabled={selected.length === 0}
     >
       <View style={{ gap: 12 * s }}>

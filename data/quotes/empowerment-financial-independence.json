@@ -4,77 +4,88 @@
     "text": "Never work just for money or for power. They won't help save your soul or help you sleep at night.",
     "author": "Marian Wright Edelman",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-004",
     "text": "Being rich is having money; being wealthy is having time.",
     "author": "Margaret Bonnano",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-005",
     "text": "You can only become truly accomplished at something you love. Don't make money your goal. Instead, pursue the things you love doing, and then do them so well that people can't take their eyes off you.",
     "author": "Maya Angelou",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-006",
     "text": "Money follows art. Money wants what it can't buy. Class and talent. And remember while there's a talent for making money, it takes real talent to know how to spend it.",
     "author": "Candace Bushnell",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-007",
     "text": "There are people who have money and people who are rich.",
     "author": "Coco Chanel",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-008",
     "text": "By definition, saving – for anything – requires us not to get things now so we can get bigger ones later on.",
     "author": "Jean Chatzky",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-009",
     "text": "I do not think I am successful just because I have money. I'm successful because I love who I am and I have no regrets.",
     "author": "Suze Orman",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-010",
     "text": "People say that money is not the key to happiness, but I always figured if you have enough money, you can have a key made.",
     "author": "Joan Rivers",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-011",
     "text": "Automating some of your finances can be incredibly convenient and is a great way to save time, but automating everything makes it too easy to go on autopilot and forget to pay attention to your personal finances.",
     "author": "Alexa Von Tobel",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-012",
     "text": "To attract money, you must focus on wealth. It is impossible to bring more money into your life when you are noticing you do not have enough, because that means you are thinking thoughts that you do not have enough.",
     "author": "Rhonda Byrne",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-014",
     "text": "The speed of your success is limited only by your dedication and what you're willing to sacrifice.",
     "author": "Nathan W. Morris",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-015",
@@ -82,7 +93,8 @@
     "author": "T. Harv Eker",
     "source": "Secrets of the Millionaire Mind: Mastering the Inner Game of Wealth",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-016",
@@ -90,14 +102,16 @@
     "author": "T. Harv Eker",
     "source": "Secrets of the Millionaire Mind: Mastering the Inner Game of Wealth",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-017",
     "text": "I've found that the less stuff I own, the less my stuff owns me.",
     "author": "Nathan W. Morris",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-018",
@@ -105,7 +119,8 @@
     "author": "Manoj Arora",
     "source": "From the Rat Race to Financial Freedom",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-019",
@@ -113,14 +128,16 @@
     "author": "Manoj Arora",
     "source": "From the Rat Race to Financial Freedom",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-020",
     "text": "If we were not impressed by job titles, suits, and jargon, we would demand that financial advisors show us their personal bank statements before they tell us what we could or should do with our own money.",
     "author": "Mokokoma Mokhonoana",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-021",
@@ -128,7 +145,8 @@
     "author": "Joseph C. Kunz Jr.",
     "source": "Money's Dirty Little Secrets: How to Break the Rules, Get Filthy Rich, and Laugh All the Way to the Bank",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-022",
@@ -136,342 +154,391 @@
     "author": "Joseph C. Kunz Jr.",
     "source": "Money's Dirty Little Secrets: How to Break the Rules, Get Filthy Rich, and Laugh All the Way to the Bank",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-023",
     "text": "Money is better than poverty, if only for financial reasons.",
     "author": "Woody Allen",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-024",
     "text": "It is incumbent upon each of us to improve spending and savings practices to ensure our own individual financial security and preserve the collective economic well-being of our great society.",
     "author": "Ron Lewis",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-025",
     "text": "The goal isn't more money. The goal is living life on your terms.",
     "author": "Will Rogers",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-026",
     "text": "If you're not staying on top of your money, you're putting your financial well-being at risk.",
     "author": "Suze Orman",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-027",
     "text": "I have enough money to last me the rest of my life, unless I buy something.",
     "author": "Jackie Mason",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-028",
     "text": "If we command our wealth, we shall be rich and free. If our wealth commands us, we are poor indeed.",
     "author": "Edmund Burke",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-029",
     "text": "Financial freedom is available to those who learn about it and work for it.",
     "author": "Robert Kiyosaki",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-030",
     "text": "Wealth is the ability to fully experience life.",
     "author": "Henry David Thoreau",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-031",
     "text": "Financial peace isn't the acquisition of stuff. It's learning to live on less than you make, so you can give money back and have money to invest. You can't win until you do this.",
     "author": "Dave Ramsey",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-032",
     "text": "Money is a terrible master but an excellent servant.",
     "author": "P.T. Barnum",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-033",
     "text": "You must gain control over your money or the lack of it will forever control you.",
     "author": "Dave Ramsey",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-034",
     "text": "Have a well-thought financial plan that is not dependent upon correctly guessing what will happen in the future.",
     "author": "Barry Ritholtz",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-035",
     "text": "Do what you love and the money will follow.",
     "author": "Marsha Sinetar",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-036",
     "text": "Pursuing your passion is fulfilling and leads to financial freedom.",
     "author": "Robert Allen",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-037",
     "text": "What we really want to do is what we are really meant to do. When we do what we are meant to do, money comes to us, doors open for us, we feel useful, and the work we do feels like play to us.",
     "author": "Julia Cameron",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-038",
     "text": "A budget is more than just a series of numbers on a page. It is an embodiment of our values.",
     "author": "Barack Obama",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-039",
     "text": "Never spend your money before you have earned it.",
     "author": "Thomas Jefferson",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-040",
     "text": "If you would be wealthy, think of saving as well as getting.",
     "author": "Benjamin Franklin",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-041",
     "text": "A wise person should have money in their head, but not in their heart.",
     "author": "Jonathan Swift",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-042",
     "text": "There is a gigantic difference between earning a great deal of money and being rich.",
     "author": "Marlene Dietrich",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-043",
     "text": "Too many people spend money they haven't earned, to buy things they don't want, to impress people they don't like.",
     "author": "Will Rogers",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-044",
     "text": "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     "author": "Ayn Rand",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-045",
     "text": "The habit of saving is itself an education; it fosters every virtue, teaches self-denial, cultivates the sense of order, trains to forethought, and so broadens the mind.",
     "author": "T.T. Munger",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-046",
     "text": "There is no dignity quite so impressive, and no independence quite so important, as living within your means.",
     "author": "Calvin Coolidge",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-047",
     "text": "Every time you borrow money, you're robbing your future self.",
     "author": "Nathan Morris",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-048",
     "text": "Before you speak, listen. Before you write, think. Before you spend, earn. Before you invest, investigate. Before you criticize, wait. Before you pray, forgive. Before you quit, try. Before you retire, save. Before you die, give.",
     "author": "William A. Ward",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-049",
     "text": "Don't think money does everything, or you are going to do everything for money.",
     "author": "Voltaire",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-050",
     "text": "It's good to have money and the things that money can buy, but it's good, too, to check up once in a while and make sure that you haven't lost the things that money can't buy.",
     "author": "George Lorimer",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-051",
     "text": "We make a living by what we get. We make a life by what we give.",
     "author": "Winston Churchill",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-052",
     "text": "You can give without loving, but you cannot love without giving.",
     "author": "Amy Carmichael",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-053",
     "text": "Don't tell me what you value. Show me your budget, and I'll tell you what you value.",
     "author": "Joe Biden",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-054",
     "text": "If you're saving, you're succeeding.",
     "author": "Steve Burkholder",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-055",
     "text": "Money does not dictate your lifestyle, It's what you do to get it and how you manage your finances that determines your lifestyle.",
     "author": "Wayne Chirisa",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-056",
     "text": "Wealth is not about having a lot of money; it's about having a lot of options.",
     "author": "Chris Rock",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-057",
     "text": "Manage your spending by creating and sticking to a budget.",
     "author": "Alexa Von Tobel",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-058",
     "text": "The gratification of wealth is not found in mere possession or in lavish expenditure, but in its wise application.",
     "author": "Miguel de Cervantes",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-059",
     "text": "A big part of financial freedom is having your heart and mind free from worry about the what-ifs of life.",
     "author": "Suze Orman",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-060",
     "text": "Your financial security isn't about what you earn—it's about breaking the chains of living paycheck to paycheck and building something that can't be taken away from you.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-061",
     "text": "The moment you stop relying on someone else's approval to pay your bills is the moment you truly start living on your own terms.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-062",
     "text": "Building wealth isn't about greed—it's about buying back your time, your peace of mind, and your ability to say no to things that don't serve you.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-063",
     "text": "Every dollar you save is a vote for your future self. Every investment you make is a promise that you won't always have to trade time for money.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-064",
     "text": "Financial independence doesn't mean having millions—it means waking up without the weight of financial fear crushing your chest.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-065",
     "text": "The most empowering thing you can do is build a life where money works for you instead of you working yourself to exhaustion for money.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-066",
     "text": "Your bank account isn't just numbers—it's your ability to leave toxic situations, to care for the people you love, and to create a life that feels like freedom.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-067",
     "text": "Stop waiting for permission to build your financial security. No one is coming to save you—but you have everything you need to save yourself.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-068",
     "text": "The stress of being broke isn't just about money—it's about the loss of choices, the constant anxiety, the feeling that you're always one crisis away from collapse. You deserve better.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-069",
     "text": "Investing in yourself—your education, your skills, your peace of mind—is the only investment that pays dividends every single day for the rest of your life.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   },
   {
     "id": "emp-fin-070",
     "text": "Financial freedom isn't a luxury—it's the foundation for every other freedom you dream about. And you're not selfish for wanting it; you're brave for chasing it.",
     "author": "Anonymous",
     "category": "empowerment",
-    "subcategory": "financial-independence"
+    "subcategory": "financial-independence",
+    "tone": "direct"
   }
 ]

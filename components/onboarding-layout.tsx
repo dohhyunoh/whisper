@@ -44,12 +44,21 @@ export function OnboardingLayout({
       style={[
         styles.content,
         {
-          paddingTop: insets.top + height * 0.08,
+          paddingTop: insets.top + 8 * s,
           paddingBottom: insets.bottom + 20 * s,
           paddingHorizontal: 32 * s,
         },
       ]}
     >
+      {/* Skip button - top right */}
+      <View style={styles.skipRow}>
+        <Pressable onPress={onSkip} hitSlop={12} style={styles.skipButton}>
+          <Text style={[styles.skipText, { fontSize: 15 * s }]}>
+            {skipLabel}
+          </Text>
+        </Pressable>
+      </View>
+
       <View style={[styles.top, { gap: 16 * s, marginBottom: 24 * s }]}>
         <Text style={[styles.title, { fontSize: 34 * s, lineHeight: 42 * s }]}>
           {title}
@@ -63,7 +72,7 @@ export function OnboardingLayout({
 
       <View style={styles.middle}>{children}</View>
 
-      <View style={[styles.bottom, { paddingBottom: 32 * s, gap: 16 * s }]}>
+      <View style={[styles.bottom, { paddingBottom: 32 * s }]}>
         <Pressable
           style={({ pressed }) => [
             styles.button,
@@ -82,12 +91,6 @@ export function OnboardingLayout({
             ]}
           >
             {buttonLabel}
-          </Text>
-        </Pressable>
-
-        <Pressable onPress={onSkip}>
-          <Text style={[styles.skipText, { fontSize: 15 * s }]}>
-            {skipLabel}
           </Text>
         </Pressable>
       </View>
@@ -121,6 +124,14 @@ const styles = StyleSheet.create({
   content: {
     flex: 1,
     justifyContent: 'space-between',
+  },
+  skipRow: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+  },
+  skipButton: {
+    paddingVertical: 8,
+    paddingHorizontal: 4,
   },
   top: {},
   title: {

@@ -1,10 +1,27 @@
 import { useMemo } from 'react';
-import { Category, Quote, SubCategory } from '@/data/types';
+import { Category, Quote, SubCategory, ToneTag } from '@/data/types';
 import { useAppContext } from '@/context/app-context';
 import quotesData from '@/data/quotes';
 import { shuffle } from '@/utils/shuffle';
 import { FREE_CATEGORIES, getTodayUnlockedCategory } from '@/constants/categories';
 import { hasPremiumAccess } from '@/utils/premium-check';
+
+const toneMap: Record<string, ToneTag> = {
+  Gentle: 'gentle',
+  Playful: 'playful',
+  'Tough Love': 'direct',
+};
+
+function boostByTone(quotes: Quote[], preferredTone: ToneTag): Quote[] {
+  const matching = quotes.filter((q) => q.tone === preferredTone);
+  const others = quotes.filter((q) => q.tone !== preferredTone);
+  // Target ~70% matching, 30% others
+  const desiredMatching = Math.ceil(quotes.length * 0.7);
+  const boosted = matching.length >= desiredMatching
+    ? [...matching.slice(0, desiredMatching), ...others]
+    : [...matching, ...others];
+  return shuffle(boosted);
+}
 
 const allQuotes: Quote[] = quotesData as Quote[];
 
@@ -32,6 +49,7 @@ function filterByInterests(quotes: Quote[], interests: string[] | undefined): Qu
 export function useQuotes(category?: Category, subcategory?: SubCategory, applyInterests = false): Quote[] {
   const { state } = useAppContext();
   const interests = state.user?.interests;
+  const tonePreference = state.user?.tonePreference;
   const isPremium = hasPremiumAccess(state.premium.status);
   const ownQuotes = state.ownQuotes;
 
@@ -66,8 +84,14 @@ export function useQuotes(category?: Category, subcategory?: SubCategory, applyI
         filtered = [...filtered, ...ownAsQuotes];
       }
     }
+    // Boost quotes matching user's tone preference
+    const preferredTone = tonePreference ? toneMap[tonePreference] : undefined;
+    if (applyInterests && preferredTone) {
+      return boostByTone(filtered, preferredTone);
+    }
+
     return shuffle(filtered);
-  }, [category, subcategory, interests, applyInterests, isPremium, ownQuotes]);
+  }, [category, subcategory, interests, tonePreference, applyInterests, isPremium, ownQuotes]);
 }
 
 export function useQuotesByIds(ids: string[]): Quote[] {

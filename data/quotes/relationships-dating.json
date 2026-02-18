@@ -4,71 +4,80 @@
     "text": "I don't have a girlfriend. But I do know a woman who'd be mad at me for saying that.",
     "author": "Mitch Hedberg",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-003",
     "text": "A kiss that is never tasted, is forever and ever wasted.",
     "author": "Billie Holiday",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-006",
     "text": "Kissing someone is pretty intimate, actually very intimate, and your heart always kind of skips a beat before you do that.",
     "author": "Keanu Reeves",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-007",
     "text": "It is an extra dividend when you like the girl you've fallen in love with.",
     "author": "Clark Gable",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
-  
   {
     "id": "rel-dating-010",
     "text": "I was dating this guy, and we would spend all day text messaging each other. He thought he could tell that he liked me more because he actually spelled the word 'you,' and I just put the letter 'u.'",
     "author": "Kelly Osbourne",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-011",
     "text": "Everything I buy is vintage and smells funny. Maybe that's why I don't have a boyfriend.",
     "author": "Lucy Liu",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-012",
     "text": "Before you marry a person, you should first make them use a computer with slow Internet service to see who they really are.",
     "author": "Will Ferrell",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-015",
     "text": "Never let a fool kiss you, or a kiss fool you.",
     "author": "Joey Adams",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-016",
     "text": "In its purest form, dating is auditioning for a life partnership, and auditioning means we may or may not get the part.",
     "author": "Joy Browne",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-019",
     "text": "Dating now is a lot like going shopping when you don't have any money. Even if you find the right thing, you can't do anything about it.",
     "author": "Joshua Harris",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-021",
@@ -76,7 +85,8 @@
     "author": "Edward Lewis",
     "source": "Pretty Woman",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-022",
@@ -84,21 +94,24 @@
     "author": "Michael",
     "source": "My Best Friend's Wedding",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-023",
     "text": "Dating is pressure and tension. What is a date, really, but a job interview that lasts all night?",
     "author": "Jerry Seinfeld",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-024",
     "text": "A girl phoned me the other day and said... 'Come on over, there's nobody home.' I went over. Nobody was home.",
     "author": "Rodney Dangerfield",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-025",
@@ -106,14 +119,16 @@
     "author": "Ali Wong",
     "source": "Hard Knock Wife",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-026",
     "text": "True love is singing karaoke 'Under Pressure' and letting the other person sing the Freddie Mercury part.",
     "author": "Mindy Kaling",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-027",
@@ -121,7 +136,8 @@
     "author": "Natasha Leggero",
     "source": "The '70s Show House",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-029",
@@ -129,7 +145,8 @@
     "author": "Pete",
     "source": "Knocked Up",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-031",
@@ -137,7 +154,8 @@
     "author": "Kim",
     "source": "The Last Kiss",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-035",
@@ -145,7 +163,8 @@
     "author": "John Green",
     "source": "The Fault in Our Stars",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-036",
@@ -153,7 +172,8 @@
     "author": "Harry",
     "source": "When Harry Met Sally",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-037",
@@ -161,7 +181,8 @@
     "author": "Baby",
     "source": "Dirty Dancing",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-039",
@@ -169,7 +190,8 @@
     "author": "Arwen",
     "source": "The Lord of the Rings",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-040",
@@ -177,77 +199,88 @@
     "author": "Rhett Butler",
     "source": "Gone with the Wind",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-042",
     "text": "Dating is really hard because everyone puts on a front. It's really difficult to see who is who, so it is important to be yourself.",
     "author": "Brooke Burke",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-043",
     "text": "I love you. You annoy me more than I ever thought possible. But I want to spend every irritating minute with you.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-044",
     "text": "If I had a flower for every time I thought of you, I could walk through my garden forever.",
     "author": "Alfred Tennyson",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-045",
     "text": "The couples that are meant to be are the ones who go through everything that is meant to tear them apart and come out even stronger.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-046",
     "text": "Dating is where you pretend you're someone you're not to impress someone you don't know.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-047",
     "text": "I love being married. It's so great to find one special person you want to annoy for the rest of your life.",
     "author": "Rita Rudner",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-048",
     "text": "You know it's love when all you want is that person to be happy, even if you're not part of their happiness.",
     "author": "Julia Roberts",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-049",
     "text": "I love you without knowing how, or when, or from where. I love you simply, without problems or pride.",
     "author": "Pablo Neruda",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-050",
     "text": "They slipped briskly into an intimacy from which they never recovered.",
     "author": "F. Scott Fitzgerald",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-051",
     "text": "In online dating, I'm in the same category as someone who owns ferrets and has a mermaid tattoo.",
     "author": "Demetri Martin",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-052",
@@ -255,7 +288,8 @@
     "author": "Emily Brontë",
     "source": "Wuthering Heights",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-053",
@@ -263,56 +297,64 @@
     "author": "F. Scott Fitzgerald",
     "source": "The Great Gatsby",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-054",
     "text": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
     "author": "Lao Tzu",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-055",
     "text": "Modern dating: where ghosting is more common than actual commitment.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-056",
     "text": "I swear I couldn't love you more than I do right now, and yet I know I will tomorrow.",
     "author": "Leo Christopher",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-057",
     "text": "You don't marry someone you can live with, you marry the person who you cannot live without.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-058",
     "text": "The best relationships are the ones where you can be your complete, weird, unfiltered self and they still think you're the best thing ever.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-059",
     "text": "Dating someone with anxiety means understanding that sometimes we need reassurance, not because we don't trust you, but because our brain is mean to us.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-060",
     "text": "I love you begins by I, but it ends up by you.",
     "author": "Charles de Leusse",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-061",
@@ -320,35 +362,40 @@
     "author": "Catherine Earnshaw",
     "source": "Wuthering Heights",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-062",
     "text": "I don't want perfect, I want honest.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-063",
     "text": "True love is when your heart and your mind are saying the same thing.",
     "author": "Leanna L. Bartram",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-064",
     "text": "When someone else's happiness is your happiness, that is love.",
     "author": "Lana Del Rey",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-065",
     "text": "In a world full of temporary things, you are a perpetual feeling.",
     "author": "Sanober Khan",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-066",
@@ -356,34 +403,39 @@
     "author": "Noah",
     "source": "The Notebook",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-067",
     "text": "Dating is collecting information about someone until you realize you don't like them.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-068",
     "text": "I'd rather have bad times with you than good times with anyone else.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-069",
     "text": "Every love story is beautiful, but ours is my favorite.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   },
   {
     "id": "rel-dating-070",
     "text": "Love is not about how many days, months, or years you've been together. Love is about how much you love each other every single day.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "dating"
+    "subcategory": "dating",
+    "tone": "direct"
   }
 ]

@@ -7,7 +7,7 @@ import { posthog, Events } from '@/utils/posthog';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const optionsMap: Record<string, string[]> = {
-  Up: ['Christianity', 'Islam', 'Judaism', 'General Spirituality'],
+  Up: ['Christianity', 'Islam', 'Hinduism', 'Judaism', 'General Spirituality'],
   In: ['Mindfulness', 'Manifestation', 'Stoicism', 'Poetry'],
   Out: ['Mindfulness', 'Manifestation', 'Stoicism', 'Poetry'],
 };
@@ -36,10 +36,10 @@ export default function FaithDetailScreen() {
             type: 'SET_USER',
             payload: { ...defaultUserData, ...state.user, faithDetail: selected },
           });
-          router.push('/onboarding/tone-preference');
+          router.push('/onboarding/identity-role');
         }
       }}
-      onSkip={() => router.push('/onboarding/tone-preference')}
+      onSkip={() => router.push('/onboarding/identity-role')}
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>

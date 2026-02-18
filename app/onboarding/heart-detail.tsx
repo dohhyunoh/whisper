@@ -37,10 +37,10 @@ export default function HeartDetailScreen() {
             type: 'SET_USER',
             payload: { ...defaultUserData, ...state.user, heartDetail: selected },
           });
-          router.push('/onboarding/identity-role');
+          router.push('/onboarding/faith-base');
         }
       }}
-      onSkip={() => router.push('/onboarding/identity-role')}
+      onSkip={() => router.push('/onboarding/faith-base')}
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>

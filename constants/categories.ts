@@ -56,13 +56,6 @@ export const CATEGORIES: CategoryInfo[] = [
   { key: 'mood-boosters', label: 'Mood Boosters', subcategories: MOOD_BOOSTER_SUBCATEGORIES },
 ];
 
-export const CATEGORY_GRADIENTS: Record<Category, readonly [string, string, string, string]> = {
-  'self-love': ['#F0C8E0', '#F2DCE9', '#F7EEF4', '#F5F5F0'],
-  relationships: ['#F0C8D8', '#F2DCE4', '#F7EEF0', '#F5F5F0'],
-  empowerment: ['#F0E0C8', '#F2E9DC', '#F7F4EE', '#F5F5F0'],
-  religion: ['#D4C8F0', '#E2DCF2', '#F0EEF7', '#F5F5F0'],
-  'mood-boosters': ['#C8F0D8', '#DCF2E4', '#EEF7F0', '#F5F5F0'],
-};
 
 // Premium locking - categories that are always free
 export const FREE_CATEGORIES: Category[] = ['empowerment', 'mood-boosters'];

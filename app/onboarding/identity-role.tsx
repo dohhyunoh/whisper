@@ -36,13 +36,13 @@ export default function IdentityRoleScreen() {
             type: 'SET_USER',
             payload: { ...defaultUserData, ...state.user, heaviestRole: selected },
           });
-          router.push('/onboarding/faith-base');
+          router.push('/onboarding/rest-acknowledge');
         }
       }}
-      onSkip={() => router.push('/onboarding/faith-base')}
+      onSkip={() => router.push('/onboarding/rest-acknowledge')}
       buttonDisabled={!selected}
     >
-      <View style={{ gap: 12 * s }}>
+      <View style={{ gap: 8 * s }}>
         {options.map((option) => {
           const active = selected === option;
           return (
@@ -50,7 +50,7 @@ export default function IdentityRoleScreen() {
               key={option}
               style={({ pressed }) => [
                 styles.pill,
-                { paddingVertical: 14 * s, paddingHorizontal: 20 * s },
+                { paddingVertical: 11 * s, paddingHorizontal: 18 * s },
                 active && styles.pillSelected,
                 pressed ? styles.pillPressed : undefined,
               ]}

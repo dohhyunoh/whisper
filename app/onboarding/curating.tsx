@@ -1,11 +1,10 @@
 import { useAppContext } from '@/context/app-context';
 import { UserData, defaultUserData } from '@/data/types';
+import { Events, posthog } from '@/utils/posthog';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useRef } from 'react';
-import { posthog, Events } from '@/utils/posthog';
 import { StyleSheet, Text, View, useWindowDimensions } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Animated, {
   Easing,
   useAnimatedStyle,
@@ -15,6 +14,7 @@ import Animated, {
   withSequence,
   withTiming,
 } from 'react-native-reanimated';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 function deriveInterests(user: UserData): string[] {
   const interests: string[] = [];
@@ -22,6 +22,7 @@ function deriveInterests(user: UserData): string[] {
   // Faith → religion subcategories
   if (user.faithDetail === 'Christianity') interests.push('religion:christianity');
   if (user.faithDetail === 'Islam') interests.push('religion:islam');
+  if (user.faithDetail === 'Hinduism') interests.push('religion:hinduism');
   if (['Judaism', 'General Spirituality'].includes(user.faithDetail)) interests.push('religion:general-spirituality');
   if (['Mindfulness', 'Stoicism'].includes(user.faithDetail)) interests.push('religion:general-spirituality');
 
@@ -44,12 +45,31 @@ function deriveInterests(user: UserData): string[] {
   }
 
   // Role → empowerment
-  if (user.heaviestRole === 'The Career Woman') interests.push('empowerment:career');
+  if (user.heaviestRole === 'The Careerist') interests.push('empowerment:career');
   if (user.heaviestRole === 'The Critic') interests.push('self-love:self-worth');
+
+  // What helps → map to categories
+  if (user.whatHelps === 'Encouragement') interests.push('empowerment:overcoming-obstacles');
+  if (user.whatHelps === 'Wisdom') interests.push('mood-boosters:philosophy');
+  if (user.whatHelps === 'Compassion') interests.push('self-love:mental-health');
+  if (user.whatHelps === 'Understanding') interests.push('self-love:self-worth');
+  if (user.whatHelps === 'Stillness') interests.push('mood-boosters:calm');
+
+  // App expectations → weight categories
+  if (['A safe space for my thoughts', 'All of the above'].includes(user.appExpect)) {
+    interests.push('self-love:rest-recharge');
+  }
+  if (['A daily reminder to keep going', 'All of the above'].includes(user.appExpect)) {
+    interests.push('mood-boosters:daily-motivation', 'mood-boosters:gratitude');
+  }
+  if (['A companion that understands', 'All of the above'].includes(user.appExpect)) {
+    interests.push('self-love:self-worth', 'mood-boosters:calm');
+  }
 
   // Mood boosters (always include)
   interests.push('mood-boosters:daily-motivation');
-  if (user.tonePreference === 'Gentle Sister') interests.push('mood-boosters:calm');
+  if (user.tonePreference === 'Gentle') interests.push('mood-boosters:calm');
+  if (user.tonePreference === 'Playful') interests.push('mood-boosters:philosophy');
 
   return [...new Set(interests)];
 }

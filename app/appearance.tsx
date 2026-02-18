@@ -1,5 +1,5 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
-import { BACKGROUND_THEMES, IMAGE_THEMES } from '@/constants/premium';
+import { ALL_THEMES, BACKGROUND_THEMES, IMAGE_THEMES, isImageTheme } from '@/constants/premium';
 import { usePremium } from '@/hooks/use-premium';
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
@@ -9,15 +9,18 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function Appearance() {
   const insets = useSafeAreaInsets();
-  const { isPremium, currentTheme, currentFont, setFont, setBackground } = usePremium();
+  const { isPremium, currentTheme, currentFont, setFont, setBackground, shufflePools, activeShuffleIndex } = usePremium();
 
   const classicTheme = BACKGROUND_THEMES[0];
-  const previewImages = IMAGE_THEMES.slice(0, 4);
-
-  const isClassicSelected = currentTheme.key === 'default';
-  const isPremiumThemeSelected = currentTheme.key !== 'default';
+  const isClassicSelected = ['default', 'classic-rose', 'classic-amber', 'classic-lavender', 'classic-mint'].includes(currentTheme.key);
+  const isPicturesSelected = !isClassicSelected && currentTheme.key !== 'shuffle';
+  const isShuffleSelected = currentTheme.key === 'shuffle';
   const isSystemFontSelected = currentFont.key === 'system';
   const isPremiumFontSelected = !isSystemFontSelected;
+
+  // Build thumbnail previews for active shuffle pool
+  const activePool = shufflePools[activeShuffleIndex]?.themes ?? [];
+  const shufflePreviewThemes = activePool.slice(0, 2).map((key) => ALL_THEMES.find((t) => t.key === key)).filter(Boolean);
 
   return (
     <View style={[styles.container, { paddingTop: insets.top }]}>
@@ -35,54 +38,88 @@ export default function Appearance() {
         showsVerticalScrollIndicator={false}
       >
         <Text style={styles.subsectionTitle}>Background Theme</Text>
-        <View style={styles.themesRow}>
-          <Pressable
-            style={[styles.themeCardLarge, isClassicSelected && styles.themeCardLargeSelected]}
-            onPress={() => setBackground('default')}
-          >
+
+        {/* Classic */}
+        <Pressable
+          style={[styles.sectionRow, isClassicSelected && styles.sectionRowActive]}
+          onPress={() => router.push('/appearance-classic')}
+        >
+          <View style={styles.sectionLeft}>
             <LinearGradient
               colors={classicTheme.gradientColors}
-              style={[styles.themePreviewLarge, isClassicSelected && styles.themePreviewLargeSelected]}
+              style={styles.sectionThumb}
               locations={[0, 0.3, 0.7, 1]}
             />
-            <Text style={styles.themeNameLarge}>Classic</Text>
-            {isClassicSelected && (
-              <View style={styles.checkBadge}>
-                <IconSymbol name="checkmark" size={12} color="#FFF" />
-              </View>
-            )}
-          </Pressable>
+            <Text style={styles.sectionText}>Classic</Text>
+          </View>
+          <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
+        </Pressable>
 
-          <Pressable
-            style={[styles.themeCardLarge, isPremiumThemeSelected && styles.themeCardLargeSelected]}
-            onPress={() => {
-              if (!isPremium) { router.push('/onboarding/paywall'); return; }
-              setBackground('shuffle');
-            }}
-          >
-            <View style={[styles.themePreviewLarge, isPremiumThemeSelected && styles.themePreviewLargeSelected]}>
-              <View style={styles.imageGrid}>
-                <View style={styles.imageGridRow}>
-                  <Image source={previewImages[0].imageSource} style={styles.gridImage} resizeMode="cover" />
-                  <Image source={previewImages[1].imageSource} style={styles.gridImage} resizeMode="cover" />
-                </View>
-                <View style={styles.imageGridRow}>
-                  <Image source={previewImages[2].imageSource} style={styles.gridImage} resizeMode="cover" />
-                  <Image source={previewImages[3].imageSource} style={styles.gridImage} resizeMode="cover" />
-                </View>
-              </View>
+        {/* Pictures */}
+        <Pressable
+          style={[styles.sectionRow, isPicturesSelected && styles.sectionRowActive]}
+          onPress={() => {
+            if (!isPremium) {
+              router.push('/onboarding/paywall');
+              return;
+            }
+            router.push('/appearance-pictures');
+          }}
+        >
+          <View style={styles.sectionLeft}>
+            <View style={styles.sectionThumb}>
+              <Image
+                source={IMAGE_THEMES[0].imageSource}
+                style={StyleSheet.absoluteFill}
+                resizeMode="cover"
+              />
             </View>
-            <View style={styles.themeNameRow}>
-              <Text style={styles.themeNameLarge}>Pictures</Text>
-              {!isPremium && <IconSymbol name="lock.fill" size={12} color="#7B9AAA" />}
+            <Text style={styles.sectionText}>Pictures</Text>
+          </View>
+          {!isPremium ? (
+            <IconSymbol name="lock.fill" size={18} color="#7B9AAA" />
+          ) : (
+            <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
+          )}
+        </Pressable>
+
+        {/* Shuffle */}
+        <Pressable
+          style={[styles.sectionRow, isShuffleSelected && styles.sectionRowActive]}
+          onPress={() => {
+            if (!isPremium) {
+              router.push('/onboarding/paywall');
+              return;
+            }
+            router.push('/appearance-shuffle');
+          }}
+        >
+          <View style={styles.sectionLeft}>
+            <View style={styles.sectionThumb}>
+              {shufflePreviewThemes.length === 0 ? (
+                <View style={[StyleSheet.absoluteFill, { backgroundColor: '#B8D9E8', alignItems: 'center', justifyContent: 'center' }]}>
+                  <IconSymbol name="shuffle" size={16} color="#3A6B80" />
+                </View>
+              ) : (
+                shufflePreviewThemes.map((theme, i) => (
+                  <View key={i} style={{ position: 'absolute', top: 0, bottom: 0, left: `${i * 50}%` as any, width: '50%', overflow: 'hidden' }}>
+                    {theme && isImageTheme(theme) ? (
+                      <Image source={theme.imageSource} style={StyleSheet.absoluteFill} resizeMode="cover" />
+                    ) : theme && 'gradientColors' in theme ? (
+                      <LinearGradient colors={theme.gradientColors} style={StyleSheet.absoluteFill} locations={[0, 0.3, 0.7, 1]} />
+                    ) : null}
+                  </View>
+                ))
+              )}
             </View>
-            {isPremiumThemeSelected && (
-              <View style={styles.checkBadge}>
-                <IconSymbol name="checkmark" size={12} color="#FFF" />
-              </View>
-            )}
-          </Pressable>
-        </View>
+            <Text style={styles.sectionText}>Shuffle</Text>
+          </View>
+          {!isPremium ? (
+            <IconSymbol name="lock.fill" size={18} color="#7B9AAA" />
+          ) : (
+            <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
+          )}
+        </Pressable>
 
         <Text style={styles.subsectionTitle}>Quote Font</Text>
         <View style={styles.fontsList}>
@@ -157,7 +194,7 @@ const styles = StyleSheet.create({
   content: {
     paddingHorizontal: 20,
     paddingTop: 8,
-    gap: 12,
+    gap: 10,
   },
   subsectionTitle: {
     fontSize: 14,
@@ -165,62 +202,36 @@ const styles = StyleSheet.create({
     color: '#5A8BA8',
     marginTop: 8,
   },
-  themesRow: {
+  sectionRow: {
     flexDirection: 'row',
-    gap: 12,
-    marginTop: 8,
-  },
-  themeCardLarge: {
-    flex: 1,
     alignItems: 'center',
-    gap: 6,
-    position: 'relative',
-  },
-  themeCardLargeSelected: {},
-  themePreviewLarge: {
-    width: '100%',
-    aspectRatio: 1,
+    justifyContent: 'space-between',
+    backgroundColor: '#FFF',
+    paddingVertical: 12,
+    paddingHorizontal: 14,
     borderRadius: 12,
-    overflow: 'hidden',
-    borderWidth: 2,
-    borderColor: 'transparent',
+    borderWidth: 1,
+    borderColor: 'rgba(122, 154, 170, 0.2)',
   },
-  themePreviewLargeSelected: {
+  sectionRowActive: {
     borderColor: '#3A6B80',
+    backgroundColor: 'rgba(58, 107, 128, 0.05)',
   },
-  imageGrid: {
-    flex: 1,
-    width: '100%',
-  },
-  imageGridRow: {
-    flex: 1,
+  sectionLeft: {
     flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
   },
-  gridImage: {
-    flex: 1,
-    height: '100%',
+  sectionThumb: {
+    width: 40,
+    height: 40,
+    borderRadius: 8,
+    overflow: 'hidden',
   },
-  themeNameLarge: {
-    fontSize: 14,
+  sectionText: {
+    fontSize: 16,
+    fontWeight: '600',
     color: '#3A6B80',
-    fontWeight: '500',
-    textAlign: 'center',
-  },
-  themeNameRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 4,
-  },
-  checkBadge: {
-    position: 'absolute',
-    top: 8,
-    right: 8,
-    width: 22,
-    height: 22,
-    borderRadius: 11,
-    backgroundColor: '#3A6B80',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   fontsList: {
     gap: 6,

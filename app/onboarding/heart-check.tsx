@@ -1,9 +1,9 @@
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
+import { Events, posthog } from '@/utils/posthog';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { posthog, Events } from '@/utils/posthog';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const options = ['Just me', 'A new partner', 'A long-term partner', 'An ex-partner', 'My family/friends'];
@@ -21,7 +21,7 @@ export default function HeartCheckScreen() {
 
   return (
     <OnboardingLayout
-      title={"Who is holding\nyour heart?"}
+      title={"Who holds a \nspecial place in your heart?"}
       subtitle="Right now, in this season of life."
       onContinue={() => {
         if (selected) {
@@ -30,13 +30,13 @@ export default function HeartCheckScreen() {
             payload: { ...defaultUserData, ...state.user, heartStatus: selected },
           });
           if (selected === 'My family/friends') {
-            router.push('/onboarding/identity-role');
+            router.push('/onboarding/faith-base');
           } else {
             router.push('/onboarding/heart-detail');
           }
         }
       }}
-      onSkip={() => router.push('/onboarding/identity-role')}
+      onSkip={() => router.push('/onboarding/faith-base')}
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>

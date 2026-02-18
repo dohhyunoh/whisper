@@ -4,420 +4,464 @@
     "text": "My family is my strength and my weakness.",
     "author": "Aishwarya Rai Bachchan",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-002",
     "text": "To us, family means putting your arms around each other and being there.",
     "author": "Barbara Bush",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-003",
     "text": "The family is one of nature's masterpieces.",
     "author": "George Santayana",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-004",
     "text": "A family is a risky venture, because the greater the love, the greater the loss... That's the trade-off. But I'll take it all.",
     "author": "Brad Pitt",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-005",
     "text": "Having family responsibilities and concerns just has to make you a more understanding person.",
     "author": "Sandra Day O'Connor",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-006",
     "text": "He who is overly attached to his family members experiences fear and sorrow, for the root of all grief is attachment. Thus one should discard attachment to be happy.",
     "author": "Chanakya",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-007",
     "text": "The children have been a wonderful gift to me, and I'm thankful to have once again seen our world through their eyes. They restore my faith in the family's future.",
     "author": "Jackie Kennedy",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-008",
     "text": "The greatest thing in family life is to take a hint when a hint is intended-and not to take a hint when a hint isn't intended.",
     "author": "Robert Frost",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-009",
     "text": "The only rock I know that stays steady, the only institution I know that works, is the family.",
     "author": "Lee Iacocca",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-010",
     "text": "The family is the first essential cell of human society.",
     "author": "Pope John XXIII",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-011",
     "text": "Dignity is not negotiable. Dignity is the honor of the family.",
     "author": "Vartan Gregorian",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-012",
     "text": "I find the family the most mysterious and fascinating institution in the world.",
     "author": "Amos Oz",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-013",
     "text": "The family is the test of freedom; because the family is the only thing that the free man makes for himself and by himself.",
     "author": "Gilbert K. Chesterton",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-014",
     "text": "Give a little love to a child, and you get a great deal back.",
     "author": "John Ruskin",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-015",
     "text": "I have a great family, I live an amazing life.",
     "author": "John Oates",
     "category": "relationships",
-    "subcategory": "family"
-  },
-  {
-    "id": "rel-family-016",
-    "text": "My whole damn family was nice. I don't think I've imagined it. It's true.",
-    "author": "Henry Fonda",
-    "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-017",
     "text": "I love cooking for myself and cooking for my family.",
     "author": "Al Roker",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-018",
     "text": "I woke up one morning thinking about wolves and realized that wolf packs function as families. Everyone has a role, and if you act within the parameters of your role, the whole pack succeeds, and when that falls apart, so does the pack.",
     "author": "Jodi Picoult",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-020",
     "text": "I am the family face; flesh perishes, I live on.",
     "author": "Thomas Hardy",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-021",
     "text": "I have a family to support. And I'm not always going to be doing exactly what I want to do.",
     "author": "Patrick Warburton",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-022",
     "text": "I think togetherness is a very important ingredient to family life.",
     "author": "Barbara Bush",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-023",
     "text": "It takes a lot of work to put together a marriage, to put together a family and a home.",
     "author": "Elizabeth Edwards",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-024",
     "text": "The family is the nucleus of civilization.",
     "author": "Will Durant",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-025",
     "text": "My family comes first. Maybe that's what makes me different from other guys.",
     "author": "Bobby Darin",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-026",
     "text": "Family is not an important thing. It's everything.",
     "author": "Michael J. Fox",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-027",
     "text": "The other night I ate at a real nice family restaurant. Every table had an argument going.",
     "author": "George Carlin",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-028",
     "text": "If a country is to be corruption free and become a nation of beautiful minds, I strongly feel there are three key societal members who can make a difference. They are the father, the mother and the teacher.",
     "author": "A. P. J. Abdul Kalam",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-029",
     "text": "Family is the most important thing in the world.",
     "author": "Princess Diana",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-030",
     "text": "A happy family is but an earlier heaven.",
     "author": "George Bernard Shaw",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-031",
     "text": "Family means no one gets left behind or forgotten.",
     "author": "David Ogden Stiers",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-032",
     "text": "Sister is probably the most competitive relationship within the family, but once the sisters are grown, it becomes the strongest relationship.",
     "author": "Margaret Mead",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-033",
     "text": "You are the bows from which your children as living arrows are sent forth.",
     "author": "Khalil Gibran",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-034",
     "text": "Family quarrels are bitter things. They don't go according to any rules. They're not like aches or wounds, they're more like splits in the skin that won't heal because there's not enough material.",
     "author": "F. Scott Fitzgerald",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-035",
     "text": "I believe the world is one big family, and we need to help each other.",
     "author": "Jet Li",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-036",
     "text": "I have frequently been questioned, especially by women, of how I could reconcile family life with a scientific career. Well, it has not been easy.",
     "author": "Marie Curie",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-037",
     "text": "Feelings of worth can flourish only in an atmosphere where individual differences are appreciated, mistakes are tolerated, communication is open, and rules are flexible - the kind of atmosphere that is found in a nurturing family.",
     "author": "Virginia Satir",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-038",
     "text": "When trouble comes, it's your family that supports you.",
     "author": "Guy Lafleur",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-039",
     "text": "Family, nature and health all go together.",
     "author": "Olivia Newton-John",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-040",
     "text": "A family is a place where principles are hammered and honed on the anvil of everyday living.",
     "author": "Charles R. Swindoll",
     "category": "relationships",
-    "subcategory": "family"
-  },
-  {
-    "id": "rel-family-041",
-    "text": "Maybe there is no actual place called hell. Maybe hell is just having to listen to our grandparents breathe through their noses when they're eating sandwiches.",
-    "author": "Jim Carrey",
-    "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-042",
     "text": "There is no such thing as fun for the whole family.",
     "author": "Jerry Seinfeld",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-043",
     "text": "Insanity runs in my family. It practically gallops.",
     "author": "Cary Grant",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-044",
     "text": "I've always put my family first and that's just the way it is.",
     "author": "Jamie Lee Curtis",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-045",
     "text": "A man should never neglect his family for business.",
     "author": "Walt Disney",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-046",
     "text": "My father used to play with my brother and me in the yard. Mother would come out and say, 'You're tearing up the grass'; 'We're not raising grass,' Dad would reply. 'We're raising boys.'",
     "author": "Harmon Killebrew",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-047",
     "text": "Spend some time this weekend on home improvement; improve your attitude toward your family.",
     "author": "Bo Bennett",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-048",
     "text": "The foundation of family - that's where it all begins for me.",
     "author": "Faith Hill",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-049",
     "text": "My kids give me the balance to live right.",
     "author": "Celine Dion",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-050",
     "text": "I don't think anyone has a normal family.",
     "author": "Edward Furlong",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-051",
     "text": "Tennis is just a game, family is forever.",
     "author": "Serena Williams",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-052",
     "text": "It didn't matter how big our house was; it mattered that there was love in it.",
     "author": "Peter Buffett",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-053",
     "text": "Call it a clan, call it a network, call it a tribe, call it a family: Whatever you call it, whoever you are, you need one.",
     "author": "Jane Howard",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-054",
     "text": "We may have our differences, but nothing's more important than family.",
     "author": "Coco",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-055",
     "text": "The bond that links your true family is not one of blood, but of respect and joy in each other's life.",
     "author": "Richard Bach",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-056",
     "text": "Being a family means you are a part of something very wonderful. It means you will love and be loved for the rest of your life.",
     "author": "Lisa Weed",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-057",
     "text": "Happiness is having a large, loving, caring, close-knit family in another city.",
     "author": "George Burns",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-058",
     "text": "The strength of a family, like the strength of an army, lies in its loyalty to each other.",
     "author": "Mario Puzo",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-059",
     "text": "The most important thing in the world is family and love.",
     "author": "John Wooden",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-060",
     "text": "When everything goes to hell, the people who stand by you without flinching–they are your family.",
     "author": "Jim Butcher",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-061",
     "text": "In family life, love is the oil that eases friction, the cement that binds closer together, and the music that brings harmony.",
     "author": "Friedrich Nietzsche",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-062",
@@ -425,147 +469,168 @@
     "author": "Rick Riordan",
     "source": "Percy Jackson series",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-063",
     "text": "Family faces are magic mirrors. Looking at people who belong to us, we see the past, present, and future.",
     "author": "Gail Lumet Buckley",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-064",
     "text": "Families are the compass that guides us. They are the inspiration to reach great heights, and our comfort when we occasionally falter.",
     "author": "Brad Henry",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-065",
     "text": "So much of what is best in us is bound up in our love of family, that it remains the measure of our stability because it measures our sense of loyalty.",
     "author": "Haniel Long",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-067",
     "text": "Everyone needs a house to live in, but a supportive family is what builds a home.",
     "author": "Anthony Liccione",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-068",
     "text": "My grandmother started walking five miles a day when she was sixty. She's ninety-seven now, and we don't know where the heck she is.",
     "author": "Ellen DeGeneres",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-069",
     "text": "You don't choose your family. They are God's gift to you, as you are to them.",
     "author": "Desmond Tutu",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-070",
     "text": "Parents are like God because you wanna know they're out there, and you want them to think well of you, but you really only call when you need something.",
     "author": "Chuck Palahniuk",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-071",
     "text": "The informality of family life is a blessed condition that allows us all to become our best while looking our worst.",
     "author": "Marge Kennedy",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-072",
     "text": "The greatest gift of family life is to be intimately acquainted with people you might never even introduce yourself to, had life not done it for you.",
     "author": "Kendall Hailey",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-073",
     "text": "Having a place to go is a home. Having someone to love is a family. Having both is a blessing.",
     "author": "Donna Hedges",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-074",
     "text": "Being part of a family means smiling for photos.",
     "author": "Harry Morgan",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-075",
     "text": "That's what people do who love you. They put their arms around you and love you when you're not so lovable.",
     "author": "Deb Caletti",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-076",
     "text": "There's nothing that makes you more insane than family. Or more happy, or more exasperated, or more secure.",
     "author": "Jim Butcher",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-077",
     "text": "Family is family.",
     "author": "Linda Linney",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-078",
     "text": "In time of test, family is best.",
     "author": "Burmese Proverb",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-079",
     "text": "If the family were a boat, it would be a canoe that makes no progress unless everyone paddles.",
     "author": "Letty Cottin Pogrebin",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-080",
     "text": "One day you will do things for me that you hate. That is what it means to be family.",
     "author": "Jonathan Safran Foer",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-081",
     "text": "I am blessed to have so many great things in my life – family, friends, and God. All will be in my thoughts daily.",
     "author": "Lil' Kim",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-082",
     "text": "I have learned that to be with those I like is enough.",
     "author": "Walt Whitman",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-083",
     "text": "The family–that dear octopus from whose tentacles we never quite escape, nor, in our inmost hearts, ever quite wish to.",
     "author": "Dodie Smith",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-084",
@@ -573,147 +638,168 @@
     "author": "Rick Riordan",
     "source": "Percy Jackson series",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-085",
     "text": "Rejoice with your family in the beautiful land of life.",
     "author": "Albert Einstein",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-086",
     "text": "Let love be genuine. Abhor what is evil; hold fast to what is good.",
     "author": "Romans 12:9",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-087",
     "text": "Sticking with your family is what makes it a family.",
     "author": "Mitch Albom",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-088",
     "text": "What can you do to promote world peace? Go home and love your family.",
     "author": "Mother Teresa",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-089",
     "text": "It's all about the quality of life and finding a happy balance between work and friends and family.",
     "author": "Philip Green",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-090",
     "text": "If you cannot get rid of the family skeleton, you may as well make it dance.",
     "author": "George Bernard Shaw",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-091",
     "text": "Show me a family of readers, and I will show you the people who move the world.",
     "author": "Napoleon Bonaparte",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-092",
     "text": "Family and friendships are two of the greatest facilitators of happiness.",
     "author": "John C. Maxwell",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-093",
     "text": "Parents were the only ones obligated to love you; from the rest of the world you had to earn it.",
     "author": "Ann Brashares",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-094",
     "text": "Nothing is better than going home to family and eating good food and relaxing.",
     "author": "Irina Shayk",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-095",
     "text": "Family and friends are hidden treasures, seek them and enjoy their riches.",
     "author": "Wanda Hope Carter",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-096",
     "text": "Friends are the family you choose.",
     "author": "Jess C. Scott",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-097",
     "text": "Other things may change us, but we start and end with the family.",
     "author": "Anthony Brandt",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-098",
     "text": "Stick to the basics, hold on to your family and friends – they will never go out of fashion.",
     "author": "Niki Taylor",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-099",
     "text": "My mother used to tell me that when push comes to shove, you always know who to turn to. That being a family isn't a social construct but an instinct.",
     "author": "Jodi Picoult",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-100",
     "text": "The world, we'd discovered, doesn't love you like your family loves you.",
     "author": "Louis Zamperini",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-101",
     "text": "My family is my life, and everything else comes second as far as what's important to me.",
     "author": "Michael Imperioli",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-102",
     "text": "Home is people. Not a place. If you go back there after the people are gone, then all you can see is what is not there any more.",
     "author": "Robin Hobb",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-103",
     "text": "It is the smile of a child, the love of a mother, the joy of a father, the togetherness of a family.",
     "author": "Menacheim Begin",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-104",
     "text": "Home is where you are loved the most and act the worst.",
     "author": "Marjorie Pay Hinckley",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-105",
@@ -721,7 +807,8 @@
     "author": "Stitch",
     "source": "Lilo & Stitch",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-106",
@@ -729,28 +816,32 @@
     "author": "Rick Riordan",
     "source": "Percy Jackson series",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-107",
     "text": "The love of family and the admiration of friends are much more important than wealth and privilege.",
     "author": "Charles Kuralt",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-108",
     "text": "There is no doubt that it is around the family and the home that all the greatest virtues… are created, strengthened and maintained.",
     "author": "Winston Churchill",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-110",
     "text": "You need a rock-solid foundation of friends and family to keep you where you need to be.",
     "author": "Lilly Singh",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-111",
@@ -758,133 +849,151 @@
     "author": "Olaf",
     "source": "Frozen",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-112",
     "text": "I sustain myself with the love of family.",
     "author": "Maya Angelou",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-113",
     "text": "Nothing purchased can come close to the renewed sense of gratitude for having family and friends.",
     "author": "Courtland Milloy",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-114",
     "text": "All happy families are alike; each unhappy family is unhappy in its own way.",
     "author": "Leo Tolstoy",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
-
   {
     "id": "rel-family-116",
     "text": "Life is beautiful. It's about giving. It's about family.",
     "author": "Walt Disney",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-118",
     "text": "A family is a bunch of people who keep confusing you with someone you were as a kid.",
     "author": "Robert Brault",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-120",
     "text": "Home isn't where you're from, it's where you find light when all grows dark.",
     "author": "Pierce Brown",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-121",
     "text": "A dysfunctional family is any family with more than one person in it.",
     "author": "Mary Karr",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-122",
     "text": "Our most basic instinct is not for survival but for family.",
     "author": "Paul Pearsall",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-123",
     "text": "Families are like fudge–mostly sweet, with a few nuts.",
     "author": "Les Dawson",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-124",
     "text": "Having a family is like having a bowling alley installed in your brain.",
     "author": "Martin Mull",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-125",
     "text": "A man travels the world over in search of what he needs, and returns home to find it.",
     "author": "George A. Moore",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-126",
     "text": "I don't think quantity time is as special as quality time with your family.",
     "author": "Reba McEntire",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-127",
     "text": "You are born into your family and your family is born into you. No returns. No exchanges.",
     "author": "Elizabeth Berg",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-128",
     "text": "Family isn't something that's supposed to be static, or set. People marry in, divorce out. They're born, they die. It's always evolving, turning into something else.",
     "author": "Sarah Dessen",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-129",
     "text": "My greatest pleasure is spending time with my family.",
     "author": "Siri Hustvedt",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-130",
     "text": "A daughter without her mother is a woman broken. It is a loss that turns to arthritis and settles deep into her bones.",
     "author": "Kristin Hannah",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-131",
     "text": "I have a wonderful shelter, which is my family.",
     "author": "José Carreras",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   },
   {
     "id": "rel-family-132",
     "text": "In every conceivable manner, the family is a link to our past, bridge to our future.",
     "author": "Alex Haley",
     "category": "relationships",
-    "subcategory": "family"
+    "subcategory": "family",
+    "tone": "gentle"
   }
 ]

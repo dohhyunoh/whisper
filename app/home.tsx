@@ -6,7 +6,7 @@ import { useAppContext } from '@/context/app-context';
 import { hasSeenSwipeHint, markSwipeHintSeen } from '@/utils/storage';
 import { getTodayDateString } from '@/utils/streak';
 import { RiveFileFactory, RiveView, useRive } from '@rive-app/react-native';
-import { BlurView } from 'expo-blur';
+import { GlassContainer } from '@/components/glass-container';
 import { router } from 'expo-router';
 import React, { useCallback, useEffect, useState } from 'react';
 import { Pressable, StyleSheet, View, useWindowDimensions } from 'react-native';
@@ -92,10 +92,12 @@ export default function HomeScreen() {
       {/* Rive animation - bottom left */}
       {riveFile && (
         <Pressable
-          style={[styles.riveContainer, { bottom: insets.bottom + 20, width: buttonSize, height: buttonSize, borderRadius: buttonSize / 2 }]}
+          style={[styles.riveContainer, { bottom: insets.bottom + 20 }]}
           onPress={() => router.push('/streak-detail')}
         >
-          <BlurView intensity={80} tint="light" style={styles.blur}>
+          <GlassContainer
+            style={[styles.glassButton, { width: buttonSize, height: buttonSize, borderRadius: buttonSize / 2 }]}
+          >
             <RiveView
               hybridRef={setHybridRef}
               file={riveFile}
@@ -103,7 +105,7 @@ export default function HomeScreen() {
               autoPlay
               style={{ width: buttonSize + 2, height: buttonSize + 2 }}
             />
-          </BlurView>
+          </GlassContainer>
         </Pressable>
       )}
 
@@ -131,18 +133,8 @@ const styles = StyleSheet.create({
   riveContainer: {
     position: 'absolute',
     left: 16,
-    overflow: 'hidden',
-    backgroundColor: 'rgba(20, 20, 20, 0.3)',
-    borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.15)',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 10,
-    elevation: 5,
   },
-  blur: {
-    flex: 1,
+  glassButton: {
     justifyContent: 'center',
     alignItems: 'center',
   },

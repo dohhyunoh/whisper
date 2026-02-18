@@ -28,10 +28,10 @@ export default function GenderSelectionScreen() {
             type: 'SET_USER',
             payload: { ...defaultUserData, ...state.user, gender: selected },
           });
-          router.push('/onboarding/primary-emotion');
+          router.push('/onboarding/rest-welcome');
         }
       }}
-      onSkip={() => router.push('/onboarding/primary-emotion')}
+      onSkip={() => router.push('/onboarding/rest-welcome')}
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>

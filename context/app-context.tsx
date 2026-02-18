@@ -104,6 +104,31 @@ function reducer(state: AppState, action: AppAction): AppState {
       if (state.streakDates.includes(dateStr)) return state;
       return { ...state, streakDates: [...state.streakDates, dateStr] };
     }
+    case 'SET_CUSTOM_PHOTO':
+      return {
+        ...state,
+        premium: {
+          ...state.premium,
+          settings: {
+            ...state.premium.settings,
+            customPhotoUri: action.payload,
+            selectedBackground: 'custom-photo',
+          },
+        },
+      };
+    case 'SET_SHUFFLE_POOLS':
+      return {
+        ...state,
+        premium: {
+          ...state.premium,
+          settings: {
+            ...state.premium.settings,
+            shufflePools: action.payload.pools,
+            activeShuffleIndex: action.payload.activeIndex,
+            selectedBackground: 'shuffle',
+          },
+        },
+      };
     default:
       return state;
   }

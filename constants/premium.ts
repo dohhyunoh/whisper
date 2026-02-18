@@ -67,10 +67,42 @@ export interface BackgroundTheme {
 export const BACKGROUND_THEMES: BackgroundTheme[] = [
   {
     key: 'default',
-    displayName: 'Classic',
+    displayName: 'Sky Blue',
     gradientColors: ['#B8D9E8', '#D4E8F0', '#EEF4F7', '#F5F5F0'],
     textColor: '#3A6B80',
     secondaryTextColor: '#5A8BA8',
+    isPremium: false,
+  },
+  {
+    key: 'classic-rose',
+    displayName: 'Rose',
+    gradientColors: ['#F0C8E0', '#F2DCE9', '#F7EEF4', '#F5F5F0'],
+    textColor: '#803A6B',
+    secondaryTextColor: '#A85A8B',
+    isPremium: false,
+  },
+  {
+    key: 'classic-amber',
+    displayName: 'Amber',
+    gradientColors: ['#F0E0C8', '#F2E9DC', '#F7F4EE', '#F5F5F0'],
+    textColor: '#806B3A',
+    secondaryTextColor: '#A88B5A',
+    isPremium: false,
+  },
+  {
+    key: 'classic-lavender',
+    displayName: 'Lavender',
+    gradientColors: ['#D4C8F0', '#E2DCF2', '#F0EEF7', '#F5F5F0'],
+    textColor: '#5A3A80',
+    secondaryTextColor: '#7B5AA8',
+    isPremium: false,
+  },
+  {
+    key: 'classic-mint',
+    displayName: 'Mint',
+    gradientColors: ['#C8F0D8', '#DCF2E4', '#EEF7F0', '#F5F5F0'],
+    textColor: '#3A806B',
+    secondaryTextColor: '#5AA88B',
     isPremium: false,
   },
 ];

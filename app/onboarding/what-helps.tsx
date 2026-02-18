@@ -6,9 +6,15 @@ import React, { useEffect, useState } from 'react';
 import { posthog, Events } from '@/utils/posthog';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
-const options = ['Chest', 'Stomach', 'Shoulders', 'Head', 'Prefer not to answer'];
+const options = [
+  { label: 'Encouragement from others', value: 'Encouragement' },
+  { label: 'Words of wisdom', value: 'Wisdom' },
+  { label: 'Compassion & kindness', value: 'Compassion' },
+  { label: 'Feeling understood', value: 'Understanding' },
+  { label: 'A moment of stillness', value: 'Stillness' },
+];
 
-export default function BodyCheckScreen() {
+export default function WhatHelpsScreen() {
   const router = useRouter();
   const { state, dispatch } = useAppContext();
   const [selected, setSelected] = useState<string | null>(null);
@@ -16,31 +22,31 @@ export default function BodyCheckScreen() {
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
   useEffect(() => {
-    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'body_check' });
+    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'what_helps' });
   }, []);
 
   return (
     <OnboardingLayout
-      title={"Where are you\ncarrying this feeling?"}
-      subtitle="Your body keeps the score."
+      title={"What helps you feel\nlike yourself again?"}
+      subtitle="There's no wrong answer."
       onContinue={() => {
         if (selected) {
           dispatch({
             type: 'SET_USER',
-            payload: { ...defaultUserData, ...state.user, bodyCarry: selected },
+            payload: { ...defaultUserData, ...state.user, whatHelps: selected },
           });
-          router.push('/onboarding/narrative');
+          router.push('/onboarding/words-shape');
         }
       }}
-      onSkip={() => router.push('/onboarding/narrative')}
+      onSkip={() => router.push('/onboarding/words-shape')}
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>
         {options.map((option) => {
-          const active = selected === option;
+          const active = selected === option.value;
           return (
             <Pressable
-              key={option}
+              key={option.value}
               style={({ pressed }) => [
                 styles.pill,
                 { paddingVertical: 14 * s, paddingHorizontal: 20 * s },
@@ -48,12 +54,12 @@ export default function BodyCheckScreen() {
                 pressed ? styles.pillPressed : undefined,
               ]}
               onPress={() => {
-                setSelected(option);
-                posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'body_check', choice: option });
+                setSelected(option.value);
+                posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'what_helps', choice: option.value });
               }}
             >
               <Text style={[styles.pillText, { fontSize: 16 * s }, active && styles.pillTextSelected]}>
-                {option}
+                {option.label}
               </Text>
               <View style={[styles.radio, { width: 22 * s, height: 22 * s, borderRadius: 11 * s }, active && styles.radioSelected]}>
                 {active && <View style={[styles.radioDot, { width: 10 * s, height: 10 * s, borderRadius: 5 * s }]} />}

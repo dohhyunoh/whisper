@@ -7,9 +7,9 @@ import { posthog, Events } from '@/utils/posthog';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const options = [
-  { label: 'Gentle', description: 'Soft, warm, and nurturing' },
-  { label: 'Wise Mentor', description: 'Thoughtful, grounded, and honest' },
-  { label: 'Tough Love', description: 'Direct, firm, and empowering' },
+  { label: 'Gentle', description: 'Soft, warm, and compassionate' },
+  { label: 'Playful', description: 'Light-hearted humor meets deep questions' },
+  { label: 'Tough Love', description: 'Direct, clear, and action-oriented' },
 ];
 
 export default function TonePreferenceScreen() {

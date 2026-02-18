@@ -31,6 +31,7 @@ import moodDailyMotivation from './mood-daily-motivation.json';
 import moodHumor from './mood-humor.json';
 import moodCalm from './mood-calm.json';
 import moodGratitude from './mood-gratitude.json';
+import moodPhilosophy from './mood-philosophy.json';
 
 const allQuotes: Quote[] = [
   // Self-Love & Wellness
@@ -60,6 +61,7 @@ const allQuotes: Quote[] = [
   ...moodHumor,
   ...moodCalm,
   ...moodGratitude,
+  ...moodPhilosophy,
 ] as Quote[];
 
 export default allQuotes;

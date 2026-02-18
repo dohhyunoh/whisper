@@ -1,14 +1,18 @@
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
+import { Events, posthog } from '@/utils/posthog';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { posthog, Events } from '@/utils/posthog';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
-const options = ['Chest', 'Stomach', 'Shoulders', 'Head', 'Prefer not to answer'];
+const options = [
+  'Absolutely',
+  'I want to believe that',
+  "I'm not sure yet",
+];
 
-export default function BodyCheckScreen() {
+export default function WordsShapeScreen() {
   const router = useRouter();
   const { state, dispatch } = useAppContext();
   const [selected, setSelected] = useState<string | null>(null);
@@ -16,23 +20,22 @@ export default function BodyCheckScreen() {
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
   useEffect(() => {
-    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'body_check' });
+    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'words_shape' });
   }, []);
 
   return (
     <OnboardingLayout
-      title={"Where are you\ncarrying this feeling?"}
-      subtitle="Your body keeps the score."
+      title={"Do you believe\nwords can change\nhow you think?"}
       onContinue={() => {
         if (selected) {
           dispatch({
             type: 'SET_USER',
-            payload: { ...defaultUserData, ...state.user, bodyCarry: selected },
+            payload: { ...defaultUserData, ...state.user, wordsShape: selected },
           });
-          router.push('/onboarding/narrative');
+          router.push('/onboarding/quote-ritual');
         }
       }}
-      onSkip={() => router.push('/onboarding/narrative')}
+      onSkip={() => router.push('/onboarding/quote-ritual')}
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>
@@ -49,7 +52,7 @@ export default function BodyCheckScreen() {
               ]}
               onPress={() => {
                 setSelected(option);
-                posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'body_check', choice: option });
+                posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'words_shape', choice: option });
               }}
             >
               <Text style={[styles.pillText, { fontSize: 16 * s }, active && styles.pillTextSelected]}>

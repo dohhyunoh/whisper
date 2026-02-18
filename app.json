@@ -45,7 +45,14 @@
           }
         }
       ],
-      "expo-font"
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Whisper needs access to your photos to set a custom background.",
+          "cameraPermission": "Whisper needs access to your camera to take a photo for your background."
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,

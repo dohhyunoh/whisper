@@ -4,511 +4,600 @@
     "text": "It does not matter how slowly you go as long as you do not stop.",
     "author": "Confucius",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-002",
     "text": "Good, better, best. Never let it rest. 'Til your good is better and your better is best.",
     "author": "St. Jerome",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-003",
     "text": "It always seems impossible until it's done.",
     "author": "Nelson Mandela",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-004",
     "text": "Either you run the day or the day runs you.",
     "author": "Jim Rohn",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-005",
     "text": "Life is 10% what happens to you and 90% how you react to it.",
     "author": "Charles R. Swindoll",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-006",
     "text": "If you're going through hell, keep going.",
     "author": "Winston Churchill",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-007",
     "text": "Failure will never overtake me if my determination to succeed is strong enough.",
     "author": "Og Mandino",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-008",
     "text": "When something is important enough, you do it even if the odds are not in your favor.",
     "author": "Elon Musk",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-009",
     "text": "If you can dream it, you can do it.",
     "author": "Walt Disney",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-010",
     "text": "What you do today can improve all your tomorrows.",
     "author": "Ralph Marston",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-011",
     "text": "You can't expect to hit the jackpot if you don't put a few nickels in the machine.",
     "author": "Flip Wilson",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-012",
     "text": "Quality is not an act, it is a habit.",
     "author": "Aristotle",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-013",
     "text": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
     "author": "Johann Wolfgang von Goethe",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-014",
     "text": "Keep your eyes on the stars, and your feet on the ground.",
     "author": "Theodore Roosevelt",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-015",
     "text": "When you reach the end of your rope, tie a knot in it and hang on.",
     "author": "Franklin D. Roosevelt",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-016",
     "text": "Perseverance is not a long race; it is many short races one after the other.",
     "author": "Walter Elliot",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-017",
     "text": "You can't cross the sea merely by standing and staring at the water.",
     "author": "Rabindranath Tagore",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-018",
     "text": "The most effective way to do it, is to do it.",
     "author": "Amelia Earhart",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-019",
     "text": "You just can't beat the person who never gives up.",
     "author": "Babe Ruth",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-020",
     "text": "Act as if what you do makes a difference. It does.",
     "author": "William James",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-021",
     "text": "Set your goals high, and don't stop till you get there.",
     "author": "Bo Jackson",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-022",
     "text": "Things do not happen. Things are made to happen.",
     "author": "John F. Kennedy",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-023",
     "text": "A creative man is motivated by the desire to achieve, not by the desire to beat others.",
     "author": "Ayn Rand",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-024",
     "text": "In order to succeed, we must first believe that we can.",
     "author": "Nikos Kazantzakis",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-025",
     "text": "The harder the conflict, the more glorious the triumph.",
     "author": "Thomas Paine",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-026",
     "text": "Only I can change my life. No one can do it for me.",
     "author": "Carol Burnett",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-027",
     "text": "Change your life today. Don't gamble on the future, act now, without delay.",
     "author": "Simone de Beauvoir",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-028",
     "text": "Do you want to know who you are? Don't ask. Act! Action will delineate and define you.",
     "author": "Thomas Jefferson",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-029",
     "text": "Do not wait to strike till the iron is hot; but make it hot by striking.",
     "author": "William Butler Yeats",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-030",
     "text": "If you fell down yesterday, stand up today.",
     "author": "H. G. Wells",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-031",
     "text": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
     "author": "Thomas A. Edison",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-032",
     "text": "Start where you are. Use what you have. Do what you can.",
     "author": "Arthur Ashe",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-033",
     "text": "A good plan violently executed now is better than a perfect plan executed next week.",
     "author": "George S. Patton",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-034",
     "text": "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
     "author": "Samuel Beckett",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-035",
     "text": "I attribute my success to this - I never gave or took any excuse.",
     "author": "Florence Nightingale",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-036",
     "text": "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
     "author": "Helen Keller",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-037",
     "text": "Do the difficult things while they are easy and do the great things while they are small.",
     "author": "Lao Tzu",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-038",
     "text": "A journey of a thousand miles must begin with a single step.",
     "author": "Lao Tzu",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-039",
     "text": "Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.",
     "author": "Norman Vincent Peale",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-040",
     "text": "With the new day comes new strength and new thoughts.",
     "author": "Eleanor Roosevelt",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-041",
     "text": "Don't watch the clock; do what it does. Keep going.",
     "author": "Sam Levenson",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-042",
     "text": "The secret of getting ahead is getting started.",
     "author": "Mark Twain",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-043",
     "text": "Be kind whenever possible. It is always possible.",
     "author": "Dalai Lama",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-044",
     "text": "Well done is better than well said.",
     "author": "Benjamin Franklin",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-045",
     "text": "We may encounter many defeats but we must not be defeated.",
     "author": "Maya Angelou",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-046",
     "text": "There is only one corner of the universe you can be certain of improving, and that's your own self.",
     "author": "Aldous Huxley",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-047",
     "text": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
     "author": "Zig Ziglar",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-048",
     "text": "Your talent is God's gift to you. What you do with it is your gift back to God.",
     "author": "Leo Buscaglia",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-049",
     "text": "Setting goals is the first step in turning the invisible into the visible.",
     "author": "Tony Robbins",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-050",
     "text": "You are never too old to set another goal or to dream a new dream.",
     "author": "Les Brown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-051",
     "text": "I am not afraid... I was born to do this.",
     "author": "Joan of Arc",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-052",
     "text": "The key is to keep company only with people who uplift you, whose presence calls forth your best.",
     "author": "Epictetus",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-053",
     "text": "Aim for the moon. If you miss, you may hit a star.",
     "author": "W. Clement Stone",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-054",
     "text": "Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice.",
     "author": "Wayne Dyer",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-055",
     "text": "You didn't come this far to only come this far.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-056",
     "text": "On the other side of fear is everything you've ever wanted.",
     "author": "George Addair",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-057",
     "text": "Someone who wants the best for you is what's best for you.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-058",
     "text": "The comeback is always stronger than the setback.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-059",
     "text": "Your current situation is not your final destination. The best is yet to come.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-060",
     "text": "Nothing can dim the light that shines from within.",
     "author": "Maya Angelou",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-061",
     "text": "You are allowed to be both a masterpiece and a work in progress simultaneously.",
     "author": "Sophia Bush",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-062",
     "text": "Everything you want is on the other side of hard.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-063",
     "text": "Don't downgrade your dream just to fit your reality. Upgrade your conviction to match your destiny.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-064",
     "text": "You were given this life because you are strong enough to live it.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-065",
     "text": "Sometimes when you're in a dark place you think you've been buried, but you've actually been planted.",
     "author": "Christine Caine",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-066",
     "text": "I hope you know you're capable and brave and significant. Even when it feels like you're not.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-067",
     "text": "One day or day one. You decide.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-068",
     "text": "She believed she could, so she did.",
     "author": "R.S. Grey",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-069",
     "text": "You've survived 100% of your worst days. You're doing great.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-070",
     "text": "The version of you a year from now will thank you for starting today.",
     "author": "Unknown",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-071",
     "text": "Don’t tell me the sky’s the limit when there are footprints on the moon.",
     "author": "Paul Brandt",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-072",
     "text": "If you want peace, prepare for war.",
     "author": "Publius Flavius Vegetius Renatus",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
-   },
-    {
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
     "id": "mood-motiv-073",
     "text": "It's not how hard you hit. It's how hard you get hit...and keep moving forward.",
     "author": "Randy Pausch",
     "source": "The Last Lecture",
     "category": "mood-boosters",
-    "subcategory": "daily-motivation"
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-074",
+    "text": "What your not changing, you're choosing.",
+    "author": "Laurie Buchanan",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-075",
+    "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   }
 ]

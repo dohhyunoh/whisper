@@ -9,8 +9,10 @@ export type SelfLoveSub = 'self-worth' | 'body-positivity' | 'mental-health' | '
 export type RelationshipSub = 'dating' | 'partnership' | 'friendship' | 'breakups' | 'family';
 export type EmpowermentSub = 'career' | 'overcoming-obstacles' | 'financial-independence' | 'finding-voice';
 export type ReligionSub = 'general-spirituality' | 'christianity' | 'islam' | 'hinduism' | 'buddhism';
-export type MoodBoosterSub = 'daily-motivation' | 'humor' | 'calm' | 'gratitude';
+export type MoodBoosterSub = 'daily-motivation' | 'humor' | 'calm' | 'gratitude' | 'philosophy';
 export type SubCategory = SelfLoveSub | RelationshipSub | EmpowermentSub | ReligionSub | MoodBoosterSub | null;
+
+export type ToneTag = 'gentle' | 'direct' | 'playful';
 
 export interface Quote {
   id: string;
@@ -19,6 +21,7 @@ export interface Quote {
   source?: string;
   category: Category;
   subcategory?: SubCategory;
+  tone?: ToneTag;
 }
 
 export interface OwnQuote {
@@ -46,7 +49,12 @@ export interface UserData {
   heaviestRole: string;
   lightSource: string;
   faithDetail: string;
-  // Phase 4: Preferences
+  // Phase 4: What do you need
+  whatHelps: string;
+  wordsShape: string;
+  quoteRitual: string;
+  // Phase 5: The bridge
+  appExpect: string;
   tonePreference: string;
   // Derived
   interests: string[];
@@ -69,6 +77,10 @@ export const defaultUserData: UserData = {
   heaviestRole: '',
   lightSource: '',
   faithDetail: '',
+  whatHelps: '',
+  wordsShape: '',
+  quoteRitual: '',
+  appExpect: '',
   tonePreference: '',
   interests: [],
   stuckReason: '',
@@ -81,6 +93,12 @@ export type PremiumFontKey = 'system' | 'indie-flower' | 'permanent-marker' | 'l
 export type BackgroundThemeKey =
   // Gradient themes
   | 'default'
+  | 'classic-rose'
+  | 'classic-amber'
+  | 'classic-lavender'
+  | 'classic-mint'
+  // Custom user photo
+  | 'custom-photo'
   // Shuffle mode (cycles through image themes per quote)
   | 'shuffle'
   // Image themes
@@ -92,6 +110,9 @@ export type BackgroundThemeKey =
 export interface PremiumSettings {
   selectedFont: PremiumFontKey;
   selectedBackground: BackgroundThemeKey;
+  customPhotoUri?: string;
+  shufflePools?: { name: string; themes: BackgroundThemeKey[] }[];
+  activeShuffleIndex?: number;
 }
 
 export interface PremiumState {
@@ -119,4 +140,6 @@ export type AppAction =
   | { type: 'SET_PREMIUM_BACKGROUND'; payload: BackgroundThemeKey }
   | { type: 'ADD_OWN_QUOTE'; payload: OwnQuote }
   | { type: 'REMOVE_OWN_QUOTE'; payload: string }
-  | { type: 'RECORD_DAILY_OPEN'; payload: string };
+  | { type: 'RECORD_DAILY_OPEN'; payload: string }
+  | { type: 'SET_CUSTOM_PHOTO'; payload: string }
+  | { type: 'SET_SHUFFLE_POOLS'; payload: { pools: { name: string; themes: BackgroundThemeKey[] }[]; activeIndex: number } };

@@ -391,7 +391,7 @@ export default function OnboardingScreen() {
               });
             }
             posthog.capture(Events.ONBOARDING_STARTED);
-            router.push('/onboarding/weather-source');
+            router.push('/onboarding/name-input');
           }}
         >
           <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Get Started</Text>

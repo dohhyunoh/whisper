@@ -4,392 +4,448 @@
     "text": "Walking with a friend in the dark is better than walking alone in the light.",
     "author": "Helen Keller",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-002",
     "text": "In the sweetness of friendship let there be laughter, and sharing of pleasures. For in the dew of little things the heart finds its morning and is refreshed.",
     "author": "Khalil Gibran",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-003",
     "text": "One of the most beautiful qualities of true friendship is to understand and to be understood.",
     "author": "Lucius Annaeus Seneca",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-004",
     "text": "There is nothing on this earth more to be prized than true friendship.",
     "author": "Thomas Aquinas",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-005",
     "text": "Lovers have a right to betray you... friends don't.",
     "author": "Judy Holliday",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-006",
     "text": "Remember that the most valuable antiques are dear old friends.",
     "author": "H. Jackson Brown, Jr.",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-007",
     "text": "Friendship is unnecessary, like philosophy, like art... It has no survival value; rather it is one of those things that give value to survival.",
     "author": "C. S. Lewis",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-008",
     "text": "A friend is someone who gives you total freedom to be yourself.",
     "author": "Jim Morrison",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-009",
     "text": "There is a magnet in your heart that will attract true friends. That magnet is unselfishness, thinking of others first; when you learn to live for others, they will live for you.",
     "author": "Paramahansa Yogananda",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-010",
     "text": "The language of friendship is not words but meanings.",
     "author": "Henry David Thoreau",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-011",
     "text": "My best friend is the one who brings out the best in me.",
     "author": "Henry Ford",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-012",
     "text": "It is more shameful to distrust our friends than to be deceived by them.",
     "author": "Confucius",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-013",
     "text": "Friendship improves happiness and abates misery, by the doubling of our joy and the dividing of our grief.",
     "author": "Marcus Tullius Cicero",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-014",
     "text": "Friendship... is not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything.",
     "author": "Muhammad Ali",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-015",
     "text": "Be slow to fall into friendship; but when thou art in, continue firm and constant.",
     "author": "Socrates",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-016",
     "text": "A man's friendships are one of the best measures of his worth.",
     "author": "Charles Darwin",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-017",
     "text": "Never explain - your friends do not need it and your enemies will not believe you anyway.",
     "author": "Elbert Hubbard",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-018",
     "text": "A friendship founded on business is better than a business founded on friendship.",
     "author": "John D. Rockefeller",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-019",
     "text": "The friend who can be silent with us in a moment of despair or confusion, who can stay with us in an hour of grief and bereavement, who can tolerate not knowing... not healing, not curing... that is a friend who cares.",
     "author": "Henri Nouwen",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-020",
     "text": "A friend to all is a friend to none.",
     "author": "Aristotle",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-021",
     "text": "Friendship needs no words - it is solitude delivered from the anguish of loneliness.",
     "author": "Dag Hammarskjold",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-022",
     "text": "Of all possessions a friend is the most precious.",
     "author": "Herodotus",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-023",
     "text": "When you choose your friends, don't be short-changed by choosing personality over character.",
     "author": "W. Somerset Maugham",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-024",
     "text": "The bird a nest, the spider a web, man friendship.",
     "author": "William Blake",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-025",
     "text": "It's the friends you can call up at 4 a.m. that matter.",
     "author": "Marlene Dietrich",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-026",
     "text": "A friend is what the heart needs all the time.",
     "author": "Henry Van Dyke",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-027",
     "text": "Where would you be without friends? The people to pick you up when you need lifting? We come from homes far from perfect, so you end up almost parent and sibling to your friends - your own chosen family. There's nothing like a really loyal, dependable, good friend. Nothing.",
     "author": "Jennifer Aniston",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-028",
     "text": "An insincere and evil friend is more to be feared than a wild beast; a wild beast may wound your body, but an evil friend will wound your mind.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-029",
     "text": "Things are never quite as scary when you've got a best friend.",
     "author": "Bill Watterson",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-030",
     "text": "Two persons cannot long be friends if they cannot forgive each other's little failings.",
     "author": "Jean de la Bruyere",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-031",
     "text": "Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom.",
     "author": "Marcel Proust",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-032",
     "text": "A real friend is one who walks in when the rest of the world walks out.",
     "author": "Walter Winchell",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-033",
     "text": "There are no strangers here; Only friends you haven't yet met.",
     "author": "William Butler Yeats",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-034",
     "text": "The only way to have a friend is to be one.",
     "author": "Ralph Waldo Emerson",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-035",
     "text": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.",
     "author": "Oprah Winfrey",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-036",
     "text": "I cannot even imagine where I would be today were it not for that handful of friends who have given me a heart full of joy. Let's face it, friends make life a lot more fun.",
     "author": "Charles R. Swindoll",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-037",
     "text": "The greatest gift of life is friendship, and I have received it.",
     "author": "Hubert H. Humphrey",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-038",
     "text": "Do I not destroy my enemies when I make them my friends?",
     "author": "Abraham Lincoln",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-039",
     "text": "Friends show their love in times of trouble, not in happiness.",
     "author": "Euripides",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-040",
     "text": "Some people go to priests; others to poetry; I to my friends.",
     "author": "Virginia Woolf",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-041",
     "text": "A single rose can be my garden... a single friend, my world.",
     "author": "Leo Buscaglia",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-042",
     "text": "The friend in my adversity I shall always cherish most. I can better trust those who helped to relieve the gloom of my dark hours than those who are so ready to enjoy with me the sunshine of my prosperity.",
     "author": "Ulysses S. Grant",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-043",
     "text": "My friends are my estate.",
     "author": "Emily Dickinson",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-044",
     "text": "Friends are the siblings God never gave us.",
     "author": "Mencius",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-045",
     "text": "She is a friend of mind. She gather me, man. The pieces I am, she gather them and give them back to me in all the right order. It's good, you know, when you got a woman who is a friend of your mind.",
     "author": "Toni Morrison",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-046",
     "text": "I don't need a friend who changes when I change and who nods when I nod; my shadow does that much better.",
     "author": "Plutarch",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-047",
     "text": "As iron sharpens iron, so a friend sharpens a friend.",
     "author": "King Solomon",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-048",
     "text": "There is no friend like an old friend who has shared our morning days, no greeting like his welcome, no homage like his praise.",
     "author": "Oliver Wendell Holmes, Sr.",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-049",
     "text": "I have learned that to be with those I like is enough.",
     "author": "Walt Whitman",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-050",
     "text": "There is some self-interest behind every friendship. There is no friendship without self-interests. This is a bitter truth.",
     "author": "Chanakya",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-051",
     "text": "Sometimes being a friend means mastering the art of timing. There is a time for silence. A time to let go and allow people to hurl themselves into their own destiny. And a time to prepare to pick up the pieces when it's all over.",
     "author": "Octavia E. Butler",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-052",
     "text": "It takes a long time to grow an old friend.",
     "author": "John Leonard",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-053",
     "text": "A friend is a gift you give yourself.",
     "author": "Robert Louis Stevenson",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-054",
     "text": "Be courteous to all, but intimate with few, and let those few be well tried before you give them your confidence.",
     "author": "George Washington",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-055",
     "text": "I have friends in overalls whose friendship I would not swap for the favor of the kings of the world.",
     "author": "Thomas A. Edison",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-056",
     "text": "A true friend is someone who is there for you when he'd rather be anywhere else.",
     "author": "Len Wein",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-057",
@@ -397,7 +453,8 @@
     "author": "C.S. Lewis",
     "source": "The Four Loves",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-058",
@@ -405,7 +462,8 @@
     "author": "William Shakespeare",
     "source": "Passionate Pilgrim",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-059",
@@ -413,7 +471,8 @@
     "author": "Ally Condie",
     "source": "Matched",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-060",
@@ -421,7 +480,8 @@
     "author": "R.J. Palacio",
     "source": "Wonder",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-061",
@@ -429,7 +489,8 @@
     "author": "Ray Bradbury",
     "source": "Fahrenheit 451",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-062",
@@ -437,7 +498,8 @@
     "author": "Mario Puzo",
     "source": "The Godfather",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-063",
@@ -445,7 +507,8 @@
     "author": "Pierce Brown",
     "source": "Golden Son",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-064",
@@ -453,7 +516,8 @@
     "author": "Jodi Picoult",
     "source": "My Sister's Keeper",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-065",
@@ -461,7 +525,8 @@
     "author": "Aristotle",
     "source": "The Nicomachean Ethics",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-066",
@@ -469,7 +534,8 @@
     "author": "Miranda July",
     "source": "No One Belongs Here More Than You",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-067",
@@ -477,7 +543,8 @@
     "author": "Criss Jami",
     "source": "Healology",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-068",
@@ -485,7 +552,8 @@
     "author": "Muriel Barbery",
     "source": "The Elegance of the Hedgehog",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-069",
@@ -493,7 +561,8 @@
     "author": "Jane Austen",
     "source": "Northanger Abbey",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-070",
@@ -501,7 +570,8 @@
     "author": "Stieg Larsson",
     "source": "The Girl With the Dragon Tattoo",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-071",
@@ -509,7 +579,8 @@
     "author": "Dean Koontz",
     "source": "Fear Nothing",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-072",
@@ -517,7 +588,8 @@
     "author": "John Steinbeck",
     "source": "Of Mice and Men",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-073",
@@ -525,7 +597,8 @@
     "author": "Stephen Chbosky",
     "source": "The Perks of Being a Wallflower",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-074",
@@ -533,7 +606,8 @@
     "author": "Khalil Gibran",
     "source": "The Collected Works",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-075",
@@ -541,7 +615,8 @@
     "author": "Mindy Kaling",
     "source": "Is Everyone Hanging Out Without Me?",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-076",
@@ -549,7 +624,8 @@
     "author": "F. Scott Fitzgerald",
     "source": "Tender Is the Night",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-077",
@@ -557,7 +633,8 @@
     "author": "Aesop",
     "source": "Aesop's Fables",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-078",
@@ -565,7 +642,8 @@
     "author": "Willa Cather",
     "source": "My Mortal Enemy",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-079",
@@ -573,7 +651,8 @@
     "author": "Markus Zusak",
     "source": "The Book Thief",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-081",
@@ -581,7 +660,8 @@
     "author": "George R.R. Martin",
     "source": "A Feast for Crows",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-082",
@@ -589,7 +669,8 @@
     "author": "Chuck Palahniuk",
     "source": "Fight Club",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-083",
@@ -597,7 +678,8 @@
     "author": "Walter Dean Myers",
     "source": "Slam!",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-084",
@@ -605,7 +687,8 @@
     "author": "Cassandra Clare",
     "source": "Clockwork Prince",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-086",
@@ -613,105 +696,120 @@
     "author": "Sarah Dessen",
     "source": "Saint Anything",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-087",
     "text": "True friends show up when the world walks out.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-088",
     "text": "A good friend hears even what's left unsaid.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-089",
     "text": "Friendship is built in small, consistent moments.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-090",
     "text": "A true friend never counts favors.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-091",
     "text": "Real friends laugh until everything feels lighter.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-092",
     "text": "Friends catch you before you hit rock bottom.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-093",
     "text": "Distance doesn't dim a strong friendship.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-094",
     "text": "Trust turns acquaintances into true friends.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-095",
     "text": "Friendship means growing, even when it's hard.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-096",
     "text": "A friend believes in you, especially when you don't.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-097",
     "text": "One honest friend is worth a thousand polite smiles.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-098",
     "text": "Friendship thrives on effort, not just convenience.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-099",
     "text": "Loyal friends hold space for your messy days.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-100",
     "text": "Real friends celebrate your weirdness without flinching.",
     "author": "Unknown",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-101",
@@ -719,7 +817,8 @@
     "author": "Joan Powers",
     "source": "Pooh's Little Instruction Book",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-102",
@@ -727,7 +826,8 @@
     "author": "Jess C. Scott",
     "source": "The Intern",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-103",
@@ -735,7 +835,8 @@
     "author": "A.A. Milne",
     "source": "Winnie-the-Pooh",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-104",
@@ -743,7 +844,8 @@
     "author": "E.B. White",
     "source": "Charlotte's Web",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-105",
@@ -751,7 +853,8 @@
     "author": "A. A. Milne",
     "source": "Winnie-the-Pooh",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-106",
@@ -759,7 +862,8 @@
     "author": "John Joseph Powell",
     "source": "The Secret of Staying in Love",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-107",
@@ -767,7 +871,8 @@
     "author": "Maya Angelou",
     "source": "Letter to My Daughter",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-108",
@@ -775,7 +880,8 @@
     "author": "Tennessee Williams",
     "source": "Memoirs",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-109",
@@ -783,7 +889,8 @@
     "author": "Ralph Waldo Emerson",
     "source": "Essays, First Series",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-110",
@@ -791,7 +898,8 @@
     "author": "E.A. Bucchianeri",
     "source": "Brushstrokes of a Gadfly",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-111",
@@ -799,7 +907,8 @@
     "author": "Epicurus",
     "source": "A Guide to Happiness",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-112",
@@ -807,7 +916,8 @@
     "author": "John Marsden",
     "source": "Circle of Flight",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-113",
@@ -815,7 +925,8 @@
     "author": "Sarah Dessen",
     "source": "Someone Like You",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-114",
@@ -823,7 +934,8 @@
     "author": "J.R.R. Tolkien",
     "source": "The Return of the King",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-115",
@@ -831,7 +943,8 @@
     "author": "Charles Lamb",
     "source": "The Life, Letters and Writings of Charles Lamb Volume 3",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-117",
@@ -839,7 +952,8 @@
     "author": "Jim Henson",
     "source": "Favorite Songs From Jim Henson's Muppets",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-118",
@@ -847,7 +961,8 @@
     "author": "Charles Dickens",
     "source": "Nicholas Nickleby",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-119",
@@ -855,7 +970,8 @@
     "author": "Charlotte Brontë",
     "source": "Jane Eyre",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-120",
@@ -863,7 +979,8 @@
     "author": "Michelle Obama",
     "source": "Becoming",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-121",
@@ -871,7 +988,8 @@
     "author": "Roger Zelazny",
     "source": "The Guns of Avalon",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-122",
@@ -879,7 +997,8 @@
     "author": "Richelle Mead",
     "source": "Vampire Academy",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-123",
@@ -887,7 +1006,8 @@
     "author": "Irving Stone",
     "source": "Clarence Darrow for the Defense",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-124",
@@ -895,7 +1015,8 @@
     "author": "David Levithan",
     "source": "Naomi and Ely's No Kiss List",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-125",
@@ -903,7 +1024,8 @@
     "author": "E.B. White",
     "source": "Charlotte's Web",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-126",
@@ -911,7 +1033,8 @@
     "author": "O. Henry",
     "source": "Heart of the West",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-127",
@@ -919,7 +1042,8 @@
     "author": "Rainer Maria Rilke",
     "source": "Letters to a Young Poet",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-128",
@@ -927,7 +1051,8 @@
     "author": "Baltasar Gracian",
     "source": "The Art of Worldly Wisdom: A Pocket Oracle",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-129",
@@ -935,7 +1060,8 @@
     "author": "Christopher Hitchens",
     "source": "Hitch 22: A Memoir",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-130",
@@ -943,7 +1069,8 @@
     "author": "Michael Bassey Johnson",
     "source": "The Infinity Sign",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-131",
@@ -951,7 +1078,8 @@
     "author": "Sophocles",
     "source": "Oedipus Rex",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-132",
@@ -959,7 +1087,8 @@
     "author": "Sophie Kinsella",
     "source": "Can You Keep a Secret?",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-133",
@@ -967,7 +1096,8 @@
     "author": "J. R. R. Tolkien",
     "source": "The Lord of the Rings",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-134",
@@ -975,20 +1105,23 @@
     "author": "Mike Norton",
     "source": "Just Another War Story",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
   {
     "id": "rel-friend-135",
     "text": "Loneliness does not come from having no people around you, but from being unable to communicate the things that seem important to you.",
     "author": "Carl Jung",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   },
-    {
+  {
     "id": "rel-friend-136",
     "text": "The capacity for friendship is God's way of apologizing for our families.",
     "author": "Jay McInerney",
     "category": "relationships",
-    "subcategory": "friendship"
+    "subcategory": "friendship",
+    "tone": "gentle"
   }
 ]

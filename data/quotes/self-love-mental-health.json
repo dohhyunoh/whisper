@@ -5,7 +5,8 @@
     "author": "Timothy Ferriss",
     "source": "The 4-Hour Workweek",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-002",
@@ -13,7 +14,8 @@
     "author": "Lori Gottlieb",
     "source": "Maybe You Should Talk to Someone",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-003",
@@ -21,7 +23,8 @@
     "author": "J.K. Rowling",
     "source": "Very Good Lives",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-004",
@@ -29,7 +32,8 @@
     "author": "Robert Frost",
     "source": "A Servant to Servants",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-005",
@@ -37,7 +41,8 @@
     "author": "Unknown",
     "source": "Japanese Proverb",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-006",
@@ -45,7 +50,8 @@
     "author": "Vince Lombardi",
     "source": "What It Takes to Be Number One",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-007",
@@ -53,7 +59,8 @@
     "author": "William James",
     "source": "The Varieties of Religious Experience",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-008",
@@ -61,7 +68,8 @@
     "author": "Maya Angelou",
     "source": "Letter to My Daughter",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-010",
@@ -69,7 +77,8 @@
     "author": "Charles Dickens",
     "source": "The Old Curiosity Shop",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-011",
@@ -77,7 +86,8 @@
     "author": "Winston Churchill",
     "source": "Churchill: A Life",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-012",
@@ -85,7 +95,8 @@
     "author": "Rumi",
     "source": "The Essential Rumi",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-013",
@@ -93,7 +104,8 @@
     "author": "Dan Millman",
     "source": "Way of the Peaceful Warrior",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-014",
@@ -101,7 +113,8 @@
     "author": "Iain S. Thomas",
     "source": "I Wrote This for You",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-015",
@@ -109,7 +122,8 @@
     "author": "Louise Hay",
     "source": "You Can Heal Your Life",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-016",
@@ -117,7 +131,8 @@
     "author": "Toni Morrison",
     "source": "Beloved",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-017",
@@ -125,7 +140,8 @@
     "author": "Susan Jeffers",
     "source": "Feel the Fear and Do It Anyway",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-018",
@@ -133,7 +149,8 @@
     "author": "Brené Brown",
     "source": "The Gifts of Imperfection",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-019",
@@ -141,7 +158,8 @@
     "author": "Rainer Maria Rilke",
     "source": "Letters to a Young Poet",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-020",
@@ -149,14 +167,16 @@
     "author": "George Eliot",
     "source": "Middlemarch",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-021",
     "text": "Healing takes time, and asking for help is a courageous step.",
     "author": "Mariska Hargitay",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-022",
@@ -164,7 +184,8 @@
     "author": "Victor Hugo",
     "source": "Les Misérables",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-023",
@@ -172,7 +193,8 @@
     "author": "J.K. Rowling",
     "source": "Harry Potter and the Prisoner of Azkaban",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-024",
@@ -180,7 +202,8 @@
     "author": "John Green",
     "source": "Turtles All the Way Down",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-025",
@@ -188,7 +211,8 @@
     "author": "Winston Churchill",
     "source": "Churchill: A Life",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-026",
@@ -196,7 +220,8 @@
     "author": "Albert Camus",
     "source": "The Myth of Sisyphus",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-027",
@@ -204,7 +229,8 @@
     "author": "Barbara Haines Howett",
     "source": "Ladies of the Borobudur",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-028",
@@ -212,7 +238,8 @@
     "author": "C.S. Lewis",
     "source": "Mere Christianity",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-029",
@@ -220,7 +247,8 @@
     "author": "Martin Luther King Jr.",
     "source": "Strength to Love",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-030",
@@ -228,14 +256,16 @@
     "author": "Ernest Hemingway",
     "source": "A Farewell to Arms",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-031",
     "text": "What mental health needs is more sunlight, more candor, and more unashamed conversation.",
     "author": "Glenn Close",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-032",
@@ -243,7 +273,8 @@
     "author": "Cara Delevingne",
     "source": "Oasis Education",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-033",
@@ -251,7 +282,8 @@
     "author": "David Richo",
     "source": "How to Be an Adult in Relationships",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-034",
@@ -259,7 +291,8 @@
     "author": "Elisabeth Kübler-Ross",
     "source": "Death: The Final Stage of Growth",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-035",
@@ -267,7 +300,8 @@
     "author": "Peter Shepherd",
     "source": "100 Ways to Overcome Depression",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-036",
@@ -275,7 +309,8 @@
     "author": "Oprah Winfrey",
     "source": "What I Know For Sure",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-037",
@@ -283,7 +318,8 @@
     "author": "Susan Jeffers",
     "source": "Feel the Fear and Do It Anyway",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-038",
@@ -291,7 +327,8 @@
     "author": "Susan Jeffers",
     "source": "Feel the Fear and Do It Anyway",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-039",
@@ -299,7 +336,8 @@
     "author": "Brené Brown",
     "source": "Daring Greatly",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-040",
@@ -307,7 +345,8 @@
     "author": "Jack Kornfield",
     "source": "The Wise Heart",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-041",
@@ -315,7 +354,8 @@
     "author": "Brené Brown",
     "source": "Daring Greatly",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-042",
@@ -323,133 +363,152 @@
     "author": "Unknown",
     "source": "Persian Proverb",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-043",
     "text": "I found that with depression, one of the most important things you can realize is that you're not alone. You're not the first to go through it, you're not gonna be the last to go through it.",
     "author": "Dwayne Johnson",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-044",
     "text": "You are not alone. You are seen. I am with you. You are not alone.",
     "author": "Shonda Rhimes",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-045",
     "text": "The experience I have had is that once you start talking about experiencing a mental health struggle, you realize that actually you're part of quite a big club.",
     "author": "Prince Harry",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-046",
     "text": "Anything that's human is mentionable, and anything that is mentionable can be more manageable. When we can talk about our feelings, they become less overwhelming, less upsetting, and less scary.",
     "author": "Fred Rogers",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-047",
     "text": "Just remember, you are not alone, in fact, you are in a very commonplace with millions of others. We need to help each other and keep striving to reach our goals.",
     "author": "Mike Moreno",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-048",
     "text": "The humanity we all share is more important than the mental illnesses we may not.",
     "author": "Elyn R. Saks",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-049",
     "text": "Life doesn't make any sense without interdependence. We need each other, and the sooner we learn that, the better for us all.",
     "author": "Erik Erikson",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-050",
     "text": "Mental health problems don't define who you are. They are something you experience. You walk in the rain and you feel the rain, but, importantly, YOU ARE NOT THE RAIN.",
     "author": "Matt Haig",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-051",
     "text": "Sometimes when you're in a dark place, you think you've been buried, but you've actually been planted.",
     "author": "Christine Caine",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-052",
     "text": "Hope is being able to see that there is light despite all of the darkness.",
     "author": "Desmond Tutu",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-053",
     "text": "You don't have to see the whole staircase, just take the first step.",
     "author": "Martin Luther King Jr.",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-054",
     "text": "No feeling is final.",
     "author": "Rainer Maria Rilke",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-055",
     "text": "You are allowed to be both a masterpiece and a work in progress, simultaneously.",
     "author": "Sophia Bush",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-056",
     "text": "You may have to fight a battle more than once to win it.",
     "author": "Margaret Thatcher",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-057",
     "text": "You never know how strong you are until being strong is your only choice.",
     "author": "Bob Marley",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-058",
     "text": "She stood in the storm and when the wind did not blow her way, she adjusted her sails.",
     "author": "Elizabeth Edwards",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-059",
     "text": "On the days you feel too heavy to carry yourself, remember: you don't have to do this alone. Reaching out isn't weakness—it's the bravest thing you can do.",
     "author": "Morgan Harper Nichols",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-060",
     "text": "Your healing doesn't need to look like anyone else's. Some days you'll soar, and some days just getting out of bed is your victory. Both are enough.",
     "author": "Tanya Markul",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-061",
@@ -457,21 +516,24 @@
     "author": "Leonard Cohen",
     "source": "Anthem",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-062",
     "text": "If you're feeling fragile today, that's okay. You're not falling apart—you're falling into yourself, finding the pieces that need tenderness.",
     "author": "S.C. Lourie",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-063",
     "text": "The nights you think you can't make it are the exact nights your heart is learning how to rebuild itself in the dark.",
     "author": "Nikita Gill",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-064",
@@ -479,14 +541,16 @@
     "author": "Charlie Mackesy",
     "source": "The Boy, the Mole, the Fox and the Horse",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-065",
     "text": "You are not too much. You have never been too much. The weight you carry is not who you are—it's what you're learning to set down.",
     "author": "Molly Burford",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-066",
@@ -494,55 +558,63 @@
     "author": "Tricia Hersey",
     "source": "Rest Is Resistance",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-067",
     "text": "You've weathered storms that would have broken others. Your scars aren't signs of failure—they're proof you fought to stay.",
     "author": "Nikita Gill",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-068",
     "text": "Healing is not linear. Some days you'll feel like you're back at the beginning. But you're not—you're spiraling upward, seeing old pain from new heights.",
     "author": "Yung Pueblo",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-069",
     "text": "When you can't find the strength to hold on, let yourself be held. There are hands reaching for you in the dark.",
     "author": "Morgan Harper Nichols",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-070",
     "text": "Your mental health struggles don't make you unworthy of love—they make you human. And being human, with all its messy beauty, is more than enough.",
     "author": "Alison Malee",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-071",
     "text": "We suffer more often in imagination than in reality.",
     "author": "Seneca",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-072",
     "text": "An entire sea of water can't sink a ship unless it gets inside the ship.",
     "author": "Thich Nhat Hanh",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   },
   {
     "id": "self-love-mh-073",
     "text": "Forgive others, not because they deserve forgiveness, but because you deserve peace.",
     "author": "Jonathan Lockwood Huie",
     "category": "self-love",
-    "subcategory": "mental-health"
+    "subcategory": "mental-health",
+    "tone": "gentle"
   }
 ]

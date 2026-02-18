@@ -4,7 +4,8 @@
     "text": "Faith is taking the first step even when you don't see the whole staircase.",
     "author": "Martin Luther King Jr.",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-002",
@@ -12,7 +13,8 @@
     "author": "Philippians 4:6",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-003",
@@ -20,14 +22,16 @@
     "author": "Jeremiah 29:11",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-004",
     "text": "Patience is not the ability to wait, but the ability to keep a good attitude while waiting.",
     "author": "Joyce Meyer",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-005",
@@ -35,7 +39,8 @@
     "author": "1 Corinthians 16:14",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-006",
@@ -43,7 +48,8 @@
     "author": "Martin Luther King Jr.",
     "source": "A Testament of Hope: The Essential Writings and Speeches",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-007",
@@ -51,7 +57,8 @@
     "author": "Anonymous",
     "source": "Unknown",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-008",
@@ -59,7 +66,8 @@
     "author": "Anonymous",
     "source": "Unknown",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-009",
@@ -67,7 +75,8 @@
     "author": "Psalms 23:1",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-010",
@@ -75,7 +84,8 @@
     "author": "Psalms 23:4",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-011",
@@ -83,7 +93,8 @@
     "author": "Psalms 46:10",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-012",
@@ -91,7 +102,8 @@
     "author": "Psalms 119:76",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-013",
@@ -99,7 +111,8 @@
     "author": "Psalms 91:2",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-015",
@@ -107,7 +120,8 @@
     "author": "Proverbs 3:5-6",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-016",
@@ -115,7 +129,8 @@
     "author": "Proverbs 14:1",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-017",
@@ -123,7 +138,8 @@
     "author": "Proverbs 31:25",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-018",
@@ -131,7 +147,8 @@
     "author": "Romans 8:28",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-019",
@@ -139,7 +156,8 @@
     "author": "Romans 8:31",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-020",
@@ -147,7 +165,8 @@
     "author": "Romans 8:37",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-021",
@@ -155,7 +174,8 @@
     "author": "Romans 5:3-4",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-022",
@@ -163,7 +183,8 @@
     "author": "Romans 1:20",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-023",
@@ -171,7 +192,8 @@
     "author": "Philippians 2:4",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-024",
@@ -179,7 +201,8 @@
     "author": "Philippians 4:13",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-025",
@@ -187,7 +210,8 @@
     "author": "Philippians 3:13-14",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-026",
@@ -195,7 +219,8 @@
     "author": "Matthew 5:3-5",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-027",
@@ -203,7 +228,8 @@
     "author": "Matthew 6:25-26",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-028",
@@ -211,7 +237,8 @@
     "author": "Matthew 6:33",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-029",
@@ -219,7 +246,8 @@
     "author": "Matthew 28:20",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-030",
@@ -227,7 +255,8 @@
     "author": "John 3:16",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-031",
@@ -235,7 +264,8 @@
     "author": "John 11:25",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-032",
@@ -243,7 +273,8 @@
     "author": "John 14:6",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-033",
@@ -251,7 +282,8 @@
     "author": "John 8:36",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-034",
@@ -259,7 +291,8 @@
     "author": "Isaiah 40:31",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-035",
@@ -267,7 +300,8 @@
     "author": "Isaiah 41:10",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-036",
@@ -275,7 +309,8 @@
     "author": "Isaiah 43:1",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-037",
@@ -283,7 +318,8 @@
     "author": "1 Corinthians 13:4-5",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-038",
@@ -291,7 +327,8 @@
     "author": "1 Corinthians 10:13",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-039",
@@ -299,7 +336,8 @@
     "author": "1 Corinthians 15:51",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-040",
@@ -307,7 +345,8 @@
     "author": "Ephesians 2:8-9",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-041",
@@ -315,7 +354,8 @@
     "author": "Ephesians 6:10",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-042",
@@ -323,7 +363,8 @@
     "author": "James 1:2-3",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-043",
@@ -331,7 +372,8 @@
     "author": "James 1:12",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-044",
@@ -339,7 +381,8 @@
     "author": "Colossians 3:23",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-045",
@@ -347,7 +390,8 @@
     "author": "1 Peter 5:7",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-046",
@@ -355,7 +399,8 @@
     "author": "Hebrews 11:1",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-047",
@@ -363,7 +408,8 @@
     "author": "Hebrews 13:8",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-048",
@@ -371,7 +417,8 @@
     "author": "C.S. Lewis",
     "source": "Mere Christianity",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-049",
@@ -379,7 +426,8 @@
     "author": "C.S. Lewis",
     "source": "Mere Christianity",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-050",
@@ -387,7 +435,8 @@
     "author": "C.S. Lewis",
     "source": "The Problem of Pain",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-051",
@@ -395,7 +444,8 @@
     "author": "C.S. Lewis",
     "source": "Mere Christianity",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-052",
@@ -403,63 +453,72 @@
     "author": "C.S. Lewis",
     "source": "Mere Christianity",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-053",
     "text": "If you really want to know our Lord, you must love Him. And if you love Him, you must serve Him.",
     "author": "Mother Teresa",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-054",
     "text": "Not all of us can do great things. But we can do small things with great love.",
     "author": "Mother Teresa",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-055",
     "text": "The moment we refuse to suffer, we refuse to love.",
     "author": "Mother Teresa",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-056",
     "text": "Prayer is the simplest prayer: let us pray that God uses us as instruments of His peace and love.",
     "author": "Mother Teresa",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-057",
     "text": "God doesn't call the qualified. He qualifies the called.",
     "author": "Billy Graham",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-058",
     "text": "Salvation is free, but it is not cheap. It cost God His only Son.",
     "author": "Billy Graham",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-059",
     "text": "The most important decision any of us will ever make is whether to accept the salvation that Jesus Christ offers.",
     "author": "Billy Graham",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-060",
     "text": "Heaven is real. It is not a fairy tale. It is not a legend. It is the eternal home of every believer.",
     "author": "Billy Graham",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-061",
@@ -467,7 +526,8 @@
     "author": "Rick Warren",
     "source": "The Purpose Driven Life",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-062",
@@ -475,7 +535,8 @@
     "author": "Rick Warren",
     "source": "The Purpose Driven Life",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-063",
@@ -483,7 +544,8 @@
     "author": "Rick Warren",
     "source": "The Purpose Driven Life",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-064",
@@ -491,7 +553,8 @@
     "author": "Rick Warren",
     "source": "The Purpose Driven Life",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-065",
@@ -499,7 +562,8 @@
     "author": "Dietrich Bonhoeffer",
     "source": "The Cost of Discipleship",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-066",
@@ -507,7 +571,8 @@
     "author": "Dietrich Bonhoeffer",
     "source": "The Cost of Discipleship",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-067",
@@ -515,161 +580,184 @@
     "author": "Dietrich Bonhoeffer",
     "source": "The Cost of Discipleship",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-068",
     "text": "Silence in the face of evil is itself evil. God will not hold us guiltless.",
     "author": "Dietrich Bonhoeffer",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-069",
     "text": "You may never see beyond the darkness, but I promise you that the light is there — and it has already conquered.",
     "author": "Corrie ten Boom",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-070",
     "text": "No matter what happens, hold fast to God. He is the one constant in a world of change.",
     "author": "Corrie ten Boom",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-071",
     "text": "When you belong to God, you belong to His family — and family never abandons its own.",
     "author": "Corrie ten Boom",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-072",
     "text": "God is not a God who makes promises and fails to keep them. He is faithful in every season of life.",
     "author": "Max Lucado",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-073",
     "text": "You are God's masterpiece. Not a rough draft. Not a work in progress. A masterpiece.",
     "author": "Max Lucado",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-074",
     "text": "The best news in the world is this: you cannot earn God's love. You already have it.",
     "author": "Max Lucado",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-075",
     "text": "When you pray, you don't have to have all the answers. You just have to trust that God does.",
     "author": "Max Lucado",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-076",
     "text": "God has not placed a limit on your potential. He has placed a purpose in your heart.",
     "author": "Beth Moore",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-077",
     "text": "You are never so far from God that a single prayer cannot reach Him. Trust in the nearness of His grace.",
     "author": "Beth Moore",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-078",
     "text": "The greatest enemy of faith is not doubt — it is fear. But perfect love casts out fear.",
     "author": "Beth Moore",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-079",
     "text": "The way to move from head knowledge to heart knowledge is through surrender and trust in the Lord.",
     "author": "Beth Moore",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-080",
     "text": "The way to get started is to quit talking and begin to do.",
     "author": "D.L. Moody",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-081",
     "text": "If God sends us on strong ground, it is to give us a chance to show what the grace of God can do.",
     "author": "D.L. Moody",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-082",
     "text": "Nine-tenths of a Christian life is filled with forgiveness — giving it and receiving it.",
     "author": "D.L. Moody",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-083",
     "text": "A man who is filled with the Holy Spirit starts to lift others up. That's one of the signs of the Spirit.",
     "author": "D.L. Moody",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-084",
     "text": "To God's praise lives the glory of everything that is good and beautiful in this world. Dip your hands into that glory and let it spill into all you do.",
     "author": "Charles Spurgeon",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-085",
     "text": "Prayer is the mystic breath which makes the Christian to live.",
     "author": "Charles Spurgeon",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-086",
     "text": "A prayer that is not answered is not necessarily a prayer that is ignored. God answers every prayer — sometimes with a no.",
     "author": "Charles Spurgeon",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-087",
     "text": "God is too good to be untrue. God is too wise to be mistaken. Everything that comes into your life you can use for good and for God's glory if you are willing.",
     "author": "Charles Spurgeon",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-088",
     "text": "Joy is not dependent on the absence of trouble, but on the presence of God.",
     "author": "Charles Spurgeon",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-089",
     "text": "The Christian life begins with an act of faith in a Savior who loves, and it continues with a walk of faith in a Lord who leads.",
     "author": "Charles Spurgeon",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-090",
@@ -677,21 +765,24 @@
     "author": "1 Samuel 16:7",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-091",
     "text": "The earth has no sorrow that heaven cannot heal.",
     "author": "Thomas Moore",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-092",
     "text": "We must pray not only for what we need, but for the wisdom to know what we need.",
     "author": "Augustine of Hippo",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-093",
@@ -699,21 +790,24 @@
     "author": "Augustine of Hippo",
     "source": "Confessions",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-094",
     "text": "Love God above all else and then rejoice — for all good things flow from that single devotion.",
     "author": "Augustine of Hippo",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-095",
     "text": "The man who has ceased to pray has ceased to live as a Christian.",
     "author": "Dwight L. Moody",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-096",
@@ -721,7 +815,8 @@
     "author": "1 John 4:18",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-097",
@@ -729,7 +824,8 @@
     "author": "1 Corinthians 16:14",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-098",
@@ -737,55 +833,63 @@
     "author": "Numbers 6:24-26",
     "source": "The Bible",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-099",
     "text": "Godly wisdom begins with humility. The humble in heart are the ones who find themselves closest to the Throne of Grace.",
     "author": "Charles Spurgeon",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-100",
     "text": "The cross is the measure of God's love. All of heaven is amazed by it, and all of eternity will celebrate it.",
     "author": "Billy Graham",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-101",
     "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.” – 1 Corinthians 13:4",
     "author": "1 Corinthians 13:4",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-102",
     "text": "Above all, love each other deeply, because love covers over a multitude of sins.” – 1 Peter 4:8",
     "author": "1 Peter 4:8",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-103",
     "text": "Let all that you do be done in love.” – 1 Corinthians 16:14",
     "author": "1 Corinthians 16:14",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-104",
     "text": "And over all these virtues put on love, which binds them all together in perfect unity.” – Colossians 3:14",
     "author": "Colossians 3:14",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   },
   {
     "id": "religion-chr-105",
     "text": "We love because he first loved us.” – 1 John 4:19",
     "author": "1 John 4:19",
     "category": "religion",
-    "subcategory": "christianity"
+    "subcategory": "christianity",
+    "tone": "gentle"
   }
 ]

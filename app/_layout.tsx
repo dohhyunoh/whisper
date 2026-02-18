@@ -118,6 +118,33 @@ export default function RootLayout() {
               }}
             />
             <Stack.Screen
+              name="appearance-classic"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen
+              name="appearance-pictures"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen
+              name="appearance-shuffle"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen
               name="streak-detail"
               options={{
                 presentation: 'card',

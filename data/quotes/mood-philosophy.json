@@ -1,0 +1,562 @@
+[
+  {
+    "id": "mood-philo-001",
+    "text": "The happiness of your life depends upon the quality of your thoughts.",
+    "author": "Marcus Aurelius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-002",
+    "text": "You have power over your mind, not outside events. Realize this, and you will find strength.",
+    "author": "Marcus Aurelius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-003",
+    "text": "Waste no more time arguing about what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-004",
+    "text": "The soul becomes dyed with the color of its thoughts.",
+    "author": "Marcus Aurelius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-005",
+    "text": "When you arise in the morning, think of what a precious privilege it is to be alive.",
+    "author": "Marcus Aurelius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-006",
+    "text": "It is not what happens to you, but how you react to it that matters.",
+    "author": "Epictetus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-007",
+    "text": "No man is free who is not master of himself.",
+    "author": "Epictetus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-008",
+    "text": "First say to yourself what you would be; and then do what you have to do.",
+    "author": "Epictetus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-009",
+    "text": "Make the best use of what is in your power, and take the rest as it happens.",
+    "author": "Epictetus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-010",
+    "text": "We suffer more often in imagination than in reality.",
+    "author": "Seneca",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-011",
+    "text": "Luck is what happens when preparation meets opportunity.",
+    "author": "Seneca",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-012",
+    "text": "It is not that we have a short time to live, but that we waste a great deal of it.",
+    "author": "Seneca",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-013",
+    "text": "Difficulties strengthen the mind, as labor does the body.",
+    "author": "Seneca",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-014",
+    "text": "In the middle of winter I at last discovered that there was in me an invincible summer.",
+    "author": "Albert Camus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-015",
+    "text": "One must imagine Sisyphus happy.",
+    "author": "Albert Camus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-016",
+    "text": "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
+    "author": "Albert Camus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-017",
+    "text": "Live to the point of tears.",
+    "author": "Albert Camus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-018",
+    "text": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+    "author": "Jean-Paul Sartre",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-019",
+    "text": "Freedom is what we do with what is done to us.",
+    "author": "Jean-Paul Sartre",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-020",
+    "text": "Existence precedes essence.",
+    "author": "Jean-Paul Sartre",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-021",
+    "text": "Life can only be understood backwards; but it must be lived forwards.",
+    "author": "Soren Kierkegaard",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-022",
+    "text": "The most common form of despair is not being who you are.",
+    "author": "Soren Kierkegaard",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-023",
+    "text": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-024",
+    "text": "Without music, life would be a mistake.",
+    "author": "Friedrich Nietzsche",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-025",
+    "text": "That which does not kill us makes us stronger.",
+    "author": "Friedrich Nietzsche",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-026",
+    "text": "You must have chaos within you to give birth to a dancing star.",
+    "author": "Friedrich Nietzsche",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-027",
+    "text": "One must still have chaos in oneself to be able to give birth to a dancing star.",
+    "author": "Friedrich Nietzsche",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-028",
+    "text": "The unexamined life is not worth living.",
+    "author": "Socrates",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-029",
+    "text": "I know that I know nothing.",
+    "author": "Socrates",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-030",
+    "text": "The secret of change is to focus all of your energy not on fighting the old, but on building the new.",
+    "author": "Socrates",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-031",
+    "text": "Be kind, for everyone you meet is fighting a hard battle.",
+    "author": "Plato",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-032",
+    "text": "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
+    "author": "Plato",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-033",
+    "text": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-034",
+    "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-035",
+    "text": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+    "author": "Aristotle",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-036",
+    "text": "No man ever steps in the same river twice, for it is not the same river and he is not the same man.",
+    "author": "Heraclitus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-037",
+    "text": "The only constant in life is change.",
+    "author": "Heraclitus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-038",
+    "text": "It is not the man who has too little that is poor, but the one who hankers after more.",
+    "author": "Diogenes",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-039",
+    "text": "We have two ears and one tongue so that we would listen more and talk less.",
+    "author": "Diogenes",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-040",
+    "text": "A journey of a thousand miles begins with a single step.",
+    "author": "Lao Tzu",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-041",
+    "text": "When I let go of what I am, I become what I might be.",
+    "author": "Lao Tzu",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-042",
+    "text": "Nature does not hurry, yet everything is accomplished.",
+    "author": "Lao Tzu",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-043",
+    "text": "The best fighter is never angry.",
+    "author": "Lao Tzu",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-044",
+    "text": "Knowing others is intelligence; knowing yourself is true wisdom.",
+    "author": "Lao Tzu",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-045",
+    "text": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-046",
+    "text": "Our greatest glory is not in never falling, but in rising every time we fall.",
+    "author": "Confucius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-047",
+    "text": "Everything has beauty, but not everyone sees it.",
+    "author": "Confucius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-048",
+    "text": "The man who moves a mountain begins by carrying away small stones.",
+    "author": "Confucius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-049",
+    "text": "Happiness depends upon ourselves.",
+    "author": "Aristotle",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-050",
+    "text": "Happiness is not something ready made. It comes from your own actions.",
+    "author": "Zhuangzi",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-051",
+    "text": "Flow with whatever may happen and let your mind be free. Stay centered by accepting whatever you are doing.",
+    "author": "Zhuangzi",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-052",
+    "text": "The wound is the place where the Light enters you.",
+    "author": "Rumi",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-053",
+    "text": "What you seek is seeking you.",
+    "author": "Rumi",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-054",
+    "text": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+    "author": "Rumi",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-055",
+    "text": "Let yourself be silently drawn by the strange pull of what you really love. It will not lead you astray.",
+    "author": "Rumi",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-056",
+    "text": "Do not feel lonely; the entire universe is inside you.",
+    "author": "Rumi",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-057",
+    "text": "One is not born, but rather becomes, a woman.",
+    "author": "Simone de Beauvoir",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-058",
+    "text": "Change your life today. Don't gamble on the future, act now, without delay.",
+    "author": "Simone de Beauvoir",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-059",
+    "text": "I tore myself away from the safe comfort of certainties through my love for truth; and truth rewarded me.",
+    "author": "Simone de Beauvoir",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-060",
+    "text": "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
+    "author": "Hannah Arendt",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-061",
+    "text": "Forgiveness is the key to action and freedom.",
+    "author": "Hannah Arendt",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-062",
+    "text": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+    "author": "Alan Watts",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-063",
+    "text": "Muddy water is best cleared by leaving it alone.",
+    "author": "Alan Watts",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-064",
+    "text": "You are the universe experiencing itself.",
+    "author": "Alan Watts",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-065",
+    "text": "The meaning of life is to find your gift. The purpose of life is to give it away.",
+    "author": "Alan Watts",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-066",
+    "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+    "author": "Viktor Frankl",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-067",
+    "text": "Everything can be taken from a man but one thing: the last of the human freedoms — to choose one's attitude in any given set of circumstances.",
+    "author": "Viktor Frankl",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-068",
+    "text": "Between stimulus and response there is a space. In that space is our power to choose our response.",
+    "author": "Viktor Frankl",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-069",
+    "text": "Those who have a why to live can bear with almost any how.",
+    "author": "Viktor Frankl",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-070",
+    "text": "The impediment to action advances action. What stands in the way becomes the way.",
+    "author": "Marcus Aurelius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  }
+]

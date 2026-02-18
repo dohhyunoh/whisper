@@ -15,6 +15,9 @@ web-build/
 ios/
 android/
 
+# StoreKit
+*.storekit
+
 # Node modules
 node_modules/
 npm-debug.log*

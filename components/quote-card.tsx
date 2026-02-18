@@ -1,6 +1,6 @@
 import { LikeButton } from '@/components/like-button';
 import { ShareButton } from '@/components/share-button';
-import { CATEGORY_GRADIENTS } from '@/constants/categories';
+import { ALL_THEMES, BACKGROUND_THEMES } from '@/constants/premium';
 import { IMAGE_THEMES, isImageTheme, PREMIUM_FONTS } from '@/constants/premium';
 import { Quote } from '@/data/types';
 import { useLikes } from '@/hooks/use-likes';
@@ -31,7 +31,7 @@ interface QuoteCardProps {
 export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
   const { height: screenHeight } = useWindowDimensions();
   const { isLiked, toggleLike } = useLikes();
-  const { currentTheme, currentFont } = usePremium();
+  const { currentTheme, currentFont, activeShufflePool } = usePremium();
   const opacity = useSharedValue(0);
   const heartScale = useSharedValue(0);
   const heartOpacity = useSharedValue(0);
@@ -86,23 +86,24 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
   // Determine if we're using shuffle mode for backgrounds
   const isShuffleMode = currentTheme.key === 'shuffle';
 
-  // Get shuffled image theme when in shuffle mode
+  // Get shuffled theme when in shuffle mode (from user-curated pool)
   const shuffledImageTheme = useMemo(() => {
     if (!isShuffleMode) return null;
-    // Use quote.id to deterministically pick an image theme (stable per quote)
+    const pool = activeShufflePool.length > 0 ? activeShufflePool : IMAGE_THEMES.map((t) => t.key);
     const hash = quote.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-    const index = hash % IMAGE_THEMES.length;
-    return IMAGE_THEMES[index];
-  }, [isShuffleMode, quote.id]);
+    const pickedKey = pool[hash % pool.length];
+    return ALL_THEMES.find((t) => t.key === pickedKey) || IMAGE_THEMES[0];
+  }, [isShuffleMode, quote.id, activeShufflePool]);
 
-  // Check if current theme is an image theme (or shuffle mode)
+  // Check if current theme is an image theme (or shuffle picked an image theme)
   const isImageBackground = useMemo(() => {
-    return isShuffleMode || isImageTheme(currentTheme);
-  }, [currentTheme, isShuffleMode]);
+    if (isShuffleMode) return shuffledImageTheme ? isImageTheme(shuffledImageTheme) : false;
+    return isImageTheme(currentTheme);
+  }, [currentTheme, isShuffleMode, shuffledImageTheme]);
 
   // Get the actual image theme to use (either current or shuffled)
   const activeImageTheme = useMemo(() => {
-    if (isShuffleMode && shuffledImageTheme) {
+    if (isShuffleMode && shuffledImageTheme && isImageTheme(shuffledImageTheme)) {
       return shuffledImageTheme;
     }
     if (isImageTheme(currentTheme)) {
@@ -111,22 +112,22 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
     return null;
   }, [currentTheme, isShuffleMode, shuffledImageTheme]);
 
-  // Determine gradient colors: use theme if not 'default', otherwise use category gradient
-  const gradientColors = useMemo(() => {
-    if (isImageBackground) {
-      return CATEGORY_GRADIENTS[quote.category]; // fallback, won't be used for image themes
-    }
-    if (currentTheme.key === 'default') {
-      return CATEGORY_GRADIENTS[quote.category];
-    }
-    return 'gradientColors' in currentTheme ? currentTheme.gradientColors : CATEGORY_GRADIENTS[quote.category];
-  }, [currentTheme, quote.category, isImageBackground]);
+  const defaultTheme = BACKGROUND_THEMES[0];
 
-  // Determine text colors based on theme (use active image theme for shuffle mode)
-  const activeTheme = activeImageTheme || currentTheme;
-  const textColor = currentTheme.key === 'default' ? '#3A6B80' : activeTheme.textColor;
-  const secondaryColor = currentTheme.key === 'default' ? '#5A8BA8' : activeTheme.secondaryTextColor;
-  const tertiaryColor = currentTheme.key === 'default' ? '#7B9AAA' : activeTheme.secondaryTextColor;
+  // Determine gradient colors from selected theme (or shuffled gradient theme)
+  const gradientColors = useMemo(() => {
+    const activeThemeForGradient = (isShuffleMode && shuffledImageTheme) ? shuffledImageTheme : currentTheme;
+    if ('gradientColors' in activeThemeForGradient) {
+      return activeThemeForGradient.gradientColors;
+    }
+    return defaultTheme.gradientColors;
+  }, [currentTheme, isShuffleMode, shuffledImageTheme]);
+
+  // Determine text colors based on theme (use active image/gradient theme for shuffle mode)
+  const activeTheme = activeImageTheme || (isShuffleMode && shuffledImageTheme ? shuffledImageTheme : currentTheme);
+  const textColor = activeTheme.textColor;
+  const secondaryColor = activeTheme.secondaryTextColor;
+  const tertiaryColor = activeTheme.secondaryTextColor;
 
   // Determine font family: shuffle picks randomly per quote, otherwise use selected font
   const fontFamily = useMemo(() => {

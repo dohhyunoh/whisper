@@ -7,12 +7,14 @@ import React, { useEffect, useState } from 'react';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const options = [
-  { label: 'External', description: 'The world around me' },
-  { label: 'Internal', description: 'Something inside me' },
-  { label: 'Both', description: 'A little of everything' },
+  'Write them down',
+  'Screenshot them',
+  'Save them for later',
+  'Share with someone',
+  'Nothing yet',
 ];
 
-export default function WeatherSourceScreen() {
+export default function QuoteRitualScreen() {
   const router = useRouter();
   const { state, dispatch } = useAppContext();
   const [selected, setSelected] = useState<string | null>(null);
@@ -20,32 +22,31 @@ export default function WeatherSourceScreen() {
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
   useEffect(() => {
-    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'weather_source' });
+    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'quote_ritual' });
   }, []);
 
   return (
     <OnboardingLayout
-      title={"Where is this\nweather coming from?"}
-      subtitle={`Understanding the source\nhelps us find the right words.`}
+      title={"When words speak\nto you, what do\nyou do?"}
+      subtitle="Everyone has a ritual"
       onContinue={() => {
         if (selected) {
           dispatch({
-
             type: 'SET_USER',
-            payload: { ...defaultUserData, ...state.user, weatherSource: selected.toLowerCase() },
+            payload: { ...defaultUserData, ...state.user, quoteRitual: selected },
           });
-          router.push('/onboarding/name-input');
+          router.push('/onboarding/app-expect');
         }
       }}
-      onSkip={() => router.push('/onboarding/name-input')}
+      onSkip={() => router.push('/onboarding/app-expect')}
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>
         {options.map((option) => {
-          const active = selected === option.label;
+          const active = selected === option;
           return (
             <Pressable
-              key={option.label}
+              key={option}
               style={({ pressed }) => [
                 styles.pill,
                 { paddingVertical: 14 * s, paddingHorizontal: 20 * s },
@@ -53,18 +54,13 @@ export default function WeatherSourceScreen() {
                 pressed ? styles.pillPressed : undefined,
               ]}
               onPress={() => {
-                setSelected(option.label);
-                posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'weather_source', choice: option.label });
+                setSelected(option);
+                posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'quote_ritual', choice: option });
               }}
             >
-              <View style={{ flex: 1 }}>
-                <Text style={[styles.pillText, { fontSize: 16 * s }, active && styles.pillTextSelected]}>
-                  {option.label}
-                </Text>
-                <Text style={[styles.pillDesc, { fontSize: 13 * s }, active && styles.pillDescSelected]}>
-                  {option.description}
-                </Text>
-              </View>
+              <Text style={[styles.pillText, { fontSize: 16 * s }, active && styles.pillTextSelected]}>
+                {option}
+              </Text>
               <View style={[styles.radio, { width: 22 * s, height: 22 * s, borderRadius: 11 * s }, active && styles.radioSelected]}>
                 {active && <View style={[styles.radioDot, { width: 10 * s, height: 10 * s, borderRadius: 5 * s }]} />}
               </View>
@@ -90,8 +86,6 @@ const styles = StyleSheet.create({
   pillPressed: { transform: [{ translateY: 1 }] },
   pillText: { fontWeight: '600', color: '#5A8BA8' },
   pillTextSelected: { color: '#FFFFFF' },
-  pillDesc: { fontWeight: '400', color: '#6B8F9E', marginTop: 2 },
-  pillDescSelected: { color: 'rgba(255,255,255,0.8)' },
   radio: { borderWidth: 2, borderColor: 'rgba(90, 139, 168, 0.3)', alignItems: 'center', justifyContent: 'center' },
   radioSelected: { borderColor: 'rgba(255, 255, 255, 0.6)' },
   radioDot: { backgroundColor: '#FFFFFF' },

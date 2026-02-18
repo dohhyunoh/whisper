@@ -1,9 +1,9 @@
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
+import { Events, posthog } from '@/utils/posthog';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { posthog, Events } from '@/utils/posthog';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const options = [
@@ -26,22 +26,22 @@ export default function FaithBaseScreen() {
 
   return (
     <OnboardingLayout
-      title={"Where do you\nlook for light?"}
-      subtitle="Where you find meaning, strength, or peace."
+      title={"Do you have\nother connections?"}
+      subtitle="Beyond people, where do you find strength?"
       onContinue={() => {
         if (selected) {
           dispatch({
             type: 'SET_USER',
             payload: { ...defaultUserData, ...state.user, lightSource: selected },
           });
-          if (selected === 'Around') {
-            router.push('/onboarding/tone-preference');
-          } else {
+          if (selected === 'Up') {
             router.push('/onboarding/faith-detail');
+          } else {
+            router.push('/onboarding/identity-role');
           }
         }
       }}
-      onSkip={() => router.push('/onboarding/tone-preference')}
+      onSkip={() => router.push('/onboarding/identity-role')}
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>
