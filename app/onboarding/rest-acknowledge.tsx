@@ -2,6 +2,7 @@ import { useAppContext } from '@/context/app-context';
 import { Events, posthog } from '@/utils/posthog';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
+import * as StoreReview from 'expo-store-review';
 import React, { useEffect } from 'react';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import Animated, {
@@ -29,6 +30,17 @@ export default function RestAcknowledgeScreen() {
 
   useEffect(() => {
     posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'rest_acknowledge' });
+  }, []);
+
+  useEffect(() => {
+    const triggerReview = async () => {
+      if (await StoreReview.hasAction()) {
+        await StoreReview.requestReview();
+      }
+    };
+    // Delay so the screen animations finish first
+    const timeout = setTimeout(triggerReview, 1600);
+    return () => clearTimeout(timeout);
   }, []);
 
   useEffect(() => {

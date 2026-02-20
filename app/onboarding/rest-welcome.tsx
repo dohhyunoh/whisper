@@ -1,8 +1,12 @@
+import StarSvg from '@/assets/svg/welcome/StarSvg';
+import SunSvg from '@/assets/svg/welcome/SunSvg';
+import WreathSvg from '@/assets/svg/welcome/WreathSvg';
 import { useAppContext } from '@/context/app-context';
 import { Events, posthog } from '@/utils/posthog';
+import { RiveFileFactory, RiveView, useRive } from '@rive-app/react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import Animated, {
   Easing,
@@ -22,6 +26,9 @@ export default function RestWelcomeScreen() {
 
   const name = state.user?.name || null;
 
+  const [riveFile, setRiveFile] = useState<Awaited<ReturnType<typeof RiveFileFactory.fromSource>> | null>(null);
+  const { riveViewRef, setHybridRef } = useRive();
+
   const titleOpacity = useSharedValue(0);
   const titleTranslateY = useSharedValue(15);
   const subtitleOpacity = useSharedValue(0);
@@ -32,10 +39,26 @@ export default function RestWelcomeScreen() {
   }, []);
 
   useEffect(() => {
-    titleOpacity.value = withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) });
-    titleTranslateY.value = withTiming(0, { duration: 600, easing: Easing.out(Easing.ease) });
-    subtitleOpacity.value = withDelay(800, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
-    btnOpacity.value = withDelay(1400, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
+    RiveFileFactory.fromSource(require('@/assets/rive/argo.riv'), undefined)
+      .then(setRiveFile)
+      .catch((err) => console.warn('Failed to load Rive file:', err));
+  }, []);
+
+  useEffect(() => {
+    if (riveFile && riveViewRef) {
+      const timeout = setTimeout(() => {
+        riveViewRef.triggerInput('hi');
+        riveViewRef.playIfNeeded();
+      }, 2200);
+      return () => clearTimeout(timeout);
+    }
+  }, [riveFile, riveViewRef]);
+
+  useEffect(() => {
+    titleOpacity.value = withDelay(400, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
+    titleTranslateY.value = withDelay(400, withTiming(0, { duration: 600, easing: Easing.out(Easing.ease) }));
+    subtitleOpacity.value = withDelay(1000, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
+    btnOpacity.value = withDelay(1800, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
   }, []);
 
   const titleStyle = useAnimatedStyle(() => ({
@@ -51,9 +74,42 @@ export default function RestWelcomeScreen() {
       locations={[0, 0.3, 0.7, 1]}
       style={styles.gradient}
     >
+      {/* Stars — upper left */}
+      <View style={[styles.starsContainer, { top: insets.top + 130 * s, left: 30 * s }]} pointerEvents="none">
+        <StarSvg size={80 * s} color="rgba(90,139,168,1)" />
+      </View>
+
+      {/* Sun — upper right */}
+      <View style={[styles.sunContainer, { top: insets.top + 10 * s, right: -10 * s }]} pointerEvents="none">
+        <SunSvg size={160 * s} color="rgba(90,139,168,1)" />
+      </View>
+
       <View style={[styles.content, { paddingTop: insets.top, paddingBottom: insets.bottom + 32 * s }]}>
         <View style={styles.center}>
-          <Animated.Text style={[styles.title, { fontSize: 28 * s }, titleStyle]}>
+          {/* Wreath behind mascot */}
+          <View style={styles.mascotWrapper}>
+            <View style={[styles.wreathContainer, { transform: [{ rotate: '25deg' }, { translateX: -10 * s }] }]} pointerEvents="none">
+              <WreathSvg size={250 * s} color="rgba(90,139,168,1)" />
+            </View>
+            {riveFile && (
+              <Pressable
+                style={styles.riveWrapper}
+                onPress={() => {
+                  riveViewRef?.triggerInput('hi');
+                  riveViewRef?.playIfNeeded();
+                }}
+              >
+                <RiveView
+                  hybridRef={setHybridRef}
+                  file={riveFile}
+                  stateMachineName="State Machine 2"
+                  autoPlay
+                  style={{ width: 180 * s, height: 180 * s, backgroundColor: 'transparent' }}
+                />
+              </Pressable>
+            )}
+          </View>
+          <Animated.Text style={[styles.title, { fontSize: 28 * s, marginTop: 40 * s }, titleStyle]}>
             Nice to meet you{name ? `, ${name}` : ''}
           </Animated.Text>
           <Animated.Text style={[styles.subtitle, { fontSize: 15 * s, marginTop: 16 * s }, subtitleStyle]}>
@@ -99,4 +155,9 @@ const styles = StyleSheet.create({
   },
   buttonPressed: { transform: [{ translateY: 2 }] },
   buttonText: { fontWeight: '700', color: '#5A8BA8', letterSpacing: 0.5 },
+  starsContainer: { position: 'absolute' },
+  sunContainer: { position: 'absolute' },
+  mascotWrapper: { alignItems: 'center', justifyContent: 'center' },
+  wreathContainer: { position: 'absolute' },
+  riveWrapper: { zIndex: 1 },
 });

@@ -1,6 +1,13 @@
+import BorderSvg from '@/assets/svg/index/BorderSvg';
+import Cloud1Svg from '@/assets/svg/index/Cloud1Svg';
+import Cloud2Svg from '@/assets/svg/index/Cloud2Svg';
+import Flower2Svg from '@/assets/svg/index/Flower2Svg';
+import Flower3Svg from '@/assets/svg/index/Flower3Svg';
+import FlowerSvg from '@/assets/svg/index/FlowerSvg';
+import WreathSvg from '@/assets/svg/index/WreathSvg';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
-import { Ionicons } from '@expo/vector-icons';
+import { Events, posthog } from '@/utils/posthog';
 import {
   BlurMask,
   Canvas,
@@ -15,7 +22,6 @@ import {
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { posthog, Events } from '@/utils/posthog';
 import { Image, Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import Animated, {
   Easing,
@@ -259,6 +265,7 @@ export default function OnboardingScreen() {
   const logoScale = useSharedValue(0.85);
   const cloudY = useSharedValue(0);
   const btnOpacity = useSharedValue(0);
+  const decorOpacity = useSharedValue(0);
 
   const [moodMessage, setMoodMessage] = useState('');
 
@@ -310,6 +317,9 @@ export default function OnboardingScreen() {
 
     // Button
     btnOpacity.value = withDelay(1400, withTiming(1, { duration: 600 }));
+
+    // Decorations
+    decorOpacity.value = withDelay(900, withTiming(1, { duration: 700 }));
   }, []);
 
   // ---- Styles ----
@@ -320,6 +330,7 @@ export default function OnboardingScreen() {
   }));
   const cloudStyle = useAnimatedStyle(() => ({ transform: [{ translateY: cloudY.value }] }));
   const btnStyle = useAnimatedStyle(() => ({ opacity: btnOpacity.value }));
+  const decorStyle = useAnimatedStyle(() => ({ opacity: decorOpacity.value }));
 
   return (
     <View style={styles.container}>
@@ -372,13 +383,51 @@ export default function OnboardingScreen() {
       </View>
 
       <Animated.View style={[styles.logoContainer, logoContainerStyle]} pointerEvents="none">
-        <Animated.View style={cloudStyle}>
-          <Image source={require('@/assets/images/mascot.png')} style={{ width: 52, height: 52 }} resizeMode="contain" />
-        </Animated.View>
+        <View style={styles.wreathContainer}>
+          <WreathSvg size={220 * s} color="rgba(255,255,255,0.9)" />
+          <Animated.View style={[styles.mascotOverlay, cloudStyle]}>
+            <Image source={require('@/assets/images/mascot.png')} style={{ width: 52 * s, height: 52 * s }} resizeMode="contain" />
+          </Animated.View>
+        </View>
         <Text style={styles.logoTitle}>Whisper</Text>
         <Text style={styles.logoMessage}>{moodMessage}</Text>
       </Animated.View>
 
+      {/* All decorations — fade in after bubble tap */}
+      <Animated.View style={[StyleSheet.absoluteFill, decorStyle]} pointerEvents="none">
+        {/* Corner borders — top-left of left at (1,1), top-right of right at (9,1) */}
+        <View style={[styles.decor, { top: screenH * (1 / 20), left: screenW * (0.5 / 10), transform: [{ rotate: '180deg' }, { scaleX: -1 }] }]}>
+          <BorderSvg size={110 * s} color="rgba(255,255,255,0.7)" />
+        </View>
+        <View style={[styles.decor, { top: screenH * (1 / 20), left: screenW * (9.5 / 10) - 110 * s, transform: [{ rotate: '180deg' }] }]}>
+          <BorderSvg size={110 * s} color="rgba(255,255,255,0.7)" />
+        </View>
+
+        {/* Clouds — upper area */}
+        <View style={[styles.decor, { top: 200 * s, left: 20 * s }]}>
+          <Cloud1Svg size={80 * s} color="rgba(255,255,255,0.8)" />
+        </View>
+        <View style={[styles.decor, { top: 100 * s, left: screenW * 0.28 }]}>
+          <Cloud2Svg size={140 * s} color="rgba(255,255,255,0.8)" />
+        </View>
+
+        {/* Daisy flower — top right, bottom edge at (8, 6) */}
+        <View style={[styles.decor, { bottom: screenH * (1 - 6 / 20), left: screenW * (8 / 10) - 50 * s }]}>
+          <Flower2Svg size={100 * s} color="rgba(255,255,255,0.8)" />
+        </View>
+
+        {/* Bottom-left flower — bottom edge centered at (2.5, 17) */}
+        <View style={[styles.decor, { bottom: screenH * (1 - 17.5 / 20), left: screenW * (1.5 / 10) - 110 * s }]}>
+          <FlowerSvg size={200 * s} color="rgba(255,255,255,0.85)" />
+        </View>
+
+        {/* Bottom-right flower — bottom edge centered at (7.5, 17) */}
+        <View style={[styles.decor, { bottom: screenH * (1 - 17.5 / 20), left: screenW * (7.5 / 10) - 75 * s }]}>
+          <Flower3Svg size={130 * s} color="rgba(255,255,255,0.8)" />
+        </View>
+      </Animated.View>
+
+      {/* Button */}
       <Animated.View style={[styles.buttonWrapper, { bottom: 80 * s, left: 32 * s, right: 32 * s }, btnStyle]}>
         <Pressable
           style={({ pressed }) => [styles.button, { paddingVertical: 18 * s, paddingHorizontal: 40 * s }, pressed && styles.buttonPressed]}
@@ -408,6 +457,9 @@ const styles = StyleSheet.create({
   touchTarget: { position: 'absolute', alignItems: 'center', justifyContent: 'center' },
   label: { fontWeight: '500', color: '#64748b', letterSpacing: 0.5 },
   logoContainer: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, alignItems: 'center', justifyContent: 'center', gap: 12 },
+  wreathContainer: { alignItems: 'center', justifyContent: 'center' },
+  mascotOverlay: { position: 'absolute', alignItems: 'center', justifyContent: 'center', top: 0, left: 0, right: 0, bottom: 0 },
+  decor: { position: 'absolute' },
   logoTitle: { fontSize: 52, fontWeight: '300', color: '#FFFFFF', letterSpacing: 2 },
   logoMessage: { fontSize: 18, fontWeight: '400', color: 'rgba(255,255,255,0.9)' },
   buttonWrapper: { position: 'absolute' },
