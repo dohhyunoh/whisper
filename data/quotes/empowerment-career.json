@@ -106,14 +106,6 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-014",
-    "text": "Each of us have the power to deliver joy and happiness to the people around us through the work we do.",
-    "author": "Alex Kakuyo",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
     "id": "emp-career-015",
     "text": "I am a great believer in luck, and I find the harder I work, the more I have of it.",
     "author": "Thomas Jefferson",
@@ -250,14 +242,6 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-032",
-    "text": "To be successful, the first thing to do is fall in love with your work.",
-    "author": "Sister Mary Lauretta",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
     "id": "emp-career-033",
     "text": "The difference between a job and a career is the difference between forty and sixty hours a week.",
     "author": "Robert Frost",
@@ -389,14 +373,6 @@
     "id": "emp-career-050",
     "text": "Your profession is not what brings home your paycheck. Your profession is what you were put on earth to do with such passion and such intensity that it becomes spiritual in calling.",
     "author": "Vincent van Gogh",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-career-051",
-    "text": "To love what you do and feel that it matters—how could anything be more fun?",
-    "author": "Katharine Graham",
     "category": "empowerment",
     "subcategory": "career",
     "tone": "direct"
@@ -605,14 +581,6 @@
     "id": "emp-career-077",
     "text": "There is no greater joy nor greater reward than to make a fundamental difference in someone's life.",
     "author": "Sister Mary Rose McGeady",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-career-078",
-    "text": "Purpose is the place where your deep gladness meets the world's needs.",
-    "author": "Frederick Buechner",
     "category": "empowerment",
     "subcategory": "career",
     "tone": "direct"

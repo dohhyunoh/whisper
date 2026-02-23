@@ -599,5 +599,38 @@
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
     "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-076",
+    "text": "Lose? I don't lose, I WIN. That's my job, that's what I do.",
+    "author": "Kevin Lomax",
+    "source": "The Devil's Advocate",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-077",
+    "text": "Push yourself because no one else is going to do it for you.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-078",
+    "text": "You don't have to be great to start, but you've to start to be great.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-079",
+    "text": "The harder the conflict, the more glorious the triumph.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   }
 ]

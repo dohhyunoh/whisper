@@ -320,14 +320,6 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-sw-041",
-    "text": "You are allowed to be both a masterpiece and a work in progress simultaneously.",
-    "author": "Sophia Bush",
-    "category": "self-love",
-    "subcategory": "self-worth",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-sw-042",
     "text": "Your healing is not a performance for others. Take all the time you need.",
     "author": "Unknown",
@@ -554,6 +546,23 @@
   {
     "id": "self-love-sw-070",
     "text": "Your worth is inherent. It cannot be earned, lost, or taken away. It simply is.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-071",
+    "text": "Believe in the me that believes in you",
+    "author": "Kamina",
+    "source": "Tengen Toppa Gurren Lagann",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-072",
+    "text": "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",

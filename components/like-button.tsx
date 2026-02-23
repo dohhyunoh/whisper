@@ -1,4 +1,4 @@
-import { IconSymbol } from '@/components/ui/icon-symbol';
+import HeartIconSvg from '@/assets/svg/share_icon/HeartIconSvg';
 import * as Haptics from 'expo-haptics';
 import React from 'react';
 import { Pressable, View } from 'react-native';
@@ -20,8 +20,8 @@ export function LikeButton({ liked, onToggle, color }: LikeButtonProps) {
   return (
     <Pressable onPress={handlePress} hitSlop={12}>
       <View>
-        <IconSymbol
-          name={liked ? 'heart.fill' : 'heart'}
+        <HeartIconSvg
+          filled={liked}
           size={38}
           color={liked ? '#E85D75' : color}
         />

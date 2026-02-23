@@ -48,14 +48,6 @@
     "tone": "playful"
   },
   {
-    "id": "mood-humor-010",
-    "text": "I've always wanted to go to Switzerland to see what the army does with those wee red knives.",
-    "author": "Billy Connolly",
-    "category": "mood-boosters",
-    "subcategory": "humor",
-    "tone": "playful"
-  },
-  {
     "id": "mood-humor-011",
     "text": "My fake plants died because I did not pretend to water them.",
     "author": "Mitch Hedberg",
@@ -764,6 +756,22 @@
     "id": "mood-humor-120",
     "text": "If at first you don't succeed, then skydiving definitely isn't for you.",
     "author": "Steven Wright",
+    "category": "mood-boosters",
+    "subcategory": "humor",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-humor-121",
+    "text": "The other night I ate at a real nice family restaurant. Every table had an argument going.",
+    "author": "George Carlin",
+    "category": "mood-boosters",
+    "subcategory": "humor",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-humor-122",
+    "text": "Keep your friends close, your enemies closer and receipts for all major purchases.",
+    "author": "Bridger Winegar",
     "category": "mood-boosters",
     "subcategory": "humor",
     "tone": "playful"

@@ -1,16 +1,20 @@
-import { IconSymbol } from '@/components/ui/icon-symbol';
+import ShareIconSvg from '@/assets/svg/share_icon/ShareIconSvg';
 import { Quote } from '@/data/types';
-import React from 'react';
+import React, { useState } from 'react';
 import { Pressable, Share } from 'react-native';
 
 interface ShareButtonProps {
   quote: Quote;
   color: string;
+  size?: number;
   onShare?: () => Promise<void>;
 }
 
-export function ShareButton({ quote, color, onShare }: ShareButtonProps) {
+export function ShareButton({ quote, color, size = 38, onShare }: ShareButtonProps) {
+  const [shared, setShared] = useState(false);
+
   const handlePress = async () => {
+    setShared(true);
     if (onShare) {
       await onShare();
       return;
@@ -24,7 +28,7 @@ export function ShareButton({ quote, color, onShare }: ShareButtonProps) {
 
   return (
     <Pressable onPress={handlePress} hitSlop={12}>
-      <IconSymbol name="square.and.arrow.up" size={38} color={color} />
+      <ShareIconSvg size={size} color={color} filled={shared} />
     </Pressable>
   );
 }

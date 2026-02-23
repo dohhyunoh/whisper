@@ -448,14 +448,6 @@
     "tone": "playful"
   },
   {
-    "id": "mood-philo-057",
-    "text": "One is not born, but rather becomes, a woman.",
-    "author": "Simone de Beauvoir",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
     "id": "mood-philo-058",
     "text": "Change your life today. Don't gamble on the future, act now, without delay.",
     "author": "Simone de Beauvoir",
@@ -475,22 +467,6 @@
     "id": "mood-philo-060",
     "text": "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
     "author": "Hannah Arendt",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-061",
-    "text": "Forgiveness is the key to action and freedom.",
-    "author": "Hannah Arendt",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-062",
-    "text": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
-    "author": "Alan Watts",
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "playful"
@@ -555,6 +531,118 @@
     "id": "mood-philo-070",
     "text": "The impediment to action advances action. What stands in the way becomes the way.",
     "author": "Marcus Aurelius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-071",
+    "text": "If you kill a cockroach you are a hero; if you kill a butterfly, you are evil. Morals have aesthetic criteria.",
+    "author": "Friedrich Nietzsche",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-072",
+    "text": "Everything that irritates us about others can lead us to an understanding of ourselves.",
+    "author": "Carl Jung",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-073",
+    "text": "Man suffers only because he takes seriously what the gods made for fun.",
+    "author": "Alan Watts",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-074",
+    "text": "The world is a mirror; if you face it smiling, it smiles back.",
+    "author": "Peace Pilgrim",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-075",
+    "text": "Life is 10% what happens to you and 90% how you react to it.",
+    "author": "Charles R. Swindoll",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-076",
+    "text": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-077",
+    "text": "Life is not a problem to be solved, but a reality to be experienced.",
+    "author": "Søren Kierkegaard",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-078",
+    "text": "The sun doesn't rush to rise, yet it always arrives on time.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-079",
+    "text": "Not until we are lost do we begin to understand ourselves.",
+    "author": "Henry David Thoreau",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-080",
+    "text": "The wise person doesn't give the right answers, but poses the right questions.",
+    "author": "Claude Levi-Strauss",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-081",
+    "text": "A person who thinks all the time has nothing to think about except thoughts. So, he loses touch with reality and lives in a world of illusions.",
+    "author": "Alan Watts",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-082",
+    "text": "Man is born free, and everywhere he is in chains.",
+    "author": "Jean-Jacques Rousseau",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-083",
+    "text": "Look at you, comforting others with the words you wished someone had said to you.",
+    "author": "Fyodor Dostoevsky",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-084",
+    "text": "Less is more.",
+    "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "playful"

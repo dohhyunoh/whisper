@@ -128,14 +128,6 @@
     "tone": "gentle"
   },
   {
-    "id": "rel-friend-017",
-    "text": "Never explain - your friends do not need it and your enemies will not believe you anyway.",
-    "author": "Elbert Hubbard",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
     "id": "rel-friend-018",
     "text": "A friendship founded on business is better than a business founded on friendship.",
     "author": "John D. Rockefeller",
@@ -203,14 +195,6 @@
     "id": "rel-friend-026",
     "text": "A friend is what the heart needs all the time.",
     "author": "Henry Van Dyke",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-friend-027",
-    "text": "Where would you be without friends? The people to pick you up when you need lifting? We come from homes far from perfect, so you end up almost parent and sibling to your friends - your own chosen family. There's nothing like a really loyal, dependable, good friend. Nothing.",
-    "author": "Jennifer Aniston",
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "gentle"
@@ -328,14 +312,6 @@
     "tone": "gentle"
   },
   {
-    "id": "rel-friend-042",
-    "text": "The friend in my adversity I shall always cherish most. I can better trust those who helped to relieve the gloom of my dark hours than those who are so ready to enjoy with me the sunshine of my prosperity.",
-    "author": "Ulysses S. Grant",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
     "id": "rel-friend-043",
     "text": "My friends are my estate.",
     "author": "Emily Dickinson",
@@ -347,14 +323,6 @@
     "id": "rel-friend-044",
     "text": "Friends are the siblings God never gave us.",
     "author": "Mencius",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-friend-045",
-    "text": "She is a friend of mind. She gather me, man. The pieces I am, she gather them and give them back to me in all the right order. It's good, you know, when you got a woman who is a friend of your mind.",
-    "author": "Toni Morrison",
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "gentle"
@@ -484,15 +452,6 @@
     "tone": "gentle"
   },
   {
-    "id": "rel-friend-061",
-    "text": "We cannot tell the precise moment when friendship is formed. As in filling a vessel drop by drop, there is at last a drop which makes it run over, so in a series of kindnesses there is at last one which makes the heart run over.",
-    "author": "Ray Bradbury",
-    "source": "Fahrenheit 451",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
     "id": "rel-friend-062",
     "text": "Friendship is everything. Friendship is more than talent. It is more than the government. It is almost the equal of family.",
     "author": "Mario Puzo",
@@ -529,15 +488,6 @@
     "tone": "gentle"
   },
   {
-    "id": "rel-friend-066",
-    "text": "Some people need a red carpet rolled out in front of them in order to walk forward into friendship. They can't see the tiny outstretched hands all around them, everywhere, like leaves on trees.",
-    "author": "Miranda July",
-    "source": "No One Belongs Here More Than You",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
     "id": "rel-friend-067",
     "text": "Friends ask you questions; enemies question you.",
     "author": "Criss Jami",
@@ -560,15 +510,6 @@
     "text": "There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.",
     "author": "Jane Austen",
     "source": "Northanger Abbey",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-friend-070",
-    "text": "Friendship—my definition—is built on two things. Respect and trust. Both elements have to be there. And it has to be mutual. You can have respect for someone, but if you don't have trust, the friendship will crumble.",
-    "author": "Stieg Larsson",
-    "source": "The Girl With the Dragon Tattoo",
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "gentle"
@@ -740,14 +681,6 @@
     "tone": "gentle"
   },
   {
-    "id": "rel-friend-092",
-    "text": "Friends catch you before you hit rock bottom.",
-    "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
     "id": "rel-friend-093",
     "text": "Distance doesn't dim a strong friendship.",
     "author": "Unknown",
@@ -821,15 +754,6 @@
     "tone": "gentle"
   },
   {
-    "id": "rel-friend-102",
-    "text": "When someone loves you, the way they talk about you is different. You feel safe and comfortable.",
-    "author": "Jess C. Scott",
-    "source": "The Intern",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
     "id": "rel-friend-103",
     "text": "You can't stay in your corner of the Forest waiting for others to come to you. You have to go to them sometimes.",
     "author": "A.A. Milne",
@@ -852,15 +776,6 @@
     "text": "It is more fun to talk with someone who doesn't use long, difficult words but rather short, easy words like 'What about lunch?'",
     "author": "A. A. Milne",
     "source": "Winnie-the-Pooh",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-friend-106",
-    "text": "It is an absolute human certainty that no one can know his own beauty or perceive a sense of his own worth until it has been reflected back to him in the mirror of another loving, caring human being.",
-    "author": "John Joseph Powell",
-    "source": "The Secret of Staying in Love",
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "gentle"
@@ -983,15 +898,6 @@
     "tone": "gentle"
   },
   {
-    "id": "rel-friend-121",
-    "text": "Nobody steals books but your friends.",
-    "author": "Roger Zelazny",
-    "source": "The Guns of Avalon",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
     "id": "rel-friend-122",
     "text": "Only a true best friend can protect you from your immortal enemies.",
     "author": "Richelle Mead",
@@ -1037,15 +943,6 @@
     "tone": "gentle"
   },
   {
-    "id": "rel-friend-127",
-    "text": "I hold this to be the highest task of a bond between two people: that each should stand guard over the solitude of the other.",
-    "author": "Rainer Maria Rilke",
-    "source": "Letters to a Young Poet",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
     "id": "rel-friend-128",
     "text": "A wise man gets more use from his enemies than a fool from his friends.",
     "author": "Baltasar Gracian",
@@ -1086,15 +983,6 @@
     "text": "A real relationship is two-way.",
     "author": "Sophie Kinsella",
     "source": "Can You Keep a Secret?",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-friend-133",
-    "text": "A hunted man sometimes wearies of distrust and longs for friendship.",
-    "author": "J. R. R. Tolkien",
-    "source": "The Lord of the Rings",
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "gentle"

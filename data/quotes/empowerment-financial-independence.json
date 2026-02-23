@@ -40,14 +40,6 @@
     "tone": "direct"
   },
   {
-    "id": "emp-fin-008",
-    "text": "By definition, saving – for anything – requires us not to get things now so we can get bigger ones later on.",
-    "author": "Jean Chatzky",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
     "id": "emp-fin-009",
     "text": "I do not think I am successful just because I have money. I'm successful because I love who I am and I have no regrets.",
     "author": "Suze Orman",
@@ -59,22 +51,6 @@
     "id": "emp-fin-010",
     "text": "People say that money is not the key to happiness, but I always figured if you have enough money, you can have a key made.",
     "author": "Joan Rivers",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-011",
-    "text": "Automating some of your finances can be incredibly convenient and is a great way to save time, but automating everything makes it too easy to go on autopilot and forget to pay attention to your personal finances.",
-    "author": "Alexa Von Tobel",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-012",
-    "text": "To attract money, you must focus on wealth. It is impossible to bring more money into your life when you are noticing you do not have enough, because that means you are thinking thoughts that you do not have enough.",
-    "author": "Rhonda Byrne",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"
@@ -166,25 +142,9 @@
     "tone": "direct"
   },
   {
-    "id": "emp-fin-024",
-    "text": "It is incumbent upon each of us to improve spending and savings practices to ensure our own individual financial security and preserve the collective economic well-being of our great society.",
-    "author": "Ron Lewis",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
     "id": "emp-fin-025",
     "text": "The goal isn't more money. The goal is living life on your terms.",
     "author": "Will Rogers",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-026",
-    "text": "If you're not staying on top of your money, you're putting your financial well-being at risk.",
-    "author": "Suze Orman",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"
@@ -246,30 +206,6 @@
     "tone": "direct"
   },
   {
-    "id": "emp-fin-034",
-    "text": "Have a well-thought financial plan that is not dependent upon correctly guessing what will happen in the future.",
-    "author": "Barry Ritholtz",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-035",
-    "text": "Do what you love and the money will follow.",
-    "author": "Marsha Sinetar",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-036",
-    "text": "Pursuing your passion is fulfilling and leads to financial freedom.",
-    "author": "Robert Allen",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
     "id": "emp-fin-037",
     "text": "What we really want to do is what we are really meant to do. When we do what we are meant to do, money comes to us, doors open for us, we feel useful, and the work we do feels like play to us.",
     "author": "Julia Cameron",
@@ -281,14 +217,6 @@
     "id": "emp-fin-038",
     "text": "A budget is more than just a series of numbers on a page. It is an embodiment of our values.",
     "author": "Barack Obama",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-039",
-    "text": "Never spend your money before you have earned it.",
-    "author": "Thomas Jefferson",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"
@@ -406,33 +334,9 @@
     "tone": "direct"
   },
   {
-    "id": "emp-fin-054",
-    "text": "If you're saving, you're succeeding.",
-    "author": "Steve Burkholder",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-055",
-    "text": "Money does not dictate your lifestyle, It's what you do to get it and how you manage your finances that determines your lifestyle.",
-    "author": "Wayne Chirisa",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
     "id": "emp-fin-056",
     "text": "Wealth is not about having a lot of money; it's about having a lot of options.",
     "author": "Chris Rock",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-057",
-    "text": "Manage your spending by creating and sticking to a budget.",
-    "author": "Alexa Von Tobel",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"

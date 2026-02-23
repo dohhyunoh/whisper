@@ -22,7 +22,6 @@ const MAPPING = {
   'magnifyingglass': 'search',
   'heart.fill': 'favorite',
   'heart': 'favorite-border',
-  'square.and.arrow.up': 'share',
   'xmark': 'close',
   'crown.fill': 'workspace-premium',
   'person.circle': 'account-circle',
