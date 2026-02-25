@@ -14,7 +14,7 @@ export default function ProfileModal() {
   const { state } = useAppContext();
   const { likedIds } = useLikes();
   const [showCustomerCenter, setShowCustomerCenter] = useState(false);
-  const { isPremium, currentTheme } = usePremium();
+  const { currentTheme, status } = usePremium();
   const userName = state.user?.name || '';
   const ownQuoteCount = state.ownQuotes.length;
 
@@ -104,7 +104,7 @@ export default function ProfileModal() {
         </View>
 
         {/* Manage Subscription */}
-        {isPremium && (
+{status === 'premium_purchased' && (
           <View style={styles.section}>
             <Pressable
               style={styles.manageSubCard}
