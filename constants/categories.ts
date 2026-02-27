@@ -24,6 +24,7 @@ export const RELATIONSHIP_SUBCATEGORIES: SubcategoryInfo[] = [
   { key: 'friendship', label: 'Friendship' },
   { key: 'breakups', label: 'Breakups' },
   { key: 'family', label: 'Family' },
+  { key: 'attracting-love', label: 'Attracting Love' },
 ];
 
 export const EMPOWERMENT_SUBCATEGORIES: SubcategoryInfo[] = [
@@ -43,7 +44,6 @@ export const RELIGION_SUBCATEGORIES: SubcategoryInfo[] = [
 
 export const MOOD_BOOSTER_SUBCATEGORIES: SubcategoryInfo[] = [
   { key: 'daily-motivation', label: 'Daily Motivation' },
-  { key: 'humor', label: 'Humor' },
   { key: 'calm', label: 'Calm' },
   { key: 'gratitude', label: 'Gratitude' },
 ];

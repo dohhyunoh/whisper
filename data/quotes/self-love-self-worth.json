@@ -5,15 +5,7 @@
     "author": "Lalah Delia",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-sw-002",
-    "text": "Every one of us needs to show how much we care for each other and, in the process, care for ourselves.",
-    "author": "Princess Diana",
-    "category": "self-love",
-    "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-003",
@@ -29,7 +21,7 @@
     "author": "Bell Hooks",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-sw-005",
@@ -45,31 +37,7 @@
     "author": "Anne LaMott",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-sw-007",
-    "text": "Self-care has become a new priority—the revelation that it's perfectly permissible to listen to your body and do what it needs.",
-    "author": "Frances Ryan",
-    "category": "self-love",
-    "subcategory": "self-worth",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-sw-008",
-    "text": "Aim high and don't sell yourself short.",
-    "author": "Holly Holm",
-    "category": "self-love",
-    "subcategory": "self-worth",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-sw-009",
-    "text": "Real women are fat. And thin. And both, and neither and otherwise.",
-    "author": "Hanne Blank",
-    "category": "self-love",
-    "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-sw-010",
@@ -149,28 +117,12 @@
     "author": "Anne Lamott",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-sw-020",
     "text": "It's not the load that breaks you down, it's the way you carry it.",
     "author": "Lena Horne",
-    "category": "self-love",
-    "subcategory": "self-worth",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-sw-021",
-    "text": "Self-care is not a luxury; it's a necessity.",
-    "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "self-worth",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-sw-022",
-    "text": "Rest and self-care are so important. When you take time to replenish your spirit, it allows you to serve others from the overflow.",
-    "author": "Eleanor Brown",
     "category": "self-love",
     "subcategory": "self-worth",
     "tone": "gentle"
@@ -187,14 +139,6 @@
     "id": "self-love-sw-024",
     "text": "Caring for myself is not self-indulgence. It is self-preservation.",
     "author": "Audre Lorde",
-    "category": "self-love",
-    "subcategory": "self-worth",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-sw-025",
-    "text": "Give yourself permission to rest. You don't have to be everything to everyone.",
-    "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
     "tone": "gentle"
@@ -237,7 +181,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-031",
@@ -245,7 +189,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-032",
@@ -269,15 +213,7 @@
     "author": "Carl Jung",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-sw-035",
-    "text": "You've been criticizing yourself for years and it hasn't worked. Try approving of yourself and see what happens.",
-    "author": "Louise Hay",
-    "category": "self-love",
-    "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-036",
@@ -309,7 +245,7 @@
     "author": "Alysia Harris",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-040",
@@ -333,7 +269,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-044",
@@ -349,7 +285,7 @@
     "author": "Ziad K. Abdelnour",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-046",
@@ -357,7 +293,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-047",
@@ -397,7 +333,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-052",
@@ -445,7 +381,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-058",
@@ -477,7 +413,7 @@
     "author": "Alex Elle",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-062",
@@ -533,7 +469,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-069",
@@ -564,6 +500,59 @@
     "id": "self-love-sw-072",
     "text": "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
     "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "playful"
+  },
+  {
+    "id": "self-love-sw-073",
+    "text": "People cry, not because they're weak, it's because they've been strong for too long.",
+    "author": "Johnny Depp",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-074",
+    "text": "Hard work is worthless for those that don't believe in themselves.",
+    "author": "Naruto Uzumaki",
+    "source": "Naruto",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-075",
+    "text": "Being alone is better than being with the wrong person.",
+    "author": "L",
+    "source": "Death Note",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-076",
+    "text": "We aren't pigs. We're humans. Even if we're treated like trash, we won't forget who we are.",
+    "author": "Raiden Shuga",
+    "source": "86 Eighty-Six",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-077",
+    "text": "The more you know who you are, and what you want, the less you let things upset you.",
+    "author": "Lost in Translation",
+    "source": "2003",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-078",
+    "text": "We accept the love we think we deserve.",
+    "author": "The Perks of Being a Wallflower",
+    "source": "2012",
     "category": "self-love",
     "subcategory": "self-worth",
     "tone": "gentle"

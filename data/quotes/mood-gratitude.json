@@ -5,7 +5,7 @@
     "author": "John F. Kennedy",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "mood-grat-002",
@@ -133,7 +133,7 @@
     "author": "Doris Day",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "mood-grat-018",
@@ -184,41 +184,9 @@
     "tone": "gentle"
   },
   {
-    "id": "mood-grat-024",
-    "text": "It is always easier to requite an injury than a service: gratitude is a burden, but revenge is found to pay.",
-    "author": "Tacitus",
-    "category": "mood-boosters",
-    "subcategory": "gratitude",
-    "tone": "gentle"
-  },
-  {
     "id": "mood-grat-025",
     "text": "Gratitude, warm, sincere, intense, when it takes possession of the bosom, fills the soul to overflowing and scarce leaves room for any other sentiment or thought.",
     "author": "John Quincy Adams",
-    "category": "mood-boosters",
-    "subcategory": "gratitude",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-grat-027",
-    "text": "I am of the African race, and in the colour which is natural to them of the deepest dye; and it is under a sense of the most profound gratitude to the Supreme Ruler of the Universe.",
-    "author": "Benjamin Banneker",
-    "category": "mood-boosters",
-    "subcategory": "gratitude",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-grat-029",
-    "text": "On the recollection of so many and great favours and blessings, I now, with a high sense of gratitude, presume to offer up my sincere thanks to the Almighty, the Creator and Preserver.",
-    "author": "William Bartram",
-    "category": "mood-boosters",
-    "subcategory": "gratitude",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-grat-030",
-    "text": "Alas, how quickly the gratitude owed to the dead flows off, how quick to be proved a deceiver.",
-    "author": "Sophocles",
     "category": "mood-boosters",
     "subcategory": "gratitude",
     "tone": "gentle"
@@ -288,14 +256,6 @@
     "tone": "gentle"
   },
   {
-    "id": "mood-grat-039",
-    "text": "Revenge is profitable, gratitude is expensive.",
-    "author": "Edward Gibbon",
-    "category": "mood-boosters",
-    "subcategory": "gratitude",
-    "tone": "gentle"
-  },
-  {
     "id": "mood-grat-040",
     "text": "When a person doesn't have gratitude, something is missing in his or her humanity.",
     "author": "Elie Wiesel",
@@ -317,7 +277,7 @@
     "author": "Gertrude Stein",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "mood-grat-043",
@@ -544,13 +504,205 @@
     "tone": "gentle"
   },
   {
+    "id": "mood-grat-073",
+    "text": "Someone in your life would light up just hearing your name. That's not nothing — that's everything.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-074",
+    "text": "The meal in front of you traveled through dozens of hands to reach yours — farmers, drivers, packers, cooks. You are being taken care of by a world that mostly doesn't know your name.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-075",
+    "text": "Someone planted that. Someone harvested it. Someone drove through the night to deliver it. Your dinner is a small miracle assembled by strangers.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-076",
+    "text": "The water that reached you today — someone built the pipes, someone monitors the quality, someone made sure it was safe. You are held by systems of quiet care.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-077",
+    "text": "The clothes on your back passed through the hands of designers, weavers, sewers, shippers. Someone you'll never meet made sure you were covered today.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-078",
+    "text": "The road you drove on this morning — engineers designed it, workers paved it, someone filled the potholes so you'd arrive safely. You are carried by labor you never see.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-079",
+    "text": "Someone built the roof over your head. Hammered every nail. Measured every beam. You sleep safely because of work done by someone whose name you'll never know.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-080",
+    "text": "The teacher who believed in you before you believed in yourself — they planted something in you that is still growing.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-081",
+    "text": "The firefighter who memorized the streets of your neighborhood — just in case. They prepared for your worst day hoping it would never come.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-082",
+    "text": "The person at the other end of the helpline who picked up at 2am. They showed up for a stranger in the dark and asked nothing in return.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-083",
+    "text": "Someone translated the book that changed your life. Spent months finding the exact right word so that meaning wouldn't be lost between languages.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-084",
+    "text": "The stranger who donated blood before they knew your name — before you even needed it. Grace given in advance.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-085",
+    "text": "Thank you for this morning. For the light coming through the window, for the air in my lungs, for another chance to be here.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-086",
+    "text": "Thank you for today — not because it was perfect, but because it was mine.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-087",
+    "text": "I woke up. The day is here. Somewhere outside, the world is already beautiful and waiting. Thank you.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-088",
+    "text": "Thank you for the small things that asked nothing of me today — the warmth of a shower, the smell of food, the quiet before the world got loud.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-089",
+    "text": "Another day. Another chance. Thank you.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-090",
+    "text": "The friends who have seen you at your lowest and never flinched — they are one of the greatest gifts your life holds.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-091",
+    "text": "Your family carried you before you even knew you needed carrying. There is a debt of love there that can never fully be repaid — and that's beautiful.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-092",
+    "text": "The friend who answers when you call. The one who remembers. The one who shows up. Be grateful for them today — they are rarer than you think.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-093",
+    "text": "Some people have your back so quietly you forget they're there. Don't forget. They are your foundation.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-094",
+    "text": "The people in your life who love you without needing you to be perfect — hold them close. Not everyone gets that.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-095",
+    "text": "You have people who would drop everything for you. Let that sink in. You are that loved.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-096",
+    "text": "The laughter you share with the people who know you best — that is one of the purest forms of grace a life can offer.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
     "id": "mood-grat-071",
     "text": "If good things lasted forever, would we appreciate how precious they are?",
     "author": "Bill Watterson",
     "source": "It's a Magical World",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "mood-grat-072",
@@ -559,6 +711,6 @@
     "source": "Troy (2004)",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "playful"
   }
 ]

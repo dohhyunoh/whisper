@@ -12,6 +12,7 @@ import relationshipsPartnership from './relationships-partnership.json';
 import relationshipsFriendship from './relationships-friendship.json';
 import relationshipsBreakups from './relationships-breakups.json';
 import relationshipsFamily from './relationships-family.json';
+import relationshipsAttractingLove from './relationships-attracting-love.json';
 
 // Empowerment & Career
 import empowermentCareer from './empowerment-career.json';
@@ -28,7 +29,6 @@ import religionBuddhism from './religion-buddhism.json';
 
 // Mood Boosters
 import moodDailyMotivation from './mood-daily-motivation.json';
-import moodHumor from './mood-humor.json';
 import moodCalm from './mood-calm.json';
 import moodGratitude from './mood-gratitude.json';
 import moodPhilosophy from './mood-philosophy.json';
@@ -45,6 +45,7 @@ const allQuotes: Quote[] = [
   ...relationshipsFriendship,
   ...relationshipsBreakups,
   ...relationshipsFamily,
+  ...relationshipsAttractingLove,
   // Empowerment & Career
   ...empowermentCareer,
   ...empowermentOvercomingObstacles,
@@ -58,7 +59,6 @@ const allQuotes: Quote[] = [
   ...religionBuddhism,
   // Mood Boosters
   ...moodDailyMotivation,
-  ...moodHumor,
   ...moodCalm,
   ...moodGratitude,
   ...moodPhilosophy,

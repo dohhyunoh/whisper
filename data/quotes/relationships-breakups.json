@@ -5,7 +5,7 @@
     "author": "Alexander Graham Bell",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-003",
@@ -13,7 +13,7 @@
     "author": "Hermann Hesse",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-004",
@@ -21,7 +21,7 @@
     "author": "Richard Bach",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-005",
@@ -29,7 +29,7 @@
     "author": "Dr. Seuss",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-006",
@@ -37,7 +37,7 @@
     "author": "Alfred Lord Tennyson",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-007",
@@ -45,15 +45,7 @@
     "author": "Chris Young",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-008",
-    "text": "I find it quite difficult to think that there's, you know, about 20 million people listening to my album that I wrote very selfishly to get over a breakup. I didn't write it being that it's going to be a hit.",
-    "author": "Adele",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-009",
@@ -61,7 +53,7 @@
     "author": "Kate Nash",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-010",
@@ -69,7 +61,7 @@
     "author": "Brittany Murphy",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-011",
@@ -77,7 +69,7 @@
     "author": "Jonathan Harnisch",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-012",
@@ -85,7 +77,7 @@
     "author": "Gwyneth Paltrow",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-014",
@@ -93,7 +85,7 @@
     "author": "Lord Byron",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-015",
@@ -117,7 +109,7 @@
     "author": "Patti Roberts",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-018",
@@ -125,7 +117,7 @@
     "author": "Soo Jie",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-019",
@@ -133,7 +125,7 @@
     "author": "L.M. Montgomery",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-020",
@@ -141,7 +133,7 @@
     "author": "Sara Evans",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-021",
@@ -157,7 +149,7 @@
     "author": "Jan Glidewell",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-023",
@@ -165,7 +157,7 @@
     "author": "A.Y. Greyson",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-024",
@@ -173,7 +165,7 @@
     "author": "Ryan Phillippe",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-025",
@@ -190,7 +182,7 @@
     "author": "Rihanna",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-027",
@@ -198,15 +190,7 @@
     "author": "Chinese Proverb",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-028",
-    "text": "Just believe in yourself. Even if you don't pretend that you do and, and some point, you will.",
-    "author": "Venus Williams",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-029",
@@ -217,20 +201,12 @@
     "tone": "direct"
   },
   {
-    "id": "rel-breakup-030",
-    "text": "Isn't it strange how life won't flow, like a river, but moves in jumps, as if it were held back by locks that are opened now and then to let it jump forwards in a kind of flood?",
-    "author": "Anita Desai",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
     "id": "rel-breakup-031",
     "text": "Every time you thought you couldn't keep moving forward, you did. Take a moment to appreciate your strength.",
     "author": "Karen Salmanson",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-032",
@@ -238,7 +214,7 @@
     "author": "Miley Cyrus",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-033",
@@ -266,20 +242,12 @@
     "tone": "direct"
   },
   {
-    "id": "rel-breakup-036",
-    "text": "When I let go of what I am, I become what I might be. When I let go of what I have, I receive what I need.",
-    "author": "Lao Tzu",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
     "id": "rel-breakup-037",
     "text": "Moving on is not forgetting — moving on is being able to remember without feeling awful about it.",
     "author": "Sam Madison",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-038",
@@ -287,7 +255,7 @@
     "author": "Jean de La Fontaine",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-040",
@@ -295,15 +263,7 @@
     "author": "Robyn Schneider",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-041",
-    "text": "When you do things from your soul, you feel a river moving in you, a joy.",
-    "author": "Rumi",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-042",
@@ -311,15 +271,7 @@
     "author": "Mary Oliver",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-043",
-    "text": "You can't move things by not moving.",
-    "author": "Suzy Kassem",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-044",
@@ -328,7 +280,7 @@
     "source": "Winnie the Pooh",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-045",
@@ -344,7 +296,7 @@
     "author": "Jodi Picoult",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-047",
@@ -352,7 +304,7 @@
     "author": "Nicole Kidman",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-048",
@@ -360,7 +312,7 @@
     "author": "Angelina Jolie",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-049",
@@ -368,15 +320,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-050",
-    "text": "Keep your face always toward the sunshine — and shadows will fall behind you.",
-    "author": "Walt Whitman",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-051",
@@ -393,7 +337,7 @@
     "author": "H.C. Paye",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-053",
@@ -428,15 +372,7 @@
     "source": "Before I Fall",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-057",
-    "text": "Only time can heal his heart, just as only time can heal his broken arms and legs.",
-    "author": "Miss Piggy",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-058",
@@ -453,7 +389,7 @@
     "author": "Amy Poehler",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-061",
@@ -462,7 +398,7 @@
     "source": "The Zahir",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-062",
@@ -470,7 +406,7 @@
     "author": "Ted Lasso",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-063",
@@ -478,7 +414,7 @@
     "author": "Rebekah Crane",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-064",
@@ -495,7 +431,7 @@
     "author": "Sara Teasdale",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-066",
@@ -512,7 +448,7 @@
     "author": "Anne Hathaway",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-068",
@@ -520,7 +456,7 @@
     "author": "Robert Brault",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-069",
@@ -528,16 +464,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-070",
-    "text": "This is the part of me that you're never gonna ever take away from me, no! Throw your sticks and your stones, throw your bombs and your blow. But you're not gonna break my soul.",
-    "author": "Katy Perry",
-    "source": "Part Of Me",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-071",
@@ -545,7 +472,7 @@
     "author": "Joseph Campbell",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-072",
@@ -561,15 +488,7 @@
     "author": "Cameron Diaz",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-074",
-    "text": "You're gonna make it after all.",
-    "author": "The Mary Tyler Moore Show",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-075",
@@ -585,7 +504,7 @@
     "author": "Rainer Maria Rilke",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-077",
@@ -596,30 +515,12 @@
     "tone": "direct"
   },
   {
-    "id": "rel-breakup-078",
-    "text": "I'm breaking down, gonna start from scratch. Shake it off like an Etch-A-Sketch. My lips are saying goodbye. My eyes are finally dry.",
-    "author": "Fifth Harmony",
-    "source": "Miss Movin On",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-079",
-    "text": "After all, tomorrow is another day.",
-    "author": "Scarlett O'Hara",
-    "source": "Gone with the Wind",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
     "id": "rel-breakup-080",
     "text": "The truth is, I should be angry, resentful and disillusioned about relationships. But I'm not. Love did not work with that person. But it can work with another.",
     "author": "Eva Longoria",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-081",
@@ -627,7 +528,7 @@
     "author": "George Bernard Shaw",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-082",
@@ -636,7 +537,7 @@
     "source": "Ink Exchange",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-083",
@@ -645,15 +546,7 @@
     "source": "Dreamland",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-085",
-    "text": "It's always darkest before the dawn.",
-    "author": "Thomas Fuller",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-086",
@@ -661,7 +554,7 @@
     "author": "Maya Angelou",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-087",
@@ -669,7 +562,7 @@
     "author": "Elizabeth Gilbert",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-088",
@@ -678,46 +571,12 @@
     "source": "The Lower Depths and Other Plays",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-089",
-    "text": "It's no use going back to yesterday, because I was a different person then.",
-    "author": "Lewis Carroll",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-090",
     "text": "I will not allow myself to not feel chosen every single day. And I'll wait till whenever that is.",
     "author": "Hannah Brown",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-091",
-    "text": "Hope, Smiles from the threshold of the year to come, Whispering 'it will be happier'...",
-    "author": "Alfred Lord Tennyson",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-093",
-    "text": "Breaking up is like knocking over a Coke machine. You can't do it in one push. You gotta rock it back and forth a few times, and then it goes over.",
-    "author": "Jerry Seinfeld",
-    "source": "Seinfeld",
-    "category": "relationships",
-    "subcategory": "breakups",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-breakup-094",
-    "text": "It took you two weeks to go off and date her. Guess you didn't cheat but you're still a traitor.",
-    "author": "Olivia Rodrigo",
-    "source": "traitor",
     "category": "relationships",
     "subcategory": "breakups",
     "tone": "direct"
@@ -729,7 +588,7 @@
     "source": "New Girl",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-breakup-096",
@@ -737,7 +596,7 @@
     "author": "Edgar Allan Poe",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-097",
@@ -745,14 +604,223 @@
     "author": "Brand",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
-    "id": "rel-dating-098",
-    "text": "Practically all the relationships I know are based on a foundation of lies and mutually accepted delusion.",
-    "author": "Kim Cattrall",
+    "id": "rel-breakup-098",
+    "text": "Consider how hard it is to change yourself and you'll understand what little chance you have trying to change others.",
+    "author": "Unknown",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "direct"
+    "tone": "playful"
+  },
+  {
+    "id": "rel-breakup-099",
+    "text": "Grief after a relationship isn't weakness. It's proof that what you had was real.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-100",
+    "text": "You don't have to be okay right now. Heartbreak is one of the heaviest things a person carries. Give yourself permission to feel it.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-101",
+    "text": "Crying over someone you loved isn't pathetic. It's human. It means you were brave enough to love.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-102",
+    "text": "You're allowed to miss someone and still know they weren't right for you. Both things are true.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-103",
+    "text": "Some losses don't have a timeline. Heal at your own pace.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-104",
+    "text": "You didn't lose the love of your life. You lost someone who couldn't love you the way you deserved.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-105",
+    "text": "The end of that relationship wasn't failure. It was you outgrowing something too small for you.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-106",
+    "text": "Sometimes the person who leaves makes the most room for the person you were always meant to become.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-107",
+    "text": "What felt like losing everything was actually you being redirected to something truer.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-108",
+    "text": "Not every ending is a loss. Some are a release.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-109",
+    "text": "Someone leaving you doesn't make you less lovable. It makes them the wrong person.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-110",
+    "text": "You were not too much. You were too much for the wrong person.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-111",
+    "text": "The way they treated you at the end doesn't erase who you were in the beginning. You were worth loving then. You still are.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-112",
+    "text": "Their inability to see your value says nothing about your value.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-113",
+    "text": "You deserve a love that doesn't make you question if you deserve it.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-114",
+    "text": "You loved them at your fullest. That's not something to regret — that's something to be proud of.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-115",
+    "text": "You showed up. You tried. You loved hard. That's not your flaw — that's your gift.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-116",
+    "text": "The hardest part isn't missing them — it's missing who you were when you were with them.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-117",
+    "text": "You'll have days where you reach for your phone to text them and then remember. That's okay. Grief has muscle memory too.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-118",
+    "text": "One day you'll realize the silence they left behind was actually peace.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-119",
+    "text": "When the dust settles, you'll see — you weren't broken by that relationship. You were shaped by it.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-120",
+    "text": "Future you is healing. Present you just has to survive today.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-121",
+    "text": "A year from now, you'll look back and finally understand why it had to end.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-122",
+    "text": "You can wish them well and still never want to see them again. That's not cold — that's healed.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-123",
+    "text": "Forgiveness isn't for them. It's so the weight of them stops living in your chest.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-124",
+    "text": "I'm sorry, I wish we could've gone to the moon together.",
+    "author": "David Martinez",
+    "source": "Cyberpunk: Edgerunners",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "gentle"
   }
 ]

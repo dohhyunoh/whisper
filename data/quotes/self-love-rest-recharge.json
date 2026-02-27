@@ -5,15 +5,7 @@
     "author": "Ralph Marston",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-rr-002",
-    "text": "A gentle reminder that rest isn't the end, it's just the pause we need to come back stronger.",
-    "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-rr-003",
@@ -29,15 +21,7 @@
     "author": "Anne Lamott",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-rr-005",
-    "text": "Your body is your home. Treat it with love and respect.",
-    "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-rr-006",
@@ -96,14 +80,6 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-rr-013",
-    "text": "Burnout is more of an issue of poor energy management and low clarity than of over-giving.",
-    "author": "Brendon Burchard",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-rr-014",
     "text": "There is virtue in work and there is virtue in rest. Use both and overlook neither.",
     "author": "Alan Cohen",
@@ -126,15 +102,7 @@
     "author": "Bansky",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-rr-017",
-    "text": "Sometimes you need to give yourself a break when you've had a lot of life change.",
-    "author": "Barbara Freethy",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-rr-018",
@@ -142,7 +110,7 @@
     "author": "Bryant McGill",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-rr-019",
@@ -222,7 +190,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-rr-029",
@@ -278,7 +246,7 @@
     "author": "Audre Lorde",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-rr-036",
@@ -300,14 +268,6 @@
     "id": "self-love-rr-038",
     "text": "Solitude is where I place my chaos to rest and awaken my inner peace.",
     "author": "Nikki Rowe",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-rr-039",
-    "text": "You are allowed to be both a masterpiece and a work in progress simultaneously.",
-    "author": "Sophia Bush",
     "category": "self-love",
     "subcategory": "rest-recharge",
     "tone": "gentle"
@@ -382,7 +342,7 @@
     "author": "Michael Gungor",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-rr-049",
@@ -441,14 +401,6 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-rr-056",
-    "text": "I am learning to love the sound of my feet walking away from things not meant for me.",
-    "author": "A.G.",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-rr-057",
     "text": "Slow down and everything you are chasing will come around and catch you.",
     "author": "John De Paola",
@@ -462,7 +414,7 @@
     "author": "Lao Tzu",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-rr-059",
@@ -470,7 +422,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-rr-060",
@@ -529,14 +481,6 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-rr-067",
-    "text": "The privilege of a lifetime is to become who you truly are.",
-    "author": "Carl Jung",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-rr-068",
     "text": "There is hope, even when your brain tells you there isn't.",
     "author": "John Green",
@@ -561,19 +505,20 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-rr-072",
-    "text": "Be as you wish to seem.",
-    "author": "Socrates",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-rr-073",
     "text": "If you think you hate everyone, have something to eat.",
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "playful"
+  },
+  {
+    "id": "self-love-rr-074",
+    "text": "I'll leave tomorrow's problems to me-of-tomorrow.",
+    "author": "Saitama",
+    "source": "One Punch Man",
+    "category": "self-love",
+    "subcategory": "rest-recharge",
+    "tone": "playful"
   }
 ]

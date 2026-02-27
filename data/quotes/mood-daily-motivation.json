@@ -269,7 +269,7 @@
     "author": "Samuel Beckett",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-motiv-035",
@@ -304,14 +304,6 @@
     "tone": "direct"
   },
   {
-    "id": "mood-motiv-039",
-    "text": "Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.",
-    "author": "Norman Vincent Peale",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
-    "tone": "direct"
-  },
-  {
     "id": "mood-motiv-040",
     "text": "With the new day comes new strength and new thoughts.",
     "author": "Eleanor Roosevelt",
@@ -341,7 +333,7 @@
     "author": "Dalai Lama",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "mood-motiv-044",
@@ -477,7 +469,7 @@
     "author": "Maya Angelou",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "mood-motiv-061",
@@ -517,7 +509,7 @@
     "author": "Christine Caine",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-motiv-066",
@@ -525,7 +517,7 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "mood-motiv-067",
@@ -549,7 +541,7 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "mood-motiv-070",
@@ -573,7 +565,7 @@
     "author": "Publius Flavius Vegetius Renatus",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-motiv-073",
@@ -586,7 +578,7 @@
   },
   {
     "id": "mood-motiv-074",
-    "text": "What your not changing, you're choosing.",
+    "text": "What you're not changing, you're choosing.",
     "author": "Laurie Buchanan",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
@@ -619,16 +611,241 @@
   },
   {
     "id": "mood-motiv-078",
-    "text": "You don't have to be great to start, but you've to start to be great.",
+    "text": "You don't have to be great to start, but you have to start to be great.",
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
     "tone": "direct"
   },
   {
-    "id": "mood-motiv-079",
-    "text": "The harder the conflict, the more glorious the triumph.",
+    "id": "mood-motiv-080",
+    "text": "They told me I couldn't. That's why I did.",
     "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-081",
+    "text": "The best revenge is massive success.",
+    "author": "Frank Sinatra",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-082",
+    "text": "Remember who told you it couldn't be done.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-083",
+    "text": "Work until your idols become your rivals.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-084",
+    "text": "Don't get bitter. Get better.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-085",
+    "text": "They didn't believe in you. Make that your fuel, not your wound.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-086",
+    "text": "The ones who said you wouldn't are watching now.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-087",
+    "text": "One day the people that didn't believe in you will tell everyone how they knew you.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-088",
+    "text": "If you don't like the hand that fate's dealt you with, fight for a new one!",
+    "author": "Naruto Uzumaki",
+    "source": "Naruto",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-089",
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Shoyo Hinata",
+    "source": "Haikyuu!!",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-090",
+    "text": "If you don't take risks, you can't create a future!",
+    "author": "Monkey D. Luffy",
+    "source": "One Piece",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-091",
+    "text": "Never give up on life. No matter how tragic it may be, keep living.",
+    "author": "Various",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-092",
+    "text": "Every day is a chance to become the person you want to be.",
+    "author": "My Hero Academia",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-093",
+    "text": "If you win, you live. If you lose, you die. If you don't fight, you can't win.",
+    "author": "Eren Yaeger",
+    "source": "Attack on Titan",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-094",
+    "text": "The difference between a novice and a master is that a master has failed more times than the novice has tried.",
+    "author": "Koro-sensei",
+    "source": "Assassination Classroom",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-095",
+    "text": "Being weak is nothing to be ashamed of… Staying weak is!",
+    "author": "Fuegoleon Vermillion",
+    "source": "Black Clover",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-096",
+    "text": "A dropout will beat a genius through hard work.",
+    "author": "Rock Lee",
+    "source": "Naruto",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-097",
+    "text": "Because my soldiers do not buckle or yield when faced with the cruelty of this world! My soldiers push forward! My soldiers scream out! My soldiers RAAAAAGE!",
+    "author": "Erwin Smith",
+    "source": "Attack on Titan",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-098",
+    "text": "Surpass your limits. Right here, right now.",
+    "author": "Yami Sukehiro",
+    "source": "Black Clover",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-099",
+    "text": "It's not about how long you lived. It's about what you did with the time you had.",
+    "author": "Heiter",
+    "source": "Frieren: Beyond Journey's End",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-100",
+    "text": "No one knows what the future holds. That's why its potential is infinite.",
+    "author": "Okabe Rintarou",
+    "source": "Steins;Gate",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-101",
+    "text": "If you're gonna be a loser, at least be a loser with some guts!",
+    "author": "Momo Ayase",
+    "source": "Dandadan",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-102",
+    "text": "If you're going to die anyway, you might as well die with your head held high.",
+    "author": "Shinei Nouzen",
+    "source": "86 Eighty-Six",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-103",
+    "text": "If you're reading this, it means I'm already dead... Don't let my death be in vain. Live. Fight. And remember us.",
+    "author": "Spearhead Squadron",
+    "source": "86 Eighty-Six",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-104",
+    "text": "The hunt begins now.",
+    "author": "Sung Jin-Woo",
+    "source": "Solo Leveling",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-105",
+    "text": "Arise.",
+    "author": "Sung Jin-Woo",
+    "source": "Solo Leveling",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-106",
+    "text": "I'm not fighting because I want to win, I'm fighting because I have to win!",
+    "author": "Ichigo Kurosaki",
+    "source": "Bleach",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
     "tone": "direct"

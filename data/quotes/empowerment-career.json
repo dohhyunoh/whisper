@@ -5,7 +5,7 @@
     "author": "Ayn Rand",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-career-002",
@@ -29,14 +29,6 @@
     "text": "Done is better than perfect.",
     "author": "Sheryl Sandberg",
     "source": "Lean In: Women, Work, and the Will to Lead",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-career-005",
-    "text": "Pleasure in the job puts perfection in the work.",
-    "author": "Aristotle",
     "category": "empowerment",
     "subcategory": "career",
     "tone": "direct"
@@ -98,14 +90,6 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-013",
-    "text": "To find joy in work is to discover the fountain of youth.",
-    "author": "Pearl S. Buck",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
     "id": "emp-career-015",
     "text": "I am a great believer in luck, and I find the harder I work, the more I have of it.",
     "author": "Thomas Jefferson",
@@ -138,14 +122,6 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-019",
-    "text": "Real success is finding your lifework in the work that you love.",
-    "author": "David McCullough",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
     "id": "emp-career-020",
     "text": "The only true happiness comes from squandering ourselves for a purpose.",
     "author": "William Cowper",
@@ -167,7 +143,7 @@
     "author": "Confucius",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-career-023",
@@ -242,14 +218,6 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-033",
-    "text": "The difference between a job and a career is the difference between forty and sixty hours a week.",
-    "author": "Robert Frost",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
     "id": "emp-career-034",
     "text": "Find a purpose in life so big it will challenge every capacity to be at your best.",
     "author": "David O. McKay",
@@ -285,22 +253,6 @@
     "id": "emp-career-038",
     "text": "It is never too late to be what you might have been.",
     "author": "George Eliot",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-career-039",
-    "text": "Happiness is the real sense of fulfillment that comes from hard work.",
-    "author": "Joseph Barbara",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-career-040",
-    "text": "A dream doesn't become reality through magic; it takes sweat, determination, and hard work.",
-    "author": "Colin Powell",
     "category": "empowerment",
     "subcategory": "career",
     "tone": "direct"
@@ -367,7 +319,7 @@
     "author": "J.M. Barrie",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-career-050",
@@ -421,14 +373,6 @@
     "id": "emp-career-057",
     "text": "Success is liking yourself, liking what you do, and liking how you do it.",
     "author": "Maya Angelou",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-career-058",
-    "text": "Work hard for what you want because it won't come to you without a fight.",
-    "author": "Leah LaBelle",
     "category": "empowerment",
     "subcategory": "career",
     "tone": "direct"
@@ -527,7 +471,7 @@
     "author": "Sangharakshita",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-career-071",
@@ -559,15 +503,7 @@
     "author": "Bertrand Russell",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-career-075",
-    "text": "The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task at hand.",
-    "author": "Vince Lombardi",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-career-076",
@@ -575,7 +511,7 @@
     "author": "Frederick Buechner",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-career-077",
@@ -639,7 +575,7 @@
     "author": "Pablo Picasso",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-career-086",
@@ -794,7 +730,7 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-095",
+    "id": "emp-career-105",
     "text": "You can have unbelievable intelligence, you can have connections, you can have opportunities fall out of the sky. But in the end, hard work is the true, enduring characteristic of successful people.",
     "author": "Marsha Evans",
     "category": "empowerment",
@@ -802,7 +738,7 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-096",
+    "id": "emp-career-106",
     "text": "Just watch, all of you men. I'll show you what a woman can do…I'll go across the country, I'll race to the Moon… I'll never look back.",
     "author": "Edna Gardner Whyte",
     "category": "empowerment",
@@ -810,7 +746,7 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-097",
+    "id": "emp-career-107",
     "text": "Woman must not accept; she must challenge. She must not be awed by that which has been built up around her; she must reverence that woman in her which struggles for expression.",
     "author": "Margaret Sanger",
     "category": "empowerment",
@@ -818,7 +754,7 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-098",
+    "id": "emp-career-108",
     "text": "Everyone has inside of her a piece of good news. The good news is that you don't know how great you can be! How much you can love! What you can accomplish! And what your potential is!",
     "author": "Anne Frank",
     "category": "empowerment",
@@ -826,7 +762,7 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-099",
+    "id": "emp-career-109",
     "text": "Always go with the choice that scares you the most, because that's the one that is going to require the most from you.",
     "author": "Caroline Myss",
     "category": "empowerment",
@@ -834,9 +770,201 @@
     "tone": "direct"
   },
   {
-    "id": "emp-career-100",
+    "id": "emp-career-110",
     "text": "My mother told me that fear was not an option. I was always told that women are stronger, so I believed it.",
     "author": "Diane Von Furstenberg",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-111",
+    "text": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-112",
+    "text": "Anyone who has never made a mistake has never tried anything new.",
+    "author": "Albert Einstein",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-113",
+    "text": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-114",
+    "text": "If you're not embarrassed by the first version of your product, you've launched too late.",
+    "author": "Reid Hoffman",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-115",
+    "text": "Leap, and the net will appear.",
+    "author": "John Burroughs",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-116",
+    "text": "I have not failed. I've just found 10,000 ways that won't work.",
+    "author": "Thomas Edison",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-117",
+    "text": "Success is stumbling from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-118",
+    "text": "A year from now you may wish you had started today.",
+    "author": "Karen Lamb",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-119",
+    "text": "Ideas are easy. Implementation is hard.",
+    "author": "Guy Kawasaki",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-120",
+    "text": "Stop waiting for the right time. It never arrives.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-121",
+    "text": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-122",
+    "text": "Doubt kills more dreams than failure ever will.",
+    "author": "Suzy Kassem",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-123",
+    "text": "Feel the fear and do it anyway.",
+    "author": "Susan Jeffers",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-124",
+    "text": "You can't cross the sea merely by standing and staring at the water.",
+    "author": "Rabindranath Tagore",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-125",
+    "text": "Most men lead lives of quiet desperation and go to the grave with the song still in them.",
+    "author": "Henry David Thoreau",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-126",
+    "text": "Don't die with your music still inside you.",
+    "author": "Wayne Dyer",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-127",
+    "text": "You were not born to just pay bills and die.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-128",
+    "text": "A ship in harbor is safe, but that is not what ships are for.",
+    "author": "John A. Shedd",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-129",
+    "text": "Twenty years from now you will be more disappointed by the things you didn't do than by the ones you did.",
+    "author": "Mark Twain",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-130",
+    "text": "The cave you fear to enter holds the treasure you seek.",
+    "author": "Joseph Campbell",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "playful"
+  },
+  {
+    "id": "emp-career-131",
+    "text": "The graveyard is the richest place on earth — it is full of ideas that were never acted on, dreams that were never pursued.",
+    "author": "Les Brown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-132",
+    "text": "Stop being afraid of what could go wrong and start thinking about what could go right.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-133",
+    "text": "If Sunday night fills you with dread, something needs to change.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-134",
+    "text": "You owe it to yourself to become everything you were capable of becoming.",
+    "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
     "tone": "direct"

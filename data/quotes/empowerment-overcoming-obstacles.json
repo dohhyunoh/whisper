@@ -16,14 +16,6 @@
     "tone": "direct"
   },
   {
-    "id": "emp-obs-003",
-    "text": "Patience and perseverance have a magical effect before which difficulties disappear and obstacles vanish.",
-    "author": "John Quincy Adams",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
     "id": "emp-obs-004",
     "text": "A hero is an ordinary individual who finds the strength to persevere and endure in spite of overwhelming obstacles.",
     "author": "Christopher Reeve",
@@ -35,14 +27,6 @@
     "id": "emp-obs-005",
     "text": "Stand up to your obstacles and do something about them. You will find that they haven't half the strength you think they have.",
     "author": "Norman Vincent Peale",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-obs-006",
-    "text": "Love conquers all difficulties, surmounts all obstacles, and effects what to any other power would be impossible.",
-    "author": "William Godwin",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
     "tone": "direct"
@@ -96,14 +80,6 @@
     "tone": "direct"
   },
   {
-    "id": "emp-obs-013",
-    "text": "Achieving success is a challenge but so is struggling so you may as well choose success.",
-    "author": "Rob Liano",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
     "id": "emp-obs-014",
     "text": "Only those who dare to fail greatly can ever achieve greatly.",
     "author": "Robert F. Kennedy",
@@ -129,7 +105,7 @@
   },
   {
     "id": "emp-obs-017",
-    "text": "Worry never accomplishes anything. When you have a problem, it is best to concentrate on the solution to that problem, not the problem itself.",
+    "text": "When you have a problem, concentrate on the solution — not the problem itself.",
     "author": "Thomas D. Willhite",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
@@ -137,7 +113,7 @@
   },
   {
     "id": "emp-obs-018",
-    "text": "Don't be distracted by criticism. Remember - the only taste of success some people have is when they take a bite out of you.",
+    "text": "Don't be distracted by criticism. Remember — the only taste of success some people have is when they take a bite out of you.",
     "author": "Zig Ziglar",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
@@ -153,24 +129,8 @@
   },
   {
     "id": "emp-obs-020",
-    "text": "With everything that has happened to you, you can either feel sorry for yourself or treat what has happened as a gift. Everything is either an opportunity to grow or an obstacle to keep you from growing. You get to choose.",
+    "text": "Everything is either an opportunity to grow or an obstacle to keep you from growing. You get to choose.",
     "author": "Wayne Dyer",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-obs-021",
-    "text": "The greatest obstacle to discovery is not ignorance - it is the illusion of knowledge.",
-    "author": "Daniel J. Boorstin",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-obs-022",
-    "text": "Genius is a plodding intellect, incapable of dreaming up the obstacles that stop the rest of us.",
-    "author": "Robert Breault",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
     "tone": "direct"
@@ -201,16 +161,8 @@
   },
   {
     "id": "emp-obs-026",
-    "text": "Faith sees the opportunity; doubt sees the obstacles. What you see is what you get!",
+    "text": "Faith sees the opportunity; doubt sees the obstacles.",
     "author": "James MacDonald",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-obs-027",
-    "text": "But the cure for most obstacles is, Be decisive.",
-    "author": "George Weinberg",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
     "tone": "direct"
@@ -232,16 +184,8 @@
     "tone": "direct"
   },
   {
-    "id": "emp-obs-030",
-    "text": "Obstacles are what you see when you take your eyes off your goals.",
-    "author": "Brian Tracy",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
     "id": "emp-obs-031",
-    "text": "I have learned that success is to be measured not so much by the position that one has reached in life as by the obstacles which he has had to overcome while trying to succeed.",
+    "text": "Success is to be measured not so much by the position that one has reached in life as by the obstacles which one has had to overcome.",
     "author": "Booker T. Washington",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
@@ -264,49 +208,9 @@
     "tone": "direct"
   },
   {
-    "id": "emp-obs-035",
-    "text": "Intolerance is itself a form of violence and an obstacle to the growth of a true democratic spirit.",
-    "author": "Mahatma Gandhi",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-obs-036",
-    "text": "A barrier is of ideas, not of things.",
-    "author": "Mark Cane",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
     "id": "emp-obs-037",
-    "text": "I know fear is an obstacle for some people, but it is an illusion to me . . . Failure always made me try harder next time.",
+    "text": "Fear is an obstacle for some people, but it is an illusion to me. Failure always made me try harder next time.",
     "author": "Michael Jordan",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-obs-038",
-    "text": "The best people I know have had a lot of obstacles to overcome.",
-    "author": "Jayne Meadows",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-obs-039",
-    "text": "We will as soon as possible reexamine our laws and policies and eliminate all obstacles to genuine investment.",
-    "author": "Olusegun Obasanjo",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-obs-040",
-    "text": "If you look at the history of big obstacles in understanding our world, there's usually an intuitive assumption underlying them that's wrong.",
-    "author": "Jeff Hawkins",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
     "tone": "direct"
@@ -377,11 +281,11 @@
   },
   {
     "id": "emp-obs-049",
-    "text": "The human capacity for burden is like bamboo - far more flexible than you'd ever believe at first glance.",
+    "text": "The human capacity for burden is like bamboo — far more flexible than you'd ever believe at first glance.",
     "author": "Jodi Picoult",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-obs-050",
@@ -397,7 +301,7 @@
     "author": "Christine Caine",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-obs-052",
@@ -405,7 +309,7 @@
     "author": "Rumi",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-obs-053",
@@ -417,7 +321,7 @@
   },
   {
     "id": "emp-obs-054",
-    "text": "You are not a victim. No matter what you have been through, you're still here. You may have been challenged, hurt, betrayed, beaten, and discouraged, but nothing has defeated you. You are still here!",
+    "text": "You are not a victim. No matter what you have been through, you're still here. You may have been challenged, hurt, betrayed, beaten, and discouraged, but nothing has defeated you. You are still here.",
     "author": "Steve Maraboli",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
@@ -433,7 +337,7 @@
   },
   {
     "id": "emp-obs-056",
-    "text": "Hard times don't create heroes. It is during the hard times when the 'hero' within us is revealed.",
+    "text": "Hard times don't create heroes. It is during the hard times when the hero within us is revealed.",
     "author": "Bob Riley",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
@@ -477,7 +381,7 @@
     "author": "Robert Jordan",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-obs-062",
@@ -509,7 +413,7 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-obs-066",
@@ -560,14 +464,6 @@
     "tone": "direct"
   },
   {
-    "id": "emp-obs-073",
-    "text": "Even the finest sword plunged into salt water will eventually rust.",
-    "author": "Sun Tzu",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "direct"
-  },
-  {
     "id": "emp-obs-074",
     "text": "If they can make penicillin out of moldy bread, they can make something out of you.",
     "author": "Muhammad Ali",
@@ -579,6 +475,315 @@
     "id": "emp-obs-075",
     "text": "The master has failed more times than the beginner has even tried.",
     "author": "Stephen McCranie",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-076",
+    "text": "You survived things you thought would kill you. Don't forget that.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-078",
+    "text": "You didn't come this far to fall apart now.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-079",
+    "text": "Everyone you admire was once where you are now. They kept going. So can you.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-080",
+    "text": "The fact that you're still trying means you haven't lost.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-081",
+    "text": "What broke you is not allowed to define you.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-082",
+    "text": "You have been through enough to know that hard doesn't mean impossible.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-085",
+    "text": "She was a single mother on welfare, clinically depressed, rejected by 12 publishers. Then Harry Potter changed the world. Never count yourself out.",
+    "author": "J.K. Rowling's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-086",
+    "text": "He spent 27 years in a prison cell. He walked out and led a nation. Your setback is not your sentence.",
+    "author": "Nelson Mandela's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-087",
+    "text": "She was fired from her first TV job and told she was unfit for television. She became the most powerful woman in media. Don't let one person's opinion write your ending.",
+    "author": "Oprah Winfrey's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-088",
+    "text": "He was homeless, sleeping in his car, writing scripts nobody wanted. He sold his dog to survive. Then Rocky won Best Picture. Hold on a little longer.",
+    "author": "Sylvester Stallone's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-089",
+    "text": "He grew up in the projects, shot at age 12, with every reason to give up. He built an empire. Your environment is not your destiny.",
+    "author": "Jay-Z's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-090",
+    "text": "She lost her arm to a shark at 13. She got back on the surfboard. Whatever you've lost, you are still capable of more than you think.",
+    "author": "Bethany Hamilton's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-091",
+    "text": "He was fired from the very company he built. He came back and made it the most valuable company on earth. Getting knocked down is not the end of your story.",
+    "author": "Steve Jobs' story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-092",
+    "text": "She was born to former slaves, orphaned at 7, and widowed young. She became the first self-made female millionaire in America. Your starting point is not your limit.",
+    "author": "Madam C.J. Walker's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-093",
+    "text": "He grew up homeless, sleeping in shelters between rap battles, with a world that said he'd never make it. Then he became one of the greatest of all time. They were wrong about you too.",
+    "author": "Eminem's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-094",
+    "text": "She was shot in the head for daring to go to school. She survived, and at 16 stood before the United Nations and kept speaking. If she didn't stop, neither can you.",
+    "author": "Malala Yousafzai's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-097",
+    "text": "I've been through things that would've broken most people. I am not most people.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-098",
+    "text": "He was cut from his high school basketball team. He went home and cried. Then he became the greatest to ever play the game. Rejection is not the final word.",
+    "author": "Michael Jordan's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-099",
+    "text": "He failed in business twice, had a nervous breakdown, and lost eight elections before becoming President of the United States. Abraham Lincoln did not quit. Neither should you.",
+    "author": "Abraham Lincoln's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-100",
+    "text": "He was fired from a newspaper for lacking imagination. His first animation studio went bankrupt. He was told Mickey Mouse would never work. Walt Disney kept going anyway.",
+    "author": "Walt Disney's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-101",
+    "text": "He pitched his fried chicken recipe to over 1,000 restaurants before one said yes. He was 65 years old. Colonel Sanders proved it is never too late to begin again.",
+    "author": "Colonel Sanders' story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-102",
+    "text": "He was sleeping in public bathrooms with his young son, broke and homeless. He became a millionaire and his story became a movie. Chris Gardner refused to let his son see him give up.",
+    "author": "Chris Gardner's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-103",
+    "text": "His shows flopped for six straight years. He was living in his car. Then Madea changed everything. Tyler Perry never stopped showing up.",
+    "author": "Tyler Perry's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-104",
+    "text": "She had polio as a child and nearly died in a bus accident that shattered her spine. She painted from her bed, in constant pain, and became one of the most celebrated artists in history. Frida Kahlo turned suffering into art.",
+    "author": "Frida Kahlo's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-105",
+    "text": "He couldn't speak until age 4. Teachers called him mentally slow. He was rejected from university. Albert Einstein changed our understanding of the universe. Don't let anyone put a ceiling on you.",
+    "author": "Albert Einstein's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-106",
+    "text": "Stephen King threw Carrie in the trash. His wife pulled it out and told him to keep going. It went on to sell 350 million copies. Someone in your life believes in you. Believe in yourself too.",
+    "author": "Stephen King's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-107",
+    "text": "Born without arms or legs, he attempted suicide at 10 years old. He went on to speak in front of millions around the world. Nick Vujicic is living proof that your limitation is not your life.",
+    "author": "Nick Vujicic's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-108",
+    "text": "She grew up in poverty, passed between orphanages, with no family and no future anyone could see. She taught herself to sew and built one of the most iconic fashion empires in history. Coco Chanel didn't come from money — she came from will.",
+    "author": "Coco Chanel's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-109",
+    "text": "He had a stutter so severe he could barely say his own name. He was told broadcasting was not for him. James Earl Jones became one of the most recognizable voices on earth. The thing they said would stop you might be the thing that sets you apart.",
+    "author": "James Earl Jones' story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-112",
+    "text": "She was told women didn't belong in science. Universities refused to enroll her. She moved countries, worked in freezing labs with almost nothing, and became the first person ever to win two Nobel Prizes in two different sciences. Marie Curie didn't wait for permission to be brilliant.",
+    "author": "Marie Curie's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-114",
+    "text": "She survived years of abuse, was dropped by record labels, and had every reason to stop. Tina Turner walked away from everything at 44 with nothing but her name — and rebuilt herself into a legend. It is never too late to start over as yourself.",
+    "author": "Tina Turner's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-115",
+    "text": "She was born profoundly deaf. Teachers said music wasn't possible for her. Evelyn Glennie learned to feel sound through her body and became one of the world's most celebrated solo percussionists. She didn't overcome her limitation — she redefined what was possible within it.",
+    "author": "Evelyn Glennie's story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-118",
+    "text": "He was diagnosed with ADHD as a child and told to lower his expectations. Michael Phelps channeled every ounce of that restless energy into the water and won 23 Olympic gold medals. Don't let anyone diagnose your ceiling.",
+    "author": "Michael Phelps' story",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-119",
+    "text": "A lesson without pain is meaningless... But by enduring that pain... he shall obtain a powerful, unmatched heart.",
+    "author": "Edward Elric",
+    "source": "Fullmetal Alchemist: Brotherhood",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-120",
+    "text": "Only those who have suffered long can see the light within the shadows.",
+    "author": "Roronoa Zoro",
+    "source": "One Piece",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-121",
+    "text": "No one is stronger than a man who healed his own wounds.",
+    "author": "Toji Fushiguro",
+    "source": "Jujutsu Kaisen",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-122",
+    "text": "Being 'weak' means you have the potential to grow.",
+    "author": "Ittetsu Takeda",
+    "source": "Haikyuu!!",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-123",
+    "text": "Is it possible that what I needed wasn't the strength not to fear, but the resolve to take on the burden of that fear?",
+    "author": "Yamada Asaemon Sagiri",
+    "source": "Hell's Paradise",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
     "tone": "direct"

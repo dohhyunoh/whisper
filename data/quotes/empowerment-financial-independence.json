@@ -13,7 +13,7 @@
     "author": "Margaret Bonnano",
     "category": "empowerment",
     "subcategory": "financial-independence",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-fin-005",
@@ -37,7 +37,7 @@
     "author": "Coco Chanel",
     "category": "empowerment",
     "subcategory": "financial-independence",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-fin-009",
@@ -53,30 +53,12 @@
     "author": "Joan Rivers",
     "category": "empowerment",
     "subcategory": "financial-independence",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-fin-014",
     "text": "The speed of your success is limited only by your dedication and what you're willing to sacrifice.",
     "author": "Nathan W. Morris",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-015",
-    "text": "Nothing has meaning except for the meaning you give it.",
-    "author": "T. Harv Eker",
-    "source": "Secrets of the Millionaire Mind: Mastering the Inner Game of Wealth",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-016",
-    "text": "If you shoot for the stars, you'll at least hit the moon.",
-    "author": "T. Harv Eker",
-    "source": "Secrets of the Millionaire Mind: Mastering the Inner Game of Wealth",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"
@@ -119,7 +101,6 @@
     "id": "emp-fin-021",
     "text": "Sometimes the only way to win is to step outside the system—and build your own.",
     "author": "Joseph C. Kunz Jr.",
-    "source": "Money's Dirty Little Secrets: How to Break the Rules, Get Filthy Rich, and Laugh All the Way to the Bank",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"
@@ -128,15 +109,6 @@
     "id": "emp-fin-022",
     "text": "Comfort will keep you broke. Discomfort is where the money's made.",
     "author": "Joseph C. Kunz Jr.",
-    "source": "Money's Dirty Little Secrets: How to Break the Rules, Get Filthy Rich, and Laugh All the Way to the Bank",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-023",
-    "text": "Money is better than poverty, if only for financial reasons.",
-    "author": "Woody Allen",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"
@@ -145,14 +117,6 @@
     "id": "emp-fin-025",
     "text": "The goal isn't more money. The goal is living life on your terms.",
     "author": "Will Rogers",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-027",
-    "text": "I have enough money to last me the rest of my life, unless I buy something.",
-    "author": "Jackie Mason",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"
@@ -195,20 +159,12 @@
     "author": "P.T. Barnum",
     "category": "empowerment",
     "subcategory": "financial-independence",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-fin-033",
     "text": "You must gain control over your money or the lack of it will forever control you.",
     "author": "Dave Ramsey",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-037",
-    "text": "What we really want to do is what we are really meant to do. When we do what we are meant to do, money comes to us, doors open for us, we feel useful, and the work we do feels like play to us.",
-    "author": "Julia Cameron",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"
@@ -235,7 +191,7 @@
     "author": "Jonathan Swift",
     "category": "empowerment",
     "subcategory": "financial-independence",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-fin-042",
@@ -251,7 +207,7 @@
     "author": "Will Rogers",
     "category": "empowerment",
     "subcategory": "financial-independence",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-fin-044",
@@ -259,15 +215,7 @@
     "author": "Ayn Rand",
     "category": "empowerment",
     "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-045",
-    "text": "The habit of saving is itself an education; it fosters every virtue, teaches self-denial, cultivates the sense of order, trains to forethought, and so broadens the mind.",
-    "author": "T.T. Munger",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-fin-046",
@@ -286,20 +234,12 @@
     "tone": "direct"
   },
   {
-    "id": "emp-fin-048",
-    "text": "Before you speak, listen. Before you write, think. Before you spend, earn. Before you invest, investigate. Before you criticize, wait. Before you pray, forgive. Before you quit, try. Before you retire, save. Before you die, give.",
-    "author": "William A. Ward",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
     "id": "emp-fin-049",
     "text": "Don't think money does everything, or you are going to do everything for money.",
     "author": "Voltaire",
     "category": "empowerment",
     "subcategory": "financial-independence",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-fin-050",
@@ -315,15 +255,7 @@
     "author": "Winston Churchill",
     "category": "empowerment",
     "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-052",
-    "text": "You can give without loving, but you cannot love without giving.",
-    "author": "Amy Carmichael",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "emp-fin-053",
@@ -337,14 +269,6 @@
     "id": "emp-fin-056",
     "text": "Wealth is not about having a lot of money; it's about having a lot of options.",
     "author": "Chris Rock",
-    "category": "empowerment",
-    "subcategory": "financial-independence",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-fin-058",
-    "text": "The gratification of wealth is not found in mere possession or in lavish expenditure, but in its wise application.",
-    "author": "Miguel de Cervantes",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"
@@ -441,6 +365,158 @@
     "id": "emp-fin-070",
     "text": "Financial freedom isn't a luxury—it's the foundation for every other freedom you dream about. And you're not selfish for wanting it; you're brave for chasing it.",
     "author": "Anonymous",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-071",
+    "text": "Being the first in your family to build wealth is one of the hardest and most important things you'll ever do. The cycle stops with you.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-072",
+    "text": "Nobody taught you about money because nobody taught them. That's not a reason to stay stuck — it's a reason to learn.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-073",
+    "text": "Shame about money keeps more people broke than ignorance ever will. Talk about it. Learn about it. Change it.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-074",
+    "text": "Where you started has nothing to do with where you're going.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-075",
+    "text": "It's okay to not know where to start. What matters is that you don't use that as a reason to never start at all.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-076",
+    "text": "Worrying about money at 3am is not a personality trait. It's a signal. Listen to it and do something about it.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-077",
+    "text": "You are not too late. You are not too far behind. You are exactly where you need to be to make a different decision today.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-078",
+    "text": "The life you want is on the other side of the financial habits you keep avoiding.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-079",
+    "text": "You are going to retire your parents.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-080",
+    "text": "It's official — you're the cycle breaker of your family. The one who will unlock true wealth for you and everyone who comes after you.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-081",
+    "text": "You are going to be the wealthiest person in your bloodline.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-082",
+    "text": "Your kids will never know the stress you grew up with. That's the whole point.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-083",
+    "text": "You are building something your family has never seen before. Keep going.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-084",
+    "text": "First generation wealth is the hardest kind to build. It's also the most important.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-085",
+    "text": "Somebody in your family had to be first. It's you.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-086",
+    "text": "You didn't come this far just to live the same life they did. You came to change it.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-087",
+    "text": "The sacrifices you make today are the inheritance your children will receive tomorrow.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-088",
+    "text": "They didn't have the tools. You do. Use them.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "financial-independence",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-fin-089",
+    "text": "Somebody 10x dumber than you is 10x richer because they were too stupid to think they could fail",
+    "author": "Unknown",
     "category": "empowerment",
     "subcategory": "financial-independence",
     "tone": "direct"

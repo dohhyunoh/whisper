@@ -631,5 +631,32 @@
     "category": "mood-boosters",
     "subcategory": "calm",
     "tone": "gentle"
+  },
+  {
+    "id": "mood-calm-080",
+    "text": "It is fine now. Why? Because I am here!",
+    "author": "All Might",
+    "source": "My Hero Academia",
+    "category": "mood-boosters",
+    "subcategory": "calm",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-calm-081",
+    "text": "Don't worry, I'm the strongest.",
+    "author": "Satoru Gojo",
+    "source": "Jujutsu Kaisen",
+    "category": "mood-boosters",
+    "subcategory": "calm",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-calm-082",
+    "text": "Whatever happens, happens.",
+    "author": "Spike Spiegel",
+    "source": "Cowboy Bebop",
+    "category": "mood-boosters",
+    "subcategory": "calm",
+    "tone": "direct"
   }
 ]

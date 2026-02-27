@@ -6,10 +6,10 @@ export type Category =
   | 'mood-boosters';
 
 export type SelfLoveSub = 'self-worth' | 'body-positivity' | 'mental-health' | 'rest-recharge';
-export type RelationshipSub = 'dating' | 'partnership' | 'friendship' | 'breakups' | 'family';
+export type RelationshipSub = 'dating' | 'partnership' | 'friendship' | 'breakups' | 'family' | 'attracting-love';
 export type EmpowermentSub = 'career' | 'overcoming-obstacles' | 'financial-independence' | 'finding-voice';
 export type ReligionSub = 'general-spirituality' | 'christianity' | 'islam' | 'hinduism' | 'buddhism';
-export type MoodBoosterSub = 'daily-motivation' | 'humor' | 'calm' | 'gratitude' | 'philosophy';
+export type MoodBoosterSub = 'daily-motivation' | 'calm' | 'gratitude' | 'philosophy';
 export type SubCategory = SelfLoveSub | RelationshipSub | EmpowermentSub | ReligionSub | MoodBoosterSub | null;
 
 export type ToneTag = 'gentle' | 'direct' | 'playful';

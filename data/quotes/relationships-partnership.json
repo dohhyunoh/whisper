@@ -6,7 +6,7 @@
     "source": "The Lost Prince",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-002",
@@ -15,7 +15,7 @@
     "source": "Healology",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-003",
@@ -24,15 +24,7 @@
     "source": "The Year of Magical Thinking",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-004",
-    "text": "I wanted a woman who could get me out of a Third World prison. Life's too short to hang out with people who aren't resourceful.",
-    "author": "Jeff Bezos",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-005",
@@ -40,7 +32,7 @@
     "author": "Franz Schubert",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-006",
@@ -48,7 +40,7 @@
     "author": "Mignon McLaughlin",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-009",
@@ -56,23 +48,7 @@
     "author": "Friedrich Nietzsche",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-010",
-    "text": "There were three of us in this marriage, so it was a bit crowded.",
-    "author": "Princess Diana",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-011",
-    "text": "Marriage is neither heaven nor hell, it is simply purgatory.",
-    "author": "Abraham Lincoln",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-012",
@@ -80,15 +56,7 @@
     "author": "Rita Rudner",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-013",
-    "text": "Marriage is a wonderful invention: then again, so is a bicycle repair kit.",
-    "author": "Billy Connolly",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-014",
@@ -96,15 +64,7 @@
     "author": "Edwin Louis Cole",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-016",
-    "text": "Marriage is like a cage; one sees the birds outside desperate to get in, and those inside equally desperate to get out.",
-    "author": "Michel de Montaigne",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-017",
@@ -112,7 +72,7 @@
     "author": "Ellen Key",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-019",
@@ -120,7 +80,7 @@
     "author": "Audrey Hepburn",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-022",
@@ -128,7 +88,7 @@
     "author": "Andre Maurois",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-025",
@@ -136,7 +96,7 @@
     "author": "Samuel Richardson",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-027",
@@ -144,7 +104,7 @@
     "author": "Elizabeth Taylor",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-029",
@@ -152,7 +112,7 @@
     "author": "Carnie Wilson",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-034",
@@ -160,7 +120,7 @@
     "author": "Alan King",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-035",
@@ -168,7 +128,7 @@
     "author": "John Steinbeck",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-037",
@@ -176,7 +136,7 @@
     "author": "Winston Churchill",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-038",
@@ -184,7 +144,7 @@
     "author": "Ogden Nash",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-040",
@@ -192,7 +152,7 @@
     "author": "Benjamin Franklin",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-042",
@@ -208,7 +168,7 @@
     "author": "Eddie Cantor",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-044",
@@ -216,15 +176,7 @@
     "author": "Homer",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-045",
-    "text": "It's tough to stay married. My wife kisses the dog on the lips, yet she won't drink from my glass.",
-    "author": "Rodney Dangerfield",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-052",
@@ -232,7 +184,7 @@
     "author": "Joseph Campbell",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-053",
@@ -240,15 +192,7 @@
     "author": "Sophia Bush",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-058",
-    "text": "When I get married, it'll be no secret.",
-    "author": "Elvis Presley",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-061",
@@ -256,7 +200,7 @@
     "author": "Harry Connick, Jr.",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-064",
@@ -264,7 +208,7 @@
     "author": "Marilyn Monroe",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-065",
@@ -272,7 +216,7 @@
     "author": "Aristotle",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-066",
@@ -280,7 +224,7 @@
     "author": "Fawn Weaver",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-067",
@@ -288,15 +232,7 @@
     "author": "Stephen Gaines",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-068",
-    "text": "Before you marry a person, you should first make them use a computer with slow Internet service to see who they really are.",
-    "author": "Will Ferrell",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-069",
@@ -304,7 +240,7 @@
     "author": "Cate Blanchett",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-070",
@@ -312,7 +248,7 @@
     "author": "Jennifer Smith",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-071",
@@ -320,7 +256,7 @@
     "author": "Martin Luther",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-072",
@@ -328,7 +264,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-073",
@@ -336,7 +272,7 @@
     "author": "William Lyon Phelps",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-074",
@@ -344,7 +280,7 @@
     "author": "Harville Hendrix",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-075",
@@ -352,7 +288,7 @@
     "author": "Judy Garland",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-076",
@@ -360,7 +296,7 @@
     "author": "Tom Mullin",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-077",
@@ -368,15 +304,7 @@
     "author": "Elizabeth Barrett Browning",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-078",
-    "text": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
-    "author": "Lao Tzu",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-079",
@@ -384,7 +312,7 @@
     "author": "Jeremy Taylor",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-080",
@@ -392,7 +320,7 @@
     "author": "Audrey Hepburn",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-081",
@@ -400,7 +328,7 @@
     "author": "Mignon McLaughlin",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-082",
@@ -409,7 +337,7 @@
     "source": "Moulin Rouge",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-083",
@@ -418,16 +346,7 @@
     "source": "The Princess Bride",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-084",
-    "text": "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.",
-    "author": "When Harry Met Sally",
-    "source": "When Harry Met Sally",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-085",
@@ -436,16 +355,7 @@
     "source": "Pride and Prejudice",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-087",
-    "text": "I fell in love the way you fall asleep: slowly, and then all at once.",
-    "author": "John Green",
-    "source": "The Fault in Our Stars",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-088",
@@ -453,7 +363,7 @@
     "author": "Christie Cook",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-089",
@@ -461,7 +371,7 @@
     "author": "Maggie Reyes",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-090",
@@ -469,7 +379,7 @@
     "author": "Dave Meurer",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-091",
@@ -477,7 +387,7 @@
     "author": "Elizabeth Gilbert",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-093",
@@ -509,7 +419,7 @@
     "author": "Simone Signoret",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-098",
@@ -517,7 +427,7 @@
     "author": "Leo Tolstoy",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-099",
@@ -525,7 +435,7 @@
     "author": "Robert C. Dodd",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-100",
@@ -533,15 +443,7 @@
     "author": "Sam Keen",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-101",
-    "text": "The secret of a happy marriage remains a secret.",
-    "author": "Henny Youngman",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-102",
@@ -549,7 +451,7 @@
     "author": "Oscar Wilde",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-103",
@@ -557,7 +459,7 @@
     "author": "Doug Larson",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-104",
@@ -565,7 +467,7 @@
     "author": "Mahatma Gandhi",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-105",
@@ -573,7 +475,7 @@
     "author": "George Sand",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-106",
@@ -581,7 +483,7 @@
     "author": "Victor Hugo",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-107",
@@ -589,7 +491,7 @@
     "author": "Leo Christopher",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-108",
@@ -597,7 +499,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-109",
@@ -605,15 +507,7 @@
     "author": "Emily Brontë",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-110",
-    "text": "If I had a flower for every time I thought of you, I could walk through my garden forever.",
-    "author": "Alfred Lord Tennyson",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-111",
@@ -621,7 +515,7 @@
     "author": "Arrigo Boito",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-112",
@@ -629,7 +523,7 @@
     "author": "Roy Croft",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-113",
@@ -637,7 +531,7 @@
     "author": "Beth Revis",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-114",
@@ -645,7 +539,7 @@
     "author": "Angelita Lim",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-115",
@@ -654,7 +548,7 @@
     "source": "Finding Nemo",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-116",
@@ -662,7 +556,7 @@
     "author": "Dorothy L. Sayers",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-117",
@@ -670,7 +564,7 @@
     "author": "Arthur Conan Doyle",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-118",
@@ -678,7 +572,7 @@
     "author": "J.R.R. Tolkien",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-119",
@@ -686,7 +580,7 @@
     "author": "David Viscott",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-121",
@@ -695,7 +589,7 @@
     "source": "Pride and Prejudice (2005)",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-122",
@@ -704,7 +598,7 @@
     "source": "Love Actually",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-123",
@@ -713,7 +607,7 @@
     "source": "Sleepless in Seattle",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-124",
@@ -722,7 +616,7 @@
     "source": "Jerry Maguire",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-125",
@@ -731,7 +625,7 @@
     "source": "Bridget Jones's Diary",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-126",
@@ -740,7 +634,7 @@
     "source": "The Fault in Our Stars",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-127",
@@ -749,7 +643,7 @@
     "source": "Notting Hill",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-128",
@@ -758,7 +652,7 @@
     "source": "As Good As It Gets",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-129",
@@ -776,7 +670,7 @@
     "source": "Frozen",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-131",
@@ -785,7 +679,7 @@
     "source": "Cinderella",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-132",
@@ -794,7 +688,7 @@
     "source": "The Rescuers",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-133",
@@ -803,7 +697,7 @@
     "source": "Peter Pan",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-134",
@@ -821,7 +715,7 @@
     "source": "The Princess and the Frog",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-136",
@@ -830,7 +724,7 @@
     "source": "The Princess and the Frog",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-137",
@@ -839,7 +733,7 @@
     "source": "Winnie the Pooh",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-138",
@@ -848,7 +742,7 @@
     "source": "The Incredibles",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-140",
@@ -856,7 +750,7 @@
     "author": "Edgar Allan Poe",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-141",
@@ -864,7 +758,7 @@
     "author": "Rumi",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-142",
@@ -873,7 +767,7 @@
     "source": "Emma",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-143",
@@ -882,7 +776,7 @@
     "source": "Much Ado About Nothing",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-144",
@@ -891,7 +785,7 @@
     "source": "Romeo and Juliet",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-145",
@@ -900,7 +794,7 @@
     "source": "A Midsummer Night's Dream",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-partner-146",
@@ -909,7 +803,7 @@
     "source": "The Tempest",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-147",
@@ -918,7 +812,7 @@
     "source": "The Tempest",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-partner-148",
@@ -927,6 +821,15 @@
     "source": "Sonnet 18",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-149",
+    "text": "The heart's not like a box that gets filled up. It expands in size the more you love.",
+    "author": "Her",
+    "source": "2013",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
   }
 ]

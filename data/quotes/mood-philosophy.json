@@ -13,7 +13,7 @@
     "author": "Marcus Aurelius",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "direct"
   },
   {
     "id": "mood-philo-003",
@@ -21,7 +21,7 @@
     "author": "Marcus Aurelius",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "direct"
   },
   {
     "id": "mood-philo-004",
@@ -32,44 +32,12 @@
     "tone": "playful"
   },
   {
-    "id": "mood-philo-005",
-    "text": "When you arise in the morning, think of what a precious privilege it is to be alive.",
-    "author": "Marcus Aurelius",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-006",
-    "text": "It is not what happens to you, but how you react to it that matters.",
-    "author": "Epictetus",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
     "id": "mood-philo-007",
     "text": "No man is free who is not master of himself.",
     "author": "Epictetus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-008",
-    "text": "First say to yourself what you would be; and then do what you have to do.",
-    "author": "Epictetus",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-009",
-    "text": "Make the best use of what is in your power, and take the rest as it happens.",
-    "author": "Epictetus",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "direct"
   },
   {
     "id": "mood-philo-010",
@@ -101,7 +69,7 @@
     "author": "Seneca",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "direct"
   },
   {
     "id": "mood-philo-014",
@@ -125,7 +93,7 @@
     "author": "Albert Camus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "direct"
   },
   {
     "id": "mood-philo-017",
@@ -192,24 +160,8 @@
     "tone": "playful"
   },
   {
-    "id": "mood-philo-025",
-    "text": "That which does not kill us makes us stronger.",
-    "author": "Friedrich Nietzsche",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
     "id": "mood-philo-026",
     "text": "You must have chaos within you to give birth to a dancing star.",
-    "author": "Friedrich Nietzsche",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-027",
-    "text": "One must still have chaos in oneself to be able to give birth to a dancing star.",
     "author": "Friedrich Nietzsche",
     "category": "mood-boosters",
     "subcategory": "philosophy",
@@ -232,41 +184,17 @@
     "tone": "playful"
   },
   {
-    "id": "mood-philo-030",
-    "text": "The secret of change is to focus all of your energy not on fighting the old, but on building the new.",
-    "author": "Socrates",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
     "id": "mood-philo-031",
     "text": "Be kind, for everyone you meet is fighting a hard battle.",
     "author": "Plato",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "gentle"
   },
   {
     "id": "mood-philo-032",
     "text": "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
     "author": "Plato",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-033",
-    "text": "Knowing yourself is the beginning of all wisdom.",
-    "author": "Aristotle",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-034",
-    "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
-    "author": "Aristotle",
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "playful"
@@ -312,14 +240,6 @@
     "tone": "playful"
   },
   {
-    "id": "mood-philo-040",
-    "text": "A journey of a thousand miles begins with a single step.",
-    "author": "Lao Tzu",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
     "id": "mood-philo-041",
     "text": "When I let go of what I am, I become what I might be.",
     "author": "Lao Tzu",
@@ -352,22 +272,6 @@
     "tone": "playful"
   },
   {
-    "id": "mood-philo-045",
-    "text": "It does not matter how slowly you go as long as you do not stop.",
-    "author": "Confucius",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-046",
-    "text": "Our greatest glory is not in never falling, but in rising every time we fall.",
-    "author": "Confucius",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
     "id": "mood-philo-047",
     "text": "Everything has beauty, but not everyone sees it.",
     "author": "Confucius",
@@ -379,22 +283,6 @@
     "id": "mood-philo-048",
     "text": "The man who moves a mountain begins by carrying away small stones.",
     "author": "Confucius",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-049",
-    "text": "Happiness depends upon ourselves.",
-    "author": "Aristotle",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-050",
-    "text": "Happiness is not something ready made. It comes from your own actions.",
-    "author": "Zhuangzi",
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "playful"
@@ -416,14 +304,6 @@
     "tone": "playful"
   },
   {
-    "id": "mood-philo-053",
-    "text": "What you seek is seeking you.",
-    "author": "Rumi",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
     "id": "mood-philo-054",
     "text": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
     "author": "Rumi",
@@ -437,31 +317,7 @@
     "author": "Rumi",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-056",
-    "text": "Do not feel lonely; the entire universe is inside you.",
-    "author": "Rumi",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-058",
-    "text": "Change your life today. Don't gamble on the future, act now, without delay.",
-    "author": "Simone de Beauvoir",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-059",
-    "text": "I tore myself away from the safe comfort of certainties through my love for truth; and truth rewarded me.",
-    "author": "Simone de Beauvoir",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "gentle"
   },
   {
     "id": "mood-philo-060",
@@ -480,14 +336,6 @@
     "tone": "playful"
   },
   {
-    "id": "mood-philo-064",
-    "text": "You are the universe experiencing itself.",
-    "author": "Alan Watts",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
     "id": "mood-philo-065",
     "text": "The meaning of life is to find your gift. The purpose of life is to give it away.",
     "author": "Alan Watts",
@@ -495,38 +343,14 @@
     "subcategory": "philosophy",
     "tone": "playful"
   },
-  {
+  {                                                                                                                                                                              
     "id": "mood-philo-066",
     "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
     "author": "Viktor Frankl",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-067",
-    "text": "Everything can be taken from a man but one thing: the last of the human freedoms — to choose one's attitude in any given set of circumstances.",
-    "author": "Viktor Frankl",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-068",
-    "text": "Between stimulus and response there is a space. In that space is our power to choose our response.",
-    "author": "Viktor Frankl",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-069",
-    "text": "Those who have a why to live can bear with almost any how.",
-    "author": "Viktor Frankl",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
+    "tone": "direct"                                                                                                                                                            
+  },        
   {
     "id": "mood-philo-070",
     "text": "The impediment to action advances action. What stands in the way becomes the way.",
@@ -563,14 +387,6 @@
     "id": "mood-philo-074",
     "text": "The world is a mirror; if you face it smiling, it smiles back.",
     "author": "Peace Pilgrim",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-075",
-    "text": "Life is 10% what happens to you and 90% how you react to it.",
-    "author": "Charles R. Swindoll",
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "playful"
@@ -632,19 +448,467 @@
     "tone": "playful"
   },
   {
-    "id": "mood-philo-083",
-    "text": "Look at you, comforting others with the words you wished someone had said to you.",
-    "author": "Fyodor Dostoevsky",
+    "id": "mood-philo-085",
+    "text": "There is nothing either good or bad, but thinking makes it so.",
+    "author": "William Shakespeare",
+    "source": "Hamlet",
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "playful"
   },
   {
-    "id": "mood-philo-084",
-    "text": "Less is more.",
+    "id": "mood-philo-086",
+    "text": "We judge others by their actions. We judge ourselves by our intentions.",
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "playful"
+  },
+  {
+    "id": "mood-philo-087",
+    "text": "The things you own end up owning you.",
+    "author": "Chuck Palahniuk",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-088",
+    "text": "Every saint has a past and every sinner has a future.",
+    "author": "Oscar Wilde",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-089",
+    "text": "We accept the love we think we deserve.",
+    "author": "Stephen Chbosky",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-090",
+    "text": "The loudest person in the room is often the least certain.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-091",
+    "text": "Whoever fights monsters should see to it that in the process he does not become a monster.",
+    "author": "Friedrich Nietzsche",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-092",
+    "text": "The mask we wear so long eventually becomes our face.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-093",
+    "text": "You can't wake a person who is pretending to be asleep.",
+    "author": "Navajo Proverb",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-094",
+    "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+    "author": "James Baldwin",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-095",
+    "text": "The opposite of love is not hate — it's indifference.",
+    "author": "Elie Wiesel",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-097",
+    "text": "A man who stands for nothing will fall for anything.",
+    "author": "Malcolm X",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-098",
+    "text": "All that is gold does not glitter.",
+    "author": "J.R.R. Tolkien",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-099",
+    "text": "A lion doesn't concern himself with the opinions of sheep.",
+    "author": "George R.R. Martin",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-100",
+    "text": "Misfortune is virtue's opportunity.",
+    "author": "Seneca",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-101",
+    "text": "A good decision is based on knowledge and not on numbers.",
+    "author": "Plato",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-102",
+    "text": "He who is not a good servant will not be a good master.",
+    "author": "Plato",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-103",
+    "text": "History repeats itself, first as tragedy, second as farce.",
+    "author": "Karl Marx",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-083",
+    "text": "Look at you, comforting others with the words you wished someone had said to you.",
+    "author": "Fyodor Dostoevsky",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-084",
+    "text": "It is not in the stars to hold our destiny but in ourselves.",
+    "author": "William Shakespeare",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-085",
+    "text": "An enemy will agree, but a friend will argue.",
+    "author": "Russian proverb",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-086",
+    "text": "This world is cruel and merciless... But it's also very beautiful.",
+    "author": "Mikasa Ackerman",
+    "source": "Attack on Titan",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-087",
+    "text": "People are like glass. You can't always see their cracks, but that doesn't mean they're not there.",
+    "author": "Beastars",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-088",
+    "text": "Whatever you lose, you'll find it again, but what you throw away, you'll never get it back.",
+    "author": "Rurouni Kenshin",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-089",
+    "text": "The world isn't perfect. But it's there for us, trying the best it can.",
+    "author": "Roy Mustang",
+    "source": "Fullmetal Alchemist",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-090",
+    "text": "The longer you live... The more you realize that reality is just made of pain, suffering and emptiness.",
+    "author": "Madara Uchiha",
+    "source": "Naruto",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-091",
+    "text": "Everyone is a slave to something.",
+    "author": "Askeladd",
+    "source": "Vinland Saga",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-092",
+    "text": "Those who stand at the top determine what's wrong and what's right... Whoever wins this war becomes justice!",
+    "author": "Donquixote Doflamingo",
+    "source": "One Piece",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-093",
+    "text": "When do you think people die? ... It's when they are forgotten!",
+    "author": "Dr. Hiriluk",
+    "source": "One Piece",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-094",
+    "text": "If all you ever do is look down on people, you won't be able to recognize your own weaknesses.",
+    "author": "Katsuki Bakugo",
+    "source": "My Hero Academia",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-095",
+    "text": "If the king doesn't lead, how can he expect his subjects to follow?",
+    "author": "Lelouch",
+    "source": "Code Geass",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-096",
+    "text": "False tears bring pain to others. A false smile brings pain to yourself.",
+    "author": "C.C.",
+    "source": "Code Geass",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-097",
+    "text": "To obtain, something of equal value must be lost. That is alchemy's first law of Equivalent Exchange.",
+    "author": "Alphonse Elric",
+    "source": "Fullmetal Alchemist: Brotherhood",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-098",
+    "text": "Justice comes from vengeance, but that justice only breeds more vengeance.",
+    "author": "Pain",
+    "source": "Naruto",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-099",
+    "text": "Wake up to reality! Nothing ever goes as planned in this accursed world.",
+    "author": "Madara Uchiha",
+    "source": "Naruto",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-100",
+    "text": "Everyone is alone. Everyone is empty. People no longer have need of others.",
+    "author": "Shogo Makishima",
+    "source": "Psycho-Pass",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-101",
+    "text": "Admiration is the emotion furthest from understanding.",
+    "author": "Sosuke Aizen",
+    "source": "Bleach",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-102",
+    "text": "Fear is necessary for evolution.",
+    "author": "Sosuke Aizen",
+    "source": "Bleach",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-103",
+    "text": "Are you the strongest because you're Satoru Gojo? Or are you Satoru Gojo because you're the strongest?",
+    "author": "Suguru Geto",
+    "source": "Jujutsu Kaisen",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-104",
+    "text": "Preoccupied with a single leaf, you won't see the tree. Preoccupied with a single tree, you'll miss the entire forest.",
+    "author": "Takuan Sōhō",
+    "source": "Vagabond",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-105",
+    "text": "A legend is not defined by how they lived, but by how they died.",
+    "author": "Falco",
+    "source": "Cyberpunk: Edgerunners",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-106",
+    "text": "If you're always worried about crushing the ants beneath you, you won't be able to walk.",
+    "author": "Guts",
+    "source": "Berserk",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-107",
+    "text": "The things we think are small and insignificant... those are the things that stay with us the longest.",
+    "author": "Himmel the Hero",
+    "source": "Frieren: Beyond Journey's End",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-108",
+    "text": "People's feelings are memories that transcend time.",
+    "author": "Kurisu Makise",
+    "source": "Steins;Gate",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-109",
+    "text": "There is no point in a journey if you aren't prepared to lose something along the way.",
+    "author": "Bondrewd",
+    "source": "Made in Abyss",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-110",
+    "text": "Was I able to live inside someone's heart? Was I able to live inside your heart?",
+    "author": "Kaori Miyazono",
+    "source": "Your Lie in April",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-111",
+    "text": "The heart? You humans are always talking about it... If I open up your chest, will I see it there?",
+    "author": "Ulquiorra Cifer",
+    "source": "Bleach",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-112",
+    "text": "Love is the reason why there is pain. When we lose someone precious to us, hate is born.",
+    "author": "Pain",
+    "source": "Naruto",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-113",
+    "text": "You think you know what's real because it feels familiar. But familiarity is not truth. It's just repetition.",
+    "author": "Synecdoche, New York",
+    "source": "2008",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-115",
+    "text": "You are what you love, not what loves you.",
+    "author": "Adaptation.",
+    "source": "2002",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-116",
+    "text": "People's lives don't end when they die. It ends when they lose faith.",
+    "author": "Itachi Uchiha",
+    "source": "Naruto",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-117",
+    "text": "If strength is justice, then is powerlessness a crime?",
+    "author": "Lelouch Lamperouge",
+    "source": "Code Geass",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-118",
+    "text": "Society doesn't always do what's right. That's exactly why we ourselves must live virtuous lives.",
+    "author": "Akane Tsunemori",
+    "source": "Psycho-Pass",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-119",
+    "text": "The opposite of boredom is not pleasure, but excitement. People will gladly seek out any kind of excitement, even pain.",
+    "author": "Shogo Makishima",
+    "source": "Psycho-Pass",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
   }
 ]

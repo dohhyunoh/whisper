@@ -8,14 +8,6 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-bp-002",
-    "text": "Love your body because you only have one.",
-    "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "body-positivity",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-bp-003",
     "text": "And I said to my body, softly, 'I want to be your friend. It took a long breath and replied, 'I've been waiting my whole life for this.'",
     "author": "Nayyirah Waheed",
@@ -37,7 +29,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-006",
@@ -45,7 +37,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-007",
@@ -93,7 +85,7 @@
     "author": "Anna Quindlen",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-bp-016",
@@ -101,7 +93,7 @@
     "author": "J.K. Rowling",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-bp-019",
@@ -125,28 +117,12 @@
     "author": "Jennifer Lopez",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-bp-022",
-    "text": "My limbs work, so I'm not going to complain about the way my body is shaped.",
-    "author": "Drew Barrymore",
-    "category": "self-love",
-    "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-023",
     "text": "Girls of all kinds can be beautiful—from the thin, plus-sized, short, very tall, ebony to porcelain-skinned; the quirky, clumsy, shy, outgoing and all in between. It's not easy though because many people still put beauty into a confining, narrow box…think outside of the box.",
     "author": "Tyra Banks",
-    "category": "self-love",
-    "subcategory": "body-positivity",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-bp-024",
-    "text": "Beauty comes in all shapes and sizes.",
-    "author": "Emme",
     "category": "self-love",
     "subcategory": "body-positivity",
     "tone": "gentle"
@@ -165,7 +141,7 @@
     "author": "Geneen Roth",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-028",
@@ -184,25 +160,9 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-bp-030",
-    "text": "My body is normal, and I'm not trying to prove anything.",
-    "author": "Lucy Hale",
-    "category": "self-love",
-    "subcategory": "body-positivity",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-bp-031",
     "text": "My smile is my favorite part of my body. I think a smile can make your whole body.",
     "author": "Serena Williams",
-    "category": "self-love",
-    "subcategory": "body-positivity",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-bp-033",
-    "text": "I have learned to enjoy my body when I have a few extra pounds on, just being more voluptuous.",
-    "author": "Fergie",
     "category": "self-love",
     "subcategory": "body-positivity",
     "tone": "gentle"
@@ -277,7 +237,7 @@
     "author": "Eve Ensler",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-049",
@@ -293,7 +253,7 @@
     "author": "Tina Fey",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-bp-051",
@@ -309,7 +269,7 @@
     "author": "Gloria Steinem",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-053",
@@ -333,15 +293,7 @@
     "author": "June Tomaso Wood",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-bp-057",
-    "text": "I think it's awesome people have killer bodies and are proud to show them off (I really do!!) but I know how hard it can be to forget what (for lack of a better word) regular ol' bodies look like when everyone looks bonkers amazing.",
-    "author": "Chrissy Teigen",
-    "category": "self-love",
-    "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-059",
@@ -389,7 +341,7 @@
     "author": "Meryl Streep",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-065",
@@ -413,7 +365,7 @@
     "author": "Priyanka Chopra",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-068",
@@ -429,7 +381,7 @@
     "author": "Lady Gaga",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-070",
@@ -453,7 +405,7 @@
     "author": "Sam Smith",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-bp-075",
@@ -461,7 +413,7 @@
     "author": "Camila Cabello",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-076",
@@ -469,7 +421,7 @@
     "author": "Golda Poretsky",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-077",
@@ -488,28 +440,12 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-bp-079",
-    "text": "It doesn't have anything to do with how the world perceives you. What matters is what you see.",
-    "author": "Gabourey Sidibe",
-    "category": "self-love",
-    "subcategory": "body-positivity",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-bp-080",
-    "text": "Each life is made up of mistakes and learning, waiting and growing, practicing patience and being persistent.",
-    "author": "Billy Graham",
-    "category": "self-love",
-    "subcategory": "body-positivity",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-bp-081",
     "text": "Accept yourself, love yourself, and keep moving forward. If you want to fly, you have to give up what weighs you down.",
     "author": "Roy T. Bennett",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-bp-082",
@@ -536,11 +472,51 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-bp-085",
-    "text": "Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.",
-    "author": "Stephen Covey",
+    "id": "self-love-bp-086",
+    "text": "Your body isn't decoration. It's the instrument you live your whole life through.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "body-positivity",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-bp-087",
+    "text": "Think of everything your body did today without being asked — breathed, healed, kept you alive. It's on your side.",
+    "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
     "tone": "gentle"
+  },
+  {
+    "id": "self-love-bp-088",
+    "text": "The photos you compare yourself to were taken on the best lighting, best angle, best day. You're comparing your real life to someone else's highlight reel.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "body-positivity",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-bp-089",
+    "text": "You were not born to look like a filter.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "body-positivity",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-bp-090",
+    "text": "What if today you just said thank you instead of sorry to your body?",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "body-positivity",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-bp-091",
+    "text": "You don't have to love every part of yourself every day. But you do have to stop going to war with it.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "body-positivity",
+    "tone": "direct"
   }
 ]

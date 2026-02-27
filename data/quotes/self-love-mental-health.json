@@ -24,7 +24,7 @@
     "source": "Very Good Lives",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-004",
@@ -33,7 +33,7 @@
     "source": "A Servant to Servants",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-005",
@@ -42,7 +42,7 @@
     "source": "Japanese Proverb",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-006",
@@ -51,7 +51,7 @@
     "source": "What It Takes to Be Number One",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-007",
@@ -60,7 +60,7 @@
     "source": "The Varieties of Religious Experience",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-008",
@@ -69,7 +69,7 @@
     "source": "Letter to My Daughter",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-010",
@@ -87,7 +87,7 @@
     "source": "Churchill: A Life",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-012",
@@ -96,7 +96,7 @@
     "source": "The Essential Rumi",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-mh-013",
@@ -112,15 +112,6 @@
     "text": "Be soft. Do not let the world make you hard.",
     "author": "Iain S. Thomas",
     "source": "I Wrote This for You",
-    "category": "self-love",
-    "subcategory": "mental-health",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-mh-015",
-    "text": "You have been criticizing yourself for years, and it hasn't worked. Try approving of yourself and see what happens.",
-    "author": "Louise Hay",
-    "source": "You Can Heal Your Life",
     "category": "self-love",
     "subcategory": "mental-health",
     "tone": "gentle"
@@ -159,7 +150,7 @@
     "source": "Letters to a Young Poet",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-mh-020",
@@ -212,7 +203,7 @@
     "source": "Churchill: A Life",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-026",
@@ -230,7 +221,7 @@
     "source": "Ladies of the Borobudur",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-mh-028",
@@ -242,36 +233,9 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-mh-029",
-    "text": "Our lives begin to end the day we become silent about things that matter.",
-    "author": "Martin Luther King Jr.",
-    "source": "Strength to Love",
-    "category": "self-love",
-    "subcategory": "mental-health",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-mh-030",
-    "text": "We are all broken, that's how the light gets in.",
-    "author": "Ernest Hemingway",
-    "source": "A Farewell to Arms",
-    "category": "self-love",
-    "subcategory": "mental-health",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-mh-031",
     "text": "What mental health needs is more sunlight, more candor, and more unashamed conversation.",
     "author": "Glenn Close",
-    "category": "self-love",
-    "subcategory": "mental-health",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-mh-032",
-    "text": "Being vulnerable is actually a strength and not a weakness.",
-    "author": "Cara Delevingne",
-    "source": "Oasis Education",
     "category": "self-love",
     "subcategory": "mental-health",
     "tone": "gentle"
@@ -301,7 +265,7 @@
     "source": "100 Ways to Overcome Depression",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-036",
@@ -310,20 +274,11 @@
     "source": "What I Know For Sure",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-037",
     "text": "You don't have to be strong all the time. It's okay to let your guard down.",
-    "author": "Susan Jeffers",
-    "source": "Feel the Fear and Do It Anyway",
-    "category": "self-love",
-    "subcategory": "mental-health",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-mh-038",
-    "text": "The only way to get rid of the fear of doing something is to go out and do it.",
     "author": "Susan Jeffers",
     "source": "Feel the Fear and Do It Anyway",
     "category": "self-love",
@@ -399,14 +354,6 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-mh-047",
-    "text": "Just remember, you are not alone, in fact, you are in a very commonplace with millions of others. We need to help each other and keep striving to reach our goals.",
-    "author": "Mike Moreno",
-    "category": "self-love",
-    "subcategory": "mental-health",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-mh-048",
     "text": "The humanity we all share is more important than the mental illnesses we may not.",
     "author": "Elyn R. Saks",
@@ -460,7 +407,7 @@
     "author": "Rainer Maria Rilke",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-mh-055",
@@ -476,7 +423,7 @@
     "author": "Margaret Thatcher",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-057",
@@ -484,7 +431,7 @@
     "author": "Bob Marley",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-mh-058",
@@ -517,7 +464,7 @@
     "source": "Anthem",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-mh-062",
@@ -599,7 +546,7 @@
     "author": "Seneca",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-mh-072",
@@ -607,7 +554,7 @@
     "author": "Thich Nhat Hanh",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "self-love-mh-073",
@@ -616,5 +563,13 @@
     "category": "self-love",
     "subcategory": "mental-health",
     "tone": "gentle"
+  },
+  {
+    "id": "self-love-mh-074",
+    "text": "We are all bizarre. Some of us are just better at hiding it, that's all.",
+    "author": "The Breakfast Club(1985)",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "direct"
   }
 ]

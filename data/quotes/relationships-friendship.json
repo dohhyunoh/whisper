@@ -117,20 +117,12 @@
     "author": "Socrates",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "rel-friend-016",
     "text": "A man's friendships are one of the best measures of his worth.",
     "author": "Charles Darwin",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-friend-018",
-    "text": "A friendship founded on business is better than a business founded on friendship.",
-    "author": "John D. Rockefeller",
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "gentle"
@@ -149,7 +141,7 @@
     "author": "Aristotle",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "rel-friend-021",
@@ -176,14 +168,6 @@
     "tone": "gentle"
   },
   {
-    "id": "rel-friend-024",
-    "text": "The bird a nest, the spider a web, man friendship.",
-    "author": "William Blake",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
     "id": "rel-friend-025",
     "text": "It's the friends you can call up at 4 a.m. that matter.",
     "author": "Marlene Dietrich",
@@ -205,7 +189,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "rel-friend-029",
@@ -333,7 +317,7 @@
     "author": "Plutarch",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "rel-friend-047",
@@ -355,14 +339,6 @@
     "id": "rel-friend-049",
     "text": "I have learned that to be with those I like is enough.",
     "author": "Walt Whitman",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-friend-050",
-    "text": "There is some self-interest behind every friendship. There is no friendship without self-interests. This is a bitter truth.",
-    "author": "Chanakya",
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "gentle"
@@ -397,7 +373,7 @@
     "author": "George Washington",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "rel-friend-055",
@@ -494,7 +470,7 @@
     "source": "Healology",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "rel-friend-068",
@@ -575,7 +551,7 @@
     "source": "Aesop's Fables",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "rel-friend-078",
@@ -620,7 +596,7 @@
     "source": "Slam!",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "rel-friend-084",
@@ -814,7 +790,7 @@
     "source": "Brushstrokes of a Gadfly",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "rel-friend-111",
@@ -904,7 +880,7 @@
     "source": "Vampire Academy",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "rel-friend-123",
@@ -943,22 +919,13 @@
     "tone": "gentle"
   },
   {
-    "id": "rel-friend-128",
-    "text": "A wise man gets more use from his enemies than a fool from his friends.",
-    "author": "Baltasar Gracian",
-    "source": "The Art of Worldly Wisdom: A Pocket Oracle",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
     "id": "rel-friend-129",
     "text": "What do you most value in your friends? Their continued existence.",
     "author": "Christopher Hitchens",
     "source": "Hitch 22: A Memoir",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "rel-friend-130",
@@ -1010,6 +977,33 @@
     "author": "Jay McInerney",
     "category": "relationships",
     "subcategory": "friendship",
+    "tone": "playful"
+  },
+  {
+    "id": "rel-friend-137",
+    "text": "In my next life, I want to be me, and meet you again.",
+    "author": "Killua Zoldyck",
+    "source": "Hunter x Hunter",
+    "category": "relationships",
+    "subcategory": "friendship",
     "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-138",
+    "text": "No matter what happens, even when it looks like you're gonna lose, when no one else believes in you, when you don't believe in yourself... I will believe!",
+    "author": "Rem",
+    "source": "Re:Zero",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "direct"
+  },
+  {
+    "id": "rel-friend-139",
+    "text": "I won't leave you behind. I'll take you with me to the very end.",
+    "author": "Shinei Nouzen",
+    "source": "86 Eighty-Six",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "direct"
   }
 ]

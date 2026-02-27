@@ -5,7 +5,7 @@
     "author": "Mitch Hedberg",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-003",
@@ -13,7 +13,7 @@
     "author": "Billie Holiday",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-006",
@@ -21,15 +21,7 @@
     "author": "Keanu Reeves",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-dating-007",
-    "text": "It is an extra dividend when you like the girl you've fallen in love with.",
-    "author": "Clark Gable",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-010",
@@ -37,15 +29,7 @@
     "author": "Kelly Osbourne",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-dating-011",
-    "text": "Everything I buy is vintage and smells funny. Maybe that's why I don't have a boyfriend.",
-    "author": "Lucy Liu",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-012",
@@ -53,7 +37,7 @@
     "author": "Will Ferrell",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-015",
@@ -61,7 +45,7 @@
     "author": "Joey Adams",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-016",
@@ -69,15 +53,7 @@
     "author": "Joy Browne",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-dating-019",
-    "text": "Dating now is a lot like going shopping when you don't have any money. Even if you find the right thing, you can't do anything about it.",
-    "author": "Joshua Harris",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-021",
@@ -86,7 +62,7 @@
     "source": "Pretty Woman",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-022",
@@ -95,7 +71,7 @@
     "source": "My Best Friend's Wedding",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-023",
@@ -103,7 +79,7 @@
     "author": "Jerry Seinfeld",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-024",
@@ -111,16 +87,7 @@
     "author": "Rodney Dangerfield",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-dating-025",
-    "text": "My boyfriend eats gluten-free. Now I gotta eat all this bread that tastes like free-range Chewbacca.",
-    "author": "Ali Wong",
-    "source": "Hard Knock Wife",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-026",
@@ -128,7 +95,7 @@
     "author": "Mindy Kaling",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-027",
@@ -137,16 +104,7 @@
     "source": "The '70s Show House",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-dating-029",
-    "text": "Marriage is like a tense, unfunny version of Everybody Loves Raymond, only it doesn't last 22 minutes. It lasts forever.",
-    "author": "Pete",
-    "source": "Knocked Up",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-031",
@@ -155,7 +113,7 @@
     "source": "The Last Kiss",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-035",
@@ -164,7 +122,7 @@
     "source": "The Fault in Our Stars",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-036",
@@ -173,7 +131,7 @@
     "source": "When Harry Met Sally",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-037",
@@ -182,7 +140,7 @@
     "source": "Dirty Dancing",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-039",
@@ -191,7 +149,7 @@
     "source": "The Lord of the Rings",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-040",
@@ -216,7 +174,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-044",
@@ -224,7 +182,7 @@
     "author": "Alfred Tennyson",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-045",
@@ -232,15 +190,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-dating-046",
-    "text": "Dating is where you pretend you're someone you're not to impress someone you don't know.",
-    "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-047",
@@ -248,7 +198,7 @@
     "author": "Rita Rudner",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-048",
@@ -256,7 +206,7 @@
     "author": "Julia Roberts",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-049",
@@ -264,7 +214,7 @@
     "author": "Pablo Neruda",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-050",
@@ -272,7 +222,7 @@
     "author": "F. Scott Fitzgerald",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-051",
@@ -280,7 +230,7 @@
     "author": "Demetri Martin",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-052",
@@ -289,7 +239,7 @@
     "source": "Wuthering Heights",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-053",
@@ -298,7 +248,7 @@
     "source": "The Great Gatsby",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-054",
@@ -306,15 +256,7 @@
     "author": "Lao Tzu",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-dating-055",
-    "text": "Modern dating: where ghosting is more common than actual commitment.",
-    "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-056",
@@ -322,7 +264,7 @@
     "author": "Leo Christopher",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-057",
@@ -338,7 +280,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-059",
@@ -346,24 +288,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-dating-060",
-    "text": "I love you begins by I, but it ends up by you.",
-    "author": "Charles de Leusse",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-dating-061",
-    "text": "He's more myself than I am. Whatever our souls are made of, his and mine are the same.",
-    "author": "Catherine Earnshaw",
-    "source": "Wuthering Heights",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-062",
@@ -379,7 +304,7 @@
     "author": "Leanna L. Bartram",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-064",
@@ -387,7 +312,7 @@
     "author": "Lana Del Rey",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-065",
@@ -395,7 +320,7 @@
     "author": "Sanober Khan",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-066",
@@ -404,15 +329,7 @@
     "source": "The Notebook",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-dating-067",
-    "text": "Dating is collecting information about someone until you realize you don't like them.",
-    "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-068",
@@ -420,7 +337,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-069",
@@ -428,7 +345,7 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "rel-dating-070",
@@ -436,6 +353,24 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-dating-071",
+    "text": "It was only ten years. Only a hundredth of my life. But why... why didn't I try to get to know him better?",
+    "author": "Frieren",
+    "source": "Frieren: Beyond Journey's End",
+    "category": "relationships",
+    "subcategory": "dating",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-dating-072",
+    "text": "I'm sorry I couldn't eat all the canelés. I'm sorry I hit you so much... Thank you for everything. I love you. I love you. I love you.",
+    "author": "Kaori Miyazono",
+    "source": "Your Lie in April",
+    "category": "relationships",
+    "subcategory": "dating",
+    "tone": "gentle"
   }
 ]
