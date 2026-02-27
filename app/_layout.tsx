@@ -12,7 +12,6 @@ import { useFonts as useLuckiestGuy, LuckiestGuy_400Regular } from '@expo-google
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { AppProvider } from '@/context/app-context';
-import { configureRevenueCat } from '@/utils/revenuecat';
 import { PostHogProvider } from 'posthog-react-native';
 import { posthog } from '@/utils/posthog';
 
@@ -34,10 +33,6 @@ export default function RootLayout() {
   });
 
   const fontsLoaded = indieFlowerLoaded && permanentMarkerLoaded && luckiestGuyLoaded;
-
-  useEffect(() => {
-    configureRevenueCat();
-  }, []);
 
   useEffect(() => {
     if (fontsLoaded) {

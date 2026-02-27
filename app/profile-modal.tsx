@@ -4,27 +4,19 @@ import { useAppContext } from '@/context/app-context';
 import { useLikes } from '@/hooks/use-likes';
 import { usePremium } from '@/hooks/use-premium';
 import { router } from 'expo-router';
-import React, { useState } from 'react';
+import React from 'react';
 import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import RevenueCatUI from 'react-native-purchases-ui';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function ProfileModal() {
   const insets = useSafeAreaInsets();
   const { state } = useAppContext();
   const { likedIds } = useLikes();
-  const [showCustomerCenter, setShowCustomerCenter] = useState(false);
-  const { currentTheme, status } = usePremium();
+  const { currentTheme } = usePremium();
   const userName = state.user?.name || '';
   const ownQuoteCount = state.ownQuotes.length;
 
   const isClassicSelected = currentTheme.key === 'default';
-
-  if (showCustomerCenter) {
-    return (
-      <RevenueCatUI.CustomerCenterView onDismiss={() => setShowCustomerCenter(false)} />
-    );
-  }
 
   return (
     <View style={[styles.container, { paddingTop: insets.top }]}>
@@ -103,31 +95,17 @@ export default function ProfileModal() {
           <CollapsibleCategoryList />
         </View>
 
-        {/* Manage Subscription */}
-{status === 'premium_purchased' && (
-          <View style={styles.section}>
-            <Pressable
-              style={styles.manageSubCard}
-              onPress={() => setShowCustomerCenter(true)}
-            >
-              <IconSymbol name="creditcard.fill" size={20} color="#3A6B80" />
-              <Text style={styles.manageSubText}>Manage Subscription</Text>
-              <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
-            </Pressable>
-          </View>
-        )}
-
         {/* Footer */}
         <View style={styles.footer}>
-          <Pressable onPress={() => Linking.openURL('https://whisper-landing-nu.vercel.app/privacy')} hitSlop={8}>
+          <Pressable onPress={() => Linking.openURL('https://whisperquotes.app/privacy')} hitSlop={8}>
             <Text style={styles.footerLink}>Privacy</Text>
           </Pressable>
           <Text style={styles.footerSeparator}>·</Text>
-          <Pressable onPress={() => Linking.openURL('https://whisper-landing-nu.vercel.app/terms')} hitSlop={8}>
+          <Pressable onPress={() => Linking.openURL('https://whisperquotes.app/terms')} hitSlop={8}>
             <Text style={styles.footerLink}>Terms</Text>
           </Pressable>
           <Text style={styles.footerSeparator}>·</Text>
-          <Pressable onPress={() => Linking.openURL('https://whisper-landing-nu.vercel.app/contact')} hitSlop={8}>
+          <Pressable onPress={() => Linking.openURL('https://whisperquotes.app/contact')} hitSlop={8}>
             <Text style={styles.footerLink}>Contact</Text>
           </Pressable>
         </View>
@@ -219,21 +197,6 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '500',
     color: '#5A8BA8',
-  },
-  // Manage sub
-  manageSubCard: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 10,
-    backgroundColor: 'rgba(255, 255, 255, 0.5)',
-    borderRadius: 12,
-    padding: 16,
-  },
-  manageSubText: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#3A6B80',
-    flex: 1,
   },
   // Footer
   footer: {

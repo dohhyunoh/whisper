@@ -7,7 +7,6 @@ import {
   saveFirstOpenVersion,
   savePremiumStatus,
 } from './storage';
-import { checkEntitlement } from './revenuecat';
 
 const CURRENT_VERSION = '1.0';
 
@@ -19,22 +18,8 @@ export async function initializePremiumStatus(): Promise<PremiumState> {
     loadFirstOpenVersion(),
   ]);
 
-  // If user already has a status, check RevenueCat for standard_free users (handles reinstalls/restores)
+  // If user already has a status, use it
   if (existingStatus) {
-    if (existingStatus === 'standard_free') {
-      try {
-        const hasEntitlement = await checkEntitlement();
-        if (hasEntitlement) {
-          await savePremiumStatus('premium_purchased');
-          return {
-            status: 'premium_purchased',
-            settings: existingSettings || DEFAULT_PREMIUM_SETTINGS,
-          };
-        }
-      } catch {
-        // Silently fail — keep existing status
-      }
-    }
     return {
       status: existingStatus,
       settings: existingSettings || DEFAULT_PREMIUM_SETTINGS,
