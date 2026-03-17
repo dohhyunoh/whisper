@@ -62,7 +62,7 @@
     "source": "Pretty Woman",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "playful"
   },
   {
     "id": "rel-dating-022",
@@ -351,15 +351,6 @@
     "id": "rel-dating-070",
     "text": "Love is not about how many days, months, or years you've been together. Love is about how much you love each other every single day.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-dating-071",
-    "text": "It was only ten years. Only a hundredth of my life. But why... why didn't I try to get to know him better?",
-    "author": "Frieren",
-    "source": "Frieren: Beyond Journey's End",
     "category": "relationships",
     "subcategory": "dating",
     "tone": "gentle"

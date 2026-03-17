@@ -88,7 +88,7 @@ export const defaultUserData: UserData = {
 };
 
 // Premium types
-export type PremiumStatus = 'grandfathered_premium' | 'premium_purchased' | 'standard_free';
+export type PremiumStatus = 'premium_purchased' | 'standard_free';
 export type PremiumFontKey = 'system' | 'indie-flower' | 'permanent-marker' | 'luckiest-guy' | 'shuffle';
 export type BackgroundThemeKey =
   // Gradient themes
@@ -139,6 +139,7 @@ export type AppAction =
   | { type: 'SET_PREMIUM_FONT'; payload: PremiumFontKey }
   | { type: 'SET_PREMIUM_BACKGROUND'; payload: BackgroundThemeKey }
   | { type: 'ADD_OWN_QUOTE'; payload: OwnQuote }
+  | { type: 'EDIT_OWN_QUOTE'; payload: OwnQuote }
   | { type: 'REMOVE_OWN_QUOTE'; payload: string }
   | { type: 'RECORD_DAILY_OPEN'; payload: string }
   | { type: 'SET_CUSTOM_PHOTO'; payload: string }

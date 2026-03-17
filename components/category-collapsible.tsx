@@ -1,15 +1,15 @@
+import { IconSymbol } from '@/components/ui/icon-symbol';
+import { CategoryInfo } from '@/constants/categories';
+import { useAppContext } from '@/context/app-context';
+import { usePremium } from '@/hooks/use-premium';
+import { router } from 'expo-router';
 import React, { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { router } from 'expo-router';
 import Animated, {
   useAnimatedStyle,
   useSharedValue,
   withTiming,
 } from 'react-native-reanimated';
-import { IconSymbol } from '@/components/ui/icon-symbol';
-import { CategoryInfo } from '@/constants/categories';
-import { usePremium } from '@/hooks/use-premium';
-import { useAppContext } from '@/context/app-context';
 
 interface CategoryCollapsibleProps {
   category: CategoryInfo;
@@ -18,12 +18,12 @@ interface CategoryCollapsibleProps {
 export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
   const [expanded, setExpanded] = useState(false);
   const rotation = useSharedValue(0);
-  const { isCategoryLocked, todayUnlockedCategory, isPremium } = usePremium();
+  const { isCategoryLocked, isSubcategoryLocked, todayUnlockedSubcategory, isPremium } = usePremium();
   const { state, dispatch } = useAppContext();
 
   const hasSubcategories = category.subcategories && category.subcategories.length > 0;
   const isLocked = isCategoryLocked(category.key);
-  const isTodayFree = category.key === todayUnlockedCategory && !isPremium;
+  const isTodayFreeCategory = category.key === todayUnlockedSubcategory.category && !isPremium;
 
   const interests = state.user?.interests ?? [];
   const isFollowed =
@@ -54,19 +54,22 @@ export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
   };
 
   const handlePress = () => {
-    if (isLocked) {
-      router.push('/onboarding/paywall');
-      return;
-    }
     if (hasSubcategories) {
+      // Always allow expanding to see subcategories (some may be free today)
       setExpanded(!expanded);
       rotation.value = withTiming(expanded ? 0 : 90, { duration: 200 });
+    } else if (isLocked) {
+      router.push('/onboarding/paywall');
     } else {
       router.push({ pathname: '/category-feed', params: { category: category.key } });
     }
   };
 
   const handleSubcategoryPress = (subcategoryKey: string) => {
+    if (isSubcategoryLocked(category.key, subcategoryKey)) {
+      router.push('/onboarding/paywall');
+      return;
+    }
     router.push({
       pathname: '/category-feed',
       params: { category: category.key, subcategory: subcategoryKey },
@@ -79,18 +82,10 @@ export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
 
   return (
     <View style={styles.container}>
-      {isLocked ? (
-        <Pressable onPress={handlePress} style={styles.headerRow}>
-          <View style={[styles.header, styles.headerFill]}>
-            <Text style={[styles.label, styles.labelLocked]}>{category.label}</Text>
-          </View>
-          <IconSymbol name="lock.fill" size={16} color="#7B9AAA" style={styles.chevronButton} />
-        </Pressable>
-      ) : hasSubcategories ? (
+      {hasSubcategories ? (
         <Pressable onPress={handlePress} style={styles.header}>
-          <Text style={styles.label}>
+          <Text style={[styles.label, isLocked && !isTodayFreeCategory && styles.labelLocked]}>
             {category.label}
-            {isTodayFree && ' (Free Today!)'}
           </Text>
           <Animated.View style={chevronStyle}>
             <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
@@ -99,27 +94,36 @@ export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
       ) : (
         <View style={styles.headerRow}>
           <Pressable onPress={handlePress} style={[styles.header, styles.headerFill]}>
-            <Text style={styles.label}>
+            <Text style={[styles.label, isLocked && styles.labelLocked]}>
               {category.label}
-              {isTodayFree && ' (Free Today!)'}
             </Text>
           </Pressable>
-          <Pressable onPress={() => handleToggle(!isFollowed)} hitSlop={8}>
-            <IconSymbol
-              name={isFollowed ? 'checkmark.circle.fill' : 'circle'}
-              size={22}
-              color={isFollowed ? '#3A6B80' : '#C5D5DC'}
-            />
-          </Pressable>
-          <Pressable onPress={handlePress} hitSlop={8} style={styles.chevronButton}>
-            <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
-          </Pressable>
+          {isLocked ? (
+            <IconSymbol name="lock.fill" size={16} color="#7B9AAA" style={styles.chevronButton} />
+          ) : (
+            <>
+              <Pressable onPress={() => handleToggle(!isFollowed)} hitSlop={8}>
+                <IconSymbol
+                  name={isFollowed ? 'checkmark.circle.fill' : 'circle'}
+                  size={22}
+                  color={isFollowed ? '#3A6B80' : '#C5D5DC'}
+                />
+              </Pressable>
+              <Pressable onPress={handlePress} hitSlop={8} style={styles.chevronButton}>
+                <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
+              </Pressable>
+            </>
+          )}
         </View>
       )}
 
-      {expanded && hasSubcategories && !isLocked && (
+      {expanded && hasSubcategories && (
         <View style={styles.subcategories}>
           {category.subcategories!.map((sub) => {
+            const subLocked = isSubcategoryLocked(category.key, sub.key);
+            const isSubFreeToday = !isPremium &&
+              category.key === todayUnlockedSubcategory.category &&
+              sub.key === todayUnlockedSubcategory.subcategory;
             const subFollowed =
               interests.includes(category.key) ||
               interests.includes(category.key + ':' + sub.key);
@@ -129,22 +133,31 @@ export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
                   onPress={() => handleSubcategoryPress(sub.key)}
                   style={styles.subcategoryItemFill}
                 >
-                  <Text style={styles.subcategoryLabel}>{sub.label}</Text>
+                  <Text style={[styles.subcategoryLabel, subLocked && styles.labelLocked]}>
+                    {sub.label}
+                    {isSubFreeToday && ' (Unlocked Today)'}
+                  </Text>
                 </Pressable>
-                <Pressable onPress={() => handleSubToggle(sub.key, !subFollowed)} hitSlop={8}>
-                  <IconSymbol
-                    name={subFollowed ? 'checkmark.circle.fill' : 'circle'}
-                    size={22}
-                    color={subFollowed ? '#3A6B80' : '#C5D5DC'}
-                  />
-                </Pressable>
-                <Pressable
-                  onPress={() => handleSubcategoryPress(sub.key)}
-                  hitSlop={8}
-                  style={styles.chevronButton}
-                >
-                  <IconSymbol name="chevron.right" size={16} color="#5A8BA8" />
-                </Pressable>
+                {subLocked ? (
+                  <IconSymbol name="lock.fill" size={14} color="#7B9AAA" style={styles.chevronButton} />
+                ) : (
+                  <>
+                    <Pressable onPress={() => handleSubToggle(sub.key, !subFollowed)} hitSlop={8}>
+                      <IconSymbol
+                        name={subFollowed ? 'checkmark.circle.fill' : 'circle'}
+                        size={22}
+                        color={subFollowed ? '#3A6B80' : '#C5D5DC'}
+                      />
+                    </Pressable>
+                    <Pressable
+                      onPress={() => handleSubcategoryPress(sub.key)}
+                      hitSlop={8}
+                      style={styles.chevronButton}
+                    >
+                      <IconSymbol name="chevron.right" size={16} color="#5A8BA8" />
+                    </Pressable>
+                  </>
+                )}
               </View>
             );
           })}

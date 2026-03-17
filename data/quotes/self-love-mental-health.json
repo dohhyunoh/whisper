@@ -346,22 +346,6 @@
     "tone": "gentle"
   },
   {
-    "id": "self-love-mh-046",
-    "text": "Anything that's human is mentionable, and anything that is mentionable can be more manageable. When we can talk about our feelings, they become less overwhelming, less upsetting, and less scary.",
-    "author": "Fred Rogers",
-    "category": "self-love",
-    "subcategory": "mental-health",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-mh-048",
-    "text": "The humanity we all share is more important than the mental illnesses we may not.",
-    "author": "Elyn R. Saks",
-    "category": "self-love",
-    "subcategory": "mental-health",
-    "tone": "gentle"
-  },
-  {
     "id": "self-love-mh-049",
     "text": "Life doesn't make any sense without interdependence. We need each other, and the sooner we learn that, the better for us all.",
     "author": "Erik Erikson",
@@ -570,6 +554,6 @@
     "author": "The Breakfast Club(1985)",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "playful"
   }
 ]

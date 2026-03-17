@@ -16,7 +16,6 @@ const KEYS = {
   SWIPE_HINT: '@whisper_swipe_hint_seen',
   PREMIUM_STATUS: '@whisper_premium_status',
   PREMIUM_SETTINGS: '@whisper_premium_settings',
-  FIRST_OPEN_VERSION: '@whisper_first_open_version',
   STREAK_DATES: '@whisper_streak_dates',
 };
 
@@ -91,14 +90,6 @@ export async function loadPremiumSettings(): Promise<PremiumSettings | null> {
 
 export async function savePremiumSettings(settings: PremiumSettings): Promise<void> {
   await AsyncStorage.setItem(KEYS.PREMIUM_SETTINGS, JSON.stringify(settings));
-}
-
-export async function loadFirstOpenVersion(): Promise<string | null> {
-  return AsyncStorage.getItem(KEYS.FIRST_OPEN_VERSION);
-}
-
-export async function saveFirstOpenVersion(version: string): Promise<void> {
-  await AsyncStorage.setItem(KEYS.FIRST_OPEN_VERSION, version);
 }
 
 export async function loadStreakDates(): Promise<string[]> {

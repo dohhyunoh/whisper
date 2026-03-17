@@ -55,10 +55,10 @@ export default function RestWelcomeScreen() {
   }, [riveFile, riveViewRef]);
 
   useEffect(() => {
-    titleOpacity.value = withDelay(400, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
-    titleTranslateY.value = withDelay(400, withTiming(0, { duration: 600, easing: Easing.out(Easing.ease) }));
-    subtitleOpacity.value = withDelay(1000, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
-    btnOpacity.value = withDelay(1800, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
+    titleOpacity.value = withDelay(0, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
+    titleTranslateY.value = withDelay(800, withTiming(0, { duration: 600, easing: Easing.out(Easing.ease) }));
+    subtitleOpacity.value = withDelay(1400, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
+    btnOpacity.value = withDelay(2200, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
   }, []);
 
   const titleStyle = useAnimatedStyle(() => ({

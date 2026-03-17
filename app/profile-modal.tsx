@@ -62,7 +62,7 @@ export default function ProfileModal() {
           {/* Own Quotes */}
           <Pressable
             style={styles.bentoCard}
-            onPress={() => router.push('/add-quote-modal')}
+            onPress={() => router.push('/own-quotes')}
           >
             <View style={[styles.bentoIconWrap, { backgroundColor: 'rgba(191,166,201,0.15)' }]}>
               <IconSymbol name="pencil.line" size={22} color="#9B7FB0" />
@@ -92,7 +92,7 @@ export default function ProfileModal() {
               <IconSymbol name="paintbrush.fill" size={22} color="#5AADDB" />
             </View>
             <Text style={styles.bentoLabel}>Appearance</Text>
-            <Text style={styles.bentoSub}>{isClassicSelected ? 'Classic' : 'Pictures'}</Text>
+            <Text style={styles.bentoSub}>{isClassicSelected ? 'Classic' : 'Wallpapers'}</Text>
           </Pressable>
         </View>
 
@@ -119,15 +119,15 @@ export default function ProfileModal() {
 
         {/* Footer */}
         <View style={styles.footer}>
-          <Pressable onPress={() => Linking.openURL('https://whisper-landing-nu.vercel.app/privacy')} hitSlop={8}>
+          <Pressable onPress={() => Linking.openURL('https://www.whisperquotes.app/privacy')} hitSlop={8}>
             <Text style={styles.footerLink}>Privacy</Text>
           </Pressable>
           <Text style={styles.footerSeparator}>·</Text>
-          <Pressable onPress={() => Linking.openURL('https://whisper-landing-nu.vercel.app/terms')} hitSlop={8}>
+          <Pressable onPress={() => Linking.openURL('https://www.whisperquotes.app/terms')} hitSlop={8}>
             <Text style={styles.footerLink}>Terms</Text>
           </Pressable>
           <Text style={styles.footerSeparator}>·</Text>
-          <Pressable onPress={() => Linking.openURL('https://whisper-landing-nu.vercel.app/contact')} hitSlop={8}>
+          <Pressable onPress={() => Linking.openURL('https://www.whisperquotes.app/contact')} hitSlop={8}>
             <Text style={styles.footerLink}>Contact</Text>
           </Pressable>
         </View>

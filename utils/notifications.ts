@@ -85,6 +85,32 @@ function computeTimes(
   return times;
 }
 
+const TRIAL_REMINDER_ID = 'trial-reminder';
+
+export async function scheduleTrialReminder(): Promise<void> {
+  const { status } = await Notifications.getPermissionsAsync();
+  if (status !== 'granted') return;
+
+  // Cancel any existing trial reminder before scheduling a new one
+  await Notifications.cancelScheduledNotificationAsync(TRIAL_REMINDER_ID).catch(() => {});
+
+  const reminderDate = new Date();
+  reminderDate.setDate(reminderDate.getDate() + 2);
+  reminderDate.setHours(10, 0, 0, 0);
+
+  await Notifications.scheduleNotificationAsync({
+    identifier: TRIAL_REMINDER_ID,
+    content: {
+      title: 'Your free trial ends tomorrow',
+      body: "Just a heads up — your Whisper Pro trial wraps up tomorrow. No action needed if you'd like to continue.",
+    },
+    trigger: {
+      type: Notifications.SchedulableTriggerInputTypes.DATE,
+      date: reminderDate,
+    },
+  });
+}
+
 export async function requestPermissions(): Promise<boolean> {
   const { status: existing } = await Notifications.getPermissionsAsync();
   if (existing === 'granted') return true;

@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useEffect, useReducer } from 'react';
+import React, { createContext, useContext, useEffect, useReducer, useRef } from 'react';
+import { AppState as RNAppState } from 'react-native';
 import { AppAction, AppState, PremiumState, UserData } from '@/data/types';
 import { DEFAULT_PREMIUM_SETTINGS } from '@/constants/premium';
 import {
@@ -16,6 +17,9 @@ import {
   saveUser,
 } from '@/utils/storage';
 import { initializePremiumStatus } from '@/utils/premium-check';
+import { syncWidgetData } from '@/utils/widget-data';
+import { REVENUECAT_ENTITLEMENT_ID } from '@/constants/premium';
+import Purchases from 'react-native-purchases';
 
 const defaultPremiumState: PremiumState = {
   status: 'standard_free',
@@ -93,6 +97,11 @@ function reducer(state: AppState, action: AppAction): AppState {
       return {
         ...state,
         ownQuotes: [...state.ownQuotes, action.payload],
+      };
+    case 'EDIT_OWN_QUOTE':
+      return {
+        ...state,
+        ownQuotes: state.ownQuotes.map((q) => q.id === action.payload.id ? action.payload : q),
       };
     case 'REMOVE_OWN_QUOTE':
       return {
@@ -194,6 +203,34 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     saveStreakDates(state.streakDates);
   }, [state.streakDates, state.hydrated]);
 
+  // Listen for RevenueCat customer info changes (handles expiry while app is open)
+  useEffect(() => {
+    if (!state.hydrated) return;
+    const listener = (info: any) => {
+      const hasEntitlement = info.entitlements.active[REVENUECAT_ENTITLEMENT_ID] !== undefined;
+      dispatch({ type: 'SET_PREMIUM_STATUS', payload: hasEntitlement ? 'premium_purchased' : 'standard_free' });
+    };
+    Purchases.addCustomerInfoUpdateListener(listener);
+    return () => Purchases.removeCustomerInfoUpdateListener(listener);
+  }, [state.hydrated, dispatch]);
+
+  // Re-check entitlement when app comes back to foreground
+  useEffect(() => {
+    if (!state.hydrated) return;
+    const sub = RNAppState.addEventListener('change', async (nextState) => {
+      if (nextState === 'active') {
+        try {
+          const info = await Purchases.getCustomerInfo();
+          const hasEntitlement = info.entitlements.active[REVENUECAT_ENTITLEMENT_ID] !== undefined;
+          dispatch({ type: 'SET_PREMIUM_STATUS', payload: hasEntitlement ? 'premium_purchased' : 'standard_free' });
+        } catch {
+          // Silently fail
+        }
+      }
+    });
+    return () => sub.remove();
+  }, [state.hydrated, dispatch]);
+
   // Persist premium status
   useEffect(() => {
     if (!state.hydrated) return;
@@ -205,6 +242,13 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     if (!state.hydrated) return;
     savePremiumSettings(state.premium.settings);
   }, [state.premium.settings, state.hydrated]);
+
+  // Sync widget data when quotes, likes, or category preferences change
+  const userInterests = state.user?.interests;
+  useEffect(() => {
+    if (!state.hydrated || !state.onboardingComplete) return;
+    syncWidgetData(state.likedIds, state.ownQuotes, userInterests ?? []);
+  }, [state.hydrated, state.onboardingComplete, state.likedIds, state.ownQuotes, userInterests]);
 
   return (
     <AppContext.Provider value={{ state, dispatch }}>

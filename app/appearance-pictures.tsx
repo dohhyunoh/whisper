@@ -62,7 +62,7 @@ export default function AppearancePictures() {
         <Pressable onPress={() => router.back()} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
-        <Text style={styles.headerTitle}>Pictures</Text>
+        <Text style={styles.headerTitle}>Wallpapers</Text>
         <View style={styles.headerSpacer} />
       </View>
 

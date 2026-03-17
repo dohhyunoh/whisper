@@ -149,7 +149,7 @@
     "author": "Jan Glidewell",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "playful"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-023",
@@ -472,7 +472,7 @@
     "author": "Joseph Campbell",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "playful"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-072",
@@ -528,7 +528,7 @@
     "author": "George Bernard Shaw",
     "category": "relationships",
     "subcategory": "breakups",
-    "tone": "playful"
+    "tone": "gentle"
   },
   {
     "id": "rel-breakup-082",
@@ -822,5 +822,13 @@
     "category": "relationships",
     "subcategory": "breakups",
     "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-125",
+    "text": "Grief is the price we pay for love.",
+    "author": "Queen Elizabeth II ",
+    "category": "relationships",
+    "subcategory": "breakups",
+    "tone": "direct"
   }
 ]

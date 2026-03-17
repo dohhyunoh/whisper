@@ -15,16 +15,18 @@ export function GlassContainer({ style, children }: GlassContainerProps) {
   const { currentTheme } = usePremium();
   const isLightBackground = currentTheme.key.startsWith('classic') || currentTheme.key === 'default';
 
+  const containerStyle = isLightBackground ? styles.darkContainer : styles.lightContainer;
+
   if (useNativeGlass) {
     return (
-      <GlassView style={[styles.darkContainer, style]} glassEffectStyle="regular" isInteractive>
+      <GlassView style={[containerStyle, style]} glassEffectStyle="regular" isInteractive>
         {children}
       </GlassView>
     );
   }
 
   return (
-    <View style={[styles.darkContainer, style]}>
+    <View style={[containerStyle, style]}>
       {children}
     </View>
   );

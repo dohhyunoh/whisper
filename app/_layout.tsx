@@ -102,6 +102,15 @@ export default function RootLayout() {
               }}
             />
             <Stack.Screen
+              name="own-quotes"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen
               name="add-quote-modal"
               options={{
                 presentation: 'modal',

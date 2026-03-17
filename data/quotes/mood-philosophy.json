@@ -37,7 +37,7 @@
     "author": "Epictetus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-010",
@@ -343,14 +343,14 @@
     "subcategory": "philosophy",
     "tone": "playful"
   },
-  {                                                                                                                                                                              
+  {
     "id": "mood-philo-066",
     "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
     "author": "Viktor Frankl",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"                                                                                                                                                            
-  },        
+    "tone": "playful"
+  },
   {
     "id": "mood-philo-070",
     "text": "The impediment to action advances action. What stands in the way becomes the way.",
@@ -486,7 +486,7 @@
     "author": "Stephen Chbosky",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "gentle"
   },
   {
     "id": "mood-philo-090",
@@ -542,7 +542,7 @@
     "author": "Malcolm X",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-098",
@@ -623,7 +623,7 @@
     "source": "Attack on Titan",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-087",
@@ -639,7 +639,7 @@
     "author": "Rurouni Kenshin",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-089",
@@ -648,7 +648,7 @@
     "source": "Fullmetal Alchemist",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "mood-philo-090",
@@ -657,7 +657,7 @@
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-091",
@@ -666,7 +666,7 @@
     "source": "Vinland Saga",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-092",
@@ -675,7 +675,7 @@
     "source": "One Piece",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-093",
@@ -684,7 +684,7 @@
     "source": "One Piece",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-094",
@@ -702,7 +702,7 @@
     "source": "Code Geass",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-096",
@@ -711,7 +711,7 @@
     "source": "Code Geass",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-097",
@@ -720,7 +720,7 @@
     "source": "Fullmetal Alchemist: Brotherhood",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-098",
@@ -729,7 +729,7 @@
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-099",
@@ -747,7 +747,7 @@
     "source": "Psycho-Pass",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-101",
@@ -756,7 +756,7 @@
     "source": "Bleach",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-102",
@@ -765,7 +765,7 @@
     "source": "Bleach",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-103",
@@ -774,7 +774,7 @@
     "source": "Jujutsu Kaisen",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-104",
@@ -783,7 +783,7 @@
     "source": "Vagabond",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-105",
@@ -792,7 +792,7 @@
     "source": "Cyberpunk: Edgerunners",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-106",
@@ -801,7 +801,7 @@
     "source": "Berserk",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-107",
@@ -810,7 +810,7 @@
     "source": "Frieren: Beyond Journey's End",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "mood-philo-108",
@@ -819,7 +819,7 @@
     "source": "Steins;Gate",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "gentle"
   },
   {
     "id": "mood-philo-109",
@@ -828,7 +828,7 @@
     "source": "Made in Abyss",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-110",
@@ -846,7 +846,7 @@
     "source": "Bleach",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-112",
@@ -855,7 +855,7 @@
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-113",
@@ -864,7 +864,7 @@
     "source": "2008",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-115",
@@ -873,7 +873,7 @@
     "source": "2002",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-116",
@@ -882,7 +882,7 @@
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-117",
@@ -891,7 +891,7 @@
     "source": "Code Geass",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "playful"
   },
   {
     "id": "mood-philo-118",
@@ -907,6 +907,22 @@
     "text": "The opposite of boredom is not pleasure, but excitement. People will gladly seek out any kind of excitement, even pain.",
     "author": "Shogo Makishima",
     "source": "Psycho-Pass",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-120",
+    "text": "If hard work led to success, the donkey would own the farm.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-121",
+    "text": "If you pay close attention, you will see that the most masculine man has a feminine soul, and the most feminine woman has a masculine soul.",
+    "author": "Carl Jung",
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "direct"

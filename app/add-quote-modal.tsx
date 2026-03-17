@@ -9,7 +9,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
@@ -17,9 +17,18 @@ import { useAppContext } from '@/context/app-context';
 export default function AddQuoteModal() {
   const insets = useSafeAreaInsets();
   const { dispatch } = useAppContext();
-  const [quoteText, setQuoteText] = useState('');
-  const [author, setAuthor] = useState('');
-  const [source, setSource] = useState('');
+  const { editId, editText, editAuthor, editSource } = useLocalSearchParams<{
+    editId?: string;
+    editText?: string;
+    editAuthor?: string;
+    editSource?: string;
+  }>();
+
+  const isEditing = !!editId;
+
+  const [quoteText, setQuoteText] = useState(editText || '');
+  const [author, setAuthor] = useState(editAuthor || '');
+  const [source, setSource] = useState(editSource || '');
 
   const handleClose = () => {
     router.back();
@@ -28,15 +37,29 @@ export default function AddQuoteModal() {
   const handleSave = () => {
     if (!quoteText.trim()) return;
 
-    const newQuote = {
-      id: `own-${Date.now()}-${Math.random().toString(36).substring(2, 9)}`,
-      text: quoteText.trim(),
-      author: author.trim() || undefined,
-      source: source.trim() || undefined,
-      createdAt: Date.now(),
-    };
-
-    dispatch({ type: 'ADD_OWN_QUOTE', payload: newQuote });
+    if (isEditing) {
+      dispatch({
+        type: 'EDIT_OWN_QUOTE',
+        payload: {
+          id: editId,
+          text: quoteText.trim(),
+          author: author.trim() || undefined,
+          source: source.trim() || undefined,
+          createdAt: Date.now(),
+        },
+      });
+    } else {
+      dispatch({
+        type: 'ADD_OWN_QUOTE',
+        payload: {
+          id: `own-${Date.now()}-${Math.random().toString(36).substring(2, 9)}`,
+          text: quoteText.trim(),
+          author: author.trim() || undefined,
+          source: source.trim() || undefined,
+          createdAt: Date.now(),
+        },
+      });
+    }
     router.back();
   };
 
@@ -51,7 +74,7 @@ export default function AddQuoteModal() {
         <Pressable onPress={handleClose} hitSlop={12}>
           <IconSymbol name="xmark" size={24} color="#5A8BA8" />
         </Pressable>
-        <Text style={styles.headerTitle}>Add Quote</Text>
+        <Text style={styles.headerTitle}>{isEditing ? 'Edit Quote' : 'Add Quote'}</Text>
         <Pressable
           onPress={handleSave}
           hitSlop={12}

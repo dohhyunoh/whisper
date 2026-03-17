@@ -536,14 +536,6 @@
     "tone": "direct"
   },
   {
-    "id": "mood-motiv-069",
-    "text": "You've survived 100% of your worst days. You're doing great.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
-    "tone": "gentle"
-  },
-  {
     "id": "mood-motiv-070",
     "text": "The version of you a year from now will thank you for starting today.",
     "author": "Unknown",
@@ -565,7 +557,7 @@
     "author": "Publius Flavius Vegetius Renatus",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "playful"
+    "tone": "direct"
   },
   {
     "id": "mood-motiv-073",
@@ -809,15 +801,6 @@
     "id": "mood-motiv-102",
     "text": "If you're going to die anyway, you might as well die with your head held high.",
     "author": "Shinei Nouzen",
-    "source": "86 Eighty-Six",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-motiv-103",
-    "text": "If you're reading this, it means I'm already dead... Don't let my death be in vain. Live. Fight. And remember us.",
-    "author": "Spearhead Squadron",
     "source": "86 Eighty-Six",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",

@@ -31,7 +31,11 @@ export default function OnboardingLayout() {
       {/* ACT 6: Delivery */}
       <Stack.Screen name="curating" />
       <Stack.Screen name="notification-preview" />
+      <Stack.Screen name="trial-offer" />
+      <Stack.Screen name="trial-reminder" />
       <Stack.Screen name="paywall" />
+      <Stack.Screen name="widget-promo" />
+      <Stack.Screen name="widget-home" />
     </Stack>
   );
 }

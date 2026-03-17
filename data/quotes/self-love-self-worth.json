@@ -21,7 +21,7 @@
     "author": "Bell Hooks",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "playful"
+    "tone": "gentle"
   },
   {
     "id": "self-love-sw-005",
@@ -37,7 +37,7 @@
     "author": "Anne LaMott",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "playful"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-010",
@@ -301,7 +301,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-048",
@@ -445,7 +445,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "direct"
   },
   {
     "id": "self-love-sw-066",
@@ -553,6 +553,14 @@
     "text": "We accept the love we think we deserve.",
     "author": "The Perks of Being a Wallflower",
     "source": "2012",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-079",
+    "text": "Look at you comforting others with the words you wished someone had said to you.",
+    "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
     "tone": "gentle"

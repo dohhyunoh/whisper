@@ -180,7 +180,7 @@ export default function AppearanceShuffle() {
               })}
             </View>
 
-            <Text style={[styles.pickerSection, { marginTop: 20 }]}>Pictures</Text>
+            <Text style={[styles.pickerSection, { marginTop: 20 }]}>Wallpapers</Text>
             <View style={styles.grid}>
               {IMAGE_THEMES.map((theme) => {
                 const selected = draft.includes(theme.key);

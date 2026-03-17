@@ -2,7 +2,7 @@ import { useCallback, useMemo } from 'react';
 import { useAppContext } from '@/context/app-context';
 import { BackgroundThemeKey, Category, PremiumFontKey } from '@/data/types';
 import { ALL_THEMES, AnyBackgroundTheme, FONT_OPTIONS, FontOption, IMAGE_THEMES, ImageBackgroundTheme } from '@/constants/premium';
-import { getTodayUnlockedCategory, isCategoryPremium } from '@/constants/categories';
+import { getTodayUnlockedSubcategory, isCategoryPremium } from '@/constants/categories';
 import { hasPremiumAccess } from '@/utils/premium-check';
 
 // Virtual theme object for shuffle mode
@@ -34,16 +34,22 @@ export function usePremium() {
   }, [premium.settings.selectedBackground, premium.settings.customPhotoUri]);
 
   const currentTheme = useMemo(() => {
-    if (premium.settings.selectedBackground === 'shuffle') {
-      return SHUFFLE_THEME;
+    if (isPremium) {
+      if (premium.settings.selectedBackground === 'shuffle') {
+        return SHUFFLE_THEME;
+      }
+      if (customPhotoTheme) return customPhotoTheme;
     }
-    if (customPhotoTheme) return customPhotoTheme;
-    return ALL_THEMES.find((t) => t.key === premium.settings.selectedBackground) || ALL_THEMES[0];
-  }, [premium.settings.selectedBackground, customPhotoTheme]);
+    const theme = ALL_THEMES.find((t) => t.key === premium.settings.selectedBackground);
+    if (theme && (isPremium || !theme.isPremium)) return theme;
+    return ALL_THEMES[0];
+  }, [premium.settings.selectedBackground, customPhotoTheme, isPremium]);
 
   const currentFont = useMemo(() => {
-    return FONT_OPTIONS.find((f) => f.key === premium.settings.selectedFont) || FONT_OPTIONS[0];
-  }, [premium.settings.selectedFont]);
+    const font = FONT_OPTIONS.find((f) => f.key === premium.settings.selectedFont);
+    if (font && (isPremium || !font.isPremium)) return font;
+    return FONT_OPTIONS[0];
+  }, [premium.settings.selectedFont, isPremium]);
 
   const setFont = useCallback(
     (fontKey: PremiumFontKey) => {
@@ -102,15 +108,25 @@ export function usePremium() {
     dispatch({ type: 'SET_PREMIUM_BACKGROUND', payload: imageThemeKeys[nextIndex] });
   }, [dispatch, premium.settings.selectedBackground]);
 
-  const todayUnlockedCategory = useMemo(() => getTodayUnlockedCategory(), []);
+  const todayUnlockedSubcategory = useMemo(() => getTodayUnlockedSubcategory(), []);
 
   const isCategoryLocked = useCallback(
     (category: Category): boolean => {
       if (isPremium) return false;
       if (!isCategoryPremium(category)) return false;
-      return category !== todayUnlockedCategory;
+      // A category is unlocked if today's free subcategory belongs to it
+      return category !== todayUnlockedSubcategory.category;
     },
-    [isPremium, todayUnlockedCategory]
+    [isPremium, todayUnlockedSubcategory]
+  );
+
+  const isSubcategoryLocked = useCallback(
+    (category: Category, subcategory: string): boolean => {
+      if (isPremium) return false;
+      if (!isCategoryPremium(category)) return false;
+      return !(category === todayUnlockedSubcategory.category && subcategory === todayUnlockedSubcategory.subcategory);
+    },
+    [isPremium, todayUnlockedSubcategory]
   );
 
   return {
@@ -130,6 +146,7 @@ export function usePremium() {
     allThemes: ALL_THEMES as AnyBackgroundTheme[],
     allFonts: FONT_OPTIONS as FontOption[],
     isCategoryLocked,
-    todayUnlockedCategory,
+    isSubcategoryLocked,
+    todayUnlockedSubcategory,
   };
 }

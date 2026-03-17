@@ -15,4 +15,6 @@ export const Events = {
   PAYWALL_PURCHASE_COMPLETED: 'paywall_purchase_completed',
   PAYWALL_SKIPPED: 'paywall_skipped',
   PAYWALL_RESTORE_TAPPED: 'paywall_restore_tapped',
+  PAYWALL_TRIAL_VIEWED: 'paywall_trial_viewed',
+  PAYWALL_TRIAL_STARTED: 'paywall_trial_started',
 } as const;

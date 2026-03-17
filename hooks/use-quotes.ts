@@ -3,7 +3,7 @@ import { Category, Quote, SubCategory, ToneTag } from '@/data/types';
 import { useAppContext } from '@/context/app-context';
 import quotesData from '@/data/quotes';
 import { shuffle } from '@/utils/shuffle';
-import { FREE_CATEGORIES, getTodayUnlockedCategory } from '@/constants/categories';
+import { FREE_CATEGORIES, getTodayUnlockedSubcategory } from '@/constants/categories';
 import { hasPremiumAccess } from '@/utils/premium-check';
 
 const toneMap: Record<string, ToneTag> = {
@@ -60,9 +60,10 @@ export function useQuotes(category?: Category, subcategory?: SubCategory, applyI
 
     // Filter for free users (only when browsing all quotes / home feed)
     if (!category && !isPremium) {
-      const todayUnlocked = getTodayUnlockedCategory();
+      const todayUnlocked = getTodayUnlockedSubcategory();
       filtered = filtered.filter(
-        (q) => FREE_CATEGORIES.includes(q.category) || q.category === todayUnlocked
+        (q) => FREE_CATEGORIES.includes(q.category) ||
+          (q.category === todayUnlocked.category && q.subcategory === todayUnlocked.subcategory)
       );
     }
 
@@ -72,8 +73,8 @@ export function useQuotes(category?: Category, subcategory?: SubCategory, applyI
     if (applyInterests) {
       filtered = filterByInterests(filtered, interests);
 
-      // Merge own quotes into the feed when selected
-      if (interests?.includes('ownQuotes') && ownQuotes.length > 0) {
+      // Merge own quotes into the feed when selected (premium only)
+      if (isPremium && interests?.includes('ownQuotes') && ownQuotes.length > 0) {
         const ownAsQuotes: Quote[] = ownQuotes.map((oq) => ({
           id: oq.id,
           text: oq.text,

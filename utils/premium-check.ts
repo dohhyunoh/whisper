@@ -1,22 +1,16 @@
-import { PremiumState, PremiumStatus } from '@/data/types';
-import { DEFAULT_PREMIUM_SETTINGS, IS_EARLY_BIRD_RELEASE } from '@/constants/premium';
+import { PremiumState } from '@/data/types';
+import { DEFAULT_PREMIUM_SETTINGS } from '@/constants/premium';
 import {
-  loadFirstOpenVersion,
   loadPremiumSettings,
   loadPremiumStatus,
-  saveFirstOpenVersion,
   savePremiumStatus,
 } from './storage';
 import { checkEntitlement } from './revenuecat';
 
-const CURRENT_VERSION = '1.0';
-
 export async function initializePremiumStatus(): Promise<PremiumState> {
-  // Load existing status and settings
-  const [existingStatus, existingSettings, firstOpenVersion] = await Promise.all([
+  const [existingStatus, existingSettings] = await Promise.all([
     loadPremiumStatus(),
     loadPremiumSettings(),
-    loadFirstOpenVersion(),
   ]);
 
   // If user already has a status, check RevenueCat for standard_free users (handles reinstalls/restores)
@@ -41,29 +35,15 @@ export async function initializePremiumStatus(): Promise<PremiumState> {
     };
   }
 
-  // New user - determine their status
-  let newStatus: PremiumStatus;
-
-  if (IS_EARLY_BIRD_RELEASE) {
-    // Grant grandfathered premium to early bird users
-    newStatus = 'grandfathered_premium';
-  } else {
-    // Post-early bird release - standard free
-    newStatus = 'standard_free';
-  }
-
-  // Save the new status and first open version
-  await Promise.all([
-    savePremiumStatus(newStatus),
-    saveFirstOpenVersion(firstOpenVersion || CURRENT_VERSION),
-  ]);
+  // New user - standard free
+  await savePremiumStatus('standard_free');
 
   return {
-    status: newStatus,
+    status: 'standard_free',
     settings: existingSettings || DEFAULT_PREMIUM_SETTINGS,
   };
 }
 
-export function hasPremiumAccess(status: PremiumStatus): boolean {
-  return status === 'grandfathered_premium' || status === 'premium_purchased';
+export function hasPremiumAccess(status: string): boolean {
+  return status === 'premium_purchased';
 }

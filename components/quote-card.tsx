@@ -9,8 +9,8 @@ import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import * as Sharing from 'expo-sharing';
-import React, { useCallback, useEffect, useMemo, useRef } from 'react';
-import { ImageBackground, Share, StyleSheet, Text, View } from 'react-native';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { ImageBackground, LayoutChangeEvent, Share, StyleSheet, Text, View } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import Animated, {
   runOnJS,
@@ -36,6 +36,9 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
   const heartOpacity = useSharedValue(0);
   const tapX = useSharedValue(0);
   const tapY = useSharedValue(0);
+
+  // Track where the quote area ends so we can position buttons below it
+  const [quoteBottomY, setQuoteBottomY] = useState(0);
 
   useEffect(() => {
     opacity.value = withTiming(1, { duration: 400 });
@@ -156,24 +159,15 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
     await Share.share({ message });
   }, [quote]);
 
-  const actionButtons = (
-    <View style={styles.actions}>
-      <ShareButton quote={quote} color={textColor} onShare={handleShare} />
-      <LikeButton
-        liked={isLiked(quote.id)}
-        onToggle={() => {
-          const wasLiked = isLiked(quote.id);
-          toggleLike(quote.id);
-          if (!wasLiked) onLike?.();
-        }}
-        color={textColor}
-      />
-    </View>
-  );
+  const handleQuoteAreaLayout = useCallback((e: LayoutChangeEvent) => {
+    const { y, height: h } = e.nativeEvent.layout;
+    setQuoteBottomY(y + h);
+  }, []);
 
-  const quoteTextContent = (
+  // Quote text only — inside ViewShot for capture
+  const quoteContent = (
     <Animated.View style={[styles.inner, fadeStyle]}>
-      <View style={styles.quoteArea}>
+      <View style={styles.quoteArea} onLayout={handleQuoteAreaLayout}>
         <Text
           style={[
             styles.quoteText,
@@ -192,24 +186,44 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
           </Text>
         )}
       </View>
-      {actionButtons}
     </Animated.View>
   );
+
+  // Action buttons — positioned absolutely, outside ViewShot
+  const actionButtons = quoteBottomY > 0 ? (
+    <Animated.View
+      style={[styles.actions, { position: 'absolute', top: quoteBottomY + 32, left: 0, right: 0 }, fadeStyle]}
+      pointerEvents="box-none"
+    >
+      <ShareButton quote={quote} color={textColor} onShare={handleShare} />
+      <LikeButton
+        liked={isLiked(quote.id)}
+        onToggle={() => {
+          const wasLiked = isLiked(quote.id);
+          toggleLike(quote.id);
+          if (!wasLiked) onLike?.();
+        }}
+        color={textColor}
+      />
+    </Animated.View>
+  ) : null;
 
   if (isImageBackground && activeImageTheme) {
     return (
       <GestureDetector gesture={doubleTapGesture}>
         <Animated.View style={[styles.container, { height }]}>
-          <ViewShot ref={viewShotRef} style={StyleSheet.absoluteFill} >
+          <ViewShot ref={viewShotRef} style={StyleSheet.absoluteFill}>
             <ImageBackground
               source={activeImageTheme.imageSource}
               style={StyleSheet.absoluteFill}
               resizeMode="cover"
             >
               <View style={styles.imageOverlay} />
-              {quoteTextContent}
+              {quoteContent}
             </ImageBackground>
           </ViewShot>
+
+          {actionButtons}
 
           <Animated.View style={[styles.heartOverlay, heartAnimatedStyle]}>
             <Ionicons name="heart" size={60} color="#FF6B8A" />
@@ -222,15 +236,17 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
   return (
     <GestureDetector gesture={doubleTapGesture}>
       <View style={[styles.container, { height }]}>
-        <ViewShot ref={viewShotRef} style={StyleSheet.absoluteFill} >
+        <ViewShot ref={viewShotRef} style={StyleSheet.absoluteFill}>
           <LinearGradient
             colors={gradientColors}
             locations={[0, 0.3, 0.7, 1]}
             style={StyleSheet.absoluteFill}
           >
-            {quoteTextContent}
+            {quoteContent}
           </LinearGradient>
         </ViewShot>
+
+        {actionButtons}
 
         <Animated.View style={[styles.heartOverlay, heartAnimatedStyle]}>
           <Ionicons name="heart" size={60} color="#FF6B8A" />
@@ -257,6 +273,7 @@ const styles = StyleSheet.create({
   quoteArea: {
     alignItems: 'center',
     gap: 16,
+    width: '100%',
   },
   quoteText: {
     fontSize: 26,
@@ -279,7 +296,6 @@ const styles = StyleSheet.create({
     gap: 40,
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 32,
   },
   heartOverlay: {
     position: 'absolute',

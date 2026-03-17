@@ -7,8 +7,11 @@ import { hasSeenSwipeHint, markSwipeHintSeen } from '@/utils/storage';
 import { getTodayDateString } from '@/utils/streak';
 import { RiveFileFactory, RiveView, useRive } from '@rive-app/react-native';
 import { GlassContainer } from '@/components/glass-container';
-import { router } from 'expo-router';
-import React, { useCallback, useEffect, useState } from 'react';
+import { router, useLocalSearchParams } from 'expo-router';
+import * as Linking from 'expo-linking';
+import allQuotes from '@/data/quotes';
+import { shuffle } from '@/utils/shuffle';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -24,7 +27,37 @@ export default function HomeScreen() {
   const { dispatch } = useAppContext();
   const scale = 1 + ((Math.min(screenWidth, MAX_SCREEN_WIDTH) - BASE_SCREEN_WIDTH) / (MAX_SCREEN_WIDTH - BASE_SCREEN_WIDTH)) * 0.3;
   const buttonSize = Math.round(BASE_BUTTON_SIZE * scale);
-  const quotes = useQuotes(undefined, undefined, true);
+  const { quoteId: initialQuoteId } = useLocalSearchParams<{ quoteId: string }>();
+
+  const [activeWidgetData, setActiveWidgetData] = useState({
+    id: initialQuoteId || null,
+    key: Date.now(),
+  });
+
+  // Handle subsequent taps while the app is already open
+  useEffect(() => {
+    const sub = Linking.addEventListener('url', ({ url }) => {
+      const parsed = Linking.parse(url);
+      if (parsed.queryParams?.quoteId) {
+        setActiveWidgetData({
+          id: parsed.queryParams.quoteId as string,
+          key: Date.now(),
+        });
+      }
+    });
+    return () => sub.remove();
+  }, []);
+
+  const baseQuotes = useQuotes(undefined, undefined, true);
+
+  const quotes = useMemo(() => {
+    if (!activeWidgetData.id) return baseQuotes;
+    const tappedQuote = allQuotes.find((q) => q.id === activeWidgetData.id);
+    if (!tappedQuote) return baseQuotes;
+    const reshuffled = shuffle(baseQuotes);
+    return [tappedQuote, ...reshuffled.filter((q) => q.id !== activeWidgetData.id)];
+  }, [baseQuotes, activeWidgetData.key]);
+
   const [showSwipeHint, setShowSwipeHint] = useState(false);
   const [riveFile, setRiveFile] = useState<RiveFile | null>(null);
   const { riveViewRef, setHybridRef } = useRive();
@@ -76,6 +109,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <QuoteFeed
+        key={activeWidgetData.key}
         quotes={quotes}
         cardHeight={cardHeight}
         showSwipeHint={showSwipeHint}

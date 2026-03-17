@@ -34,7 +34,7 @@ export default function CategoryFeedScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { height: screenHeight } = useWindowDimensions();
-  const { isCategoryLocked, isPremium } = usePremium();
+  const { isCategoryLocked, isSubcategoryLocked, isPremium } = usePremium();
   const { state } = useAppContext();
 
   const { likedIds } = useLikes();
@@ -58,14 +58,14 @@ export default function CategoryFeedScreen() {
   const title = isOwnQuotes ? 'Own Quotes' : isFavorites ? 'Favorites' : getCategoryLabel(category!, subcategory);
 
   useEffect(() => {
-    if (isOwnQuotes && !isPremium) {
-      router.replace('/onboarding/paywall');
-      return;
+    if (category && !isFavorites && !isOwnQuotes) {
+      if (subcategory && isSubcategoryLocked(category, subcategory)) {
+        router.replace('/onboarding/paywall');
+      } else if (!subcategory && isCategoryLocked(category)) {
+        router.replace('/onboarding/paywall');
+      }
     }
-    if (category && !isFavorites && !isOwnQuotes && isCategoryLocked(category)) {
-      router.replace('/onboarding/paywall');
-    }
-  }, [category, isFavorites, isOwnQuotes, isCategoryLocked, isPremium, router]);
+  }, [category, subcategory, isFavorites, isOwnQuotes, isCategoryLocked, isSubcategoryLocked, isPremium, router]);
 
   return (
     <View style={styles.container}>

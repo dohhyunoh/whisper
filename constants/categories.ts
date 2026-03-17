@@ -63,12 +63,19 @@ export const FREE_CATEGORIES: Category[] = ['empowerment', 'mood-boosters'];
 // Categories that require premium (except for daily rotation)
 export const LOCKED_CATEGORIES: Category[] = ['self-love', 'relationships', 'religion'];
 
-// Daily rotation order (index = day % 3)
-export const DAILY_UNLOCK_ORDER: Category[] = ['self-love', 'relationships', 'religion'];
+// All locked subcategories in rotation order
+export const DAILY_UNLOCK_ORDER: { category: Category; subcategory: string }[] = [
+  // Self-Love
+  ...SELF_LOVE_SUBCATEGORIES.map((s) => ({ category: 'self-love' as Category, subcategory: s.key })),
+  // Relationships
+  ...RELATIONSHIP_SUBCATEGORIES.map((s) => ({ category: 'relationships' as Category, subcategory: s.key })),
+  // Religion
+  ...RELIGION_SUBCATEGORIES.map((s) => ({ category: 'religion' as Category, subcategory: s.key })),
+];
 
-export function getTodayUnlockedCategory(): Category {
+export function getTodayUnlockedSubcategory(): { category: Category; subcategory: string } {
   const dayOfYear = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
-  return DAILY_UNLOCK_ORDER[dayOfYear % 3];
+  return DAILY_UNLOCK_ORDER[dayOfYear % DAILY_UNLOCK_ORDER.length];
 }
 
 export function isCategoryPremium(category: Category): boolean {

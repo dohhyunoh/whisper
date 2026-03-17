@@ -14,6 +14,10 @@
       "supportsTablet": true,
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
+      },
+      "appleTeamId": "37RJ9492PN",
+      "entitlements": {
+        "com.apple.security.application-groups": ["group.com.dohhyun.whisper"]
       }
     },
     "android": {
@@ -52,7 +56,15 @@
           "photosPermission": "Whisper needs access to your photos to set a custom background.",
           "cameraPermission": "Whisper needs access to your camera to take a photo for your background."
         }
-      ]
+      ],
+      ["expo-build-properties", {
+        "ios": {
+          "entitlements": {
+            "com.apple.security.application-groups": ["group.com.dohhyun.whisper"]
+          }
+        }
+      }],
+      "@bacons/apple-targets"
     ],
     "experiments": {
       "typedRoutes": true,

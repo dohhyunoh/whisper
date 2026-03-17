@@ -1,10 +1,10 @@
 import { useAppContext } from '@/context/app-context';
-import { IS_EARLY_BIRD_RELEASE } from '@/constants/premium';
 import { requestPermissions, scheduleQuoteNotifications } from '@/utils/notifications';
+import { checkTrialEligibility } from '@/utils/revenuecat';
 import { Image } from 'expo-image';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { posthog, Events } from '@/utils/posthog';
 import { Alert, Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -56,6 +56,14 @@ export default function NotificationPreviewScreen() {
   const [perDay, setPerDay] = useState(3);
   const [startHour, setStartHour] = useState(8);
   const [endHour, setEndHour] = useState(21);
+
+  // Pre-fetch trial eligibility in background so it's ready when user taps continue
+  const trialEligibleRef = useRef<boolean>(false);
+  useEffect(() => {
+    checkTrialEligibility().then((eligible) => {
+      trialEligibleRef.current = eligible;
+    });
+  }, []);
 
   // Animations
   const notifScale = useSharedValue(0.9);
@@ -113,10 +121,8 @@ export default function NotificationPreviewScreen() {
       );
     }
 
-    if (IS_EARLY_BIRD_RELEASE) {
-      posthog.capture(Events.ONBOARDING_COMPLETED, { method: 'grandfathered' });
-      dispatch({ type: 'COMPLETE_ONBOARDING' });
-      router.replace('/home');
+    if (trialEligibleRef.current) {
+      router.push('/onboarding/trial-offer');
     } else {
       router.push('/onboarding/paywall');
     }

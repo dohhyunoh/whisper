@@ -18,6 +18,20 @@ export async function checkEntitlement(): Promise<boolean> {
   }
 }
 
+export async function checkTrialEligibility(): Promise<boolean> {
+  try {
+    const eligibility = await Purchases.checkTrialOrIntroductoryPriceEligibility([
+      'com.dohhyun.whisper.annually',
+      'com.dohhyun.whisper.monthly',
+    ]);
+    return Object.values(eligibility).some(
+      (result) => result.status === Purchases.INTRO_ELIGIBILITY_STATUS.INTRO_ELIGIBILITY_STATUS_ELIGIBLE,
+    );
+  } catch {
+    return false;
+  }
+}
+
 export async function restorePurchases(): Promise<boolean> {
   try {
     const customerInfo = await Purchases.restorePurchases();

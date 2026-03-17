@@ -74,7 +74,7 @@ export default function Appearance() {
                 resizeMode="cover"
               />
             </View>
-            <Text style={styles.sectionText}>Pictures</Text>
+            <Text style={styles.sectionText}>Wallpapers</Text>
           </View>
           {!isPremium ? (
             <IconSymbol name="lock.fill" size={18} color="#7B9AAA" />
