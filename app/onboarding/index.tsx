@@ -19,6 +19,7 @@ import {
   mix,
   vec,
 } from '@shopify/react-native-skia';
+import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
@@ -374,7 +375,12 @@ export default function OnboardingScreen() {
             <Pressable
               key={mood.id}
               style={[styles.touchTarget, { width: touchTarget, height: touchTarget, left: center.x - touchTarget / 2, top: center.y - touchTarget / 2 }]}
-              onPress={() => handleSelect(index)}
+              onPress={() => {
+                if (process.env.EXPO_OS === 'ios') {
+                  Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+                }
+                handleSelect(index);
+              }}
             >
               <Animated.Text style={[styles.label, { marginTop: 80 * s, fontSize: 15 * s }, questionStyle]}>{mood.label}</Animated.Text>
             </Pressable>
@@ -432,6 +438,9 @@ export default function OnboardingScreen() {
         <Pressable
           style={({ pressed }) => [styles.button, { paddingVertical: 18 * s, paddingHorizontal: 40 * s }, pressed && styles.buttonPressed]}
           onPress={() => {
+            if (process.env.EXPO_OS === 'ios') {
+              Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+            }
             const selectedMood = moods[selectedIndex.value];
             if (selectedMood) {
               dispatch({

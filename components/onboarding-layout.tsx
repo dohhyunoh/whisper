@@ -1,3 +1,4 @@
+import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import React from 'react';
 import {
@@ -52,7 +53,12 @@ export function OnboardingLayout({
     >
       {/* Skip button - top right */}
       <View style={styles.skipRow}>
-        <Pressable onPress={onSkip} hitSlop={12} style={styles.skipButton}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') {
+            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Rigid);
+          }
+          onSkip();
+        }} hitSlop={12} style={styles.skipButton}>
           <Text style={[styles.skipText, { fontSize: 15 * s }]}>
             {skipLabel}
           </Text>
@@ -80,7 +86,12 @@ export function OnboardingLayout({
             buttonDisabled && styles.buttonDisabled,
             pressed && !buttonDisabled ? styles.buttonPressed : undefined,
           ]}
-          onPress={onContinue}
+          onPress={() => {
+            if (process.env.EXPO_OS === 'ios') {
+              Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+            }
+            onContinue();
+          }}
           disabled={buttonDisabled}
         >
           <Text

@@ -1,5 +1,6 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
+import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
@@ -16,7 +17,10 @@ export default function EditProfileScreen() {
     <View style={[styles.container, { paddingTop: insets.top }]}>
       {/* Header */}
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.backButton} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.back();
+        }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
         <Text style={styles.headerTitle}>Edit Profile</Text>
@@ -27,7 +31,10 @@ export default function EditProfileScreen() {
         {/* Edit Name Row */}
         <Pressable
           style={styles.row}
-          onPress={() => router.push('/edit-name')}
+          onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            router.push('/edit-name');
+          }}
         >
           <View style={styles.rowLeft}>
             <IconSymbol name="pencil" size={20} color="#3A6B80" />
@@ -42,7 +49,10 @@ export default function EditProfileScreen() {
         {/* Choose Gender Row */}
         <Pressable
           style={styles.row}
-          onPress={() => router.push('/edit-gender')}
+          onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            router.push('/edit-gender');
+          }}
         >
           <View style={styles.rowLeft}>
             <IconSymbol name="person.fill" size={20} color="#3A6B80" />

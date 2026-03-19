@@ -2,7 +2,7 @@
   "expo": {
     "name": "Whisper",
     "slug": "Whisper",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "whisper",
@@ -13,7 +13,9 @@
       "buildNumber": "2",
       "supportsTablet": true,
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "LSApplicationQueriesSchemes": ["instagram", "instagram-stories", "whatsapp", "twitter", "fb"],
+        "NSPhotoLibraryAddUsageDescription": "Whisper needs access to save quote images to your photo library."
       },
       "appleTeamId": "37RJ9492PN",
       "entitlements": {
@@ -43,10 +45,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
-          "dark": {
-            "backgroundColor": "#000000"
-          }
+          "backgroundColor": "#A6D9F1"
         }
       ],
       "expo-font",

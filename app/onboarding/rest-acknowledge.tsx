@@ -1,5 +1,6 @@
 import { useAppContext } from '@/context/app-context';
 import { Events, posthog } from '@/utils/posthog';
+import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import * as StoreReview from 'expo-store-review';
@@ -80,7 +81,10 @@ export default function RestAcknowledgeScreen() {
               { paddingVertical: 18 * s, paddingHorizontal: 40 * s },
               pressed && styles.buttonPressed,
             ]}
-            onPress={() => router.push('/onboarding/primary-emotion')}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+              router.push('/onboarding/primary-emotion');
+            }}
           >
             <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Continue</Text>
           </Pressable>

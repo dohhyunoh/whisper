@@ -1,3 +1,4 @@
+import * as Haptics from 'expo-haptics';
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
@@ -48,6 +49,7 @@ export default function PrimaryEmotionScreen() {
                 pressed ? styles.pillPressed : undefined,
               ]}
               onPress={() => {
+                if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
                 setSelected(option);
                 posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'primary_emotion', choice: option });
               }}

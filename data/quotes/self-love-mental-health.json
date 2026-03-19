@@ -555,5 +555,32 @@
     "category": "self-love",
     "subcategory": "mental-health",
     "tone": "playful"
+  },
+  {
+    "id": "self-love-mh-075",
+    "text": "The world is cursed, but still you find reasons to keep living.",
+    "author": "Osa",
+    "source": "Princess Mononoke (1997)",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-mh-076",
+    "text": "What matters is the heart inside.",
+    "author": "Kokiri",
+    "source": "Kiki's Delivery Service",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-mh-077",
+    "text": "It's okay to cry.",
+    "author": "Marnie",
+    "source": "When Marnie Was There (2014)",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "gentle"
   }
 ]

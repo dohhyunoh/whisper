@@ -1,6 +1,7 @@
 import { GlassContainer } from '@/components/glass-container';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { usePremium } from '@/hooks/use-premium';
+import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import React from 'react';
 import { Pressable, StyleProp, StyleSheet, View, ViewStyle, useWindowDimensions } from 'react-native';
@@ -21,6 +22,7 @@ export function ProfileButton({ style }: ProfileButtonProps) {
   const size = Math.round(BASE_SIZE * scale);
 
   const handlePress = () => {
+    if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     router.push('/profile-modal');
   };
 

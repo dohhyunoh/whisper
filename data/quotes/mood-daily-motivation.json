@@ -832,5 +832,14 @@
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
     "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-107",
+    "text": "The wind is rising! We must try to live.",
+    "author": "Jiro Horikoshi",
+    "source": "The Wind Rises (2013)",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
   }
 ]

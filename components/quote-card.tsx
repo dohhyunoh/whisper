@@ -1,24 +1,22 @@
 import { LikeButton } from '@/components/like-button';
 import { ShareButton } from '@/components/share-button';
-import { ALL_THEMES, BACKGROUND_THEMES } from '@/constants/premium';
-import { IMAGE_THEMES, isImageTheme, PREMIUM_FONTS } from '@/constants/premium';
+import { ALL_THEMES, BACKGROUND_THEMES, IMAGE_THEMES, isImageTheme } from '@/constants/premium';
 import { Quote } from '@/data/types';
 import { useLikes } from '@/hooks/use-likes';
 import { usePremium } from '@/hooks/use-premium';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
-import * as Sharing from 'expo-sharing';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { ImageBackground, LayoutChangeEvent, Share, StyleSheet, Text, View } from 'react-native';
+import { ImageBackground, LayoutChangeEvent, StyleSheet, Text, View } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import Animated, {
-  runOnJS,
-  useAnimatedStyle,
-  useSharedValue,
-  withSequence,
-  withSpring,
-  withTiming,
+    runOnJS,
+    useAnimatedStyle,
+    useSharedValue,
+    withSequence,
+    withSpring,
+    withTiming,
 } from 'react-native-reanimated';
 import ViewShot, { captureRef } from 'react-native-view-shot';
 
@@ -30,7 +28,7 @@ interface QuoteCardProps {
 
 export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
   const { isLiked, toggleLike } = useLikes();
-  const { currentTheme, currentFont, activeShufflePool } = usePremium();
+  const { currentTheme, currentFont, activeShufflePool, activeFontShufflePool } = usePremium();
   const opacity = useSharedValue(0);
   const heartScale = useSharedValue(0);
   const heartOpacity = useSharedValue(0);
@@ -134,35 +132,37 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
   // Determine font family: shuffle picks randomly per quote, otherwise use selected font
   const fontFamily = useMemo(() => {
     if (currentFont.key === 'shuffle') {
-      // Use quote.id to deterministically pick a font (stable per quote)
       const hash = quote.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-      const index = hash % PREMIUM_FONTS.length;
-      return PREMIUM_FONTS[index];
+      const index = hash % activeFontShufflePool.length;
+      return activeFontShufflePool[index];
     }
     return currentFont.fontFamily;
-  }, [currentFont, quote.id]);
+  }, [currentFont, quote.id, activeFontShufflePool]);
 
   const viewShotRef = useRef<ViewShot>(null);
 
-  const handleShare = useCallback(async () => {
+  const handleCaptureImage = useCallback(async (): Promise<string | null> => {
     try {
       if (viewShotRef.current) {
-        const uri = await captureRef(viewShotRef);
-        await Sharing.shareAsync(uri, { mimeType: 'image/png' });
-        return;
+        return await captureRef(viewShotRef);
       }
     } catch {}
-    // Fallback to text share
-    const message = quote.source
-      ? `"${quote.text}"\n\n— ${quote.author}, ${quote.source}`
-      : `"${quote.text}"\n\n— ${quote.author}`;
-    await Share.share({ message });
-  }, [quote]);
+    return null;
+  }, []);
 
   const handleQuoteAreaLayout = useCallback((e: LayoutChangeEvent) => {
     const { y, height: h } = e.nativeEvent.layout;
     setQuoteBottomY(y + h);
   }, []);
+
+  // Dynamically scale font size for long quotes so text doesn't clip
+  const { quoteFontSize, quoteLineHeight } = useMemo(() => {
+    const len = quote.text.length;
+    if (len > 300) return { quoteFontSize: 18, quoteLineHeight: 28 };
+    if (len > 200) return { quoteFontSize: 21, quoteLineHeight: 32 };
+    if (len > 120) return { quoteFontSize: 24, quoteLineHeight: 35 };
+    return { quoteFontSize: 26, quoteLineHeight: 38 };
+  }, [quote.text]);
 
   // Quote text only — inside ViewShot for capture
   const quoteContent = (
@@ -171,7 +171,7 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
         <Text
           style={[
             styles.quoteText,
-            { color: textColor },
+            { color: textColor, fontSize: quoteFontSize, lineHeight: quoteLineHeight },
             fontFamily && { fontFamily },
           ]}
         >
@@ -195,7 +195,7 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
       style={[styles.actions, { position: 'absolute', top: quoteBottomY + 32, left: 0, right: 0 }, fadeStyle]}
       pointerEvents="box-none"
     >
-      <ShareButton quote={quote} color={textColor} onShare={handleShare} />
+      <ShareButton quote={quote} color={textColor} onCaptureImage={handleCaptureImage} />
       <LikeButton
         liked={isLiked(quote.id)}
         onToggle={() => {

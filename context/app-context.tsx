@@ -1,24 +1,23 @@
-import React, { createContext, useContext, useEffect, useReducer, useRef } from 'react';
-import { AppState as RNAppState } from 'react-native';
-import { AppAction, AppState, PremiumState, UserData } from '@/data/types';
-import { DEFAULT_PREMIUM_SETTINGS } from '@/constants/premium';
-import {
-  loadLikedIds,
-  loadOnboardingComplete,
-  loadOwnQuotes,
-  loadStreakDates,
-  loadUser,
-  saveLikedIds,
-  saveOnboardingComplete,
-  saveOwnQuotes,
-  savePremiumSettings,
-  savePremiumStatus,
-  saveStreakDates,
-  saveUser,
-} from '@/utils/storage';
+import { DEFAULT_PREMIUM_SETTINGS, REVENUECAT_ENTITLEMENT_ID } from '@/constants/premium';
+import { AppAction, AppState, PremiumState } from '@/data/types';
 import { initializePremiumStatus } from '@/utils/premium-check';
+import {
+    loadLikedIds,
+    loadOnboardingComplete,
+    loadOwnQuotes,
+    loadStreakDates,
+    loadUser,
+    saveLikedIds,
+    saveOnboardingComplete,
+    saveOwnQuotes,
+    savePremiumSettings,
+    savePremiumStatus,
+    saveStreakDates,
+    saveUser,
+} from '@/utils/storage';
 import { syncWidgetData } from '@/utils/widget-data';
-import { REVENUECAT_ENTITLEMENT_ID } from '@/constants/premium';
+import React, { createContext, useContext, useEffect, useReducer } from 'react';
+import { AppState as RNAppState } from 'react-native';
 import Purchases from 'react-native-purchases';
 
 const defaultPremiumState: PremiumState = {
@@ -138,6 +137,17 @@ function reducer(state: AppState, action: AppAction): AppState {
           },
         },
       };
+    case 'SET_FONT_SHUFFLE_POOL':
+      return {
+        ...state,
+        premium: {
+          ...state.premium,
+          settings: {
+            ...state.premium.settings,
+            fontShufflePool: action.payload,
+          },
+        },
+      };
     default:
       return state;
   }
@@ -211,7 +221,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       dispatch({ type: 'SET_PREMIUM_STATUS', payload: hasEntitlement ? 'premium_purchased' : 'standard_free' });
     };
     Purchases.addCustomerInfoUpdateListener(listener);
-    return () => Purchases.removeCustomerInfoUpdateListener(listener);
+    return () => { Purchases.removeCustomerInfoUpdateListener(listener); };
   }, [state.hydrated, dispatch]);
 
   // Re-check entitlement when app comes back to foreground

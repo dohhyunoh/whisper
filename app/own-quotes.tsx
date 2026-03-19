@@ -1,5 +1,6 @@
 import React from 'react';
 import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { IconSymbol } from '@/components/ui/icon-symbol';
@@ -40,17 +41,26 @@ export default function OwnQuotesScreen() {
     <View style={[styles.container, { paddingTop: insets.top }]}>
       {/* Header */}
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.backButton} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.back();
+        }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
         <Text style={styles.headerTitle}>Own Quotes</Text>
-        <Pressable onPress={() => router.push('/add-quote-modal')} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.push('/add-quote-modal');
+        }} hitSlop={12}>
           <IconSymbol name="plus" size={24} color="#3A6B80" />
         </Pressable>
       </View>
 
       {/* View in Home Feed toggle */}
-      <Pressable onPress={handleToggleHomeFeed} style={styles.homeFeedToggle}>
+      <Pressable onPress={() => {
+        if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+        handleToggleHomeFeed();
+      }} style={styles.homeFeedToggle}>
         <Text style={styles.homeFeedLabel}>Show in Home Feed</Text>
         {!isPremium ? (
           <IconSymbol name="lock.fill" size={16} color="#7B9AAA" />
@@ -73,7 +83,10 @@ export default function OwnQuotesScreen() {
             <IconSymbol name="pencil.line" size={48} color="#C5D5DC" />
             <Text style={styles.emptyTitle}>No quotes added</Text>
             <Text style={styles.emptySubtitle}>Add your favorite quotes or write your own</Text>
-            <Pressable onPress={() => router.push('/add-quote-modal')} style={styles.addButton}>
+            <Pressable onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              router.push('/add-quote-modal');
+            }} style={styles.addButton}>
               <Text style={styles.addButtonText}>Add Quote</Text>
             </Pressable>
           </View>
@@ -82,7 +95,10 @@ export default function OwnQuotesScreen() {
             <Pressable
               key={quote.id}
               style={styles.quoteCard}
-              onPress={() => router.push({ pathname: '/category-feed', params: { ownQuotes: 'true' } })}
+              onPress={() => {
+                if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                router.push({ pathname: '/category-feed', params: { ownQuotes: 'true' } });
+              }}
             >
               <Text style={styles.quoteText}>"{quote.text}"</Text>
               {quote.author && (
@@ -94,15 +110,21 @@ export default function OwnQuotesScreen() {
               <View style={styles.cardFooter}>
                 <View style={styles.actionButtons}>
                   <Pressable
-                    onPress={() => router.push({
-                      pathname: '/add-quote-modal',
-                      params: { editId: quote.id, editText: quote.text, editAuthor: quote.author || '', editSource: quote.source || '' },
-                    })}
+                    onPress={() => {
+                      if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                      router.push({
+                        pathname: '/add-quote-modal',
+                        params: { editId: quote.id, editText: quote.text, editAuthor: quote.author || '', editSource: quote.source || '' },
+                      });
+                    }}
                     hitSlop={8}
                   >
                     <IconSymbol name="pencil" size={16} color="#5A8BA8" />
                   </Pressable>
-                  <Pressable onPress={() => handleDelete(quote.id)} hitSlop={8}>
+                  <Pressable onPress={() => {
+                    if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                    handleDelete(quote.id);
+                  }} hitSlop={8}>
                     <IconSymbol name="trash" size={16} color="#CF7777" />
                   </Pressable>
                 </View>

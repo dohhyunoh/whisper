@@ -787,5 +787,41 @@
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
     "tone": "direct"
+  },
+  {
+    "id": "emp-obs-124",
+    "text": "You cannot alter your fate. However, you can rise to meet it.",
+    "author": "Hi-Sama",
+    "source": "Princess Mononoke (1997)",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-125",
+    "text": "The past can hurt... you can either run from it, or learn from it.",
+    "author": "Rafiki",
+    "source": "The Lion King",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-126",
+    "text": "Our fate lives within us. You only have to be brave enough to see it.",
+    "author": "Merida",
+    "source": "Brave",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-127",
+    "text": "The flower that blooms in adversity is the most rare and beautiful of all.",
+    "author": "The Emperor",
+    "source": "Mulan",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
   }
 ]

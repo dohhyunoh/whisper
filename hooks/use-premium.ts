@@ -1,9 +1,9 @@
-import { useCallback, useMemo } from 'react';
+import { getTodayUnlockedSubcategory, isCategoryPremium } from '@/constants/categories';
+import { ALL_THEMES, AnyBackgroundTheme, FONT_OPTIONS, FontOption, FREE_FONTS, IMAGE_THEMES, ImageBackgroundTheme, PREMIUM_FONTS } from '@/constants/premium';
 import { useAppContext } from '@/context/app-context';
 import { BackgroundThemeKey, Category, PremiumFontKey } from '@/data/types';
-import { ALL_THEMES, AnyBackgroundTheme, FONT_OPTIONS, FontOption, IMAGE_THEMES, ImageBackgroundTheme } from '@/constants/premium';
-import { getTodayUnlockedSubcategory, isCategoryPremium } from '@/constants/categories';
 import { hasPremiumAccess } from '@/utils/premium-check';
+import { useCallback, useMemo } from 'react';
 
 // Virtual theme object for shuffle mode
 const SHUFFLE_THEME: AnyBackgroundTheme = {
@@ -100,6 +100,25 @@ export function usePremium() {
     [dispatch]
   );
 
+  // Font shuffle pool: user's selected fonts for font shuffle mode
+  const activeFontShufflePool = useMemo((): string[] => {
+    const saved = premium.settings.fontShufflePool;
+    const allPool = isPremium ? PREMIUM_FONTS : FREE_FONTS;
+    if (!saved || saved.length === 0) return allPool;
+    // Map font keys to font family names, filtering to what the user has access to
+    const mapped = saved
+      .map((key) => FONT_OPTIONS.find((f) => f.key === key)?.fontFamily)
+      .filter((f): f is string => f != null);
+    return mapped.length > 0 ? mapped : allPool;
+  }, [premium.settings.fontShufflePool, isPremium]);
+
+  const setFontShufflePool = useCallback(
+    (pool: PremiumFontKey[]) => {
+      dispatch({ type: 'SET_FONT_SHUFFLE_POOL', payload: pool });
+    },
+    [dispatch]
+  );
+
   const shuffleTheme = useCallback(() => {
     const currentKey = premium.settings.selectedBackground;
     const imageThemeKeys = IMAGE_THEMES.map((t) => t.key);
@@ -143,6 +162,8 @@ export function usePremium() {
     activeShuffleIndex,
     activeShufflePool,
     setShufflePools,
+    activeFontShufflePool,
+    setFontShufflePool,
     allThemes: ALL_THEMES as AnyBackgroundTheme[],
     allFonts: FONT_OPTIONS as FontOption[],
     isCategoryLocked,

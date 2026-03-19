@@ -1,3 +1,4 @@
+import * as Haptics from 'expo-haptics';
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
@@ -65,6 +66,7 @@ export default function EmotionRootScreen() {
               ]}
               onPress={() => {
                 toggle(option);
+                if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
                 posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'emotion_root', choice: option });
               }}
             >

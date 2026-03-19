@@ -89,7 +89,7 @@ export const defaultUserData: UserData = {
 
 // Premium types
 export type PremiumStatus = 'premium_purchased' | 'standard_free';
-export type PremiumFontKey = 'system' | 'indie-flower' | 'permanent-marker' | 'luckiest-guy' | 'shuffle';
+export type PremiumFontKey = 'system' | 'indie-flower' | 'permanent-marker' | 'luckiest-guy' | 'playfair-display' | 'caveat' | 'merriweather' | 'cormorant-garamond' | 'satisfy' | 'josefin-sans' | 'pacifico' | 'shuffle';
 export type BackgroundThemeKey =
   // Gradient themes
   | 'default'
@@ -113,6 +113,7 @@ export interface PremiumSettings {
   customPhotoUri?: string;
   shufflePools?: { name: string; themes: BackgroundThemeKey[] }[];
   activeShuffleIndex?: number;
+  fontShufflePool?: PremiumFontKey[];
 }
 
 export interface PremiumState {
@@ -143,4 +144,5 @@ export type AppAction =
   | { type: 'REMOVE_OWN_QUOTE'; payload: string }
   | { type: 'RECORD_DAILY_OPEN'; payload: string }
   | { type: 'SET_CUSTOM_PHOTO'; payload: string }
-  | { type: 'SET_SHUFFLE_POOLS'; payload: { pools: { name: string; themes: BackgroundThemeKey[] }[]; activeIndex: number } };
+  | { type: 'SET_SHUFFLE_POOLS'; payload: { pools: { name: string; themes: BackgroundThemeKey[] }[]; activeIndex: number } }
+  | { type: 'SET_FONT_SHUFFLE_POOL'; payload: PremiumFontKey[] };

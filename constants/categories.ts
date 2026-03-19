@@ -46,6 +46,7 @@ export const MOOD_BOOSTER_SUBCATEGORIES: SubcategoryInfo[] = [
   { key: 'daily-motivation', label: 'Daily Motivation' },
   { key: 'calm', label: 'Calm' },
   { key: 'gratitude', label: 'Gratitude' },
+  { key: 'philosophy', label: 'Philosophy' },
 ];
 
 export const CATEGORIES: CategoryInfo[] = [
@@ -74,7 +75,9 @@ export const DAILY_UNLOCK_ORDER: { category: Category; subcategory: string }[] =
 ];
 
 export function getTodayUnlockedSubcategory(): { category: Category; subcategory: string } {
-  const dayOfYear = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const dayOfYear = Math.floor((now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
   return DAILY_UNLOCK_ORDER[dayOfYear % DAILY_UNLOCK_ORDER.length];
 }
 

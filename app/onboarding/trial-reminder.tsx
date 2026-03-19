@@ -1,5 +1,6 @@
 import { Events, posthog } from '@/utils/posthog';
 import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useEffect } from 'react';
@@ -90,7 +91,10 @@ export default function TrialReminderScreen() {
               { paddingVertical: 18 * s },
               pressed && styles.buttonPressed,
             ]}
-            onPress={() => router.push('/onboarding/paywall')}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+              router.push('/onboarding/paywall');
+            }}
           >
             <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Continue</Text>
           </Pressable>

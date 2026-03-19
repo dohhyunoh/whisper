@@ -1,39 +1,46 @@
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
+import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import 'react-native-reanimated';
 
-import { useFonts as useIndieFlower, IndieFlower_400Regular } from '@expo-google-fonts/indie-flower';
-import { useFonts as usePermanentMarker, PermanentMarker_400Regular } from '@expo-google-fonts/permanent-marker';
-import { useFonts as useLuckiestGuy, LuckiestGuy_400Regular } from '@expo-google-fonts/luckiest-guy';
+import { Caveat_400Regular } from '@expo-google-fonts/caveat';
+import { CormorantGaramond_400Regular } from '@expo-google-fonts/cormorant-garamond';
+import { IndieFlower_400Regular } from '@expo-google-fonts/indie-flower';
+import { JosefinSans_400Regular } from '@expo-google-fonts/josefin-sans';
+import { LuckiestGuy_400Regular } from '@expo-google-fonts/luckiest-guy';
+import { Merriweather_400Regular } from '@expo-google-fonts/merriweather';
+import { Pacifico_400Regular } from '@expo-google-fonts/pacifico';
+import { PermanentMarker_400Regular } from '@expo-google-fonts/permanent-marker';
+import { PlayfairDisplay_400Regular } from '@expo-google-fonts/playfair-display';
+import { Satisfy_400Regular } from '@expo-google-fonts/satisfy';
+import { useFonts } from 'expo-font';
 
-import { useColorScheme } from '@/hooks/use-color-scheme';
 import { AppProvider } from '@/context/app-context';
+import { useColorScheme } from '@/hooks/use-color-scheme';
+import { posthog } from '@/utils/posthog';
 import { configureRevenueCat } from '@/utils/revenuecat';
 import { PostHogProvider } from 'posthog-react-native';
-import { posthog } from '@/utils/posthog';
 
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
 
-  const [indieFlowerLoaded] = useIndieFlower({
+  const [fontsLoaded] = useFonts({
     IndieFlower_400Regular,
-  });
-
-  const [permanentMarkerLoaded] = usePermanentMarker({
     PermanentMarker_400Regular,
-  });
-
-  const [luckiestGuyLoaded] = useLuckiestGuy({
     LuckiestGuy_400Regular,
+    PlayfairDisplay_400Regular,
+    Caveat_400Regular,
+    Merriweather_400Regular,
+    CormorantGaramond_400Regular,
+    Satisfy_400Regular,
+    JosefinSans_400Regular,
+    Pacifico_400Regular,
   });
-
-  const fontsLoaded = indieFlowerLoaded && permanentMarkerLoaded && luckiestGuyLoaded;
 
   useEffect(() => {
     configureRevenueCat();
@@ -146,6 +153,15 @@ export default function RootLayout() {
             />
             <Stack.Screen
               name="appearance-shuffle"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen
+              name="appearance-font-shuffle"
               options={{
                 presentation: 'card',
                 headerShown: false,

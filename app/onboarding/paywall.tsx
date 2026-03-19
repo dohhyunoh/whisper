@@ -4,6 +4,7 @@ import { requestPermissions, scheduleTrialReminder } from '@/utils/notifications
 import { Events, posthog } from '@/utils/posthog';
 import { checkTrialEligibility, restorePurchases } from '@/utils/revenuecat';
 import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
@@ -264,7 +265,10 @@ function RegularPaywall({
           },
         ]}
       >
-        <Pressable style={styles.noThanks} onPress={onSkip} hitSlop={12}>
+        <Pressable style={styles.noThanks} onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Rigid);
+          onSkip();
+        }} hitSlop={12}>
           <Text style={[styles.noThanksText, { fontSize: 15 * s }]}>No Thanks</Text>
         </Pressable>
 
@@ -362,7 +366,10 @@ function RegularPaywall({
               pressed && styles.pressed,
               loading && styles.disabled,
             ]}
-            onPress={onPurchase}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+              onPurchase();
+            }}
             disabled={loading}
           >
             <Text style={[styles.continueButtonText, { fontSize: 18 * s }]}>
@@ -440,7 +447,10 @@ function TrialPaywall({
         ]}
       >
         {/* Top bar: No Thanks */}
-        <Pressable style={styles.noThanks} onPress={onSkip} hitSlop={12}>
+        <Pressable style={styles.noThanks} onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Rigid);
+          onSkip();
+        }} hitSlop={12}>
           <Text style={[styles.noThanksText, { fontSize: 15 * s }]}>No Thanks</Text>
         </Pressable>
 
@@ -559,7 +569,10 @@ function TrialPaywall({
               pressed && styles.pressed,
               loading && styles.disabled,
             ]}
-            onPress={onPurchase}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+              onPurchase();
+            }}
             disabled={loading}
           >
             <Text style={[styles.continueButtonText, { fontSize: 18 * s }]}>

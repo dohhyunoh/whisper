@@ -712,5 +712,23 @@
     "category": "mood-boosters",
     "subcategory": "gratitude",
     "tone": "playful"
+  },
+  {
+    "id": "mood-grat-097",
+    "text": "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
+    "author": "Master Oogway",
+    "source": "Kung Fu Panda",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-grat-098",
+    "text": "How lucky I am to have something that makes saying goodbye so hard.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
   }
 ]

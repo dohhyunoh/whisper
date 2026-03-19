@@ -94,17 +94,11 @@ struct AccessoryRectangularView: View {
 
     var body: some View {
         if let quote = entry.quote {
-            VStack(alignment: .leading, spacing: 2) {
-                Text(quote.text)
-                    .font(.system(size: 12, weight: .medium, design: .serif))
-                    .lineLimit(2)
-                    .minimumScaleFactor(0.8)
-
-                Text("— \(quote.author)")
-                    .font(.system(size: 10, weight: .regular, design: .serif))
-                    .foregroundColor(.secondary)
-                    .lineLimit(1)
-            }
+            Text(quote.text)
+                .font(.system(size: 13, weight: .medium, design: .serif))
+                .lineLimit(3)
+                .minimumScaleFactor(0.8)
+                .frame(maxWidth: .infinity, alignment: .leading)
         } else {
             VStack(alignment: .leading, spacing: 2) {
                 Image(systemName: "quote.opening")

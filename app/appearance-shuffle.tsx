@@ -3,6 +3,7 @@ import { BACKGROUND_THEMES, IMAGE_THEMES } from '@/constants/premium';
 import { BackgroundThemeKey } from '@/data/types';
 import { useAppContext } from '@/context/app-context';
 import { usePremium } from '@/hooks/use-premium';
+import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
 import React, { useCallback, useState } from 'react';
@@ -83,7 +84,10 @@ export default function AppearanceShuffle() {
   return (
     <View style={[styles.container, { paddingTop: insets.top }]}>
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.backButton} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.back();
+        }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
         <Text style={styles.headerTitle}>Shuffle</Text>
@@ -98,7 +102,10 @@ export default function AppearanceShuffle() {
         <View style={styles.grid}>
           <Pressable
             style={[styles.addCardContainer, { width: cardWidth, height: cardWidth / 0.75 }]}
-            onPress={openPickerNew}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              openPickerNew();
+            }}
           >
             <IconSymbol name="plus" size={36} color="#3A6B80" />
             <Text style={styles.addLabel}>Add Shuffles</Text>
@@ -110,7 +117,10 @@ export default function AppearanceShuffle() {
               <Pressable
                 key={i}
                 style={[styles.shuffleCard, { width: cardWidth, height: cardWidth / 0.75 }, isActive && styles.cardSelected]}
-                onPress={() => openPoolEditor(i)}
+                onPress={() => {
+                  if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  openPoolEditor(i);
+                }}
               >
                 <Text style={styles.shuffleCardTitle}>{pool.name}</Text>
                 <Text style={styles.shuffleCardCount}>{pool.themes.length} themes</Text>
@@ -119,7 +129,10 @@ export default function AppearanceShuffle() {
                     <IconSymbol name="checkmark" size={12} color="#FFF" />
                   </View>
                 )}
-                <Pressable style={styles.deleteBadge} onPress={() => deletePool(i)} hitSlop={8}>
+                <Pressable style={styles.deleteBadge} onPress={() => {
+                  if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  deletePool(i);
+                }} hitSlop={8}>
                   <IconSymbol name="trash" size={12} color="#FFF" />
                 </Pressable>
               </Pressable>
@@ -131,11 +144,17 @@ export default function AppearanceShuffle() {
       <Modal visible={pickerVisible} animationType="slide" presentationStyle="pageSheet">
         <View style={[styles.modalContainer, { paddingTop: insets.top }]}>
           <View style={styles.modalHeader}>
-            <Pressable onPress={() => setPickerVisible(false)} hitSlop={12}>
+            <Pressable onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              setPickerVisible(false);
+            }} hitSlop={12}>
               <Text style={styles.modalCancel}>Cancel</Text>
             </Pressable>
             <Text style={styles.modalTitle}>Pick Themes</Text>
-            <Pressable onPress={confirmPicker} hitSlop={12}>
+            <Pressable onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+              confirmPicker();
+            }} hitSlop={12}>
               <Text style={[styles.modalDone, draft.length === 0 && styles.modalDoneDisabled]}>Done</Text>
             </Pressable>
           </View>
@@ -163,7 +182,10 @@ export default function AppearanceShuffle() {
                   <Pressable
                     key={theme.key}
                     style={[styles.pictureCard, { width: cardWidth, height: cardWidth / 0.75 }, selected && styles.cardSelected]}
-                    onPress={() => toggleDraft(theme.key)}
+                    onPress={() => {
+                      if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                      toggleDraft(theme.key);
+                    }}
                   >
                     <LinearGradient
                       colors={theme.gradientColors}
@@ -188,7 +210,10 @@ export default function AppearanceShuffle() {
                   <Pressable
                     key={theme.key}
                     style={[styles.pictureCard, { width: cardWidth, height: cardWidth / 0.75 }, selected && styles.cardSelected]}
-                    onPress={() => toggleDraft(theme.key)}
+                    onPress={() => {
+                      if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                      toggleDraft(theme.key);
+                    }}
                   >
                     <Image source={theme.imageSource} style={styles.pictureImage} resizeMode="cover" />
                     {selected && (

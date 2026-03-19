@@ -1,18 +1,20 @@
+import { GlassContainer } from '@/components/glass-container';
 import { PremiumButton } from '@/components/premium-button';
 import { ProfileButton } from '@/components/profile-button';
 import { QuoteFeed } from '@/components/quote-feed';
-import { useQuotes } from '@/hooks/use-quotes';
 import { useAppContext } from '@/context/app-context';
+import allQuotes from '@/data/quotes';
+import { useQuotes } from '@/hooks/use-quotes';
+import { shuffle } from '@/utils/shuffle';
 import { hasSeenSwipeHint, markSwipeHintSeen } from '@/utils/storage';
 import { getTodayDateString } from '@/utils/streak';
 import { RiveFileFactory, RiveView, useRive } from '@rive-app/react-native';
-import { GlassContainer } from '@/components/glass-container';
-import { router, useLocalSearchParams } from 'expo-router';
+import * as Haptics from 'expo-haptics';
 import * as Linking from 'expo-linking';
-import allQuotes from '@/data/quotes';
-import { shuffle } from '@/utils/shuffle';
+import { router, useLocalSearchParams } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, View, useWindowDimensions } from 'react-native';
+import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 type RiveFile = Awaited<ReturnType<typeof RiveFileFactory.fromSource>>;
@@ -59,6 +61,8 @@ export default function HomeScreen() {
   }, [baseQuotes, activeWidgetData.key]);
 
   const [showSwipeHint, setShowSwipeHint] = useState(false);
+  const [buttonsVisible, setButtonsVisible] = useState(true);
+  const buttonsOpacity = useSharedValue(1);
   const [riveFile, setRiveFile] = useState<RiveFile | null>(null);
   const { riveViewRef, setHybridRef } = useRive();
 
@@ -73,6 +77,8 @@ export default function HomeScreen() {
     hasSeenSwipeHint().then((seen) => {
       if (!seen) {
         setShowSwipeHint(true);
+        setButtonsVisible(false);
+        buttonsOpacity.value = 0;
       }
     });
   }, []);
@@ -94,7 +100,11 @@ export default function HomeScreen() {
 
   const handleHintDismissed = useCallback(() => {
     markSwipeHintSeen();
+    buttonsOpacity.value = withTiming(1, { duration: 400 });
+    setButtonsVisible(true);
   }, []);
+
+  const buttonsAnimStyle = useAnimatedStyle(() => ({ opacity: buttonsOpacity.value }));
 
   const handleSwipe = useCallback(() => {
     riveViewRef?.triggerInput('OnSwipe');
@@ -118,35 +128,41 @@ export default function HomeScreen() {
         onLike={handleLike}
       />
 
-      {/* Premium icon - top right */}
-      <PremiumButton
-        style={[styles.premiumButton, { top: insets.top + 12 }]}
-      />
+      {/* Buttons - hidden until first swipe */}
+      <Animated.View style={[StyleSheet.absoluteFill, buttonsAnimStyle]} pointerEvents={buttonsVisible ? 'box-none' : 'none'}>
+        {/* Premium icon - top right */}
+        <PremiumButton
+          style={[styles.premiumButton, { top: insets.top + 12 }]}
+        />
 
-      {/* Rive animation - bottom left */}
-      {riveFile && (
-        <Pressable
-          style={[styles.riveContainer, { bottom: insets.bottom + 20 }]}
-          onPress={() => router.push('/streak-detail')}
-        >
-          <GlassContainer
-            style={[styles.glassButton, { width: buttonSize, height: buttonSize, borderRadius: buttonSize / 2 }]}
+        {/* Rive animation - bottom left */}
+        {riveFile && (
+          <Pressable
+            style={[styles.riveContainer, { bottom: insets.bottom + 20 }]}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              router.push('/streak-detail');
+            }}
           >
-            <RiveView
-              hybridRef={setHybridRef}
-              file={riveFile}
-              stateMachineName="State Machine 1"
-              autoPlay
-              style={{ width: buttonSize + 2, height: buttonSize + 2 }}
-            />
-          </GlassContainer>
-        </Pressable>
-      )}
+            <GlassContainer
+              style={[styles.glassButton, { width: buttonSize, height: buttonSize, borderRadius: buttonSize / 2 }]}
+            >
+              <RiveView
+                hybridRef={setHybridRef}
+                file={riveFile}
+                stateMachineName="State Machine 1"
+                autoPlay
+                style={{ width: buttonSize + 2, height: buttonSize + 2 }}
+              />
+            </GlassContainer>
+          </Pressable>
+        )}
 
-      {/* Profile icon - bottom right */}
-      <ProfileButton
-        style={[styles.profileButton, { bottom: insets.bottom + 20 }]}
-      />
+        {/* Profile icon - bottom right */}
+        <ProfileButton
+          style={[styles.profileButton, { bottom: insets.bottom + 20 }]}
+        />
+      </Animated.View>
     </View>
   );
 }

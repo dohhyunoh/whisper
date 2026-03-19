@@ -1,4 +1,5 @@
 import { Events, posthog } from '@/utils/posthog';
+import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useEffect } from 'react';
@@ -75,7 +76,10 @@ export default function TrialOfferScreen() {
               { paddingVertical: 18 * s },
               pressed && styles.buttonPressed,
             ]}
-            onPress={() => router.push('/onboarding/trial-reminder')}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+              router.push('/onboarding/trial-reminder');
+            }}
           >
             <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Continue</Text>
           </Pressable>

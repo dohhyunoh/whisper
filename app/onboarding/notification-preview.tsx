@@ -1,6 +1,7 @@
 import { useAppContext } from '@/context/app-context';
 import { requestPermissions, scheduleQuoteNotifications } from '@/utils/notifications';
 import { checkTrialEligibility } from '@/utils/revenuecat';
+import * as Haptics from 'expo-haptics';
 import { Image } from 'expo-image';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
@@ -239,7 +240,10 @@ export default function NotificationPreviewScreen() {
               { paddingVertical: 18 * s, paddingHorizontal: 36 * s },
               pressed ? styles.buttonPressed : undefined,
             ]}
-            onPress={handleContinue}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+              handleContinue();
+            }}
           >
             <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Send me Whispers</Text>
           </Pressable>

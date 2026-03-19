@@ -1,6 +1,7 @@
 import { GlassContainer } from '@/components/glass-container';
 import { PremiumIcon } from '@/components/icons/premium-icon';
 import { usePremium } from '@/hooks/use-premium';
+import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import React from 'react';
 import { Pressable, StyleProp, ViewStyle, useWindowDimensions } from 'react-native';
@@ -25,6 +26,7 @@ export function PremiumButton({ style }: PremiumButtonProps) {
   }
 
   const handlePress = () => {
+    if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     router.push('/onboarding/paywall');
   };
 

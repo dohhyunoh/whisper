@@ -9,6 +9,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
+import * as Haptics from 'expo-haptics';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { IconSymbol } from '@/components/ui/icon-symbol';
@@ -71,12 +72,18 @@ export default function AddQuoteModal() {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
       <View style={[styles.header, { paddingTop: insets.top }]}>
-        <Pressable onPress={handleClose} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          handleClose();
+        }} hitSlop={12}>
           <IconSymbol name="xmark" size={24} color="#5A8BA8" />
         </Pressable>
         <Text style={styles.headerTitle}>{isEditing ? 'Edit Quote' : 'Add Quote'}</Text>
         <Pressable
-          onPress={handleSave}
+          onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+            handleSave();
+          }}
           hitSlop={12}
           disabled={!canSave}
           style={[styles.saveButton, !canSave && styles.saveButtonDisabled]}

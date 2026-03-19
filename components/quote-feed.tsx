@@ -1,8 +1,8 @@
 import { QuoteCard } from '@/components/quote-card';
 import { Quote } from '@/data/types';
-import React, { useCallback, useEffect, useState } from 'react';
+import { shuffle } from '@/utils/shuffle';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Animated, {
   Easing,
   interpolate,
@@ -12,6 +12,7 @@ import Animated, {
   withSequence,
   withTiming,
 } from 'react-native-reanimated';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 interface QuoteFeedProps {
   quotes: Quote[];
@@ -33,6 +34,23 @@ export function QuoteFeed({
   const insets = useSafeAreaInsets();
   const [hintActive, setHintActive] = useState(showSwipeHint);
   const hintAnim = useSharedValue(0);
+  const batchRef = useRef(1);
+  const [feedQuotes, setFeedQuotes] = useState<Quote[]>(quotes);
+
+  // Reset feed when source quotes change
+  useEffect(() => {
+    batchRef.current = 1;
+    setFeedQuotes(quotes);
+  }, [quotes]);
+
+  const handleEndReached = useCallback(() => {
+    batchRef.current += 1;
+    const batch = batchRef.current;
+    setFeedQuotes((prev) => [
+      ...prev,
+      ...shuffle(quotes).map((q) => ({ ...q, id: `${q.id}_${batch}` })),
+    ]);
+  }, [quotes]);
 
   useEffect(() => {
     if (showSwipeHint) {
@@ -91,7 +109,7 @@ export function QuoteFeed({
   return (
     <View style={styles.wrapper}>
       <FlatList
-        data={quotes}
+        data={feedQuotes}
         renderItem={renderItem}
         keyExtractor={keyExtractor}
         getItemLayout={getItemLayout}
@@ -101,6 +119,8 @@ export function QuoteFeed({
         decelerationRate="fast"
         bounces={false}
         onScrollBeginDrag={handleScrollBeginDrag}
+        onEndReached={handleEndReached}
+        onEndReachedThreshold={3}
       />
 
       {hintActive && (

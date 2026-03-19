@@ -1,6 +1,7 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
+import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import React, { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
@@ -14,6 +15,7 @@ export default function EditGenderScreen() {
   const [gender, setGender] = useState<string | null>(state.user?.gender ?? null);
 
   const handleSave = () => {
+    if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     dispatch({
       type: 'SET_USER',
       payload: { ...defaultUserData, ...state.user, gender: gender ?? '' },
@@ -25,7 +27,10 @@ export default function EditGenderScreen() {
     <View style={[styles.container, { paddingTop: insets.top }]}>
       {/* Header */}
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.backButton} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.back();
+        }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
         <Text style={styles.headerTitle}>Choose Gender</Text>
@@ -41,7 +46,10 @@ export default function EditGenderScreen() {
               <Pressable
                 key={option}
                 style={[styles.pill, isSelected && styles.pillSelected]}
-                onPress={() => setGender(option)}
+                onPress={() => {
+                  if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  setGender(option);
+                }}
               >
                 <Text style={[styles.pillText, isSelected && styles.pillTextSelected]}>
                   {option}

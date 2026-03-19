@@ -14,6 +14,12 @@ export interface FontOption {
 
 export const FONT_OPTIONS: FontOption[] = [
   {
+    key: 'shuffle',
+    displayName: 'Shuffle',
+    fontFamily: null, // Dynamically chosen per quote
+    isPremium: false,
+  },
+  {
     key: 'system',
     displayName: 'System',
     fontFamily: null,
@@ -29,7 +35,7 @@ export const FONT_OPTIONS: FontOption[] = [
     key: 'permanent-marker',
     displayName: 'Permanent Marker',
     fontFamily: 'PermanentMarker_400Regular',
-    isPremium: true,
+    isPremium: false,
   },
   {
     key: 'luckiest-guy',
@@ -38,18 +44,68 @@ export const FONT_OPTIONS: FontOption[] = [
     isPremium: true,
   },
   {
-    key: 'shuffle',
-    displayName: 'Shuffle',
-    fontFamily: null, // Dynamically chosen per quote
+    key: 'playfair-display',
+    displayName: 'Playfair Display',
+    fontFamily: 'PlayfairDisplay_400Regular',
+    isPremium: true,
+  },
+  {
+    key: 'caveat',
+    displayName: 'Caveat',
+    fontFamily: 'Caveat_400Regular',
+    isPremium: false,
+  },
+  {
+    key: 'merriweather',
+    displayName: 'Merriweather',
+    fontFamily: 'Merriweather_400Regular',
+    isPremium: true,
+  },
+  {
+    key: 'cormorant-garamond',
+    displayName: 'Cormorant Garamond',
+    fontFamily: 'CormorantGaramond_400Regular',
+    isPremium: true,
+  },
+  {
+    key: 'satisfy',
+    displayName: 'Satisfy',
+    fontFamily: 'Satisfy_400Regular',
+    isPremium: true,
+  },
+  {
+    key: 'josefin-sans',
+    displayName: 'Josefin Sans',
+    fontFamily: 'JosefinSans_400Regular',
+    isPremium: false,
+  },
+  {
+    key: 'pacifico',
+    displayName: 'Pacifico',
+    fontFamily: 'Pacifico_400Regular',
     isPremium: true,
   },
 ];
 
-// Just the Google font family names for shuffle to pick from
+// Free font family names for free-user shuffle
+export const FREE_FONTS = [
+  'PermanentMarker_400Regular',
+  'Caveat_400Regular',
+  'JosefinSans_400Regular',
+];
+
+// All Google font family names for premium shuffle
 export const PREMIUM_FONTS = [
   'IndieFlower_400Regular',
   'PermanentMarker_400Regular',
   'LuckiestGuy_400Regular',
+  'PlayfairDisplay_400Regular',
+  'Caveat_400Regular',
+  'Merriweather_400Regular',
+  'CormorantGaramond_400Regular',
+  'Satisfy_400Regular',
+  'JosefinSans_400Regular',
+  'Pacifico_400Regular',
 ];
 
 export interface BackgroundTheme {
@@ -129,7 +185,7 @@ export const IMAGE_THEMES: ImageBackgroundTheme[] = [
     imageSource: require('@/assets/themes/pexels-aliaksandra-babko-2148943026-30388784.jpg'),
     textColor: '#FFFFFF',
     secondaryTextColor: 'rgba(255, 255, 255, 0.8)',
-    isPremium: true,
+    isPremium: false,
   },
   {
     key: 'autumn-leaves',
@@ -153,7 +209,7 @@ export const IMAGE_THEMES: ImageBackgroundTheme[] = [
     imageSource: require('@/assets/themes/pexels-griffinw-1635439.jpg'),
     textColor: '#FFFFFF',
     secondaryTextColor: 'rgba(255, 255, 255, 0.8)',
-    isPremium: true,
+    isPremium: false,
   },
   {
     key: 'golden-sunset',
@@ -185,7 +241,7 @@ export const IMAGE_THEMES: ImageBackgroundTheme[] = [
     imageSource: require('@/assets/themes/pexels-merlin-11280356.jpg'),
     textColor: '#FFFFFF',
     secondaryTextColor: 'rgba(255, 255, 255, 0.8)',
-    isPremium: true,
+    isPremium: false,
   },
   {
     key: 'purple-sky',
@@ -217,7 +273,7 @@ export const IMAGE_THEMES: ImageBackgroundTheme[] = [
     imageSource: require('@/assets/themes/pexels-ruslan-ataev-830130344-19897117.jpg'),
     textColor: '#FFFFFF',
     secondaryTextColor: 'rgba(255, 255, 255, 0.8)',
-    isPremium: true,
+    isPremium: false,
   },
   {
     key: 'theme-14',

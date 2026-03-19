@@ -1005,5 +1005,23 @@
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "direct"
+  },
+  {
+    "id": "rel-friend-140",
+    "text": "Some people are worth melting for.",
+    "author": "Olaf",
+    "source": "Frozen",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "playful"
+  },
+  {
+    "id": "rel-friend-141",
+    "text": "You and I are a team. Nothing is more important than our friendship.",
+    "author": "Mike Wazowski",
+    "source": "Monsters, Inc.",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
   }
 ]

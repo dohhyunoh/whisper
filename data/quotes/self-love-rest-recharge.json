@@ -520,5 +520,23 @@
     "category": "self-love",
     "subcategory": "rest-recharge",
     "tone": "playful"
+  },
+  {
+    "id": "self-love-rr-075",
+    "text": "Stop trying. Take long walks. Look at scenery... you'll be flying again.",
+    "author": "Ursula",
+    "source": "Kiki's Delivery Service (1989)",
+    "category": "self-love",
+    "subcategory": "rest-recharge",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-rr-076",
+    "text": "Stop trying... Don't do a single thing. Then suddenly you'll be flying again.",
+    "author": "Ursula",
+    "source": "Kiki's Delivery Service",
+    "category": "self-love",
+    "subcategory": "rest-recharge",
+    "tone": "gentle"
   }
 ]

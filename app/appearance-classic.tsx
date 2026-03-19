@@ -1,6 +1,7 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { BACKGROUND_THEMES } from '@/constants/premium';
 import { usePremium } from '@/hooks/use-premium';
+import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
 import React from 'react';
@@ -16,7 +17,10 @@ export default function AppearanceClassic() {
   return (
     <View style={[styles.container, { paddingTop: insets.top }]}>
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.backButton} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.back();
+        }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
         <Text style={styles.headerTitle}>Classic</Text>
@@ -35,7 +39,10 @@ export default function AppearanceClassic() {
               <Pressable
                 key={theme.key}
                 style={[styles.themeCard, { width: cardWidth, height: cardWidth / 0.75 }, active && styles.themeCardSelected]}
-                onPress={() => setBackground(theme.key)}
+                onPress={() => {
+                  if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  setBackground(theme.key);
+                }}
               >
                 <LinearGradient
                   colors={theme.gradientColors}

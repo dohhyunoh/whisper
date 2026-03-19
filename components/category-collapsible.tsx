@@ -2,6 +2,7 @@ import { IconSymbol } from '@/components/ui/icon-symbol';
 import { CategoryInfo } from '@/constants/categories';
 import { useAppContext } from '@/context/app-context';
 import { usePremium } from '@/hooks/use-premium';
+import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import React, { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
@@ -54,6 +55,7 @@ export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
   };
 
   const handlePress = () => {
+    if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     if (hasSubcategories) {
       // Always allow expanding to see subcategories (some may be free today)
       setExpanded(!expanded);
@@ -66,6 +68,7 @@ export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
   };
 
   const handleSubcategoryPress = (subcategoryKey: string) => {
+    if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     if (isSubcategoryLocked(category.key, subcategoryKey)) {
       router.push('/onboarding/paywall');
       return;
@@ -102,7 +105,10 @@ export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
             <IconSymbol name="lock.fill" size={16} color="#7B9AAA" style={styles.chevronButton} />
           ) : (
             <>
-              <Pressable onPress={() => handleToggle(!isFollowed)} hitSlop={8}>
+              <Pressable onPress={() => {
+                if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                handleToggle(!isFollowed);
+              }} hitSlop={8}>
                 <IconSymbol
                   name={isFollowed ? 'checkmark.circle.fill' : 'circle'}
                   size={22}
@@ -142,7 +148,10 @@ export function CategoryCollapsible({ category }: CategoryCollapsibleProps) {
                   <IconSymbol name="lock.fill" size={14} color="#7B9AAA" style={styles.chevronButton} />
                 ) : (
                   <>
-                    <Pressable onPress={() => handleSubToggle(sub.key, !subFollowed)} hitSlop={8}>
+                    <Pressable onPress={() => {
+                      if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                      handleSubToggle(sub.key, !subFollowed);
+                    }} hitSlop={8}>
                       <IconSymbol
                         name={subFollowed ? 'checkmark.circle.fill' : 'circle'}
                         size={22}

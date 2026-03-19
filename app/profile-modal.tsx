@@ -3,6 +3,7 @@ import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
 import { useLikes } from '@/hooks/use-likes';
 import { usePremium } from '@/hooks/use-premium';
+import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import React, { useState } from 'react';
 import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -30,7 +31,10 @@ export default function ProfileModal() {
     <View style={[styles.container, { paddingTop: insets.top }]}>
       {/* Header */}
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.backButton} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.back();
+        }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
         <Text style={styles.headerTitle}>Profile</Text>
@@ -50,7 +54,10 @@ export default function ProfileModal() {
           {/* Edit Profile */}
           <Pressable
             style={styles.bentoCard}
-            onPress={() => router.push('/edit-profile')}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              router.push('/edit-profile');
+            }}
           >
             <View style={[styles.bentoIconWrap, { backgroundColor: 'rgba(58,107,128,0.1)' }]}>
               <IconSymbol name="person.fill" size={22} color="#3A6B80" />
@@ -62,7 +69,10 @@ export default function ProfileModal() {
           {/* Own Quotes */}
           <Pressable
             style={styles.bentoCard}
-            onPress={() => router.push('/own-quotes')}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              router.push('/own-quotes');
+            }}
           >
             <View style={[styles.bentoIconWrap, { backgroundColor: 'rgba(191,166,201,0.15)' }]}>
               <IconSymbol name="pencil.line" size={22} color="#9B7FB0" />
@@ -74,7 +84,10 @@ export default function ProfileModal() {
           {/* Favorites */}
           <Pressable
             style={styles.bentoCard}
-            onPress={() => router.push({ pathname: '/category-feed', params: { favorites: 'true' } })}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              router.push({ pathname: '/category-feed', params: { favorites: 'true' } });
+            }}
           >
             <View style={[styles.bentoIconWrap, { backgroundColor: 'rgba(207,119,119,0.12)' }]}>
               <IconSymbol name="heart.fill" size={22} color="#CF7777" />
@@ -86,7 +99,10 @@ export default function ProfileModal() {
           {/* Appearance */}
           <Pressable
             style={styles.bentoCard}
-            onPress={() => router.push('/appearance')}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              router.push('/appearance');
+            }}
           >
             <View style={[styles.bentoIconWrap, { backgroundColor: 'rgba(137,207,240,0.15)' }]}>
               <IconSymbol name="paintbrush.fill" size={22} color="#5AADDB" />
@@ -108,7 +124,10 @@ export default function ProfileModal() {
           <View style={styles.section}>
             <Pressable
               style={styles.manageSubCard}
-              onPress={() => setShowCustomerCenter(true)}
+              onPress={() => {
+                if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                setShowCustomerCenter(true);
+              }}
             >
               <IconSymbol name="creditcard.fill" size={20} color="#3A6B80" />
               <Text style={styles.manageSubText}>Manage Subscription</Text>
@@ -119,15 +138,24 @@ export default function ProfileModal() {
 
         {/* Footer */}
         <View style={styles.footer}>
-          <Pressable onPress={() => Linking.openURL('https://www.whisperquotes.app/privacy')} hitSlop={8}>
+          <Pressable onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            Linking.openURL('https://www.whisperquotes.app/privacy');
+          }} hitSlop={8}>
             <Text style={styles.footerLink}>Privacy</Text>
           </Pressable>
           <Text style={styles.footerSeparator}>·</Text>
-          <Pressable onPress={() => Linking.openURL('https://www.whisperquotes.app/terms')} hitSlop={8}>
+          <Pressable onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            Linking.openURL('https://www.whisperquotes.app/terms');
+          }} hitSlop={8}>
             <Text style={styles.footerLink}>Terms</Text>
           </Pressable>
           <Text style={styles.footerSeparator}>·</Text>
-          <Pressable onPress={() => Linking.openURL('https://www.whisperquotes.app/contact')} hitSlop={8}>
+          <Pressable onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            Linking.openURL('https://www.whisperquotes.app/contact');
+          }} hitSlop={8}>
             <Text style={styles.footerLink}>Contact</Text>
           </Pressable>
         </View>

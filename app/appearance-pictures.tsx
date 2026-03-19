@@ -2,6 +2,7 @@ import { IconSymbol } from '@/components/ui/icon-symbol';
 import { IMAGE_THEMES } from '@/constants/premium';
 import { usePremium } from '@/hooks/use-premium';
 import { Directory, File, Paths } from 'expo-file-system';
+import * as Haptics from 'expo-haptics';
 import * as ImagePicker from 'expo-image-picker';
 import { router } from 'expo-router';
 import React, { useCallback } from 'react';
@@ -10,7 +11,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function AppearancePictures() {
   const insets = useSafeAreaInsets();
-  const { currentTheme, setBackground, setCustomPhoto, customPhotoUri } = usePremium();
+  const { isPremium, currentTheme, setBackground, setCustomPhoto, customPhotoUri } = usePremium();
   const { width } = useWindowDimensions();
   const cardWidth = (width - 40 - 12) / 2;
 
@@ -59,7 +60,10 @@ export default function AppearancePictures() {
   return (
     <View style={[styles.container, { paddingTop: insets.top }]}>
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.backButton} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.back();
+        }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
         <Text style={styles.headerTitle}>Wallpapers</Text>
@@ -72,10 +76,14 @@ export default function AppearancePictures() {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.grid}>
-          {/* Custom photo card */}
+          {/* Custom photo card — premium only */}
           <Pressable
             style={[styles.pictureCard, { width: cardWidth, height: cardWidth / 0.75 }, isCustomActive && styles.pictureCardSelected]}
-            onPress={handleAddPhoto}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              if (!isPremium) { router.push('/onboarding/paywall'); return; }
+              handleAddPhoto();
+            }}
             onLongPress={customPhotoUri ? () => setBackground('custom-photo' as any) : undefined}
           >
             {customPhotoUri ? (
@@ -94,19 +102,34 @@ export default function AppearancePictures() {
               <View style={styles.addCard}>
                 <IconSymbol name="plus" size={36} color="#3A6B80" />
                 <Text style={styles.addLabel}>Add Photo</Text>
+                {!isPremium && (
+                  <View style={styles.lockBadge}>
+                    <IconSymbol name="lock.fill" size={14} color="#FFF" />
+                  </View>
+                )}
               </View>
             )}
           </Pressable>
 
           {IMAGE_THEMES.map((theme) => {
             const active = currentTheme.key === theme.key;
+            const locked = theme.isPremium && !isPremium;
             return (
               <Pressable
                 key={theme.key}
                 style={[styles.pictureCard, { width: cardWidth, height: cardWidth / 0.75 }, active && styles.pictureCardSelected]}
-                onPress={() => setBackground(theme.key)}
+                onPress={() => {
+                  if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  if (locked) { router.push('/onboarding/paywall'); return; }
+                  setBackground(theme.key);
+                }}
               >
                 <Image source={theme.imageSource} style={styles.pictureImage} resizeMode="cover" />
+                {locked && (
+                  <View style={styles.lockBadge}>
+                    <IconSymbol name="lock.fill" size={14} color="#FFF" />
+                  </View>
+                )}
                 {active && (
                   <View style={styles.checkBadge}>
                     <IconSymbol name="checkmark" size={12} color="#FFF" />
@@ -205,5 +228,16 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  lockBadge: {
+    position: 'absolute',
+    top: 8,
+    right: 8,
+    width: 26,
+    height: 26,
+    borderRadius: 13,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });

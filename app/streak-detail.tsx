@@ -1,6 +1,12 @@
+import CloudIconSvg from '@/assets/svg/streak/CloudIconSvg';
+import StormIconSvg from '@/assets/svg/streak/StormIconSvg';
+import SunIconSvg from '@/assets/svg/streak/SunIconSvg';
+import WindIconSvg from '@/assets/svg/streak/WindIconSvg';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
 import { computeStreak } from '@/utils/streak';
+import * as Haptics from 'expo-haptics';
+import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
 import React, { useEffect } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
@@ -22,36 +28,38 @@ const STROKE_WIDTH = 8;
 const RADIUS = (RING_SIZE - STROKE_WIDTH) / 2;
 const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
 
+const MOOD_ICON_SIZE = 22;
+
 const MOOD_CONFIG = {
   clear: {
     ringColor: '#89CFF0',
     bgTint: 'rgba(137,207,240,0.1)',
     message: 'Your skies are clearing — keep going!',
-    emoji: '☀️',
+    icon: (color: string) => <SunIconSvg size={MOOD_ICON_SIZE} color={color} />,
     label: 'Clear',
   },
   cloudy: {
     ringColor: '#A0B4C8',
     bgTint: 'rgba(160,180,200,0.1)',
     message: 'The clouds are lifting, day by day.',
-    emoji: '☁️',
+    icon: (color: string) => <CloudIconSvg size={MOOD_ICON_SIZE} color={color} />,
     label: 'Cloudy',
   },
   stormy: {
     ringColor: '#8DA399',
     bgTint: 'rgba(141,163,153,0.1)',
     message: 'Even through storms, you showed up.',
-    emoji: '⛈️',
+    icon: (color: string) => <StormIconSvg size={MOOD_ICON_SIZE} color={color} />,
     label: 'Stormy',
   },
   windy: {
     ringColor: '#BFA6C9',
     bgTint: 'rgba(191,166,201,0.1)',
     message: 'Finding your calm, one day at a time.',
-    emoji: '🌬️',
+    icon: (color: string) => <WindIconSvg size={MOOD_ICON_SIZE} color={color} />,
     label: 'Windy',
   },
-} as const;
+};
 
 type MoodKey = keyof typeof MOOD_CONFIG;
 
@@ -107,10 +115,17 @@ export default function StreakDetail() {
   };
 
   return (
-    <View style={[styles.container, { paddingTop: insets.top, backgroundColor: mood.bgTint }]}>
+    <LinearGradient
+      colors={['#B8D9E8', '#D4E8F0', '#EEF4F7', '#F5F5F0']}
+      locations={[0, 0.3, 0.7, 1]}
+      style={[styles.container, { paddingTop: insets.top }]}
+    >
       {/* Header */}
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.backButton} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.back();
+        }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color={mood.ringColor} />
         </Pressable>
         <Text style={[styles.headerTitle, { color: mood.ringColor }]}>Your Streak</Text>
@@ -177,16 +192,21 @@ export default function StreakDetail() {
           return (
             <Pressable
               key={key}
-              onPress={() => setMood(key)}
+              onPress={() => {
+                if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                setMood(key);
+              }}
               style={[
                 styles.moodBubble,
                 {
-                  backgroundColor: isSelected ? cfg.ringColor : 'rgba(0,0,0,0.04)',
+                  backgroundColor: isSelected ? cfg.ringColor : 'rgba(255,255,255,0.6)',
                   borderColor: isSelected ? cfg.ringColor : 'transparent',
                 },
               ]}
             >
-              <Text style={styles.moodEmoji}>{cfg.emoji}</Text>
+              <View style={styles.moodIcon}>
+                {cfg.icon(isSelected ? '#fff' : cfg.ringColor)}
+              </View>
               <Text
                 style={[
                   styles.moodBubbleLabel,
@@ -199,7 +219,7 @@ export default function StreakDetail() {
           );
         })}
       </View>
-    </View>
+    </LinearGradient>
   );
 }
 
@@ -212,9 +232,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 16,
     paddingVertical: 12,
+    zIndex: 1,
   },
   backButton: {
     padding: 4,
+    zIndex: 1,
   },
   headerTitle: {
     flex: 1,
@@ -278,9 +300,10 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     borderWidth: 1.5,
   },
-  moodEmoji: {
-    fontSize: 22,
+  moodIcon: {
     marginBottom: 4,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   moodBubbleLabel: {
     fontSize: 11,

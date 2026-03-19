@@ -6,6 +6,7 @@ import {
   View,
   useWindowDimensions,
 } from 'react-native';
+import * as Haptics from 'expo-haptics';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -62,7 +63,10 @@ export default function WidgetHomeScreen() {
             { paddingVertical: 18 * s },
             pressed && styles.pressed,
           ]}
-          onPress={handleComplete}
+          onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+            handleComplete();
+          }}
         >
           <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Get Started</Text>
         </Pressable>

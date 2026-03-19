@@ -1,6 +1,7 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
-import { ALL_THEMES, BACKGROUND_THEMES, IMAGE_THEMES, isImageTheme } from '@/constants/premium';
+import { ALL_THEMES, BACKGROUND_THEMES, FONT_OPTIONS, IMAGE_THEMES, isImageTheme } from '@/constants/premium';
 import { usePremium } from '@/hooks/use-premium';
+import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
 import React from 'react';
@@ -15,8 +16,6 @@ export default function Appearance() {
   const isClassicSelected = ['default', 'classic-rose', 'classic-amber', 'classic-lavender', 'classic-mint'].includes(currentTheme.key);
   const isPicturesSelected = !isClassicSelected && currentTheme.key !== 'shuffle';
   const isShuffleSelected = currentTheme.key === 'shuffle';
-  const isSystemFontSelected = currentFont.key === 'system';
-  const isPremiumFontSelected = !isSystemFontSelected;
 
   // Build thumbnail previews for active shuffle pool
   const activePool = shufflePools[activeShuffleIndex]?.themes ?? [];
@@ -25,7 +24,10 @@ export default function Appearance() {
   return (
     <View style={[styles.container, { paddingTop: insets.top }]}>
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.backButton} hitSlop={12}>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.back();
+        }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
         <Text style={styles.headerTitle}>Appearance</Text>
@@ -42,7 +44,10 @@ export default function Appearance() {
         {/* Classic */}
         <Pressable
           style={[styles.sectionRow, isClassicSelected && styles.sectionRowActive]}
-          onPress={() => router.push('/appearance-classic')}
+          onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            router.push('/appearance-classic');
+          }}
         >
           <View style={styles.sectionLeft}>
             <LinearGradient
@@ -59,10 +64,7 @@ export default function Appearance() {
         <Pressable
           style={[styles.sectionRow, isPicturesSelected && styles.sectionRowActive]}
           onPress={() => {
-            if (!isPremium) {
-              router.push('/onboarding/paywall');
-              return;
-            }
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
             router.push('/appearance-pictures');
           }}
         >
@@ -76,17 +78,14 @@ export default function Appearance() {
             </View>
             <Text style={styles.sectionText}>Wallpapers</Text>
           </View>
-          {!isPremium ? (
-            <IconSymbol name="lock.fill" size={18} color="#7B9AAA" />
-          ) : (
-            <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
-          )}
+          <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
         </Pressable>
 
         {/* Shuffle */}
         <Pressable
           style={[styles.sectionRow, isShuffleSelected && styles.sectionRowActive]}
           onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
             if (!isPremium) {
               router.push('/onboarding/paywall');
               return;
@@ -123,40 +122,50 @@ export default function Appearance() {
 
         <Text style={styles.subsectionTitle}>Quote Font</Text>
         <View style={styles.fontsList}>
-          <Pressable
-            style={[styles.fontItem, isSystemFontSelected && styles.fontItemSelected]}
-            onPress={() => setFont('system')}
-          >
-            <View style={styles.fontInfo}>
-              <Text style={styles.fontSample}>Aa</Text>
-              <Text style={styles.fontName}>System</Text>
-            </View>
-            {isSystemFontSelected && (
-              <IconSymbol name="checkmark.circle.fill" size={20} color="#3A6B80" />
-            )}
-          </Pressable>
-
-          <Pressable
-            style={[styles.fontItem, isPremiumFontSelected && styles.fontItemSelected]}
-            onPress={() => {
-              if (!isPremium) { router.push('/onboarding/paywall'); return; }
-              setFont('shuffle');
-            }}
-          >
-            <View style={styles.fontInfo}>
-              <View style={styles.fontSampleRow}>
-                <Text style={[styles.fontSampleSmall, { fontFamily: 'IndieFlower_400Regular' }]}>Aa</Text>
-                <Text style={[styles.fontSampleSmall, { fontFamily: 'PermanentMarker_400Regular' }]}>Aa</Text>
-              </View>
-              <Text style={styles.fontName}>Special Fonts</Text>
-            </View>
-            <View style={styles.fontRightSide}>
-              {!isPremium && <IconSymbol name="lock.fill" size={16} color="#7B9AAA" />}
-              {isPremiumFontSelected && (
-                <IconSymbol name="checkmark.circle.fill" size={20} color="#3A6B80" />
-              )}
-            </View>
-          </Pressable>
+          {FONT_OPTIONS.map((font) => {
+            const isSelected = currentFont.key === font.key;
+            return (
+              <Pressable
+                key={font.key}
+                style={[styles.fontItem, isSelected && styles.fontItemSelected]}
+                onPress={() => {
+                  if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  if (font.isPremium && !isPremium) { router.push('/onboarding/paywall'); return; }
+                  setFont(font.key);
+                }}
+              >
+                <View style={styles.fontInfo}>
+                  {font.key === 'shuffle' ? (
+                    <View style={styles.fontSampleRow}>
+                      <Text style={[styles.fontSampleSmall, { fontFamily: 'IndieFlower_400Regular' }]}>Aa</Text>
+                      <Text style={[styles.fontSampleSmall, { fontFamily: 'PlayfairDisplay_400Regular' }]}>Aa</Text>
+                    </View>
+                  ) : (
+                    <Text style={[styles.fontSample, font.fontFamily ? { fontFamily: font.fontFamily } : undefined]}>Aa</Text>
+                  )}
+                  <Text style={styles.fontName}>{font.displayName}</Text>
+                </View>
+                <View style={styles.fontRightSide}>
+                  {font.isPremium && !isPremium && <IconSymbol name="lock.fill" size={16} color="#7B9AAA" />}
+                  {isSelected && (
+                    <IconSymbol name="checkmark.circle.fill" size={20} color="#3A6B80" />
+                  )}
+                  {font.key === 'shuffle' && (
+                    <Pressable
+                      onPress={(e) => {
+                        e.stopPropagation();
+                        if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                        router.push('/appearance-font-shuffle');
+                      }}
+                      hitSlop={8}
+                    >
+                      <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
+                    </Pressable>
+                  )}
+                </View>
+              </Pressable>
+            );
+          })}
         </View>
       </ScrollView>
     </View>

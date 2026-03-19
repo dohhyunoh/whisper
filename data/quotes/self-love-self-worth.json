@@ -564,5 +564,32 @@
     "category": "self-love",
     "subcategory": "self-worth",
     "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-080",
+    "text": "Always believe in yourself.",
+    "author": "The Baron",
+    "source": "The Cat Returns",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-081",
+    "text": "The rough stone is inside of you. You have to find it… and then polish it.",
+    "author": "Nishi",
+    "source": "Whisper of the Heart (1995)",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-082",
+    "text": "You're braver than you believe, stronger than you seem, and smarter than you think.",
+    "author": "Christopher Robin",
+    "source": "Winnie the Pooh",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
   }
 ]

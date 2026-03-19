@@ -1,3 +1,4 @@
+import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React from 'react';
@@ -67,7 +68,10 @@ export default function WidgetPromoScreen() {
             { paddingVertical: 18 * s },
             pressed && styles.pressed,
           ]}
-          onPress={() => router.push('/onboarding/widget-home')}
+          onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+            router.push('/onboarding/widget-home');
+          }}
         >
           <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Continue</Text>
         </Pressable>

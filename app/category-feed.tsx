@@ -34,7 +34,7 @@ export default function CategoryFeedScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { height: screenHeight } = useWindowDimensions();
-  const { isCategoryLocked, isSubcategoryLocked, isPremium } = usePremium();
+  const { isCategoryLocked, isSubcategoryLocked, isPremium, currentTheme } = usePremium();
   const { state } = useAppContext();
 
   const { likedIds } = useLikes();
@@ -77,7 +77,7 @@ export default function CategoryFeedScreen() {
         </View>
       )}
       <View style={[styles.header, { paddingTop: insets.top }]}>
-        <Text style={styles.title}>{title}</Text>
+        <Text style={[styles.title, { color: currentTheme.textColor }]}>{title}</Text>
       </View>
     </View>
   );

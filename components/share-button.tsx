@@ -1,34 +1,39 @@
 import ShareIconSvg from '@/assets/svg/share_icon/ShareIconSvg';
+import { ShareSheet } from '@/components/share-sheet';
 import { Quote } from '@/data/types';
+import * as Haptics from 'expo-haptics';
 import React, { useState } from 'react';
-import { Pressable, Share } from 'react-native';
+import { Pressable } from 'react-native';
 
 interface ShareButtonProps {
   quote: Quote;
   color: string;
   size?: number;
-  onShare?: () => Promise<void>;
+  /** Returns a local image URI for image sharing (from ViewShot capture) */
+  onCaptureImage?: () => Promise<string | null>;
 }
 
-export function ShareButton({ quote, color, size = 38, onShare }: ShareButtonProps) {
+export function ShareButton({ quote, color, size = 38, onCaptureImage }: ShareButtonProps) {
   const [shared, setShared] = useState(false);
+  const [sheetVisible, setSheetVisible] = useState(false);
 
-  const handlePress = async () => {
+  const handlePress = () => {
+    if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     setShared(true);
-    if (onShare) {
-      await onShare();
-      return;
-    }
-    const message = quote.source
-      ? `"${quote.text}"\n\n— ${quote.author}, ${quote.source}`
-      : `"${quote.text}"\n\n— ${quote.author}`;
-
-    await Share.share({ message });
+    setSheetVisible(true);
   };
 
   return (
-    <Pressable onPress={handlePress} hitSlop={12}>
-      <ShareIconSvg size={size} color={color} filled={shared} />
-    </Pressable>
+    <>
+      <Pressable onPress={handlePress} hitSlop={12}>
+        <ShareIconSvg size={size} color={color} filled={shared} />
+      </Pressable>
+      <ShareSheet
+        visible={sheetVisible}
+        onClose={() => { setSheetVisible(false); setShared(false); }}
+        quote={quote}
+        onCaptureImage={onCaptureImage}
+      />
+    </>
   );
 }
