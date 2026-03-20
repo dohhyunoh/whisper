@@ -95,7 +95,7 @@ function reducer(state: AppState, action: AppAction): AppState {
     case 'ADD_OWN_QUOTE':
       return {
         ...state,
-        ownQuotes: [...state.ownQuotes, action.payload],
+        ownQuotes: [action.payload, ...state.ownQuotes],
       };
     case 'EDIT_OWN_QUOTE':
       return {
@@ -120,10 +120,51 @@ function reducer(state: AppState, action: AppAction): AppState {
           settings: {
             ...state.premium.settings,
             customPhotoUri: action.payload,
-            selectedBackground: 'custom-photo',
+            selectedBackground: 'custom-photo-0' as any,
           },
         },
       };
+    case 'ADD_CUSTOM_PHOTO': {
+      const uris = [action.payload, ...(state.premium.settings.customPhotoUris ?? [])];
+      return {
+        ...state,
+        premium: {
+          ...state.premium,
+          settings: {
+            ...state.premium.settings,
+            customPhotoUris: uris,
+            selectedBackground: `custom-photo-0` as any,
+          },
+        },
+      };
+    }
+    case 'REMOVE_CUSTOM_PHOTO': {
+      const uris = [...(state.premium.settings.customPhotoUris ?? [])];
+      uris.splice(action.payload, 1);
+      const currentBg = state.premium.settings.selectedBackground;
+      // If the removed photo was selected, reset to default
+      let newBg = currentBg;
+      if (currentBg === `custom-photo-${action.payload}`) {
+        newBg = 'default';
+      } else if (currentBg.startsWith('custom-photo-')) {
+        // Adjust index if a photo before the current one was removed
+        const currentIdx = parseInt(currentBg.replace('custom-photo-', ''), 10);
+        if (currentIdx > action.payload) {
+          newBg = `custom-photo-${currentIdx - 1}` as any;
+        }
+      }
+      return {
+        ...state,
+        premium: {
+          ...state.premium,
+          settings: {
+            ...state.premium.settings,
+            customPhotoUris: uris,
+            selectedBackground: newBg,
+          },
+        },
+      };
+    }
     case 'SET_SHUFFLE_POOLS':
       return {
         ...state,

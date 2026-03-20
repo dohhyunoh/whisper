@@ -97,8 +97,8 @@ export type BackgroundThemeKey =
   | 'classic-amber'
   | 'classic-lavender'
   | 'classic-mint'
-  // Custom user photo
-  | 'custom-photo'
+  // Custom user photos (custom-photo-0, custom-photo-1, etc.)
+  | `custom-photo-${number}`
   // Shuffle mode (cycles through image themes per quote)
   | 'shuffle'
   // Image themes
@@ -110,7 +110,8 @@ export type BackgroundThemeKey =
 export interface PremiumSettings {
   selectedFont: PremiumFontKey;
   selectedBackground: BackgroundThemeKey;
-  customPhotoUri?: string;
+  customPhotoUri?: string; // deprecated, migrated to customPhotoUris
+  customPhotoUris?: string[];
   shufflePools?: { name: string; themes: BackgroundThemeKey[] }[];
   activeShuffleIndex?: number;
   fontShufflePool?: PremiumFontKey[];
@@ -143,6 +144,8 @@ export type AppAction =
   | { type: 'EDIT_OWN_QUOTE'; payload: OwnQuote }
   | { type: 'REMOVE_OWN_QUOTE'; payload: string }
   | { type: 'RECORD_DAILY_OPEN'; payload: string }
-  | { type: 'SET_CUSTOM_PHOTO'; payload: string }
+  | { type: 'SET_CUSTOM_PHOTO'; payload: string } // deprecated
+  | { type: 'ADD_CUSTOM_PHOTO'; payload: string }
+  | { type: 'REMOVE_CUSTOM_PHOTO'; payload: number }
   | { type: 'SET_SHUFFLE_POOLS'; payload: { pools: { name: string; themes: BackgroundThemeKey[] }[]; activeIndex: number } }
   | { type: 'SET_FONT_SHUFFLE_POOL'; payload: PremiumFontKey[] };

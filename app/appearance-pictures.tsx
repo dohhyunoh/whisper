@@ -11,7 +11,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function AppearancePictures() {
   const insets = useSafeAreaInsets();
-  const { isPremium, currentTheme, setBackground, setCustomPhoto, customPhotoUri } = usePremium();
+  const { isPremium, currentTheme, setBackground, addCustomPhoto, removeCustomPhoto, customPhotoUris } = usePremium();
   const { width } = useWindowDimensions();
   const cardWidth = (width - 40 - 12) / 2;
 
@@ -22,17 +22,17 @@ export default function AppearancePictures() {
 
     if (result.canceled || !result.assets[0]) return;
 
-    // Copy to persistent document directory
+    // Copy to persistent document directory with unique name
     const sourceUri = result.assets[0].uri;
     const destDir = new Directory(Paths.document, 'custom-backgrounds');
     if (!destDir.exists) destDir.create();
     const sourceFile = new File(sourceUri);
-    const destFile = new File(destDir, 'custom-photo.jpg');
-    if (destFile.exists) destFile.delete();
+    const filename = `custom-photo-${Date.now()}.jpg`;
+    const destFile = new File(destDir, filename);
     sourceFile.copy(destFile);
 
-    setCustomPhoto(destFile.uri);
-  }, [setCustomPhoto]);
+    addCustomPhoto(destFile.uri);
+  }, [addCustomPhoto]);
 
   const handleAddPhoto = useCallback(() => {
     if (Platform.OS === 'ios') {
@@ -55,7 +55,14 @@ export default function AppearancePictures() {
     }
   }, [pickImage]);
 
-  const isCustomActive = currentTheme.key === 'custom-photo';
+  const deleteCustomPhoto = useCallback((index: number, uri: string) => {
+    // Delete the file from disk
+    try {
+      const file = new File(uri);
+      if (file.exists) file.delete();
+    } catch {}
+    removeCustomPhoto(index);
+  }, [removeCustomPhoto]);
 
   return (
     <View style={[styles.container, { paddingTop: insets.top }]}>
@@ -76,40 +83,61 @@ export default function AppearancePictures() {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.grid}>
-          {/* Custom photo card — premium only */}
+          {/* Add photo card — always visible */}
           <Pressable
-            style={[styles.pictureCard, { width: cardWidth, height: cardWidth / 0.75 }, isCustomActive && styles.pictureCardSelected]}
+            style={[styles.pictureCard, { width: cardWidth, height: cardWidth / 0.75 }]}
             onPress={() => {
               if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
               if (!isPremium) { router.push('/onboarding/paywall'); return; }
               handleAddPhoto();
             }}
-            onLongPress={customPhotoUri ? () => setBackground('custom-photo' as any) : undefined}
           >
-            {customPhotoUri ? (
-              <>
-                <Image source={{ uri: customPhotoUri }} style={styles.pictureImage} resizeMode="cover" />
-                <View style={styles.addBadge}>
-                  <IconSymbol name="plus" size={14} color="#FFF" />
+            <View style={styles.addCard}>
+              <IconSymbol name="plus" size={36} color="#3A6B80" />
+              <Text style={styles.addLabel}>Add Photo</Text>
+              {!isPremium && (
+                <View style={styles.lockBadge}>
+                  <IconSymbol name="lock.fill" size={14} color="#FFF" />
                 </View>
-                {isCustomActive && (
-                  <View style={styles.checkBadge}>
-                    <IconSymbol name="checkmark" size={12} color="#FFF" />
-                  </View>
-                )}
-              </>
-            ) : (
-              <View style={styles.addCard}>
-                <IconSymbol name="plus" size={36} color="#3A6B80" />
-                <Text style={styles.addLabel}>Add Photo</Text>
-                {!isPremium && (
+              )}
+            </View>
+          </Pressable>
+
+          {/* Custom photo cards */}
+          {customPhotoUris.map((uri, i) => {
+            const key = `custom-photo-${i}`;
+            const isActive = currentTheme.key === key;
+            const locked = !isPremium;
+            return (
+              <Pressable
+                key={key}
+                style={[styles.pictureCard, { width: cardWidth, height: cardWidth / 0.75 }, isActive && styles.pictureCardSelected]}
+                onPress={() => {
+                  if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  if (locked) { router.push('/onboarding/paywall'); return; }
+                  setBackground(key as any);
+                }}
+              >
+                <Image source={{ uri }} style={styles.pictureImage} resizeMode="cover" />
+                <Pressable style={styles.deleteBadge} onPress={() => {
+                  if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  deleteCustomPhoto(i, uri);
+                }} hitSlop={8}>
+                  <IconSymbol name="trash" size={12} color="#FFF" />
+                </Pressable>
+                {locked && (
                   <View style={styles.lockBadge}>
                     <IconSymbol name="lock.fill" size={14} color="#FFF" />
                   </View>
                 )}
-              </View>
-            )}
-          </Pressable>
+                {isActive && !locked && (
+                  <View style={styles.checkBadge}>
+                    <IconSymbol name="checkmark" size={12} color="#FFF" />
+                  </View>
+                )}
+              </Pressable>
+            );
+          })}
 
           {IMAGE_THEMES.map((theme) => {
             const active = currentTheme.key === theme.key;
@@ -218,16 +246,16 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#3A6B80',
   },
-  addBadge: {
+  deleteBadge: {
     position: 'absolute',
-    top: 8,
-    left: 8,
-    width: 24,
-    height: 24,
-    borderRadius: 12,
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    justifyContent: 'center',
+    bottom: 8,
+    right: 8,
+    width: 26,
+    height: 26,
+    borderRadius: 13,
+    backgroundColor: 'rgba(180, 60, 60, 0.75)',
     alignItems: 'center',
+    justifyContent: 'center',
   },
   lockBadge: {
     position: 'absolute',

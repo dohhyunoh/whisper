@@ -28,7 +28,7 @@ interface QuoteCardProps {
 
 export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
   const { isLiked, toggleLike } = useLikes();
-  const { currentTheme, currentFont, activeShufflePool, activeFontShufflePool } = usePremium();
+  const { currentTheme, currentFont, activeShufflePool, activeFontShufflePool, customPhotoUris } = usePremium();
   const opacity = useSharedValue(0);
   const heartScale = useSharedValue(0);
   const heartOpacity = useSharedValue(0);
@@ -92,8 +92,22 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
     const pool = activeShufflePool.length > 0 ? activeShufflePool : IMAGE_THEMES.map((t) => t.key);
     const hash = quote.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
     const pickedKey = pool[hash % pool.length];
+    if (pickedKey.startsWith('custom-photo-')) {
+      const idx = parseInt(pickedKey.replace('custom-photo-', ''), 10);
+      const uri = customPhotoUris[idx];
+      if (uri) {
+        return {
+          key: pickedKey as any,
+          displayName: 'My Photo',
+          imageSource: { uri },
+          textColor: '#FFFFFF',
+          secondaryTextColor: 'rgba(255, 255, 255, 0.8)',
+          isPremium: true,
+        };
+      }
+    }
     return ALL_THEMES.find((t) => t.key === pickedKey) || IMAGE_THEMES[0];
-  }, [isShuffleMode, quote.id, activeShufflePool]);
+  }, [isShuffleMode, quote.id, activeShufflePool, customPhotoUris]);
 
   // Check if current theme is an image theme (or shuffle picked an image theme)
   const isImageBackground = useMemo(() => {
@@ -155,14 +169,8 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
     setQuoteBottomY(y + h);
   }, []);
 
-  // Dynamically scale font size for long quotes so text doesn't clip
-  const { quoteFontSize, quoteLineHeight } = useMemo(() => {
-    const len = quote.text.length;
-    if (len > 300) return { quoteFontSize: 18, quoteLineHeight: 28 };
-    if (len > 200) return { quoteFontSize: 21, quoteLineHeight: 32 };
-    if (len > 120) return { quoteFontSize: 24, quoteLineHeight: 35 };
-    return { quoteFontSize: 26, quoteLineHeight: 38 };
-  }, [quote.text]);
+  const quoteFontSize = 26;
+  const quoteLineHeight = 38;
 
   // Quote text only — inside ViewShot for capture
   const quoteContent = (
@@ -174,6 +182,8 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
             { color: textColor, fontSize: quoteFontSize, lineHeight: quoteLineHeight },
             fontFamily && { fontFamily },
           ]}
+          adjustsFontSizeToFit
+          minimumFontScale={0.6}
         >
           "{quote.text}"
         </Text>
@@ -269,11 +279,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     paddingHorizontal: 36,
+    paddingVertical: 60,
   },
   quoteArea: {
     alignItems: 'center',
     gap: 16,
     width: '100%',
+    flexShrink: 1,
   },
   quoteText: {
     fontSize: 26,

@@ -23,7 +23,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 export default function AppearanceShuffle() {
   const insets = useSafeAreaInsets();
   const { state } = useAppContext();
-  const { currentTheme, shufflePools, activeShuffleIndex, setShufflePools } = usePremium();
+  const { currentTheme, shufflePools, activeShuffleIndex, setShufflePools, customPhotoUris } = usePremium();
   const { width } = useWindowDimensions();
   const cardWidth = (width - 40 - 12) / 2;
 
@@ -204,6 +204,27 @@ export default function AppearanceShuffle() {
 
             <Text style={[styles.pickerSection, { marginTop: 20 }]}>Wallpapers</Text>
             <View style={styles.grid}>
+              {customPhotoUris.map((uri, i) => {
+                const key = `custom-photo-${i}` as BackgroundThemeKey;
+                const selected = draft.includes(key);
+                return (
+                  <Pressable
+                    key={key}
+                    style={[styles.pictureCard, { width: cardWidth, height: cardWidth / 0.75 }, selected && styles.cardSelected]}
+                    onPress={() => {
+                      if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                      toggleDraft(key);
+                    }}
+                  >
+                    <Image source={{ uri }} style={styles.pictureImage} resizeMode="cover" />
+                    {selected && (
+                      <View style={styles.checkBadge}>
+                        <IconSymbol name="checkmark" size={12} color="#FFF" />
+                      </View>
+                    )}
+                  </Pressable>
+                );
+              })}
               {IMAGE_THEMES.map((theme) => {
                 const selected = draft.includes(theme.key);
                 return (

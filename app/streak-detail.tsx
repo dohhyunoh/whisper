@@ -243,7 +243,6 @@ const styles = StyleSheet.create({
     fontSize: 17,
     fontWeight: '600',
     textAlign: 'center',
-    marginRight: 32,
   },
   headerSpacer: {
     width: 32,

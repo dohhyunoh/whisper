@@ -21,17 +21,37 @@ export function usePremium() {
 
   const isPremium = useMemo(() => hasPremiumAccess(premium.status), [premium.status]);
 
+  // Migrate old single customPhotoUri to customPhotoUris array
+  const customPhotoUris = useMemo((): string[] => {
+    const uris = premium.settings.customPhotoUris ?? [];
+    if (uris.length === 0 && premium.settings.customPhotoUri) {
+      return [premium.settings.customPhotoUri];
+    }
+    return uris;
+  }, [premium.settings.customPhotoUris, premium.settings.customPhotoUri]);
+
   const customPhotoTheme = useMemo((): ImageBackgroundTheme | null => {
-    if (premium.settings.selectedBackground !== 'custom-photo' || !premium.settings.customPhotoUri) return null;
+    const bg = premium.settings.selectedBackground;
+    let idx: number;
+    if ((bg as string) === 'custom-photo') {
+      // Legacy key — treat as index 0
+      idx = 0;
+    } else if (bg.startsWith('custom-photo-')) {
+      idx = parseInt(bg.replace('custom-photo-', ''), 10);
+    } else {
+      return null;
+    }
+    const uri = customPhotoUris[idx];
+    if (!uri) return null;
     return {
-      key: 'custom-photo',
+      key: `custom-photo-${idx}` as BackgroundThemeKey,
       displayName: 'My Photo',
-      imageSource: { uri: premium.settings.customPhotoUri },
+      imageSource: { uri },
       textColor: '#FFFFFF',
       secondaryTextColor: 'rgba(255, 255, 255, 0.8)',
       isPremium: true,
     };
-  }, [premium.settings.selectedBackground, premium.settings.customPhotoUri]);
+  }, [premium.settings.selectedBackground, customPhotoUris]);
 
   const currentTheme = useMemo(() => {
     if (isPremium) {
@@ -68,6 +88,20 @@ export function usePremium() {
   const setCustomPhoto = useCallback(
     (uri: string) => {
       dispatch({ type: 'SET_CUSTOM_PHOTO', payload: uri });
+    },
+    [dispatch]
+  );
+
+  const addCustomPhoto = useCallback(
+    (uri: string) => {
+      dispatch({ type: 'ADD_CUSTOM_PHOTO', payload: uri });
+    },
+    [dispatch]
+  );
+
+  const removeCustomPhoto = useCallback(
+    (index: number) => {
+      dispatch({ type: 'REMOVE_CUSTOM_PHOTO', payload: index });
     },
     [dispatch]
   );
@@ -156,7 +190,10 @@ export function usePremium() {
     setFont,
     setBackground,
     setCustomPhoto,
+    addCustomPhoto,
+    removeCustomPhoto,
     customPhotoUri: premium.settings.customPhotoUri || null,
+    customPhotoUris,
     shuffleTheme,
     shufflePools,
     activeShuffleIndex,
