@@ -182,8 +182,6 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
             { color: textColor, fontSize: quoteFontSize, lineHeight: quoteLineHeight },
             fontFamily && { fontFamily },
           ]}
-          adjustsFontSizeToFit
-          minimumFontScale={0.6}
         >
           "{quote.text}"
         </Text>
@@ -278,20 +276,18 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingHorizontal: 36,
-    paddingVertical: 60,
+    paddingHorizontal: 24,
   },
   quoteArea: {
-    alignItems: 'center',
     gap: 16,
     width: '100%',
-    flexShrink: 1,
   },
   quoteText: {
     fontSize: 26,
     fontWeight: '300',
     textAlign: 'center',
     lineHeight: 38,
+    paddingHorizontal: 12,
   },
   author: {
     fontSize: 16,
