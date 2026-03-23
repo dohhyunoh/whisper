@@ -591,5 +591,285 @@
     "category": "self-love",
     "subcategory": "self-worth",
     "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-083",
+    "text": "You are enough. Period.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-084",
+    "text": "Stop earning love you already deserve.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-085",
+    "text": "You don't need to prove your value.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-086",
+    "text": "Your worth is not negotiable.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-087",
+    "text": "You belong here. Fully. Completely.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-088",
+    "text": "No one completes you but you.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-089",
+    "text": "Worthiness is your birthright.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-090",
+    "text": "You are not too much.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-091",
+    "text": "Believe in your own becoming.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-092",
+    "text": "You were always the answer.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-093",
+    "text": "A diamond stays a diamond, even if someone mistakes it for a stone.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-094",
+    "text": "You are the prize. Act like it.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-095",
+    "text": "Your value doesn't decrease with rejection.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-096",
+    "text": "Love yourself.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-097",
+    "text": "Know your worth. Then add tax.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "playful"
+  },
+  {
+    "id": "self-love-sw-098",
+    "text": "You are someone's answered prayer.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-099",
+    "text": "Stop shrinking for people who won't grow.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-100",
+    "text": "You don't need their approval.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-101",
+    "text": "The world needs exactly who you are.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-102",
+    "text": "You are rare. Don't forget that.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-103",
+    "text": "Confidence looks good on you.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "playful"
+  },
+  {
+    "id": "self-love-sw-104",
+    "text": "You matter more than you know.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-105",
+    "text": "Your presence is a gift.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-106",
+    "text": "Nobody can be you better than you.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-107",
+    "text": "You are not an option. You are a choice.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-108",
+    "text": "Own who you are. All of it.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-109",
+    "text": "You were built for this moment.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-110",
+    "text": "Self-worth is an inside job.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-111",
+    "text": "You carry light wherever you go.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-112",
+    "text": "Never beg to be chosen.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-113",
+    "text": "Your existence is proof enough.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-114",
+    "text": "You are gold. Stop settling for bronze.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-115",
+    "text": "Love yourself loudly.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-116",
+    "text": "You are not hard to love.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-117",
+    "text": "Stand tall. You earned your place.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
   }
 ]

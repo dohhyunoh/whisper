@@ -839,5 +839,296 @@
     "category": "religion",
     "subcategory": "hinduism",
     "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-101",
+    "text": "The Self is its own light.",
+    "author": "Adi Shankaracharya",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-102",
+    "text": "You are the atman, eternal.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-103",
+    "text": "In stillness, find Brahman.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-104",
+    "text": "Karma is the law of becoming.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-105",
+    "text": "Detach from fruit, not from action.",
+    "author": "Lord Krishna",
+    "source": "Bhagavad Gita",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-106",
+    "text": "The divine dwells in all beings.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-107",
+    "text": "Dharma sustains those who uphold it.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-108",
+    "text": "Be steady. Be unmoved. Be free.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-109",
+    "text": "The lotus blooms above the mud.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-110",
+    "text": "All paths lead to the One.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-111",
+    "text": "You are not the body. You are the soul.",
+    "author": "Bhagavad Gita",
+    "source": "Bhagavad Gita",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-112",
+    "text": "Peace comes from within.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-113",
+    "text": "The mind is everything. What you think, you become.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-114",
+    "text": "Surrender to the divine flow.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-115",
+    "text": "Om is the sound of the universe.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-116",
+    "text": "Let go of ego. Find your truth.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-117",
+    "text": "The atman is beyond birth and death.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-118",
+    "text": "Do your duty without attachment.",
+    "author": "Bhagavad Gita",
+    "source": "Bhagavad Gita",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "direct"
+  },
+  {
+    "id": "religion-hinduism-119",
+    "text": "In every heart lives the divine.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-120",
+    "text": "Ahimsa is the highest dharma.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-121",
+    "text": "You are a spark of the infinite.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-122",
+    "text": "Devotion is the purest love.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-123",
+    "text": "The river flows to the ocean. So does the soul.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-124",
+    "text": "See God in everyone you meet.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-125",
+    "text": "Yoga is the journey of the self.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-126",
+    "text": "Silence is the language of Shiva.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-127",
+    "text": "Every soul is divine.",
+    "author": "Swami Vivekananda",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-128",
+    "text": "Your karma shapes your tomorrow.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-129",
+    "text": "The divine light is within you.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-130",
+    "text": "Breathe in peace. Breathe out fear.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-131",
+    "text": "Maya is the veil. Truth is behind it.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-132",
+    "text": "Serve others. Serve the divine.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-133",
+    "text": "The guru is within.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-134",
+    "text": "Purity of heart is the real worship.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-135",
+    "text": "Where there is dharma, there is victory.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-hinduism-136",
+    "text": "Love is the essence of creation.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "hinduism",
+    "tone": "gentle"
   }
 ]

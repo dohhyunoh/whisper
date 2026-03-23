@@ -850,5 +850,224 @@
     "category": "religion",
     "subcategory": "islam",
     "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-101",
+    "text": "Treat people with your manners, not theirs.",
+    "author": "Prophet Muhammad",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "direct"
+  },
+  {
+    "id": "religion-islam-102",
+    "text": "Tawakkul — trust Allah's plan.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-103",
+    "text": "Allah's timing is always perfect.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-104",
+    "text": "Dua is the weapon of the believer.",
+    "author": "Prophet Muhammad",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-105",
+    "text": "Patience is half of faith.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-106",
+    "text": "Speak good or remain silent.",
+    "author": "Prophet Muhammad",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "direct"
+  },
+  {
+    "id": "religion-islam-107",
+    "text": "The best among you are the kindest.",
+    "author": "Prophet Muhammad",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-108",
+    "text": "Your rizq is already written.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-109",
+    "text": "Allah does not burden a soul beyond.",
+    "author": "Quran 2:286",
+    "source": "The Quran",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-110",
+    "text": "Be in this world as a traveler.",
+    "author": "Prophet Muhammad",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-111",
+    "text": "Gratitude increases blessings.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-112",
+    "text": "The Quran is a guide for the heart.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-113",
+    "text": "Every hardship has hidden mercy.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-114",
+    "text": "Forgiveness is the greatest strength.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-115",
+    "text": "Salah is the key to paradise.",
+    "author": "Prophet Muhammad",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-116",
+    "text": "Allah sees what no one else sees.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-117",
+    "text": "Your heart finds peace in remembrance.",
+    "author": "Quran 13:28",
+    "source": "The Quran",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-118",
+    "text": "Sabr is beautiful.",
+    "author": "Quran 12:18",
+    "source": "The Quran",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-119",
+    "text": "Trust the decree. It's for your good.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-120",
+    "text": "A kind word is charity.",
+    "author": "Prophet Muhammad",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-121",
+    "text": "Seek Allah before anything else.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "direct"
+  },
+  {
+    "id": "religion-islam-122",
+    "text": "Alhamdulillah for everything.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-123",
+    "text": "The soul that is patient will be rewarded.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-124",
+    "text": "Islam teaches love before judgment.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-125",
+    "text": "Allah's mercy outweighs His wrath.",
+    "author": "Prophet Muhammad",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-126",
+    "text": "Make dua like it's already answered.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-islam-127",
+    "text": "Your test is not your destiny.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "islam",
+    "tone": "gentle"
   }
 ]

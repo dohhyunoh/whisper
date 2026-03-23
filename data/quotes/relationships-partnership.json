@@ -831,5 +831,182 @@
     "category": "relationships",
     "subcategory": "partnership",
     "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-150",
+    "text": "A University degree, four books, and hundreds of articles and I still make mistakes when reading. You wrote me 'good morning' and I read it as 'I love you'.",
+    "author": "Mahmoud Darwish",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-151",
+    "text": "Someone loves everything you hate about you.",
+    "author": "Frank Ocean",
+    "source": "Siegfried",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-152",
+    "text": "You are my favorite hello.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-153",
+    "text": "Together is my favorite place to be.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-154",
+    "text": "Love is a verb, not just a word.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "direct"
+  },
+  {
+    "id": "rel-partner-155",
+    "text": "You feel like home to me.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-156",
+    "text": "Us against the world.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "direct"
+  },
+  {
+    "id": "rel-partner-157",
+    "text": "I choose you. Every single day.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-158",
+    "text": "Love harder than yesterday.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "direct"
+  },
+  {
+    "id": "rel-partner-159",
+    "text": "You are my calm in the chaos.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-160",
+    "text": "Still falling for you.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-161",
+    "text": "Together, we have it all.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-162",
+    "text": "You are my person.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-163",
+    "text": "The best is yet to come for us.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-164",
+    "text": "Grow old with me.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-165",
+    "text": "Your hand fits perfectly in mine.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-166",
+    "text": "Real love is quiet and steady.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-167",
+    "text": "I loved you then. I love you still.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-168",
+    "text": "With you, I am home.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-169",
+    "text": "Love isn't perfect. It's worth it.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-170",
+    "text": "My heart is wherever you are.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-171",
+    "text": "Forever looks good on us.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "playful"
   }
 ]

@@ -841,5 +841,53 @@
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
     "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-108",
+    "text": "Just disappear, then go to war with the person in the mirror. Don't come back until you win.",
+    "author": "Ash Dykes",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-109",
+    "text": "Today is your day.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-motiv-110",
+    "text": "You showed up. That's half the battle.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-motiv-111",
+    "text": "Make today count.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-112",
+    "text": "You are closer than you think.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-motiv-113",
+    "text": "Keep going. You're almost there.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "gentle"
   }
 ]

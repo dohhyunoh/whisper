@@ -968,5 +968,133 @@
     "category": "empowerment",
     "subcategory": "career",
     "tone": "direct"
+  },
+  {
+    "id": "emp-career-135",
+    "text": "Your dream job won't build itself.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-136",
+    "text": "Update your resume. You've grown.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-137",
+    "text": "Build a career that excites you Monday.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-career-138",
+    "text": "Your career is yours to design.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-career-139",
+    "text": "You're one bold move from a breakthrough.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-140",
+    "text": "Network like your future depends on it.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-141",
+    "text": "Your nine-to-five can fund your dream.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-career-142",
+    "text": "Negotiate like you believe in yourself.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-143",
+    "text": "Leave the job that dims your light.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-144",
+    "text": "Mentors shorten the learning curve.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-career-145",
+    "text": "Stop job-hopping. Start career-building.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-146",
+    "text": "Apply anyway. Let them say no.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-147",
+    "text": "Side hustles build main characters.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "playful"
+  },
+  {
+    "id": "emp-career-148",
+    "text": "Boss energy starts with boundaries.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-career-149",
+    "text": "Your skills are more valuable than you think.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-career-150",
+    "text": "The interview is just a conversation.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "gentle"
   }
 ]

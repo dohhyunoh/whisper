@@ -21,9 +21,9 @@ struct WhisperTimelineProvider: TimelineProvider {
         var entries: [QuoteEntry] = []
         let now = Date()
 
-        // Generate 6 entries over 24 hours (one every 4 hours)
-        for i in 0..<6 {
-            let entryDate = Calendar.current.date(byAdding: .hour, value: i * 4, to: now)!
+        // Generate 24 entries over 24 hours (one every hour)
+        for i in 0..<24 {
+            let entryDate = Calendar.current.date(byAdding: .hour, value: i, to: now)!
             entries.append(makeEntry(date: entryDate))
         }
 

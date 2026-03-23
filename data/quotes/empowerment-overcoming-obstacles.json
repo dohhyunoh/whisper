@@ -823,5 +823,269 @@
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
     "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-128",
+    "text": "You've survived every hard day so far.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-129",
+    "text": "Obstacles are not stop signs.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-130",
+    "text": "Hard times build strong souls.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-131",
+    "text": "Your struggle is shaping your story.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-132",
+    "text": "Pressure makes diamonds.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-133",
+    "text": "You are tougher than this moment.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-134",
+    "text": "What blocks you can build you.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-135",
+    "text": "Keep going. The wall will break.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-136",
+    "text": "Storms don't last. You do.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-137",
+    "text": "Pain is proof you're still growing.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-138",
+    "text": "If you are constantly in a storm, don't check the weather, check your decisions.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-139",
+    "text": "When you focus on problems, you'll have more problems. When you focus on possibilities, you'll have more opportunities.",
+    "author": "Zig Ziglar",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-140",
+    "text": "You were made for tough seasons.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-141",
+    "text": "Every setback is a setup.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-142",
+    "text": "The fire refined you. It didn't ruin you.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-143",
+    "text": "You bend, but you don't break.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-144",
+    "text": "Difficult roads lead to beautiful places.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-145",
+    "text": "Rise every time you fall.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-146",
+    "text": "You are stronger than your excuses.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-147",
+    "text": "The comeback is always stronger.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-148",
+    "text": "Your story isn't over yet.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-149",
+    "text": "Broken crayons still color.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-150",
+    "text": "You are proof that hard doesn't mean impossible.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-151",
+    "text": "What hurts you trains you.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-152",
+    "text": "Struggle today. Strength tomorrow.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-153",
+    "text": "You didn't quit. That's everything.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-154",
+    "text": "Rock bottom builds rock-solid people.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-155",
+    "text": "Every scar has a lesson.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-156",
+    "text": "Nothing can dim the light within you.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-157",
+    "text": "You're not stuck. You're growing.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-158",
+    "text": "Champions are built in the dark.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-159",
+    "text": "Tough times don't last. Tough people do.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-160",
+    "text": "Your pain is building your power.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
   }
 ]

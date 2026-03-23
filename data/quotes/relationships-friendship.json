@@ -1023,5 +1023,149 @@
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-142",
+    "text": "Group chat is my therapy.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "playful"
+  },
+  {
+    "id": "rel-friend-143",
+    "text": "She's not my sister, but she is.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-144",
+    "text": "Best friends finish each other's sentences.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "playful"
+  },
+  {
+    "id": "rel-friend-145",
+    "text": "We don't need plans. Just each other.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-146",
+    "text": "My best friend knows my whole mess.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "playful"
+  },
+  {
+    "id": "rel-friend-147",
+    "text": "Friends who roast you love you most.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "playful"
+  },
+  {
+    "id": "rel-friend-148",
+    "text": "We laugh at things nobody else gets.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "playful"
+  },
+  {
+    "id": "rel-friend-149",
+    "text": "She held my hand through it all.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-150",
+    "text": "Matching energy since day one.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "playful"
+  },
+  {
+    "id": "rel-friend-151",
+    "text": "No one gets me like you do.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-152",
+    "text": "We grew up, but we grew together.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-153",
+    "text": "That one friend who feels like home.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-154",
+    "text": "Three-hour phone calls fix everything.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "playful"
+  },
+  {
+    "id": "rel-friend-155",
+    "text": "She showed up. That said everything.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-156",
+    "text": "Best friends don't judge your 2am texts.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "playful"
+  },
+  {
+    "id": "rel-friend-157",
+    "text": "We've been through it all and stayed.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-158",
+    "text": "Ride or die isn't a phrase. It's a person.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "direct"
+  },
+  {
+    "id": "rel-friend-159",
+    "text": "She's my favorite notification.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "playful"
   }
 ]

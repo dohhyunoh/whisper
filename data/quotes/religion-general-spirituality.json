@@ -832,5 +832,301 @@
     "category": "religion",
     "subcategory": "general-spirituality",
     "tone": "gentle"
+  },
+  {
+    "id": "religion-other-101",
+    "text": "The soul knows what it needs.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-102",
+    "text": "Every breath is a quiet prayer.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-103",
+    "text": "You are more than this body.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-104",
+    "text": "Trust the journey of your soul.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-105",
+    "text": "The universe bends toward love.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-106",
+    "text": "Sacred moments hide in the ordinary.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-107",
+    "text": "Divinity lives within you.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-108",
+    "text": "Stillness is where the spirit speaks.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-109",
+    "text": "You are exactly where you need to be.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-110",
+    "text": "Faith is trusting what you can't see.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-111",
+    "text": "When the world pushes you to your knees, you're in the perfect position to pray.",
+    "author": "Rumi",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-112",
+    "text": "The light in me honors the light in you.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-113",
+    "text": "Your soul already knows the way.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-114",
+    "text": "Be still and know.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-115",
+    "text": "Grace finds you where you are.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-116",
+    "text": "Spirit speaks in silence.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-117",
+    "text": "You are a soul having a human moment.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-118",
+    "text": "Let your spirit lead.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-119",
+    "text": "The divine is in the details.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-120",
+    "text": "Surrender is not weakness. It's trust.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-121",
+    "text": "Pray even when it's hard to believe.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-122",
+    "text": "Your existence is not an accident.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-123",
+    "text": "Love is the highest prayer.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-124",
+    "text": "The universe is listening.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-125",
+    "text": "Faith doesn't remove fear. It faces it.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "direct"
+  },
+  {
+    "id": "religion-other-126",
+    "text": "You were created with purpose.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-127",
+    "text": "Let go and let God.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-128",
+    "text": "Gratitude is a form of worship.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-129",
+    "text": "Miracles live in the mundane.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-130",
+    "text": "Heaven is closer than you think.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-131",
+    "text": "Your prayer is already heard.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-132",
+    "text": "Walk by faith, not by sight.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-133",
+    "text": "The sacred is all around you.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-134",
+    "text": "Trust the pull of your spirit.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-135",
+    "text": "Kindness is the language of the soul.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-136",
+    "text": "You are never truly alone.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-other-137",
+    "text": "The divine dwells in your breath.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "general-spirituality",
+    "tone": "gentle"
   }
 ]

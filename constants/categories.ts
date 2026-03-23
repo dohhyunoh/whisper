@@ -22,7 +22,7 @@ export const RELATIONSHIP_SUBCATEGORIES: SubcategoryInfo[] = [
   { key: 'dating', label: 'Dating' },
   { key: 'partnership', label: 'Partnership' },
   { key: 'friendship', label: 'Friendship' },
-  { key: 'breakups', label: 'Breakups' },
+  { key: 'breakups', label: 'Letting Go' },
   { key: 'family', label: 'Family' },
   { key: 'attracting-love', label: 'Attracting Love' },
 ];

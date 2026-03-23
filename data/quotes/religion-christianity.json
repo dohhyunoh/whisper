@@ -854,7 +854,7 @@
   },
   {
     "id": "religion-chr-101",
-    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.” – 1 Corinthians 13:4",
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
     "author": "1 Corinthians 13:4",
     "category": "religion",
     "subcategory": "christianity",
@@ -862,7 +862,7 @@
   },
   {
     "id": "religion-chr-102",
-    "text": "Above all, love each other deeply, because love covers over a multitude of sins.” – 1 Peter 4:8",
+    "text": "Above all, love each other deeply, because love covers over a multitude of sins.",
     "author": "1 Peter 4:8",
     "category": "religion",
     "subcategory": "christianity",
@@ -870,7 +870,7 @@
   },
   {
     "id": "religion-chr-103",
-    "text": "Let all that you do be done in love.” – 1 Corinthians 16:14",
+    "text": "Let all that you do be done in love.",
     "author": "1 Corinthians 16:14",
     "category": "religion",
     "subcategory": "christianity",
@@ -878,7 +878,7 @@
   },
   {
     "id": "religion-chr-104",
-    "text": "And over all these virtues put on love, which binds them all together in perfect unity.” – Colossians 3:14",
+    "text": "And over all these virtues put on love, which binds them all together in perfect unity.",
     "author": "Colossians 3:14",
     "category": "religion",
     "subcategory": "christianity",
@@ -886,8 +886,280 @@
   },
   {
     "id": "religion-chr-105",
-    "text": "We love because he first loved us.” – 1 John 4:19",
+    "text": "We love because he first loved us.",
     "author": "1 John 4:19",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-106",
+    "text": "God's grace is always enough.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-107",
+    "text": "Faith moves what fear cannot.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "direct"
+  },
+  {
+    "id": "religion-chr-108",
+    "text": "You are loved beyond measure.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-109",
+    "text": "Let go and let God.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-110",
+    "text": "His mercy is new every morning.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-111",
+    "text": "God walks with you, always.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-112",
+    "text": "Trust His timing, not yours.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-113",
+    "text": "You are fearfully and wonderfully made.",
+    "author": "Psalm 139:14",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-114",
+    "text": "Grace found you. Rest in that.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-115",
+    "text": "He makes all things new.",
+    "author": "Revelation 21:5",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-116",
+    "text": "God is love.",
+    "author": "1 John 4:8",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-117",
+    "text": "With God, all things are possible.",
+    "author": "Matthew 19:26",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-118",
+    "text": "He knows your heart.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-119",
+    "text": "Joy comes in the morning.",
+    "author": "Psalm 30:5",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-120",
+    "text": "God's plan is bigger than your pain.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-121",
+    "text": "You are never alone in Christ.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-122",
+    "text": "Pray without ceasing.",
+    "author": "1 Thessalonians 5:17",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-123",
+    "text": "The Lord fights for you. Be still.",
+    "author": "Exodus 14:14",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-124",
+    "text": "God is within her. She will not fall.",
+    "author": "Psalm 46:5",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-125",
+    "text": "Your faith has made you well.",
+    "author": "Luke 17:19",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-126",
+    "text": "He restores my soul.",
+    "author": "Psalm 23:3",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-127",
+    "text": "Cast your burdens on the Lord.",
+    "author": "Psalm 55:22",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-128",
+    "text": "The cross speaks love louder than words.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-129",
+    "text": "God's love never fails.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-130",
+    "text": "Hope anchors the soul.",
+    "author": "Hebrews 6:19",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-131",
+    "text": "His strength is made perfect in weakness.",
+    "author": "2 Corinthians 12:9",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-132",
+    "text": "You were made for more.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-133",
+    "text": "I can do all things through Christ.",
+    "author": "Philippians 4:13",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-134",
+    "text": "God is your refuge and strength.",
+    "author": "Psalm 46:1",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-135",
+    "text": "Walk in faith, not in fear.",
+    "author": "Unknown",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-136",
+    "text": "The Lord is near to the brokenhearted.",
+    "author": "Psalm 34:18",
+    "source": "The Bible",
+    "category": "religion",
+    "subcategory": "christianity",
+    "tone": "gentle"
+  },
+  {
+    "id": "religion-chr-137",
+    "text": "Surrender it all to Him.",
+    "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
     "tone": "gentle"

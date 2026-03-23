@@ -935,5 +935,225 @@
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "playful"
+  },
+  {
+    "id": "mood-philo-123",
+    "text": "The desert teaches you more about water than the ocean ever could.",
+    "author": "African Proverb",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-124",
+    "text": "What makes the desert beautiful is that somewhere it hides a well.",
+    "author": "Antoine de Saint-Exupéry",
+    "source": "The Little Prince",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-125",
+    "text": "It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
+    "author": "The Fox",
+    "source": "The Little Prince",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-126",
+    "text": "All grown-ups were once children... but only few of them remember it.",
+    "author": "Antoine de Saint-Exupéry",
+    "source": "The Little Prince",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-127",
+    "text": "Do not disturb yourself by picturing your life as a whole.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-128",
+    "text": "If you are depressed you are living in the past. If you are anxious you are living in the future. If you are at peace you are living in the present.",
+    "author": "Lao Tzu",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-129",
+    "text": "And those who were seen dancing were thought to be insane by those who could not hear the music.",
+    "author": "Friedrich Nietzsche",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-130",
+    "text": "The youth can walk faster, but the elder knows the road.",
+    "author": "African Proverb",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-philo-131",
+    "text": "The less you say, the more your words will matter.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-132",
+    "text": "We suffer more in imagination than reality.",
+    "author": "Seneca",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-133",
+    "text": "Know thyself.",
+    "author": "Socrates",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-134",
+    "text": "To be is to be perceived.",
+    "author": "George Berkeley",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-135",
+    "text": "The obstacle is the way.",
+    "author": "Marcus Aurelius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-136",
+    "text": "Happiness depends upon ourselves.",
+    "author": "Aristotle",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-137",
+    "text": "Life must be understood backwards.",
+    "author": "Søren Kierkegaard",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-138",
+    "text": "What we know is a drop. What we don't, an ocean.",
+    "author": "Isaac Newton",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-139",
+    "text": "Amor fati — love your fate.",
+    "author": "Friedrich Nietzsche",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-140",
+    "text": "Waste no time arguing what a good person should be.",
+    "author": "Marcus Aurelius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-141",
+    "text": "You become what you give your attention to.",
+    "author": "Epictetus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-142",
+    "text": "The purpose of life is a life of purpose.",
+    "author": "Robert Byrne",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-143",
+    "text": "Nothing great was ever achieved without enthusiasm.",
+    "author": "Ralph Waldo Emerson",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-144",
+    "text": "Memento mori — remember you will die.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-145",
+    "text": "The present is all we ever have.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-146",
+    "text": "Thoughts become things. Choose wisely.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-147",
+    "text": "What stands in the way becomes the way.",
+    "author": "Marcus Aurelius",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-148",
+    "text": "Be water, my friend.",
+    "author": "Bruce Lee",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-149",
+    "text": "Less is more.",
+    "author": "Ludwig Mies van der Rohe",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
   }
 ]
