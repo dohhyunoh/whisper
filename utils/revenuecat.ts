@@ -1,5 +1,6 @@
 import Purchases from 'react-native-purchases';
 import { REVENUECAT_API_KEY, REVENUECAT_ENTITLEMENT_ID } from '@/constants/premium';
+import { getAppsFlyerUID } from './appsflyer';
 
 let isConfigured = false;
 
@@ -29,6 +30,15 @@ export async function checkTrialEligibility(): Promise<boolean> {
     );
   } catch {
     return false;
+  }
+}
+
+export async function linkAppsFlyerToRevenueCat(): Promise<void> {
+  try {
+    const appsflyerUID = await getAppsFlyerUID();
+    Purchases.setAppsflyerID(appsflyerUID);
+  } catch {
+    // Silent fail — attribution is non-critical
   }
 }
 

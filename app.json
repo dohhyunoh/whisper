@@ -2,7 +2,7 @@
   "expo": {
     "name": "Whisper",
     "slug": "Whisper",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "whisper",
@@ -14,12 +14,20 @@
       "supportsTablet": true,
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
-        "LSApplicationQueriesSchemes": ["instagram", "instagram-stories", "whatsapp", "twitter", "fb"],
+        "LSApplicationQueriesSchemes": [
+          "instagram",
+          "instagram-stories",
+          "whatsapp",
+          "twitter",
+          "fb"
+        ],
         "NSPhotoLibraryAddUsageDescription": "Whisper needs access to save quote images to your photo library."
       },
       "appleTeamId": "37RJ9492PN",
       "entitlements": {
-        "com.apple.security.application-groups": ["group.com.dohhyun.whisper"]
+        "com.apple.security.application-groups": [
+          "group.com.dohhyun.whisper"
+        ]
       }
     },
     "android": {
@@ -56,14 +64,23 @@
           "cameraPermission": "Whisper needs access to your camera to take a photo for your background."
         }
       ],
-      ["expo-build-properties", {
-        "ios": {
-          "entitlements": {
-            "com.apple.security.application-groups": ["group.com.dohhyun.whisper"]
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "entitlements": {
+              "com.apple.security.application-groups": [
+                "group.com.dohhyun.whisper"
+              ]
+            }
           }
         }
-      }],
-      "@bacons/apple-targets"
+      ],
+      "@bacons/apple-targets",
+      "react-native-appsflyer",
+      ["expo-tracking-transparency", {
+        "userTrackingPermission": "This identifier will be used to measure advertising performance and deliver personalized ads."
+      }]
     ],
     "experiments": {
       "typedRoutes": true,

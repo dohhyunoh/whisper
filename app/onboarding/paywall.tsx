@@ -2,6 +2,7 @@ import { REVENUECAT_ENTITLEMENT_ID } from '@/constants/premium';
 import { useAppContext } from '@/context/app-context';
 import { requestPermissions, scheduleTrialReminder } from '@/utils/notifications';
 import { Events, posthog } from '@/utils/posthog';
+import { logSubscribeEvent } from '@/utils/appsflyer';
 import { checkTrialEligibility, restorePurchases } from '@/utils/revenuecat';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
@@ -129,6 +130,7 @@ export default function PaywallScreen() {
       const result = await Purchases.purchasePackage(pkg);
       if (result.customerInfo.entitlements.active[REVENUECAT_ENTITLEMENT_ID]) {
         posthog.capture(Events.PAYWALL_PURCHASE_COMPLETED, { plan: selectedPlan, trial: trialEligible });
+        logSubscribeEvent(pkg.product.price, pkg.product.currencyCode);
         handleComplete(true);
       }
     } catch (error: any) {

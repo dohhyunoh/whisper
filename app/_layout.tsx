@@ -21,7 +21,8 @@ import { useFonts } from 'expo-font';
 import { AppProvider } from '@/context/app-context';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { posthog } from '@/utils/posthog';
-import { configureRevenueCat } from '@/utils/revenuecat';
+import { configureRevenueCat, linkAppsFlyerToRevenueCat } from '@/utils/revenuecat';
+import { initializeAppsFlyer } from '@/utils/appsflyer';
 import { PostHogProvider } from 'posthog-react-native';
 
 SplashScreen.preventAutoHideAsync();
@@ -43,7 +44,12 @@ export default function RootLayout() {
   });
 
   useEffect(() => {
-    configureRevenueCat();
+    async function init() {
+      await configureRevenueCat();
+      await initializeAppsFlyer();
+      await linkAppsFlyerToRevenueCat();
+    }
+    init();
   }, []);
 
   useEffect(() => {
