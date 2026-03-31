@@ -2,7 +2,7 @@ import { requestTrackingPermissionsAsync } from 'expo-tracking-transparency';
 import appsFlyer from 'react-native-appsflyer';
 
 const APPSFLYER_DEV_KEY = 'mU4cXuWzuFj8xArqZUWmcJ';
-const APP_STORE_ID = '6758811323'; // TODO: Replace with numeric App Store ID
+const APP_STORE_ID = '6758811323';
 
 export async function initializeAppsFlyer(): Promise<void> {
   // Request ATT before AppsFlyer init so it can capture IDFA if user consents
@@ -15,7 +15,6 @@ export async function initializeAppsFlyer(): Promise<void> {
         isDebug: __DEV__,
         appId: APP_STORE_ID,
         onInstallConversionDataListener: true,
-        timeToWaitForATTUserAuthorization: 10,
       },
       () => resolve(),
       (error) => reject(error),

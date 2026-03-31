@@ -124,8 +124,8 @@ function reducer(state: AppState, action: AppAction): AppState {
           },
         },
       };
-    case 'ADD_CUSTOM_PHOTO': {
-      const uris = [action.payload, ...(state.premium.settings.customPhotoUris ?? [])];
+    case 'ADD_CUSTOM_PHOTOS': {
+      const uris = [...action.payload, ...(state.premium.settings.customPhotoUris ?? [])];
       return {
         ...state,
         premium: {

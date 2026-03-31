@@ -2,7 +2,7 @@
   "expo": {
     "name": "Whisper",
     "slug": "Whisper",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "whisper",
@@ -14,6 +14,7 @@
       "supportsTablet": true,
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
+        "NSAdvertisingAttributionReportEndpoint": "https://appsflyer-skadnetwork.com/",
         "LSApplicationQueriesSchemes": [
           "instagram",
           "instagram-stories",
@@ -21,7 +22,11 @@
           "twitter",
           "fb"
         ],
-        "NSPhotoLibraryAddUsageDescription": "Whisper needs access to save quote images to your photo library."
+        "NSPhotoLibraryAddUsageDescription": "Whisper needs access to save quote images to your photo library.",
+        "SKAdNetworkItems": [
+          { "SKAdNetworkIdentifier": "mj797d8u6f.skadnetwork" },
+          { "SKAdNetworkIdentifier": "22mmun2rn5.skadnetwork" }
+        ]
       },
       "appleTeamId": "37RJ9492PN",
       "entitlements": {

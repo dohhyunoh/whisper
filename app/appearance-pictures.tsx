@@ -11,28 +11,31 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function AppearancePictures() {
   const insets = useSafeAreaInsets();
-  const { isPremium, currentTheme, setBackground, addCustomPhoto, removeCustomPhoto, customPhotoUris } = usePremium();
+  const { isPremium, currentTheme, setBackground, addCustomPhotos, removeCustomPhoto, customPhotoUris } = usePremium();
   const { width } = useWindowDimensions();
   const cardWidth = (width - 40 - 12) / 2;
 
   const pickImage = useCallback(async (useCamera: boolean) => {
     const result = useCamera
       ? await ImagePicker.launchCameraAsync({ mediaTypes: ['images'], quality: 0.8 })
-      : await ImagePicker.launchImageLibraryAsync({ mediaTypes: ['images'], quality: 0.8 });
+      : await ImagePicker.launchImageLibraryAsync({ mediaTypes: ['images'], quality: 0.8, allowsMultipleSelection: true });
 
-    if (result.canceled || !result.assets[0]) return;
+    if (result.canceled || !result.assets?.length) return;
 
-    // Copy to persistent document directory with unique name
-    const sourceUri = result.assets[0].uri;
     const destDir = new Directory(Paths.document, 'custom-backgrounds');
     if (!destDir.exists) destDir.create();
-    const sourceFile = new File(sourceUri);
-    const filename = `custom-photo-${Date.now()}.jpg`;
-    const destFile = new File(destDir, filename);
-    sourceFile.copy(destFile);
 
-    addCustomPhoto(destFile.uri);
-  }, [addCustomPhoto]);
+    const savedUris: string[] = [];
+    for (const asset of result.assets) {
+      const sourceFile = new File(asset.uri);
+      const filename = `custom-photo-${Date.now()}-${Math.random().toString(36).slice(2, 6)}.jpg`;
+      const destFile = new File(destDir, filename);
+      sourceFile.copy(destFile);
+      savedUris.push(destFile.uri);
+    }
+
+    addCustomPhotos(savedUris);
+  }, [addCustomPhotos]);
 
   const handleAddPhoto = useCallback(() => {
     if (Platform.OS === 'ios') {
@@ -105,17 +108,17 @@ export default function AppearancePictures() {
 
           {/* Custom photo cards */}
           {customPhotoUris.map((uri, i) => {
-            const key = `custom-photo-${i}`;
-            const isActive = currentTheme.key === key;
+            const themeKey = `custom-photo-${i}`;
+            const isActive = currentTheme.key === themeKey;
             const locked = !isPremium;
             return (
               <Pressable
-                key={key}
+                key={uri}
                 style={[styles.pictureCard, { width: cardWidth, height: cardWidth / 0.75 }, isActive && styles.pictureCardSelected]}
                 onPress={() => {
                   if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
                   if (locked) { router.push('/onboarding/paywall'); return; }
-                  setBackground(key as any);
+                  setBackground(themeKey as any);
                 }}
               >
                 <Image source={{ uri }} style={styles.pictureImage} resizeMode="cover" />

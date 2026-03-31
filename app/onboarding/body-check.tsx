@@ -1,10 +1,11 @@
-import * as Haptics from 'expo-haptics';
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
+import { Events, posthog } from '@/utils/posthog';
+import * as Haptics from 'expo-haptics';
 import { useRouter } from 'expo-router';
-import React, { useEffect, useState } from 'react';
-import { posthog, Events } from '@/utils/posthog';
+import { useFeatureFlag } from 'posthog-react-native';
+import React, { useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const options = ['Chest', 'Stomach', 'Shoulders', 'Head', 'Prefer not to answer'];
@@ -16,9 +17,25 @@ export default function BodyCheckScreen() {
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
+  const skipBodyCheck = useFeatureFlag('skip-body-check');
+  const didSkip = useRef(false);
+
   useEffect(() => {
-    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'body_check' });
-  }, []);
+    if (skipBodyCheck === 'test' && !didSkip.current) {
+      didSkip.current = true;
+      posthog.capture('onboarding_screen_skipped', {
+        screen_name: 'body_check',
+        experiment_variant: 'test',
+      });
+      router.replace('/onboarding/narrative');
+      return;
+    }
+    if (skipBodyCheck !== undefined) {
+      posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'body_check' });
+    }
+  }, [skipBodyCheck]);
+
+  if (skipBodyCheck === 'test') return null;
 
   return (
     <OnboardingLayout

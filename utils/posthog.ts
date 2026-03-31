@@ -2,6 +2,7 @@ import PostHog from 'posthog-react-native';
 
 export const posthog = new PostHog('phc_8NkT0vcocdWuRWSU28L303MN1vsHzQhf8YnRuopi4b2', {
   host: 'https://us.i.posthog.com',
+  disabled: __DEV__,
 });
 
 // Event names

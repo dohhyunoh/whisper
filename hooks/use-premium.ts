@@ -92,9 +92,9 @@ export function usePremium() {
     [dispatch]
   );
 
-  const addCustomPhoto = useCallback(
-    (uri: string) => {
-      dispatch({ type: 'ADD_CUSTOM_PHOTO', payload: uri });
+  const addCustomPhotos = useCallback(
+    (uris: string[]) => {
+      dispatch({ type: 'ADD_CUSTOM_PHOTOS', payload: uris });
     },
     [dispatch]
   );
@@ -190,7 +190,7 @@ export function usePremium() {
     setFont,
     setBackground,
     setCustomPhoto,
-    addCustomPhoto,
+    addCustomPhotos,
     removeCustomPhoto,
     customPhotoUri: premium.settings.customPhotoUri || null,
     customPhotoUris,

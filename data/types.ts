@@ -145,7 +145,7 @@ export type AppAction =
   | { type: 'REMOVE_OWN_QUOTE'; payload: string }
   | { type: 'RECORD_DAILY_OPEN'; payload: string }
   | { type: 'SET_CUSTOM_PHOTO'; payload: string } // deprecated
-  | { type: 'ADD_CUSTOM_PHOTO'; payload: string }
+  | { type: 'ADD_CUSTOM_PHOTOS'; payload: string[] }
   | { type: 'REMOVE_CUSTOM_PHOTO'; payload: number }
   | { type: 'SET_SHUFFLE_POOLS'; payload: { pools: { name: string; themes: BackgroundThemeKey[] }[]; activeIndex: number } }
   | { type: 'SET_FONT_SHUFFLE_POOL'; payload: PremiumFontKey[] };

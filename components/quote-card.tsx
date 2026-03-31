@@ -185,11 +185,11 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
         >
           "{quote.text}"
         </Text>
-        <Text style={[styles.author, { color: secondaryColor }]}>
+        <Text style={[styles.author, { color: textColor }, fontFamily && { fontFamily }]}>
           — {quote.author}
         </Text>
         {quote.source && (
-          <Text style={[styles.source, { color: tertiaryColor }]}>
+          <Text style={[styles.source, { color: secondaryColor }, fontFamily && { fontFamily }]}>
             {quote.source}
           </Text>
         )}
@@ -290,12 +290,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
   },
   author: {
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: '600',
     textAlign: 'center',
   },
   source: {
-    fontSize: 14,
+    fontSize: 16,
     fontStyle: 'italic',
     textAlign: 'center',
   },
