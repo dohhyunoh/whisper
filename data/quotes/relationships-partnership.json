@@ -1008,5 +1008,41 @@
     "category": "relationships",
     "subcategory": "partnership",
     "tone": "playful"
+  },
+  {
+    "id": "rel-partner-172",
+    "text": "We've loved each other so long I've never been a man and not loved her.",
+    "author": "Sarah Perry",
+    "source": "The Essex Serpent",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-173",
+    "text": "Whatever our souls are made of, his and mine are the same.",
+    "author": "Emily Brontë",
+    "source": "Wuthering Heights",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-174",
+    "text": "Now, I'm not going to deny that I was aware of your beauty. But the point is, this has nothing to do with your beauty. As I got to know you, I began to realise that beauty was the least of your qualities.",
+    "author": "Choderlos de Laclos",
+    "source": "Dangerous Liaisons",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-partner-175",
+    "text": "Love starts as a feeling, but to continue is a choice. And I find myself choosing you, more and more every day.",
+    "author": "Justin Wetch",
+    "source": "Bending The Universe",
+    "category": "relationships",
+    "subcategory": "partnership",
+    "tone": "gentle"
   }
 ]

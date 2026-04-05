@@ -41,7 +41,6 @@ export interface UserData {
   // Phase 2: Emotional Deep Dive
   primaryEmotion: string;
   emotionRoot: string;
-  bodyCarry: string;
   narrative: string;
   // Phase 3: Life & Love
   heartStatus: string;
@@ -70,7 +69,6 @@ export const defaultUserData: UserData = {
   weatherSource: '',
   primaryEmotion: '',
   emotionRoot: '',
-  bodyCarry: '',
   narrative: '',
   heartStatus: '',
   heartDetail: '',

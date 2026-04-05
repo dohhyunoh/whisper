@@ -70,7 +70,7 @@ export default function CategoryFeedScreen() {
   return (
     <View style={styles.container}>
       {quotes.length > 0 ? (
-        <QuoteFeed quotes={quotes} cardHeight={screenHeight} />
+        <QuoteFeed quotes={quotes} cardHeight={screenHeight} infinite={!isFavorites && !isOwnQuotes} />
       ) : (
         <View style={styles.emptyState}>
           <Text style={styles.emptyText}>No quotes found</Text>

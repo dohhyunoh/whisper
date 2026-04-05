@@ -994,5 +994,23 @@
     "category": "mood-boosters",
     "subcategory": "gratitude",
     "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-132",
+    "text": "\"What day is it?\" \"It's today,\" squeaked Piglet. \"My favorite day,\" said Pooh.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-grat-133",
+    "text": "When life throws you a rainy day, play in the puddles.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "playful"
   }
 ]

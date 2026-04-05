@@ -658,5 +658,32 @@
     "category": "mood-boosters",
     "subcategory": "calm",
     "tone": "direct"
+  },
+  {
+    "id": "mood-calm-083",
+    "text": "Your mind is like this water, my friend. When it is agitated, it becomes difficult to see. But if you allow it to settle, the answer becomes clear.",
+    "author": "Master Oogway",
+    "source": "Kung Fu Panda",
+    "category": "mood-boosters",
+    "subcategory": "calm",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-calm-084",
+    "text": "Rivers know this: there is no hurry. We shall get there some day.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "mood-boosters",
+    "subcategory": "calm",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-calm-085",
+    "text": "Life is a journey to be experienced, not a problem to be solved.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "mood-boosters",
+    "subcategory": "calm",
+    "tone": "gentle"
   }
 ]

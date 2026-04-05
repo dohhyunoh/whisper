@@ -707,5 +707,14 @@
     "category": "empowerment",
     "subcategory": "finding-voice",
     "tone": "direct"
+  },
+  {
+    "id": "emp-voice-128",
+    "text": "Our fate lives within us, you only have to be brave enough to see it.",
+    "author": "Merida",
+    "source": "Brave",
+    "category": "empowerment",
+    "subcategory": "finding-voice",
+    "tone": "gentle"
   }
 ]

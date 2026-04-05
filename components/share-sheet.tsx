@@ -13,6 +13,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import RNShare from 'react-native-share';
 import {
   ActivityIndicator,
+  Alert,
   Dimensions,
   Image,
   Modal,
@@ -222,8 +223,20 @@ export function ShareSheet({ visible, onClose, quote, onCaptureImage }: ShareShe
   const saveImageToLibrary = async (): Promise<boolean> => {
     if (!imageUri) return false;
     try {
-      const { status } = await MediaLibrary.requestPermissionsAsync();
-      if (status !== 'granted') return false;
+      const { status, canAskAgain } = await MediaLibrary.requestPermissionsAsync();
+      if (status !== 'granted') {
+        if (!canAskAgain) {
+          Alert.alert(
+            'Photo Access Required',
+            'Please enable photo access in Settings to save images.',
+            [
+              { text: 'Cancel', style: 'cancel' },
+              { text: 'Open Settings', onPress: () => Linking.openSettings() },
+            ],
+          );
+        }
+        return false;
+      }
       await MediaLibrary.saveToLibraryAsync(imageUri);
       return true;
     } catch {

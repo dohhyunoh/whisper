@@ -651,5 +651,32 @@
     "category": "relationships",
     "subcategory": "dating",
     "tone": "gentle"
+  },
+  {
+    "id": "rel-dating-109",
+    "text": "I wish I knew how to quit you.",
+    "author": "Annie Proulx",
+    "source": "Brokeback Mountain",
+    "category": "relationships",
+    "subcategory": "dating",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-dating-110",
+    "text": "Did my heart love till now? Forswear it, sight! For I ne'er saw true beauty till this night.",
+    "author": "William Shakespeare",
+    "source": "Romeo and Juliet",
+    "category": "relationships",
+    "subcategory": "dating",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-dating-111",
+    "text": "She is a mortal danger to all men. She is beautiful without knowing it, and possesses charms that she's not even aware of. She is like a trap set by nature — a sweet perfumed rose in whose petals Cupid lurks in ambush!",
+    "author": "Edmond Rostand",
+    "source": "Cyrano de Bergerac",
+    "category": "relationships",
+    "subcategory": "dating",
+    "tone": "gentle"
   }
 ]

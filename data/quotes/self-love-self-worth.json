@@ -871,5 +871,32 @@
     "category": "self-love",
     "subcategory": "self-worth",
     "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-118",
+    "text": "The only thing that matters is what you choose to be now.",
+    "author": "Po",
+    "source": "Kung Fu Panda 2",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-119",
+    "text": "Promise me you'll always remember: You're braver than you believe, stronger than you seem, and smarter than you think.",
+    "author": "Christopher Robin",
+    "source": "Winnie the Pooh",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-120",
+    "text": "Sometimes the smallest things take up the most room in your heart.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
   }
 ]

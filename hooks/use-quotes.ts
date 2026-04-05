@@ -52,11 +52,17 @@ export function useQuotes(category?: Category, subcategory?: SubCategory, applyI
   const tonePreference = state.user?.tonePreference;
   const isPremium = hasPremiumAccess(state.premium.status);
   const ownQuotes = state.ownQuotes;
+  const likedIds = state.likedIds;
 
   return useMemo(() => {
     let filtered = category
       ? allQuotes.filter((q) => q.category === category)
       : allQuotes;
+
+    // Exclude favorited quotes from home feed and browse categories
+    if (likedIds.length > 0) {
+      filtered = filtered.filter((q) => !likedIds.includes(q.id));
+    }
 
     // Filter for free users (only when browsing all quotes / home feed)
     if (!category && !isPremium) {
@@ -92,7 +98,7 @@ export function useQuotes(category?: Category, subcategory?: SubCategory, applyI
     }
 
     return shuffle(filtered);
-  }, [category, subcategory, interests, tonePreference, applyInterests, isPremium, ownQuotes]);
+  }, [category, subcategory, interests, tonePreference, applyInterests, isPremium, ownQuotes, likedIds]);
 }
 
 export function useQuotesByIds(ids: string[]): Quote[] {

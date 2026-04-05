@@ -1087,5 +1087,41 @@
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
     "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-161",
+    "text": "The past shouldn't be feared for it guides our future.",
+    "author": "Rafiki",
+    "source": "The Lion King",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-162",
+    "text": "The flower that blooms in adversity is the rarest and most beautiful of all.",
+    "author": "Emperor of China",
+    "source": "Mulan",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-163",
+    "text": "The past can hurt. You can either run from it, or learn from it.",
+    "author": "Rafiki",
+    "source": "The Lion King",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-164",
+    "text": "The nicest thing about the rain is that it always stops. Eventually.",
+    "author": "Eeyore",
+    "source": "Winnie the Pooh",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
   }
 ]

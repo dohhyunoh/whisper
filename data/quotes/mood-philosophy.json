@@ -1155,5 +1155,64 @@
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-150",
+    "text": "The best way to keep a prisoner from escaping is to make sure he never knows he is in prison.",
+    "author": "Fyodor Dostoevsky",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-151",
+    "text": "The ability to observe without evaluating is the highest form of intelligence.",
+    "author": "Jiddu Krishnamurti",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-152",
+    "text": "Perhaps your story is stuck because each time you find a new chapter, you reread the old ones to convince yourself the pain you felt mattered.",
+    "author": "Beneath",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-153",
+    "text": "Your worst sin is that you have destroyed and betrayed yourself for nothing.",
+    "author": "Fyodor Dostoevsky",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-154",
+    "text": "Pride is not the opposite of shame, but its source. True humility is the only antidote to shame.",
+    "author": "Uncle Iroh",
+    "source": "Avatar: The Last Airbender",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-155",
+    "text": "One often meets his destiny on the road he takes to avoid it.",
+    "author": "Master Oogway",
+    "source": "Kung Fu Panda",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-156",
+    "text": "Some people care too much. I think it's called love.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
   }
 ]

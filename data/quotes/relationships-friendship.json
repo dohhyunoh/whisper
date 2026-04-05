@@ -1167,5 +1167,59 @@
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "playful"
+  },
+  {
+    "id": "rel-friend-160",
+    "text": "Love is putting someone else's needs before yours.",
+    "author": "Olaf",
+    "source": "Frozen",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-161",
+    "text": "If you live to be 100, I hope I live to be 100 minus one day so I never have to live without you.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-162",
+    "text": "A day without a friend is like a pot without a single drop of honey left inside.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-163",
+    "text": "A hug is always the right size.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-164",
+    "text": "\"We'll be Friends Forever, won't we, Pooh?\" asked Piglet. \"Even longer,\" Pooh answered.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-friend-165",
+    "text": "\"How do you spell 'love'?\" — Piglet. \"You don't spell it... you feel it.\" — Pooh.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
   }
 ]

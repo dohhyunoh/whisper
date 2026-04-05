@@ -18,7 +18,6 @@ export default function OnboardingLayout() {
       {/* ACT 3: How is that affecting you */}
       <Stack.Screen name="primary-emotion" />
       <Stack.Screen name="emotion-root" />
-      <Stack.Screen name="body-check" />
       <Stack.Screen name="narrative" />
       <Stack.Screen name="rest-compassion" />
       {/* ACT 4: What do you need */}
@@ -28,6 +27,7 @@ export default function OnboardingLayout() {
       {/* ACT 5: The bridge */}
       <Stack.Screen name="app-expect" />
       <Stack.Screen name="tone-preference" />
+      <Stack.Screen name="science-facts" />
       {/* ACT 6: Delivery */}
       <Stack.Screen name="curating" />
       <Stack.Screen name="notification-preview" />

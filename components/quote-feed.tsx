@@ -17,6 +17,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 interface QuoteFeedProps {
   quotes: Quote[];
   cardHeight: number;
+  infinite?: boolean;
   showSwipeHint?: boolean;
   onHintDismissed?: () => void;
   onSwipe?: () => void;
@@ -26,6 +27,7 @@ interface QuoteFeedProps {
 export function QuoteFeed({
   quotes,
   cardHeight,
+  infinite = true,
   showSwipeHint = false,
   onHintDismissed,
   onSwipe,
@@ -44,13 +46,14 @@ export function QuoteFeed({
   }, [quotes]);
 
   const handleEndReached = useCallback(() => {
+    if (!infinite) return;
     batchRef.current += 1;
     const batch = batchRef.current;
     setFeedQuotes((prev) => [
       ...prev,
       ...shuffle(quotes).map((q) => ({ ...q, id: `${q.id}_${batch}` })),
     ]);
-  }, [quotes]);
+  }, [quotes, infinite]);
 
   useEffect(() => {
     if (showSwipeHint) {

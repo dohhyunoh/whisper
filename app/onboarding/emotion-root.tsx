@@ -46,10 +46,10 @@ export default function EmotionRootScreen() {
             type: 'SET_USER',
             payload: { ...defaultUserData, ...state.user, emotionRoot: selected.join(', ') },
           });
-          router.push('/onboarding/body-check');
+          router.push('/onboarding/narrative');
         }
       }}
-      onSkip={() => router.push('/onboarding/body-check')}
+      onSkip={() => router.push('/onboarding/narrative')}
       buttonDisabled={selected.length === 0}
     >
       <View style={{ gap: 12 * s }}>

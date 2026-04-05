@@ -889,5 +889,31 @@
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
     "tone": "gentle"
+  },
+  {
+    "id": "mood-motiv-114",
+    "text": "The magic you are looking for is in the work you are avoiding.",
+    "author": "Chris Williamson",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-115",
+    "text": "Nobody can be uncheered with a balloon.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-motiv-116",
+    "text": "Time for something sweet.",
+    "author": "Winnie the Pooh",
+    "source": "Winnie the Pooh",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "playful"
   }
 ]
