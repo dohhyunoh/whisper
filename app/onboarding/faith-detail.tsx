@@ -8,7 +8,7 @@ import { posthog, Events } from '@/utils/posthog';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const optionsMap: Record<string, string[]> = {
-  Up: ['Christianity', 'Islam', 'Hinduism', 'Judaism', 'General Spirituality'],
+  Up: ['Christianity', 'Islam', 'Hinduism', 'Buddhism', 'Judaism', 'General Spirituality'],
   In: ['Mindfulness', 'Manifestation', 'Stoicism', 'Poetry'],
   Out: ['Mindfulness', 'Manifestation', 'Stoicism', 'Poetry'],
 };

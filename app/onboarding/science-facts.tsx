@@ -60,7 +60,9 @@ export default function ScienceFactsScreen() {
       translateY.value = withDelay(2200 + i * 800, withTiming(0, { duration: 600, easing: Easing.out(Easing.ease) }));
     });
 
-    btnOpacity.value = withDelay(6000, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
+    // Show button right after the last card finishes: 2200 + (3-1)*800 + 600 = 4400
+    const lastCardDone = 2200 + (FACTS.length - 1) * 800 + 600;
+    btnOpacity.value = withDelay(lastCardDone, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
   }, []);
 
   const titleStyle = useAnimatedStyle(() => ({
@@ -82,7 +84,7 @@ export default function ScienceFactsScreen() {
             The science is clear.
           </Animated.Text>
           <Animated.Text style={[styles.subtitle, { fontSize: 15 * s, marginTop: 12 * s }, subtitleStyle]}>
-            Words don't just feel good — they change your brain.
+            Words don't just feel good - they change your brain.
           </Animated.Text>
         </View>
 
@@ -116,7 +118,7 @@ export default function ScienceFactsScreen() {
             ]}
             onPress={() => {
               if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-              router.push('/onboarding/curating');
+              router.push('/onboarding/quote-ritual');
             }}
           >
             <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Continue</Text>
@@ -130,10 +132,10 @@ export default function ScienceFactsScreen() {
 const styles = StyleSheet.create({
   gradient: { flex: 1 },
   content: { flex: 1, justifyContent: 'space-between', paddingHorizontal: 32 },
-  header: { alignItems: 'center' },
+  header: { alignItems: 'center', marginBottom: 20 },
   title: { fontWeight: '700', color: '#5A8BA8', textAlign: 'center' },
   subtitle: { fontWeight: '300', color: '#6B8F9E', textAlign: 'center' },
-  cards: { flex: 1, justifyContent: 'center' },
+  cards: { flex: 1, justifyContent: 'center', marginTop: 16 },
   card: {
     backgroundColor: 'rgba(255, 255, 255, 0.85)',
     borderRadius: 20,
@@ -147,7 +149,7 @@ const styles = StyleSheet.create({
   stat: { fontWeight: '800', color: '#5A8BA8' },
   description: { fontWeight: '500', color: '#4A7A90', lineHeight: 21 },
   source: { fontWeight: '400', color: '#9BB8C7', fontStyle: 'italic' },
-  btnWrapper: { width: '100%', marginBottom: 20 },
+  btnWrapper: { width: '100%', marginTop: 32, marginBottom: 20 },
   button: {
     width: '100%',
     backgroundColor: 'rgba(255, 255, 255, 0.95)',

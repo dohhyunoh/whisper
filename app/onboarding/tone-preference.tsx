@@ -34,10 +34,11 @@ export default function TonePreferenceScreen() {
             type: 'SET_USER',
             payload: { ...defaultUserData, ...state.user, tonePreference: selected },
           });
-          router.push('/onboarding/science-facts');
+          router.push('/onboarding/curating');
         }
       }}
-      onSkip={() => router.push('/onboarding/science-facts')}
+      onSkip={() => router.push('/onboarding/curating')}
+      hideSkip
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>

@@ -20,6 +20,7 @@ interface OnboardingLayoutProps {
   onContinue: () => void;
   skipLabel?: string;
   onSkip: () => void;
+  hideSkip?: boolean;
   hasKeyboard?: boolean;
   children: React.ReactNode;
 }
@@ -32,6 +33,7 @@ export function OnboardingLayout({
   onContinue,
   skipLabel = 'Skip',
   onSkip,
+  hideSkip = false,
   hasKeyboard = false,
   children,
 }: OnboardingLayoutProps) {
@@ -53,16 +55,18 @@ export function OnboardingLayout({
     >
       {/* Skip button - top right */}
       <View style={styles.skipRow}>
-        <Pressable onPress={() => {
-          if (process.env.EXPO_OS === 'ios') {
-            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Rigid);
-          }
-          onSkip();
-        }} hitSlop={12} style={styles.skipButton}>
-          <Text style={[styles.skipText, { fontSize: 15 * s }]}>
-            {skipLabel}
-          </Text>
-        </Pressable>
+        {!hideSkip && (
+          <Pressable onPress={() => {
+            if (process.env.EXPO_OS === 'ios') {
+              Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Rigid);
+            }
+            onSkip();
+          }} hitSlop={12} style={styles.skipButton}>
+            <Text style={[styles.skipText, { fontSize: 15 * s }]}>
+              {skipLabel}
+            </Text>
+          </Pressable>
+        )}
       </View>
 
       <View style={[styles.top, { gap: 16 * s, marginBottom: 24 * s }]}>

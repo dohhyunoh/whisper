@@ -84,7 +84,7 @@ export default function RootLayout() {
                 presentation: 'card',
                 headerShown: false,
                 gestureEnabled: true,
-                fullScreenGestureEnabled: true,
+                fullScreenGestureEnabled: false,
               }}
             />
             <Stack.Screen

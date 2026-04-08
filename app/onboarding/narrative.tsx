@@ -14,6 +14,8 @@ const options = [
   "I can't handle this",
   "Nobody understands me",
   "I have to do it all myself",
+  "I need to keep moving forward",
+  "Everything is going to work out",
 ];
 
 export default function NarrativeScreen() {
@@ -47,9 +49,10 @@ export default function NarrativeScreen() {
         }
       }}
       onSkip={() => router.push('/onboarding/rest-compassion')}
+      hideSkip
       buttonDisabled={selected.length === 0}
     >
-      <View style={{ gap: 12 * s }}>
+      <View style={styles.wrap}>
         {options.map((option) => {
           const active = selected.includes(option);
           return (
@@ -57,7 +60,7 @@ export default function NarrativeScreen() {
               key={option}
               style={({ pressed }) => [
                 styles.pill,
-                { paddingVertical: 14 * s, paddingHorizontal: 20 * s },
+                { paddingVertical: 12 * s, paddingHorizontal: 20 * s },
                 active && styles.pillSelected,
                 pressed ? styles.pillPressed : undefined,
               ]}
@@ -67,12 +70,9 @@ export default function NarrativeScreen() {
                 posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'narrative', choice: option });
               }}
             >
-              <Text style={[styles.pillText, { fontSize: 15 * s }, active && styles.pillTextSelected]}>
+              <Text style={[styles.pillText, { fontSize: 14 * s }, active && styles.pillTextSelected]}>
                 {option}
               </Text>
-              <View style={[styles.checkbox, { width: 22 * s, height: 22 * s, borderRadius: 6 * s }, active && styles.checkboxSelected]}>
-                {active && <Text style={[styles.checkmark, { fontSize: 14 * s }]}>✓</Text>}
-              </View>
             </Pressable>
           );
         })}
@@ -82,10 +82,15 @@ export default function NarrativeScreen() {
 }
 
 const styles = StyleSheet.create({
+  wrap: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 10,
+  },
   pill: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     backgroundColor: 'rgba(255, 255, 255, 0.85)',
     borderRadius: 100,
     borderWidth: 2,
@@ -95,7 +100,4 @@ const styles = StyleSheet.create({
   pillPressed: { transform: [{ translateY: 1 }] },
   pillText: { fontWeight: '600', color: '#5A8BA8' },
   pillTextSelected: { color: '#FFFFFF' },
-  checkbox: { borderWidth: 2, borderColor: 'rgba(90, 139, 168, 0.3)', alignItems: 'center', justifyContent: 'center' },
-  checkboxSelected: { borderColor: 'rgba(255, 255, 255, 0.6)', backgroundColor: 'rgba(255, 255, 255, 0.25)' },
-  checkmark: { color: '#FFFFFF', fontWeight: '700' },
 });

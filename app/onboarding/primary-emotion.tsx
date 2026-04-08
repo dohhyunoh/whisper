@@ -34,6 +34,7 @@ export default function PrimaryEmotionScreen() {
         }
       }}
       onSkip={() => router.push('/onboarding/emotion-root')}
+      hideSkip
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>

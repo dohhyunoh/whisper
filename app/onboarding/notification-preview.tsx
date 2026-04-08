@@ -17,7 +17,7 @@ import Animated, {
   withTiming
 } from 'react-native-reanimated';
 
-const QUOTE_TEXT = '"Your thoughts create your reality." — Neale Donald Walsch';
+const FALLBACK_QUOTE = '"Your thoughts create your reality." — Neale Donald Walsch';
 
 function useTypewriter(text: string, delayMs: number, speedMs: number) {
   const [displayed, setDisplayed] = useState('');
@@ -72,7 +72,8 @@ export default function NotificationPreviewScreen() {
   const controlsOpacity = useSharedValue(0);
   const bottomOpacity = useSharedValue(0);
 
-  const typedQuote = useTypewriter(QUOTE_TEXT, 800, 35);
+  const quoteText = state.user?.stuckResponse || FALLBACK_QUOTE;
+  const typedQuote = useTypewriter(quoteText, 800, 35);
 
   useEffect(() => {
     posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'notification_preview' });
@@ -139,7 +140,7 @@ export default function NotificationPreviewScreen() {
         {/* Header */}
         <View style={[styles.top, { marginBottom: 24 * s }]}>
           <Text style={[styles.title, { fontSize: 34 * s, lineHeight: 42 * s }]}>
-            Messages,{'\n'}when you need them
+            When should we{'\n'}send your {state.user?.tonePreference ? state.user.tonePreference.toLowerCase() : ''} reminders?
           </Text>
           <Text style={[styles.subtitle, { fontSize: 15 * s, marginTop: 8 * s }]}>
             Thoughtful messages, to guide your mindset.
@@ -158,7 +159,7 @@ export default function NotificationPreviewScreen() {
                 <Text style={[styles.notifAppName, { fontSize: 14 * s }]}>Whisper</Text>
                 <Text style={[styles.notifTime, { fontSize: 12 * s }]}>now</Text>
               </View>
-              <Text style={[styles.notifBody, { fontSize: 13 * s, lineHeight: 18 * s }]} numberOfLines={2}>
+              <Text style={[styles.notifBody, { fontSize: 13 * s, lineHeight: 18 * s }]}>
                 {typedQuote}
                 <Text style={styles.cursor}>|</Text>
               </Text>

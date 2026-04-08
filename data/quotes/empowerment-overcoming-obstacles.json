@@ -1123,5 +1123,14 @@
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
     "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-165",
+    "text": "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear.",
+    "author": "Frank Herbert",
+    "source": "Dune",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
   }
 ]

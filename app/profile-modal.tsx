@@ -1,25 +1,91 @@
-import { CollapsibleCategoryList } from '@/components/collapsible-category-list';
+import { DiscoveryRow } from '@/components/discovery-row';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
+import { defaultUserData, Quote } from '@/data/types';
 import { useLikes } from '@/hooks/use-likes';
 import { usePremium } from '@/hooks/use-premium';
+import { buildDiscoveryRows } from '@/utils/discovery-feed';
+import quotesData from '@/data/quotes';
 import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
-import React, { useState } from 'react';
+import { DiscoveryCard } from '@/components/discovery-row';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import Animated, { FadeIn, FadeOut, SlideInDown, SlideOutDown } from 'react-native-reanimated';
 import RevenueCatUI from 'react-native-purchases-ui';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+const allQuotes: Quote[] = quotesData as Quote[];
+
 export default function ProfileModal() {
   const insets = useSafeAreaInsets();
-  const { state } = useAppContext();
+  const { state, dispatch } = useAppContext();
   const { likedIds } = useLikes();
   const [showCustomerCenter, setShowCustomerCenter] = useState(false);
-  const { currentTheme, status } = usePremium();
-  const userName = state.user?.name || '';
+  const { status, isPremium, isCategoryLocked, isSubcategoryLocked, todayUnlockedSubcategory } = usePremium();
+  const user = { ...defaultUserData, ...state.user };
+  const userName = user.name || '';
   const ownQuoteCount = state.ownQuotes.length;
 
-  const isClassicSelected = currentTheme.key === 'default';
+  const interests = user.interests ?? [];
+  const [toast, setToast] = useState<{ message: string; icon: string } | null>(null);
+  const toastTimer = useRef<ReturnType<typeof setTimeout>>(null);
+
+  const showToast = useCallback((message: string, icon: string) => {
+    if (toastTimer.current) clearTimeout(toastTimer.current);
+    setToast({ message, icon });
+    toastTimer.current = setTimeout(() => setToast(null), 2000);
+  }, []);
+
+  useEffect(() => {
+    return () => { if (toastTimer.current) clearTimeout(toastTimer.current); };
+  }, []);
+
+  const discoveryRows = useMemo(
+    () => buildDiscoveryRows(
+      user,
+      allQuotes,
+      isCategoryLocked,
+      isSubcategoryLocked,
+      isPremium ? undefined : todayUnlockedSubcategory,
+    ),
+    [user.weatherMood, user.heaviestRole, user.name, interests, isCategoryLocked, isSubcategoryLocked, isPremium, todayUnlockedSubcategory],
+  );
+
+  const handleToggle = useCallback((card: DiscoveryCard) => {
+    const catKey = card.category.key;
+    const subKey = card.subcategory?.key;
+    const interestKey = subKey ? `${catKey}:${subKey}` : catKey;
+
+    const current = [...interests];
+    const isCurrentlyFollowed = card.isFollowed;
+
+    let updated: string[];
+    if (isCurrentlyFollowed) {
+      // Remove this interest
+      if (subKey && current.includes(catKey)) {
+        // Bare category key means all subs on — expand to individual subs minus this one
+        const cat = card.category;
+        const otherSubs = (cat.subcategories ?? [])
+          .filter((s) => s.key !== subKey)
+          .map((s) => `${catKey}:${s.key}`);
+        updated = [...current.filter((i) => i !== catKey), ...otherSubs];
+      } else {
+        updated = current.filter((i) => i !== interestKey && !i.startsWith(interestKey + ':'));
+      }
+    } else {
+      // Add this interest
+      updated = [...current, interestKey];
+    }
+    dispatch({ type: 'SET_USER', payload: { ...state.user!, interests: updated } });
+
+    const label = card.subcategory?.label ?? card.category.label;
+    if (isCurrentlyFollowed) {
+      showToast(`${label} removed from your feed`, 'minus.circle');
+    } else {
+      showToast(`${label} added to your feed`, 'checkmark.circle.fill');
+    }
+  }, [interests, dispatch, state.user, showToast]);
 
   if (showCustomerCenter) {
     return (
@@ -37,8 +103,13 @@ export default function ProfileModal() {
         }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
-        <Text style={styles.headerTitle}>Profile</Text>
-        <View style={styles.headerSpacer} />
+        <Text style={styles.headerTitle}>Discover</Text>
+        <Pressable onPress={() => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.push('/edit-profile');
+        }} style={styles.gearButton} hitSlop={12}>
+          <IconSymbol name="gearshape.fill" size={22} color="#3A6B80" />
+        </Pressable>
       </View>
 
       <ScrollView
@@ -47,80 +118,70 @@ export default function ProfileModal() {
         showsVerticalScrollIndicator={false}
       >
         {/* Greeting */}
-        <Text style={styles.greeting}>Hello{userName ? `, ${userName}` : ''}</Text>
+        <View style={styles.greetingSection}>
+          <Text style={styles.greeting}>Hello{userName ? `, ${userName}` : ''}</Text>
+          <Text style={styles.greetingSub}>Your personalized feed</Text>
+        </View>
 
-        {/* 2x2 Bento Grid */}
-        <View style={styles.bentoGrid}>
-          {/* Edit Profile */}
+        {/* Quick Actions Row */}
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.quickActions}
+        >
           <Pressable
-            style={styles.bentoCard}
-            onPress={() => {
-              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-              router.push('/edit-profile');
-            }}
-          >
-            <View style={[styles.bentoIconWrap, { backgroundColor: 'rgba(58,107,128,0.1)' }]}>
-              <IconSymbol name="person.fill" size={22} color="#3A6B80" />
-            </View>
-            <Text style={styles.bentoLabel}>Edit Profile</Text>
-            <Text style={styles.bentoSub}>{userName || 'Set up'}</Text>
-          </Pressable>
-
-          {/* Own Quotes */}
-          <Pressable
-            style={styles.bentoCard}
-            onPress={() => {
-              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-              router.push('/own-quotes');
-            }}
-          >
-            <View style={[styles.bentoIconWrap, { backgroundColor: 'rgba(191,166,201,0.15)' }]}>
-              <IconSymbol name="pencil.line" size={22} color="#9B7FB0" />
-            </View>
-            <Text style={styles.bentoLabel}>Own Quotes</Text>
-            <Text style={styles.bentoSub}>{ownQuoteCount} {ownQuoteCount === 1 ? 'quote' : 'quotes'}</Text>
-          </Pressable>
-
-          {/* Favorites */}
-          <Pressable
-            style={styles.bentoCard}
+            style={styles.quickAction}
             onPress={() => {
               if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
               router.push({ pathname: '/category-feed', params: { favorites: 'true' } });
             }}
           >
-            <View style={[styles.bentoIconWrap, { backgroundColor: 'rgba(207,119,119,0.12)' }]}>
-              <IconSymbol name="heart.fill" size={22} color="#CF7777" />
+            <View style={[styles.quickIconWrap, { backgroundColor: 'rgba(207,119,119,0.12)' }]}>
+              <IconSymbol name="heart.fill" size={18} color="#CF7777" />
             </View>
-            <Text style={styles.bentoLabel}>Favorites</Text>
-            <Text style={styles.bentoSub}>{likedIds.length} saved</Text>
+            <Text style={styles.quickLabel}>{likedIds.length} Saved</Text>
           </Pressable>
 
-          {/* Appearance */}
           <Pressable
-            style={styles.bentoCard}
+            style={styles.quickAction}
+            onPress={() => {
+              if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              router.push('/own-quotes');
+            }}
+          >
+            <View style={[styles.quickIconWrap, { backgroundColor: 'rgba(191,166,201,0.15)' }]}>
+              <IconSymbol name="pencil.line" size={18} color="#9B7FB0" />
+            </View>
+            <Text style={styles.quickLabel}>{ownQuoteCount} Own Quotes</Text>
+          </Pressable>
+
+          <Pressable
+            style={styles.quickAction}
             onPress={() => {
               if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
               router.push('/appearance');
             }}
           >
-            <View style={[styles.bentoIconWrap, { backgroundColor: 'rgba(137,207,240,0.15)' }]}>
-              <IconSymbol name="paintbrush.fill" size={22} color="#5AADDB" />
+            <View style={[styles.quickIconWrap, { backgroundColor: 'rgba(137,207,240,0.15)' }]}>
+              <IconSymbol name="paintbrush.fill" size={18} color="#5AADDB" />
             </View>
-            <Text style={styles.bentoLabel}>Appearance</Text>
-            <Text style={styles.bentoSub}>{isClassicSelected ? 'Classic' : 'Wallpapers'}</Text>
+            <Text style={styles.quickLabel}>Themes</Text>
           </Pressable>
-        </View>
+        </ScrollView>
 
-        {/* Browse Categories */}
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Browse Categories</Text>
-          <Text style={styles.sectionSubtitle}>Toggle checkmarks on or off for your home feed</Text>
-          <CollapsibleCategoryList />
-        </View>
+        {/* Discovery Feed Rows */}
+        {discoveryRows.map((row, i) => (
+          <DiscoveryRow
+            key={`row-${i}`}
+            title={row.title}
+            subtitle={row.subtitle}
+            items={row.items}
+            onToggle={handleToggle}
+          />
+        ))}
 
         {/* Manage Subscription */}
-{status === 'premium_purchased' && (
+        {status === 'premium_purchased' && (
           <View style={styles.section}>
             <Pressable
               style={styles.manageSubCard}
@@ -160,6 +221,18 @@ export default function ProfileModal() {
           </Pressable>
         </View>
       </ScrollView>
+
+      {/* Toast */}
+      {toast && (
+        <Animated.View
+          entering={SlideInDown.duration(250)}
+          exiting={SlideOutDown.duration(200)}
+          style={[styles.toast, { bottom: insets.bottom + 16 }]}
+        >
+          <IconSymbol name={toast.icon as any} size={18} color="#FFFFFF" />
+          <Text style={styles.toastText}>{toast.message}</Text>
+        </Animated.View>
+      )}
     </View>
   );
 }
@@ -184,69 +257,61 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#3A6B80',
     textAlign: 'center',
-    marginRight: 32,
   },
-  headerSpacer: {
-    width: 32,
+  gearButton: {
+    padding: 4,
   },
   scrollView: {
     flex: 1,
   },
   content: {
-    paddingHorizontal: 20,
     paddingTop: 3,
-    gap: 40,
+    gap: 28,
+  },
+  // Greeting
+  greetingSection: {
+    paddingHorizontal: 20,
+    gap: 4,
   },
   greeting: {
     fontSize: 26,
     fontWeight: '600',
     color: '#3A6B80',
   },
-  // Bento grid
-  bentoGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 14,
+  greetingSub: {
+    fontSize: 14,
+    color: '#7B9AAA',
   },
-  bentoCard: {
-    flexBasis: '47%',
-    flexGrow: 1,
+  // Quick actions
+  quickActions: {
+    paddingHorizontal: 20,
+    gap: 10,
+  },
+  quickAction: {
+    flexDirection: 'row',
+    alignItems: 'center',
     backgroundColor: 'rgba(255,255,255,0.6)',
-    borderRadius: 16,
-    padding: 16,
+    borderRadius: 100,
+    paddingVertical: 8,
+    paddingHorizontal: 14,
     gap: 8,
   },
-  bentoIconWrap: {
-    width: 42,
-    height: 42,
-    borderRadius: 12,
+  quickIconWrap: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  bentoLabel: {
-    fontSize: 15,
+  quickLabel: {
+    fontSize: 13,
     fontWeight: '600',
     color: '#3A6B80',
-    marginTop: 4,
-  },
-  bentoSub: {
-    fontSize: 13,
-    color: '#7B9AAA',
   },
   // Sections
   section: {
+    paddingHorizontal: 20,
     gap: 15,
-  },
-  sectionTitle: {
-    fontSize: 18,
-    fontWeight: '600',
-    color: '#3A6B80',
-    marginBottom: 5,
-  },
-  sectionSubtitle: {
-    fontSize: 14,
-    fontWeight: '500',
-    color: '#5A8BA8',
   },
   // Manage sub
   manageSubCard: {
@@ -278,5 +343,27 @@ const styles = StyleSheet.create({
   footerSeparator: {
     fontSize: 13,
     color: '#9BB5C5',
+  },
+  // Toast
+  toast: {
+    position: 'absolute',
+    alignSelf: 'center',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    backgroundColor: '#3A6B80',
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 100,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.15,
+    shadowRadius: 12,
+    elevation: 6,
+  },
+  toastText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#FFFFFF',
   },
 });

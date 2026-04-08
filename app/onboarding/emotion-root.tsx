@@ -8,8 +8,8 @@ import { posthog, Events } from '@/utils/posthog';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const optionsMap: Record<string, string[]> = {
-  Anxious: ['Fear of failure', 'Social pressure', 'Unknown future', 'Health'],
-  Sad: ['Grief / Loss', 'Loneliness', 'Disappointment', 'Hormonal / Body'],
+  Anxious: ['Fear of failure', 'Social pressure', 'Unknown future', 'Health', 'Self-image or appearance'],
+  Sad: ['Grief / Loss', 'Loneliness', 'Disappointment', 'Hormonal / Body', 'Self-image or appearance'],
   Angry: ['Betrayal', 'Injustice', 'Frustration with self', 'Boundary crossed'],
   Numb: ['Burnout', 'Emotional shutdown', 'Disconnection', 'Apathy'],
   Exhausted: ['Physical fatigue', 'Mental overload', 'Emotional drain', 'Life demands'],
@@ -50,6 +50,7 @@ export default function EmotionRootScreen() {
         }
       }}
       onSkip={() => router.push('/onboarding/narrative')}
+      hideSkip
       buttonDisabled={selected.length === 0}
     >
       <View style={{ gap: 12 * s }}>

@@ -13,13 +13,18 @@ export default function NameInputScreen() {
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
+  const mood = state.user?.weatherMood || '';
+  const title = mood === 'Clear'
+    ? "That is beautiful.\nLet's explore how to\nnurture your clarity."
+    : "Let's change the\nforecast together.";
+
   useEffect(() => {
     posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'name_input' });
   }, []);
 
   return (
     <OnboardingLayout
-      title={"Let's change the\nforecast together."}
+      title={title}
       subtitle="What should we call you?"
       onContinue={() => {
         if (name.trim()) {

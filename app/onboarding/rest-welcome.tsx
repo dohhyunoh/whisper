@@ -25,7 +25,8 @@ export default function RestWelcomeScreen() {
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
-  const name = state.user?.name || null;
+  const name = state.user?.name || '';
+  const mood = state.user?.weatherMood || '';
 
   const [riveFile, setRiveFile] = useState<Awaited<ReturnType<typeof RiveFileFactory.fromSource>> | null>(null);
   const { riveViewRef, setHybridRef } = useRive();
@@ -111,10 +112,14 @@ export default function RestWelcomeScreen() {
             )}
           </View>
           <Animated.Text style={[styles.title, { fontSize: 28 * s, marginTop: 40 * s }, titleStyle]}>
-            Nice to meet you{name ? `, ${name}` : ''}
+            Nice to meet you{name ? `, ${name}` : ''}.
           </Animated.Text>
           <Animated.Text style={[styles.subtitle, { fontSize: 15 * s, marginTop: 16 * s }, subtitleStyle]}>
-            Let's understand your world a little better.
+            {mood === 'Clear'
+              ? `The world moves fast${name ? `, ${name}` : ''}. You've done incredible work to find this stillness.`
+              : mood === 'Stormy'
+                ? "No storm lasts forever. It's okay to pause and acknowledge the pressure you're under."
+                : `Even a strong tree has roots${name ? `, ${name}` : ''}. Every mind needs space to recharge.`}
           </Animated.Text>
         </View>
 

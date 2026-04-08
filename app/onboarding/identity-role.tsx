@@ -41,6 +41,7 @@ export default function IdentityRoleScreen() {
         }
       }}
       onSkip={() => router.push('/onboarding/rest-acknowledge')}
+      hideSkip
       buttonDisabled={!selected}
     >
       <View style={{ gap: 8 * s }}>

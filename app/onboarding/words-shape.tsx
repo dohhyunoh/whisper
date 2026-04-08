@@ -33,10 +33,10 @@ export default function WordsShapeScreen() {
             type: 'SET_USER',
             payload: { ...defaultUserData, ...state.user, wordsShape: selected },
           });
-          router.push('/onboarding/quote-ritual');
+          router.push('/onboarding/science-facts');
         }
       }}
-      onSkip={() => router.push('/onboarding/quote-ritual')}
+      onSkip={() => router.push('/onboarding/science-facts')}
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>

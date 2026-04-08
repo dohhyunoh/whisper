@@ -1,3 +1,4 @@
+import { useAppContext } from '@/context/app-context';
 import { Events, posthog } from '@/utils/posthog';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -15,9 +16,15 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function RestCompassionScreen() {
   const router = useRouter();
+  const { state } = useAppContext();
   const insets = useSafeAreaInsets();
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
+
+  const narrative = state.user?.narrative || '';
+  const positiveNarratives = ['I need to keep moving forward', 'Everything is going to work out'];
+  const selectedList = narrative ? narrative.split(', ') : [];
+  const hasPositiveOnly = selectedList.length > 0 && selectedList.every((n) => positiveNarratives.includes(n));
 
   const titleOpacity = useSharedValue(0);
   const titleTranslateY = useSharedValue(15);
@@ -51,10 +58,14 @@ export default function RestCompassionScreen() {
       <View style={[styles.content, { paddingTop: insets.top, paddingBottom: insets.bottom + 32 * s }]}>
         <View style={styles.center}>
           <Animated.Text style={[styles.title, { fontSize: 28 * s }, titleStyle]}>
-            You're not alone in this.
+            {hasPositiveOnly ? 'That strength is rare.' : "You're not alone in this."}
           </Animated.Text>
           <Animated.Text style={[styles.subtitle, { fontSize: 15 * s, marginTop: 16 * s }, subtitleStyle]}>
-            Millions feel the same way. Let's find what helps.
+            {hasPositiveOnly
+              ? "Your mindset is already moving in the right direction. Let's build on that momentum together."
+              : narrative
+                ? `Many who struggle with "${narrative.split(', ')[0]}" feel exactly the same way. Let's find what helps.`
+                : "Millions feel the same way. Let's find what helps."}
           </Animated.Text>
         </View>
 

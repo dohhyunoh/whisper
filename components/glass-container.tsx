@@ -1,5 +1,4 @@
 import { usePremium } from '@/hooks/use-premium';
-import { BlurView } from 'expo-blur';
 import { GlassView, isGlassEffectAPIAvailable } from 'expo-glass-effect';
 import React from 'react';
 import { StyleProp, StyleSheet, View, ViewStyle } from 'react-native';
