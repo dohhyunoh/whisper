@@ -6,10 +6,10 @@ export type Category =
   | 'mood-boosters';
 
 export type SelfLoveSub = 'self-worth' | 'body-positivity' | 'mental-health' | 'rest-recharge';
-export type RelationshipSub = 'dating' | 'partnership' | 'friendship' | 'breakups' | 'family' | 'attracting-love';
+export type RelationshipSub = 'dating' | 'partnership' | 'friendship' | 'letting-go' | 'family' | 'attracting-love';
 export type EmpowermentSub = 'career' | 'overcoming-obstacles' | 'financial-independence' | 'finding-voice';
 export type ReligionSub = 'general-spirituality' | 'christianity' | 'islam' | 'hinduism' | 'buddhism';
-export type MoodBoosterSub = 'daily-motivation' | 'calm' | 'gratitude' | 'philosophy';
+export type MoodBoosterSub = 'daily-motivation' | 'calm' | 'gratitude' | 'manifestation' | 'philosophy' | 'poetry';
 export type SubCategory = SelfLoveSub | RelationshipSub | EmpowermentSub | ReligionSub | MoodBoosterSub | null;
 
 export type ToneTag = 'gentle' | 'direct' | 'playful';
@@ -37,7 +37,6 @@ export interface UserData {
   gender: string;
   // Phase 1
   weatherMood: string;
-  weatherSource: string;
   // Phase 2: Emotional Deep Dive
   primaryEmotion: string;
   emotionRoot: string;
@@ -57,16 +56,12 @@ export interface UserData {
   tonePreference: string;
   // Derived
   interests: string[];
-  // Backward compat
-  stuckReason: string;
-  stuckResponse: string;
 }
 
 export const defaultUserData: UserData = {
   name: '',
   gender: '',
   weatherMood: '',
-  weatherSource: '',
   primaryEmotion: '',
   emotionRoot: '',
   narrative: '',
@@ -81,8 +76,6 @@ export const defaultUserData: UserData = {
   appExpect: '',
   tonePreference: '',
   interests: [],
-  stuckReason: '',
-  stuckResponse: '',
 };
 
 // Premium types
@@ -105,6 +98,16 @@ export type BackgroundThemeKey =
   | 'foggy-morning' | 'purple-sky' | 'snowy-peaks' | 'cozy-candles'
   | 'theme-13' | 'theme-14' | 'theme-15';
 
+export interface WidgetSettings {
+  includeFavorites: boolean;
+  includeOwnQuotes: boolean;
+}
+
+export const DEFAULT_WIDGET_SETTINGS: WidgetSettings = {
+  includeFavorites: true,
+  includeOwnQuotes: true,
+};
+
 export interface PremiumSettings {
   selectedFont: PremiumFontKey;
   selectedBackground: BackgroundThemeKey;
@@ -113,6 +116,7 @@ export interface PremiumSettings {
   shufflePools?: { name: string; themes: BackgroundThemeKey[] }[];
   activeShuffleIndex?: number;
   fontShufflePool?: PremiumFontKey[];
+  widget?: WidgetSettings;
 }
 
 export interface PremiumState {
@@ -146,4 +150,5 @@ export type AppAction =
   | { type: 'ADD_CUSTOM_PHOTOS'; payload: string[] }
   | { type: 'REMOVE_CUSTOM_PHOTO'; payload: number }
   | { type: 'SET_SHUFFLE_POOLS'; payload: { pools: { name: string; themes: BackgroundThemeKey[] }[]; activeIndex: number } }
-  | { type: 'SET_FONT_SHUFFLE_POOL'; payload: PremiumFontKey[] };
+  | { type: 'SET_FONT_SHUFFLE_POOL'; payload: PremiumFontKey[] }
+  | { type: 'SET_WIDGET_SETTINGS'; payload: Partial<WidgetSettings> };

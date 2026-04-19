@@ -1,6 +1,6 @@
 import { DEFAULT_PREMIUM_SETTINGS, REVENUECAT_ENTITLEMENT_ID } from '@/constants/premium';
 import { AppAction, AppState, PremiumState } from '@/data/types';
-import { initializePremiumStatus } from '@/utils/premium-check';
+import { hasPremiumAccess, initializePremiumStatus } from '@/utils/premium-check';
 import {
     loadLikedIds,
     loadOnboardingComplete,
@@ -178,6 +178,22 @@ function reducer(state: AppState, action: AppAction): AppState {
           },
         },
       };
+    case 'SET_WIDGET_SETTINGS': {
+      const current = state.premium.settings.widget ?? {
+        includeFavorites: true,
+        includeOwnQuotes: true,
+      };
+      return {
+        ...state,
+        premium: {
+          ...state.premium,
+          settings: {
+            ...state.premium.settings,
+            widget: { ...current, ...action.payload },
+          },
+        },
+      };
+    }
     case 'SET_FONT_SHUFFLE_POOL':
       return {
         ...state,
@@ -296,10 +312,16 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
 
   // Sync widget data when quotes, likes, or category preferences change
   const userInterests = state.user?.interests;
+  const includeFavorites = state.premium.settings.widget?.includeFavorites ?? true;
+  // Gate "Include Own Quotes" behind premium on the data side too
+  const isPremiumUser = hasPremiumAccess(state.premium.status);
+  const includeOwnQuotes = isPremiumUser
+    ? (state.premium.settings.widget?.includeOwnQuotes ?? true)
+    : false;
   useEffect(() => {
     if (!state.hydrated || !state.onboardingComplete) return;
-    syncWidgetData(state.likedIds, state.ownQuotes, userInterests ?? []);
-  }, [state.hydrated, state.onboardingComplete, state.likedIds, state.ownQuotes, userInterests]);
+    syncWidgetData(state.likedIds, state.ownQuotes, userInterests ?? [], includeFavorites, includeOwnQuotes);
+  }, [state.hydrated, state.onboardingComplete, state.likedIds, state.ownQuotes, userInterests, includeFavorites, includeOwnQuotes]);
 
   return (
     <AppContext.Provider value={{ state, dispatch }}>

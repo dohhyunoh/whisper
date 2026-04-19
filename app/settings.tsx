@@ -23,7 +23,7 @@ export default function EditProfileScreen() {
         }} style={styles.backButton} hitSlop={12}>
           <IconSymbol name="chevron.left" size={24} color="#3A6B80" />
         </Pressable>
-        <Text style={styles.headerTitle}>Edit Profile</Text>
+        <Text style={styles.headerTitle}>Settings</Text>
         <View style={styles.headerSpacer} />
       </View>
 
@@ -63,6 +63,24 @@ export default function EditProfileScreen() {
           </View>
           <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
         </Pressable>
+
+        {/* Widget Control Row */}
+        <Pressable
+          style={styles.row}
+          onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            router.push('/widget-control');
+          }}
+        >
+          <View style={styles.rowLeft}>
+            <IconSymbol name="square.grid.2x2.fill" size={20} color="#3A6B80" />
+            <View style={styles.rowTextContainer}>
+              <Text style={styles.rowLabel}>Widget Control</Text>
+              <Text style={styles.rowValue}>Customize your home & lock screen</Text>
+            </View>
+          </View>
+          <IconSymbol name="chevron.right" size={18} color="#7B9AAA" />
+        </Pressable>
       </View>
     </View>
   );
@@ -76,19 +94,18 @@ const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'space-between',
     paddingHorizontal: 16,
     paddingVertical: 12,
   },
   backButton: {
     padding: 4,
+    width: 32,
   },
   headerTitle: {
-    flex: 1,
     fontSize: 17,
     fontWeight: '600',
     color: '#3A6B80',
-    textAlign: 'center',
-    marginRight: 32,
   },
   headerSpacer: {
     width: 32,

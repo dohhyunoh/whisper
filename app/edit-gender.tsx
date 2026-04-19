@@ -83,19 +83,18 @@ const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'space-between',
     paddingHorizontal: 16,
     paddingVertical: 12,
   },
   backButton: {
     padding: 4,
+    width: 32,
   },
   headerTitle: {
-    flex: 1,
     fontSize: 17,
     fontWeight: '600',
     color: '#3A6B80',
-    textAlign: 'center',
-    marginRight: 32,
   },
   headerSpacer: {
     width: 32,

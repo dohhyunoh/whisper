@@ -37,7 +37,9 @@ function toWidgetQuote(q: Quote | OwnQuote, isLiked: boolean): WidgetQuote {
 export async function syncWidgetData(
   likedIds: string[],
   ownQuotes: OwnQuote[],
-  interests: string[]
+  interests: string[],
+  includeFavorites: boolean = true,
+  includeOwnQuotes: boolean = true
 ): Promise<void> {
   if (Platform.OS !== 'ios') return;
 
@@ -59,11 +61,19 @@ export async function syncWidgetData(
 
     // Include short own quotes in the random pool
     const shortOwnQuotes = ownQuotes.filter((q) => q.text.length <= MAX_QUOTE_LENGTH);
-    const basePool =
+    const baseCategoryPool =
       matchingQuotes.length >= 10
         ? matchingQuotes
         : allQuotes.filter((q) => q.text.length <= MAX_QUOTE_LENGTH);
-    const randomQuotes = pickRandom([...basePool, ...shortOwnQuotes], 50).map((q) =>
+    // Exclude favorites from the category pool when Include Favorites is off
+    const basePool = includeFavorites
+      ? baseCategoryPool
+      : baseCategoryPool.filter((q) => !likedIds.includes(q.id));
+    // Add own quotes to the pool only when Include Own Quotes is on
+    const poolWithExtras = includeOwnQuotes
+      ? [...basePool, ...shortOwnQuotes]
+      : basePool;
+    const randomQuotes = pickRandom(poolWithExtras, 50).map((q) =>
       toWidgetQuote(q, likedIds.includes(q.id))
     );
 
@@ -71,9 +81,9 @@ export async function syncWidgetData(
     const likedFromAll = allQuotes.filter(
       (q) => likedIds.includes(q.id) && q.text.length <= MAX_QUOTE_LENGTH
     );
-    const likedQuotes = pickRandom(likedFromAll, 20).map((q) =>
-      toWidgetQuote(q, true)
-    );
+    const likedQuotes = includeFavorites
+      ? pickRandom(likedFromAll, 20).map((q) => toWidgetQuote(q, true))
+      : [];
 
     const widgetData: WidgetData = {
       quotes: randomQuotes,

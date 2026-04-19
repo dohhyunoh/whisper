@@ -1,0 +1,402 @@
+[
+  {
+    "id": "mood-poetry-001",
+    "text": "I have loved the stars too fondly to be fearful of the night.",
+    "author": "Sarah Williams",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-002",
+    "text": "Hope is the thing with feathers that perches in the soul.",
+    "author": "Emily Dickinson",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-003",
+    "text": "Do I dare disturb the universe? In a minute there is time for decisions and revisions which a minute will reverse.",
+    "author": "T.S. Eliot",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-004",
+    "text": "I am not what happened to me. I am what I choose to become.",
+    "author": "Carl Jung",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-005",
+    "text": "She was beautiful, but not like those girls in the magazines. She was beautiful for the way she thought.",
+    "author": "F. Scott Fitzgerald",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-006",
+    "text": "I took a deep breath and listened to the old brag of my heart: I am, I am, I am.",
+    "author": "Sylvia Plath",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-007",
+    "text": "Out of the night that covers me, black as the pit from pole to pole, I thank whatever gods may be for my unconquerable soul.",
+    "author": "William Ernest Henley",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-008",
+    "text": "I dwell in possibility.",
+    "author": "Emily Dickinson",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-009",
+    "text": "Wild nights! Wild nights! Were I with thee, wild nights should be our luxury.",
+    "author": "Emily Dickinson",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-010",
+    "text": "The wound is the place where the Light enters you.",
+    "author": "Rumi",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-011",
+    "text": "You do not have to be good. You do not have to walk on your knees for a hundred miles through the desert, repenting.",
+    "author": "Mary Oliver",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-012",
+    "text": "Tell me, what is it you plan to do with your one wild and precious life?",
+    "author": "Mary Oliver",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-013",
+    "text": "I am the master of my fate, I am the captain of my soul.",
+    "author": "William Ernest Henley",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-014",
+    "text": "If you can keep your head when all about you are losing theirs and blaming it on you.",
+    "author": "Rudyard Kipling",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-015",
+    "text": "What if I fall? Oh, but my darling, what if you fly?",
+    "author": "Erin Hanson",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-016",
+    "text": "I carry your heart with me. I carry it in my heart.",
+    "author": "E.E. Cummings",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-017",
+    "text": "She walks in beauty, like the night of cloudless climes and starry skies.",
+    "author": "Lord Byron",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-018",
+    "text": "I have spread my dreams under your feet; tread softly because you tread on my dreams.",
+    "author": "W.B. Yeats",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-019",
+    "text": "Two roads diverged in a wood, and I — I took the one less traveled by, and that has made all the difference.",
+    "author": "Robert Frost",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-020",
+    "text": "Shall I compare thee to a summer's day? Thou art more lovely and more temperate.",
+    "author": "William Shakespeare",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-021",
+    "text": "I said to my soul, be still, and wait without hope, for hope would be hope for the wrong thing.",
+    "author": "T.S. Eliot",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-022",
+    "text": "There is a crack in everything. That's how the light gets in.",
+    "author": "Leonard Cohen",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-023",
+    "text": "Still I rise.",
+    "author": "Maya Angelou",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-024",
+    "text": "You may shoot me with your words, you may cut me with your eyes, you may kill me with your hatefulness, but still, like air, I'll rise.",
+    "author": "Maya Angelou",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-025",
+    "text": "Let me not to the marriage of true minds admit impediments. Love is not love which alters when it alteration finds.",
+    "author": "William Shakespeare",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-026",
+    "text": "I measure every grief I meet with narrow, probing eyes; I wonder if it weighs like mine, or has an easier size.",
+    "author": "Emily Dickinson",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-027",
+    "text": "Come to the edge, he said. They said: We are afraid. Come to the edge. They came. He pushed them and they flew.",
+    "author": "Guillaume Apollinaire",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-028",
+    "text": "The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved.",
+    "author": "Jack Kerouac",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-029",
+    "text": "And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.",
+    "author": "Anaïs Nin",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-030",
+    "text": "I am large, I contain multitudes.",
+    "author": "Walt Whitman",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-031",
+    "text": "Keep some room in your heart for the unimaginable.",
+    "author": "Mary Oliver",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-032",
+    "text": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "author": "Oscar Wilde",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-033",
+    "text": "We loved with a love that was more than love.",
+    "author": "Edgar Allan Poe",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-034",
+    "text": "Not all those who wander are lost.",
+    "author": "J.R.R. Tolkien",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-035",
+    "text": "I have been bent and broken, but — I hope — into a better shape.",
+    "author": "Charles Dickens",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-036",
+    "text": "One need not be a chamber to be haunted; one need not be a house; the brain has corridors surpassing material place.",
+    "author": "Emily Dickinson",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-037",
+    "text": "To be, or not to be, that is the question.",
+    "author": "William Shakespeare",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-038",
+    "text": "In the middle of winter I at last discovered that there was in me an invincible summer.",
+    "author": "Albert Camus",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-039",
+    "text": "How do I love thee? Let me count the ways. I love thee to the depth and breadth and height my soul can reach.",
+    "author": "Elizabeth Barrett Browning",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-040",
+    "text": "I know why the caged bird sings.",
+    "author": "Maya Angelou",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-041",
+    "text": "The art of losing isn't hard to master.",
+    "author": "Elizabeth Bishop",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-042",
+    "text": "If I can stop one heart from breaking, I shall not live in vain.",
+    "author": "Emily Dickinson",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-043",
+    "text": "I must go down to the seas again, to the lonely sea and the sky, and all I ask is a tall ship and a star to steer her by.",
+    "author": "John Masefield",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-044",
+    "text": "The universe is not made of atoms; it's made of stories.",
+    "author": "Muriel Rukeyser",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-045",
+    "text": "Whatever you are, be a good one.",
+    "author": "Abraham Lincoln",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-046",
+    "text": "I would like to be the air that inhabits you for a moment only. I would like to be that unnoticed and that necessary.",
+    "author": "Margaret Atwood",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-047",
+    "text": "Let everything happen to you: beauty and terror. Just keep going. No feeling is final.",
+    "author": "Rainer Maria Rilke",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-048",
+    "text": "Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage.",
+    "author": "Rainer Maria Rilke",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-049",
+    "text": "I love you without knowing how, or when, or from where. I love you simply, without problems or pride.",
+    "author": "Pablo Neruda",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-050",
+    "text": "You yourself, as much as anybody in the entire universe, deserve your love and affection.",
+    "author": "Sharon Salzberg",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  }
+]

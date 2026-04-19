@@ -1,25 +1,18 @@
-import { CATEGORIES, CategoryInfo, SubcategoryInfo } from '@/constants/categories';
 import { DiscoveryCard } from '@/components/discovery-row';
+import { CATEGORIES, CategoryInfo, SubcategoryInfo } from '@/constants/categories';
 import { Category, Quote, UserData } from '@/data/types';
 
 // ---------------------------------------------------------------------------
 // Weather mood → adjective + category mappings (5 per weather for daily rotation)
 // ---------------------------------------------------------------------------
 
-const weatherAdjectives: Record<string, string> = {
-  Clear: 'Bright',
-  Cloudy: 'Cloudy',
-  Stormy: 'Stormy',
-  Windy: 'Restless',
-};
-
 const weatherCategories: Record<string, { category: Category; subcategory: string }[]> = {
   Clear: [
     { category: 'mood-boosters', subcategory: 'gratitude' },
     { category: 'mood-boosters', subcategory: 'daily-motivation' },
-    { category: 'relationships', subcategory: 'attracting-love' },
+    { category: 'mood-boosters', subcategory: 'poetry' },
     { category: 'self-love', subcategory: 'body-positivity' },
-    { category: 'empowerment', subcategory: 'finding-voice' },
+    { category: 'mood-boosters', subcategory: 'philosophy' },
   ],
   Cloudy: [
     { category: 'self-love', subcategory: 'mental-health' },
@@ -30,16 +23,16 @@ const weatherCategories: Record<string, { category: Category; subcategory: strin
   ],
   Stormy: [
     { category: 'self-love', subcategory: 'mental-health' },
-    { category: 'relationships', subcategory: 'breakups' },
-    { category: 'empowerment', subcategory: 'overcoming-obstacles' },
-    { category: 'self-love', subcategory: 'rest-recharge' },
     { category: 'mood-boosters', subcategory: 'calm' },
+    { category: 'mood-boosters', subcategory: 'manifestation' },
+    { category: 'mood-boosters', subcategory: 'philosophy' },
+    { category: 'self-love', subcategory: 'rest-recharge' },
   ],
   Windy: [
     { category: 'mood-boosters', subcategory: 'calm' },
     { category: 'self-love', subcategory: 'rest-recharge' },
     { category: 'mood-boosters', subcategory: 'philosophy' },
-    { category: 'empowerment', subcategory: 'overcoming-obstacles' },
+    { category: 'relationships', subcategory: 'family' },
     { category: 'relationships', subcategory: 'friendship' },
   ],
 };
@@ -88,10 +81,160 @@ const roleCategories: Record<string, { category: Category; subcategory: string }
     { category: 'self-love', subcategory: 'rest-recharge' },
     { category: 'empowerment', subcategory: 'overcoming-obstacles' },
     { category: 'self-love', subcategory: 'mental-health' },
-    { category: 'relationships', subcategory: 'breakups' },
+    { category: 'relationships', subcategory: 'letting-go' },
     { category: 'mood-boosters', subcategory: 'calm' },
   ],
 };
+
+// ---------------------------------------------------------------------------
+// Heart row — personalized by heartStatus + heartDetail
+// ---------------------------------------------------------------------------
+
+interface HeartRowSpec {
+  title: string;
+  subtitle: string;
+  mappings: { category: Category; subcategory: string }[];
+}
+
+function heartRowFor(user: UserData): HeartRowSpec | null {
+  const status = user.heartStatus;
+  const detail = user.heartDetail;
+
+  if (status === 'An ex-partner') {
+    if (detail === 'Letting go') {
+      return {
+        title: 'Closing the chapter',
+        subtitle: 'For the strength to walk away',
+        mappings: [
+          { category: 'relationships', subcategory: 'letting-go' },
+          { category: 'self-love', subcategory: 'self-worth' },
+          { category: 'empowerment', subcategory: 'finding-voice' },
+        ],
+      };
+    }
+    if (detail === 'Looking back') {
+      return {
+        title: 'When you miss them',
+        subtitle: 'For the nights that feel heavy',
+        mappings: [
+          { category: 'relationships', subcategory: 'letting-go' },
+          { category: 'mood-boosters', subcategory: 'manifestation' },
+          { category: 'self-love', subcategory: 'self-worth' },
+        ],
+      };
+    }
+    // Fresh wound / Scarring over / unspecified
+    return {
+      title: 'Tender hearts',
+      subtitle: 'Soft words for the mend',
+      mappings: [
+        { category: 'relationships', subcategory: 'letting-go' },
+        { category: 'self-love', subcategory: 'mental-health' },
+        { category: 'self-love', subcategory: 'rest-recharge' },
+      ],
+    };
+  }
+
+  if (['A new partner', 'A long-term partner'].includes(status)) {
+    const rough = ['Stormy seas', 'Distant'].includes(detail);
+    return rough
+      ? {
+          title: 'Weathering it together',
+          subtitle: 'For the hard stretches of love',
+          mappings: [
+            { category: 'relationships', subcategory: 'partnership' },
+            { category: 'mood-boosters', subcategory: 'calm' },
+            { category: 'empowerment', subcategory: 'finding-voice' },
+          ],
+        }
+      : {
+          title: 'In love, together',
+          subtitle: 'For the person you come home to',
+          mappings: [
+            { category: 'relationships', subcategory: 'partnership' },
+            { category: 'relationships', subcategory: 'dating' },
+            { category: 'mood-boosters', subcategory: 'gratitude' },
+          ],
+        };
+  }
+
+  if (status === 'Just me') {
+    return {
+      title: 'Beautifully solo',
+      subtitle: 'For the season of you',
+      mappings: [
+        { category: 'self-love', subcategory: 'self-worth' },
+        { category: 'relationships', subcategory: 'attracting-love' },
+        { category: 'mood-boosters', subcategory: 'manifestation' },
+      ],
+    };
+  }
+
+  if (status === 'My family/friends') {
+    return {
+      title: 'The people around you',
+      subtitle: 'For the bonds that carry you',
+      mappings: [
+        { category: 'relationships', subcategory: 'family' },
+        { category: 'relationships', subcategory: 'friendship' },
+        { category: 'mood-boosters', subcategory: 'gratitude' },
+      ],
+    };
+  }
+
+  return null;
+}
+
+// ---------------------------------------------------------------------------
+// Inner path row — personalized by faithDetail (inward spiritual practices)
+// ---------------------------------------------------------------------------
+
+function innerPathRowFor(user: UserData): HeartRowSpec | null {
+  switch (user.faithDetail) {
+    case 'Stoicism':
+      return {
+        title: 'Your stoic practice',
+        subtitle: 'Calm mind, steady hand',
+        mappings: [
+          { category: 'mood-boosters', subcategory: 'philosophy' },
+          { category: 'mood-boosters', subcategory: 'calm' },
+          { category: 'self-love', subcategory: 'mental-health' },
+        ],
+      };
+    case 'Manifestation':
+      return {
+        title: 'Speak it into being',
+        subtitle: 'Daily affirmations for the version of you becoming',
+        mappings: [
+          { category: 'mood-boosters', subcategory: 'manifestation' },
+          { category: 'self-love', subcategory: 'self-worth' },
+          { category: 'mood-boosters', subcategory: 'daily-motivation' },
+        ],
+      };
+    case 'Mindfulness':
+      return {
+        title: 'Present moment',
+        subtitle: 'Small returns to now',
+        mappings: [
+          { category: 'mood-boosters', subcategory: 'calm' },
+          { category: 'mood-boosters', subcategory: 'gratitude' },
+          { category: 'self-love', subcategory: 'rest-recharge' },
+        ],
+      };
+    case 'Poetry':
+      return {
+        title: 'Words that linger',
+        subtitle: 'For the part of you that reads slowly',
+        mappings: [
+          { category: 'mood-boosters', subcategory: 'poetry' },
+          { category: 'self-love', subcategory: 'self-worth' },
+          { category: 'mood-boosters', subcategory: 'calm' },
+        ],
+      };
+    default:
+      return null;
+  }
+}
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -240,14 +383,13 @@ export function buildDiscoveryRows(
   const rawWeather = user.weatherMood || 'Cloudy';
   const weather = rawWeather.charAt(0).toUpperCase() + rawWeather.slice(1).toLowerCase();
 
-  const hookAdj = weatherAdjectives[weather] || weather;
   const weatherPool = weatherCategories[weather] || weatherCategories.Cloudy;
   const hookMappings = getDailyPicks(weatherPool, dayOfYear);
 
   const name = user.name;
   const hookTitle = name
-    ? `Curated for ${name}'s ${hookAdj} Mind`
-    : `Curated for a ${hookAdj} Mind`;
+    ? `Curated for ${name}'s ${weather} Mind`
+    : `Curated for a ${weather} Mind`;
 
   rows.push({
     title: hookTitle,
@@ -256,22 +398,46 @@ export function buildDiscoveryRows(
   });
 
   // -----------------------------------------------------------------------
-  // Row 2: The Deep Identity — 3 picked from 5 role-mapped subcategories
+  // Row 2: Heart row — personalized by heartStatus + heartDetail
+  // -----------------------------------------------------------------------
+  const heart = heartRowFor(user);
+  if (heart) {
+    const heartCards = addCards(heart.mappings, dayOfYear * 5);
+    if (heartCards.length > 0) {
+      rows.push({ title: heart.title, subtitle: heart.subtitle, items: heartCards });
+    }
+  }
+
+  // -----------------------------------------------------------------------
+  // Row 3: The Deep Identity — 3 picked from 5 role-mapped subcategories
   // -----------------------------------------------------------------------
   const role = user.heaviestRole || '';
   const rolePool = roleCategories[role] || [];
   if (rolePool.length > 0) {
     const rolePicks = getDailyPicks(rolePool, dayOfYear);
-
-    rows.push({
-      title: `Fuel for ${role}`,
-      subtitle: 'Matched to the role you carry most',
-      items: addCards(rolePicks, dayOfYear * 7),
-    });
+    const roleCards = addCards(rolePicks, dayOfYear * 7);
+    if (roleCards.length > 0) {
+      rows.push({
+        title: `Fuel for ${role}`,
+        subtitle: 'Matched to the role you carry most',
+        items: roleCards,
+      });
+    }
   }
 
   // -----------------------------------------------------------------------
-  // Row 3: Today's Free Unlock (free users only)
+  // Row 4: Inner path — if user has an inward spiritual practice
+  // -----------------------------------------------------------------------
+  const inner = innerPathRowFor(user);
+  if (inner) {
+    const innerCards = addCards(inner.mappings, dayOfYear * 9);
+    if (innerCards.length > 0) {
+      rows.push({ title: inner.title, subtitle: inner.subtitle, items: innerCards });
+    }
+  }
+
+  // -----------------------------------------------------------------------
+  // Row 5: Today's Free Unlock (free users only)
   // -----------------------------------------------------------------------
   if (todayUnlocked) {
     const todayCat = findCategory(todayUnlocked.category);
@@ -302,7 +468,7 @@ export function buildDiscoveryRows(
   }
 
   // -----------------------------------------------------------------------
-  // Row 4: Exploration — remaining subcategories, seeded shuffle daily
+  // Row 6: Exploration — remaining subcategories, seeded shuffle daily
   // -----------------------------------------------------------------------
   const explorationMappings: { category: Category; subcategory?: string }[] = [];
   for (const cat of CATEGORIES) {

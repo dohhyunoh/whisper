@@ -35,7 +35,7 @@ export default function FaithBaseScreen() {
             type: 'SET_USER',
             payload: { ...defaultUserData, ...state.user, lightSource: selected },
           });
-          if (selected === 'Up') {
+          if (selected === 'Up' || selected === 'In') {
             router.push('/onboarding/faith-detail');
           } else {
             router.push('/onboarding/identity-role');

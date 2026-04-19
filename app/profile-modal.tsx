@@ -106,7 +106,7 @@ export default function ProfileModal() {
         <Text style={styles.headerTitle}>Discover</Text>
         <Pressable onPress={() => {
           if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-          router.push('/edit-profile');
+          router.push('/settings');
         }} style={styles.gearButton} hitSlop={12}>
           <IconSymbol name="gearshape.fill" size={22} color="#3A6B80" />
         </Pressable>
@@ -133,7 +133,7 @@ export default function ProfileModal() {
             style={styles.quickAction}
             onPress={() => {
               if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-              router.push({ pathname: '/category-feed', params: { favorites: 'true' } });
+              router.push('/favorites');
             }}
           >
             <View style={[styles.quickIconWrap, { backgroundColor: 'rgba(207,119,119,0.12)' }]}>

@@ -10,7 +10,6 @@ import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-na
 const optionsMap: Record<string, string[]> = {
   Up: ['Christianity', 'Islam', 'Hinduism', 'Buddhism', 'Judaism', 'General Spirituality'],
   In: ['Mindfulness', 'Manifestation', 'Stoicism', 'Poetry'],
-  Out: ['Mindfulness', 'Manifestation', 'Stoicism', 'Poetry'],
 };
 
 export default function FaithDetailScreen() {

@@ -25,11 +25,13 @@ function getCategoryLabel(category: Category, subcategory?: string): string {
 }
 
 export default function CategoryFeedScreen() {
-  const { category, subcategory, favorites, ownQuotes: ownQuotesParam } = useLocalSearchParams<{
+  const { category, subcategory, favorites, ownQuotes: ownQuotesParam, ownQuoteId, favoriteId } = useLocalSearchParams<{
     category?: Category;
     subcategory?: string;
     favorites?: string;
     ownQuotes?: string;
+    ownQuoteId?: string;
+    favoriteId?: string;
   }>();
   const router = useRouter();
   const insets = useSafeAreaInsets();
@@ -39,20 +41,23 @@ export default function CategoryFeedScreen() {
 
   const { likedIds } = useLikes();
   const categoryQuotes = useQuotes(category, subcategory as SubCategory);
-  const favoriteQuotes = useQuotesByIds(likedIds);
+  const favoriteQuotes = useQuotesByIds(favoriteId ? [favoriteId] : likedIds);
 
   const isFavorites = favorites === 'true';
   const isOwnQuotes = ownQuotesParam === 'true';
 
   const ownQuotesAsQuotes: Quote[] = useMemo(() => {
-    return state.ownQuotes.map((oq) => ({
+    const source = ownQuoteId
+      ? state.ownQuotes.filter((oq) => oq.id === ownQuoteId)
+      : state.ownQuotes;
+    return source.map((oq) => ({
       id: oq.id,
       text: oq.text,
       author: oq.author || 'You',
       source: oq.source,
       category: 'empowerment' as Category,
     }));
-  }, [state.ownQuotes]);
+  }, [state.ownQuotes, ownQuoteId]);
 
   const quotes = isOwnQuotes ? ownQuotesAsQuotes : isFavorites ? favoriteQuotes : categoryQuotes;
   const title = isOwnQuotes ? 'Own Quotes' : isFavorites ? 'Favorites' : getCategoryLabel(category!, subcategory);

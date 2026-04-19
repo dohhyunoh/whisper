@@ -166,11 +166,9 @@ export function usePremium() {
   const isCategoryLocked = useCallback(
     (category: Category): boolean => {
       if (isPremium) return false;
-      if (!isCategoryPremium(category)) return false;
-      // A category is unlocked if today's free subcategory belongs to it
-      return category !== todayUnlockedSubcategory.category;
+      return isCategoryPremium(category);
     },
-    [isPremium, todayUnlockedSubcategory]
+    [isPremium]
   );
 
   const isSubcategoryLocked = useCallback(

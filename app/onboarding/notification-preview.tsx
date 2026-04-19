@@ -1,4 +1,5 @@
 import { useAppContext } from '@/context/app-context';
+import { getFirstQuote } from '@/utils/first-quote';
 import { requestPermissions, scheduleQuoteNotifications } from '@/utils/notifications';
 import { checkTrialEligibility } from '@/utils/revenuecat';
 import * as Haptics from 'expo-haptics';
@@ -72,7 +73,7 @@ export default function NotificationPreviewScreen() {
   const controlsOpacity = useSharedValue(0);
   const bottomOpacity = useSharedValue(0);
 
-  const quoteText = state.user?.stuckResponse || FALLBACK_QUOTE;
+  const quoteText = getFirstQuote() || FALLBACK_QUOTE;
   const typedQuote = useTypewriter(quoteText, 800, 35);
 
   useEffect(() => {

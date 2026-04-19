@@ -1,7 +1,7 @@
 import { useAppContext } from '@/context/app-context';
-import { defaultUserData } from '@/data/types';
 import quotesData from '@/data/quotes';
 import { Quote } from '@/data/types';
+import { setFirstQuote } from '@/utils/first-quote';
 import { Events, posthog } from '@/utils/posthog';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -21,7 +21,7 @@ const allQuotes: Quote[] = quotesData as Quote[];
 
 export default function SneakPeekScreen() {
   const router = useRouter();
-  const { state, dispatch } = useAppContext();
+  const { state } = useAppContext();
   const insets = useSafeAreaInsets();
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
@@ -62,10 +62,7 @@ export default function SneakPeekScreen() {
   useEffect(() => {
     posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'sneak_peek' });
     // Save the quote so notification-preview can reuse it
-    dispatch({
-      type: 'SET_USER',
-      payload: { ...defaultUserData, ...state.user, stuckResponse: `"${quote.text}" — ${quote.author}` },
-    });
+    setFirstQuote(`"${quote.text}" — ${quote.author}`);
   }, []);
 
   useEffect(() => {

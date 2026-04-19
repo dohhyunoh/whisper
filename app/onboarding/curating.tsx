@@ -26,7 +26,13 @@ function deriveInterests(user: UserData): string[] {
   if (user.faithDetail === 'Hinduism') interests.push('religion:hinduism');
   if (user.faithDetail === 'Buddhism') interests.push('religion:buddhism');
   if (['Judaism', 'General Spirituality'].includes(user.faithDetail)) interests.push('religion:general-spirituality');
-  if (['Mindfulness', 'Stoicism'].includes(user.faithDetail)) interests.push('religion:general-spirituality');
+
+  // Inward paths (lightSource=In) → mood-boosters subs
+  if (user.faithDetail === 'Mindfulness') interests.push('mood-boosters:calm');
+  if (user.faithDetail === 'Manifestation') {
+    interests.push('mood-boosters:manifestation', 'self-love:self-worth', 'mood-boosters:daily-motivation');
+  }
+  if (user.faithDetail === 'Stoicism') interests.push('mood-boosters:philosophy');
 
   // Emotion → self-love
   if (['Anxious', 'Exhausted'].includes(user.primaryEmotion)) {
@@ -41,12 +47,16 @@ function deriveInterests(user: UserData): string[] {
     interests.push('self-love:body-positivity');
   }
 
-  // Relationships
-  if (user.heartStatus === 'An ex-partner') interests.push('relationships:breakups');
+  // Relationships — ex-partner path
+  if (user.heartStatus === 'An ex-partner') {
+    interests.push('relationships:letting-go');
+  }
   if (['A new partner', 'A long-term partner'].includes(user.heartStatus)) {
     interests.push('relationships:partnership', 'relationships:dating');
   }
-  if (user.heartStatus === 'Just me') interests.push('self-love:self-worth');
+  if (user.heartStatus === 'Just me') {
+    interests.push('self-love:self-worth', 'relationships:attracting-love');
+  }
   if (user.heartStatus === 'My family/friends') {
     interests.push('relationships:family', 'relationships:friendship');
   }

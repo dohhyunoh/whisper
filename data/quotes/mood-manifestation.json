@@ -1,0 +1,442 @@
+[
+  {
+    "id": "mood-manifest-001",
+    "text": "I am a goddess.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-002",
+    "text": "I am magnetic.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-003",
+    "text": "I am enough, exactly as I am.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-004",
+    "text": "I am worthy of love.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-005",
+    "text": "I am deeply loved.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-006",
+    "text": "I am radiant.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-007",
+    "text": "I am abundant.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-008",
+    "text": "I am confident in who I am.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-009",
+    "text": "I am soft and I am strong.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-010",
+    "text": "I am beautiful inside and out.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-011",
+    "text": "I am chosen.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-012",
+    "text": "I am becoming who I was born to be.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-013",
+    "text": "I am a magnet for miracles.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-014",
+    "text": "I am exactly where I need to be.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-015",
+    "text": "I am proud of the woman I am.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-016",
+    "text": "I am held by the universe.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-017",
+    "text": "I glow from the inside out.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-manifest-018",
+    "text": "I trust myself completely.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-019",
+    "text": "I attract the love I deserve.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-020",
+    "text": "I am worthy of soft love.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-021",
+    "text": "Good things are coming to me.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-022",
+    "text": "It's already coming to me.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-023",
+    "text": "I am going to get everything I desire.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-024",
+    "text": "My dreams are on their way.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-025",
+    "text": "I am safe. I am loved. I am whole.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-026",
+    "text": "I am rooted in peace.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-027",
+    "text": "I am a soft landing for myself.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-028",
+    "text": "I bloom where I am planted.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-029",
+    "text": "I am the love I have been seeking.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-030",
+    "text": "Abundance flows to me easily.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-031",
+    "text": "I am rich in all ways.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-manifest-032",
+    "text": "I am wildly loved.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-manifest-033",
+    "text": "I am my own safe place.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-034",
+    "text": "My energy is a gift.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-035",
+    "text": "I am a work of art.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-manifest-036",
+    "text": "I am the main character.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-manifest-037",
+    "text": "My heart is open and healing.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-038",
+    "text": "I am led by love.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-039",
+    "text": "I choose joy today.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-040",
+    "text": "I am thriving.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-041",
+    "text": "I am allowed to take up space.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-042",
+    "text": "My voice matters.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-043",
+    "text": "I am proud of how far I've come.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-044",
+    "text": "I am a beautiful soul.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-045",
+    "text": "I attract kind, loving people.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-046",
+    "text": "I am graceful under pressure.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-047",
+    "text": "I am healing, day by day.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-048",
+    "text": "My future is bright.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-049",
+    "text": "I am magnetic to my dreams.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-050",
+    "text": "I trust divine timing.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-051",
+    "text": "I am a force of nature.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-052",
+    "text": "My worth is not up for debate.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-manifest-053",
+    "text": "I am becoming softer and stronger.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-054",
+    "text": "I am a masterpiece in progress.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-manifest-055",
+    "text": "I choose me.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "manifestation",
+    "tone": "direct"
+  }
+]

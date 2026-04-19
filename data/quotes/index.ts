@@ -10,7 +10,7 @@ import selfLoveRestRecharge from './self-love-rest-recharge.json';
 import relationshipsDating from './relationships-dating.json';
 import relationshipsPartnership from './relationships-partnership.json';
 import relationshipsFriendship from './relationships-friendship.json';
-import relationshipsBreakups from './relationships-breakups.json';
+import relationshipsLettingGo from './relationships-letting-go.json';
 import relationshipsFamily from './relationships-family.json';
 import relationshipsAttractingLove from './relationships-attracting-love.json';
 
@@ -31,7 +31,9 @@ import religionBuddhism from './religion-buddhism.json';
 import moodDailyMotivation from './mood-daily-motivation.json';
 import moodCalm from './mood-calm.json';
 import moodGratitude from './mood-gratitude.json';
+import moodManifestation from './mood-manifestation.json';
 import moodPhilosophy from './mood-philosophy.json';
+import moodPoetry from './mood-poetry.json';
 
 const allQuotes: Quote[] = [
   // Self-Love & Wellness
@@ -43,7 +45,7 @@ const allQuotes: Quote[] = [
   ...relationshipsDating,
   ...relationshipsPartnership,
   ...relationshipsFriendship,
-  ...relationshipsBreakups,
+  ...relationshipsLettingGo,
   ...relationshipsFamily,
   ...relationshipsAttractingLove,
   // Empowerment & Career
@@ -61,7 +63,9 @@ const allQuotes: Quote[] = [
   ...moodDailyMotivation,
   ...moodCalm,
   ...moodGratitude,
+  ...moodManifestation,
   ...moodPhilosophy,
+  ...moodPoetry,
 ] as Quote[];
 
 export default allQuotes;

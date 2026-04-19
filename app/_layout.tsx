@@ -88,7 +88,7 @@ export default function RootLayout() {
               }}
             />
             <Stack.Screen
-              name="edit-profile"
+              name="settings"
               options={{
                 presentation: 'card',
                 headerShown: false,
@@ -115,7 +115,25 @@ export default function RootLayout() {
               }}
             />
             <Stack.Screen
+              name="widget-control"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen
               name="own-quotes"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen
+              name="favorites"
               options={{
                 presentation: 'card',
                 headerShown: false,

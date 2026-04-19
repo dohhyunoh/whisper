@@ -22,7 +22,7 @@ export const RELATIONSHIP_SUBCATEGORIES: SubcategoryInfo[] = [
   { key: 'dating', label: 'Dating' },
   { key: 'partnership', label: 'Partnership' },
   { key: 'friendship', label: 'Friendship' },
-  { key: 'breakups', label: 'Letting Go' },
+  { key: 'letting-go', label: 'Letting Go' },
   { key: 'family', label: 'Family' },
   { key: 'attracting-love', label: 'Attracting Love' },
 ];
@@ -46,7 +46,9 @@ export const MOOD_BOOSTER_SUBCATEGORIES: SubcategoryInfo[] = [
   { key: 'daily-motivation', label: 'Daily Motivation' },
   { key: 'calm', label: 'Calm' },
   { key: 'gratitude', label: 'Gratitude' },
+  { key: 'manifestation', label: 'Manifestation' },
   { key: 'philosophy', label: 'Philosophy' },
+  { key: 'poetry', label: 'Poetry' },
 ];
 
 export const CATEGORIES: CategoryInfo[] = [
@@ -58,13 +60,13 @@ export const CATEGORIES: CategoryInfo[] = [
 ];
 
 
-// Premium locking - categories that are always free
+// Premium locking - categories that are always free (all subs free, unless listed in LOCKED_SUBCATEGORIES)
 export const FREE_CATEGORIES: Category[] = ['empowerment', 'mood-boosters'];
 
-// Categories that require premium (except for daily rotation)
+// Categories where every sub is premium (except today's daily unlock)
 export const LOCKED_CATEGORIES: Category[] = ['self-love', 'relationships', 'religion'];
 
-// All locked subcategories in rotation order
+// All locked subcategories in rotation order (drives daily free unlock)
 export const DAILY_UNLOCK_ORDER: { category: Category; subcategory: string }[] = [
   // Self-Love
   ...SELF_LOVE_SUBCATEGORIES.map((s) => ({ category: 'self-love' as Category, subcategory: s.key })),
@@ -84,3 +86,4 @@ export function getTodayUnlockedSubcategory(): { category: Category; subcategory
 export function isCategoryPremium(category: Category): boolean {
   return LOCKED_CATEGORIES.includes(category);
 }
+

@@ -113,6 +113,7 @@ const DISMISS_THRESHOLD = 120;
 export function ShareSheet({ visible, onClose, quote, onCaptureImage }: ShareSheetProps) {
   const insets = useSafeAreaInsets();
   const sheetHeight = SCREEN_HEIGHT - TOP_GAP;
+  const animatedDistance = sheetHeight;
   const translateY = useSharedValue(sheetHeight);
   const backdropOpacity = useSharedValue(0);
   const [imageUri, setImageUri] = useState<string | null>(null);
@@ -174,7 +175,7 @@ export function ShareSheet({ visible, onClose, quote, onCaptureImage }: ShareShe
       translateY.value = withTiming(0, { duration: DURATION });
       backdropOpacity.value = withTiming(1, { duration: DURATION });
     } else {
-      translateY.value = withTiming(sheetHeight, { duration: DURATION });
+      translateY.value = withTiming(animatedDistance, { duration: DURATION });
       backdropOpacity.value = withTiming(0, { duration: DURATION });
     }
   }, [visible]);
@@ -188,23 +189,23 @@ export function ShareSheet({ visible, onClose, quote, onCaptureImage }: ShareShe
   }));
 
   const dismiss = useCallback(() => {
-    translateY.value = withTiming(sheetHeight, { duration: DURATION });
+    translateY.value = withTiming(animatedDistance, { duration: DURATION });
     backdropOpacity.value = withTiming(0, { duration: DURATION }, () => {
       runOnJS(onClose)();
     });
-  }, [onClose, sheetHeight]);
+  }, [onClose, animatedDistance]);
 
   // Swipe-down gesture to dismiss
   const panGesture = Gesture.Pan()
     .onUpdate((e) => {
       if (e.translationY > 0) {
         translateY.value = e.translationY;
-        backdropOpacity.value = 1 - (e.translationY / sheetHeight) * 0.8;
+        backdropOpacity.value = 1 - (e.translationY / animatedDistance) * 0.8;
       }
     })
     .onEnd((e) => {
       if (e.translationY > DISMISS_THRESHOLD || e.velocityY > 500) {
-        translateY.value = withTiming(sheetHeight, { duration: DURATION });
+        translateY.value = withTiming(animatedDistance, { duration: DURATION });
         backdropOpacity.value = withTiming(0, { duration: DURATION }, () => {
           runOnJS(onClose)();
         });
