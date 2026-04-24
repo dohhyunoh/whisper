@@ -398,5 +398,111 @@
     "category": "mood-boosters",
     "subcategory": "poetry",
     "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-051",
+    "text": "It is always darkest just before the Day dawneth.",
+    "author": "Thomas Fuller",
+    "source": "A Pisgah-Sight of Palestine and the Confines Thereof",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-052",
+    "text": "If Winter comes, can Spring be far behind?",
+    "author": "Percy Bysshe Shelley",
+    "source": "Ode to the West Wind",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-053",
+    "text": "Though she be but little, she is fierce.",
+    "author": "William Shakespeare",
+    "source": "A Midsummer Night's Dream",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-054",
+    "text": "There are more things in heaven and earth, Horatio, than are dreamt of in your philosophy.",
+    "author": "William Shakespeare",
+    "source": "Hamlet",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-055",
+    "text": "All that we see or seem is but a dream within a dream.",
+    "author": "Edgar Allan Poe",
+    "source": "A Dream Within a Dream",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-056",
+    "text": "I wandered lonely as a cloud that floats on high o'er vales and hills.",
+    "author": "William Wordsworth",
+    "source": "I Wandered Lonely as a Cloud",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-057",
+    "text": "Out of suffering have emerged the strongest souls; the most massive characters are seared with scars.",
+    "author": "Khalil Gibran",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-058",
+    "text": "My candle burns at both ends; it will not last the night; but ah, my foes, and oh, my friends—it gives a lovely light!",
+    "author": "Edna St. Vincent Millay",
+    "source": "First Fig",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-059",
+    "text": "Better by far you should forget and smile than that you should remember and be sad.",
+    "author": "Christina Rossetti",
+    "source": "Remember",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-060",
+    "text": "So much depends upon a red wheel barrow glazed with rain water beside the white chickens.",
+    "author": "William Carlos Williams",
+    "source": "The Red Wheelbarrow",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-061",
+    "text": "The world is so full of a number of things, I'm sure we should all be as happy as kings.",
+    "author": "Robert Louis Stevenson",
+    "source": "A Child's Garden of Verses",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-062",
+    "text": "The temple bell stops — but the sound keeps coming out of the flowers.",
+    "author": "Matsuo Bashō",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
   }
 ]
