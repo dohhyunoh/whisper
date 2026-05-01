@@ -124,12 +124,18 @@ export interface PremiumState {
   settings: PremiumSettings;
 }
 
+export interface MoodHistoryEntry {
+  date: string; // YYYY-MM-DD
+  mood: string; // mood id, e.g. 'clear'
+}
+
 export interface AppState {
   user: UserData | null;
   onboardingComplete: boolean;
   likedIds: string[];
   ownQuotes: OwnQuote[];
   streakDates: string[];
+  moodHistory: MoodHistoryEntry[];
   hydrated: boolean;
   premium: PremiumState;
 }
@@ -138,7 +144,7 @@ export type AppAction =
   | { type: 'SET_USER'; payload: UserData }
   | { type: 'COMPLETE_ONBOARDING' }
   | { type: 'TOGGLE_LIKE'; payload: string }
-  | { type: 'HYDRATE'; payload: { user: UserData | null; onboardingComplete: boolean; likedIds: string[]; ownQuotes: OwnQuote[]; streakDates: string[]; premium: PremiumState } }
+  | { type: 'HYDRATE'; payload: { user: UserData | null; onboardingComplete: boolean; likedIds: string[]; ownQuotes: OwnQuote[]; streakDates: string[]; moodHistory: MoodHistoryEntry[]; premium: PremiumState } }
   | { type: 'SET_PREMIUM_STATUS'; payload: PremiumStatus }
   | { type: 'SET_PREMIUM_FONT'; payload: PremiumFontKey }
   | { type: 'SET_PREMIUM_BACKGROUND'; payload: BackgroundThemeKey }
@@ -146,6 +152,7 @@ export type AppAction =
   | { type: 'EDIT_OWN_QUOTE'; payload: OwnQuote }
   | { type: 'REMOVE_OWN_QUOTE'; payload: string }
   | { type: 'RECORD_DAILY_OPEN'; payload: string }
+  | { type: 'RECORD_DAILY_CHECKIN'; payload: { date: string; moodId: string; moodLabel: string } }
   | { type: 'SET_CUSTOM_PHOTO'; payload: string } // deprecated
   | { type: 'ADD_CUSTOM_PHOTOS'; payload: string[] }
   | { type: 'REMOVE_CUSTOM_PHOTO'; payload: number }

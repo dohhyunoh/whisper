@@ -17,7 +17,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const allQuotes: Quote[] = quotesData as Quote[];
 
-export default function ProfileModal() {
+export default function DiscoveryFeed() {
   const insets = useSafeAreaInsets();
   const { state, dispatch } = useAppContext();
   const { likedIds } = useLikes();
@@ -49,7 +49,7 @@ export default function ProfileModal() {
       isSubcategoryLocked,
       isPremium ? undefined : todayUnlockedSubcategory,
     ),
-    [user.weatherMood, user.heaviestRole, user.name, interests, isCategoryLocked, isSubcategoryLocked, isPremium, todayUnlockedSubcategory],
+    [user.weatherMood, user.heaviestRole, user.heartStatus, user.heartDetail, user.name, interests, isCategoryLocked, isSubcategoryLocked, isPremium, todayUnlockedSubcategory],
   );
 
   const handleToggle = useCallback((card: DiscoveryCard) => {

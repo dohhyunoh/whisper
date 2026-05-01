@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { OwnQuote, PremiumSettings, PremiumStatus, UserData } from '@/data/types';
+import { MoodHistoryEntry, OwnQuote, PremiumSettings, PremiumStatus, UserData } from '@/data/types';
 
 export interface NotificationPrefs {
   perDay: number;
@@ -17,6 +17,7 @@ const KEYS = {
   PREMIUM_STATUS: '@whisper_premium_status',
   PREMIUM_SETTINGS: '@whisper_premium_settings',
   STREAK_DATES: '@whisper_streak_dates',
+  MOOD_HISTORY: '@whisper_mood_history',
 };
 
 export async function loadUser(): Promise<UserData | null> {
@@ -99,4 +100,13 @@ export async function loadStreakDates(): Promise<string[]> {
 
 export async function saveStreakDates(dates: string[]): Promise<void> {
   await AsyncStorage.setItem(KEYS.STREAK_DATES, JSON.stringify(dates));
+}
+
+export async function loadMoodHistory(): Promise<MoodHistoryEntry[]> {
+  const raw = await AsyncStorage.getItem(KEYS.MOOD_HISTORY);
+  return raw ? JSON.parse(raw) : [];
+}
+
+export async function saveMoodHistory(history: MoodHistoryEntry[]): Promise<void> {
+  await AsyncStorage.setItem(KEYS.MOOD_HISTORY, JSON.stringify(history));
 }

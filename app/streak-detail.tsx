@@ -1,106 +1,131 @@
-import CloudIconSvg from '@/assets/svg/streak/CloudIconSvg';
-import StormIconSvg from '@/assets/svg/streak/StormIconSvg';
-import SunIconSvg from '@/assets/svg/streak/SunIconSvg';
-import WindIconSvg from '@/assets/svg/streak/WindIconSvg';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
-import { computeStreak } from '@/utils/streak';
+import { findMoodByLabel, MOODS } from '@/data/moods';
+import { computeMoodStreak, computeStreak, getTodayDateString } from '@/utils/streak';
+import { RiveFileFactory, RiveView } from '@rive-app/react-native';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
-import React, { useEffect } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useMemo, useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Animated, {
-  useSharedValue,
+  Easing,
   useAnimatedStyle,
+  useSharedValue,
+  withDelay,
   withRepeat,
   withSequence,
   withTiming,
-  withDelay,
-  Easing,
 } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Svg, { Circle } from 'react-native-svg';
 
+type RiveFile = Awaited<ReturnType<typeof RiveFileFactory.fromSource>>;
+
 const MAX_STREAK_DISPLAY = 30;
-const RING_SIZE = 180;
-const STROKE_WIDTH = 8;
+const RING_SIZE = 170;
+const STROKE_WIDTH = 10;
 const RADIUS = (RING_SIZE - STROKE_WIDTH) / 2;
 const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
+const RIVE_SIZE = 180;
+const WEEKDAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
-const MOOD_ICON_SIZE = 22;
-
-const MOOD_CONFIG = {
+const MOOD_SUPPORT: Record<string, { headline: string; encouragement: string }> = {
   clear: {
-    ringColor: '#89CFF0',
-    bgTint: 'rgba(137,207,240,0.1)',
-    message: 'Your skies are clearing — keep going!',
-    icon: (color: string) => <SunIconSvg size={MOOD_ICON_SIZE} color={color} />,
-    label: 'Clear',
+    headline: "It's a bright one. Soak it in.",
+    encouragement: 'Your skies are clearing — keep going!',
   },
   cloudy: {
-    ringColor: '#A0B4C8',
-    bgTint: 'rgba(160,180,200,0.1)',
-    message: 'The clouds are lifting, day by day.',
-    icon: (color: string) => <CloudIconSvg size={MOOD_ICON_SIZE} color={color} />,
-    label: 'Cloudy',
+    headline: "It's okay to have cloudy days. You're still showing up.",
+    encouragement: 'The clouds are lifting, day by day.',
   },
   stormy: {
-    ringColor: '#8DA399',
-    bgTint: 'rgba(141,163,153,0.1)',
-    message: 'Even through storms, you showed up.',
-    icon: (color: string) => <StormIconSvg size={MOOD_ICON_SIZE} color={color} />,
-    label: 'Stormy',
+    headline: "It's okay to feel the storm. You're standing strong.",
+    encouragement: 'Even through storms, you showed up.',
   },
   windy: {
-    ringColor: '#BFA6C9',
-    bgTint: 'rgba(191,166,201,0.1)',
-    message: 'Finding your calm, one day at a time.',
-    icon: (color: string) => <WindIconSvg size={MOOD_ICON_SIZE} color={color} />,
-    label: 'Windy',
+    headline: "It's okay to feel restless. You're finding your center.",
+    encouragement: 'Finding your calm, one day at a time.',
   },
 };
 
-type MoodKey = keyof typeof MOOD_CONFIG;
-
-const AnimatedCircle = Animated.createAnimatedComponent(Circle);
+function getCurrentWeekDates(): string[] {
+  // Returns 7 ISO dates from Monday → Sunday for the current week (local time).
+  const now = new Date();
+  now.setHours(0, 0, 0, 0);
+  const day = now.getDay(); // 0=Sun..6=Sat
+  const offsetToMonday = (day + 6) % 7; // Mon=0, Sun=6
+  const monday = new Date(now);
+  monday.setDate(now.getDate() - offsetToMonday);
+  return Array.from({ length: 7 }, (_, i) => {
+    const d = new Date(monday);
+    d.setDate(monday.getDate() + i);
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  });
+}
 
 export default function StreakDetail() {
   const insets = useSafeAreaInsets();
-  const { state, dispatch } = useAppContext();
+  const { state } = useAppContext();
   const streak = computeStreak(state.streakDates);
   const progress = Math.min(streak / MAX_STREAK_DISPLAY, 1);
 
-  const weatherMood = (state.user?.weatherMood || 'clear') as MoodKey;
-  const mood = MOOD_CONFIG[weatherMood] || MOOD_CONFIG.clear;
+  const currentMood = findMoodByLabel(state.user?.weatherMood) ?? MOODS[0];
+  const ringColor = currentMood.color;
+  const support = MOOD_SUPPORT[currentMood.id] ?? MOOD_SUPPORT.clear;
 
-  // Breathing animation
+  const weekDates = useMemo(() => getCurrentWeekDates(), []);
+  const today = getTodayDateString();
+  const streakSet = useMemo(() => new Set(state.streakDates), [state.streakDates]);
+
+  const moodStreak = useMemo(() => {
+    const computed = computeMoodStreak(state.moodHistory);
+    if (computed) return computed;
+    if (currentMood) return { mood: currentMood.id, count: 1 };
+    return null;
+  }, [state.moodHistory, currentMood]);
+  const moodStreakInfo = useMemo(() => {
+    if (!moodStreak) return null;
+    const m = MOODS.find((x) => x.id === moodStreak.mood);
+    if (!m) return null;
+    return { mood: m, count: moodStreak.count };
+  }, [moodStreak]);
+
+  const [riveFile, setRiveFile] = useState<RiveFile | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    RiveFileFactory.fromSource(currentMood.rive, undefined)
+      .then((f) => {
+        if (!cancelled) setRiveFile(f);
+      })
+      .catch((err) => console.warn('Failed to load Rive file for streak-detail:', err));
+    return () => {
+      cancelled = true;
+    };
+  }, [currentMood.id]);
+
   const breathScale = useSharedValue(1);
-  // Arc animation
   const arcProgress = useSharedValue(0);
 
   useEffect(() => {
-    // Greeting pulse then breathing loop
     breathScale.value = withSequence(
-      withTiming(1.08, { duration: 400, easing: Easing.out(Easing.ease) }),
+      withTiming(1.06, { duration: 400, easing: Easing.out(Easing.ease) }),
       withTiming(1.0, { duration: 300 }),
       withDelay(
         200,
         withRepeat(
           withSequence(
-            withTiming(1.03, { duration: 1500, easing: Easing.inOut(Easing.ease) }),
+            withTiming(1.025, { duration: 1500, easing: Easing.inOut(Easing.ease) }),
             withTiming(1.0, { duration: 1500, easing: Easing.inOut(Easing.ease) }),
           ),
           -1,
         ),
       ),
     );
-
-    // Arc sweep in
-    arcProgress.value = withTiming(progress, {
-      duration: 1000,
-      easing: Easing.out(Easing.cubic),
-    });
+    arcProgress.value = withTiming(progress, { duration: 1000, easing: Easing.out(Easing.cubic) });
   }, [progress]);
 
   const breathingStyle = useAnimatedStyle(() => ({
@@ -108,11 +133,6 @@ export default function StreakDetail() {
   }));
 
   const arcOffset = CIRCUMFERENCE * (1 - progress);
-
-  const setMood = (key: MoodKey) => {
-    if (!state.user) return;
-    dispatch({ type: 'SET_USER', payload: { ...state.user, weatherMood: key } });
-  };
 
   return (
     <LinearGradient
@@ -122,111 +142,153 @@ export default function StreakDetail() {
     >
       {/* Header */}
       <View style={styles.header}>
-        <Pressable onPress={() => {
-          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-          router.back();
-        }} style={styles.backButton} hitSlop={12}>
-          <IconSymbol name="chevron.left" size={24} color={mood.ringColor} />
+        <Pressable
+          onPress={() => {
+            if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            router.back();
+          }}
+          style={styles.backButton}
+          hitSlop={12}
+        >
+          <IconSymbol name="chevron.left" size={24} color={ringColor} />
         </Pressable>
-        <Text style={[styles.headerTitle, { color: mood.ringColor }]}>Your Streak</Text>
+        <Text style={[styles.headerTitle, { color: ringColor }]}>Your Streak</Text>
         <View style={styles.headerSpacer} />
       </View>
 
-      <View style={styles.content}>
-        {/* Breathing ring with SVG arc */}
-        <Animated.View style={breathingStyle}>
-          <View style={styles.ringContainer}>
-            <Svg width={RING_SIZE} height={RING_SIZE}>
-              {/* Background track */}
-              <Circle
-                cx={RING_SIZE / 2}
-                cy={RING_SIZE / 2}
-                r={RADIUS}
-                stroke="rgba(0,0,0,0.06)"
-                strokeWidth={STROKE_WIDTH}
-                fill="none"
+      <ScrollView
+        contentContainerStyle={[styles.scrollContent, { paddingBottom: insets.bottom + 32 }]}
+        showsVerticalScrollIndicator={false}
+      >
+        {/* Mascot section */}
+        <View style={styles.mascotSection}>
+          <View style={styles.riveWrapper}>
+            {riveFile && (
+              <RiveView
+                key={currentMood.id}
+                file={riveFile}
+                autoPlay
+                style={{
+                  width: RIVE_SIZE,
+                  height: RIVE_SIZE,
+                  backgroundColor: 'transparent',
+                  transform: [{ translateY: currentMood.id === 'stormy' ? 14 : 0 }],
+                }}
               />
-              {/* Foreground arc */}
-              <Circle
-                cx={RING_SIZE / 2}
-                cy={RING_SIZE / 2}
-                r={RADIUS}
-                stroke={mood.ringColor}
-                strokeWidth={STROKE_WIDTH}
-                fill="none"
-                strokeDasharray={`${CIRCUMFERENCE}`}
-                strokeDashoffset={arcOffset}
-                strokeLinecap="round"
-                rotation="-90"
-                origin={`${RING_SIZE / 2}, ${RING_SIZE / 2}`}
-              />
-            </Svg>
-            {/* Center text */}
-            <View style={styles.centerText}>
-              <Text style={[styles.streakNumber, { color: mood.ringColor }]}>{streak}</Text>
-              <Text style={[styles.streakLabel, { color: mood.ringColor, opacity: 0.7 }]}>
-                {streak === 1 ? 'day' : 'days'}
-              </Text>
+            )}
+          </View>
+        </View>
+
+        {/* Today's mood card */}
+        <View style={styles.card}>
+          <Text style={styles.cardEyebrow}>TODAY YOU'RE FEELING</Text>
+          <View style={styles.cardRow}>
+            <View style={styles.cardTextCol}>
+              <Text style={[styles.cardTitle, { color: ringColor }]}>{currentMood.label}</Text>
+              <Text style={styles.cardBody}>{support.headline}</Text>
+            </View>
+            <View style={styles.cardIconWrap}>
+              {currentMood.icon(56, ringColor)}
             </View>
           </View>
-        </Animated.View>
+        </View>
 
-        <Text style={[styles.subtitle, { color: mood.ringColor }]}>
-          {streak === 0
-            ? 'Open the app daily to start your streak!'
-            : streak === 1
-              ? 'You started a new streak today!'
-              : `You've opened Whisper ${streak} days in a row!`}
-        </Text>
+        {/* Current streak ring card */}
+        <View style={styles.card}>
+          <Text style={[styles.cardEyebrow, { textAlign: 'center' }]}>CURRENT STREAK</Text>
 
-        <Text style={[styles.moodMessage, { color: mood.ringColor, opacity: 0.8 }]}>
-          {mood.message}
-        </Text>
-      </View>
-
-      {/* Mood selector */}
-      <View style={[styles.moodSelector, { paddingBottom: insets.bottom + 24 }]}>
-        {(Object.keys(MOOD_CONFIG) as MoodKey[]).map((key) => {
-          const isSelected = key === weatherMood;
-          const cfg = MOOD_CONFIG[key];
-          return (
-            <Pressable
-              key={key}
-              onPress={() => {
-                if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                setMood(key);
-              }}
-              style={[
-                styles.moodBubble,
-                {
-                  backgroundColor: isSelected ? cfg.ringColor : 'rgba(255,255,255,0.6)',
-                  borderColor: isSelected ? cfg.ringColor : 'transparent',
-                },
-              ]}
-            >
-              <View style={styles.moodIcon}>
-                {cfg.icon(isSelected ? '#fff' : cfg.ringColor)}
+          <View style={styles.ringRow}>
+            <Animated.View style={breathingStyle}>
+              <View style={styles.ringContainer}>
+                <Svg width={RING_SIZE} height={RING_SIZE}>
+                  <Circle
+                    cx={RING_SIZE / 2}
+                    cy={RING_SIZE / 2}
+                    r={RADIUS}
+                    stroke="rgba(122, 154, 170, 0.18)"
+                    strokeWidth={STROKE_WIDTH}
+                    fill="none"
+                  />
+                  <Circle
+                    cx={RING_SIZE / 2}
+                    cy={RING_SIZE / 2}
+                    r={RADIUS}
+                    stroke={ringColor}
+                    strokeWidth={STROKE_WIDTH}
+                    fill="none"
+                    strokeDasharray={`${CIRCUMFERENCE}`}
+                    strokeDashoffset={arcOffset}
+                    strokeLinecap="round"
+                    rotation="-90"
+                    origin={`${RING_SIZE / 2}, ${RING_SIZE / 2}`}
+                  />
+                </Svg>
+                <View style={styles.centerText}>
+                  <Text style={styles.streakNumber}>{streak}</Text>
+                  <Text style={styles.streakLabel}>{streak === 1 ? 'day' : 'days'}</Text>
+                </View>
               </View>
-              <Text
-                style={[
-                  styles.moodBubbleLabel,
-                  { color: isSelected ? '#fff' : '#7B9AAA' },
-                ]}
-              >
-                {cfg.label}
+            </Animated.View>
+          </View>
+        </View>
+
+        {/* Week progress card */}
+        <View style={styles.card}>
+          <Text style={[styles.cardEyebrow, { textAlign: 'center' }]}>YOUR PROGRESS</Text>
+          <View style={styles.weekRow}>
+            {weekDates.map((dateStr, i) => {
+              const filled = streakSet.has(dateStr);
+              const isToday = dateStr === today;
+              return (
+                <React.Fragment key={dateStr}>
+                  <View style={styles.dayCol}>
+                    <View
+                      style={[
+                        styles.dayDot,
+                        filled
+                          ? { backgroundColor: ringColor, borderColor: ringColor }
+                          : isToday
+                            ? { backgroundColor: 'transparent', borderColor: ringColor }
+                            : { backgroundColor: 'transparent', borderColor: 'rgba(122, 154, 170, 0.4)' },
+                      ]}
+                    >
+                      {filled && <IconSymbol name="checkmark" size={14} color="#FFF" />}
+                    </View>
+                    <Text style={[styles.dayLabel, isToday && { color: ringColor, fontWeight: '600' }]}>
+                      {WEEKDAYS[i]}
+                    </Text>
+                  </View>
+                  {i < WEEKDAYS.length - 1 && <View style={styles.dayConnector} />}
+                </React.Fragment>
+              );
+            })}
+          </View>
+        </View>
+
+        {/* Mood-streak / encouragement card */}
+        {moodStreakInfo && (
+          <View style={styles.bottomCard}>
+            <View style={[styles.bottomCardIcon, { backgroundColor: `${moodStreakInfo.mood.color}33`, borderColor: moodStreakInfo.mood.color }]}>
+              <IconSymbol name="star.fill" size={20} color={moodStreakInfo.mood.color} />
+            </View>
+            <View style={styles.bottomCardText}>
+              <Text style={styles.bottomCardTitle}>
+                {`${moodStreakInfo.mood.label} for ${moodStreakInfo.count} ${moodStreakInfo.count === 1 ? 'day' : 'days'}`}
               </Text>
-            </Pressable>
-          );
-        })}
-      </View>
+              <Text style={styles.bottomCardSub}>{support.encouragement}</Text>
+            </View>
+            <View style={styles.bottomCardAccent}>
+              {moodStreakInfo.mood.icon(36, moodStreakInfo.mood.color)}
+            </View>
+          </View>
+        )}
+      </ScrollView>
     </LinearGradient>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
+  container: { flex: 1 },
   header: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -234,78 +296,105 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     zIndex: 1,
   },
-  backButton: {
-    padding: 4,
-    zIndex: 1,
+  backButton: { padding: 4, zIndex: 1 },
+  headerTitle: { flex: 1, fontSize: 17, fontWeight: '600', textAlign: 'center' },
+  headerSpacer: { width: 32 },
+  scrollContent: {
+    paddingHorizontal: 20,
+    paddingTop: 8,
+    gap: 16,
   },
-  headerTitle: {
-    flex: 1,
-    fontSize: 17,
-    fontWeight: '600',
-    textAlign: 'center',
-  },
-  headerSpacer: {
-    width: 32,
-  },
-  content: {
-    flex: 1,
+  mascotSection: {
+    height: 200,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingHorizontal: 32,
-    marginTop: -40,
+    position: 'relative',
+  },
+  riveWrapper: {
+    width: RIVE_SIZE,
+    height: RIVE_SIZE,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  card: {
+    backgroundColor: 'rgba(255,255,255,0.82)',
+    borderRadius: 20,
+    padding: 18,
+    shadowColor: '#5A8BA8',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.08,
+    shadowRadius: 10,
+  },
+  cardEyebrow: {
+    fontSize: 11,
+    fontWeight: '700',
+    color: '#7B9AAA',
+    letterSpacing: 1.2,
+    marginBottom: 10,
+  },
+  cardRow: { flexDirection: 'row', alignItems: 'center' },
+  cardTextCol: { flex: 1, paddingRight: 12 },
+  cardTitle: { fontSize: 28, fontWeight: '700', marginBottom: 6 },
+  cardBody: { fontSize: 14, color: '#6B8F9E', lineHeight: 20 },
+  cardIconWrap: { width: 60, height: 60, alignItems: 'center', justifyContent: 'center' },
+  ringRow: {
+    height: RING_SIZE + 16,
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'relative',
   },
   ringContainer: {
     width: RING_SIZE,
     height: RING_SIZE,
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 24,
   },
-  centerText: {
-    position: 'absolute',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  streakNumber: {
-    fontSize: 52,
-    fontWeight: '700',
-  },
-  streakLabel: {
-    fontSize: 15,
-    fontWeight: '500',
-    marginTop: -4,
-  },
-  subtitle: {
-    fontSize: 18,
-    fontWeight: '500',
-    textAlign: 'center',
-    marginBottom: 12,
-  },
-  moodMessage: {
-    fontSize: 15,
-    fontStyle: 'italic',
-    textAlign: 'center',
-  },
-  moodSelector: {
+  centerText: { position: 'absolute', alignItems: 'center', justifyContent: 'center' },
+  streakNumber: { fontSize: 48, fontWeight: '700', color: '#2C3E50' },
+  streakLabel: { fontSize: 14, fontWeight: '500', color: '#7B9AAA', marginTop: -2 },
+  weekRow: {
     flexDirection: 'row',
-    justifyContent: 'center',
-    gap: 12,
-    paddingHorizontal: 24,
-  },
-  moodBubble: {
     alignItems: 'center',
-    paddingVertical: 10,
-    paddingHorizontal: 14,
-    borderRadius: 16,
+    justifyContent: 'space-between',
+    paddingHorizontal: 4,
+  },
+  dayCol: { alignItems: 'center', width: 32 },
+  dayDot: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    borderWidth: 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  dayLabel: { fontSize: 11, color: '#7B9AAA', marginTop: 6 },
+  dayConnector: {
+    flex: 1,
+    height: 0,
+    borderTopWidth: 1.5,
+    borderStyle: 'dashed',
+    borderColor: 'rgba(122, 154, 170, 0.35)',
+    marginHorizontal: 2,
+    marginBottom: 18,
+  },
+  bottomCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'rgba(255,255,255,0.7)',
+    borderRadius: 18,
+    padding: 14,
+    gap: 12,
+  },
+  bottomCardIcon: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    alignItems: 'center',
+    justifyContent: 'center',
     borderWidth: 1.5,
   },
-  moodIcon: {
-    marginBottom: 4,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  moodBubbleLabel: {
-    fontSize: 11,
-    fontWeight: '600',
-  },
+  bottomCardText: { flex: 1 },
+  bottomCardTitle: { fontSize: 15, fontWeight: '700', color: '#2C3E50' },
+  bottomCardSub: { fontSize: 13, color: '#7B9AAA', marginTop: 2 },
+  bottomCardAccent: { width: 40, alignItems: 'center', justifyContent: 'center' },
 });

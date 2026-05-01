@@ -3,7 +3,7 @@ import SunSvg from '@/assets/svg/welcome/SunSvg';
 import WreathSvg from '@/assets/svg/welcome/WreathSvg';
 import { useAppContext } from '@/context/app-context';
 import { Events, posthog } from '@/utils/posthog';
-import { RiveFileFactory, RiveView, useRive } from '@rive-app/react-native';
+import { RiveFileFactory, RiveView } from '@rive-app/react-native';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
@@ -29,7 +29,6 @@ export default function RestWelcomeScreen() {
   const mood = state.user?.weatherMood || '';
 
   const [riveFile, setRiveFile] = useState<Awaited<ReturnType<typeof RiveFileFactory.fromSource>> | null>(null);
-  const { riveViewRef, setHybridRef } = useRive();
 
   const titleOpacity = useSharedValue(0);
   const titleTranslateY = useSharedValue(15);
@@ -41,20 +40,10 @@ export default function RestWelcomeScreen() {
   }, []);
 
   useEffect(() => {
-    RiveFileFactory.fromSource(require('@/assets/rive/argo.riv'), undefined)
+    RiveFileFactory.fromSource(require('@/assets/rive/hi_argo.riv'), undefined)
       .then(setRiveFile)
       .catch((err) => console.warn('Failed to load Rive file:', err));
   }, []);
-
-  useEffect(() => {
-    if (riveFile && riveViewRef) {
-      const timeout = setTimeout(() => {
-        riveViewRef.triggerInput('hi');
-        riveViewRef.playIfNeeded();
-      }, 2200);
-      return () => clearTimeout(timeout);
-    }
-  }, [riveFile, riveViewRef]);
 
   useEffect(() => {
     titleOpacity.value = withDelay(0, withTiming(1, { duration: 600, easing: Easing.out(Easing.ease) }));
@@ -94,21 +83,14 @@ export default function RestWelcomeScreen() {
               <WreathSvg size={250 * s} color="rgba(90,139,168,1)" />
             </View>
             {riveFile && (
-              <Pressable
-                style={styles.riveWrapper}
-                onPress={() => {
-                  riveViewRef?.triggerInput('hi');
-                  riveViewRef?.playIfNeeded();
-                }}
-              >
+              <View style={styles.riveWrapper}>
                 <RiveView
-                  hybridRef={setHybridRef}
                   file={riveFile}
-                  stateMachineName="State Machine 2"
+                  stateMachineName="State Machine 1"
                   autoPlay
                   style={{ width: 180 * s, height: 180 * s, backgroundColor: 'transparent' }}
                 />
-              </Pressable>
+              </View>
             )}
           </View>
           <Animated.Text style={[styles.title, { fontSize: 28 * s, marginTop: 40 * s }, titleStyle]}>

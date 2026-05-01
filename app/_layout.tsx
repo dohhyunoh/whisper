@@ -72,6 +72,15 @@ export default function RootLayout() {
             <Stack.Screen name="onboarding" options={{ headerShown: false }} />
             <Stack.Screen name="home" options={{ headerShown: false }} />
             <Stack.Screen
+              name="daily-check-in"
+              options={{
+                headerShown: false,
+                gestureEnabled: false,
+                fullScreenGestureEnabled: false,
+                animation: 'fade',
+              }}
+            />
+            <Stack.Screen
               name="category-feed"
               options={{
                 presentation: 'modal',
@@ -79,7 +88,7 @@ export default function RootLayout() {
               }}
             />
             <Stack.Screen
-              name="profile-modal"
+              name="discovery-feed"
               options={{
                 presentation: 'card',
                 headerShown: false,
@@ -89,24 +98,6 @@ export default function RootLayout() {
             />
             <Stack.Screen
               name="settings"
-              options={{
-                presentation: 'card',
-                headerShown: false,
-                gestureEnabled: true,
-                fullScreenGestureEnabled: true,
-              }}
-            />
-            <Stack.Screen
-              name="edit-name"
-              options={{
-                presentation: 'card',
-                headerShown: false,
-                gestureEnabled: true,
-                fullScreenGestureEnabled: true,
-              }}
-            />
-            <Stack.Screen
-              name="edit-gender"
               options={{
                 presentation: 'card',
                 headerShown: false,

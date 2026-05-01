@@ -186,57 +186,6 @@ function heartRowFor(user: UserData): HeartRowSpec | null {
 }
 
 // ---------------------------------------------------------------------------
-// Inner path row — personalized by faithDetail (inward spiritual practices)
-// ---------------------------------------------------------------------------
-
-function innerPathRowFor(user: UserData): HeartRowSpec | null {
-  switch (user.faithDetail) {
-    case 'Stoicism':
-      return {
-        title: 'Your stoic practice',
-        subtitle: 'Calm mind, steady hand',
-        mappings: [
-          { category: 'mood-boosters', subcategory: 'philosophy' },
-          { category: 'mood-boosters', subcategory: 'calm' },
-          { category: 'self-love', subcategory: 'mental-health' },
-        ],
-      };
-    case 'Manifestation':
-      return {
-        title: 'Speak it into being',
-        subtitle: 'Daily affirmations for the version of you becoming',
-        mappings: [
-          { category: 'mood-boosters', subcategory: 'manifestation' },
-          { category: 'self-love', subcategory: 'self-worth' },
-          { category: 'mood-boosters', subcategory: 'daily-motivation' },
-        ],
-      };
-    case 'Mindfulness':
-      return {
-        title: 'Present moment',
-        subtitle: 'Small returns to now',
-        mappings: [
-          { category: 'mood-boosters', subcategory: 'calm' },
-          { category: 'mood-boosters', subcategory: 'gratitude' },
-          { category: 'self-love', subcategory: 'rest-recharge' },
-        ],
-      };
-    case 'Poetry':
-      return {
-        title: 'Words that linger',
-        subtitle: 'For the part of you that reads slowly',
-        mappings: [
-          { category: 'mood-boosters', subcategory: 'poetry' },
-          { category: 'self-love', subcategory: 'self-worth' },
-          { category: 'mood-boosters', subcategory: 'calm' },
-        ],
-      };
-    default:
-      return null;
-  }
-}
-
-// ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
 
@@ -426,18 +375,7 @@ export function buildDiscoveryRows(
   }
 
   // -----------------------------------------------------------------------
-  // Row 4: Inner path — if user has an inward spiritual practice
-  // -----------------------------------------------------------------------
-  const inner = innerPathRowFor(user);
-  if (inner) {
-    const innerCards = addCards(inner.mappings, dayOfYear * 9);
-    if (innerCards.length > 0) {
-      rows.push({ title: inner.title, subtitle: inner.subtitle, items: innerCards });
-    }
-  }
-
-  // -----------------------------------------------------------------------
-  // Row 5: Today's Free Unlock (free users only)
+  // Row 4: Today's Free Unlock (free users only)
   // -----------------------------------------------------------------------
   if (todayUnlocked) {
     const todayCat = findCategory(todayUnlocked.category);
@@ -468,7 +406,7 @@ export function buildDiscoveryRows(
   }
 
   // -----------------------------------------------------------------------
-  // Row 6: Exploration — remaining subcategories, seeded shuffle daily
+  // Row 5: Exploration — remaining subcategories, seeded shuffle daily
   // -----------------------------------------------------------------------
   const explorationMappings: { category: Category; subcategory?: string }[] = [];
   for (const cat of CATEGORIES) {

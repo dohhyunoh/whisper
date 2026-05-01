@@ -11,16 +11,27 @@ import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useAppContext } from '@/context/app-context';
+import { findMoodByLabel } from '@/data/moods';
+import { getTodayDateString } from '@/utils/streak';
 
 export default function WidgetHomeScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const { dispatch } = useAppContext();
+  const { state, dispatch } = useAppContext();
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
   const cardWidth = width - 56 * s * 2;
 
   const handleComplete = () => {
+    // Treat the mood chosen during onboarding as today's first check-in
+    // so the user isn't bounced to /daily-check-in immediately after finishing.
+    const onboardingMood = findMoodByLabel(state.user?.weatherMood);
+    if (onboardingMood) {
+      dispatch({
+        type: 'RECORD_DAILY_CHECKIN',
+        payload: { date: getTodayDateString(), moodId: onboardingMood.id, moodLabel: onboardingMood.label },
+      });
+    }
     dispatch({ type: 'COMPLETE_ONBOARDING' });
     router.replace('/home');
   };

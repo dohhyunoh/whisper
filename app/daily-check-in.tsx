@@ -1,11 +1,11 @@
 import { useAppContext } from '@/context/app-context';
 import { MOODS } from '@/data/moods';
-import { defaultUserData } from '@/data/types';
 import { Events, posthog } from '@/utils/posthog';
+import { getTodayDateString } from '@/utils/streak';
 import { RiveFileFactory, RiveView } from '@rive-app/react-native';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useRouter } from 'expo-router';
+import { router } from 'expo-router';
 import React, { useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import Animated, {
@@ -21,79 +21,38 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 type RiveFile = Awaited<ReturnType<typeof RiveFileFactory.fromSource>>;
 
 const MOOD_ICON_SIZE = 22;
-const moods = MOODS;
 
 function getScale(screenW: number, screenH: number) {
   return Math.max(0.85, Math.min(1, Math.min(screenW / 390, screenH / 844)));
 }
 
-function SparkleParticle({
-  style,
-  size,
-  delay,
-  duration,
-}: {
-  style: object;
-  size: number;
-  delay: number;
-  duration: number;
-}) {
-  const opacity = useSharedValue(0.1);
-
-  useEffect(() => {
-    opacity.value = withDelay(
-      delay,
-      withRepeat(
-        withTiming(0.6, { duration, easing: Easing.inOut(Easing.ease) }),
-        -1,
-        true,
-      ),
-    );
-  }, []);
-
-  const animatedStyle = useAnimatedStyle(() => ({ opacity: opacity.value }));
-
-  return (
-    <Animated.View
-      style={[
-        {
-          position: 'absolute' as const,
-          width: size,
-          height: size,
-          borderRadius: size / 2,
-          backgroundColor: '#FFFFFF',
-        },
-        style,
-        animatedStyle,
-      ]}
-    />
-  );
-}
-
-export default function OnboardingScreen() {
-  const router = useRouter();
-  const { state, dispatch } = useAppContext();
+export default function DailyCheckInScreen() {
   const insets = useSafeAreaInsets();
+  const { state, dispatch } = useAppContext();
   const { width: screenW, height: screenH } = useWindowDimensions();
   const s = useMemo(() => getScale(screenW, screenH), [screenW, screenH]);
 
   const heroSize = 280 * s;
 
-  const [riveFiles, setRiveFiles] = useState<(RiveFile | null)[]>(() => moods.map(() => null));
+  const [riveFiles, setRiveFiles] = useState<(RiveFile | null)[]>(() => MOODS.map(() => null));
   const [selectedIndex, setSelectedIndex] = useState<number>(-1);
+  const [committing, setCommitting] = useState(false);
 
-  const displayIndex = selectedIndex >= 0 ? selectedIndex : 0; // default to Clear visually
-  const displayMood = moods[displayIndex];
+  const displayIndex = selectedIndex >= 0 ? selectedIndex : 0;
+  const displayMood = MOODS[displayIndex];
   const heroRive = riveFiles[displayIndex];
 
+  const userName = state.user?.name?.trim();
+  const greeting = userName ? `Good to see you, ${userName}` : 'Good to see you';
+
   useEffect(() => {
-    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'welcome' });
+    posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'daily_check_in' });
   }, []);
 
   useEffect(() => {
     let cancelled = false;
     Promise.all(
-      moods.map((m) =>
+      MOODS.map((m) =>
         RiveFileFactory.fromSource(m.rive, undefined).catch((err) => {
           console.warn(`Failed to load Rive file for ${m.id}:`, err);
           return null;
@@ -107,7 +66,6 @@ export default function OnboardingScreen() {
     };
   }, []);
 
-  // Hero pop animation when selection changes
   const heroScale = useSharedValue(1);
   const heroBreathing = useSharedValue(0);
 
@@ -129,12 +87,9 @@ export default function OnboardingScreen() {
   }, [selectedIndex]);
 
   const heroStyle = useAnimatedStyle(() => ({
-    transform: [
-      { scale: heroScale.value * (1 + heroBreathing.value * 0.025) },
-    ],
+    transform: [{ scale: heroScale.value * (1 + heroBreathing.value * 0.025) }],
   }));
 
-  // Label / message: re-fade on each change (including default Clear)
   const labelOpacity = useSharedValue(0);
   const labelTranslateY = useSharedValue(8);
   useEffect(() => {
@@ -146,33 +101,29 @@ export default function OnboardingScreen() {
     transform: [{ translateY: labelTranslateY.value }],
   }));
 
-  // Button enabled when a mood is selected
-  const btnOpacity = useSharedValue(0.4);
-  useEffect(() => {
-    btnOpacity.value = withTiming(selectedIndex >= 0 ? 1 : 0.4, { duration: 300 });
-  }, [selectedIndex]);
-  const btnStyle = useAnimatedStyle(() => ({ opacity: btnOpacity.value }));
-
   const handleSelect = (index: number) => {
+    if (committing) return;
     if (process.env.EXPO_OS === 'ios') {
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     }
     setSelectedIndex(index);
-    posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'welcome', choice: moods[index].label });
   };
 
-  const handleContinue = () => {
-    if (selectedIndex < 0) return;
+  const handleConfirm = () => {
+    if (committing || selectedIndex < 0) return;
     if (process.env.EXPO_OS === 'ios') {
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     }
-    const mood = moods[selectedIndex];
+    setCommitting(true);
+
+    const mood = MOODS[selectedIndex];
+    posthog.capture(Events.ONBOARDING_CHOICE_MADE, { screen: 'daily_check_in', choice: mood.label });
     dispatch({
-      type: 'SET_USER',
-      payload: { ...defaultUserData, ...state.user, weatherMood: mood.label },
+      type: 'RECORD_DAILY_CHECKIN',
+      payload: { date: getTodayDateString(), moodId: mood.id, moodLabel: mood.label },
     });
-    posthog.capture(Events.ONBOARDING_STARTED);
-    router.push('/onboarding/name-input');
+
+    router.replace('/home');
   };
 
   return (
@@ -183,28 +134,15 @@ export default function OnboardingScreen() {
         style={StyleSheet.absoluteFill}
       />
 
-      <View style={StyleSheet.absoluteFill} pointerEvents="none">
-        <SparkleParticle style={{ top: '15%', left: '20%' }} size={8} delay={0} duration={3000} />
-        <SparkleParticle style={{ top: '25%', right: '25%' }} size={6} delay={1000} duration={4000} />
-        <SparkleParticle style={{ top: '60%', left: '15%' }} size={4} delay={2000} duration={3500} />
-        <SparkleParticle style={{ top: '70%', right: '30%' }} size={6} delay={500} duration={4000} />
-        <SparkleParticle style={{ top: '40%', right: '15%' }} size={4} delay={1500} duration={3000} />
+      <View style={[styles.headerContainer, { top: insets.top + 40 * s }]} pointerEvents="none">
+        <Text style={[styles.greetingText, { fontSize: 14 * s }]}>{greeting}</Text>
+        <Text style={[styles.questionText, { fontSize: 24 * s, marginTop: 6 * s }]}>How does your mind feel today?</Text>
       </View>
 
-      <View style={[styles.questionContainer, { top: insets.top + 60 * s }]} pointerEvents="none">
-        <Text style={[styles.questionText, { fontSize: 24 * s }]}>How does your mind feel?</Text>
-      </View>
-
-      {/* Hero Argo */}
       <View style={styles.heroStage} pointerEvents="none">
         <Animated.View
           style={[
-            {
-              width: heroSize,
-              height: heroSize,
-              alignItems: 'center',
-              justifyContent: 'center',
-            },
+            { width: heroSize, height: heroSize, alignItems: 'center', justifyContent: 'center' },
             heroStyle,
           ]}
         >
@@ -223,43 +161,38 @@ export default function OnboardingScreen() {
           )}
         </Animated.View>
 
-        {/* Selected label + message */}
         <Animated.View style={[styles.labelBlock, labelStyle]} pointerEvents="none">
           <Text style={[styles.selectedLabel, { fontSize: 26 * s, color: displayMood.color }]}>
-            {displayMood.label}
+            {selectedIndex >= 0 ? displayMood.label : 'Pick what feels true'}
           </Text>
           <Text style={[styles.selectedMessage, { fontSize: 15 * s, marginTop: 6 * s }]}>
-            {displayMood.message}
+            {selectedIndex >= 0 ? displayMood.message : 'Choose the one that feels closest right now.'}
           </Text>
         </Animated.View>
       </View>
 
-      {/* Bottom controls: pills + button */}
       <View style={[styles.bottomBlock, { paddingBottom: insets.bottom + 24 }]}>
         <View style={styles.moodSelector}>
-          {moods.map((mood, i) => {
+          {MOODS.map((mood, i) => {
             const isSelected = selectedIndex === i;
             return (
               <Pressable
                 key={mood.id}
                 onPress={() => handleSelect(i)}
+                disabled={committing}
                 style={[
                   styles.moodBubble,
                   {
                     backgroundColor: isSelected ? mood.color : 'rgba(255,255,255,0.6)',
                     borderColor: isSelected ? mood.color : 'transparent',
+                    opacity: committing && !isSelected ? 0.4 : 1,
                   },
                 ]}
               >
                 <View style={styles.moodIcon}>
                   {mood.icon(MOOD_ICON_SIZE, isSelected ? '#fff' : mood.color)}
                 </View>
-                <Text
-                  style={[
-                    styles.moodBubbleLabel,
-                    { color: isSelected ? '#fff' : '#7B9AAA' },
-                  ]}
-                >
+                <Text style={[styles.moodBubbleLabel, { color: isSelected ? '#fff' : '#7B9AAA' }]}>
                   {mood.label}
                 </Text>
               </Pressable>
@@ -267,19 +200,23 @@ export default function OnboardingScreen() {
           })}
         </View>
 
-        <Animated.View style={[{ marginTop: 24, paddingHorizontal: 32 }, btnStyle]}>
+        <View style={{ marginTop: 20, paddingHorizontal: 32 }}>
           <Pressable
-            disabled={selectedIndex < 0}
+            disabled={selectedIndex < 0 || committing}
+            onPress={handleConfirm}
             style={({ pressed }) => [
               styles.button,
-              { paddingVertical: 18 * s, paddingHorizontal: 40 * s },
+              {
+                paddingVertical: 18 * s,
+                paddingHorizontal: 40 * s,
+                opacity: selectedIndex < 0 ? 0.4 : 1,
+              },
               pressed && selectedIndex >= 0 && styles.buttonPressed,
             ]}
-            onPress={handleContinue}
           >
-            <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Get Started</Text>
+            <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Confirm</Text>
           </Pressable>
-        </Animated.View>
+        </View>
       </View>
     </View>
   );
@@ -287,29 +224,15 @@ export default function OnboardingScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1 },
-  questionContainer: { position: 'absolute', left: 0, right: 0, alignItems: 'center' },
-  questionText: { fontWeight: '300', color: '#5A8BA8' },
-  heroStage: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  labelBlock: {
-    marginTop: 12,
-    alignItems: 'center',
-    paddingHorizontal: 40,
-  },
-  selectedLabel: { fontWeight: '700', letterSpacing: 0.5 },
+  headerContainer: { position: 'absolute', left: 0, right: 0, alignItems: 'center', paddingHorizontal: 24 },
+  greetingText: { color: '#7B9AAA', fontWeight: '500', letterSpacing: 0.4 },
+  questionText: { fontWeight: '300', color: '#5A8BA8', textAlign: 'center' },
+  heroStage: { flex: 1, alignItems: 'center', justifyContent: 'center' },
+  labelBlock: { marginTop: 12, alignItems: 'center', paddingHorizontal: 40 },
+  selectedLabel: { fontWeight: '700', letterSpacing: 0.5, textAlign: 'center' },
   selectedMessage: { fontWeight: '300', color: '#6B8F9E', textAlign: 'center' },
-  bottomBlock: {
-    paddingTop: 16,
-  },
-  moodSelector: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    gap: 12,
-    paddingHorizontal: 24,
-  },
+  bottomBlock: { paddingTop: 16 },
+  moodSelector: { flexDirection: 'row', justifyContent: 'center', gap: 12, paddingHorizontal: 24 },
   moodBubble: {
     alignItems: 'center',
     paddingVertical: 10,
@@ -318,15 +241,8 @@ const styles = StyleSheet.create({
     borderWidth: 1.5,
     minWidth: 72,
   },
-  moodIcon: {
-    marginBottom: 4,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  moodBubbleLabel: {
-    fontSize: 11,
-    fontWeight: '600',
-  },
+  moodIcon: { marginBottom: 4, alignItems: 'center', justifyContent: 'center' },
+  moodBubbleLabel: { fontSize: 11, fontWeight: '600' },
   button: {
     width: '100%',
     backgroundColor: 'rgba(255, 255, 255, 0.95)',

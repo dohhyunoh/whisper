@@ -3,11 +3,13 @@ import { AppAction, AppState, PremiumState } from '@/data/types';
 import { hasPremiumAccess, initializePremiumStatus } from '@/utils/premium-check';
 import {
     loadLikedIds,
+    loadMoodHistory,
     loadOnboardingComplete,
     loadOwnQuotes,
     loadStreakDates,
     loadUser,
     saveLikedIds,
+    saveMoodHistory,
     saveOnboardingComplete,
     saveOwnQuotes,
     savePremiumSettings,
@@ -31,6 +33,7 @@ const initialState: AppState = {
   likedIds: [],
   ownQuotes: [],
   streakDates: [],
+  moodHistory: [],
   hydrated: false,
   premium: defaultPremiumState,
 };
@@ -59,6 +62,7 @@ function reducer(state: AppState, action: AppAction): AppState {
         likedIds: action.payload.likedIds,
         ownQuotes: action.payload.ownQuotes,
         streakDates: action.payload.streakDates,
+        moodHistory: action.payload.moodHistory,
         premium: action.payload.premium,
         hydrated: true,
       };
@@ -111,6 +115,27 @@ function reducer(state: AppState, action: AppAction): AppState {
       const dateStr = action.payload;
       if (state.streakDates.includes(dateStr)) return state;
       return { ...state, streakDates: [...state.streakDates, dateStr] };
+    }
+    case 'RECORD_DAILY_CHECKIN': {
+      const { date, moodId, moodLabel } = action.payload;
+      const entry = { date, mood: moodId };
+      const existingIdx = state.moodHistory.findIndex((e) => e.date === date);
+      const nextHistory =
+        existingIdx >= 0
+          ? state.moodHistory.map((e, i) => (i === existingIdx ? entry : e))
+          : [...state.moodHistory, entry];
+      const nextStreakDates = state.streakDates.includes(date)
+        ? state.streakDates
+        : [...state.streakDates, date];
+      const nextUser = state.user
+        ? { ...state.user, weatherMood: moodLabel }
+        : state.user;
+      return {
+        ...state,
+        moodHistory: nextHistory,
+        streakDates: nextStreakDates,
+        user: nextUser,
+      };
     }
     case 'SET_CUSTOM_PHOTO':
       return {
@@ -226,15 +251,16 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   // Hydrate from AsyncStorage on mount
   useEffect(() => {
     (async () => {
-      const [user, onboardingComplete, likedIds, ownQuotes, streakDates, premium] = await Promise.all([
+      const [user, onboardingComplete, likedIds, ownQuotes, streakDates, moodHistory, premium] = await Promise.all([
         loadUser(),
         loadOnboardingComplete(),
         loadLikedIds(),
         loadOwnQuotes(),
         loadStreakDates(),
+        loadMoodHistory(),
         initializePremiumStatus(),
       ]);
-      dispatch({ type: 'HYDRATE', payload: { user, onboardingComplete, likedIds, ownQuotes, streakDates, premium } });
+      dispatch({ type: 'HYDRATE', payload: { user, onboardingComplete, likedIds, ownQuotes, streakDates, moodHistory, premium } });
     })();
   }, []);
 
@@ -269,6 +295,12 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     if (!state.hydrated) return;
     saveStreakDates(state.streakDates);
   }, [state.streakDates, state.hydrated]);
+
+  // Persist mood history
+  useEffect(() => {
+    if (!state.hydrated) return;
+    saveMoodHistory(state.moodHistory);
+  }, [state.moodHistory, state.hydrated]);
 
   // Listen for RevenueCat customer info changes (handles expiry while app is open)
   useEffect(() => {

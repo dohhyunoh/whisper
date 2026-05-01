@@ -13,7 +13,7 @@ import * as Haptics from 'expo-haptics';
 import * as Linking from 'expo-linking';
 import { router, useLocalSearchParams } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { Pressable, StyleSheet, View, useWindowDimensions } from 'react-native';
+import { AppState, Pressable, StyleSheet, View, useWindowDimensions } from 'react-native';
 import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -26,7 +26,7 @@ const MAX_SCREEN_WIDTH = 430;
 export default function HomeScreen() {
   const insets = useSafeAreaInsets();
   const { width: screenWidth, height: screenHeight } = useWindowDimensions();
-  const { dispatch } = useAppContext();
+  const { state, dispatch } = useAppContext();
   const scale = 1 + ((Math.min(screenWidth, MAX_SCREEN_WIDTH) - BASE_SCREEN_WIDTH) / (MAX_SCREEN_WIDTH - BASE_SCREEN_WIDTH)) * 0.3;
   const buttonSize = Math.round(BASE_BUTTON_SIZE * scale);
   const { quoteId: initialQuoteId } = useLocalSearchParams<{ quoteId: string }>();
@@ -72,6 +72,22 @@ export default function HomeScreen() {
   useEffect(() => {
     dispatch({ type: 'RECORD_DAILY_OPEN', payload: getTodayDateString() });
   }, [dispatch]);
+
+  // If today's check-in hasn't happened yet (e.g. midnight rolled over while
+  // the app was open, or user backgrounded across days), bounce to the check-in.
+  useEffect(() => {
+    const checkAndRedirect = () => {
+      const today = getTodayDateString();
+      if (!state.moodHistory.some((e) => e.date === today)) {
+        router.replace('/daily-check-in');
+      }
+    };
+    checkAndRedirect();
+    const sub = AppState.addEventListener('change', (next) => {
+      if (next === 'active') checkAndRedirect();
+    });
+    return () => sub.remove();
+  }, [state.moodHistory]);
 
   useEffect(() => {
     hasSeenSwipeHint().then((seen) => {
