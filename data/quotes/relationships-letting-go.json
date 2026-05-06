@@ -1118,5 +1118,29 @@
     "category": "relationships",
     "subcategory": "letting-go",
     "tone": "playful"
+  },
+  {
+    "id": "rel-breakup-162",
+    "text": "Sometimes we don't want to heal because pain is the last connection to what we have lost.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "letting-go",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-163",
+    "text": "Heal so that when someone is trying to love you, you let them.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "letting-go",
+    "tone": "gentle"
+  },
+  {
+    "id": "rel-breakup-164",
+    "text": "Boys are meant to ruin your lipstick, not your mascara.",
+    "author": "Marilyn Monroe",
+    "category": "relationships",
+    "subcategory": "letting-go",
+    "tone": "playful"
   }
 ]

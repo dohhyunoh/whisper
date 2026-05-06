@@ -1012,5 +1012,13 @@
     "category": "mood-boosters",
     "subcategory": "gratitude",
     "tone": "playful"
+  },
+  {
+    "id": "mood-grat-134",
+    "text": "Be happy. Not because everything is good, but because you can see good in everything.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "gratitude",
+    "tone": "gentle"
   }
 ]

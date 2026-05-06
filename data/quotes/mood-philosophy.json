@@ -1214,5 +1214,69 @@
     "category": "mood-boosters",
     "subcategory": "philosophy",
     "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-157",
+    "text": "No one is more hated than he who speaks the truth.",
+    "author": "Plato",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-158",
+    "text": "A man who suffers before it is necessary, suffers more than is necessary.",
+    "author": "Seneca",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-159",
+    "text": "Those who do not know how to lie believe that everyone tells the truth.",
+    "author": "Franz Kafka",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-160",
+    "text": "We met for a reason, either you're a blessing or a lesson.",
+    "author": "Frank Ocean",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-161",
+    "text": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+    "author": "Martin Luther King Jr.",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-philo-162",
+    "text": "They found nothing wrong with the rose, so they complained it had thorns.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-163",
+    "text": "You are never destroyed by anyone except yourself.",
+    "author": "Friedrich Nietzsche",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-philo-164",
+    "text": "Nowadays people know the price of everything and the value of nothing.",
+    "author": "Oscar Wilde",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct"
   }
 ]

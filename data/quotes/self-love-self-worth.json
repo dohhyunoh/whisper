@@ -898,5 +898,69 @@
     "category": "self-love",
     "subcategory": "self-worth",
     "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-121",
+    "text": "I am the greatest, I said that even before I knew I was.",
+    "author": "Muhammad Ali",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-122",
+    "text": "I am my own experiment. I am my own work of art.",
+    "author": "Madonna",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-123",
+    "text": "I'm not high maintenance, I'm just high value.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "playful"
+  },
+  {
+    "id": "self-love-sw-124",
+    "text": "My heels are higher than your standards.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "playful"
+  },
+  {
+    "id": "self-love-sw-125",
+    "text": "My only competition is the person I see in the mirror, and even she's struggling to keep up.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "playful"
+  },
+  {
+    "id": "self-love-sw-126",
+    "text": "Love me or hate me, both are in my favour. If you love me, I'll always be in your heart. If you hate me, I'll always be in your mind.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-127",
+    "text": "Silly me, almost forgot I was the sun.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "playful"
+  },
+  {
+    "id": "self-love-sw-128",
+    "text": "Never let the ugliness in others kill the beauty in you.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
   }
 ]

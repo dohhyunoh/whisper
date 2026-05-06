@@ -839,5 +839,37 @@
     "category": "self-love",
     "subcategory": "mental-health",
     "tone": "direct"
+  },
+  {
+    "id": "self-love-mh-110",
+    "text": "I finally found my rhythm when I realized that even the steps backwards were part of the dance.",
+    "author": "Melody Godfred",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-mh-111",
+    "text": "Peace feels weird when chaos raised you.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-mh-112",
+    "text": "A negative mind will not give you a positive life.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-mh-113",
+    "text": "Be gentle with yourself, it's your first time living too.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "gentle"
   }
 ]

@@ -504,5 +504,80 @@
     "category": "mood-boosters",
     "subcategory": "poetry",
     "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-063",
+    "text": "Even the darkest night will end and the sun will rise.",
+    "author": "Victor Hugo",
+    "source": "Les Misérables",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-064",
+    "text": "I am not afraid of storms, for I am learning how to sail my ship.",
+    "author": "Louisa May Alcott",
+    "source": "Little Women",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-065",
+    "text": "We are all of us stars, and we deserve to twinkle.",
+    "author": "Marilyn Monroe",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-066",
+    "text": "You may shoot me with your words, you may cut me with your eyes, you may kill me with your hatefulness, but still, like air, I'll rise.",
+    "author": "Maya Angelou",
+    "source": "Still I Rise",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-067",
+    "text": "We dance for laughter, we dance for tears, we dance for madness, we dance for fears, we dance for hopes, we dance for screams, we are the dancers, we create the dreams.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-068",
+    "text": "They lose the day in expectation of the night, and the night in fear of the dawn.",
+    "author": "Seneca",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-069",
+    "text": "We romanticize the stars, but forget the dark is what made them visible.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-070",
+    "text": "Hearts are wild creatures. That's why our ribs are cages.",
+    "author": "Mark Beech",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-071",
+    "text": "You built the walls high enough to block the storm, but now you can't feel the sun either.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
   }
 ]

@@ -275,8 +275,7 @@ const styles = StyleSheet.create({
   inner: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    paddingHorizontal: 24,
+    paddingHorizontal: 32,
   },
   quoteArea: {
     gap: 16,
@@ -287,7 +286,6 @@ const styles = StyleSheet.create({
     fontWeight: '300',
     textAlign: 'center',
     lineHeight: 38,
-    paddingHorizontal: 12,
   },
   author: {
     fontSize: 18,
