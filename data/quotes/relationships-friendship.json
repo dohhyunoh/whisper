@@ -1229,5 +1229,13 @@
     "category": "relationships",
     "subcategory": "friendship",
     "tone": "direct"
+  },
+  {
+    "id": "rel-friend-167",
+    "text": "It's about who stands in the rain with you, when they have a choice to be dry.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "friendship",
+    "tone": "gentle"
   }
 ]

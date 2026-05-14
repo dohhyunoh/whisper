@@ -685,5 +685,13 @@
     "category": "mood-boosters",
     "subcategory": "calm",
     "tone": "gentle"
+  },
+  {
+    "id": "mood-motiv-86",
+    "text": "The river does not rush, yet it reaches the sea.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "calm",
+    "tone": "gentle"
   }
 ]

@@ -8,7 +8,7 @@ import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { ImageBackground, LayoutChangeEvent, StyleSheet, Text, View } from 'react-native';
+import { ImageBackground, LayoutChangeEvent, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import Animated, {
     runOnJS,
@@ -29,11 +29,15 @@ interface QuoteCardProps {
 export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
   const { isLiked, toggleLike } = useLikes();
   const { currentTheme, currentFont, activeShufflePool, activeFontShufflePool, customPhotoUris } = usePremium();
+  const { width: screenWidth } = useWindowDimensions();
   const opacity = useSharedValue(0);
   const heartScale = useSharedValue(0);
   const heartOpacity = useSharedValue(0);
   const tapX = useSharedValue(0);
   const tapY = useSharedValue(0);
+
+  const QUOTE_HORIZONTAL_MARGIN = 32;
+  const quoteAreaWidth = screenWidth - QUOTE_HORIZONTAL_MARGIN * 2;
 
   // Track where the quote area ends so we can position buttons below it
   const [quoteBottomY, setQuoteBottomY] = useState(0);
@@ -173,10 +177,18 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
   const quoteLineHeight = 38;
 
   // Quote text only — inside ViewShot for capture
+  // Use an explicit pixel width (derived from screen width) instead of paddingHorizontal +
+  // width:'100%'. Percentage width on a flex child whose parent has horizontal padding can
+  // resolve against the parent's outer box in Yoga, making the wrap width larger than the
+  // visible content area — which caused intermittent right-edge cut-offs (v1.0.14 bug).
   const quoteContent = (
     <Animated.View style={[styles.inner, fadeStyle]}>
-      <View style={styles.quoteArea} onLayout={handleQuoteAreaLayout}>
+      <View
+        style={[styles.quoteArea, { width: quoteAreaWidth }]}
+        onLayout={handleQuoteAreaLayout}
+      >
         <Text
+          allowFontScaling={false}
           style={[
             styles.quoteText,
             { color: textColor, fontSize: quoteFontSize, lineHeight: quoteLineHeight },
@@ -185,11 +197,17 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
         >
           "{quote.text}"
         </Text>
-        <Text style={[styles.author, { color: textColor }, fontFamily && { fontFamily }]}>
+        <Text
+          allowFontScaling={false}
+          style={[styles.author, { color: textColor }, fontFamily && { fontFamily }]}
+        >
           — {quote.author}
         </Text>
         {quote.source && (
-          <Text style={[styles.source, { color: secondaryColor }, fontFamily && { fontFamily }]}>
+          <Text
+            allowFontScaling={false}
+            style={[styles.source, { color: secondaryColor }, fontFamily && { fontFamily }]}
+          >
             {quote.source}
           </Text>
         )}
@@ -275,11 +293,10 @@ const styles = StyleSheet.create({
   inner: {
     flex: 1,
     justifyContent: 'center',
-    paddingHorizontal: 32,
+    alignItems: 'center',
   },
   quoteArea: {
     gap: 16,
-    width: '100%',
   },
   quoteText: {
     fontSize: 26,

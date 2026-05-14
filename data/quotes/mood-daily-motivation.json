@@ -931,5 +931,13 @@
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
     "tone": "direct"
+  },
+  {
+    "id": "mood-motiv-119",
+    "text": "The river does not rush, yet it reaches the sea.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "gentle"
   }
 ]

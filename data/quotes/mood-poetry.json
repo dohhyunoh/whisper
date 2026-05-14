@@ -579,5 +579,443 @@
     "category": "mood-boosters",
     "subcategory": "poetry",
     "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-072",
+    "text": "The woods are lovely, dark and deep, but I have promises to keep.",
+    "author": "Robert Frost",
+    "source": "Stopping by Woods on a Snowy Evening",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-073",
+    "text": "And miles to go before I sleep.",
+    "author": "Robert Frost",
+    "source": "Stopping by Woods on a Snowy Evening",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-074",
+    "text": "The soul selects her own society.",
+    "author": "Emily Dickinson",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-075",
+    "text": "I'm nobody! Who are you?",
+    "author": "Emily Dickinson",
+    "source": "I'm Nobody! Who are you?",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-076",
+    "text": "We are such stuff as dreams are made on.",
+    "author": "William Shakespeare",
+    "source": "The Tempest",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-077",
+    "text": "My bounty is as boundless as the sea, my love as deep.",
+    "author": "William Shakespeare",
+    "source": "Romeo and Juliet",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-078",
+    "text": "Afoot and light-hearted I take to the open road.",
+    "author": "Walt Whitman",
+    "source": "Song of the Open Road",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-079",
+    "text": "I sound my barbaric yawp over the roofs of the world.",
+    "author": "Walt Whitman",
+    "source": "Song of Myself",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-080",
+    "text": "I want to do with you what spring does with the cherry trees.",
+    "author": "Pablo Neruda",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-081",
+    "text": "The stars are not wanted now: put out every one.",
+    "author": "W.H. Auden",
+    "source": "Funeral Blues",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-082",
+    "text": "What is this life if, full of care, we have no time to stand and stare?",
+    "author": "W.H. Davies",
+    "source": "Leisure",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-083",
+    "text": "I am the grass; I cover all.",
+    "author": "Carl Sandburg",
+    "source": "Grass",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-084",
+    "text": "Tell all the truth but tell it slant.",
+    "author": "Emily Dickinson",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-085",
+    "text": "Because I could not stop for Death, he kindly stopped for me.",
+    "author": "Emily Dickinson",
+    "source": "Because I could not stop for Death",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-086",
+    "text": "Tyger Tyger, burning bright, in the forests of the night.",
+    "author": "William Blake",
+    "source": "The Tyger",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-087",
+    "text": "To see a world in a grain of sand and a heaven in a wild flower.",
+    "author": "William Blake",
+    "source": "Auguries of Innocence",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-088",
+    "text": "The world is too much with us; late and soon.",
+    "author": "William Wordsworth",
+    "source": "The World Is Too Much with Us",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-089",
+    "text": "Season of mists and mellow fruitfulness.",
+    "author": "John Keats",
+    "source": "To Autumn",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-090",
+    "text": "Bright star, would I were stedfast as thou art.",
+    "author": "John Keats",
+    "source": "Bright Star",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-091",
+    "text": "Full fathom five thy father lies.",
+    "author": "William Shakespeare",
+    "source": "The Tempest",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-092",
+    "text": "Tomorrow, and tomorrow, and tomorrow.",
+    "author": "William Shakespeare",
+    "source": "Macbeth",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-093",
+    "text": "Had we but world enough and time.",
+    "author": "Andrew Marvell",
+    "source": "To His Coy Mistress",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-094",
+    "text": "Gather ye rosebuds while ye may.",
+    "author": "Robert Herrick",
+    "source": "To the Virgins, to Make Much of Time",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-095",
+    "text": "Drink to me only with thine eyes.",
+    "author": "Ben Jonson",
+    "source": "Song: To Celia",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-096",
+    "text": "O wild West Wind, thou breath of Autumn's being.",
+    "author": "Percy Bysshe Shelley",
+    "source": "Ode to the West Wind",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-097",
+    "text": "I met a traveller from an antique land.",
+    "author": "Percy Bysshe Shelley",
+    "source": "Ozymandias",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-098",
+    "text": "Water, water, everywhere, nor any drop to drink.",
+    "author": "Samuel Taylor Coleridge",
+    "source": "The Rime of the Ancient Mariner",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-099",
+    "text": "Alone, alone, all, all alone, alone on a wide wide sea.",
+    "author": "Samuel Taylor Coleridge",
+    "source": "The Rime of the Ancient Mariner",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-100",
+    "text": "It was many and many a year ago, in a kingdom by the sea.",
+    "author": "Edgar Allan Poe",
+    "source": "Annabel Lee",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-101",
+    "text": "Once upon a midnight dreary, while I pondered, weak and weary.",
+    "author": "Edgar Allan Poe",
+    "source": "The Raven",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-102",
+    "text": "Music, when soft voices die, vibrates in the memory.",
+    "author": "Percy Bysshe Shelley",
+    "source": "Music, When Soft Voices Die",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-103",
+    "text": "Hail to thee, blithe Spirit!",
+    "author": "Percy Bysshe Shelley",
+    "source": "To a Skylark",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-104",
+    "text": "The quality of mercy is not strained.",
+    "author": "William Shakespeare",
+    "source": "The Merchant of Venice",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-105",
+    "text": "Fear no more the heat o' the sun.",
+    "author": "William Shakespeare",
+    "source": "Cymbeline",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-106",
+    "text": "Golden lads and girls all must, as chimney-sweepers, come to dust.",
+    "author": "William Shakespeare",
+    "source": "Cymbeline",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-107",
+    "text": "Under the greenwood tree, who loves to lie with me.",
+    "author": "William Shakespeare",
+    "source": "As You Like It",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-108",
+    "text": "If music be the food of love, play on.",
+    "author": "William Shakespeare",
+    "source": "Twelfth Night",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-109",
+    "text": "Our revels now are ended.",
+    "author": "William Shakespeare",
+    "source": "The Tempest",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-110",
+    "text": "Lord, what fools these mortals be!",
+    "author": "William Shakespeare",
+    "source": "A Midsummer Night's Dream",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-111",
+    "text": "Parting is such sweet sorrow.",
+    "author": "William Shakespeare",
+    "source": "Romeo and Juliet",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-112",
+    "text": "But soft! What light through yonder window breaks?",
+    "author": "William Shakespeare",
+    "source": "Romeo and Juliet",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-113",
+    "text": "All the world's a stage, and all the men and women merely players.",
+    "author": "William Shakespeare",
+    "source": "As You Like It",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-114",
+    "text": "When icicles hang by the wall.",
+    "author": "William Shakespeare",
+    "source": "Love's Labour's Lost",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-115",
+    "text": "Come away, come away, death.",
+    "author": "William Shakespeare",
+    "source": "Twelfth Night",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-116",
+    "text": "Sigh no more, ladies, sigh no more.",
+    "author": "William Shakespeare",
+    "source": "Much Ado About Nothing",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "playful"
+  },
+  {
+    "id": "mood-poetry-117",
+    "text": "Some are born great, some achieve greatness, and some have greatness thrust upon 'em.",
+    "author": "William Shakespeare",
+    "source": "Twelfth Night",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
+  },
+  {
+    "id": "mood-poetry-118",
+    "text": "Journeys end in lovers meeting.",
+    "author": "William Shakespeare",
+    "source": "Twelfth Night",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-119",
+    "text": "Now cracks a noble heart.",
+    "author": "William Shakespeare",
+    "source": "Hamlet",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "gentle"
+  },
+  {
+    "id": "mood-poetry-120",
+    "text": "There is a tide in the affairs of men.",
+    "author": "William Shakespeare",
+    "source": "Julius Caesar",
+    "category": "mood-boosters",
+    "subcategory": "poetry",
+    "tone": "direct"
   }
 ]

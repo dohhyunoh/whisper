@@ -962,5 +962,53 @@
     "category": "self-love",
     "subcategory": "self-worth",
     "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-129",
+    "text": "You were not buried. You were planted.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-130",
+    "text": "A soft heart is not a weak heart. Water carves stone.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-131",
+    "text": "The ocean did not apologize for its depth.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
+  },
+  {
+    "id": "self-love-sw-132",
+    "text": "The moon is quiet, and still the ocean listens.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-133",
+    "text": "The moon does not beg the night to notice her.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle"
+  },
+  {
+    "id": "self-love-sw-134",
+    "text": "You can be both the storm and the shelter.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct"
   }
 ]

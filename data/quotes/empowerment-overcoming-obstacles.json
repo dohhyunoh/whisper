@@ -1132,5 +1132,37 @@
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
     "tone": "direct"
+  },
+  {
+    "id": "emp-obs-166",
+    "text": "If you sink to the bottom, don't come back up without the pearl.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-167",
+    "text": "Do not fear the valley. That is where rivers learn to move.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct"
+  },
+  {
+    "id": "emp-obs-168",
+    "text": "Some flowers only open after the rain has made a home of them.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
+  },
+  {
+    "id": "emp-obs-169",
+    "text": "Even broken branches remember how to reach for the sun.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "gentle"
   }
 ]
