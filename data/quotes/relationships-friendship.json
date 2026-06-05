@@ -5,7 +5,13 @@
     "author": "Helen Keller",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:comfort",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-friend-002",
@@ -13,7 +19,13 @@
     "author": "Khalil Gibran",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-003",
@@ -21,7 +33,12 @@
     "author": "Lucius Annaeus Seneca",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-004",
@@ -29,7 +46,12 @@
     "author": "Thomas Aquinas",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-005",
@@ -37,7 +59,13 @@
     "author": "Judy Holliday",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-006",
@@ -45,7 +73,12 @@
     "author": "H. Jackson Brown, Jr.",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:playful",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-007",
@@ -53,7 +86,12 @@
     "author": "C. S. Lewis",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-008",
@@ -61,7 +99,13 @@
     "author": "Jim Morrison",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-009",
@@ -69,7 +113,12 @@
     "author": "Paramahansa Yogananda",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-010",
@@ -77,7 +126,11 @@
     "author": "Henry David Thoreau",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-011",
@@ -85,7 +138,12 @@
     "author": "Henry Ford",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:growth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-012",
@@ -93,7 +151,12 @@
     "author": "Confucius",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-013",
@@ -101,7 +164,13 @@
     "author": "Marcus Tullius Cicero",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-014",
@@ -109,7 +178,12 @@
     "author": "Muhammad Ali",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-015",
@@ -117,7 +191,12 @@
     "author": "Socrates",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-016",
@@ -125,7 +204,12 @@
     "author": "Charles Darwin",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:self-worth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-019",
@@ -133,7 +217,13 @@
     "author": "Henri Nouwen",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:grief",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-020",
@@ -141,7 +231,14 @@
     "author": "Aristotle",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-021",
@@ -149,7 +246,14 @@
     "author": "Dag Hammarskjold",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:loneliness",
+      "need:comfort",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-022",
@@ -157,7 +261,12 @@
     "author": "Herodotus",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-023",
@@ -165,7 +274,12 @@
     "author": "W. Somerset Maugham",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-025",
@@ -173,7 +287,11 @@
     "author": "Marlene Dietrich",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-026",
@@ -181,7 +299,12 @@
     "author": "Henry Van Dyke",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-028",
@@ -189,7 +312,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:friendship",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-029",
@@ -197,7 +326,13 @@
     "author": "Bill Watterson",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:fear",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-030",
@@ -205,7 +340,13 @@
     "author": "Jean de la Bruyere",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:forgiveness",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-031",
@@ -213,7 +354,13 @@
     "author": "Marcel Proust",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-032",
@@ -221,7 +368,12 @@
     "author": "Walter Winchell",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-033",
@@ -229,7 +381,12 @@
     "author": "William Butler Yeats",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-034",
@@ -237,7 +394,12 @@
     "author": "Ralph Waldo Emerson",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-035",
@@ -245,7 +407,12 @@
     "author": "Oprah Winfrey",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-036",
@@ -253,7 +420,12 @@
     "author": "Charles R. Swindoll",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-037",
@@ -261,7 +433,12 @@
     "author": "Hubert H. Humphrey",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-038",
@@ -269,7 +446,12 @@
     "author": "Abraham Lincoln",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:forgiveness",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-039",
@@ -277,7 +459,12 @@
     "author": "Euripides",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-040",
@@ -285,7 +472,12 @@
     "author": "Virginia Woolf",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-041",
@@ -293,7 +485,12 @@
     "author": "Leo Buscaglia",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-043",
@@ -301,15 +498,25 @@
     "author": "Emily Dickinson",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-044",
     "text": "Friends are the siblings God never gave us.",
-    "author": "Mencius",
+    "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:family",
+      "tone:gentle",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-046",
@@ -317,7 +524,13 @@
     "author": "Plutarch",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "theme:identity",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-047",
@@ -325,7 +538,12 @@
     "author": "King Solomon",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-048",
@@ -333,7 +551,12 @@
     "author": "Oliver Wendell Holmes, Sr.",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-049",
@@ -341,7 +564,12 @@
     "author": "Walt Whitman",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-051",
@@ -349,7 +577,13 @@
     "author": "Octavia E. Butler",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-052",
@@ -357,7 +591,12 @@
     "author": "John Leonard",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-053",
@@ -365,7 +604,11 @@
     "author": "Robert Louis Stevenson",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-054",
@@ -373,7 +616,13 @@
     "author": "George Washington",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:friendship",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-055",
@@ -381,7 +630,12 @@
     "author": "Thomas A. Edison",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-056",
@@ -389,7 +643,11 @@
     "author": "Len Wein",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-057",
@@ -398,7 +656,12 @@
     "source": "The Four Loves",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-058",
@@ -407,7 +670,12 @@
     "source": "Passionate Pilgrim",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-059",
@@ -416,7 +684,14 @@
     "source": "Matched",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:letting-go",
+      "need:comfort",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-friend-060",
@@ -425,7 +700,13 @@
     "source": "Wonder",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:growth",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-062",
@@ -434,7 +715,13 @@
     "source": "The Godfather",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-063",
@@ -443,7 +730,12 @@
     "source": "Golden Son",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-064",
@@ -452,7 +744,12 @@
     "source": "My Sister's Keeper",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-065",
@@ -461,7 +758,12 @@
     "source": "The Nicomachean Ethics",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-067",
@@ -470,7 +772,12 @@
     "source": "Healology",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-068",
@@ -479,7 +786,12 @@
     "source": "The Elegance of the Hedgehog",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-069",
@@ -488,7 +800,11 @@
     "source": "Northanger Abbey",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-071",
@@ -497,7 +813,11 @@
     "source": "Fear Nothing",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-072",
@@ -506,7 +826,12 @@
     "source": "Of Mice and Men",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-073",
@@ -515,7 +840,13 @@
     "source": "The Perks of Being a Wallflower",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-074",
@@ -524,7 +855,12 @@
     "source": "The Collected Works",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-075",
@@ -533,7 +869,12 @@
     "source": "Is Everyone Hanging Out Without Me?",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-076",
@@ -542,7 +883,11 @@
     "source": "Tender Is the Night",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-077",
@@ -551,7 +896,13 @@
     "source": "Aesop's Fables",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:friendship",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-078",
@@ -560,7 +911,13 @@
     "source": "My Mortal Enemy",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:forgiveness",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-079",
@@ -569,7 +926,12 @@
     "source": "The Book Thief",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-081",
@@ -578,7 +940,12 @@
     "source": "A Feast for Crows",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-082",
@@ -587,7 +954,11 @@
     "source": "Fight Club",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-083",
@@ -596,7 +967,13 @@
     "source": "Slam!",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:friendship",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-084",
@@ -605,7 +982,12 @@
     "source": "Clockwork Prince",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-086",
@@ -614,15 +996,13 @@
     "source": "Saint Anything",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-friend-087",
-    "text": "True friends show up when the world walks out.",
-    "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:healing",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-088",
@@ -630,7 +1010,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-089",
@@ -638,7 +1023,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-090",
@@ -646,7 +1036,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-091",
@@ -654,7 +1048,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-093",
@@ -662,7 +1061,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "situation:long-distance",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-094",
@@ -670,7 +1074,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-095",
@@ -678,7 +1087,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:growth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-096",
@@ -686,7 +1100,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-097",
@@ -694,7 +1114,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-098",
@@ -702,7 +1127,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-099",
@@ -710,7 +1140,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:comfort",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-100",
@@ -718,7 +1154,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-101",
@@ -727,7 +1169,12 @@
     "source": "Pooh's Little Instruction Book",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-103",
@@ -736,7 +1183,12 @@
     "source": "Winnie-the-Pooh",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-104",
@@ -745,7 +1197,13 @@
     "source": "Charlotte's Web",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-105",
@@ -754,7 +1212,12 @@
     "source": "Winnie-the-Pooh",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "tone:playful",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-107",
@@ -763,7 +1226,12 @@
     "source": "Letter to My Daughter",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-108",
@@ -772,7 +1240,12 @@
     "source": "Memoirs",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "situation:long-distance",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-109",
@@ -781,7 +1254,12 @@
     "source": "Essays, First Series",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-110",
@@ -790,7 +1268,12 @@
     "source": "Brushstrokes of a Gadfly",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-111",
@@ -799,7 +1282,12 @@
     "source": "A Guide to Happiness",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-112",
@@ -808,7 +1296,12 @@
     "source": "Circle of Flight",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-113",
@@ -817,7 +1310,12 @@
     "source": "Someone Like You",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-114",
@@ -826,7 +1324,12 @@
     "source": "The Return of the King",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-115",
@@ -835,7 +1338,12 @@
     "source": "The Life, Letters and Writings of Charles Lamb Volume 3",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:playful",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-117",
@@ -844,7 +1352,11 @@
     "source": "Favorite Songs From Jim Henson's Muppets",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-118",
@@ -853,7 +1365,13 @@
     "source": "Nicholas Nickleby",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "situation:long-distance",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-119",
@@ -862,7 +1380,13 @@
     "source": "Jane Eyre",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-120",
@@ -871,7 +1395,11 @@
     "source": "Becoming",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-122",
@@ -880,7 +1408,11 @@
     "source": "Vampire Academy",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-123",
@@ -889,7 +1421,11 @@
     "source": "Clarence Darrow for the Defense",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-124",
@@ -898,7 +1434,13 @@
     "source": "Naomi and Ely's No Kiss List",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-125",
@@ -907,7 +1449,12 @@
     "source": "Charlotte's Web",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:playful",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-126",
@@ -916,7 +1463,11 @@
     "source": "Heart of the West",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-129",
@@ -925,7 +1476,11 @@
     "source": "Hitch 22: A Memoir",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-130",
@@ -934,7 +1489,13 @@
     "source": "The Infinity Sign",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-131",
@@ -943,7 +1504,12 @@
     "source": "Oedipus Rex",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-132",
@@ -952,7 +1518,12 @@
     "source": "Can You Keep a Secret?",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-134",
@@ -961,7 +1532,12 @@
     "source": "Just Another War Story",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-135",
@@ -969,7 +1545,13 @@
     "author": "Carl Jung",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:loneliness",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-136",
@@ -977,7 +1559,12 @@
     "author": "Jay McInerney",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "theme:family",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-137",
@@ -986,7 +1573,12 @@
     "source": "Hunter x Hunter",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-138",
@@ -995,7 +1587,13 @@
     "source": "Re:Zero",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:friendship",
+      "need:validation",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-139",
@@ -1004,7 +1602,12 @@
     "source": "86 Eighty-Six",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:friendship",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-friend-140",
@@ -1013,7 +1616,12 @@
     "source": "Frozen",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "tone:playful",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-141",
@@ -1022,7 +1630,11 @@
     "source": "Monsters, Inc.",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-142",
@@ -1030,7 +1642,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-143",
@@ -1038,7 +1654,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-144",
@@ -1046,7 +1667,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-145",
@@ -1054,7 +1679,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-146",
@@ -1062,7 +1691,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "need:validation",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-147",
@@ -1070,7 +1704,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-148",
@@ -1078,7 +1716,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-149",
@@ -1086,7 +1729,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-150",
@@ -1094,7 +1742,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-151",
@@ -1102,7 +1754,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-152",
@@ -1110,7 +1767,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "theme:growth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-153",
@@ -1118,7 +1780,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-154",
@@ -1126,7 +1793,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "need:comfort",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-155",
@@ -1134,7 +1806,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-156",
@@ -1142,7 +1819,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "need:validation",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-157",
@@ -1150,7 +1832,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-158",
@@ -1158,7 +1844,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:friendship",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-friend-159",
@@ -1166,7 +1856,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:friendship",
+      "emotion:joy",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-friend-160",
@@ -1175,16 +1870,12 @@
     "source": "Frozen",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-friend-161",
-    "text": "If you live to be 100, I hope I live to be 100 minus one day so I never have to live without you.",
-    "author": "Winnie the Pooh",
-    "source": "Winnie the Pooh",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-162",
@@ -1193,7 +1884,13 @@
     "source": "Winnie the Pooh",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "emotion:longing",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-friend-163",
@@ -1202,7 +1899,12 @@
     "source": "Winnie the Pooh",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-164",
@@ -1211,7 +1913,11 @@
     "source": "Winnie the Pooh",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-165",
@@ -1220,15 +1926,11 @@
     "source": "Winnie the Pooh",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-friend-166",
-    "text": "A friend to all is a friend to none.",
-    "author": "Aristotle",
-    "category": "relationships",
-    "subcategory": "friendship",
-    "tone": "direct"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-friend-167",
@@ -1236,6 +1938,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "friendship",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   }
 ]

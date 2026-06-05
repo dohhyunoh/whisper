@@ -5,7 +5,13 @@
     "author": "Thomas Carlyle",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-obs-002",
@@ -13,7 +19,12 @@
     "author": "Michael Jordan",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-004",
@@ -21,7 +32,13 @@
     "author": "Christopher Reeve",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-005",
@@ -29,7 +46,13 @@
     "author": "Norman Vincent Peale",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-007",
@@ -37,7 +60,12 @@
     "author": "Albert Schweitzer",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-008",
@@ -45,7 +73,12 @@
     "author": "Ralph Marston",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-009",
@@ -53,7 +86,12 @@
     "author": "Zig Ziglar",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-010",
@@ -61,7 +99,12 @@
     "author": "Henry Ford",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-011",
@@ -69,7 +112,12 @@
     "author": "Moliere",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-012",
@@ -77,7 +125,12 @@
     "author": "Roger Crawford",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-014",
@@ -85,7 +138,13 @@
     "author": "Robert F. Kennedy",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-015",
@@ -93,7 +152,12 @@
     "author": "Martin Luther King Jr.",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-016",
@@ -101,7 +165,13 @@
     "author": "Albert Einstein",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-017",
@@ -109,7 +179,12 @@
     "author": "Thomas D. Willhite",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-018",
@@ -117,7 +192,12 @@
     "author": "Zig Ziglar",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-019",
@@ -125,7 +205,12 @@
     "author": "Zig Ziglar",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-020",
@@ -133,7 +218,12 @@
     "author": "Wayne Dyer",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-023",
@@ -141,7 +231,12 @@
     "author": "Frank A. Clark",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-obs-024",
@@ -149,7 +244,14 @@
     "author": "Jeffrey Gitomer",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-obs-025",
@@ -157,7 +259,13 @@
     "author": "Helen Keller",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "emotion:hope",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-026",
@@ -165,7 +273,13 @@
     "author": "James MacDonald",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:faith",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-028",
@@ -173,7 +287,12 @@
     "author": "John Wooden",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-029",
@@ -181,7 +300,13 @@
     "author": "Christian D. Larson",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-031",
@@ -189,7 +314,12 @@
     "author": "Booker T. Washington",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-033",
@@ -197,7 +327,12 @@
     "author": "Robert H. Schuller",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-034",
@@ -205,7 +340,12 @@
     "author": "Confucius",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-037",
@@ -213,7 +353,13 @@
     "author": "Michael Jordan",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-041",
@@ -221,7 +367,13 @@
     "author": "William Feather",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-obs-042",
@@ -229,7 +381,12 @@
     "author": "Orison Swett Marden",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-043",
@@ -237,7 +394,12 @@
     "author": "Alfred Armand Montapert",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-044",
@@ -245,7 +407,12 @@
     "author": "Harri Holkeri",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-045",
@@ -253,7 +420,13 @@
     "author": "A.A. Milne",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-046",
@@ -261,7 +434,13 @@
     "author": "J.K. Rowling",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:healing",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-047",
@@ -269,7 +448,12 @@
     "author": "Margaret Thatcher",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-048",
@@ -277,7 +461,12 @@
     "author": "Rikki Rogers",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-049",
@@ -285,7 +474,13 @@
     "author": "Jodi Picoult",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:playful",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-obs-050",
@@ -293,7 +488,12 @@
     "author": "Bob Marley",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-051",
@@ -301,7 +501,13 @@
     "author": "Christine Caine",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-052",
@@ -309,7 +515,14 @@
     "author": "Rumi",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:healing",
+      "theme:growth",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-053",
@@ -317,7 +530,14 @@
     "author": "Maya Angelou",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:identity",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-obs-054",
@@ -325,7 +545,13 @@
     "author": "Steve Maraboli",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-055",
@@ -333,7 +559,12 @@
     "author": "Robert Tew",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-056",
@@ -341,7 +572,12 @@
     "author": "Bob Riley",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-057",
@@ -349,7 +585,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-058",
@@ -357,7 +598,12 @@
     "author": "Nicole Reed",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-059",
@@ -365,7 +611,13 @@
     "author": "Ain Eineziz",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-060",
@@ -373,7 +625,12 @@
     "author": "Henry Ford",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-obs-061",
@@ -381,7 +638,12 @@
     "author": "Robert Jordan",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-obs-062",
@@ -389,7 +651,13 @@
     "author": "Andrew Murphy",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-063",
@@ -397,7 +665,12 @@
     "author": "Franklin D. Roosevelt",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-obs-064",
@@ -405,7 +678,12 @@
     "author": "Napoleon Hill",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-065",
@@ -413,7 +691,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-obs-066",
@@ -421,7 +705,12 @@
     "author": "Lou Holtz",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-067",
@@ -429,7 +718,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "emotion:hope",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-068",
@@ -437,7 +732,12 @@
     "author": "Japanese Proverb",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-069",
@@ -445,7 +745,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-070",
@@ -453,7 +758,12 @@
     "author": "Mel Robbins",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-072",
@@ -461,7 +771,13 @@
     "author": "John A. Shedd",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-obs-074",
@@ -469,7 +785,13 @@
     "author": "Muhammad Ali",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-obs-075",
@@ -477,7 +799,12 @@
     "author": "Stephen McCranie",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-076",
@@ -485,7 +812,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:validation",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-078",
@@ -493,7 +826,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-079",
@@ -501,7 +839,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-080",
@@ -509,7 +852,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-081",
@@ -517,7 +865,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:healing",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-082",
@@ -525,7 +879,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-085",
@@ -533,7 +892,12 @@
     "author": "J.K. Rowling's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-086",
@@ -541,7 +905,12 @@
     "author": "Nelson Mandela's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-087",
@@ -549,7 +918,12 @@
     "author": "Oprah Winfrey's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-088",
@@ -557,7 +931,12 @@
     "author": "Sylvester Stallone's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-089",
@@ -565,7 +944,12 @@
     "author": "Jay-Z's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-090",
@@ -573,7 +957,12 @@
     "author": "Bethany Hamilton's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-091",
@@ -581,7 +970,12 @@
     "author": "Steve Jobs' story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-092",
@@ -589,7 +983,12 @@
     "author": "Madam C.J. Walker's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-093",
@@ -597,7 +996,12 @@
     "author": "Eminem's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-094",
@@ -605,7 +1009,12 @@
     "author": "Malala Yousafzai's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-097",
@@ -613,7 +1022,14 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-obs-098",
@@ -621,7 +1037,12 @@
     "author": "Michael Jordan's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-099",
@@ -629,7 +1050,12 @@
     "author": "Abraham Lincoln's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-100",
@@ -637,7 +1063,12 @@
     "author": "Walt Disney's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-101",
@@ -645,7 +1076,12 @@
     "author": "Colonel Sanders' story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-102",
@@ -653,7 +1089,12 @@
     "author": "Chris Gardner's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-103",
@@ -661,7 +1102,12 @@
     "author": "Tyler Perry's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-104",
@@ -669,7 +1115,12 @@
     "author": "Frida Kahlo's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-105",
@@ -677,7 +1128,12 @@
     "author": "Albert Einstein's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-106",
@@ -685,7 +1141,12 @@
     "author": "Stephen King's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-107",
@@ -693,7 +1154,12 @@
     "author": "Nick Vujicic's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-108",
@@ -701,7 +1167,12 @@
     "author": "Coco Chanel's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-109",
@@ -709,7 +1180,12 @@
     "author": "James Earl Jones' story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-112",
@@ -717,7 +1193,12 @@
     "author": "Marie Curie's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-114",
@@ -725,7 +1206,13 @@
     "author": "Tina Turner's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:healing",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-115",
@@ -733,7 +1220,12 @@
     "author": "Evelyn Glennie's story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-118",
@@ -741,7 +1233,12 @@
     "author": "Michael Phelps' story",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-119",
@@ -750,7 +1247,12 @@
     "source": "Fullmetal Alchemist: Brotherhood",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-120",
@@ -759,7 +1261,13 @@
     "source": "One Piece",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-obs-121",
@@ -768,7 +1276,12 @@
     "source": "Jujutsu Kaisen",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:healing",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-122",
@@ -777,7 +1290,12 @@
     "source": "Haikyuu!!",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-123",
@@ -786,7 +1304,13 @@
     "source": "Hell's Paradise",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-124",
@@ -795,7 +1319,12 @@
     "source": "Princess Mononoke (1997)",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-125",
@@ -804,7 +1333,13 @@
     "source": "The Lion King",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-126",
@@ -813,7 +1348,13 @@
     "source": "Brave",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "emotion:fear",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-127",
@@ -822,7 +1363,13 @@
     "source": "Mulan",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-obs-128",
@@ -830,7 +1377,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-129",
@@ -838,7 +1390,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-130",
@@ -846,7 +1403,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-131",
@@ -854,7 +1416,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-132",
@@ -862,7 +1429,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-133",
@@ -870,7 +1442,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-134",
@@ -878,7 +1455,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-135",
@@ -886,7 +1468,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-136",
@@ -894,7 +1481,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-137",
@@ -902,7 +1494,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "theme:healing",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-138",
@@ -910,7 +1508,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-139",
@@ -918,7 +1521,12 @@
     "author": "Zig Ziglar",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-140",
@@ -926,7 +1534,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-141",
@@ -934,7 +1547,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-142",
@@ -942,7 +1560,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-143",
@@ -950,7 +1574,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-144",
@@ -958,7 +1587,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-145",
@@ -966,7 +1600,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-146",
@@ -974,7 +1613,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-obs-147",
@@ -982,7 +1627,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-148",
@@ -990,7 +1640,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "emotion:hope",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-149",
@@ -998,7 +1654,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-150",
@@ -1006,7 +1667,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-151",
@@ -1014,7 +1680,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-152",
@@ -1022,7 +1693,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-153",
@@ -1030,7 +1706,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-154",
@@ -1038,7 +1719,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-155",
@@ -1046,7 +1732,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-156",
@@ -1054,7 +1745,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-157",
@@ -1062,7 +1758,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-158",
@@ -1070,7 +1771,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-159",
@@ -1078,7 +1784,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-obs-160",
@@ -1086,7 +1797,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-161",
@@ -1095,25 +1811,13 @@
     "source": "The Lion King",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
-  },
-  {
-    "id": "emp-obs-162",
-    "text": "The flower that blooms in adversity is the rarest and most beautiful of all.",
-    "author": "Emperor of China",
-    "source": "Mulan",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
-  },
-  {
-    "id": "emp-obs-163",
-    "text": "The past can hurt. You can either run from it, or learn from it.",
-    "author": "Rafiki",
-    "source": "The Lion King",
-    "category": "empowerment",
-    "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-164",
@@ -1122,7 +1826,12 @@
     "source": "Winnie the Pooh",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-obs-165",
@@ -1131,7 +1840,13 @@
     "source": "Dune",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-obs-166",
@@ -1139,7 +1854,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-obs-167",
@@ -1147,7 +1868,14 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-obs-168",
@@ -1155,7 +1883,14 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "theme:healing",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-obs-169",
@@ -1163,6 +1898,85 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "overcoming-obstacles",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "theme:growth",
+      "need:validation",
+      "tone:gentle",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "emp-obs-170",
+    "text": "Veni, vidi, vici — I came, I saw, I conquered.",
+    "author": "Julius Caesar",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
+  },
+  {
+    "id": "emp-obs-171",
+    "text": "Don't let life kill you before death does.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
+  },
+  {
+    "id": "emp-obs-172",
+    "text": "Every time you see me, I will be better than the last time you saw me.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
+  },
+  {
+    "id": "emp-obs-173",
+    "text": "Courage isn't having the strength to go on. It is going on when you don't have the strength.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "emp-obs-174",
+    "text": "What good are wings without the courage to fly?",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "overcoming-obstacles",
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct",
+      "tone:poetic"
+    ]
   }
 ]

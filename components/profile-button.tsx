@@ -23,7 +23,7 @@ export function ProfileButton({ style }: ProfileButtonProps) {
 
   const handlePress = () => {
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    router.push('/discovery-feed');
+    router.push('/settings');
   };
 
   return (

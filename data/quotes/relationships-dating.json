@@ -5,7 +5,13 @@
     "author": "Mitch Hedberg",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "situation:single-by-choice",
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-003",
@@ -13,7 +19,13 @@
     "author": "Billie Holiday",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-006",
@@ -21,7 +33,12 @@
     "author": "Keanu Reeves",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-010",
@@ -29,7 +46,11 @@
     "author": "Kelly Osbourne",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-012",
@@ -37,7 +58,12 @@
     "author": "Will Ferrell",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-015",
@@ -45,7 +71,12 @@
     "author": "Joey Adams",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-016",
@@ -53,7 +84,13 @@
     "author": "Joy Browne",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:direct",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-021",
@@ -62,7 +99,12 @@
     "source": "Pretty Woman",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-022",
@@ -71,7 +113,12 @@
     "source": "My Best Friend's Wedding",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-023",
@@ -79,7 +126,12 @@
     "author": "Jerry Seinfeld",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "emotion:anxiety",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-024",
@@ -87,7 +139,11 @@
     "author": "Rodney Dangerfield",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-026",
@@ -95,16 +151,23 @@
     "author": "Mindy Kaling",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-027",
     "text": "Love is telling someone their hair extensions are showing.",
     "author": "Natasha Leggero",
-    "source": "The '70s Show House",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-031",
@@ -113,7 +176,12 @@
     "source": "The Last Kiss",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-035",
@@ -122,7 +190,13 @@
     "source": "The Fault in Our Stars",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-036",
@@ -131,7 +205,12 @@
     "source": "When Harry Met Sally",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-037",
@@ -140,25 +219,13 @@
     "source": "Dirty Dancing",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-dating-039",
-    "text": "I would rather share one lifetime with you than face all the ages of this world alone.",
-    "author": "Arwen",
-    "source": "The Lord of the Rings",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-dating-040",
-    "text": "You should be kissed and often, and by someone who knows how.",
-    "author": "Rhett Butler",
-    "source": "Gone with the Wind",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "emotion:fear",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-042",
@@ -166,7 +233,13 @@
     "author": "Brooke Burke",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-dating-043",
@@ -174,7 +247,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-044",
@@ -182,7 +259,13 @@
     "author": "Alfred Tennyson",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-045",
@@ -190,15 +273,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-dating-047",
-    "text": "I love being married. It's so great to find one special person you want to annoy for the rest of your life.",
-    "author": "Rita Rudner",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "playful"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:healing",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-048",
@@ -206,7 +287,13 @@
     "author": "Julia Roberts",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-049",
@@ -214,7 +301,12 @@
     "author": "Pablo Neruda",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-050",
@@ -222,7 +314,12 @@
     "author": "F. Scott Fitzgerald",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-051",
@@ -230,16 +327,11 @@
     "author": "Demetri Martin",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
-  },
-  {
-    "id": "rel-dating-052",
-    "text": "Whatever our souls are made of, his and mine are the same.",
-    "author": "Emily Brontë",
-    "source": "Wuthering Heights",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-053",
@@ -248,15 +340,26 @@
     "source": "The Great Gatsby",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-dating-054",
     "text": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
-    "author": "Lao Tzu",
+    "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-056",
@@ -264,15 +367,12 @@
     "author": "Leo Christopher",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-dating-057",
-    "text": "You don't marry someone you can live with, you marry the person who you cannot live without.",
-    "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "direct"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-058",
@@ -280,7 +380,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-059",
@@ -288,7 +394,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anxiety",
+      "theme:romantic-love",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-062",
@@ -296,7 +408,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-dating-063",
@@ -304,7 +421,12 @@
     "author": "Leanna L. Bartram",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-064",
@@ -312,7 +434,11 @@
     "author": "Lana Del Rey",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-065",
@@ -320,7 +446,13 @@
     "author": "Sanober Khan",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-066",
@@ -329,7 +461,13 @@
     "source": "The Notebook",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-068",
@@ -337,7 +475,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-069",
@@ -345,7 +487,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-070",
@@ -353,7 +500,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-072",
@@ -362,7 +514,13 @@
     "source": "Your Lie in April",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:grief",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-073",
@@ -370,7 +528,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-dating-074",
@@ -378,7 +542,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "emotion:anxiety",
+      "need:perspective",
+      "tone:direct",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-075",
@@ -386,7 +557,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-dating-076",
@@ -394,7 +570,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-dating-077",
@@ -402,7 +583,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-dating-078",
@@ -410,7 +598,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "situation:new-relationship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-079",
@@ -418,7 +612,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-dating-080",
@@ -426,7 +627,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-081",
@@ -434,7 +641,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-082",
@@ -442,7 +654,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-dating-083",
@@ -450,7 +668,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:self-worth",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-dating-084",
@@ -458,7 +681,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:playful",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-dating-085",
@@ -466,7 +696,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:new-relationship",
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-086",
@@ -474,7 +710,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-087",
@@ -482,7 +724,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-dating-088",
@@ -490,7 +739,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-dating-089",
@@ -498,7 +753,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:new-relationship",
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-090",
@@ -506,7 +766,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:new-relationship",
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-091",
@@ -514,7 +779,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:new-relationship",
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-092",
@@ -522,7 +793,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "emotion:hope",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-093",
@@ -530,7 +807,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-094",
@@ -538,7 +821,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:new-relationship",
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-095",
@@ -546,7 +835,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-096",
@@ -554,7 +848,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-dating-097",
@@ -562,7 +861,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-dating-098",
@@ -570,7 +874,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-099",
@@ -578,7 +887,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "theme:romantic-love",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-100",
@@ -586,7 +901,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-101",
@@ -594,7 +913,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:new-relationship",
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-102",
@@ -602,7 +927,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:direct",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-103",
@@ -610,7 +941,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-104",
@@ -618,7 +955,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "theme:romantic-love",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-105",
@@ -626,7 +969,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "need:motivation",
+      "tone:playful",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-dating-106",
@@ -634,7 +983,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "emotion:hope",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-107",
@@ -642,7 +997,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "emotion:hope",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-108",
@@ -650,7 +1011,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-109",
@@ -659,7 +1025,13 @@
     "source": "Brokeback Mountain",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "emotion:grief",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-dating-110",
@@ -668,7 +1040,13 @@
     "source": "Romeo and Juliet",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-dating-111",
@@ -677,14 +1055,12 @@
     "source": "Cyrano de Bergerac",
     "category": "relationships",
     "subcategory": "dating",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-dating-112",
-    "text": "It's about who stands in the rain with you, when they have a choice to be dry.",
-    "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "dating",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   }
 ]

@@ -5,7 +5,8 @@
     "author": "Lalah Delia",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:permission", "need:motivation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-003",
@@ -13,7 +14,8 @@
     "author": "Francis de Sales",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-004",
@@ -21,7 +23,8 @@
     "author": "Bell Hooks",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "situation:single-by-choice", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-sw-005",
@@ -29,7 +32,8 @@
     "author": "Mandy Hale",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:permission", "need:validation", "tone:direct"]
   },
   {
     "id": "self-love-sw-006",
@@ -37,7 +41,8 @@
     "author": "Anne LaMott",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:growth", "need:challenge", "need:motivation", "tone:direct"]
   },
   {
     "id": "self-love-sw-010",
@@ -45,7 +50,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:body-image", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-011",
@@ -53,7 +59,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "emotion:shame", "need:validation", "need:comfort", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-012",
@@ -61,7 +68,8 @@
     "author": "Buddha",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-013",
@@ -69,7 +77,8 @@
     "author": "Carl Rogers",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:healing", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-014",
@@ -77,7 +86,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:direct"]
   },
   {
     "id": "self-love-sw-015",
@@ -85,7 +95,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-sw-016",
@@ -93,7 +104,8 @@
     "author": "Marisa Peer",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-017",
@@ -101,7 +113,8 @@
     "author": "L.R. Knost",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-018",
@@ -109,7 +122,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:boundaries", "situation:burnout", "need:permission", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-sw-019",
@@ -117,7 +131,8 @@
     "author": "Anne Lamott",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:self-worth", "situation:burnout", "need:permission", "need:stillness", "tone:playful", "tone:gentle"]
   },
   {
     "id": "self-love-sw-020",
@@ -125,7 +140,8 @@
     "author": "Lena Horne",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:exhaustion", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-sw-023",
@@ -133,7 +149,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-024",
@@ -141,7 +158,8 @@
     "author": "Audre Lorde",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-026",
@@ -149,7 +167,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "need:validation", "tone:gentle", "tone:fierce"]
   },
   {
     "id": "self-love-sw-027",
@@ -157,7 +176,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-sw-028",
@@ -165,7 +185,8 @@
     "author": "Brené Brown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-sw-029",
@@ -173,7 +194,8 @@
     "author": "Robert Holden",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-sw-030",
@@ -181,7 +203,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:letting-go", "need:perspective", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-031",
@@ -189,7 +212,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:friendship", "theme:letting-go", "theme:growth", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-sw-032",
@@ -197,7 +221,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:romantic-love", "situation:dating", "need:validation", "tone:fierce"]
   },
   {
     "id": "self-love-sw-033",
@@ -205,7 +230,8 @@
     "author": "Steve Maraboli",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "tone:direct"]
   },
   {
     "id": "self-love-sw-034",
@@ -213,7 +239,8 @@
     "author": "Carl Jung",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:identity", "theme:self-worth", "theme:letting-go", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-036",
@@ -221,7 +248,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "situation:burnout", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-037",
@@ -229,7 +257,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:healing", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-sw-038",
@@ -237,7 +266,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:romantic-love", "situation:dating", "need:validation", "tone:fierce"]
   },
   {
     "id": "self-love-sw-039",
@@ -245,7 +275,8 @@
     "author": "Alysia Harris",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-040",
@@ -253,7 +284,8 @@
     "author": "Brené Brown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-042",
@@ -261,7 +293,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "theme:self-worth", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-043",
@@ -269,7 +302,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "situation:burnout", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-044",
@@ -277,7 +311,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-sw-045",
@@ -285,7 +320,8 @@
     "author": "Ziad K. Abdelnour",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-sw-046",
@@ -293,7 +329,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:purpose", "theme:self-worth", "need:permission", "need:motivation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-047",
@@ -301,7 +338,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:boundaries", "emotion:peace", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-048",
@@ -309,7 +347,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-049",
@@ -317,7 +356,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-050",
@@ -325,7 +365,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:body-image", "need:validation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-051",
@@ -333,7 +374,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-052",
@@ -341,7 +383,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-053",
@@ -349,7 +392,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:forgiveness", "emotion:shame", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-054",
@@ -357,7 +401,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:romantic-love", "situation:dating", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-sw-055",
@@ -365,7 +410,8 @@
     "author": "Christopher Germer",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-056",
@@ -373,7 +419,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:perspective", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-057",
@@ -381,7 +428,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:growth", "theme:identity", "theme:letting-go", "need:permission", "need:challenge", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-058",
@@ -389,7 +437,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "emotion:shame", "need:validation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-059",
@@ -397,7 +446,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:romantic-love", "situation:dating", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-060",
@@ -405,7 +455,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "emotion:exhaustion", "situation:burnout", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-061",
@@ -413,7 +464,8 @@
     "author": "Alex Elle",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:healing", "theme:growth", "need:validation", "tone:direct", "tone:gentle"]
   },
   {
     "id": "self-love-sw-062",
@@ -421,7 +473,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:body-image", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-sw-063",
@@ -429,7 +482,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-sw-064",
@@ -437,7 +491,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "situation:burnout", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-065",
@@ -445,7 +500,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:validation", "tone:direct"]
   },
   {
     "id": "self-love-sw-066",
@@ -453,7 +509,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:growth", "theme:identity", "need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-sw-067",
@@ -461,7 +518,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "need:validation", "tone:direct"]
   },
   {
     "id": "self-love-sw-068",
@@ -469,7 +527,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:identity", "need:challenge", "need:motivation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-069",
@@ -477,7 +536,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-sw-070",
@@ -485,7 +545,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:direct"]
   },
   {
     "id": "self-love-sw-071",
@@ -494,7 +555,8 @@
     "source": "Tengen Toppa Gurren Lagann",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:motivation", "tone:gentle", "tone:fierce"]
   },
   {
     "id": "self-love-sw-072",
@@ -502,7 +564,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:identity", "theme:boundaries", "need:permission", "tone:playful", "tone:direct"]
   },
   {
     "id": "self-love-sw-073",
@@ -510,7 +573,8 @@
     "author": "Johnny Depp",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:exhaustion", "need:validation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-074",
@@ -519,7 +583,8 @@
     "source": "Naruto",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:motivation", "tone:direct"]
   },
   {
     "id": "self-love-sw-075",
@@ -528,7 +593,8 @@
     "source": "Death Note",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["situation:single-by-choice", "theme:boundaries", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-sw-076",
@@ -537,7 +603,8 @@
     "source": "86 Eighty-Six",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:identity", "theme:self-worth", "need:validation", "tone:fierce", "tone:direct", "tone:raw"]
   },
   {
     "id": "self-love-sw-077",
@@ -546,7 +613,8 @@
     "source": "2003",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:identity", "theme:self-worth", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-sw-078",
@@ -555,7 +623,8 @@
     "source": "2012",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:romantic-love", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-sw-079",
@@ -563,7 +632,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "emotion:loneliness", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-080",
@@ -572,7 +642,8 @@
     "source": "The Cat Returns",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:motivation", "tone:gentle", "tone:direct"]
   },
   {
     "id": "self-love-sw-081",
@@ -581,7 +652,8 @@
     "source": "Whisper of the Heart (1995)",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:growth", "theme:identity", "need:motivation", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-sw-082",
@@ -590,7 +662,8 @@
     "source": "Winnie the Pooh",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:motivation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-083",
@@ -598,7 +671,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:validation", "tone:direct"]
   },
   {
     "id": "self-love-sw-084",
@@ -606,7 +680,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-sw-085",
@@ -614,7 +689,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-086",
@@ -622,7 +698,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:validation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-087",
@@ -630,7 +707,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-sw-088",
@@ -638,7 +716,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:identity", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-sw-089",
@@ -646,7 +725,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-090",
@@ -654,7 +734,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-091",
@@ -662,7 +743,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:growth", "need:motivation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-092",
@@ -670,7 +752,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-093",
@@ -678,7 +761,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-sw-094",
@@ -686,7 +770,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:motivation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-095",
@@ -694,7 +779,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-096",
@@ -702,7 +788,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-sw-097",
@@ -710,7 +797,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:self-worth", "need:motivation", "tone:playful", "tone:fierce"]
   },
   {
     "id": "self-love-sw-098",
@@ -718,7 +806,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-099",
@@ -726,7 +815,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-100",
@@ -734,7 +824,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-sw-101",
@@ -742,7 +833,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-102",
@@ -750,7 +842,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-103",
@@ -758,7 +851,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:self-worth", "need:motivation", "tone:playful"]
   },
   {
     "id": "self-love-sw-104",
@@ -766,7 +860,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-105",
@@ -774,7 +869,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-106",
@@ -782,7 +878,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-sw-107",
@@ -790,7 +887,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:romantic-love", "need:validation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-108",
@@ -798,7 +896,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:identity", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-109",
@@ -806,7 +905,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:motivation", "tone:direct"]
   },
   {
     "id": "self-love-sw-110",
@@ -814,7 +914,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-sw-111",
@@ -822,7 +923,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-112",
@@ -830,7 +932,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "theme:romantic-love", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-113",
@@ -838,7 +941,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-114",
@@ -846,7 +950,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:motivation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-115",
@@ -854,7 +959,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-sw-116",
@@ -862,7 +968,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-sw-117",
@@ -870,7 +977,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:motivation", "need:validation", "tone:direct"]
   },
   {
     "id": "self-love-sw-118",
@@ -879,16 +987,8 @@
     "source": "Kung Fu Panda 2",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-sw-119",
-    "text": "Promise me you'll always remember: You're braver than you believe, stronger than you seem, and smarter than you think.",
-    "author": "Christopher Robin",
-    "source": "Winnie the Pooh",
-    "category": "self-love",
-    "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:identity", "theme:letting-go", "need:permission", "tone:gentle", "tone:direct"]
   },
   {
     "id": "self-love-sw-120",
@@ -897,7 +997,8 @@
     "source": "Winnie the Pooh",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:longing", "need:validation", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-sw-121",
@@ -905,7 +1006,8 @@
     "author": "Muhammad Ali",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:motivation", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-sw-122",
@@ -913,7 +1015,8 @@
     "author": "Madonna",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:identity", "theme:self-worth", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-sw-123",
@@ -921,7 +1024,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:self-worth", "tone:playful", "tone:fierce"]
   },
   {
     "id": "self-love-sw-124",
@@ -929,7 +1033,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:self-worth", "theme:boundaries", "tone:playful", "tone:fierce"]
   },
   {
     "id": "self-love-sw-125",
@@ -937,7 +1042,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:self-worth", "theme:growth", "tone:playful"]
   },
   {
     "id": "self-love-sw-126",
@@ -945,7 +1051,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:validation", "tone:playful", "tone:fierce"]
   },
   {
     "id": "self-love-sw-127",
@@ -953,7 +1060,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:self-worth", "need:validation", "tone:playful", "tone:poetic"]
   },
   {
     "id": "self-love-sw-128",
@@ -961,7 +1069,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-sw-129",
@@ -969,7 +1078,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:healing", "theme:growth", "emotion:hope", "need:perspective", "tone:direct", "tone:poetic"]
   },
   {
     "id": "self-love-sw-130",
@@ -977,7 +1087,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-sw-131",
@@ -985,7 +1096,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:identity", "need:permission", "tone:fierce", "tone:poetic"]
   },
   {
     "id": "self-love-sw-132",
@@ -993,7 +1105,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-sw-133",
@@ -1001,7 +1114,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-sw-134",
@@ -1009,6 +1123,61 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "self-worth",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:identity", "need:validation", "tone:direct", "tone:poetic"]
+  },
+  {
+    "id": "self-love-sw-135",
+    "text": "I have high standards. Not because I think I'm better, but because I know my worth.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "need:validation", "tone:direct", "tone:fierce"]
+  },
+  {
+    "id": "self-love-sw-136",
+    "text": "Of course I can do it alone. I always do.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:identity", "need:validation", "tone:direct", "tone:fierce"]
+  },
+  {
+    "id": "self-love-sw-137",
+    "text": "To be weird is to be free.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "playful",
+    "tags": ["theme:identity", "theme:self-worth", "need:permission", "tone:playful"]
+  },
+  {
+    "id": "self-love-sw-138",
+    "text": "Can you remember who you were before the world told you who you should be?",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle",
+    "tags": ["theme:identity", "theme:self-worth", "need:perspective", "tone:gentle"]
+  },
+  {
+    "id": "self-love-sw-139",
+    "text": "Always remember, even if the world wouldn't clap for you, I always would.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:comfort", "tone:gentle"]
+  },
+  {
+    "id": "self-love-sw-140",
+    "text": "Doubt and low self-esteem kill more dreams than failure ever will.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "self-worth",
+    "tone": "direct",
+    "tags": ["theme:self-worth", "emotion:fear", "need:motivation", "tone:direct"]
   }
 ]

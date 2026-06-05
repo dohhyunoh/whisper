@@ -5,7 +5,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-manifest-002",
@@ -13,7 +19,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-manifest-003",
@@ -21,7 +32,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-004",
@@ -29,7 +45,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-005",
@@ -37,7 +58,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-006",
@@ -45,7 +71,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-007",
@@ -53,7 +84,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:money",
+      "theme:self-worth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-manifest-008",
@@ -61,7 +97,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-009",
@@ -69,7 +110,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-010",
@@ -77,7 +123,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-011",
@@ -85,7 +136,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-012",
@@ -93,7 +149,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-013",
@@ -101,7 +162,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:hope",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-manifest-014",
@@ -109,7 +175,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-015",
@@ -117,7 +188,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-016",
@@ -125,7 +201,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:faith",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-017",
@@ -133,7 +214,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-018",
@@ -141,7 +227,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-019",
@@ -149,7 +240,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-manifest-020",
@@ -157,7 +254,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-021",
@@ -165,7 +267,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-022",
@@ -173,7 +280,11 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-023",
@@ -181,7 +292,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:hope",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-manifest-024",
@@ -189,7 +306,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-025",
@@ -197,7 +319,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "emotion:peace",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-026",
@@ -205,7 +333,11 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-027",
@@ -213,7 +345,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-028",
@@ -221,7 +358,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-029",
@@ -229,7 +371,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-030",
@@ -237,7 +384,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:money",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-manifest-031",
@@ -245,7 +397,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:money",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-manifest-032",
@@ -253,7 +410,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-033",
@@ -261,7 +423,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-034",
@@ -269,7 +436,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-035",
@@ -277,7 +449,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-036",
@@ -285,7 +462,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:permission",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-manifest-037",
@@ -293,7 +476,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-038",
@@ -301,7 +489,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-039",
@@ -309,7 +502,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:joy",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-manifest-040",
@@ -317,7 +515,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-041",
@@ -325,7 +528,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-manifest-042",
@@ -333,7 +542,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-manifest-043",
@@ -341,7 +555,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-044",
@@ -349,7 +568,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-045",
@@ -357,7 +581,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-046",
@@ -365,7 +594,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-047",
@@ -373,7 +607,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-048",
@@ -381,7 +620,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:hope",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-manifest-049",
@@ -389,7 +633,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-050",
@@ -397,7 +646,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:faith",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-051",
@@ -405,7 +659,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-manifest-052",
@@ -413,7 +673,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-manifest-053",
@@ -421,7 +687,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-054",
@@ -429,7 +700,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-055",
@@ -437,7 +713,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-manifest-056",
@@ -445,7 +726,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "theme:faith",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-057",
@@ -453,7 +739,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-058",
@@ -461,7 +752,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-059",
@@ -469,7 +765,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-060",
@@ -477,7 +778,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-061",
@@ -485,7 +791,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-062",
@@ -493,7 +804,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-064",
@@ -501,7 +817,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-065",
@@ -509,7 +830,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-066",
@@ -517,7 +843,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-067",
@@ -525,7 +856,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:joy",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-manifest-068",
@@ -533,7 +869,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-069",
@@ -541,7 +882,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-070",
@@ -549,7 +895,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-071",
@@ -557,7 +908,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-072",
@@ -565,7 +921,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-073",
@@ -573,7 +934,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-074",
@@ -581,7 +947,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-075",
@@ -589,7 +960,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-076",
@@ -597,7 +973,11 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:hope",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-manifest-077",
@@ -605,7 +985,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-078",
@@ -613,7 +998,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-079",
@@ -621,7 +1011,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-080",
@@ -629,7 +1024,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-manifest-081",
@@ -637,6 +1037,10 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "manifestation",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:money",
+      "tone:playful"
+    ]
   }
 ]

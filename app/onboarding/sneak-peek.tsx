@@ -30,10 +30,7 @@ export default function SneakPeekScreen() {
   const emotionRoot = state.user?.emotionRoot || 'your journey';
 
   const quote = useMemo(() => {
-    // Only consider quotes short enough to look good on the card
     const short = allQuotes.filter((q) => q.text.length <= 120);
-
-    // Try to find a quote matching user interests
     if (interests.length > 0) {
       const matched = short.filter((q) =>
         interests.some((interest) => {
@@ -48,11 +45,9 @@ export default function SneakPeekScreen() {
         return matched[Math.floor(Math.random() * matched.length)];
       }
     }
-    // Fallback
     return short[Math.floor(Math.random() * short.length)];
   }, [interests]);
 
-  // Animations
   const labelOpacity = useSharedValue(0);
   const cardOpacity = useSharedValue(0);
   const cardScale = useSharedValue(0.95);
@@ -61,7 +56,6 @@ export default function SneakPeekScreen() {
 
   useEffect(() => {
     posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'sneak_peek' });
-    // Save the quote so notification-preview can reuse it
     setFirstQuote(`"${quote.text}" — ${quote.author}`);
   }, []);
 
@@ -88,12 +82,10 @@ export default function SneakPeekScreen() {
       style={styles.gradient}
     >
       <View style={[styles.content, { paddingTop: insets.top + 40 * s, paddingBottom: insets.bottom + 32 * s, paddingHorizontal: 32 * s }]}>
-        {/* Label */}
         <Animated.Text style={[styles.label, { fontSize: 16 * s }, labelStyle]}>
           Here is your first Whisper
         </Animated.Text>
 
-        {/* Quote card */}
         <Animated.View style={[styles.card, { padding: 32 * s }, cardStyle]}>
           <Text style={[styles.quoteText, { fontSize: 22 * s, lineHeight: 32 * s }]}>
             "{quote.text}"
@@ -103,12 +95,10 @@ export default function SneakPeekScreen() {
           </Text>
         </Animated.View>
 
-        {/* Footer text */}
         <Animated.Text style={[styles.footer, { fontSize: 14 * s }, footerStyle]}>
           We've curated 2000+ more quotes to help you navigate {emotionRoot.split(', ')[0].toLowerCase()}.
         </Animated.Text>
 
-        {/* Continue button */}
         <Animated.View style={[styles.btnWrapper, btnStyle]}>
           <Pressable
             style={({ pressed }) => [
@@ -118,7 +108,7 @@ export default function SneakPeekScreen() {
             ]}
             onPress={() => {
               if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-              router.push('/onboarding/notification-preview');
+              router.push('/onboarding/how-it-works');
             }}
           >
             <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Continue</Text>

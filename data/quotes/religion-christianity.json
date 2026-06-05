@@ -5,7 +5,8 @@
     "author": "Martin Luther King Jr.",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:hope", "need:motivation", "need:challenge", "tone:gentle", "tone:direct"]
   },
   {
     "id": "religion-chr-002",
@@ -14,7 +15,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:anxiety", "need:comfort", "need:stillness", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-003",
@@ -23,7 +25,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:hope", "need:comfort", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-004",
@@ -31,7 +34,8 @@
     "author": "Joyce Meyer",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "need:stillness", "tone:direct", "tone:gentle"]
   },
   {
     "id": "religion-chr-005",
@@ -40,7 +44,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:motivation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-006",
@@ -49,7 +54,8 @@
     "source": "A Testament of Hope: The Essential Writings and Speeches",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:forgiveness", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-007",
@@ -58,7 +64,8 @@
     "source": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "emotion:shame", "need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-chr-008",
@@ -67,7 +74,8 @@
     "source": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "tone:direct", "tone:raw"]
   },
   {
     "id": "religion-chr-009",
@@ -76,7 +84,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:peace", "need:comfort", "need:stillness", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-010",
@@ -85,7 +94,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "situation:loss", "emotion:fear", "need:comfort", "tone:sacred", "tone:gentle"]
   },
   {
     "id": "religion-chr-011",
@@ -94,7 +104,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:peace", "need:stillness", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-012",
@@ -103,7 +114,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-013",
@@ -112,7 +124,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:peace", "need:comfort", "need:stillness", "tone:sacred", "tone:poetic"]
   },
   {
     "id": "religion-chr-015",
@@ -121,7 +134,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:letting-go", "need:perspective", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-016",
@@ -130,7 +144,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "theme:identity", "need:perspective", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-chr-017",
@@ -139,7 +154,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "theme:identity", "emotion:hope", "need:validation", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-chr-018",
@@ -148,7 +164,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:hope", "need:perspective", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-019",
@@ -157,7 +174,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:motivation", "need:challenge", "tone:fierce", "tone:direct"]
   },
   {
     "id": "religion-chr-020",
@@ -166,7 +184,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:motivation", "tone:fierce", "tone:direct"]
   },
   {
     "id": "religion-chr-021",
@@ -175,7 +194,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:healing", "theme:growth", "emotion:hope", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-022",
@@ -184,7 +204,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-chr-023",
@@ -193,7 +214,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:friendship", "theme:family", "need:perspective", "tone:direct", "tone:gentle"]
   },
   {
     "id": "religion-chr-024",
@@ -202,7 +224,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:hope", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-025",
@@ -211,7 +234,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:letting-go", "theme:growth", "situation:new-chapter", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-chr-026",
@@ -220,7 +244,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:grief", "need:comfort", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-027",
@@ -229,7 +254,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:anxiety", "need:perspective", "need:stillness", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-028",
@@ -238,7 +264,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:purpose", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-029",
@@ -247,7 +274,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:loneliness", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-030",
@@ -256,7 +284,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:validation", "tone:sacred", "tone:gentle"]
   },
   {
     "id": "religion-chr-031",
@@ -265,7 +294,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:mortality", "situation:loss", "need:comfort", "tone:sacred"]
   },
   {
     "id": "religion-chr-032",
@@ -274,7 +304,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-033",
@@ -283,7 +314,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:letting-go", "need:permission", "tone:fierce", "tone:sacred"]
   },
   {
     "id": "religion-chr-034",
@@ -292,7 +324,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:exhaustion", "situation:burnout", "need:stillness", "need:motivation", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-chr-035",
@@ -301,7 +334,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:fear", "emotion:loneliness", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-036",
@@ -310,7 +344,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:identity", "theme:self-worth", "emotion:fear", "need:validation", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-037",
@@ -319,7 +354,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:romantic-love", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-038",
@@ -328,7 +364,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "need:motivation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-039",
@@ -337,7 +374,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:mortality", "theme:growth", "tone:sacred", "tone:poetic"]
   },
   {
     "id": "religion-chr-040",
@@ -346,7 +384,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "need:permission", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-041",
@@ -355,7 +394,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-042",
@@ -364,7 +404,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:growth", "theme:healing", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-043",
@@ -373,7 +414,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:motivation", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-chr-044",
@@ -382,7 +424,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:career", "theme:purpose", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-045",
@@ -391,7 +434,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:anxiety", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-046",
@@ -400,7 +444,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:hope", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-chr-047",
@@ -409,7 +454,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:comfort", "tone:sacred"]
   },
   {
     "id": "religion-chr-048",
@@ -418,7 +464,8 @@
     "source": "Mere Christianity",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:purpose", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-049",
@@ -427,7 +474,8 @@
     "source": "Mere Christianity",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:mortality", "emotion:longing", "need:perspective", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-chr-050",
@@ -436,7 +484,8 @@
     "source": "The Problem of Pain",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:grief", "need:perspective", "tone:direct", "tone:raw", "tone:sacred"]
   },
   {
     "id": "religion-chr-051",
@@ -445,7 +494,8 @@
     "source": "Mere Christianity",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:forgiveness", "need:permission", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-052",
@@ -454,7 +504,8 @@
     "source": "Mere Christianity",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:forgiveness", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-053",
@@ -462,7 +513,8 @@
     "author": "Mother Teresa",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-054",
@@ -470,7 +522,8 @@
     "author": "Mother Teresa",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:purpose", "theme:self-worth", "need:permission", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-055",
@@ -478,7 +531,8 @@
     "author": "Mother Teresa",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:romantic-love", "need:perspective", "tone:direct", "tone:raw", "tone:sacred"]
   },
   {
     "id": "religion-chr-056",
@@ -486,7 +540,8 @@
     "author": "Mother Teresa",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:stillness", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-057",
@@ -494,7 +549,8 @@
     "author": "Billy Graham",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "theme:purpose", "need:permission", "need:validation", "tone:direct"]
   },
   {
     "id": "religion-chr-058",
@@ -502,7 +558,8 @@
     "author": "Billy Graham",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-059",
@@ -510,7 +567,8 @@
     "author": "Billy Graham",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-060",
@@ -518,7 +576,8 @@
     "author": "Billy Graham",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:mortality", "need:comfort", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-061",
@@ -527,7 +586,8 @@
     "source": "The Purpose Driven Life",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:purpose", "theme:healing", "need:perspective", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-062",
@@ -536,7 +596,8 @@
     "source": "The Purpose Driven Life",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:purpose", "theme:identity", "need:motivation", "need:validation", "tone:direct"]
   },
   {
     "id": "religion-chr-063",
@@ -545,7 +606,8 @@
     "source": "The Purpose Driven Life",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:letting-go", "need:permission", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-064",
@@ -554,7 +616,8 @@
     "source": "The Purpose Driven Life",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:purpose", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-065",
@@ -563,7 +626,8 @@
     "source": "The Cost of Discipleship",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-066",
@@ -572,7 +636,8 @@
     "source": "The Cost of Discipleship",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-067",
@@ -581,7 +646,8 @@
     "source": "The Cost of Discipleship",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:identity", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-068",
@@ -589,7 +655,8 @@
     "author": "Dietrich Bonhoeffer",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:boundaries", "need:challenge", "tone:fierce", "tone:direct"]
   },
   {
     "id": "religion-chr-069",
@@ -597,7 +664,8 @@
     "author": "Corrie ten Boom",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:hope", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-070",
@@ -605,7 +673,8 @@
     "author": "Corrie ten Boom",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-071",
@@ -613,7 +682,8 @@
     "author": "Corrie ten Boom",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:family", "emotion:loneliness", "need:validation", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-072",
@@ -621,7 +691,8 @@
     "author": "Max Lucado",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-073",
@@ -629,7 +700,8 @@
     "author": "Max Lucado",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "theme:body-image", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-074",
@@ -637,7 +709,8 @@
     "author": "Max Lucado",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "need:permission", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-075",
@@ -645,7 +718,8 @@
     "author": "Max Lucado",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:anxiety", "need:comfort", "need:permission", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-076",
@@ -653,7 +727,8 @@
     "author": "Beth Moore",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:purpose", "theme:self-worth", "need:motivation", "need:validation", "tone:direct"]
   },
   {
     "id": "religion-chr-077",
@@ -661,7 +736,8 @@
     "author": "Beth Moore",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:shame", "need:comfort", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-078",
@@ -669,7 +745,8 @@
     "author": "Beth Moore",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:fear", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-079",
@@ -677,7 +754,8 @@
     "author": "Beth Moore",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:letting-go", "need:permission", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-080",
@@ -685,7 +763,8 @@
     "author": "D.L. Moody",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:motivation", "need:challenge", "tone:direct", "tone:fierce"]
   },
   {
     "id": "religion-chr-081",
@@ -693,7 +772,8 @@
     "author": "D.L. Moody",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-082",
@@ -701,7 +781,8 @@
     "author": "D.L. Moody",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:forgiveness", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-083",
@@ -709,7 +790,8 @@
     "author": "D.L. Moody",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:friendship", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-084",
@@ -717,7 +799,8 @@
     "author": "Charles Spurgeon",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:joy", "need:perspective", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-chr-085",
@@ -725,7 +808,8 @@
     "author": "Charles Spurgeon",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:stillness", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-chr-086",
@@ -733,7 +817,8 @@
     "author": "Charles Spurgeon",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-087",
@@ -741,7 +826,8 @@
     "author": "Charles Spurgeon",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-088",
@@ -749,7 +835,8 @@
     "author": "Charles Spurgeon",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:joy", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-089",
@@ -757,7 +844,8 @@
     "author": "Charles Spurgeon",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:identity", "tone:sacred"]
   },
   {
     "id": "religion-chr-090",
@@ -766,7 +854,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:body-image", "theme:self-worth", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-091",
@@ -774,7 +863,8 @@
     "author": "Thomas Moore",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:healing", "emotion:grief", "need:comfort", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-chr-092",
@@ -782,7 +872,8 @@
     "author": "Augustine of Hippo",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-093",
@@ -791,7 +882,8 @@
     "source": "Confessions",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:longing", "need:stillness", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-chr-094",
@@ -799,7 +891,8 @@
     "author": "Augustine of Hippo",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:joy", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-095",
@@ -807,7 +900,8 @@
     "author": "Dwight L. Moody",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-096",
@@ -816,7 +910,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:romantic-love", "emotion:fear", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-097",
@@ -825,7 +920,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:motivation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-098",
@@ -834,7 +930,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:peace", "need:comfort", "tone:gentle", "tone:sacred", "tone:poetic"]
   },
   {
     "id": "religion-chr-099",
@@ -842,7 +939,8 @@
     "author": "Charles Spurgeon",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-100",
@@ -850,15 +948,8 @@
     "author": "Billy Graham",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-chr-101",
-    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
-    "author": "1 Corinthians 13:4",
-    "category": "religion",
-    "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:validation", "tone:sacred", "tone:poetic"]
   },
   {
     "id": "religion-chr-102",
@@ -866,15 +957,8 @@
     "author": "1 Peter 4:8",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-chr-103",
-    "text": "Let all that you do be done in love.",
-    "author": "1 Corinthians 16:14",
-    "category": "religion",
-    "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:forgiveness", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-104",
@@ -882,7 +966,8 @@
     "author": "Colossians 3:14",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:motivation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-105",
@@ -890,7 +975,8 @@
     "author": "1 John 4:19",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-106",
@@ -898,7 +984,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:comfort", "need:permission", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-107",
@@ -906,7 +993,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:fear", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-chr-108",
@@ -914,7 +1002,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-chr-109",
@@ -922,7 +1011,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:letting-go", "need:permission", "tone:gentle", "tone:direct"]
   },
   {
     "id": "religion-chr-110",
@@ -930,7 +1020,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:hope", "emotion:shame", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-111",
@@ -938,7 +1029,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:loneliness", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-chr-112",
@@ -946,7 +1038,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:perspective", "need:stillness", "tone:gentle", "tone:direct"]
   },
   {
     "id": "religion-chr-113",
@@ -955,7 +1048,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "theme:body-image", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-114",
@@ -963,7 +1057,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:comfort", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-chr-115",
@@ -972,7 +1067,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:healing", "situation:new-chapter", "emotion:hope", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-116",
@@ -981,7 +1077,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "tone:sacred", "tone:gentle"]
   },
   {
     "id": "religion-chr-117",
@@ -990,7 +1087,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:hope", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-118",
@@ -998,7 +1096,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:validation", "tone:gentle"]
   },
   {
     "id": "religion-chr-119",
@@ -1007,7 +1106,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:hope", "emotion:joy", "emotion:grief", "need:comfort", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-chr-120",
@@ -1015,7 +1115,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:healing", "need:perspective", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-chr-121",
@@ -1023,7 +1124,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:loneliness", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-chr-122",
@@ -1032,7 +1134,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:stillness", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-chr-123",
@@ -1041,7 +1144,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:stillness", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-124",
@@ -1050,7 +1154,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:self-worth", "theme:identity", "need:validation", "need:motivation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-125",
@@ -1059,7 +1164,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:healing", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-126",
@@ -1068,7 +1174,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:healing", "emotion:exhaustion", "need:comfort", "tone:gentle", "tone:sacred", "tone:poetic"]
   },
   {
     "id": "religion-chr-127",
@@ -1077,7 +1184,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:exhaustion", "situation:burnout", "need:permission", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-128",
@@ -1085,7 +1193,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:validation", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-chr-129",
@@ -1093,7 +1202,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-chr-130",
@@ -1102,7 +1212,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:hope", "need:comfort", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-chr-131",
@@ -1111,7 +1222,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:exhaustion", "need:permission", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-132",
@@ -1119,16 +1231,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-chr-133",
-    "text": "I can do all things through Christ.",
-    "author": "Philippians 4:13",
-    "source": "The Bible",
-    "category": "religion",
-    "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:purpose", "theme:self-worth", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-chr-134",
@@ -1137,7 +1241,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:fear", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-135",
@@ -1145,7 +1250,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:fear", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-chr-136",
@@ -1154,7 +1260,8 @@
     "source": "The Bible",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "emotion:heartbreak", "emotion:grief", "situation:post-breakup", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-chr-137",
@@ -1162,6 +1269,7 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "christianity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:christianity", "theme:letting-go", "need:permission", "tone:gentle", "tone:direct"]
   }
 ]

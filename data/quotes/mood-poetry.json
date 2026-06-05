@@ -5,7 +5,14 @@
     "author": "Sarah Williams",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "emotion:fear",
+      "need:comfort",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-002",
@@ -13,7 +20,13 @@
     "author": "Emily Dickinson",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:comfort",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-003",
@@ -21,7 +34,14 @@
     "author": "T.S. Eliot",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anxiety",
+      "theme:identity",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-004",
@@ -29,7 +49,13 @@
     "author": "Carl Jung",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-poetry-005",
@@ -37,7 +63,12 @@
     "author": "F. Scott Fitzgerald",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "theme:body-image",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-006",
@@ -45,7 +76,14 @@
     "author": "Sylvia Plath",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-007",
@@ -53,7 +91,14 @@
     "author": "William Ernest Henley",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:poetic",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-poetry-008",
@@ -61,7 +106,13 @@
     "author": "Emily Dickinson",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "theme:identity",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-009",
@@ -69,15 +120,13 @@
     "author": "Emily Dickinson",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-poetry-010",
-    "text": "The wound is the place where the Light enters you.",
-    "author": "Rumi",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "playful",
+    "tags": [
+      "emotion:longing",
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-poetry-011",
@@ -85,7 +134,13 @@
     "author": "Mary Oliver",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:permission",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-012",
@@ -93,7 +148,13 @@
     "author": "Mary Oliver",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-013",
@@ -101,7 +162,12 @@
     "author": "William Ernest Henley",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-poetry-014",
@@ -109,7 +175,13 @@
     "author": "Rudyard Kipling",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:anxiety",
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-015",
@@ -117,7 +189,14 @@
     "author": "Erin Hanson",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:fear",
+      "emotion:hope",
+      "need:motivation",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-016",
@@ -125,7 +204,13 @@
     "author": "E.E. Cummings",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-017",
@@ -133,7 +218,12 @@
     "author": "Lord Byron",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-018",
@@ -141,7 +231,13 @@
     "author": "W.B. Yeats",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-019",
@@ -149,7 +245,14 @@
     "author": "Robert Frost",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "theme:identity",
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-020",
@@ -157,7 +260,12 @@
     "author": "William Shakespeare",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-021",
@@ -165,7 +273,13 @@
     "author": "T.S. Eliot",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-022",
@@ -173,7 +287,13 @@
     "author": "Leonard Cohen",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-023",
@@ -181,15 +301,13 @@
     "author": "Maya Angelou",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-poetry-024",
-    "text": "You may shoot me with your words, you may cut me with your eyes, you may kill me with your hatefulness, but still, like air, I'll rise.",
-    "author": "Maya Angelou",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-poetry-025",
@@ -197,7 +315,12 @@
     "author": "William Shakespeare",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-026",
@@ -205,7 +328,13 @@
     "author": "Emily Dickinson",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:grief",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-027",
@@ -213,7 +342,13 @@
     "author": "Guillaume Apollinaire",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "need:motivation",
+      "tone:poetic",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-poetry-028",
@@ -221,7 +356,13 @@
     "author": "Jack Kerouac",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "theme:identity",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-poetry-029",
@@ -229,7 +370,13 @@
     "author": "Anaïs Nin",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-030",
@@ -237,7 +384,13 @@
     "author": "Walt Whitman",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:poetic",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-poetry-031",
@@ -245,7 +398,13 @@
     "author": "Mary Oliver",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:permission",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-032",
@@ -253,15 +412,13 @@
     "author": "Oscar Wilde",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-poetry-033",
-    "text": "We loved with a love that was more than love.",
-    "author": "Edgar Allan Poe",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:poetic",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-poetry-034",
@@ -269,7 +426,14 @@
     "author": "J.R.R. Tolkien",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "theme:purpose",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-035",
@@ -277,7 +441,14 @@
     "author": "Charles Dickens",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "theme:growth",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-036",
@@ -285,7 +456,13 @@
     "author": "Emily Dickinson",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anxiety",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-037",
@@ -293,15 +470,13 @@
     "author": "William Shakespeare",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-poetry-038",
-    "text": "In the middle of winter I at last discovered that there was in me an invincible summer.",
-    "author": "Albert Camus",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:mortality",
+      "tone:poetic",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-poetry-039",
@@ -309,7 +484,12 @@
     "author": "Elizabeth Barrett Browning",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-040",
@@ -317,7 +497,12 @@
     "author": "Maya Angelou",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "tone:poetic",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-poetry-041",
@@ -325,7 +510,14 @@
     "author": "Elizabeth Bishop",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "emotion:grief",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-042",
@@ -333,7 +525,13 @@
     "author": "Emily Dickinson",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-043",
@@ -341,7 +539,12 @@
     "author": "John Masefield",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-044",
@@ -349,7 +552,13 @@
     "author": "Muriel Rukeyser",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-045",
@@ -357,7 +566,12 @@
     "author": "Abraham Lincoln",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-poetry-046",
@@ -365,7 +579,12 @@
     "author": "Margaret Atwood",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-047",
@@ -373,7 +592,13 @@
     "author": "Rainer Maria Rilke",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:grief",
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-048",
@@ -381,15 +606,13 @@
     "author": "Rainer Maria Rilke",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-049",
-    "text": "I love you without knowing how, or when, or from where. I love you simply, without problems or pride.",
-    "author": "Pablo Neruda",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:fear",
+      "need:motivation",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-050",
@@ -397,7 +620,12 @@
     "author": "Sharon Salzberg",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-051",
@@ -406,7 +634,14 @@
     "source": "A Pisgah-Sight of Palestine and the Confines Thereof",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "emotion:hope",
+      "need:comfort",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-052",
@@ -415,7 +650,13 @@
     "source": "Ode to the West Wind",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-053",
@@ -424,7 +665,13 @@
     "source": "A Midsummer Night's Dream",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:playful",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-poetry-054",
@@ -433,7 +680,12 @@
     "source": "Hamlet",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-055",
@@ -442,7 +694,12 @@
     "source": "A Dream Within a Dream",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-056",
@@ -451,7 +708,13 @@
     "source": "I Wandered Lonely as a Cloud",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:loneliness",
+      "need:stillness",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-057",
@@ -459,7 +722,14 @@
     "author": "Khalil Gibran",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "theme:healing",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-058",
@@ -468,7 +738,13 @@
     "source": "First Fig",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "theme:purpose",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-poetry-059",
@@ -477,7 +753,14 @@
     "source": "Remember",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:grief",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-060",
@@ -486,7 +769,13 @@
     "source": "The Red Wheelbarrow",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-061",
@@ -495,7 +784,13 @@
     "source": "A Child's Garden of Verses",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:playful",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-062",
@@ -503,7 +798,13 @@
     "author": "Matsuo Bashō",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-063",
@@ -512,7 +813,13 @@
     "source": "Les Misérables",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:comfort",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-064",
@@ -521,7 +828,14 @@
     "source": "Little Women",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-065",
@@ -529,7 +843,13 @@
     "author": "Marilyn Monroe",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-066",
@@ -538,7 +858,13 @@
     "source": "Still I Rise",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-poetry-067",
@@ -546,7 +872,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "need:permission",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-poetry-068",
@@ -554,7 +886,13 @@
     "author": "Seneca",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anxiety",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-069",
@@ -562,7 +900,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-070",
@@ -570,7 +913,12 @@
     "author": "Mark Beech",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-071",
@@ -578,7 +926,14 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:numbness",
+      "theme:healing",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-072",
@@ -587,7 +942,13 @@
     "source": "Stopping by Woods on a Snowy Evening",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "emotion:exhaustion",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-073",
@@ -596,7 +957,13 @@
     "source": "Stopping by Woods on a Snowy Evening",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "emotion:exhaustion",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-074",
@@ -604,7 +971,13 @@
     "author": "Emily Dickinson",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:boundaries",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-075",
@@ -613,7 +986,12 @@
     "source": "I'm Nobody! Who are you?",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "tone:playful",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-076",
@@ -622,7 +1000,12 @@
     "source": "The Tempest",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-077",
@@ -631,7 +1014,12 @@
     "source": "Romeo and Juliet",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-078",
@@ -640,7 +1028,13 @@
     "source": "Song of the Open Road",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "emotion:joy",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-poetry-079",
@@ -649,7 +1043,13 @@
     "source": "Song of Myself",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-080",
@@ -657,7 +1057,13 @@
     "author": "Pablo Neruda",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-081",
@@ -666,7 +1072,12 @@
     "source": "Funeral Blues",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:grief",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-082",
@@ -675,7 +1086,13 @@
     "source": "Leisure",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-083",
@@ -684,7 +1101,13 @@
     "source": "Grass",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:mortality",
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-084",
@@ -692,7 +1115,12 @@
     "author": "Emily Dickinson",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-085",
@@ -701,250 +1129,12 @@
     "source": "Because I could not stop for Death",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-086",
-    "text": "Tyger Tyger, burning bright, in the forests of the night.",
-    "author": "William Blake",
-    "source": "The Tyger",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-poetry-087",
-    "text": "To see a world in a grain of sand and a heaven in a wild flower.",
-    "author": "William Blake",
-    "source": "Auguries of Innocence",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-088",
-    "text": "The world is too much with us; late and soon.",
-    "author": "William Wordsworth",
-    "source": "The World Is Too Much with Us",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-089",
-    "text": "Season of mists and mellow fruitfulness.",
-    "author": "John Keats",
-    "source": "To Autumn",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-090",
-    "text": "Bright star, would I were stedfast as thou art.",
-    "author": "John Keats",
-    "source": "Bright Star",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-091",
-    "text": "Full fathom five thy father lies.",
-    "author": "William Shakespeare",
-    "source": "The Tempest",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-092",
-    "text": "Tomorrow, and tomorrow, and tomorrow.",
-    "author": "William Shakespeare",
-    "source": "Macbeth",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-poetry-093",
-    "text": "Had we but world enough and time.",
-    "author": "Andrew Marvell",
-    "source": "To His Coy Mistress",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-094",
-    "text": "Gather ye rosebuds while ye may.",
-    "author": "Robert Herrick",
-    "source": "To the Virgins, to Make Much of Time",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-poetry-095",
-    "text": "Drink to me only with thine eyes.",
-    "author": "Ben Jonson",
-    "source": "Song: To Celia",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-096",
-    "text": "O wild West Wind, thou breath of Autumn's being.",
-    "author": "Percy Bysshe Shelley",
-    "source": "Ode to the West Wind",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-poetry-097",
-    "text": "I met a traveller from an antique land.",
-    "author": "Percy Bysshe Shelley",
-    "source": "Ozymandias",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-098",
-    "text": "Water, water, everywhere, nor any drop to drink.",
-    "author": "Samuel Taylor Coleridge",
-    "source": "The Rime of the Ancient Mariner",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-poetry-099",
-    "text": "Alone, alone, all, all alone, alone on a wide wide sea.",
-    "author": "Samuel Taylor Coleridge",
-    "source": "The Rime of the Ancient Mariner",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-100",
-    "text": "It was many and many a year ago, in a kingdom by the sea.",
-    "author": "Edgar Allan Poe",
-    "source": "Annabel Lee",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-101",
-    "text": "Once upon a midnight dreary, while I pondered, weak and weary.",
-    "author": "Edgar Allan Poe",
-    "source": "The Raven",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-102",
-    "text": "Music, when soft voices die, vibrates in the memory.",
-    "author": "Percy Bysshe Shelley",
-    "source": "Music, When Soft Voices Die",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-103",
-    "text": "Hail to thee, blithe Spirit!",
-    "author": "Percy Bysshe Shelley",
-    "source": "To a Skylark",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-poetry-104",
-    "text": "The quality of mercy is not strained.",
-    "author": "William Shakespeare",
-    "source": "The Merchant of Venice",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-105",
-    "text": "Fear no more the heat o' the sun.",
-    "author": "William Shakespeare",
-    "source": "Cymbeline",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-106",
-    "text": "Golden lads and girls all must, as chimney-sweepers, come to dust.",
-    "author": "William Shakespeare",
-    "source": "Cymbeline",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-107",
-    "text": "Under the greenwood tree, who loves to lie with me.",
-    "author": "William Shakespeare",
-    "source": "As You Like It",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-poetry-108",
-    "text": "If music be the food of love, play on.",
-    "author": "William Shakespeare",
-    "source": "Twelfth Night",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-109",
-    "text": "Our revels now are ended.",
-    "author": "William Shakespeare",
-    "source": "The Tempest",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-110",
-    "text": "Lord, what fools these mortals be!",
-    "author": "William Shakespeare",
-    "source": "A Midsummer Night's Dream",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-poetry-111",
-    "text": "Parting is such sweet sorrow.",
-    "author": "William Shakespeare",
-    "source": "Romeo and Juliet",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-112",
-    "text": "But soft! What light through yonder window breaks?",
-    "author": "William Shakespeare",
-    "source": "Romeo and Juliet",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:mortality",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-poetry-113",
@@ -953,34 +1143,13 @@
     "source": "As You Like It",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-poetry-114",
-    "text": "When icicles hang by the wall.",
-    "author": "William Shakespeare",
-    "source": "Love's Labour's Lost",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-115",
-    "text": "Come away, come away, death.",
-    "author": "William Shakespeare",
-    "source": "Twelfth Night",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-116",
-    "text": "Sigh no more, ladies, sigh no more.",
-    "author": "William Shakespeare",
-    "source": "Much Ado About Nothing",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "playful"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-117",
@@ -989,33 +1158,26 @@
     "source": "Twelfth Night",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-poetry-118",
-    "text": "Journeys end in lovers meeting.",
-    "author": "William Shakespeare",
-    "source": "Twelfth Night",
+    "text": "She had a smile worth dying for, but oh, when she laughed.",
+    "author": "Clinton",
     "category": "mood-boosters",
     "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-119",
-    "text": "Now cracks a noble heart.",
-    "author": "William Shakespeare",
-    "source": "Hamlet",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-poetry-120",
-    "text": "There is a tide in the affairs of men.",
-    "author": "William Shakespeare",
-    "source": "Julius Caesar",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
-    "tone": "direct"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:playful"
+    ]
   }
 ]

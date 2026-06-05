@@ -5,7 +5,8 @@
     "author": "Emma Watson",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:perspective", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-003",
@@ -13,7 +14,8 @@
     "author": "Nayyirah Waheed",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:healing", "need:permission", "need:comfort", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-bp-004",
@@ -21,7 +23,8 @@
     "author": "Hannah Brencher",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-bp-005",
@@ -29,7 +32,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-bp-006",
@@ -37,7 +41,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:body-image", "need:motivation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-bp-007",
@@ -45,7 +50,8 @@
     "author": "Ariella Estoria",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-bp-008",
@@ -53,7 +59,8 @@
     "author": "Gabourey Sidibe",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "theme:identity", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-010",
@@ -61,7 +68,8 @@
     "author": "Emma Stone",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "need:motivation", "tone:direct"]
   },
   {
     "id": "self-love-bp-012",
@@ -69,7 +77,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:body-image", "theme:boundaries", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-014",
@@ -77,7 +86,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "emotion:shame", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-bp-015",
@@ -85,7 +95,8 @@
     "author": "Anna Quindlen",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:body-image", "theme:identity", "need:perspective", "tone:playful"]
   },
   {
     "id": "self-love-bp-016",
@@ -93,7 +104,8 @@
     "author": "J.K. Rowling",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:body-image", "need:perspective", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-bp-019",
@@ -101,7 +113,8 @@
     "author": "Lupita Nyong'o",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-bp-020",
@@ -109,7 +122,8 @@
     "author": "Lori Deschene",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "theme:healing", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-021",
@@ -117,15 +131,8 @@
     "author": "Jennifer Lopez",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
-  },
-  {
-    "id": "self-love-bp-023",
-    "text": "Girls of all kinds can be beautiful—from the thin, plus-sized, short, very tall, ebony to porcelain-skinned; the quirky, clumsy, shy, outgoing and all in between. It's not easy though because many people still put beauty into a confining, narrow box…think outside of the box.",
-    "author": "Tyra Banks",
-    "category": "self-love",
-    "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:self-worth", "theme:boundaries", "need:permission", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-bp-025",
@@ -133,7 +140,8 @@
     "author": "Steve Maraboli",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "theme:self-worth", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-027",
@@ -141,7 +149,8 @@
     "author": "Geneen Roth",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:self-worth", "emotion:shame", "need:permission", "need:validation", "tone:direct"]
   },
   {
     "id": "self-love-bp-028",
@@ -149,7 +158,8 @@
     "author": "Salma Hayek",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:perspective", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-029",
@@ -157,7 +167,8 @@
     "author": "Kate Upton",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-031",
@@ -165,7 +176,8 @@
     "author": "Serena Williams",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "emotion:joy", "tone:gentle", "tone:playful"]
   },
   {
     "id": "self-love-bp-034",
@@ -173,7 +185,8 @@
     "author": "Sarah Nicole",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "theme:self-worth", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-035",
@@ -181,7 +194,8 @@
     "author": "Gabourey Sidibe",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-036",
@@ -189,7 +203,8 @@
     "author": "Adele",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "tone:direct"]
   },
   {
     "id": "self-love-bp-037",
@@ -197,7 +212,8 @@
     "author": "Demi Lovato",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:boundaries", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-bp-043",
@@ -205,7 +221,8 @@
     "author": "Harnaam Kaur",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-044",
@@ -213,7 +230,8 @@
     "author": "Alicia Keys",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "need:validation", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-bp-046",
@@ -221,7 +239,8 @@
     "author": "Lenea Sims",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:healing", "theme:identity", "emotion:shame", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-047",
@@ -229,7 +248,8 @@
     "author": "Lauren Bacall",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-048",
@@ -237,7 +257,8 @@
     "author": "Eve Ensler",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:self-worth", "need:permission", "need:validation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-bp-049",
@@ -245,7 +266,8 @@
     "author": "Ashley Graham",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:validation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-050",
@@ -253,7 +275,8 @@
     "author": "Tina Fey",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:body-image", "need:perspective", "tone:playful"]
   },
   {
     "id": "self-love-bp-051",
@@ -261,7 +284,8 @@
     "author": "Bobbi Brown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "tone:gentle"]
   },
   {
     "id": "self-love-bp-052",
@@ -269,7 +293,8 @@
     "author": "Gloria Steinem",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:identity", "need:permission", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-bp-053",
@@ -277,7 +302,8 @@
     "author": "Louise Hay",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:permission", "tone:direct", "tone:playful"]
   },
   {
     "id": "self-love-bp-055",
@@ -285,7 +311,8 @@
     "author": "Olakemi",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:permission", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-bp-056",
@@ -293,7 +320,8 @@
     "author": "June Tomaso Wood",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:self-worth", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-bp-059",
@@ -301,7 +329,8 @@
     "author": "Drew Barrymore",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "theme:self-worth", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-060",
@@ -309,7 +338,8 @@
     "author": "Kate Winslet",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-061",
@@ -317,7 +347,8 @@
     "author": "Jennifer Lopez",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "theme:romantic-love", "situation:single-by-choice", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-bp-062",
@@ -325,7 +356,8 @@
     "author": "Beyonce",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:growth", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-bp-063",
@@ -333,7 +365,8 @@
     "author": "Rihanna",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "theme:identity", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-064",
@@ -341,7 +374,8 @@
     "author": "Meryl Streep",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "need:perspective", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-bp-065",
@@ -349,7 +383,8 @@
     "author": "Selena Gomez",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "theme:boundaries", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-066",
@@ -357,7 +392,8 @@
     "author": "Anne Hathaway",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-067",
@@ -365,7 +401,8 @@
     "author": "Priyanka Chopra",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:identity", "theme:self-worth", "theme:boundaries", "need:permission", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-bp-068",
@@ -373,7 +410,8 @@
     "author": "Serena Williams",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "theme:identity", "need:validation", "tone:fierce"]
   },
   {
     "id": "self-love-bp-069",
@@ -381,7 +419,8 @@
     "author": "Lady Gaga",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:identity", "theme:boundaries", "need:permission", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-bp-070",
@@ -389,7 +428,8 @@
     "author": "Sandra Bullock",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-071",
@@ -397,7 +437,8 @@
     "author": "Rebel Wilson",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:growth", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-bp-074",
@@ -405,7 +446,8 @@
     "author": "Sam Smith",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:body-image", "tone:playful", "tone:fierce"]
   },
   {
     "id": "self-love-bp-075",
@@ -413,7 +455,8 @@
     "author": "Camila Cabello",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:boundaries", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-bp-076",
@@ -421,7 +464,8 @@
     "author": "Golda Poretsky",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:boundaries", "need:perspective", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-bp-077",
@@ -429,7 +473,8 @@
     "author": "Clémentine Desseaux",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-bp-078",
@@ -437,7 +482,8 @@
     "author": "Tara Brach",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:stillness", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-bp-081",
@@ -445,7 +491,8 @@
     "author": "Roy T. Bennett",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:self-worth", "theme:letting-go", "need:motivation", "tone:direct"]
   },
   {
     "id": "self-love-bp-082",
@@ -453,7 +500,8 @@
     "author": "Jane Fonda",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-083",
@@ -461,7 +509,8 @@
     "author": "Abiola Abrams",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-084",
@@ -469,7 +518,8 @@
     "author": "Sanaya Roman",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:body-image", "tone:gentle"]
   },
   {
     "id": "self-love-bp-086",
@@ -477,7 +527,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-bp-087",
@@ -485,7 +536,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:healing", "need:perspective", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-bp-088",
@@ -493,7 +545,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-bp-089",
@@ -501,7 +554,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-bp-090",
@@ -509,7 +563,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:permission", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-bp-091",
@@ -517,7 +572,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:healing", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-092",
@@ -525,7 +581,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:permission", "tone:gentle", "tone:direct"]
   },
   {
     "id": "self-love-bp-093",
@@ -533,7 +590,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-094",
@@ -541,7 +599,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-095",
@@ -549,7 +608,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:perspective", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-096",
@@ -557,7 +617,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "need:motivation", "tone:playful", "tone:direct"]
   },
   {
     "id": "self-love-bp-097",
@@ -565,7 +626,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:boundaries", "need:permission", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-bp-098",
@@ -573,7 +635,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:self-worth", "emotion:shame", "need:permission", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-bp-099",
@@ -581,7 +644,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-100",
@@ -589,7 +653,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-101",
@@ -597,7 +662,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-102",
@@ -605,7 +671,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:permission", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-bp-103",
@@ -613,7 +680,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:perspective", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-bp-104",
@@ -621,7 +689,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:perspective", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-bp-105",
@@ -629,7 +698,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-106",
@@ -637,7 +707,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:perspective", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-bp-107",
@@ -645,7 +716,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-bp-108",
@@ -653,7 +725,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-109",
@@ -661,7 +734,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "theme:identity", "need:validation", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-bp-110",
@@ -669,7 +743,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-bp-111",
@@ -677,7 +752,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-112",
@@ -685,7 +761,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:validation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-113",
@@ -693,7 +770,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:validation", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-bp-114",
@@ -701,7 +779,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:identity", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-bp-115",
@@ -709,7 +788,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "tone:gentle"]
   },
   {
     "id": "self-love-bp-116",
@@ -717,7 +797,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-117",
@@ -725,7 +806,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:body-image", "theme:boundaries", "need:permission", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-bp-118",
@@ -733,7 +815,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-119",
@@ -741,7 +824,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:healing", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-120",
@@ -749,15 +833,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-bp-121",
-    "text": "You are more than your reflection shows.",
-    "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-122",
@@ -765,7 +842,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-bp-123",
@@ -773,7 +851,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-bp-124",
@@ -781,7 +860,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:healing", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-bp-125",
@@ -789,6 +869,7 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "body-positivity",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:body-image", "theme:identity", "need:permission", "tone:gentle"]
   }
 ]

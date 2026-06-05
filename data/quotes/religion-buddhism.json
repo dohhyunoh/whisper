@@ -6,7 +6,8 @@
     "source": "Tao Te Ching",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "theme:growth", "theme:identity", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-002",
@@ -14,7 +15,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-bud-003",
@@ -22,7 +24,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "theme:mortality", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-004",
@@ -30,7 +33,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:peace", "need:stillness", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-005",
@@ -38,7 +42,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "situation:new-chapter", "emotion:hope", "need:permission", "need:motivation", "tone:gentle"]
   },
   {
     "id": "religion-bud-006",
@@ -47,7 +52,8 @@
     "source": "Dhammapada",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:perspective", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-bud-007",
@@ -56,7 +62,8 @@
     "source": "Dhammapada",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:perspective", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-008",
@@ -65,16 +72,8 @@
     "source": "Dhammapada",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-bud-009",
-    "text": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
-    "author": "Buddha",
-    "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:forgiveness", "emotion:anger", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-010",
@@ -83,7 +82,8 @@
     "source": "Dhammapada",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-011",
@@ -92,7 +92,8 @@
     "source": "Dhammapada",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-bud-012",
@@ -101,7 +102,8 @@
     "source": "Dhammapada",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:mortality", "need:comfort", "tone:sacred"]
   },
   {
     "id": "religion-bud-013",
@@ -110,7 +112,8 @@
     "source": "Dhammapada",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "tone:sacred"]
   },
   {
     "id": "religion-bud-014",
@@ -119,7 +122,8 @@
     "source": "Dhammapada",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:challenge", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-015",
@@ -128,7 +132,8 @@
     "source": "Majjhima Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "theme:mortality", "need:perspective", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-bud-016",
@@ -137,7 +142,8 @@
     "source": "Majjhima Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "theme:mortality", "emotion:peace", "tone:sacred"]
   },
   {
     "id": "religion-bud-017",
@@ -146,7 +152,8 @@
     "source": "Majjhima Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-018",
@@ -155,7 +162,8 @@
     "source": "Majjhima Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-019",
@@ -164,7 +172,8 @@
     "source": "Samyutta Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-020",
@@ -173,7 +182,8 @@
     "source": "Samyutta Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:perspective", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-bud-021",
@@ -182,7 +192,8 @@
     "source": "Samyutta Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-022",
@@ -191,7 +202,8 @@
     "source": "Samyutta Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:grief", "theme:letting-go", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-bud-023",
@@ -200,7 +212,8 @@
     "source": "Samyutta Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-024",
@@ -208,7 +221,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:stillness", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-025",
@@ -216,7 +230,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "theme:letting-go", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-bud-026",
@@ -224,7 +239,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "tone:gentle"]
   },
   {
     "id": "religion-bud-027",
@@ -232,7 +248,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-bud-028",
@@ -240,7 +257,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:motivation", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-029",
@@ -248,7 +266,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "emotion:peace", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-bud-030",
@@ -256,7 +275,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:growth", "need:perspective", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-bud-031",
@@ -265,7 +285,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-bud-032",
@@ -274,7 +295,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:healing", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-bud-033",
@@ -283,7 +305,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-034",
@@ -292,16 +315,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-bud-035",
-    "text": "Peace is every step. The mind of peace is the mind of love, and love makes peace.",
-    "author": "Thich Nhat Hanh",
-    "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-036",
@@ -310,7 +325,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-bud-037",
@@ -319,7 +335,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:joy", "need:stillness", "need:permission", "tone:gentle"]
   },
   {
     "id": "religion-bud-038",
@@ -328,7 +345,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:hope", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-bud-039",
@@ -336,7 +354,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "religion-bud-040",
@@ -344,7 +363,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:joy", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-bud-041",
@@ -352,7 +372,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:purpose", "emotion:joy", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-bud-042",
@@ -360,7 +381,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-043",
@@ -368,7 +390,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:exhaustion", "situation:burnout", "need:stillness", "need:permission", "tone:playful", "tone:direct"]
   },
   {
     "id": "religion-bud-044",
@@ -376,7 +399,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:peace", "emotion:joy", "need:stillness", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-bud-045",
@@ -384,7 +408,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-bud-046",
@@ -392,7 +417,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "emotion:joy", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-047",
@@ -400,23 +426,27 @@
     "author": "Dogen",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "theme:letting-go", "need:perspective", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-bud-048",
     "text": "The way is not difficult for those who have no preferences. When love and hate are both absent everything becomes clear and undisguised.",
-    "author": "Dogen",
+    "author": "Sengcan",
+    "source": "Hsinhsin Ming",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct", "tone:poetic"]
   },
   {
     "id": "religion-bud-049",
     "text": "Sitting quietly, doing nothing, spring comes, and the grass grows by itself.",
-    "author": "Dogen",
+    "author": "Zenrin Kushu",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:permission", "tone:poetic"]
   },
   {
     "id": "religion-bud-050",
@@ -425,7 +455,8 @@
     "source": "Zen Mind, Beginner's Mind",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:growth", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-051",
@@ -434,7 +465,8 @@
     "source": "Zen Mind, Beginner's Mind",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-052",
@@ -443,7 +475,8 @@
     "source": "Zen Mind, Beginner's Mind",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "theme:growth", "need:validation", "need:permission", "tone:gentle", "tone:playful"]
   },
   {
     "id": "religion-bud-053",
@@ -452,7 +485,8 @@
     "source": "Zen Mind, Beginner's Mind",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "religion-bud-054",
@@ -461,7 +495,8 @@
     "source": "Zen Mind, Beginner's Mind",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-055",
@@ -470,7 +505,8 @@
     "source": "When Things Fall Apart",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:numbness", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-bud-056",
@@ -479,7 +515,8 @@
     "source": "When Things Fall Apart",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "need:validation", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "religion-bud-057",
@@ -488,7 +525,8 @@
     "source": "When Things Fall Apart",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "situation:new-chapter", "emotion:hope", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-058",
@@ -497,7 +535,8 @@
     "source": "When Things Fall Apart",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:motivation", "tone:gentle", "tone:fierce"]
   },
   {
     "id": "religion-bud-059",
@@ -506,7 +545,8 @@
     "source": "When Things Fall Apart",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:fear", "theme:letting-go", "need:perspective", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-bud-060",
@@ -514,7 +554,8 @@
     "author": "Sharon Salzberg",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "situation:new-chapter", "need:stillness", "need:permission", "tone:gentle"]
   },
   {
     "id": "religion-bud-061",
@@ -522,7 +563,8 @@
     "author": "Sharon Salzberg",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-062",
@@ -530,7 +572,8 @@
     "author": "Sharon Salzberg",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:challenge", "tone:direct", "tone:playful"]
   },
   {
     "id": "religion-bud-063",
@@ -538,7 +581,8 @@
     "author": "Sharon Salzberg",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-bud-064",
@@ -546,7 +590,8 @@
     "author": "Ajahn Chah",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:purpose", "theme:identity", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-065",
@@ -554,7 +599,8 @@
     "author": "Ajahn Chah",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "emotion:peace", "need:permission", "tone:gentle", "tone:direct"]
   },
   {
     "id": "religion-bud-066",
@@ -562,7 +608,8 @@
     "author": "Ajahn Chah",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:peace", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-bud-067",
@@ -570,7 +617,8 @@
     "author": "Ajahn Chah",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-068",
@@ -578,7 +626,8 @@
     "author": "Nagarjuna",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-bud-069",
@@ -586,7 +635,8 @@
     "author": "Nagarjuna",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-070",
@@ -594,7 +644,8 @@
     "author": "Nagarjuna",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-bud-071",
@@ -602,7 +653,8 @@
     "author": "Nagarjuna",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-bud-072",
@@ -610,7 +662,8 @@
     "author": "Bodhidharma",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:mortality", "tone:sacred"]
   },
   {
     "id": "religion-bud-073",
@@ -618,7 +671,8 @@
     "author": "Bodhidharma",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "theme:self-worth", "need:validation", "tone:direct"]
   },
   {
     "id": "religion-bud-074",
@@ -626,7 +680,8 @@
     "author": "Bodhidharma",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:permission", "tone:poetic"]
   },
   {
     "id": "religion-bud-075",
@@ -634,7 +689,8 @@
     "author": "Bodhidharma",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:poetic"]
   },
   {
     "id": "religion-bud-076",
@@ -643,7 +699,8 @@
     "source": "Tao Te Ching",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:stillness", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-077",
@@ -652,16 +709,8 @@
     "source": "Tao Te Ching",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-bud-078",
-    "text": "Water is the softest thing, yet it erodes mountains and stones. This is because it yields with ease.",
-    "author": "Lao Tzu",
-    "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-bud-079",
@@ -670,16 +719,8 @@
     "source": "Tao Te Ching",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-bud-080",
-    "text": "Nature does not hurry, yet everything is accomplished.",
-    "author": "Lao Tzu",
-    "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-bud-081",
@@ -688,16 +729,8 @@
     "source": "Majjhima Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-bud-082",
-    "text": "Do not dwell in the past, do not dream of the future. Keep your mind in the present moment.",
-    "author": "Buddha",
-    "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-083",
@@ -705,7 +738,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-bud-084",
@@ -714,7 +748,8 @@
     "source": "Samyutta Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:hope", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-085",
@@ -723,7 +758,8 @@
     "source": "Majjhima Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:challenge", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-086",
@@ -732,7 +768,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:fear", "emotion:hope", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-bud-087",
@@ -741,7 +778,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-bud-088",
@@ -750,7 +788,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-089",
@@ -759,7 +798,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-bud-090",
@@ -767,7 +807,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-091",
@@ -775,7 +816,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:joy", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-092",
@@ -783,15 +825,8 @@
     "author": "Dalai Lama",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-bud-093",
-    "text": "In silence we find truth. In solitude we find strength. In stillness we find God.",
-    "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:growth", "tone:gentle"]
   },
   {
     "id": "religion-bud-094",
@@ -800,7 +835,8 @@
     "source": "Samyutta Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-bud-095",
@@ -808,7 +844,8 @@
     "author": "Nagarjuna",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-bud-096",
@@ -816,7 +853,8 @@
     "author": "Ajahn Chah",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:boundaries", "theme:letting-go", "need:stillness", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-bud-097",
@@ -825,7 +863,8 @@
     "source": "When Things Fall Apart",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-bud-098",
@@ -834,7 +873,8 @@
     "source": "Dhammapada",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-099",
@@ -843,7 +883,8 @@
     "source": "Plum Village",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "theme:mortality", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-bud-100",
@@ -852,7 +893,8 @@
     "source": "Majjhima Nikaya",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:challenge", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-bud-101",
@@ -860,15 +902,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-bud-102",
-    "text": "The mind is everything.",
-    "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-bud-103",
@@ -876,7 +911,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:fear", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-bud-104",
@@ -884,7 +920,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-105",
@@ -892,7 +929,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "emotion:peace", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-bud-106",
@@ -900,7 +938,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-bud-107",
@@ -908,7 +947,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-108",
@@ -916,7 +956,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:permission", "tone:gentle"]
   },
   {
     "id": "religion-bud-109",
@@ -924,7 +965,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "theme:identity", "need:validation", "tone:gentle"]
   },
   {
     "id": "religion-bud-110",
@@ -932,7 +974,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-bud-111",
@@ -940,7 +983,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "theme:identity", "need:motivation", "need:validation", "tone:direct"]
   },
   {
     "id": "religion-bud-112",
@@ -948,7 +992,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-bud-113",
@@ -956,7 +1001,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "tone:gentle"]
   },
   {
     "id": "religion-bud-114",
@@ -964,7 +1010,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:stillness", "need:permission", "tone:gentle"]
   },
   {
     "id": "religion-bud-115",
@@ -972,7 +1019,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:healing", "theme:growth", "emotion:hope", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-bud-116",
@@ -980,7 +1028,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:poetic"]
   },
   {
     "id": "religion-bud-117",
@@ -988,7 +1037,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "situation:new-chapter", "theme:letting-go", "emotion:hope", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-bud-118",
@@ -996,7 +1046,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-119",
@@ -1004,7 +1055,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-bud-120",
@@ -1012,7 +1064,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "tone:gentle"]
   },
   {
     "id": "religion-bud-121",
@@ -1020,7 +1073,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-bud-122",
@@ -1028,7 +1082,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-bud-123",
@@ -1036,7 +1091,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-124",
@@ -1044,7 +1100,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:permission", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-125",
@@ -1052,7 +1109,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-126",
@@ -1060,7 +1118,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:growth", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-bud-127",
@@ -1068,7 +1127,8 @@
     "author": "Thich Nhat Hanh",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "emotion:peace", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-bud-128",
@@ -1076,7 +1136,8 @@
     "author": "Buddha",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "tone:direct"]
   },
   {
     "id": "religion-bud-129",
@@ -1084,7 +1145,8 @@
     "author": "Pema Chödrön",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "theme:letting-go", "need:perspective", "need:comfort", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-bud-130",
@@ -1092,7 +1154,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-bud-131",
@@ -1100,7 +1163,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-bud-132",
@@ -1108,15 +1172,7 @@
     "author": "Thich Nhat Hanh",
     "category": "religion",
     "subcategory": "buddhism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-bud-133",
-    "text": "Who betrays you once will betray you a thousand times. There is no need to drink the whole sea to realize that it's salty.",
-    "author": "Buddha",
-    "source": "Traditional proverb (widely attributed)",
-    "category": "religion",
-    "subcategory": "buddhism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:direct", "tone:poetic"]
   }
 ]

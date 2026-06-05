@@ -5,7 +5,12 @@
     "author": "Marcus Aurelius",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-002",
@@ -13,7 +18,13 @@
     "author": "Marcus Aurelius",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-philo-003",
@@ -21,7 +32,13 @@
     "author": "Marcus Aurelius",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-philo-004",
@@ -29,7 +46,12 @@
     "author": "Marcus Aurelius",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-007",
@@ -37,7 +59,12 @@
     "author": "Epictetus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-010",
@@ -45,7 +72,12 @@
     "author": "Seneca",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:anxiety",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-011",
@@ -53,7 +85,12 @@
     "author": "Seneca",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-012",
@@ -61,7 +98,13 @@
     "author": "Seneca",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:mortality",
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-013",
@@ -69,7 +112,12 @@
     "author": "Seneca",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-014",
@@ -77,7 +125,13 @@
     "author": "Albert Camus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:healing",
+      "emotion:hope",
+      "need:perspective",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-philo-015",
@@ -85,7 +139,12 @@
     "author": "Albert Camus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-016",
@@ -93,7 +152,13 @@
     "author": "Albert Camus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-philo-017",
@@ -101,7 +166,12 @@
     "author": "Albert Camus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-018",
@@ -109,7 +179,13 @@
     "author": "Jean-Paul Sartre",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-019",
@@ -117,7 +193,12 @@
     "author": "Jean-Paul Sartre",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-020",
@@ -125,7 +206,12 @@
     "author": "Jean-Paul Sartre",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-021",
@@ -133,7 +219,12 @@
     "author": "Soren Kierkegaard",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-022",
@@ -141,7 +232,13 @@
     "author": "Soren Kierkegaard",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "emotion:numbness",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-023",
@@ -149,7 +246,12 @@
     "author": "Friedrich Nietzsche",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-024",
@@ -157,7 +259,12 @@
     "author": "Friedrich Nietzsche",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-026",
@@ -165,7 +272,12 @@
     "author": "Friedrich Nietzsche",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-philo-028",
@@ -173,7 +285,12 @@
     "author": "Socrates",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-029",
@@ -181,7 +298,12 @@
     "author": "Socrates",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-031",
@@ -189,7 +311,12 @@
     "author": "Plato",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:friendship",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-032",
@@ -197,7 +324,12 @@
     "author": "Plato",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-035",
@@ -205,7 +337,12 @@
     "author": "Aristotle",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-036",
@@ -213,7 +350,13 @@
     "author": "Heraclitus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-philo-037",
@@ -221,7 +364,13 @@
     "author": "Heraclitus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:letting-go",
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-038",
@@ -229,7 +378,13 @@
     "author": "Diogenes",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:money",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-039",
@@ -237,7 +392,12 @@
     "author": "Diogenes",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-041",
@@ -245,7 +405,14 @@
     "author": "Lao Tzu",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:letting-go",
+      "theme:growth",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-042",
@@ -253,7 +420,14 @@
     "author": "Lao Tzu",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "need:stillness",
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-philo-043",
@@ -261,7 +435,12 @@
     "author": "Lao Tzu",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-044",
@@ -269,7 +448,12 @@
     "author": "Lao Tzu",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-047",
@@ -277,7 +461,12 @@
     "author": "Confucius",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-048",
@@ -285,7 +474,12 @@
     "author": "Confucius",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-051",
@@ -293,15 +487,12 @@
     "author": "Zhuangzi",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-052",
-    "text": "The wound is the place where the Light enters you.",
-    "author": "Rumi",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-054",
@@ -309,7 +500,12 @@
     "author": "Rumi",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-055",
@@ -317,7 +513,13 @@
     "author": "Rumi",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-philo-060",
@@ -325,7 +527,12 @@
     "author": "Hannah Arendt",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-063",
@@ -333,7 +540,12 @@
     "author": "Alan Watts",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:anxiety",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-065",
@@ -341,7 +553,12 @@
     "author": "Alan Watts",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-066",
@@ -349,7 +566,13 @@
     "author": "Viktor Frankl",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:letting-go",
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-070",
@@ -357,7 +580,12 @@
     "author": "Marcus Aurelius",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-071",
@@ -365,7 +593,12 @@
     "author": "Friedrich Nietzsche",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-072",
@@ -373,7 +606,12 @@
     "author": "Carl Jung",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-073",
@@ -381,7 +619,12 @@
     "author": "Alan Watts",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-074",
@@ -389,15 +632,12 @@
     "author": "Peace Pilgrim",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
-  },
-  {
-    "id": "mood-philo-076",
-    "text": "The only true wisdom is in knowing you know nothing.",
-    "author": "Socrates",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-077",
@@ -405,7 +645,12 @@
     "author": "Søren Kierkegaard",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "need:perspective",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-078",
@@ -413,7 +658,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "need:stillness",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-philo-079",
@@ -421,7 +672,13 @@
     "author": "Henry David Thoreau",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-080",
@@ -429,7 +686,12 @@
     "author": "Claude Levi-Strauss",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-081",
@@ -437,7 +699,12 @@
     "author": "Alan Watts",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-082",
@@ -445,7 +712,12 @@
     "author": "Jean-Jacques Rousseau",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-085",
@@ -454,7 +726,11 @@
     "source": "Hamlet",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-086",
@@ -462,7 +738,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-087",
@@ -470,7 +751,12 @@
     "author": "Chuck Palahniuk",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-088",
@@ -478,7 +764,12 @@
     "author": "Oscar Wilde",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-089",
@@ -486,7 +777,13 @@
     "author": "Stephen Chbosky",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-090",
@@ -494,7 +791,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-091",
@@ -502,7 +804,12 @@
     "author": "Friedrich Nietzsche",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-092",
@@ -510,7 +817,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-093",
@@ -518,7 +830,12 @@
     "author": "Navajo Proverb",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-094",
@@ -526,7 +843,13 @@
     "author": "James Baldwin",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-095",
@@ -534,7 +857,12 @@
     "author": "Elie Wiesel",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-097",
@@ -542,7 +870,12 @@
     "author": "Malcolm X",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-098",
@@ -550,7 +883,12 @@
     "author": "J.R.R. Tolkien",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-099",
@@ -558,7 +896,12 @@
     "author": "George R.R. Martin",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-100",
@@ -566,7 +909,12 @@
     "author": "Seneca",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-101",
@@ -574,7 +922,12 @@
     "author": "Plato",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-102",
@@ -582,7 +935,12 @@
     "author": "Plato",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-103",
@@ -590,7 +948,12 @@
     "author": "Karl Marx",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-083",
@@ -598,7 +961,12 @@
     "author": "Fyodor Dostoevsky",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-084",
@@ -606,103 +974,163 @@
     "author": "William Shakespeare",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-085",
+    "id": "mood-philo-167",
     "text": "An enemy will agree, but a friend will argue.",
     "author": "Russian proverb",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-086",
+    "id": "mood-philo-168",
     "text": "This world is cruel and merciless... But it's also very beautiful.",
     "author": "Mikasa Ackerman",
     "source": "Attack on Titan",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-087",
+    "id": "mood-philo-169",
     "text": "People are like glass. You can't always see their cracks, but that doesn't mean they're not there.",
     "author": "Beastars",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-088",
+    "id": "mood-philo-170",
     "text": "Whatever you lose, you'll find it again, but what you throw away, you'll never get it back.",
     "author": "Rurouni Kenshin",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-089",
+    "id": "mood-philo-171",
     "text": "The world isn't perfect. But it's there for us, trying the best it can.",
     "author": "Roy Mustang",
     "source": "Fullmetal Alchemist",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-090",
+    "id": "mood-philo-172",
     "text": "The longer you live... The more you realize that reality is just made of pain, suffering and emptiness.",
     "author": "Madara Uchiha",
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-091",
+    "id": "mood-philo-173",
     "text": "Everyone is a slave to something.",
     "author": "Askeladd",
     "source": "Vinland Saga",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-092",
+    "id": "mood-philo-174",
     "text": "Those who stand at the top determine what's wrong and what's right... Whoever wins this war becomes justice!",
     "author": "Donquixote Doflamingo",
     "source": "One Piece",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-093",
+    "id": "mood-philo-175",
     "text": "When do you think people die? ... It's when they are forgotten!",
     "author": "Dr. Hiriluk",
     "source": "One Piece",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-094",
+    "id": "mood-philo-176",
     "text": "If all you ever do is look down on people, you won't be able to recognize your own weaknesses.",
     "author": "Katsuki Bakugo",
     "source": "My Hero Academia",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-095",
+    "id": "mood-philo-177",
     "text": "If the king doesn't lead, how can he expect his subjects to follow?",
     "author": "Lelouch",
     "source": "Code Geass",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-096",
@@ -711,70 +1139,110 @@
     "source": "Code Geass",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-097",
+    "id": "mood-philo-178",
     "text": "To obtain, something of equal value must be lost. That is alchemy's first law of Equivalent Exchange.",
     "author": "Alphonse Elric",
     "source": "Fullmetal Alchemist: Brotherhood",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-098",
+    "id": "mood-philo-179",
     "text": "Justice comes from vengeance, but that justice only breeds more vengeance.",
     "author": "Pain",
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-099",
+    "id": "mood-philo-180",
     "text": "Wake up to reality! Nothing ever goes as planned in this accursed world.",
     "author": "Madara Uchiha",
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-100",
+    "id": "mood-philo-181",
     "text": "Everyone is alone. Everyone is empty. People no longer have need of others.",
     "author": "Shogo Makishima",
     "source": "Psycho-Pass",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-101",
+    "id": "mood-philo-182",
     "text": "Admiration is the emotion furthest from understanding.",
     "author": "Sosuke Aizen",
     "source": "Bleach",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-102",
+    "id": "mood-philo-183",
     "text": "Fear is necessary for evolution.",
     "author": "Sosuke Aizen",
     "source": "Bleach",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-philo-103",
+    "id": "mood-philo-184",
     "text": "Are you the strongest because you're Satoru Gojo? Or are you Satoru Gojo because you're the strongest?",
     "author": "Suguru Geto",
     "source": "Jujutsu Kaisen",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-104",
@@ -783,7 +1251,12 @@
     "source": "Vagabond",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-105",
@@ -792,7 +1265,12 @@
     "source": "Cyberpunk: Edgerunners",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-106",
@@ -801,7 +1279,12 @@
     "source": "Berserk",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-107",
@@ -810,7 +1293,12 @@
     "source": "Frieren: Beyond Journey's End",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-108",
@@ -819,7 +1307,12 @@
     "source": "Steins;Gate",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-109",
@@ -828,7 +1321,12 @@
     "source": "Made in Abyss",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-110",
@@ -837,7 +1335,12 @@
     "source": "Your Lie in April",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-111",
@@ -846,7 +1349,12 @@
     "source": "Bleach",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-112",
@@ -855,7 +1363,12 @@
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-113",
@@ -864,7 +1377,12 @@
     "source": "2008",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-115",
@@ -873,7 +1391,12 @@
     "source": "2002",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-116",
@@ -882,7 +1405,12 @@
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-117",
@@ -891,7 +1419,12 @@
     "source": "Code Geass",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-118",
@@ -900,7 +1433,12 @@
     "source": "Psycho-Pass",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-119",
@@ -909,7 +1447,12 @@
     "source": "Psycho-Pass",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-120",
@@ -917,7 +1460,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-121",
@@ -925,7 +1473,12 @@
     "author": "Carl Jung",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-122",
@@ -934,7 +1487,12 @@
     "source": "The Incredibles",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-philo-123",
@@ -942,7 +1500,12 @@
     "author": "African Proverb",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-124",
@@ -951,7 +1514,13 @@
     "source": "The Little Prince",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-philo-125",
@@ -960,7 +1529,13 @@
     "source": "The Little Prince",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-philo-126",
@@ -969,7 +1544,12 @@
     "source": "The Little Prince",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-127",
@@ -978,7 +1558,13 @@
     "source": "Meditations",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anxiety",
+      "need:stillness",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-128",
@@ -986,7 +1572,13 @@
     "author": "Lao Tzu",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anxiety",
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-129",
@@ -994,7 +1586,12 @@
     "author": "Friedrich Nietzsche",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-130",
@@ -1002,7 +1599,12 @@
     "author": "African Proverb",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-131",
@@ -1010,15 +1612,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-philo-132",
-    "text": "We suffer more in imagination than reality.",
-    "author": "Seneca",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-133",
@@ -1026,7 +1625,12 @@
     "author": "Socrates",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-134",
@@ -1034,7 +1638,12 @@
     "author": "George Berkeley",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-135",
@@ -1042,7 +1651,12 @@
     "author": "Marcus Aurelius",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-136",
@@ -1050,15 +1664,12 @@
     "author": "Aristotle",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-philo-137",
-    "text": "Life must be understood backwards.",
-    "author": "Søren Kierkegaard",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-138",
@@ -1066,7 +1677,12 @@
     "author": "Isaac Newton",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-139",
@@ -1074,15 +1690,12 @@
     "author": "Friedrich Nietzsche",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-philo-140",
-    "text": "Waste no time arguing what a good person should be.",
-    "author": "Marcus Aurelius",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-141",
@@ -1090,7 +1703,12 @@
     "author": "Epictetus",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-142",
@@ -1098,7 +1716,12 @@
     "author": "Robert Byrne",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-143",
@@ -1106,7 +1729,12 @@
     "author": "Ralph Waldo Emerson",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-144",
@@ -1114,7 +1742,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:mortality",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-145",
@@ -1122,7 +1755,11 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-146",
@@ -1130,15 +1767,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-philo-147",
-    "text": "What stands in the way becomes the way.",
-    "author": "Marcus Aurelius",
-    "category": "mood-boosters",
-    "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-148",
@@ -1146,7 +1780,12 @@
     "author": "Bruce Lee",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-149",
@@ -1154,7 +1793,12 @@
     "author": "Ludwig Mies van der Rohe",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-150",
@@ -1162,7 +1806,12 @@
     "author": "Fyodor Dostoevsky",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-151",
@@ -1170,7 +1819,12 @@
     "author": "Jiddu Krishnamurti",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-152",
@@ -1178,7 +1832,12 @@
     "author": "Beneath",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-153",
@@ -1186,7 +1845,13 @@
     "author": "Fyodor Dostoevsky",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "emotion:shame",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-154",
@@ -1195,7 +1860,12 @@
     "source": "Avatar: The Last Airbender",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:shame",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-155",
@@ -1204,7 +1874,12 @@
     "source": "Kung Fu Panda",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-156",
@@ -1213,7 +1888,12 @@
     "source": "Winnie the Pooh",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-157",
@@ -1221,7 +1901,12 @@
     "author": "Plato",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-158",
@@ -1229,7 +1914,12 @@
     "author": "Seneca",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:anxiety",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-philo-159",
@@ -1237,7 +1927,12 @@
     "author": "Franz Kafka",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-160",
@@ -1245,7 +1940,12 @@
     "author": "Frank Ocean",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-161",
@@ -1253,7 +1953,13 @@
     "author": "Martin Luther King Jr.",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anger",
+      "theme:forgiveness",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-162",
@@ -1261,7 +1967,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-philo-163",
@@ -1269,7 +1980,13 @@
     "author": "Friedrich Nietzsche",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-philo-164",
@@ -1277,6 +1994,176 @@
     "author": "Oscar Wilde",
     "category": "mood-boosters",
     "subcategory": "philosophy",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
+  },
+  {
+    "id": "mood-philo-165",
+    "text": "Who betrays you once will betray you a thousand times. There is no need to drink the whole sea to realize that it's salty.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct",
+    "tags": [
+      "emotion:anger",
+      "theme:letting-go",
+      "theme:forgiveness",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-166",
+    "text": "Ask not what the world owes you. Ask what you owe the world. That is the beginning of wisdom.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-185",
+    "text": "You can't add days to your life, but you can add life to your days.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "theme:mortality",
+      "need:motivation",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-186",
+    "text": "You cannot find peace by avoiding life.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct",
+    "tags": [
+      "emotion:peace",
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-187",
+    "text": "Don't treat people as bad as they are. Treat them as good as you are.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle",
+    "tags": [
+      "theme:forgiveness",
+      "need:perspective",
+      "tone:gentle"
+    ]
+  },
+  {
+    "id": "mood-philo-188",
+    "text": "There is no peace for the man who has seen what he could become.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-189",
+    "text": "To appreciate the beauty of a snowflake, it is necessary to stand out in the cold.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "mood-philo-190",
+    "text": "If you hate a person, then you are defeated by them.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct",
+    "tags": [
+      "emotion:anger",
+      "theme:forgiveness",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-191",
+    "text": "The sheep will spend its entire life fearing the wolf, only to be eaten by the shepherd.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "need:perspective",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-192",
+    "text": "There is no sun without shadow, and it is essential to know the night.",
+    "author": "Albert Camus",
+    "source": "The Myth of Sisyphus",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
+  },
+  {
+    "id": "mood-philo-193",
+    "text": "The villain will always be a villain if the hero tells the story.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-194",
+    "text": "A dirty window changes the view, not the world outside.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "philosophy",
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "theme:growth",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   }
 ]

@@ -22,6 +22,7 @@ export interface Quote {
   category: Category;
   subcategory?: SubCategory;
   tone?: ToneTag;
+  tags?: string[];
 }
 
 export interface OwnQuote {

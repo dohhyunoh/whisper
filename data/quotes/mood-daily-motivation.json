@@ -5,7 +5,12 @@
     "author": "Confucius",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-002",
@@ -13,15 +18,12 @@
     "author": "St. Jerome",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-motiv-003",
-    "text": "It always seems impossible until it's done.",
-    "author": "Nelson Mandela",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-004",
@@ -29,7 +31,12 @@
     "author": "Jim Rohn",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-005",
@@ -37,7 +44,11 @@
     "author": "Charles R. Swindoll",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-006",
@@ -45,7 +56,12 @@
     "author": "Winston Churchill",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:exhaustion",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-007",
@@ -53,7 +69,12 @@
     "author": "Og Mandino",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-008",
@@ -61,7 +82,12 @@
     "author": "Elon Musk",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-009",
@@ -69,7 +95,12 @@
     "author": "Walt Disney",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-010",
@@ -77,7 +108,12 @@
     "author": "Ralph Marston",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-011",
@@ -85,7 +121,12 @@
     "author": "Flip Wilson",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-012",
@@ -93,7 +134,12 @@
     "author": "Aristotle",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-013",
@@ -101,7 +147,12 @@
     "author": "Johann Wolfgang von Goethe",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-014",
@@ -109,7 +160,12 @@
     "author": "Theodore Roosevelt",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-015",
@@ -117,7 +173,12 @@
     "author": "Franklin D. Roosevelt",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-016",
@@ -125,15 +186,12 @@
     "author": "Walter Elliot",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-motiv-017",
-    "text": "You can't cross the sea merely by standing and staring at the water.",
-    "author": "Rabindranath Tagore",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-018",
@@ -141,7 +199,12 @@
     "author": "Amelia Earhart",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-019",
@@ -149,7 +212,12 @@
     "author": "Babe Ruth",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-020",
@@ -157,7 +225,12 @@
     "author": "William James",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-021",
@@ -165,7 +238,12 @@
     "author": "Bo Jackson",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-022",
@@ -173,7 +251,12 @@
     "author": "John F. Kennedy",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-023",
@@ -181,7 +264,12 @@
     "author": "Ayn Rand",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-024",
@@ -189,7 +277,12 @@
     "author": "Nikos Kazantzakis",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-025",
@@ -197,7 +290,12 @@
     "author": "Thomas Paine",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-026",
@@ -205,7 +303,12 @@
     "author": "Carol Burnett",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-027",
@@ -213,7 +316,12 @@
     "author": "Simone de Beauvoir",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-028",
@@ -221,7 +329,12 @@
     "author": "Thomas Jefferson",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-029",
@@ -229,7 +342,12 @@
     "author": "William Butler Yeats",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-030",
@@ -237,7 +355,12 @@
     "author": "H. G. Wells",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-031",
@@ -245,7 +368,12 @@
     "author": "Thomas A. Edison",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-032",
@@ -253,7 +381,12 @@
     "author": "Arthur Ashe",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-033",
@@ -261,7 +394,12 @@
     "author": "George S. Patton",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-034",
@@ -269,7 +407,12 @@
     "author": "Samuel Beckett",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:fear",
+      "need:motivation",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-motiv-035",
@@ -277,7 +420,12 @@
     "author": "Florence Nightingale",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-036",
@@ -285,7 +433,12 @@
     "author": "Helen Keller",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-037",
@@ -293,7 +446,12 @@
     "author": "Lao Tzu",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-038",
@@ -301,7 +459,12 @@
     "author": "Lao Tzu",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-motiv-040",
@@ -309,7 +472,12 @@
     "author": "Eleanor Roosevelt",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-041",
@@ -317,15 +485,12 @@
     "author": "Sam Levenson",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-motiv-042",
-    "text": "The secret of getting ahead is getting started.",
-    "author": "Mark Twain",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-043",
@@ -333,7 +498,12 @@
     "author": "Dalai Lama",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-044",
@@ -341,7 +511,12 @@
     "author": "Benjamin Franklin",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-045",
@@ -349,7 +524,12 @@
     "author": "Maya Angelou",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-046",
@@ -357,7 +537,12 @@
     "author": "Aldous Huxley",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-047",
@@ -365,7 +550,12 @@
     "author": "Zig Ziglar",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-048",
@@ -373,7 +563,12 @@
     "author": "Leo Buscaglia",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-049",
@@ -381,7 +576,12 @@
     "author": "Tony Robbins",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-050",
@@ -389,7 +589,12 @@
     "author": "Les Brown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-051",
@@ -397,7 +602,14 @@
     "author": "Joan of Arc",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-052",
@@ -405,7 +617,12 @@
     "author": "Epictetus",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-053",
@@ -413,7 +630,12 @@
     "author": "W. Clement Stone",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-054",
@@ -421,7 +643,12 @@
     "author": "Wayne Dyer",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-055",
@@ -429,7 +656,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-056",
@@ -437,7 +669,12 @@
     "author": "George Addair",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-057",
@@ -445,7 +682,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-058",
@@ -453,15 +695,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-motiv-059",
-    "text": "Your current situation is not your final destination. The best is yet to come.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-060",
@@ -469,7 +708,12 @@
     "author": "Maya Angelou",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-061",
@@ -477,7 +721,13 @@
     "author": "Sophia Bush",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:growth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-062",
@@ -485,7 +735,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-063",
@@ -493,23 +748,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-motiv-064",
-    "text": "You were given this life because you are strong enough to live it.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-motiv-065",
-    "text": "Sometimes when you're in a dark place you think you've been buried, but you've actually been planted.",
-    "author": "Christine Caine",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
-    "tone": "playful"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-066",
@@ -517,7 +761,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-067",
@@ -525,7 +775,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-068",
@@ -533,7 +788,12 @@
     "author": "R.S. Grey",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-070",
@@ -541,7 +801,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-071",
@@ -549,7 +814,12 @@
     "author": "Paul Brandt",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-072",
@@ -557,7 +827,12 @@
     "author": "Publius Flavius Vegetius Renatus",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-073",
@@ -566,7 +841,12 @@
     "source": "The Last Lecture",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-074",
@@ -574,7 +854,12 @@
     "author": "Laurie Buchanan",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-075",
@@ -582,7 +867,12 @@
     "author": "Winston Churchill",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-076",
@@ -591,7 +881,12 @@
     "source": "The Devil's Advocate",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-077",
@@ -599,7 +894,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-078",
@@ -607,7 +907,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "theme:growth",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-080",
@@ -615,7 +920,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-081",
@@ -623,7 +933,12 @@
     "author": "Frank Sinatra",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-082",
@@ -631,7 +946,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-083",
@@ -639,7 +959,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-084",
@@ -647,7 +972,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:anger",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-085",
@@ -655,7 +986,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-086",
@@ -663,7 +999,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-087",
@@ -671,7 +1012,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-088",
@@ -680,16 +1026,13 @@
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
-  },
-  {
-    "id": "mood-motiv-089",
-    "text": "The future belongs to those who believe in the beauty of their dreams.",
-    "author": "Shoyo Hinata",
-    "source": "Haikyuu!!",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-090",
@@ -698,23 +1041,39 @@
     "source": "One Piece",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-091",
     "text": "Never give up on life. No matter how tragic it may be, keep living.",
-    "author": "Various",
+    "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:mortality",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-092",
     "text": "Every day is a chance to become the person you want to be.",
-    "author": "My Hero Academia",
+    "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-093",
@@ -723,7 +1082,12 @@
     "source": "Attack on Titan",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-094",
@@ -732,7 +1096,12 @@
     "source": "Assassination Classroom",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-095",
@@ -741,7 +1110,13 @@
     "source": "Black Clover",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-096",
@@ -750,7 +1125,12 @@
     "source": "Naruto",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-097",
@@ -759,7 +1139,12 @@
     "source": "Attack on Titan",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-098",
@@ -768,7 +1153,12 @@
     "source": "Black Clover",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-099",
@@ -777,7 +1167,13 @@
     "source": "Frieren: Beyond Journey's End",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:mortality",
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-100",
@@ -786,7 +1182,12 @@
     "source": "Steins;Gate",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-101",
@@ -795,7 +1196,12 @@
     "source": "Dandadan",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-motiv-102",
@@ -804,7 +1210,13 @@
     "source": "86 Eighty-Six",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:mortality",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-104",
@@ -813,7 +1225,12 @@
     "source": "Solo Leveling",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-105",
@@ -822,7 +1239,12 @@
     "source": "Solo Leveling",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-106",
@@ -831,7 +1253,12 @@
     "source": "Bleach",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-107",
@@ -840,7 +1267,13 @@
     "source": "The Wind Rises (2013)",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:motivation",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-motiv-108",
@@ -848,7 +1281,12 @@
     "author": "Ash Dykes",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "mood-motiv-109",
@@ -856,7 +1294,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-110",
@@ -864,7 +1307,11 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-111",
@@ -872,7 +1319,11 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-112",
@@ -880,7 +1331,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-113",
@@ -888,7 +1344,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:motivation",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-114",
@@ -896,7 +1357,12 @@
     "author": "Chris Williamson",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-115",
@@ -905,7 +1371,11 @@
     "source": "Winnie the Pooh",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-motiv-116",
@@ -914,7 +1384,12 @@
     "source": "Winnie the Pooh",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "need:permission",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-motiv-117",
@@ -922,7 +1397,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:mortality",
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-motiv-118",
@@ -930,14 +1411,39 @@
     "author": "Winston Churchill",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-motiv-119",
-    "text": "The river does not rush, yet it reaches the sea.",
+    "text": "Be the change you wish to see in the world.",
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "daily-motivation",
-    "tone": "gentle"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-motiv-120",
+    "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "author": "Unknown",
+    "category": "mood-boosters",
+    "subcategory": "daily-motivation",
+    "tone": "direct",
+    "tags": [
+      "theme:mortality",
+      "theme:growth",
+      "need:perspective",
+      "tone:direct",
+      "tone:poetic"
+    ]
   }
 ]

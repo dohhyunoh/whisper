@@ -6,7 +6,8 @@
     "source": "The 4-Hour Workweek",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:anxiety", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-mh-002",
@@ -15,7 +16,8 @@
     "source": "Maybe You Should Talk to Someone",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:healing", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-003",
@@ -24,7 +26,8 @@
     "source": "Very Good Lives",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:healing", "theme:growth", "situation:new-chapter", "need:perspective", "emotion:hope", "tone:direct"]
   },
   {
     "id": "self-love-mh-004",
@@ -33,7 +36,8 @@
     "source": "A Servant to Servants",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:healing", "need:challenge", "need:motivation", "tone:direct"]
   },
   {
     "id": "self-love-mh-005",
@@ -42,7 +46,8 @@
     "source": "Japanese Proverb",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["need:motivation", "need:challenge", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-mh-006",
@@ -51,7 +56,8 @@
     "source": "What It Takes to Be Number One",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["need:motivation", "need:challenge", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-mh-007",
@@ -60,7 +66,8 @@
     "source": "The Varieties of Religious Experience",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["emotion:anxiety", "need:perspective", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-mh-008",
@@ -69,7 +76,8 @@
     "source": "Letter to My Daughter",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:identity", "need:motivation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-mh-010",
@@ -78,7 +86,8 @@
     "source": "The Old Curiosity Shop",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:exhaustion", "need:permission", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-mh-011",
@@ -87,7 +96,8 @@
     "source": "Churchill: A Life",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["need:perspective", "need:motivation", "tone:direct"]
   },
   {
     "id": "self-love-mh-012",
@@ -96,7 +106,8 @@
     "source": "The Essential Rumi",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:self-worth", "theme:identity", "need:validation", "tone:poetic", "tone:fierce"]
   },
   {
     "id": "self-love-mh-013",
@@ -105,7 +116,8 @@
     "source": "Way of the Peaceful Warrior",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:anxiety", "theme:letting-go", "need:permission", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-mh-014",
@@ -114,7 +126,8 @@
     "source": "I Wrote This for You",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:identity", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-mh-016",
@@ -123,7 +136,8 @@
     "source": "Beloved",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-017",
@@ -132,7 +146,8 @@
     "source": "Feel the Fear and Do It Anyway",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:fear", "need:permission", "need:motivation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-018",
@@ -141,7 +156,8 @@
     "source": "The Gifts of Imperfection",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "theme:healing", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-019",
@@ -150,7 +166,8 @@
     "source": "Letters to a Young Poet",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:identity", "need:perspective", "tone:poetic"]
   },
   {
     "id": "self-love-mh-020",
@@ -159,7 +176,8 @@
     "source": "Middlemarch",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:identity", "situation:new-chapter", "emotion:hope", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-021",
@@ -167,7 +185,8 @@
     "author": "Mariska Hargitay",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-022",
@@ -176,7 +195,8 @@
     "source": "Les Misérables",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:hope", "need:comfort", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-mh-023",
@@ -185,7 +205,8 @@
     "source": "Harry Potter and the Prisoner of Azkaban",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:hope", "emotion:joy", "need:perspective", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-024",
@@ -194,7 +215,8 @@
     "source": "Turtles All the Way Down",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:hope", "emotion:anxiety", "need:comfort", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-025",
@@ -203,7 +225,8 @@
     "source": "Churchill: A Life",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["need:motivation", "need:challenge", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-mh-026",
@@ -212,7 +235,8 @@
     "source": "The Myth of Sisyphus",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "emotion:hope", "need:validation", "tone:poetic"]
   },
   {
     "id": "self-love-mh-027",
@@ -221,7 +245,8 @@
     "source": "Ladies of the Borobudur",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:growth", "situation:new-chapter", "emotion:hope", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-mh-028",
@@ -230,7 +255,8 @@
     "source": "Mere Christianity",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:growth", "theme:purpose", "need:perspective", "emotion:hope", "tone:gentle"]
   },
   {
     "id": "self-love-mh-031",
@@ -238,7 +264,8 @@
     "author": "Glenn Close",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:shame", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-mh-033",
@@ -247,7 +274,8 @@
     "source": "How to Be an Adult in Relationships",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "theme:growth", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-mh-034",
@@ -256,7 +284,8 @@
     "source": "Death: The Final Stage of Growth",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "theme:growth", "situation:loss", "need:perspective", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-035",
@@ -265,7 +294,8 @@
     "source": "100 Ways to Overcome Depression",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:healing", "theme:identity", "need:challenge", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-mh-036",
@@ -274,7 +304,8 @@
     "source": "What I Know For Sure",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:healing", "theme:growth", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-mh-037",
@@ -283,7 +314,8 @@
     "source": "Feel the Fear and Do It Anyway",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:exhaustion", "need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-039",
@@ -292,7 +324,8 @@
     "source": "Daring Greatly",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-040",
@@ -301,7 +334,8 @@
     "source": "The Wise Heart",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "emotion:grief", "need:comfort", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-041",
@@ -310,7 +344,8 @@
     "source": "Daring Greatly",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:identity", "emotion:fear", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-mh-042",
@@ -319,7 +354,8 @@
     "source": "Persian Proverb",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:comfort", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-mh-043",
@@ -327,7 +363,8 @@
     "author": "Dwayne Johnson",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:loneliness", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-044",
@@ -335,7 +372,8 @@
     "author": "Shonda Rhimes",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:loneliness", "need:comfort", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-045",
@@ -343,7 +381,8 @@
     "author": "Prince Harry",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:loneliness", "emotion:shame", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-049",
@@ -351,7 +390,8 @@
     "author": "Erik Erikson",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:friendship", "need:perspective", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-050",
@@ -359,7 +399,8 @@
     "author": "Matt Haig",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:identity", "theme:self-worth", "emotion:shame", "need:perspective", "need:validation", "tone:gentle", "tone:direct"]
   },
   {
     "id": "self-love-mh-051",
@@ -367,7 +408,8 @@
     "author": "Christine Caine",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "theme:growth", "emotion:hope", "need:perspective", "need:comfort", "tone:poetic"]
   },
   {
     "id": "self-love-mh-052",
@@ -375,7 +417,8 @@
     "author": "Desmond Tutu",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:hope", "need:perspective", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-053",
@@ -383,7 +426,8 @@
     "author": "Martin Luther King Jr.",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:hope", "need:motivation", "need:permission", "tone:gentle", "tone:direct"]
   },
   {
     "id": "self-love-mh-054",
@@ -391,7 +435,8 @@
     "author": "Rainer Maria Rilke",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["emotion:grief", "emotion:anxiety", "need:comfort", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-mh-055",
@@ -399,7 +444,8 @@
     "author": "Sophia Bush",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:growth", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-056",
@@ -407,7 +453,8 @@
     "author": "Margaret Thatcher",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["need:perspective", "need:motivation", "tone:direct"]
   },
   {
     "id": "self-love-mh-057",
@@ -415,7 +462,8 @@
     "author": "Bob Marley",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:validation", "need:motivation", "tone:direct"]
   },
   {
     "id": "self-love-mh-058",
@@ -423,7 +471,8 @@
     "author": "Elizabeth Edwards",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:letting-go", "theme:growth", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-mh-059",
@@ -431,7 +480,8 @@
     "author": "Morgan Harper Nichols",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:exhaustion", "emotion:loneliness", "need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-060",
@@ -439,7 +489,8 @@
     "author": "Tanya Markul",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "emotion:exhaustion", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-061",
@@ -448,7 +499,8 @@
     "source": "Anthem",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:healing", "need:perspective", "tone:poetic"]
   },
   {
     "id": "self-love-mh-062",
@@ -456,7 +508,8 @@
     "author": "S.C. Lourie",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "emotion:exhaustion", "need:permission", "need:comfort", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-mh-063",
@@ -464,7 +517,8 @@
     "author": "Nikita Gill",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "emotion:exhaustion", "emotion:grief", "need:comfort", "need:validation", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-mh-064",
@@ -473,7 +527,8 @@
     "source": "The Boy, the Mole, the Fox and the Horse",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:permission", "need:validation", "tone:direct", "tone:gentle"]
   },
   {
     "id": "self-love-mh-065",
@@ -481,7 +536,8 @@
     "author": "Molly Burford",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "theme:identity", "theme:letting-go", "need:validation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-066",
@@ -490,7 +546,8 @@
     "source": "Rest Is Resistance",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:exhaustion", "situation:burnout", "need:permission", "need:stillness", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-mh-067",
@@ -498,7 +555,8 @@
     "author": "Nikita Gill",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "theme:self-worth", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-068",
@@ -506,7 +564,8 @@
     "author": "Yung Pueblo",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "need:perspective", "need:comfort", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-069",
@@ -514,7 +573,8 @@
     "author": "Morgan Harper Nichols",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:exhaustion", "emotion:loneliness", "need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-070",
@@ -522,7 +582,8 @@
     "author": "Alison Malee",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "emotion:shame", "need:validation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-071",
@@ -530,7 +591,8 @@
     "author": "Seneca",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["emotion:anxiety", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-mh-072",
@@ -538,7 +600,8 @@
     "author": "Thich Nhat Hanh",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:boundaries", "need:perspective", "tone:poetic", "tone:direct"]
   },
   {
     "id": "self-love-mh-073",
@@ -546,15 +609,17 @@
     "author": "Jonathan Lockwood Huie",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:forgiveness", "theme:letting-go", "emotion:peace", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-mh-074",
     "text": "We are all bizarre. Some of us are just better at hiding it, that's all.",
-    "author": "The Breakfast Club(1985)",
+    "author": "The Breakfast Club (1985)",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": ["theme:identity", "need:validation", "tone:playful"]
   },
   {
     "id": "self-love-mh-075",
@@ -563,16 +628,17 @@
     "source": "Princess Mononoke (1997)",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:hope", "need:perspective", "need:motivation", "tone:direct"]
   },
   {
     "id": "self-love-mh-076",
     "text": "What matters is the heart inside.",
-    "author": "Kokiri",
-    "source": "Kiki's Delivery Service",
+    "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:identity", "theme:self-worth", "tone:gentle"]
   },
   {
     "id": "self-love-mh-077",
@@ -581,7 +647,8 @@
     "source": "When Marnie Was There (2014)",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:grief", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-078",
@@ -589,7 +656,8 @@
     "author": "Maya Angelou",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:forgiveness", "emotion:shame", "need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-079",
@@ -597,7 +665,8 @@
     "author": "C.C. Aurel",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "emotion:grief", "need:validation", "tone:gentle", "tone:raw"]
   },
   {
     "id": "self-love-mh-080",
@@ -606,15 +675,8 @@
     "source": "The Four Agreements",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-mh-081",
-    "text": "Healing is not linear.",
-    "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:anxiety", "need:perspective", "tone:direct"]
   },
   {
     "id": "self-love-mh-082",
@@ -622,7 +684,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:identity", "theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-083",
@@ -630,7 +693,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:permission", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-084",
@@ -638,7 +702,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:validation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-085",
@@ -646,7 +711,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-086",
@@ -654,7 +720,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-087",
@@ -662,7 +729,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:growth", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-mh-088",
@@ -670,7 +738,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:identity", "emotion:anxiety", "need:validation", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-mh-089",
@@ -678,7 +747,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:exhaustion", "situation:burnout", "need:stillness", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-090",
@@ -686,7 +756,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:growth", "need:motivation", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-091",
@@ -694,7 +765,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:exhaustion", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-092",
@@ -702,7 +774,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:anxiety", "need:stillness", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-093",
@@ -710,7 +783,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["emotion:peace", "theme:boundaries", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-mh-094",
@@ -718,7 +792,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:letting-go", "emotion:anxiety", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-095",
@@ -726,7 +801,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:perspective", "need:comfort", "tone:gentle"]
   },
   {
     "id": "self-love-mh-096",
@@ -734,7 +810,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["situation:new-chapter", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-097",
@@ -742,7 +819,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:permission", "need:validation", "tone:direct"]
   },
   {
     "id": "self-love-mh-098",
@@ -750,7 +828,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-099",
@@ -758,7 +837,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-100",
@@ -766,7 +846,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "need:permission", "need:stillness", "tone:gentle"]
   },
   {
     "id": "self-love-mh-101",
@@ -774,7 +855,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-102",
@@ -782,7 +864,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:permission", "need:stillness", "tone:gentle"]
   },
   {
     "id": "self-love-mh-103",
@@ -790,7 +873,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "emotion:shame", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-104",
@@ -798,7 +882,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:boundaries", "need:permission", "tone:fierce", "tone:direct"]
   },
   {
     "id": "self-love-mh-105",
@@ -806,7 +891,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:hope", "need:comfort", "need:perspective", "tone:gentle"]
   },
   {
     "id": "self-love-mh-106",
@@ -814,7 +900,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "self-love-mh-107",
@@ -822,7 +909,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:letting-go", "emotion:grief", "need:permission", "tone:gentle"]
   },
   {
     "id": "self-love-mh-108",
@@ -830,7 +918,8 @@
     "author": "Maya Angelou",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["emotion:fear", "need:motivation", "need:permission", "tone:direct"]
   },
   {
     "id": "self-love-mh-109",
@@ -838,7 +927,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:boundaries", "need:permission", "tone:direct", "tone:fierce"]
   },
   {
     "id": "self-love-mh-110",
@@ -846,7 +936,8 @@
     "author": "Melody Godfred",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "theme:growth", "need:perspective", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-mh-111",
@@ -854,7 +945,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:family", "theme:healing", "emotion:peace", "need:validation", "tone:raw", "tone:direct"]
   },
   {
     "id": "self-love-mh-112",
@@ -862,7 +954,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["need:perspective", "need:challenge", "tone:direct"]
   },
   {
     "id": "self-love-mh-113",
@@ -870,7 +963,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:permission", "need:comfort", "tone:gentle", "tone:playful"]
   },
   {
     "id": "self-love-mh-114",
@@ -878,15 +972,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-mh-115",
-    "text": "The wound did not make you less beautiful. It taught the light where to enter.",
-    "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:identity", "emotion:exhaustion", "need:permission", "tone:poetic"]
   },
   {
     "id": "self-love-mh-116",
@@ -894,7 +981,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["need:stillness", "emotion:peace", "need:permission", "tone:poetic"]
   },
   {
     "id": "self-love-mh-117",
@@ -902,7 +990,8 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:healing", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "self-love-mh-118",
@@ -910,6 +999,43 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "mental-health",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:growth", "need:perspective", "tone:gentle", "tone:poetic"]
+  },
+  {
+    "id": "self-love-mh-119",
+    "text": "Your ability to feel other people's pain doesn't mean it's your responsibility to fix it.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "gentle",
+    "tags": ["theme:boundaries", "need:permission", "tone:gentle"]
+  },
+  {
+    "id": "self-love-mh-120",
+    "text": "When someone is drowning, that is not the time to teach them how to swim.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "gentle",
+    "tags": ["theme:healing", "need:comfort", "tone:gentle"]
+  },
+  {
+    "id": "self-love-mh-121",
+    "text": "If it costs me my peace, it'll cost you my presence.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "direct",
+    "tags": ["theme:boundaries", "emotion:peace", "need:permission", "tone:direct", "tone:fierce"]
+  },
+  {
+    "id": "self-love-mh-122",
+    "text": "You'll find peace when you realize people are at war with themselves, not you.",
+    "author": "Unknown",
+    "category": "self-love",
+    "subcategory": "mental-health",
+    "tone": "gentle",
+    "tags": ["emotion:peace", "need:perspective", "tone:gentle"]
   }
 ]

@@ -5,7 +5,12 @@
     "author": "Seamus Heaney",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-002",
@@ -13,7 +18,14 @@
     "author": "Madeleine K. Albright",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:boundaries",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-004",
@@ -22,7 +34,13 @@
     "source": "The Hate U Give",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-005",
@@ -30,7 +48,13 @@
     "author": "Jo Ann Fore",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "emotion:shame",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-006",
@@ -38,7 +62,13 @@
     "author": "Michael Bassey Johnson",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-009",
@@ -46,7 +76,12 @@
     "author": "Rebecca Campbell",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-011",
@@ -54,7 +89,13 @@
     "author": "Jeanette LeBlanc",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-012",
@@ -62,7 +103,12 @@
     "author": "Ute Wieczorek-King",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "theme:growth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-013",
@@ -70,7 +116,13 @@
     "author": "Cammi Granato",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-014",
@@ -78,7 +130,12 @@
     "author": "Rosalie Fishon",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-018",
@@ -86,7 +143,13 @@
     "author": "Madonna",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-019",
@@ -94,7 +157,14 @@
     "author": "Eve Ensler",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:boundaries",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-020",
@@ -102,7 +172,12 @@
     "author": "Jennifer Donnelly",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-021",
@@ -110,7 +185,12 @@
     "author": "Malala Yousafzai",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-022",
@@ -118,7 +198,13 @@
     "author": "Audre Lorde",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "emotion:fear",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-024",
@@ -126,7 +212,13 @@
     "author": "Coco Chanel",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-025",
@@ -134,7 +226,12 @@
     "author": "Felicia Johnson",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-026",
@@ -142,7 +239,13 @@
     "author": "Nadege Richards",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-027",
@@ -150,7 +253,13 @@
     "author": "Martin Luther King Jr.",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-028",
@@ -158,7 +267,12 @@
     "author": "Dianna Hardy",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-029",
@@ -166,7 +280,12 @@
     "author": "John Grisham",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-033",
@@ -174,7 +293,14 @@
     "author": "Maggie Kuhn",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-038",
@@ -182,7 +308,13 @@
     "author": "Neil Gaiman",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-041",
@@ -190,7 +322,13 @@
     "author": "Kendrick Lamar",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "theme:faith",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-048",
@@ -198,7 +336,12 @@
     "author": "Bad Bunny",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-050",
@@ -206,7 +349,11 @@
     "author": "Klaus Schulze",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-051",
@@ -214,7 +361,13 @@
     "author": "Vincent Van Gogh",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-052",
@@ -222,7 +375,13 @@
     "author": "Georgette Mosbacher",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-053",
@@ -230,7 +389,12 @@
     "author": "Elvis Stojko",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-054",
@@ -238,7 +402,13 @@
     "author": "Steve Jobs",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-057",
@@ -246,7 +416,13 @@
     "author": "Pat Tillman",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:identity",
+      "theme:purpose",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-voice-059",
@@ -254,7 +430,12 @@
     "author": "Gloria Steinem",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-062",
@@ -262,7 +443,13 @@
     "author": "Steve Jobs",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-073",
@@ -270,7 +457,14 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:boundaries",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-074",
@@ -278,7 +472,14 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-075",
@@ -286,7 +487,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-076",
@@ -294,7 +500,14 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-077",
@@ -302,7 +515,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-078",
@@ -310,7 +528,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-079",
@@ -318,7 +542,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-080",
@@ -326,7 +556,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-081",
@@ -334,7 +570,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-082",
@@ -342,7 +583,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-083",
@@ -350,7 +597,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-084",
@@ -358,7 +611,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-085",
@@ -366,7 +625,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-086",
@@ -375,7 +639,13 @@
     "source": "Fairy Tail",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:fear",
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-087",
@@ -384,7 +654,13 @@
     "source": "Jujutsu Kaisen",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-088",
@@ -393,7 +669,13 @@
     "source": "Solo Leveling",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-089",
@@ -402,7 +684,13 @@
     "source": "Hell's Paradise",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-090",
@@ -410,7 +698,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-091",
@@ -418,7 +711,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-092",
@@ -426,7 +724,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-093",
@@ -434,7 +737,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-094",
@@ -442,7 +750,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-095",
@@ -450,7 +763,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-096",
@@ -458,7 +776,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-097",
@@ -466,7 +789,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-098",
@@ -474,7 +802,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-099",
@@ -482,7 +815,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-100",
@@ -490,7 +828,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-101",
@@ -498,7 +842,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-102",
@@ -506,7 +855,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-103",
@@ -514,7 +868,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-104",
@@ -522,7 +881,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-105",
@@ -530,7 +894,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-106",
@@ -538,7 +907,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-107",
@@ -546,7 +920,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-108",
@@ -554,7 +934,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-109",
@@ -562,7 +947,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-110",
@@ -570,7 +960,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "theme:identity",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-111",
@@ -578,15 +974,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-voice-112",
-    "text": "Your voice shakes? Speak anyway.",
-    "author": "Unknown",
-    "category": "empowerment",
-    "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-113",
@@ -594,7 +988,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-114",
@@ -602,7 +1001,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:boundaries",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-115",
@@ -610,7 +1015,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-116",
@@ -618,7 +1028,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-117",
@@ -626,7 +1041,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-118",
@@ -634,15 +1054,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-voice-119",
-    "text": "Speak your mind even if your voice trembles.",
-    "author": "Unknown",
-    "category": "empowerment",
-    "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-120",
@@ -650,7 +1068,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-121",
@@ -658,7 +1081,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "theme:purpose",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-122",
@@ -666,7 +1095,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-123",
@@ -674,7 +1109,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-124",
@@ -682,7 +1123,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-voice-125",
@@ -690,7 +1136,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-voice-126",
@@ -698,7 +1150,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-127",
@@ -706,15 +1163,26 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-voice-128",
-    "text": "Our fate lives within us, you only have to be brave enough to see it.",
-    "author": "Merida",
-    "source": "Brave",
+    "text": "I was never the loudest in the room, but somehow I was always the one people remembered.",
+    "author": "Unknown",
     "category": "empowerment",
     "subcategory": "finding-voice",
-    "tone": "gentle"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct"
+    ]
   }
 ]

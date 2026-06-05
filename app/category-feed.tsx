@@ -1,50 +1,30 @@
 import { QuoteFeed } from '@/components/quote-feed';
-import { CATEGORIES } from '@/constants/categories';
 import { useAppContext } from '@/context/app-context';
-import { Category, Quote, SubCategory } from '@/data/types';
+import { Category, Quote } from '@/data/types';
 import { useLikes } from '@/hooks/use-likes';
-import { usePremium } from '@/hooks/use-premium';
-import { useQuotes, useQuotesByIds } from '@/hooks/use-quotes';
-import { useLocalSearchParams, useRouter } from 'expo-router';
-import React, { useEffect, useMemo } from 'react';
+import { useQuotesByIds } from '@/hooks/use-quotes';
+import { useLocalSearchParams } from 'expo-router';
+import React, { useMemo } from 'react';
 import { StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-function getCategoryLabel(category: Category, subcategory?: string): string {
-  const cat = CATEGORIES.find((c) => c.key === category);
-  if (cat) {
-    if (subcategory && cat.subcategories) {
-      const sub = cat.subcategories.find((s) => s.key === subcategory);
-      if (sub) {
-        return `${cat.label} - ${sub.label}`;
-      }
-    }
-    return cat.label;
-  }
-  return category;
-}
-
 export default function CategoryFeedScreen() {
-  const { category, subcategory, favorites, ownQuotes: ownQuotesParam, ownQuoteId, favoriteId } = useLocalSearchParams<{
-    category?: Category;
-    subcategory?: string;
+  const { favorites, ownQuotes: ownQuotesParam, ownQuoteId, favoriteId, hideTitle } = useLocalSearchParams<{
     favorites?: string;
     ownQuotes?: string;
     ownQuoteId?: string;
     favoriteId?: string;
+    hideTitle?: string;
   }>();
-  const router = useRouter();
   const insets = useSafeAreaInsets();
   const { height: screenHeight } = useWindowDimensions();
-  const { isCategoryLocked, isSubcategoryLocked, isPremium, currentTheme } = usePremium();
   const { state } = useAppContext();
-
   const { likedIds } = useLikes();
-  const categoryQuotes = useQuotes(category, subcategory as SubCategory);
-  const favoriteQuotes = useQuotesByIds(favoriteId ? [favoriteId] : likedIds);
 
   const isFavorites = favorites === 'true';
   const isOwnQuotes = ownQuotesParam === 'true';
+
+  const favoriteQuotes = useQuotesByIds(favoriteId ? [favoriteId] : likedIds);
 
   const ownQuotesAsQuotes: Quote[] = useMemo(() => {
     const source = ownQuoteId
@@ -59,31 +39,23 @@ export default function CategoryFeedScreen() {
     }));
   }, [state.ownQuotes, ownQuoteId]);
 
-  const quotes = isOwnQuotes ? ownQuotesAsQuotes : isFavorites ? favoriteQuotes : categoryQuotes;
-  const title = isOwnQuotes ? 'Own Quotes' : isFavorites ? 'Favorites' : getCategoryLabel(category!, subcategory);
-
-  useEffect(() => {
-    if (category && !isFavorites && !isOwnQuotes) {
-      if (subcategory && isSubcategoryLocked(category, subcategory)) {
-        router.replace('/onboarding/paywall');
-      } else if (!subcategory && isCategoryLocked(category)) {
-        router.replace('/onboarding/paywall');
-      }
-    }
-  }, [category, subcategory, isFavorites, isOwnQuotes, isCategoryLocked, isSubcategoryLocked, isPremium, router]);
+  const quotes = isOwnQuotes ? ownQuotesAsQuotes : favoriteQuotes;
+  const title = isOwnQuotes ? 'My Quotes' : 'Favorites';
 
   return (
     <View style={styles.container}>
       {quotes.length > 0 ? (
-        <QuoteFeed quotes={quotes} cardHeight={screenHeight} infinite={!isFavorites && !isOwnQuotes} />
+        <QuoteFeed quotes={quotes} cardHeight={screenHeight} infinite={false} />
       ) : (
         <View style={styles.emptyState}>
           <Text style={styles.emptyText}>No quotes found</Text>
         </View>
       )}
-      <View style={[styles.header, { paddingTop: insets.top }]}>
-        <Text style={[styles.title, { color: currentTheme.textColor }]}>{title}</Text>
-      </View>
+      {hideTitle !== 'true' && (
+        <View style={[styles.header, { paddingTop: insets.top }]}>
+          <Text style={styles.title}>{title}</Text>
+        </View>
+      )}
     </View>
   );
 }
@@ -105,7 +77,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: '700',
-    color: '#7B9AAA',
+    color: '#FFFFFF',
     textAlign: 'center',
   },
   emptyState: {

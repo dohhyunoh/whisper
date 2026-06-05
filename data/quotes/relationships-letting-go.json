@@ -5,7 +5,14 @@
     "author": "Alexander Graham Bell",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:letting-go",
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-003",
@@ -13,7 +20,12 @@
     "author": "Hermann Hesse",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-004",
@@ -21,7 +33,13 @@
     "author": "Richard Bach",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:letting-go",
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-005",
@@ -29,7 +47,14 @@
     "author": "Dr. Seuss",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:grief",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-006",
@@ -37,7 +62,14 @@
     "author": "Alfred Lord Tennyson",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:grief",
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-007",
@@ -45,7 +77,13 @@
     "author": "Chris Young",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-009",
@@ -53,7 +91,12 @@
     "author": "Kate Nash",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:post-breakup",
+      "need:permission",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-010",
@@ -61,7 +104,14 @@
     "author": "Brittany Murphy",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:grief",
+      "theme:healing",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-011",
@@ -69,7 +119,14 @@
     "author": "Jonathan Harnisch",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "theme:self-worth",
+      "theme:healing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-012",
@@ -77,7 +134,14 @@
     "author": "Gwyneth Paltrow",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "theme:friendship",
+      "theme:healing",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-014",
@@ -85,7 +149,13 @@
     "author": "Lord Byron",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-015",
@@ -93,7 +163,14 @@
     "author": "Marilyn Monroe",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:post-breakup",
+      "theme:self-worth",
+      "theme:boundaries",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-016",
@@ -101,7 +178,13 @@
     "author": "Taylor Swift",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:post-breakup",
+      "theme:letting-go",
+      "tone:direct",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-017",
@@ -109,7 +192,14 @@
     "author": "Patti Roberts",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-018",
@@ -117,7 +207,13 @@
     "author": "Soo Jie",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "theme:healing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-019",
@@ -125,7 +221,13 @@
     "author": "L.M. Montgomery",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "emotion:peace",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-020",
@@ -133,7 +235,14 @@
     "author": "Sara Evans",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "emotion:hope",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-021",
@@ -141,7 +250,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "theme:letting-go",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-022",
@@ -149,7 +265,13 @@
     "author": "Jan Glidewell",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-023",
@@ -157,7 +279,14 @@
     "author": "A.Y. Greyson",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:growth",
+      "emotion:hope",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-024",
@@ -165,7 +294,13 @@
     "author": "Ryan Phillippe",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:healing",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-025",
@@ -174,7 +309,12 @@
     "source": "Servant to Servant",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:healing",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-026",
@@ -182,7 +322,14 @@
     "author": "Rihanna",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "emotion:hope",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-027",
@@ -190,7 +337,14 @@
     "author": "Chinese Proverb",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:grief",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:playful",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-breakup-029",
@@ -198,7 +352,14 @@
     "author": "Lalah Delia",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-031",
@@ -206,7 +367,13 @@
     "author": "Karen Salmanson",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:growth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-032",
@@ -214,7 +381,14 @@
     "author": "Miley Cyrus",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:loneliness",
+      "emotion:fear",
+      "theme:growth",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-033",
@@ -223,7 +397,13 @@
     "source": "The Infinity Sign",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:boundaries",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-034",
@@ -231,7 +411,14 @@
     "author": "Shannon L. Alder",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-035",
@@ -239,7 +426,13 @@
     "author": "Steve Maraboli",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:letting-go",
+      "theme:forgiveness",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-037",
@@ -247,7 +440,14 @@
     "author": "Sam Madison",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:letting-go",
+      "theme:healing",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-038",
@@ -255,7 +455,14 @@
     "author": "Jean de La Fontaine",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:grief",
+      "theme:healing",
+      "need:perspective",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-040",
@@ -263,7 +470,12 @@
     "author": "Robyn Schneider",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-042",
@@ -271,7 +483,14 @@
     "author": "Mary Oliver",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:loneliness",
+      "need:comfort",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-044",
@@ -280,7 +499,12 @@
     "source": "Winnie the Pooh",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-045",
@@ -288,7 +512,12 @@
     "author": "Michael McMillian",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-046",
@@ -296,7 +525,13 @@
     "author": "Jodi Picoult",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-047",
@@ -304,7 +539,12 @@
     "author": "Nicole Kidman",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-048",
@@ -312,7 +552,13 @@
     "author": "Angelina Jolie",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-049",
@@ -320,7 +566,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-051",
@@ -329,7 +581,14 @@
     "source": "Thank u, next",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:post-breakup",
+      "theme:growth",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-052",
@@ -337,7 +596,12 @@
     "author": "H.C. Paye",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-053",
@@ -346,7 +610,14 @@
     "source": "Game of Thrones",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:identity",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-054",
@@ -355,7 +626,13 @@
     "source": "The Light in the Heart",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:letting-go",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-055",
@@ -363,7 +640,14 @@
     "author": "Frank Ocean",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:post-breakup",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-056",
@@ -372,7 +656,12 @@
     "source": "Before I Fall",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-058",
@@ -381,7 +670,13 @@
     "source": "The Lightning Thief",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-059",
@@ -389,7 +684,14 @@
     "author": "Amy Poehler",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:healing",
+      "emotion:hope",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-061",
@@ -398,7 +700,12 @@
     "source": "The Zahir",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-062",
@@ -406,7 +713,12 @@
     "author": "Ted Lasso",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:loneliness",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-063",
@@ -414,7 +726,12 @@
     "author": "Rebekah Crane",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:hope",
+      "need:comfort",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-064",
@@ -423,7 +740,13 @@
     "source": "RuPaul's Drag Race",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-065",
@@ -431,7 +754,13 @@
     "author": "Sara Teasdale",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:heartbreak",
+      "need:perspective",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-066",
@@ -440,7 +769,14 @@
     "source": "Love Myself",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "situation:single-by-choice",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-067",
@@ -448,7 +784,12 @@
     "author": "Anne Hathaway",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:post-breakup",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-068",
@@ -456,7 +797,13 @@
     "author": "Robert Brault",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:forgiveness",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-069",
@@ -464,7 +811,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-071",
@@ -472,7 +825,13 @@
     "author": "Joseph Campbell",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-072",
@@ -480,7 +839,13 @@
     "author": "Nikki Rowe",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:letting-go",
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-073",
@@ -488,7 +853,13 @@
     "author": "Cameron Diaz",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-075",
@@ -496,7 +867,12 @@
     "author": "Oprah Winfrey",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:letting-go",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-076",
@@ -504,7 +880,14 @@
     "author": "Rainer Maria Rilke",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:grief",
+      "theme:healing",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-077",
@@ -512,7 +895,13 @@
     "author": "Germany Kent",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-080",
@@ -520,7 +909,13 @@
     "author": "Eva Longoria",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-081",
@@ -528,7 +923,14 @@
     "author": "George Bernard Shaw",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:heartbreak",
+      "emotion:peace",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-082",
@@ -537,7 +939,13 @@
     "source": "Ink Exchange",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-083",
@@ -546,7 +954,13 @@
     "source": "Dreamland",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-086",
@@ -554,7 +968,12 @@
     "author": "Maya Angelou",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-087",
@@ -562,7 +981,13 @@
     "author": "Elizabeth Gilbert",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:grief",
+      "theme:healing",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-088",
@@ -571,7 +996,12 @@
     "source": "The Lower Depths and Other Plays",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-090",
@@ -579,7 +1009,14 @@
     "author": "Hannah Brown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:boundaries",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-095",
@@ -588,7 +1025,12 @@
     "source": "New Girl",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:post-breakup",
+      "need:permission",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-096",
@@ -596,23 +1038,27 @@
     "author": "Edgar Allan Poe",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anger",
+      "emotion:heartbreak",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-097",
     "text": "In another life, I want to be born as you and love me.",
-    "author": "Brand",
-    "category": "relationships",
-    "subcategory": "letting-go",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-breakup-098",
-    "text": "Consider how hard it is to change yourself and you'll understand what little chance you have trying to change others.",
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-099",
@@ -620,7 +1066,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:grief",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-100",
@@ -628,7 +1080,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "need:permission",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-101",
@@ -636,7 +1095,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:heartbreak",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-102",
@@ -644,7 +1109,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:longing",
+      "need:validation",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-103",
@@ -652,7 +1124,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "need:permission",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-104",
@@ -660,7 +1138,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:self-worth",
+      "need:perspective",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-105",
@@ -668,7 +1153,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-106",
@@ -676,7 +1167,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-107",
@@ -684,7 +1181,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-108",
@@ -692,7 +1194,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-109",
@@ -700,7 +1207,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-110",
@@ -708,7 +1221,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-111",
@@ -716,7 +1235,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-112",
@@ -724,7 +1249,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-113",
@@ -732,7 +1262,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "theme:romantic-love",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-114",
@@ -740,7 +1276,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "need:validation",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-115",
@@ -748,7 +1290,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-116",
@@ -756,7 +1304,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:grief",
+      "theme:identity",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-117",
@@ -764,7 +1319,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:grief",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-118",
@@ -772,7 +1333,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-119",
@@ -780,7 +1347,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-120",
@@ -788,7 +1361,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:exhaustion",
+      "emotion:hope",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-121",
@@ -796,7 +1376,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "need:perspective",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-122",
@@ -804,7 +1390,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:forgiveness",
+      "theme:healing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-123",
@@ -812,7 +1404,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:forgiveness",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-124",
@@ -821,15 +1419,26 @@
     "source": "Cyberpunk: Edgerunners",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:longing",
+      "emotion:grief",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-125",
     "text": "Grief is the price we pay for love.",
-    "author": "Queen Elizabeth II ",
+    "author": "Queen Elizabeth II",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:grief",
+      "theme:mortality",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-126",
@@ -837,7 +1446,13 @@
     "author": "Manish Sharma",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-127",
@@ -845,7 +1460,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-128",
@@ -853,7 +1473,14 @@
     "author": "Alissa Nelson",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-breakup-129",
@@ -861,7 +1488,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:boundaries",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-breakup-130",
@@ -869,7 +1503,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:post-breakup",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-131",
@@ -877,7 +1517,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:self-worth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-132",
@@ -885,7 +1530,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:post-breakup",
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-133",
@@ -893,7 +1544,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-134",
@@ -901,7 +1557,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-135",
@@ -909,7 +1570,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-136",
@@ -917,7 +1583,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:healing",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-137",
@@ -925,7 +1597,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-138",
@@ -933,7 +1610,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:growth",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-139",
@@ -941,7 +1624,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-140",
@@ -949,15 +1637,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-breakup-141",
-    "text": "Sometimes love means letting go.",
-    "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-142",
@@ -965,7 +1650,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:longing",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-143",
@@ -973,7 +1664,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-144",
@@ -981,7 +1677,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-145",
@@ -989,7 +1690,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:single-by-choice",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-146",
@@ -997,7 +1705,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-147",
@@ -1005,7 +1718,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "emotion:peace",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-148",
@@ -1013,7 +1733,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-149",
@@ -1021,7 +1746,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:boundaries",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-150",
@@ -1029,7 +1759,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-151",
@@ -1037,7 +1773,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-152",
@@ -1045,7 +1786,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:boundaries",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-153",
@@ -1053,7 +1800,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-154",
@@ -1061,7 +1813,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "theme:growth",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-155",
@@ -1069,7 +1827,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:heartbreak",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-156",
@@ -1077,7 +1840,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:post-breakup",
+      "theme:letting-go",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-157",
@@ -1085,7 +1854,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:post-breakup",
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-158",
@@ -1093,7 +1868,12 @@
     "author": "Jacob M. Braude",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "theme:letting-go",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-breakup-159",
@@ -1101,7 +1881,13 @@
     "author": "Julianne Cantarella",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-160",
@@ -1109,7 +1895,14 @@
     "author": "Charlotte Eriksson",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "theme:self-worth",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-breakup-161",
@@ -1117,7 +1910,12 @@
     "author": "Karen Salmansohn",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:post-breakup",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-breakup-162",
@@ -1125,7 +1923,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:grief",
+      "theme:healing",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-163",
@@ -1133,7 +1937,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-breakup-164",
@@ -1141,6 +1951,55 @@
     "author": "Marilyn Monroe",
     "category": "relationships",
     "subcategory": "letting-go",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:post-breakup",
+      "theme:self-worth",
+      "tone:playful"
+    ]
+  },
+  {
+    "id": "rel-breakup-165",
+    "text": "But we can't force people to choose us.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "letting-go",
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "emotion:heartbreak",
+      "need:perspective",
+      "tone:gentle"
+    ]
+  },
+  {
+    "id": "rel-breakup-166",
+    "text": "How starved you must have been that my heart became a meal for your ego.",
+    "author": "Amanda Torroni",
+    "category": "relationships",
+    "subcategory": "letting-go",
+    "tone": "direct",
+    "tags": [
+      "emotion:heartbreak",
+      "theme:letting-go",
+      "theme:self-worth",
+      "tone:poetic",
+      "tone:fierce"
+    ]
+  },
+  {
+    "id": "rel-breakup-167",
+    "text": "You can't change the people around you. But you can change the people around you.",
+    "author": "Unknown",
+    "category": "relationships",
+    "subcategory": "letting-go",
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:direct",
+      "tone:playful"
+    ]
   }
 ]

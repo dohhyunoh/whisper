@@ -5,7 +5,15 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:self-worth",
+      "theme:boundaries",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-002",
@@ -13,7 +21,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:self-worth",
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-003",
@@ -21,7 +36,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "theme:identity",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-004",
@@ -29,7 +51,15 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:self-worth",
+      "theme:boundaries",
+      "need:permission",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-005",
@@ -37,7 +67,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-006",
@@ -45,7 +81,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-007",
@@ -53,7 +95,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-008",
@@ -61,7 +108,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-009",
@@ -69,7 +121,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-010",
@@ -77,7 +134,15 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "situation:single-by-choice",
+      "emotion:peace",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-011",
@@ -85,7 +150,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-012",
@@ -93,7 +164,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-013",
@@ -101,7 +178,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-014",
@@ -109,7 +193,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-016",
@@ -117,7 +207,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-017",
@@ -125,7 +221,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-018",
@@ -133,7 +234,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-019",
@@ -141,7 +247,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-020",
@@ -149,7 +262,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "theme:growth",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-021",
@@ -157,7 +276,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-022",
@@ -165,7 +290,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-023",
@@ -173,7 +303,14 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "situation:post-breakup",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-024",
@@ -181,7 +318,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-025",
@@ -189,7 +332,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "theme:self-worth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-026",
@@ -197,7 +345,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-027",
@@ -205,7 +358,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-028",
@@ -213,7 +371,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-029",
@@ -221,7 +384,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-030",
@@ -229,15 +397,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-attract-031",
-    "text": "Stop chasing. Start attracting.",
-    "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-032",
@@ -245,7 +410,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:validation",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-033",
@@ -253,7 +423,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-034",
@@ -261,7 +436,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-035",
@@ -269,7 +449,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-036",
@@ -277,7 +462,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-037",
@@ -285,7 +475,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-038",
@@ -293,7 +489,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-039",
@@ -301,7 +502,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-040",
@@ -309,7 +515,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-041",
@@ -317,7 +529,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "situation:dating",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-042",
@@ -325,7 +542,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-043",
@@ -333,7 +555,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-044",
@@ -341,7 +568,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-045",
@@ -349,7 +581,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:dating",
+      "need:motivation",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-attract-046",
@@ -357,7 +594,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-attract-047",
@@ -365,7 +607,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-048",
@@ -373,7 +619,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-049",
@@ -381,7 +633,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-050",
@@ -389,7 +646,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-051",
@@ -397,7 +660,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:playful",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-052",
@@ -405,7 +674,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-053",
@@ -413,7 +687,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-054",
@@ -421,7 +701,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-055",
@@ -429,7 +714,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-056",
@@ -437,7 +727,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:self-worth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-057",
@@ -445,7 +740,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-058",
@@ -453,7 +753,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-attract-059",
@@ -461,7 +766,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-attract-060",
@@ -469,7 +779,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:purpose",
+      "need:motivation",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-attract-061",
@@ -477,7 +792,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:self-worth",
+      "need:permission",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-attract-062",
@@ -485,7 +805,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-attract-063",
@@ -493,6 +819,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "attracting-love",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:boundaries",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   }
 ]

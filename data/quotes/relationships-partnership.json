@@ -6,7 +6,11 @@
     "source": "The Lost Prince",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-002",
@@ -15,7 +19,12 @@
     "source": "Healology",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-003",
@@ -24,7 +33,13 @@
     "source": "The Year of Magical Thinking",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-005",
@@ -32,7 +47,12 @@
     "author": "Franz Schubert",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-006",
@@ -40,7 +60,12 @@
     "author": "Mignon McLaughlin",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-009",
@@ -48,7 +73,13 @@
     "author": "Friedrich Nietzsche",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "theme:friendship",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-partner-012",
@@ -56,7 +87,11 @@
     "author": "Rita Rudner",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-014",
@@ -64,7 +99,12 @@
     "author": "Edwin Louis Cole",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-017",
@@ -72,7 +112,12 @@
     "author": "Ellen Key",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-partner-019",
@@ -80,7 +125,12 @@
     "author": "Audrey Hepburn",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-022",
@@ -88,7 +138,12 @@
     "author": "Andre Maurois",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-025",
@@ -96,7 +151,13 @@
     "author": "Samuel Richardson",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-027",
@@ -104,7 +165,11 @@
     "author": "Elizabeth Taylor",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-029",
@@ -112,7 +177,12 @@
     "author": "Carnie Wilson",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-034",
@@ -120,7 +190,11 @@
     "author": "Alan King",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-035",
@@ -128,7 +202,13 @@
     "author": "John Steinbeck",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-037",
@@ -136,7 +216,11 @@
     "author": "Winston Churchill",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-038",
@@ -144,7 +228,12 @@
     "author": "Ogden Nash",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-040",
@@ -152,7 +241,12 @@
     "author": "Benjamin Franklin",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-042",
@@ -160,7 +254,12 @@
     "author": "James Dobson",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-partner-043",
@@ -168,7 +267,11 @@
     "author": "Eddie Cantor",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-044",
@@ -176,7 +279,11 @@
     "author": "Homer",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-052",
@@ -184,7 +291,12 @@
     "author": "Joseph Campbell",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-053",
@@ -192,7 +304,12 @@
     "author": "Sophia Bush",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-061",
@@ -200,7 +317,13 @@
     "author": "Harry Connick, Jr.",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:faith",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-064",
@@ -208,7 +331,13 @@
     "author": "Marilyn Monroe",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-065",
@@ -216,7 +345,12 @@
     "author": "Aristotle",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-066",
@@ -224,7 +358,13 @@
     "author": "Fawn Weaver",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:growth",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-067",
@@ -232,7 +372,12 @@
     "author": "Stephen Gaines",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-069",
@@ -240,7 +385,12 @@
     "author": "Cate Blanchett",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-070",
@@ -248,7 +398,12 @@
     "author": "Jennifer Smith",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-071",
@@ -256,7 +411,12 @@
     "author": "Martin Luther",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-072",
@@ -264,7 +424,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-073",
@@ -272,7 +436,12 @@
     "author": "William Lyon Phelps",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-074",
@@ -280,15 +449,25 @@
     "author": "Harville Hendrix",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-075",
     "text": "For it was not into my ear you whispered, but into my heart. It was not my lips you kissed, but my soul.",
-    "author": "Judy Garland",
+    "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-076",
@@ -296,7 +475,12 @@
     "author": "Tom Mullin",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:growth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-077",
@@ -304,7 +488,12 @@
     "author": "Elizabeth Barrett Browning",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-079",
@@ -312,7 +501,12 @@
     "author": "Jeremy Taylor",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-080",
@@ -320,7 +514,12 @@
     "author": "Audrey Hepburn",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-081",
@@ -328,7 +527,12 @@
     "author": "Mignon McLaughlin",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-082",
@@ -337,7 +541,12 @@
     "source": "Moulin Rouge",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-083",
@@ -346,7 +555,13 @@
     "source": "The Princess Bride",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:mortality",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-085",
@@ -355,7 +570,13 @@
     "source": "Pride and Prejudice",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-088",
@@ -363,7 +584,13 @@
     "author": "Christie Cook",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:friendship",
+      "tone:playful",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-089",
@@ -371,7 +598,12 @@
     "author": "Maggie Reyes",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-090",
@@ -379,7 +611,13 @@
     "author": "Dave Meurer",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-091",
@@ -387,7 +625,13 @@
     "author": "Elizabeth Gilbert",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-093",
@@ -395,7 +639,12 @@
     "author": "Fawn Weaver",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-partner-095",
@@ -403,7 +652,12 @@
     "author": "Jennifer Smith",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-partner-096",
@@ -411,7 +665,12 @@
     "author": "Ngina Otiende",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-partner-097",
@@ -419,7 +678,12 @@
     "author": "Simone Signoret",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-098",
@@ -427,7 +691,12 @@
     "author": "Leo Tolstoy",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-099",
@@ -435,7 +704,12 @@
     "author": "Robert C. Dodd",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-100",
@@ -443,7 +717,13 @@
     "author": "Sam Keen",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-102",
@@ -451,7 +731,13 @@
     "author": "Oscar Wilde",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-103",
@@ -459,7 +745,13 @@
     "author": "Doug Larson",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-104",
@@ -467,7 +759,11 @@
     "author": "Mahatma Gandhi",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-105",
@@ -475,7 +771,12 @@
     "author": "George Sand",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-106",
@@ -483,7 +784,13 @@
     "author": "Victor Hugo",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:joy",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-107",
@@ -491,7 +798,11 @@
     "author": "Leo Christopher",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-108",
@@ -499,15 +810,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-partner-109",
-    "text": "Whatever our souls are made of, yours and mine are the same.",
-    "author": "Emily Brontë",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-111",
@@ -515,7 +823,12 @@
     "author": "Arrigo Boito",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-112",
@@ -523,7 +836,12 @@
     "author": "Roy Croft",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-113",
@@ -531,7 +849,12 @@
     "author": "Beth Revis",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-114",
@@ -539,7 +862,12 @@
     "author": "Angelita Lim",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-115",
@@ -548,7 +876,12 @@
     "source": "Finding Nemo",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-116",
@@ -556,7 +889,12 @@
     "author": "Dorothy L. Sayers",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-117",
@@ -564,7 +902,12 @@
     "author": "Arthur Conan Doyle",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-118",
@@ -572,7 +915,14 @@
     "author": "J.R.R. Tolkien",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:gentle"
+    ],
+    "source": "The Lord of the Rings"
   },
   {
     "id": "rel-partner-119",
@@ -580,16 +930,12 @@
     "author": "David Viscott",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-partner-121",
-    "text": "You have bewitched me, body and soul, and I love, I love, I love you.",
-    "author": "Pride and Prejudice",
-    "source": "Pride and Prejudice (2005)",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-122",
@@ -598,7 +944,12 @@
     "source": "Love Actually",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-123",
@@ -607,7 +958,11 @@
     "source": "Sleepless in Seattle",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-124",
@@ -616,7 +971,11 @@
     "source": "Jerry Maguire",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-125",
@@ -625,7 +984,13 @@
     "source": "Bridget Jones's Diary",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-126",
@@ -634,7 +999,12 @@
     "source": "The Fault in Our Stars",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-127",
@@ -643,7 +1013,12 @@
     "source": "Notting Hill",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-128",
@@ -652,7 +1027,13 @@
     "source": "As Good As It Gets",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:growth",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-129",
@@ -661,16 +1042,11 @@
     "source": "Gone With the Wind",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
-  },
-  {
-    "id": "rel-partner-130",
-    "text": "Some people are worth melting for.",
-    "author": "Frozen",
-    "source": "Frozen",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-partner-131",
@@ -679,7 +1055,12 @@
     "source": "Cinderella",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-132",
@@ -688,7 +1069,11 @@
     "source": "The Rescuers",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-133",
@@ -697,16 +1082,11 @@
     "source": "Peter Pan",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-partner-134",
-    "text": "Love is putting someone else's needs before yours.",
-    "author": "Frozen",
-    "source": "Frozen",
-    "category": "relationships",
-    "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-135",
@@ -715,7 +1095,11 @@
     "source": "The Princess and the Frog",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-136",
@@ -724,7 +1108,11 @@
     "source": "The Princess and the Frog",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-137",
@@ -733,7 +1121,12 @@
     "source": "Winnie the Pooh",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-138",
@@ -742,7 +1135,11 @@
     "source": "The Incredibles",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-140",
@@ -750,7 +1147,12 @@
     "author": "Edgar Allan Poe",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-141",
@@ -758,7 +1160,12 @@
     "author": "Rumi",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-142",
@@ -767,7 +1174,11 @@
     "source": "Emma",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-143",
@@ -776,7 +1187,12 @@
     "source": "Much Ado About Nothing",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-144",
@@ -785,7 +1201,12 @@
     "source": "Romeo and Juliet",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-145",
@@ -794,7 +1215,13 @@
     "source": "A Midsummer Night's Dream",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-146",
@@ -803,7 +1230,12 @@
     "source": "The Tempest",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-147",
@@ -812,7 +1244,12 @@
     "source": "The Tempest",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-148",
@@ -821,16 +1258,28 @@
     "source": "Sonnet 18",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:mortality",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-149",
     "text": "The heart's not like a box that gets filled up. It expands in size the more you love.",
     "author": "Her",
-    "source": "2013",
+    "source": "Her",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-150",
@@ -838,7 +1287,13 @@
     "author": "Mahmoud Darwish",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-151",
@@ -847,7 +1302,13 @@
     "source": "Siegfried",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-152",
@@ -855,7 +1316,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-153",
@@ -863,7 +1328,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-154",
@@ -871,7 +1341,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-partner-155",
@@ -879,7 +1354,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-156",
@@ -887,7 +1367,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-partner-157",
@@ -895,7 +1380,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-158",
@@ -903,7 +1393,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-partner-159",
@@ -911,7 +1406,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-160",
@@ -919,7 +1419,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-161",
@@ -927,7 +1432,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-162",
@@ -935,7 +1444,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-163",
@@ -943,7 +1456,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-164",
@@ -951,7 +1469,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-165",
@@ -959,7 +1482,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-166",
@@ -967,7 +1494,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-167",
@@ -975,7 +1507,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-168",
@@ -983,7 +1519,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-169",
@@ -991,7 +1532,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-170",
@@ -999,7 +1545,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-171",
@@ -1007,7 +1558,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-partner-172",
@@ -1016,7 +1571,11 @@
     "source": "The Essex Serpent",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-173",
@@ -1025,7 +1584,12 @@
     "source": "Wuthering Heights",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-174",
@@ -1034,7 +1598,12 @@
     "source": "Dangerous Liaisons",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:self-worth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-partner-175",
@@ -1043,6 +1612,11 @@
     "source": "Bending The Universe",
     "category": "relationships",
     "subcategory": "partnership",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   }
 ]

@@ -7,17 +7,17 @@ import { checkTrialEligibility, restorePurchases } from '@/utils/revenuecat';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useRouter } from 'expo-router';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Alert, Animated, Image, Linking, Pressable, StyleSheet, Switch, Text, View, useWindowDimensions } from 'react-native';
 import Purchases, { PurchasesPackage } from 'react-native-purchases';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const FEATURES = [
-  'Beautiful premium themes',
-  'Add your own custom quotes',
-  'Unlock all font styles',
-  'Own custom themes',
+  '10 daily quotes tuned to you',
+  'Learns deeper with every swipe',
+  'Save favorites and add your own',
+  'Premium themes, fonts, and widgets',
 ];
 
 function getTrialTimelineSteps() {
@@ -51,6 +51,7 @@ export default function PaywallScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { dispatch } = useAppContext();
+  const { from } = useLocalSearchParams<{ from?: string }>();
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
@@ -83,12 +84,17 @@ export default function PaywallScreen() {
     async function fetchOfferings() {
       try {
         const offerings = await Purchases.getOfferings();
-        if (offerings.current) {
-          const annual = offerings.current.availablePackages.find(
-            (p) => p.packageType === 'ANNUAL' || p.product.identifier === 'com.dohhyun.whisper.annually',
+        // Explicitly fetch the v2 offering ($14.99 / $59.99) instead of
+        // offerings.current. This guarantees v1.0.16+ users always see v2 pricing
+        // regardless of which offering is marked "Current" in the RC dashboard,
+        // and keeps in-app marketing copy consistent with what Apple's reviewer sees.
+        const offering = offerings.all['v2_pricing'] ?? offerings.current;
+        if (offering) {
+          const annual = offering.availablePackages.find(
+            (p) => p.packageType === 'ANNUAL',
           );
-          const monthly = offerings.current.availablePackages.find(
-            (p) => p.packageType === 'MONTHLY' || p.product.identifier === 'com.dohhyun.whisper.monthly',
+          const monthly = offering.availablePackages.find(
+            (p) => p.packageType === 'MONTHLY',
           );
           setPackages({ annual, monthly });
         }
@@ -107,12 +113,21 @@ export default function PaywallScreen() {
     if (purchased) {
       dispatch({ type: 'SET_PREMIUM_STATUS', payload: 'premium_purchased' });
     }
-    if (isPostOnboarding) {
-      router.back();
+    if (from === 'freemium-migration') {
+      router.replace('/daily-deck');
       return;
     }
-    posthog.capture(Events.ONBOARDING_COMPLETED, { method: purchased ? 'purchased' : 'free' });
-    router.push('/onboarding/widget-promo');
+    if (!isPostOnboarding) {
+      posthog.capture(Events.ONBOARDING_COMPLETED, { method: purchased ? 'purchased' : 'free' });
+      router.replace('/onboarding/widget-promo');
+      return;
+    }
+    // Post-onboarding contextual call (theme picker, etc.): return to caller.
+    if (router.canGoBack()) {
+      router.back();
+    } else {
+      router.replace('/daily-deck');
+    }
   };
 
   const handlePurchase = async () => {
@@ -154,13 +169,24 @@ export default function PaywallScreen() {
     }
   };
 
-  const handleSkip = () => {
-    posthog.capture(Events.PAYWALL_SKIPPED);
-    handleComplete(false);
-  };
+  const annualPrice = packages.annual?.product.priceString ?? '$59.99';
+  const monthlyPrice = packages.monthly?.product.priceString ?? '$14.99';
+  const annualMonthlyEquiv = packages.annual?.product.price
+    ? `$${(Math.floor((packages.annual.product.price / 12) * 100) / 100).toFixed(2)}`
+    : '$4.99';
 
-  const annualPrice = packages.annual?.product.priceString ?? '$49.99';
-  const monthlyPrice = packages.monthly?.product.priceString ?? '$9.99';
+  const handleClose = () => {
+    if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    posthog.capture(Events.PAYWALL_SKIPPED);
+    // Back button: return to whichever screen pushed the paywall.
+    if (from === 'freemium-migration') {
+      router.replace('/freemium-upgrade');
+    } else if (router.canGoBack()) {
+      router.back();
+    } else {
+      router.replace('/daily-deck');
+    }
+  };
 
   if (trialEligible === null) {
     return (
@@ -183,10 +209,11 @@ export default function PaywallScreen() {
         setSelectedPlan={setSelectedPlan}
         annualPrice={annualPrice}
         monthlyPrice={monthlyPrice}
+        annualMonthlyEquiv={annualMonthlyEquiv}
         loading={loading}
         onPurchase={handlePurchase}
         onRestore={handleRestore}
-        onSkip={handleSkip}
+        onClose={handleClose}
       />
     );
   }
@@ -199,10 +226,11 @@ export default function PaywallScreen() {
       setSelectedPlan={setSelectedPlan}
       annualPrice={annualPrice}
       monthlyPrice={monthlyPrice}
+      annualMonthlyEquiv={annualMonthlyEquiv}
       loading={loading}
       onPurchase={handlePurchase}
       onRestore={handleRestore}
-      onSkip={handleSkip}
+      onClose={handleClose}
     />
   );
 }
@@ -216,22 +244,19 @@ interface PaywallProps {
   setSelectedPlan: (plan: 'annual' | 'monthly') => void;
   annualPrice: string;
   monthlyPrice: string;
+  annualMonthlyEquiv: string;
   loading: boolean;
   onPurchase: () => void;
   onRestore: () => void;
-  onSkip: () => void;
+  onClose: () => void;
 }
 
 // ─── Footer ─────────────────────────────────────────────────────────────────
 
-function Footer({ s, onRestore }: { s: number; onRestore: () => void }) {
+function Footer({ s }: { s: number }) {
   return (
     <View style={styles.footerContainer}>
       <View style={styles.footer}>
-        <Pressable onPress={onRestore} hitSlop={8}>
-          <Text style={[styles.footerText, { fontSize: 11 * s }]}>Restore</Text>
-        </Pressable>
-        <Text style={[styles.footerDivider, { fontSize: 11 * s }]}>|</Text>
         <Pressable onPress={() => Linking.openURL('https://www.whisperquotes.app/terms')} hitSlop={8}>
           <Text style={[styles.footerText, { fontSize: 11 * s }]}>Terms & Conditions</Text>
         </Pressable>
@@ -244,12 +269,30 @@ function Footer({ s, onRestore }: { s: number; onRestore: () => void }) {
   );
 }
 
+function RestoreLink({ s, onRestore, style }: { s: number; onRestore: () => void; style?: any }) {
+  return (
+    <Pressable style={style} onPress={onRestore} hitSlop={12}>
+      <Text style={[styles.noThanksText, { fontSize: 15 * s }]}>Restore</Text>
+    </Pressable>
+  );
+}
+
+function BackButton({ s, onClose, style }: { s: number; onClose: () => void; style?: any }) {
+  return (
+    <Pressable style={style} onPress={onClose} hitSlop={12}>
+      <View style={[styles.closeCircle, { width: 32 * s, height: 32 * s, borderRadius: 16 * s }]}>
+        <Ionicons name="chevron-back" size={22 * s} color="#7B9AAA" />
+      </View>
+    </Pressable>
+  );
+}
+
 // ─── Regular Paywall ────────────────────────────────────────────────────────
 
 function RegularPaywall({
   s, insets, selectedPlan, setSelectedPlan,
-  annualPrice, monthlyPrice, loading,
-  onPurchase, onRestore, onSkip,
+  annualPrice, monthlyPrice, annualMonthlyEquiv, loading,
+  onPurchase, onRestore, onClose,
 }: PaywallProps) {
   return (
     <LinearGradient
@@ -267,12 +310,10 @@ function RegularPaywall({
           },
         ]}
       >
-        <Pressable style={styles.noThanks} onPress={() => {
-          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Rigid);
-          onSkip();
-        }} hitSlop={12}>
-          <Text style={[styles.noThanksText, { fontSize: 15 * s }]}>No Thanks</Text>
-        </Pressable>
+        <View style={styles.topBar}>
+          <BackButton s={s} onClose={onClose} />
+          <RestoreLink s={s} onRestore={onRestore} />
+        </View>
 
         <View style={styles.middle}>
           <Text style={[styles.title, { fontSize: 28 * s, marginBottom: 20 * s }]}>
@@ -381,11 +422,11 @@ function RegularPaywall({
 
           <Text style={[styles.billingText, { fontSize: 12 * s }]}>
             {selectedPlan === 'annual'
-              ? `$4.16/month, billed yearly as ${annualPrice}/year`
+              ? `${annualMonthlyEquiv}/month, billed yearly as ${annualPrice}/year`
               : `${monthlyPrice}/month, billed monthly`}
           </Text>
 
-          <Footer s={s} onRestore={onRestore} />
+          <Footer s={s} />
         </View>
       </View>
     </LinearGradient>
@@ -396,8 +437,8 @@ function RegularPaywall({
 
 function TrialPaywall({
   s, insets, selectedPlan, setSelectedPlan,
-  annualPrice, monthlyPrice, loading,
-  onPurchase, onRestore, onSkip,
+  annualPrice, monthlyPrice, annualMonthlyEquiv, loading,
+  onPurchase, onRestore, onClose,
 }: PaywallProps) {
   const timelineSteps = getTrialTimelineSteps();
   const fadeAnims = useRef(timelineSteps.map(() => new Animated.Value(0))).current;
@@ -448,13 +489,11 @@ function TrialPaywall({
           },
         ]}
       >
-        {/* Top bar: No Thanks */}
-        <Pressable style={styles.noThanks} onPress={() => {
-          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Rigid);
-          onSkip();
-        }} hitSlop={12}>
-          <Text style={[styles.noThanksText, { fontSize: 15 * s }]}>No Thanks</Text>
-        </Pressable>
+        {/* Top bar: Restore (left) + Close (right) */}
+        <View style={styles.topBar}>
+          <BackButton s={s} onClose={onClose} />
+          <RestoreLink s={s} onRestore={onRestore} />
+        </View>
 
         {/* Middle */}
         <View style={styles.middle}>
@@ -585,11 +624,11 @@ function TrialPaywall({
           {/* Billing info */}
           <Text style={[styles.billingText, { fontSize: 12 * s }]}>
             {selectedPlan === 'annual'
-              ? `$4.16/month, billed yearly as ${annualPrice}/year`
+              ? `${annualMonthlyEquiv}/month, billed yearly as ${annualPrice}/year`
               : `${monthlyPrice}/month, billed monthly`}
           </Text>
 
-          <Footer s={s} onRestore={onRestore} />
+          <Footer s={s} />
         </View>
       </View>
     </LinearGradient>
@@ -617,6 +656,18 @@ const styles = StyleSheet.create({
   noThanksText: {
     fontWeight: '500',
     color: '#999',
+  },
+  topBar: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 4,
+    marginBottom: 4,
+  },
+  closeCircle: {
+    backgroundColor: 'rgba(58, 107, 128, 0.08)',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   middle: {
     flex: 1,

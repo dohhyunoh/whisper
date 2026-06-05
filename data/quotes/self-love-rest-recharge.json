@@ -5,7 +5,14 @@
     "author": "Ralph Marston",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:healing",
+      "need:permission",
+      "need:stillness",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-003",
@@ -13,7 +20,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:boundaries",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-004",
@@ -21,7 +34,13 @@
     "author": "Anne Lamott",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "need:stillness",
+      "tone:playful"
+    ]
   },
   {
     "id": "self-love-rr-006",
@@ -29,7 +48,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:healing",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-007",
@@ -37,7 +62,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "need:validation",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-008",
@@ -45,7 +76,12 @@
     "author": "Doe Zantamata",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-009",
@@ -53,7 +89,12 @@
     "author": "Mark Black",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-010",
@@ -61,7 +102,11 @@
     "author": "Sri Sri Ravi Shankar",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-011",
@@ -69,7 +114,14 @@
     "author": "Anne Lamott",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "need:stillness",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-012",
@@ -77,7 +129,12 @@
     "author": "Danielle LaPorte",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:motivation",
+      "tone:fierce"
+    ]
   },
   {
     "id": "self-love-rr-014",
@@ -85,7 +142,11 @@
     "author": "Alan Cohen",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-015",
@@ -94,15 +155,26 @@
     "source": "The Art of Stillness",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "situation:burnout",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-016",
     "text": "If you get tired, learn to rest, not to quit.",
-    "author": "Bansky",
+    "author": "Banksy",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-018",
@@ -110,7 +182,13 @@
     "author": "Bryant McGill",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-019",
@@ -118,7 +196,14 @@
     "author": "Hiro Boga",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "theme:self-worth",
+      "need:validation",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-020",
@@ -126,7 +211,14 @@
     "author": "Anne Lamott",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "theme:healing",
+      "need:comfort",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "self-love-rr-021",
@@ -134,7 +226,13 @@
     "author": "Rob Bell",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:healing",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-022",
@@ -142,7 +240,13 @@
     "author": "Johann Wolfgang von Goethe",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "theme:healing",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-023",
@@ -150,7 +254,13 @@
     "author": "Jennifer Williamson",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-024",
@@ -158,7 +268,14 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "emotion:shame",
+      "need:validation",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-025",
@@ -166,7 +283,12 @@
     "author": "Dalai Lama",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-026",
@@ -174,7 +296,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-027",
@@ -182,7 +309,14 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "emotion:shame",
+      "need:validation",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-028",
@@ -190,7 +324,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-029",
@@ -198,7 +337,13 @@
     "author": "Ram Dass",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "emotion:peace",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-030",
@@ -206,7 +351,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:permission",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-031",
@@ -214,7 +365,14 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:self-worth",
+      "need:permission",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-032",
@@ -222,7 +380,13 @@
     "author": "Eleanor Brown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:boundaries",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-033",
@@ -230,7 +394,13 @@
     "author": "Ashleigh Brilliant",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "situation:burnout",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-034",
@@ -238,7 +408,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:healing",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-035",
@@ -246,7 +422,14 @@
     "author": "Audre Lorde",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:self-worth",
+      "theme:boundaries",
+      "need:permission",
+      "tone:fierce",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-036",
@@ -254,7 +437,14 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "situation:burnout",
+      "need:permission",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-037",
@@ -262,7 +452,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "emotion:peace",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-038",
@@ -270,7 +466,13 @@
     "author": "Nikki Rowe",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-040",
@@ -278,7 +480,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-041",
@@ -286,7 +493,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "need:validation",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-042",
@@ -294,7 +507,13 @@
     "author": "Hermann Hesse",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "emotion:peace",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-043",
@@ -302,7 +521,14 @@
     "author": "Rumi",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:purpose",
+      "theme:identity",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-044",
@@ -310,7 +536,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "situation:burnout",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-045",
@@ -318,15 +550,27 @@
     "author": "Charlotte Eriksson",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:loneliness",
+      "theme:identity",
+      "need:stillness",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-046",
     "text": "Be still and know. Just be still.",
-    "author": "Unknown",
+    "author": "Psalm 46:10",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-047",
@@ -334,7 +578,13 @@
     "author": "Mandy Hale",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anxiety",
+      "theme:letting-go",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-048",
@@ -342,7 +592,14 @@
     "author": "Michael Gungor",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "situation:burnout",
+      "emotion:exhaustion",
+      "need:perspective",
+      "tone:playful",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-049",
@@ -350,7 +607,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-050",
@@ -358,7 +620,13 @@
     "author": "Steve Maraboli",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anxiety",
+      "need:perspective",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-051",
@@ -366,7 +634,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:validation",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-052",
@@ -374,7 +648,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-053",
@@ -382,7 +661,12 @@
     "author": "Homer",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-054",
@@ -390,7 +674,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:gentle",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-055",
@@ -398,7 +688,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "theme:boundaries",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-057",
@@ -406,7 +702,12 @@
     "author": "John De Paola",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-058",
@@ -414,7 +715,12 @@
     "author": "Lao Tzu",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "playful"
+    "tone": "poetic",
+    "tags": [
+      "need:stillness",
+      "need:perspective",
+      "tone:poetic"
+    ]
   },
   {
     "id": "self-love-rr-059",
@@ -422,7 +728,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:boundaries",
+      "need:permission",
+      "tone:fierce",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-060",
@@ -430,7 +742,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-061",
@@ -438,7 +756,13 @@
     "author": "Wayne Dyer",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-062",
@@ -446,7 +770,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:boundaries",
+      "theme:self-worth",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-063",
@@ -454,7 +784,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "emotion:peace",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-064",
@@ -462,7 +798,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "need:permission",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-065",
@@ -470,7 +812,12 @@
     "author": "Mandy Hale",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-066",
@@ -478,7 +825,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:validation",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-068",
@@ -486,7 +839,13 @@
     "author": "John Green",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:hope",
+      "need:comfort",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-069",
@@ -494,7 +853,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:self-worth",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-070",
@@ -502,7 +866,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-073",
@@ -510,7 +880,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:anger",
+      "emotion:exhaustion",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "self-love-rr-074",
@@ -519,7 +895,13 @@
     "source": "One Punch Man",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:anxiety",
+      "theme:letting-go",
+      "need:permission",
+      "tone:playful"
+    ]
   },
   {
     "id": "self-love-rr-075",
@@ -528,16 +910,14 @@
     "source": "Kiki's Delivery Service (1989)",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-rr-076",
-    "text": "Stop trying... Don't do a single thing. Then suddenly you'll be flying again.",
-    "author": "Ursula",
-    "source": "Kiki's Delivery Service",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:letting-go",
+      "need:stillness",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-077",
@@ -545,7 +925,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-078",
@@ -553,7 +938,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-079",
@@ -561,7 +952,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anxiety",
+      "need:validation",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-080",
@@ -569,7 +966,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-081",
@@ -577,7 +979,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:permission",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-082",
@@ -585,7 +992,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-083",
@@ -593,7 +1005,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:permission",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-084",
@@ -601,15 +1018,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "direct"
-  },
-  {
-    "id": "self-love-rr-085",
-    "text": "You don't have to earn rest.",
-    "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "direct",
+    "tags": [
+      "situation:burnout",
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-086",
@@ -617,7 +1032,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "need:stillness",
+      "emotion:shame",
+      "need:validation",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-087",
@@ -625,7 +1046,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:comfort",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-088",
@@ -633,7 +1059,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-089",
@@ -641,7 +1072,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-090",
@@ -649,7 +1085,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:comfort",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-091",
@@ -657,7 +1098,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:permission",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-092",
@@ -665,7 +1111,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-093",
@@ -673,15 +1124,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "direct"
-  },
-  {
-    "id": "self-love-rr-094",
-    "text": "Recharge is not retreat.",
-    "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-095",
@@ -689,7 +1138,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-096",
@@ -697,7 +1152,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-097",
@@ -705,7 +1165,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-098",
@@ -713,15 +1178,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
-  },
-  {
-    "id": "self-love-rr-099",
-    "text": "Rest is how you refuel, not retreat.",
-    "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:permission",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-100",
@@ -729,7 +1191,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:comfort",
+      "need:stillness",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-101",
@@ -737,7 +1205,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:anxiety",
+      "need:validation",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-102",
@@ -745,7 +1219,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "self-love-rr-103",
@@ -753,7 +1233,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:comfort",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-104",
@@ -761,7 +1246,11 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-105",
@@ -769,7 +1258,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-106",
@@ -777,7 +1271,12 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "self-love-rr-107",
@@ -785,6 +1284,13 @@
     "author": "Unknown",
     "category": "self-love",
     "subcategory": "rest-recharge",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "emotion:peace",
+      "need:stillness",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   }
 ]

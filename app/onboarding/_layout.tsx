@@ -29,6 +29,7 @@ export default function OnboardingLayout() {
       {/* Phase 4: The Conversion Bridge */}
       <Stack.Screen name="curating" />
       <Stack.Screen name="sneak-peek" />
+      <Stack.Screen name="how-it-works" />
       <Stack.Screen name="notification-preview" />
       {/* Phase 5: Commitment & Anchoring */}
       <Stack.Screen name="trial-offer" />

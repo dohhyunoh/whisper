@@ -5,7 +5,12 @@
     "author": "John F. Kennedy",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-002",
@@ -13,7 +18,12 @@
     "author": "Marcus Tullius Cicero",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-003",
@@ -21,7 +31,12 @@
     "author": "Denis Waitley",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-004",
@@ -29,7 +44,12 @@
     "author": "Zig Ziglar",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-005",
@@ -37,7 +57,12 @@
     "author": "William Arthur Ward",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-006",
@@ -45,7 +70,12 @@
     "author": "Carl Jung",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-007",
@@ -53,7 +83,12 @@
     "author": "Will Arnett",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-008",
@@ -61,7 +96,12 @@
     "author": "Henry Ward Beecher",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-009",
@@ -69,7 +109,12 @@
     "author": "Alice Walker",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-010",
@@ -77,7 +122,12 @@
     "author": "Aesop",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-011",
@@ -85,7 +135,12 @@
     "author": "Michelle Obama",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-012",
@@ -93,7 +148,12 @@
     "author": "James Herriot",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-013",
@@ -101,7 +161,12 @@
     "author": "Brene Brown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-014",
@@ -109,7 +174,13 @@
     "author": "Lauryn Hill",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:faith",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-015",
@@ -117,7 +188,12 @@
     "author": "Jen Sincero",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-016",
@@ -125,7 +201,12 @@
     "author": "Gilbert K. Chesterton",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-017",
@@ -133,7 +214,12 @@
     "author": "Doris Day",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-grat-018",
@@ -141,7 +227,12 @@
     "author": "Randy Pausch",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-019",
@@ -149,7 +240,12 @@
     "author": "Montesquieu",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-020",
@@ -157,7 +253,12 @@
     "author": "Henri Nouwen",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-021",
@@ -165,7 +266,12 @@
     "author": "Henry Winkler",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-022",
@@ -173,7 +279,12 @@
     "author": "Cara Delevingne",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-023",
@@ -181,7 +292,12 @@
     "author": "Mary Oliver",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-025",
@@ -189,7 +305,12 @@
     "author": "John Quincy Adams",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-031",
@@ -197,7 +318,12 @@
     "author": "Melody Beattie",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-032",
@@ -205,7 +331,12 @@
     "author": "Friedrich Nietzsche",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-033",
@@ -213,7 +344,12 @@
     "author": "Albert Schweitzer",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-034",
@@ -221,7 +357,12 @@
     "author": "Eckhart Tolle",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-035",
@@ -229,7 +370,12 @@
     "author": "Alfred North Whitehead",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-036",
@@ -237,7 +383,12 @@
     "author": "Gza",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-037",
@@ -245,7 +396,12 @@
     "author": "Karl Barth",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-038",
@@ -253,7 +409,12 @@
     "author": "Henry Van Dyke",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-040",
@@ -261,7 +422,12 @@
     "author": "Elie Wiesel",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-041",
@@ -269,7 +435,12 @@
     "author": "John Milton",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-042",
@@ -277,7 +448,12 @@
     "author": "Gertrude Stein",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-grat-043",
@@ -285,7 +461,12 @@
     "author": "Dietrich Bonhoeffer",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-044",
@@ -293,7 +474,12 @@
     "author": "Joseph B. Wirthlin",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-045",
@@ -301,7 +487,12 @@
     "author": "Paul J. Meyer",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-046",
@@ -309,7 +500,12 @@
     "author": "Jean-Jacques Rousseau",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-047",
@@ -317,7 +513,12 @@
     "author": "Louie Schwartzberg",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-048",
@@ -325,7 +526,12 @@
     "author": "Jacques Maritain",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-049",
@@ -333,7 +539,12 @@
     "author": "Henri Frederic Amiel",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-050",
@@ -341,7 +552,12 @@
     "author": "Lionel Hampton",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-051",
@@ -349,7 +565,12 @@
     "author": "Anonymous",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-052",
@@ -357,7 +578,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-053",
@@ -365,7 +592,12 @@
     "author": "Anonymous",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-054",
@@ -373,7 +605,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "emotion:exhaustion",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-055",
@@ -381,7 +619,12 @@
     "author": "Anonymous",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-056",
@@ -389,7 +632,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-057",
@@ -397,7 +645,12 @@
     "author": "Anonymous",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-058",
@@ -405,7 +658,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-059",
@@ -413,7 +671,12 @@
     "author": "Anonymous",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-060",
@@ -421,7 +684,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-061",
@@ -429,7 +697,12 @@
     "author": "Anonymous",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-062",
@@ -437,7 +710,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-063",
@@ -445,7 +723,12 @@
     "author": "Anonymous",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-064",
@@ -453,7 +736,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:healing",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-065",
@@ -461,7 +750,12 @@
     "author": "Anonymous",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-066",
@@ -469,7 +763,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-067",
@@ -477,7 +776,12 @@
     "author": "Anonymous",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-068",
@@ -485,7 +789,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "emotion:hope",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-069",
@@ -493,7 +803,12 @@
     "author": "Anonymous",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-070",
@@ -501,7 +816,14 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:healing",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-grat-073",
@@ -509,7 +831,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-074",
@@ -517,7 +845,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-075",
@@ -525,7 +858,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-076",
@@ -533,7 +871,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-077",
@@ -541,7 +884,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-078",
@@ -549,7 +897,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-079",
@@ -557,7 +910,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-080",
@@ -565,7 +923,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-081",
@@ -573,7 +936,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-082",
@@ -581,7 +949,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-083",
@@ -589,7 +962,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-084",
@@ -597,7 +975,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-085",
@@ -605,7 +988,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-086",
@@ -613,7 +1001,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-087",
@@ -621,7 +1014,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-088",
@@ -629,7 +1027,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-089",
@@ -637,7 +1040,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-090",
@@ -645,7 +1053,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-091",
@@ -653,7 +1067,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-092",
@@ -661,7 +1081,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-093",
@@ -669,7 +1095,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-094",
@@ -677,7 +1109,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-095",
@@ -685,7 +1123,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-096",
@@ -693,7 +1137,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-071",
@@ -702,7 +1151,13 @@
     "source": "It's a Magical World",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "theme:mortality",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-grat-072",
@@ -711,7 +1166,13 @@
     "source": "Troy (2004)",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "theme:mortality",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-grat-097",
@@ -720,7 +1181,13 @@
     "source": "Kung Fu Panda",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "theme:mortality",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-grat-098",
@@ -729,7 +1196,13 @@
     "source": "Winnie the Pooh",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "emotion:longing",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-099",
@@ -737,7 +1210,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-100",
@@ -745,7 +1223,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-101",
@@ -753,7 +1236,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-102",
@@ -761,7 +1249,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-103",
@@ -769,7 +1262,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-104",
@@ -777,7 +1275,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-105",
@@ -785,7 +1288,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-106",
@@ -793,7 +1301,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-107",
@@ -801,7 +1314,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-108",
@@ -809,7 +1327,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-109",
@@ -817,7 +1340,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-110",
@@ -825,7 +1353,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "need:permission",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-grat-111",
@@ -833,7 +1366,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-112",
@@ -841,7 +1379,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-113",
@@ -849,7 +1392,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-114",
@@ -857,7 +1405,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-grat-115",
@@ -865,7 +1418,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-116",
@@ -873,7 +1431,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-117",
@@ -881,7 +1444,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-118",
@@ -889,7 +1457,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-119",
@@ -897,7 +1470,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-120",
@@ -905,7 +1483,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-121",
@@ -913,7 +1496,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-122",
@@ -921,7 +1509,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-123",
@@ -929,7 +1522,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-124",
@@ -937,7 +1535,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-125",
@@ -945,7 +1549,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-126",
@@ -953,7 +1563,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-127",
@@ -961,7 +1576,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-128",
@@ -969,7 +1590,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-129",
@@ -977,7 +1603,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-130",
@@ -985,7 +1617,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-131",
@@ -993,7 +1630,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-grat-132",
@@ -1002,7 +1644,13 @@
     "source": "Winnie the Pooh",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:permission",
+      "tone:gentle",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-grat-133",
@@ -1011,7 +1659,12 @@
     "source": "Winnie the Pooh",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-grat-134",
@@ -1019,6 +1672,11 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "gratitude",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:joy",
+      "need:perspective",
+      "tone:gentle"
+    ]
   }
 ]

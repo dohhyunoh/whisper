@@ -12,6 +12,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useAppContext } from '@/context/app-context';
 import { findMoodByLabel } from '@/data/moods';
+import { markV2MigrationSeen } from '@/utils/migration';
 import { getTodayDateString } from '@/utils/streak';
 
 export default function WidgetHomeScreen() {
@@ -33,7 +34,9 @@ export default function WidgetHomeScreen() {
       });
     }
     dispatch({ type: 'COMPLETE_ONBOARDING' });
-    router.replace('/home');
+    // Brand-new users finishing onboarding never need to see the v2 migration screen.
+    markV2MigrationSeen();
+    router.replace('/daily-deck');
   };
 
   return (

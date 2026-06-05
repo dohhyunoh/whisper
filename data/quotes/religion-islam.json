@@ -5,7 +5,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:healing", "need:perspective", "need:comfort", "tone:poetic"]
   },
   {
     "id": "religion-islam-002",
@@ -13,7 +14,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:identity", "theme:growth", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-islam-003",
@@ -21,25 +23,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-islam-004",
-    "text": "Verily, with hardship comes ease.",
-    "author": "Quran 94:6",
-    "source": "The Quran",
-    "category": "religion",
-    "subcategory": "islam",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-islam-005",
-    "text": "God does not burden a soul beyond that it can bear.",
-    "author": "Quran 2:286",
-    "source": "The Quran",
-    "category": "religion",
-    "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:hope", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-islam-006",
@@ -48,7 +33,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:identity", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-007",
@@ -57,7 +43,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:sacred", "tone:poetic"]
   },
   {
     "id": "religion-islam-008",
@@ -66,25 +53,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-islam-009",
-    "text": "Seek help through patience and prayer. Indeed, God is with the patient.",
-    "author": "Quran 2:45",
-    "source": "The Quran",
-    "category": "religion",
-    "subcategory": "islam",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-islam-010",
-    "text": "O you who have believed, seek help through patience and prayer. Indeed, God is with the patient.",
-    "author": "Quran 2:153",
-    "source": "The Quran",
-    "category": "religion",
-    "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:mortality", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-islam-011",
@@ -93,7 +63,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:sacred"]
   },
   {
     "id": "religion-islam-012",
@@ -102,7 +73,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:identity", "need:permission", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-013",
@@ -111,7 +83,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-014",
@@ -120,7 +93,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:mortality", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-islam-015",
@@ -129,7 +103,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:boundaries", "need:challenge", "tone:fierce", "tone:sacred"]
   },
   {
     "id": "religion-islam-016",
@@ -138,7 +113,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-islam-017",
@@ -147,7 +123,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:sacred"]
   },
   {
     "id": "religion-islam-018",
@@ -156,16 +133,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-islam-019",
-    "text": "Verily, in the remembrance of God do hearts find rest.",
-    "author": "Quran 13:28",
-    "source": "The Quran",
-    "category": "religion",
-    "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:motivation", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-020",
@@ -174,7 +143,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:sacred"]
   },
   {
     "id": "religion-islam-021",
@@ -183,7 +153,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:letting-go", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-islam-022",
@@ -192,7 +163,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:money", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-023",
@@ -201,7 +173,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-islam-024",
@@ -210,7 +183,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-025",
@@ -219,7 +193,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:growth", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-026",
@@ -228,16 +203,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-islam-027",
-    "text": "Say, O My servants who have transgressed against themselves, do not despair of the mercy of God. Indeed, God forgives all sins. Indeed, He is the Most Forgiving, the Most Merciful.",
-    "author": "Quran 39:53",
-    "source": "The Quran",
-    "category": "religion",
-    "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:sacred"]
   },
   {
     "id": "religion-islam-028",
@@ -246,7 +213,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-029",
@@ -255,7 +223,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:fear", "emotion:grief", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-030",
@@ -264,7 +233,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:hope", "need:comfort", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-031",
@@ -273,7 +243,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:growth", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-032",
@@ -282,7 +253,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:anger", "theme:boundaries", "need:perspective", "need:permission", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-033",
@@ -291,7 +263,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:joy", "tone:gentle", "tone:playful", "tone:sacred"]
   },
   {
     "id": "religion-islam-034",
@@ -300,7 +273,8 @@
     "source": "Sahih Muslim",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:family", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-035",
@@ -309,7 +283,8 @@
     "source": "Sahih Muslim",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:motivation", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-036",
@@ -318,7 +293,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:identity", "tone:sacred"]
   },
   {
     "id": "religion-islam-037",
@@ -327,7 +303,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-038",
@@ -336,7 +313,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-039",
@@ -345,7 +323,8 @@
     "source": "Sahih Muslim",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:challenge", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-040",
@@ -354,7 +333,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:identity", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-041",
@@ -363,7 +343,8 @@
     "source": "Sahih Muslim",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:sacred"]
   },
   {
     "id": "religion-islam-042",
@@ -372,7 +353,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:mortality", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-043",
@@ -380,7 +362,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:poetic"]
   },
   {
     "id": "religion-islam-044",
@@ -388,7 +371,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:self-worth", "theme:identity", "need:validation", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-islam-045",
@@ -396,7 +380,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:purpose", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-islam-046",
@@ -404,7 +389,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:fear", "need:challenge", "need:perspective", "tone:direct", "tone:poetic"]
   },
   {
     "id": "religion-islam-047",
@@ -412,7 +398,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-islam-048",
@@ -420,7 +407,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:identity", "theme:purpose", "need:permission", "need:motivation", "tone:fierce", "tone:poetic"]
   },
   {
     "id": "religion-islam-049",
@@ -428,7 +416,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:letting-go", "need:stillness", "tone:poetic"]
   },
   {
     "id": "religion-islam-050",
@@ -436,7 +425,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-islam-051",
@@ -445,7 +435,8 @@
     "source": "Rubaiyat",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:letting-go", "need:stillness", "need:permission", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-islam-053",
@@ -454,7 +445,8 @@
     "source": "Rubaiyat",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:mortality", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-islam-054",
@@ -463,7 +455,8 @@
     "source": "Rubaiyat",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:direct", "tone:poetic"]
   },
   {
     "id": "religion-islam-055",
@@ -471,7 +464,8 @@
     "author": "Ibn Sina",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:gentle"]
   },
   {
     "id": "religion-islam-056",
@@ -479,7 +473,8 @@
     "author": "Ibn Sina",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:body-image", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-islam-057",
@@ -487,7 +482,8 @@
     "author": "Ibn Sina",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "situation:illness", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-islam-058",
@@ -495,7 +491,8 @@
     "author": "Ibn Sina",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-islam-059",
@@ -504,7 +501,8 @@
     "source": "The Revival of Religious Sciences",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:money", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-islam-060",
@@ -513,7 +511,8 @@
     "source": "The Revival of Religious Sciences",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-islam-061",
@@ -522,7 +521,8 @@
     "source": "The Revival of Religious Sciences",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:motivation", "need:challenge", "tone:direct", "tone:fierce"]
   },
   {
     "id": "religion-islam-062",
@@ -531,7 +531,8 @@
     "source": "The Revival of Religious Sciences",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:identity", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-islam-063",
@@ -539,7 +540,8 @@
     "author": "Ibn Arabi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:identity", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-islam-064",
@@ -547,7 +549,8 @@
     "author": "Ibn Arabi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:identity", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-islam-065",
@@ -555,7 +558,8 @@
     "author": "Ibn Arabi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:poetic"]
   },
   {
     "id": "religion-islam-066",
@@ -563,15 +567,8 @@
     "author": "Ibn Arabi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-islam-067",
-    "text": "Ali is to me what I am to Abu Bakr. I am Abu Bakr's father, and Ali is my father.",
-    "author": "Imam Ali",
-    "category": "religion",
-    "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:numbness", "theme:identity", "need:challenge", "need:motivation", "tone:fierce", "tone:poetic"]
   },
   {
     "id": "religion-islam-068",
@@ -579,7 +576,8 @@
     "author": "Imam Ali",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:letting-go", "need:perspective", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-islam-069",
@@ -587,7 +585,8 @@
     "author": "Imam Ali",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-islam-070",
@@ -595,7 +594,8 @@
     "author": "Imam Ali",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:mortality", "theme:body-image", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-islam-071",
@@ -603,7 +603,8 @@
     "author": "Imam Ali",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:identity", "need:challenge", "tone:direct", "tone:fierce"]
   },
   {
     "id": "religion-islam-072",
@@ -611,7 +612,8 @@
     "author": "Umar ibn al-Khattab",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-islam-073",
@@ -619,7 +621,8 @@
     "author": "Umar ibn al-Khattab",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:motivation", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-islam-074",
@@ -627,7 +630,8 @@
     "author": "Umar ibn al-Khattab",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:direct"]
   },
   {
     "id": "religion-islam-075",
@@ -635,7 +639,8 @@
     "author": "Abu Bakr al-Siddique",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:grief", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-islam-076",
@@ -643,7 +648,8 @@
     "author": "Abu Bakr al-Siddique",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:stillness", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-islam-077",
@@ -651,7 +657,8 @@
     "author": "Rabia al-Adawiyya",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:poetic"]
   },
   {
     "id": "religion-islam-078",
@@ -659,7 +666,8 @@
     "author": "Rabia al-Adawiyya",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-islam-079",
@@ -667,7 +675,8 @@
     "author": "Rabia al-Adawiyya",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-islam-080",
@@ -675,7 +684,8 @@
     "author": "Rabia al-Adawiyya",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "religion-islam-081",
@@ -684,7 +694,8 @@
     "source": "The Revival of Religious Sciences",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:stillness", "tone:poetic"]
   },
   {
     "id": "religion-islam-082",
@@ -693,7 +704,8 @@
     "source": "The Revival of Religious Sciences",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-islam-083",
@@ -701,7 +713,8 @@
     "author": "Ibn Sina",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-islam-084",
@@ -710,7 +723,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-islam-085",
@@ -719,7 +733,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:stillness", "need:validation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-086",
@@ -728,7 +743,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:forgiveness", "emotion:shame", "need:comfort", "need:permission", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-087",
@@ -736,7 +752,8 @@
     "author": "Imam Ali",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:growth", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-islam-088",
@@ -745,7 +762,8 @@
     "source": "Sahih Muslim",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:peace", "theme:identity", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-089",
@@ -754,7 +772,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-090",
@@ -763,7 +782,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:growth", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-091",
@@ -771,7 +791,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:body-image", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-islam-092",
@@ -779,16 +800,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-islam-093",
-    "text": "The Quran is the spring of life. It is the medicine for every ailment of the heart.",
-    "author": "Quran 10:57",
-    "source": "The Quran",
-    "category": "religion",
-    "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:peace", "emotion:longing", "tone:poetic"]
   },
   {
     "id": "religion-islam-094",
@@ -797,7 +810,8 @@
     "source": "Sahih Muslim",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:motivation", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-095",
@@ -806,7 +820,8 @@
     "source": "The Revival of Religious Sciences",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-islam-096",
@@ -815,7 +830,8 @@
     "source": "Sahih al-Bukhari",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-097",
@@ -823,7 +839,8 @@
     "author": "Ibn Arabi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:letting-go", "need:permission", "tone:gentle"]
   },
   {
     "id": "religion-islam-098",
@@ -831,7 +848,8 @@
     "author": "Rumi",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-islam-099",
@@ -840,7 +858,8 @@
     "source": "Sahih Muslim",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:motivation", "tone:sacred"]
   },
   {
     "id": "religion-islam-100",
@@ -849,7 +868,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:stillness", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-101",
@@ -857,7 +877,8 @@
     "author": "Prophet Muhammad",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:boundaries", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-islam-102",
@@ -865,7 +886,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:letting-go", "need:comfort", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-islam-103",
@@ -873,7 +895,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-islam-104",
@@ -881,7 +904,8 @@
     "author": "Prophet Muhammad",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:motivation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "religion-islam-105",
@@ -889,7 +913,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-islam-106",
@@ -897,7 +922,8 @@
     "author": "Prophet Muhammad",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:boundaries", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-islam-107",
@@ -905,7 +931,8 @@
     "author": "Prophet Muhammad",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:gentle"]
   },
   {
     "id": "religion-islam-108",
@@ -913,7 +940,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:money", "need:comfort", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-islam-109",
@@ -922,7 +950,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:exhaustion", "need:comfort", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-110",
@@ -930,7 +959,8 @@
     "author": "Prophet Muhammad",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-islam-111",
@@ -938,7 +968,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-islam-112",
@@ -946,7 +977,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:gentle"]
   },
   {
     "id": "religion-islam-113",
@@ -954,7 +986,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-islam-114",
@@ -962,7 +995,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:forgiveness", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-islam-115",
@@ -970,7 +1004,8 @@
     "author": "Prophet Muhammad",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-islam-116",
@@ -978,7 +1013,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:validation", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-islam-117",
@@ -987,7 +1023,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:peace", "need:stillness", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-118",
@@ -996,7 +1033,8 @@
     "source": "The Quran",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:stillness", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-islam-119",
@@ -1004,7 +1042,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:letting-go", "need:perspective", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-islam-120",
@@ -1012,7 +1051,8 @@
     "author": "Prophet Muhammad",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "tone:gentle"]
   },
   {
     "id": "religion-islam-121",
@@ -1020,7 +1060,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-islam-122",
@@ -1028,7 +1069,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-islam-123",
@@ -1036,7 +1078,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-islam-124",
@@ -1044,7 +1087,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "theme:forgiveness", "tone:gentle"]
   },
   {
     "id": "religion-islam-125",
@@ -1052,7 +1096,8 @@
     "author": "Prophet Muhammad",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:shame", "theme:forgiveness", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-islam-126",
@@ -1060,7 +1105,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "emotion:hope", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-islam-127",
@@ -1068,6 +1114,7 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "islam",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:islam", "need:perspective", "need:motivation", "tone:direct"]
   }
 ]

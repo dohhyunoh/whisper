@@ -5,7 +5,12 @@
     "author": "Aishwarya Rai Bachchan",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-002",
@@ -13,7 +18,12 @@
     "author": "Barbara Bush",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-003",
@@ -21,7 +31,11 @@
     "author": "George Santayana",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-004",
@@ -29,7 +43,13 @@
     "author": "Brad Pitt",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-005",
@@ -37,7 +57,13 @@
     "author": "Sandra Day O'Connor",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-007",
@@ -45,7 +71,13 @@
     "author": "Jackie Kennedy",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-008",
@@ -53,7 +85,12 @@
     "author": "Robert Frost",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-009",
@@ -61,7 +98,12 @@
     "author": "Lee Iacocca",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-010",
@@ -69,7 +111,11 @@
     "author": "Pope John XXIII",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-011",
@@ -77,7 +123,12 @@
     "author": "Vartan Gregorian",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:family",
+      "theme:self-worth",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-family-012",
@@ -85,7 +136,11 @@
     "author": "Amos Oz",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-013",
@@ -93,7 +148,12 @@
     "author": "Gilbert K. Chesterton",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-014",
@@ -101,7 +161,12 @@
     "author": "John Ruskin",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-017",
@@ -109,7 +174,11 @@
     "author": "Al Roker",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-018",
@@ -117,7 +186,12 @@
     "author": "Jodi Picoult",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-020",
@@ -125,7 +199,13 @@
     "author": "Thomas Hardy",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "theme:mortality",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-022",
@@ -133,7 +213,11 @@
     "author": "Barbara Bush",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-023",
@@ -141,7 +225,13 @@
     "author": "Elizabeth Edwards",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-024",
@@ -149,7 +239,11 @@
     "author": "Will Durant",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-026",
@@ -157,7 +251,12 @@
     "author": "Michael J. Fox",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-family-028",
@@ -165,7 +264,13 @@
     "author": "A. P. J. Abdul Kalam",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-029",
@@ -173,7 +278,11 @@
     "author": "Princess Diana",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-032",
@@ -181,7 +290,11 @@
     "author": "Margaret Mead",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-033",
@@ -189,7 +302,13 @@
     "author": "Khalil Gibran",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-035",
@@ -197,7 +316,12 @@
     "author": "Jet Li",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-040",
@@ -205,7 +329,12 @@
     "author": "Charles R. Swindoll",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-045",
@@ -213,7 +342,13 @@
     "author": "Walt Disney",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:family",
+      "theme:boundaries",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-family-046",
@@ -221,7 +356,13 @@
     "author": "Harmon Killebrew",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-049",
@@ -229,7 +370,13 @@
     "author": "Celine Dion",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-050",
@@ -237,7 +384,12 @@
     "author": "Edward Furlong",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:validation",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-051",
@@ -245,7 +397,12 @@
     "author": "Serena Williams",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-052",
@@ -253,7 +410,12 @@
     "author": "Peter Buffett",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-053",
@@ -261,7 +423,12 @@
     "author": "Jane Howard",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-054",
@@ -269,7 +436,12 @@
     "author": "Coco",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-055",
@@ -277,7 +449,13 @@
     "author": "Richard Bach",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-056",
@@ -285,7 +463,12 @@
     "author": "Lisa Weed",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-058",
@@ -293,7 +476,12 @@
     "author": "Mario Puzo",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-family-059",
@@ -301,7 +489,12 @@
     "author": "John Wooden",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-060",
@@ -309,7 +502,13 @@
     "author": "Jim Butcher",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-061",
@@ -317,7 +516,12 @@
     "author": "Friedrich Nietzsche",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-063",
@@ -325,7 +529,12 @@
     "author": "Gail Lumet Buckley",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-064",
@@ -333,7 +542,13 @@
     "author": "Brad Henry",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-065",
@@ -341,7 +556,12 @@
     "author": "Haniel Long",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-067",
@@ -349,7 +569,11 @@
     "author": "Anthony Liccione",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-069",
@@ -357,7 +581,13 @@
     "author": "Desmond Tutu",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:faith",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-070",
@@ -365,7 +595,11 @@
     "author": "Chuck Palahniuk",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-071",
@@ -373,7 +607,12 @@
     "author": "Marge Kennedy",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:permission",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-072",
@@ -381,7 +620,12 @@
     "author": "Kendall Hailey",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-073",
@@ -389,7 +633,12 @@
     "author": "Donna Hedges",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-075",
@@ -397,7 +646,13 @@
     "author": "Deb Caletti",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-076",
@@ -405,7 +660,12 @@
     "author": "Jim Butcher",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-078",
@@ -413,7 +673,12 @@
     "author": "Burmese Proverb",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-079",
@@ -421,7 +686,12 @@
     "author": "Letty Cottin Pogrebin",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-080",
@@ -429,7 +699,12 @@
     "author": "Jonathan Safran Foer",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-084",
@@ -438,7 +713,13 @@
     "source": "Percy Jackson series",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "theme:forgiveness",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-085",
@@ -446,7 +727,12 @@
     "author": "Albert Einstein",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-088",
@@ -454,7 +740,12 @@
     "author": "Mother Teresa",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-family-092",
@@ -462,7 +753,13 @@
     "author": "John C. Maxwell",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-093",
@@ -470,7 +767,13 @@
     "author": "Ann Brashares",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-094",
@@ -478,7 +781,12 @@
     "author": "Irina Shayk",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "emotion:peace",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-095",
@@ -486,7 +794,12 @@
     "author": "Wanda Hope Carter",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-096",
@@ -494,7 +807,12 @@
     "author": "Jess C. Scott",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-097",
@@ -502,7 +820,12 @@
     "author": "Anthony Brandt",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-098",
@@ -510,7 +833,13 @@
     "author": "Niki Taylor",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-100",
@@ -518,7 +847,12 @@
     "author": "Louis Zamperini",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-102",
@@ -526,7 +860,14 @@
     "author": "Robin Hobb",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "emotion:grief",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-103",
@@ -534,7 +875,12 @@
     "author": "Menacheim Begin",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-104",
@@ -542,7 +888,12 @@
     "author": "Marjorie Pay Hinckley",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:permission",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-105",
@@ -551,7 +902,11 @@
     "source": "Lilo & Stitch",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-108",
@@ -559,7 +914,12 @@
     "author": "Winston Churchill",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-110",
@@ -567,16 +927,13 @@
     "author": "Lilly Singh",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-family-111",
-    "text": "Some people are worth melting for.",
-    "author": "Olaf",
-    "source": "Frozen",
-    "category": "relationships",
-    "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-112",
@@ -584,7 +941,12 @@
     "author": "Maya Angelou",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-113",
@@ -592,7 +954,13 @@
     "author": "Courtland Milloy",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-116",
@@ -600,7 +968,11 @@
     "author": "Walt Disney",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-118",
@@ -608,7 +980,12 @@
     "author": "Robert Brault",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "theme:identity",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-120",
@@ -616,7 +993,13 @@
     "author": "Pierce Brown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-121",
@@ -624,7 +1007,12 @@
     "author": "Mary Karr",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-122",
@@ -632,7 +1020,12 @@
     "author": "Paul Pearsall",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-125",
@@ -640,7 +1033,13 @@
     "author": "George A. Moore",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:poetic",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-126",
@@ -648,7 +1047,12 @@
     "author": "Reba McEntire",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-127",
@@ -656,7 +1060,13 @@
     "author": "Elizabeth Berg",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-131",
@@ -664,7 +1074,12 @@
     "author": "José Carreras",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-132",
@@ -672,7 +1087,12 @@
     "author": "Alex Haley",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-133",
@@ -680,15 +1100,25 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-134",
-    "text": "Before sucess, there was a mother.",
+    "text": "Before success, there was a mother.",
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-135",
@@ -696,7 +1126,13 @@
     "author": "Joy Williams",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "theme:growth",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-136",
@@ -704,7 +1140,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-137",
@@ -712,7 +1154,13 @@
     "author": "Japanese Proverb",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-family-138",
@@ -720,7 +1168,13 @@
     "author": "Barbara De Angelis",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-139",
@@ -728,7 +1182,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "theme:faith",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-140",
@@ -736,7 +1196,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-141",
@@ -744,7 +1209,12 @@
     "author": "Leroy Brownlow",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-142",
@@ -753,7 +1223,12 @@
     "source": "Love You Forever",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-143",
@@ -761,7 +1236,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-144",
@@ -769,7 +1249,13 @@
     "author": "Marion C. Garretty",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-145",
@@ -777,15 +1263,14 @@
     "author": "Victor Hugo",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-family-146",
-    "text": "To the world you are a mother. To your family you are the world.",
-    "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "need:comfort",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-family-147",
@@ -793,7 +1278,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-family-148",
@@ -801,7 +1292,13 @@
     "author": "Anne Geddes",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-149",
@@ -809,7 +1306,12 @@
     "author": "Clarence Budington Kelland",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-150",
@@ -817,7 +1319,12 @@
     "author": "Gregory E. Lang",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-151",
@@ -825,7 +1332,12 @@
     "author": "Jennifer Williamson",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-152",
@@ -833,7 +1345,13 @@
     "author": "C.S. Lewis",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "rel-family-153",
@@ -841,7 +1359,13 @@
     "author": "Paulo Coelho",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-154",
@@ -849,7 +1373,13 @@
     "author": "Elizabeth Stone",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-family-155",
@@ -857,7 +1387,13 @@
     "author": "Sheldon Kopp",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "theme:growth",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-156",
@@ -865,7 +1401,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-157",
@@ -873,7 +1413,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-158",
@@ -881,7 +1425,12 @@
     "author": "Alex Haley",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-family-159",
@@ -889,7 +1438,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-160",
@@ -897,7 +1450,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-161",
@@ -905,7 +1463,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "rel-family-162",
@@ -913,7 +1476,11 @@
     "author": "Sam Levenson",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-163",
@@ -921,7 +1488,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-164",
@@ -929,7 +1501,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-165",
@@ -937,7 +1514,11 @@
     "author": "Vietnamese Proverb",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-166",
@@ -945,7 +1526,12 @@
     "author": "Elizabeth Fishel",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:identity",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-167",
@@ -953,7 +1539,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-168",
@@ -961,7 +1552,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-169",
@@ -969,7 +1565,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-170",
@@ -977,7 +1577,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-171",
@@ -985,7 +1590,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-172",
@@ -993,7 +1603,13 @@
     "author": "Jewish Proverb",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "theme:faith",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-173",
@@ -1002,7 +1618,13 @@
     "source": "Naruto",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "emotion:longing",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-174",
@@ -1011,16 +1633,13 @@
     "source": "Violet Evergarden",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
-  },
-  {
-    "id": "rel-family-175",
-    "text": "Ohana means family. Family means nobody gets left behind or forgotten.",
-    "author": "Stitch",
-    "source": "Lilo & Stitch",
-    "category": "relationships",
-    "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "emotion:grief",
+      "emotion:longing",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-176",
@@ -1028,7 +1647,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-177",
@@ -1036,7 +1659,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-178",
@@ -1044,7 +1671,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-179",
@@ -1052,7 +1684,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:family",
+      "theme:self-worth",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "rel-family-180",
@@ -1060,7 +1698,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-181",
@@ -1068,7 +1711,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-182",
@@ -1076,7 +1724,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-183",
@@ -1084,7 +1737,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:family",
+      "tone:playful"
+    ]
   },
   {
     "id": "rel-family-184",
@@ -1092,7 +1749,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-185",
@@ -1100,7 +1762,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:identity",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-186",
@@ -1108,7 +1775,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "situation:parenting",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-187",
@@ -1116,7 +1788,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-188",
@@ -1124,7 +1800,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-189",
@@ -1132,7 +1813,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:mortality",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-190",
@@ -1140,7 +1827,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-191",
@@ -1148,7 +1840,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-192",
@@ -1156,7 +1852,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-193",
@@ -1164,7 +1865,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-194",
@@ -1172,7 +1877,12 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-195",
@@ -1180,7 +1890,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:identity",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-196",
@@ -1188,7 +1904,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-197",
@@ -1196,7 +1918,13 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:friendship",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "rel-family-198",
@@ -1204,6 +1932,11 @@
     "author": "Unknown",
     "category": "relationships",
     "subcategory": "family",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "need:comfort",
+      "tone:gentle"
+    ]
   }
 ]

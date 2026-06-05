@@ -123,7 +123,7 @@ export default function DailyCheckInScreen() {
       payload: { date: getTodayDateString(), moodId: mood.id, moodLabel: mood.label },
     });
 
-    router.replace('/home');
+    router.replace('/daily-deck');
   };
 
   return (

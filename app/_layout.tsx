@@ -70,7 +70,18 @@ export default function RootLayout() {
           <Stack>
             <Stack.Screen name="index" options={{ headerShown: false }} />
             <Stack.Screen name="onboarding" options={{ headerShown: false }} />
-            <Stack.Screen name="home" options={{ headerShown: false }} />
+            <Stack.Screen name="daily-deck" options={{ headerShown: false }} />
+            <Stack.Screen
+              name="soul-signature"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen name="paid-announcement" options={{ headerShown: false, gestureEnabled: false }} />
+            <Stack.Screen name="freemium-upgrade" options={{ headerShown: false, gestureEnabled: false }} />
             <Stack.Screen
               name="daily-check-in"
               options={{
@@ -85,15 +96,6 @@ export default function RootLayout() {
               options={{
                 presentation: 'modal',
                 headerShown: false,
-              }}
-            />
-            <Stack.Screen
-              name="discovery-feed"
-              options={{
-                presentation: 'card',
-                headerShown: false,
-                gestureEnabled: true,
-                fullScreenGestureEnabled: false,
               }}
             />
             <Stack.Screen

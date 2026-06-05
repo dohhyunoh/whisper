@@ -5,15 +5,14 @@
     "author": "Pema Chödrön",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-002",
-    "text": "I am calm and centered in every situation.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "theme:letting-go",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-calm-003",
@@ -21,15 +20,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-004",
-    "text": "I choose tranquility over turmoil.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-005",
@@ -37,23 +33,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-006",
-    "text": "I release all tension and embrace serenity.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-007",
-    "text": "I am surrounded by a bubble of calmness.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-008",
@@ -61,15 +46,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-009",
-    "text": "I breathe in calmness and exhale stress.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-010",
@@ -77,7 +59,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-011",
@@ -85,7 +72,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-012",
@@ -93,7 +85,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-013",
@@ -101,31 +98,53 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-014",
-    "text": "I am a beacon of peace and serenity.",
+    "text": "I am a beacon of calm in a chaotic world.",
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "emotion:anxiety",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-015",
-    "text": "Calmness is my superpower.",
+    "text": "Peace is not the absence of chaos, but the presence of calm.",
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-016",
-    "text": "I radiate peace to everyone around me.",
+    "text": "I am surrounded by a peaceful and loving energy.",
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:comfort",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-017",
@@ -133,7 +152,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-018",
@@ -141,15 +165,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-019",
-    "text": "I trust in the natural flow of life.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-020",
@@ -157,7 +178,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-021",
@@ -165,47 +191,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-022",
-    "text": "I cultivate inner peace with every action.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-023",
-    "text": "My mind is a sanctuary of calm thoughts.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-024",
-    "text": "I choose peace over being right.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-025",
-    "text": "I am worthy of a peaceful and harmonious life.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-026",
-    "text": "Calmness flows through my veins.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-027",
@@ -213,31 +204,13 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-028",
-    "text": "Peace is always within my reach.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-029",
-    "text": "I am an oasis of calm in any storm.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-030",
-    "text": "My peaceful mind creates a peaceful life.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "theme:letting-go",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-031",
@@ -245,39 +218,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-032",
-    "text": "I am anchored in calmness and serenity.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-033",
-    "text": "Peace is my constant companion.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-034",
-    "text": "I choose to respond with calmness and clarity.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-035",
-    "text": "My heart is filled with tranquility.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-036",
@@ -285,7 +231,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-037",
@@ -293,7 +244,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-038",
@@ -301,23 +257,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-039",
-    "text": "Calmness is my natural response to life.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-040",
-    "text": "I create peace in my mind and in my world.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-041",
@@ -325,7 +270,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-042",
@@ -333,7 +283,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-043",
@@ -341,7 +296,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-044",
@@ -349,23 +309,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-045",
-    "text": "Tranquility is my true nature.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-046",
-    "text": "I breathe in peace and exhale any tension.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-047",
@@ -373,15 +322,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-048",
-    "text": "Peace grows stronger in me every day.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-049",
@@ -389,7 +335,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-050",
@@ -397,7 +348,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-051",
@@ -405,15 +361,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-052",
-    "text": "I am centered and grounded in peace.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-053",
@@ -421,79 +374,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-054",
-    "text": "I choose serenity in the face of challenges.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-055",
-    "text": "My mind is a garden of peaceful thoughts.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-056",
-    "text": "I attract peaceful energy and experiences.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-057",
-    "text": "I am at peace with the journey of life.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-058",
-    "text": "Tranquility flows through me like a gentle stream.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-059",
-    "text": "I embody peace in all that I do.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-060",
-    "text": "My peaceful nature positively impacts those around me.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-061",
-    "text": "I am a living embodiment of peace and calmness.",
-    "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
-  },
-  {
-    "id": "mood-calm-062",
-    "text": "There are times when we stop, we sit still. We listen, and breezes from a whole other world begin to whisper.",
-    "author": "James Carroll",
-    "category": "mood-boosters",
-    "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-063",
@@ -501,7 +387,13 @@
     "author": "Tao Porchon-Lynch",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "theme:faith",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-064",
@@ -509,7 +401,13 @@
     "author": "Hermann Hesse",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-calm-065",
@@ -517,7 +415,14 @@
     "author": "Thích Nhất Hạnh",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "theme:letting-go",
+      "need:stillness",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-calm-066",
@@ -525,7 +430,12 @@
     "author": "Josiah Gilbert Holland",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-067",
@@ -533,7 +443,13 @@
     "author": "Tsoknyi Rinpoche",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:permission",
+      "tone:gentle",
+      "tone:sacred"
+    ]
   },
   {
     "id": "mood-calm-068",
@@ -541,7 +457,14 @@
     "author": "Osho",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "theme:letting-go",
+      "theme:faith",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-calm-069",
@@ -549,7 +472,12 @@
     "author": "Sean A. Mulvihill",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-070",
@@ -557,7 +485,12 @@
     "author": "Brian Tracy",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-calm-071",
@@ -565,7 +498,13 @@
     "author": "Mikhail Lermontov",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-calm-072",
@@ -573,7 +512,13 @@
     "author": "Ralph Waldo Emerson",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:comfort",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-calm-073",
@@ -581,7 +526,12 @@
     "author": "Paulo Coelho",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-074",
@@ -589,7 +539,13 @@
     "author": "Ovid",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "emotion:exhaustion",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-075",
@@ -597,7 +553,12 @@
     "author": "Dalai Lama",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-076",
@@ -605,7 +566,13 @@
     "author": "Aesop",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "emotion:anxiety",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-077",
@@ -613,7 +580,12 @@
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-078",
@@ -621,7 +593,13 @@
     "author": "Bryant McGill",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-calm-079",
@@ -630,7 +608,13 @@
     "source": "Avatar: The Last Airbender",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:perspective",
+      "emotion:hope",
+      "tone:gentle"
+    ]
   },
   {
     "id": "mood-calm-080",
@@ -639,7 +623,12 @@
     "source": "My Hero Academia",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:peace",
+      "need:comfort",
+      "tone:direct"
+    ]
   },
   {
     "id": "mood-calm-081",
@@ -648,7 +637,13 @@
     "source": "Jujutsu Kaisen",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:peace",
+      "need:perspective",
+      "tone:direct",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-calm-082",
@@ -657,7 +652,14 @@
     "source": "Cowboy Bebop",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "emotion:peace",
+      "theme:letting-go",
+      "need:permission",
+      "tone:direct",
+      "tone:playful"
+    ]
   },
   {
     "id": "mood-calm-083",
@@ -666,7 +668,14 @@
     "source": "Kung Fu Panda",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-calm-084",
@@ -675,7 +684,13 @@
     "source": "Winnie the Pooh",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "mood-calm-085",
@@ -684,14 +699,26 @@
     "source": "Winnie the Pooh",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
-    "id": "mood-motiv-86",
+    "id": "mood-calm-086",
     "text": "The river does not rush, yet it reaches the sea.",
     "author": "Unknown",
     "category": "mood-boosters",
     "subcategory": "calm",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "emotion:peace",
+      "need:stillness",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   }
 ]

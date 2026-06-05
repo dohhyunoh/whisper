@@ -5,7 +5,14 @@
     "author": "Ayn Rand",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-002",
@@ -14,7 +21,14 @@
     "source": "Lean In: Women, Work, and the Will to Lead",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-003",
@@ -22,7 +36,13 @@
     "author": "Maya Angelou",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-004",
@@ -31,7 +51,13 @@
     "source": "Lean In: Women, Work, and the Will to Lead",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:permission",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-006",
@@ -39,7 +65,13 @@
     "author": "Confucius",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-007",
@@ -47,7 +79,13 @@
     "author": "Elbert Hubbard",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-008",
@@ -55,7 +93,13 @@
     "author": "Mahatma Gandhi",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-009",
@@ -63,7 +107,13 @@
     "author": "Steve Jobs",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-010",
@@ -71,7 +121,13 @@
     "author": "Katharine Whitehorn",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "tone:direct",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-career-011",
@@ -79,7 +135,13 @@
     "author": "Steve Jobs",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-012",
@@ -87,7 +149,12 @@
     "author": "Mihaly Csikszentmihalyi",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-015",
@@ -95,7 +162,12 @@
     "author": "Thomas Jefferson",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-016",
@@ -103,7 +175,12 @@
     "author": "Albert Schweitzer",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-017",
@@ -111,7 +188,12 @@
     "author": "Henry David Thoreau",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-018",
@@ -119,7 +201,12 @@
     "author": "Henry J. Kaiser",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-020",
@@ -127,7 +214,12 @@
     "author": "William Cowper",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-021",
@@ -135,7 +227,13 @@
     "author": "Khalil Gibran",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-career-022",
@@ -143,7 +241,12 @@
     "author": "Confucius",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-023",
@@ -151,7 +254,13 @@
     "author": "Franklin D. Roosevelt",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:money",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-024",
@@ -159,7 +268,12 @@
     "author": "Napoleon Hill",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-025",
@@ -167,7 +281,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-026",
@@ -175,7 +295,13 @@
     "author": "Frank Ocean",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-027",
@@ -183,7 +309,13 @@
     "author": "George Burns",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-028",
@@ -191,7 +323,12 @@
     "author": "Charles Kingsleigh",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-029",
@@ -199,7 +336,13 @@
     "author": "Robert Louis Stevenson",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-030",
@@ -207,7 +350,12 @@
     "author": "Dr. Thomas Dooley",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-031",
@@ -215,7 +363,13 @@
     "author": "Carlton Fisk",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-034",
@@ -223,7 +377,13 @@
     "author": "David O. McKay",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-035",
@@ -231,7 +391,13 @@
     "author": "Les Brown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-036",
@@ -239,7 +405,14 @@
     "author": "Farrah Gray",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-037",
@@ -247,7 +420,13 @@
     "author": "Eleanor Roosevelt",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:hope",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-038",
@@ -255,7 +434,14 @@
     "author": "George Eliot",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:growth",
+      "emotion:hope",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-041",
@@ -263,7 +449,13 @@
     "author": "C.S. Lewis",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-042",
@@ -271,7 +463,14 @@
     "author": "Marsha Sinetar",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "theme:money",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-044",
@@ -279,7 +478,12 @@
     "author": "Franklin D. Roosevelt",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-045",
@@ -287,7 +491,13 @@
     "author": "Julia Child",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-046",
@@ -295,7 +505,13 @@
     "author": "Helen Hayes",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:growth",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-047",
@@ -303,7 +519,12 @@
     "author": "Ashton Kutcher",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-048",
@@ -311,7 +532,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-049",
@@ -319,7 +545,12 @@
     "author": "J.M. Barrie",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-career-050",
@@ -327,7 +558,14 @@
     "author": "Vincent van Gogh",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "theme:faith",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-052",
@@ -335,7 +573,13 @@
     "author": "Rumi",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-053",
@@ -343,7 +587,12 @@
     "author": "Chinese Proverb",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-054",
@@ -351,7 +600,12 @@
     "author": "Wayne Dyer",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-055",
@@ -359,7 +613,13 @@
     "author": "Sangharakshita",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-056",
@@ -367,7 +627,12 @@
     "author": "Jack Kornfield",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-057",
@@ -375,7 +640,13 @@
     "author": "Maya Angelou",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-059",
@@ -383,7 +654,13 @@
     "author": "Jane Goodall",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-060",
@@ -391,7 +668,13 @@
     "author": "Paulo Coelho",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-061",
@@ -399,7 +682,12 @@
     "author": "Oscar Wilde",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-career-062",
@@ -407,7 +695,12 @@
     "author": "Chuck Palahniuk",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-063",
@@ -415,7 +708,13 @@
     "author": "Jim Ryun",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-064",
@@ -423,7 +722,12 @@
     "author": "His Holiness the 14th Dalai Lama",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-065",
@@ -431,7 +735,12 @@
     "author": "Elbert Hubbard",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-066",
@@ -439,7 +748,12 @@
     "author": "Jean Chatzky",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-067",
@@ -447,7 +761,13 @@
     "author": "Will Schultz",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "emotion:joy",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-068",
@@ -455,7 +775,12 @@
     "author": "Mahatma Gandhi",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-069",
@@ -463,7 +788,12 @@
     "author": "Sharon Salzberg",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-070",
@@ -471,7 +801,12 @@
     "author": "Sangharakshita",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-career-071",
@@ -479,7 +814,12 @@
     "author": "Tony Hsieh",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-072",
@@ -487,7 +827,12 @@
     "author": "Pearl S. Buck",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-073",
@@ -495,7 +840,12 @@
     "author": "Margaret Bourke-White",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-074",
@@ -503,7 +853,12 @@
     "author": "Bertrand Russell",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-career-076",
@@ -511,7 +866,14 @@
     "author": "Frederick Buechner",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-career-077",
@@ -519,7 +881,13 @@
     "author": "Sister Mary Rose McGeady",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "emotion:joy",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-079",
@@ -527,7 +895,13 @@
     "author": "Wayne Dyer",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-080",
@@ -535,7 +909,13 @@
     "author": "Marianne Williamson",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-081",
@@ -543,7 +923,12 @@
     "author": "William Arthur Ward",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-082",
@@ -551,7 +936,12 @@
     "author": "Sam Ewing",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-083",
@@ -559,7 +949,12 @@
     "author": "Deepika Padukone",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-084",
@@ -567,7 +962,13 @@
     "author": "Warren Beatty",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:joy",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-career-085",
@@ -575,15 +976,13 @@
     "author": "Pablo Picasso",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
-  },
-  {
-    "id": "emp-career-086",
-    "text": "We work to become, not to acquire.",
-    "author": "Elbert Hubbard",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-087",
@@ -591,7 +990,12 @@
     "author": "Voltaire",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-088",
@@ -599,7 +1003,13 @@
     "author": "Martin Luther King Jr.",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-089",
@@ -607,7 +1017,12 @@
     "author": "Eleanor Roosevelt",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-090",
@@ -615,7 +1030,12 @@
     "author": "Caroline Myss",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-091",
@@ -623,15 +1043,13 @@
     "author": "Madonna",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-career-092",
-    "text": "We Must Be Willing to Let Go of the Life We Planned so as to Have the Life That Is Waiting for Us.",
-    "author": "Joseph Campbell",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-093",
@@ -639,7 +1057,12 @@
     "author": "Oprah Winfrey",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-094",
@@ -647,7 +1070,14 @@
     "author": "Michelle Obama",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-095",
@@ -655,7 +1085,13 @@
     "author": "Hillary Clinton",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-096",
@@ -663,7 +1099,12 @@
     "author": "Sheryl Sandberg",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-097",
@@ -671,7 +1112,13 @@
     "author": "Oprah Winfrey",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:growth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-098",
@@ -679,7 +1126,14 @@
     "author": "Bosa Sebele",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-099",
@@ -687,7 +1141,14 @@
     "author": "Marge Piercy",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-100",
@@ -695,7 +1156,14 @@
     "author": "Diane Mariechild",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-101",
@@ -703,7 +1171,14 @@
     "author": "Chinese proverb",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-102",
@@ -711,7 +1186,13 @@
     "author": "Nancy Rathburn",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-103",
@@ -719,7 +1200,13 @@
     "author": "Estee Lauder",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-104",
@@ -727,7 +1214,14 @@
     "author": "Ayn Rand",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-105",
@@ -735,7 +1229,12 @@
     "author": "Marsha Evans",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-106",
@@ -743,7 +1242,14 @@
     "author": "Edna Gardner Whyte",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-107",
@@ -751,7 +1257,14 @@
     "author": "Margaret Sanger",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-108",
@@ -759,7 +1272,14 @@
     "author": "Anne Frank",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "emotion:hope",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-109",
@@ -767,7 +1287,14 @@
     "author": "Caroline Myss",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-110",
@@ -775,7 +1302,15 @@
     "author": "Diane Von Furstenberg",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-111",
@@ -783,7 +1318,12 @@
     "author": "Wayne Gretzky",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-112",
@@ -791,7 +1331,13 @@
     "author": "Albert Einstein",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:permission",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-113",
@@ -799,7 +1345,12 @@
     "author": "Nelson Mandela",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-114",
@@ -807,7 +1358,13 @@
     "author": "Reid Hoffman",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:permission",
+      "tone:direct",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-career-115",
@@ -815,7 +1372,14 @@
     "author": "John Burroughs",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-career-116",
@@ -823,7 +1387,12 @@
     "author": "Thomas Edison",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-career-117",
@@ -831,7 +1400,12 @@
     "author": "Winston Churchill",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-career-118",
@@ -839,7 +1413,12 @@
     "author": "Karen Lamb",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-119",
@@ -847,7 +1426,12 @@
     "author": "Guy Kawasaki",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-120",
@@ -855,7 +1439,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:letting-go",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-121",
@@ -863,7 +1453,12 @@
     "author": "Mark Twain",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-122",
@@ -871,7 +1466,13 @@
     "author": "Suzy Kassem",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-123",
@@ -879,7 +1480,14 @@
     "author": "Susan Jeffers",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-124",
@@ -887,7 +1495,13 @@
     "author": "Rabindranath Tagore",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-career-125",
@@ -895,7 +1509,13 @@
     "author": "Henry David Thoreau",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-126",
@@ -903,7 +1523,13 @@
     "author": "Wayne Dyer",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-127",
@@ -911,15 +1537,14 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
-  },
-  {
-    "id": "emp-career-128",
-    "text": "A ship in harbor is safe, but that is not what ships are for.",
-    "author": "John A. Shedd",
-    "category": "empowerment",
-    "subcategory": "career",
-    "tone": "playful"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:direct",
+      "tone:fierce"
+    ]
   },
   {
     "id": "emp-career-129",
@@ -927,7 +1552,13 @@
     "author": "Mark Twain",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-130",
@@ -935,7 +1566,14 @@
     "author": "Joseph Campbell",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct",
+      "tone:poetic"
+    ]
   },
   {
     "id": "emp-career-131",
@@ -943,7 +1581,12 @@
     "author": "Les Brown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-132",
@@ -951,7 +1594,14 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:perspective",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-133",
@@ -959,7 +1609,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "situation:burnout",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-134",
@@ -967,7 +1623,14 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-135",
@@ -975,7 +1638,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-136",
@@ -983,7 +1651,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-137",
@@ -991,7 +1664,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:motivation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-138",
@@ -999,7 +1678,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:career",
+      "need:permission",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-139",
@@ -1007,7 +1691,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-140",
@@ -1015,7 +1704,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-141",
@@ -1023,7 +1717,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-142",
@@ -1031,7 +1731,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-143",
@@ -1039,7 +1745,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:boundaries",
+      "need:permission",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-144",
@@ -1047,7 +1759,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-145",
@@ -1055,7 +1772,12 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "need:perspective",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-146",
@@ -1063,7 +1785,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-147",
@@ -1071,7 +1799,11 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "playful"
+    "tone": "playful",
+    "tags": [
+      "theme:career",
+      "tone:playful"
+    ]
   },
   {
     "id": "emp-career-148",
@@ -1079,7 +1811,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "direct"
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:boundaries",
+      "need:motivation",
+      "tone:direct"
+    ]
   },
   {
     "id": "emp-career-149",
@@ -1087,7 +1825,13 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:validation",
+      "tone:gentle"
+    ]
   },
   {
     "id": "emp-career-150",
@@ -1095,6 +1839,41 @@
     "author": "Unknown",
     "category": "empowerment",
     "subcategory": "career",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": [
+      "theme:career",
+      "emotion:fear",
+      "need:perspective",
+      "tone:gentle"
+    ]
+  },
+  {
+    "id": "emp-career-151",
+    "text": "Be hungry for success, not for attention.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:purpose",
+      "need:motivation",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "emp-career-152",
+    "text": "You can lose a man, but you can't lose a degree. Get back to work, ladies.",
+    "author": "Unknown",
+    "category": "empowerment",
+    "subcategory": "career",
+    "tone": "direct",
+    "tags": [
+      "theme:career",
+      "theme:self-worth",
+      "need:motivation",
+      "tone:direct",
+      "tone:fierce"
+    ]
   }
 ]

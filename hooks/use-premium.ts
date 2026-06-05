@@ -1,7 +1,6 @@
-import { getTodayUnlockedSubcategory, isCategoryPremium } from '@/constants/categories';
 import { ALL_THEMES, AnyBackgroundTheme, FONT_OPTIONS, FontOption, FREE_FONTS, IMAGE_THEMES, ImageBackgroundTheme, PREMIUM_FONTS } from '@/constants/premium';
 import { useAppContext } from '@/context/app-context';
-import { BackgroundThemeKey, Category, PremiumFontKey } from '@/data/types';
+import { BackgroundThemeKey, PremiumFontKey } from '@/data/types';
 import { hasPremiumAccess } from '@/utils/premium-check';
 import { useCallback, useMemo } from 'react';
 
@@ -161,25 +160,6 @@ export function usePremium() {
     dispatch({ type: 'SET_PREMIUM_BACKGROUND', payload: imageThemeKeys[nextIndex] });
   }, [dispatch, premium.settings.selectedBackground]);
 
-  const todayUnlockedSubcategory = useMemo(() => getTodayUnlockedSubcategory(), []);
-
-  const isCategoryLocked = useCallback(
-    (category: Category): boolean => {
-      if (isPremium) return false;
-      return isCategoryPremium(category);
-    },
-    [isPremium]
-  );
-
-  const isSubcategoryLocked = useCallback(
-    (category: Category, subcategory: string): boolean => {
-      if (isPremium) return false;
-      if (!isCategoryPremium(category)) return false;
-      return !(category === todayUnlockedSubcategory.category && subcategory === todayUnlockedSubcategory.subcategory);
-    },
-    [isPremium, todayUnlockedSubcategory]
-  );
-
   return {
     isPremium,
     status: premium.status,
@@ -201,8 +181,5 @@ export function usePremium() {
     setFontShufflePool,
     allThemes: ALL_THEMES as AnyBackgroundTheme[],
     allFonts: FONT_OPTIONS as FontOption[],
-    isCategoryLocked,
-    isSubcategoryLocked,
-    todayUnlockedSubcategory,
   };
 }

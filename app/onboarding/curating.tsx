@@ -20,21 +20,18 @@ const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 function deriveInterests(user: UserData): string[] {
   const interests: string[] = [];
 
-  // Faith → religion subcategories
   if (user.faithDetail === 'Christianity') interests.push('religion:christianity');
   if (user.faithDetail === 'Islam') interests.push('religion:islam');
   if (user.faithDetail === 'Hinduism') interests.push('religion:hinduism');
   if (user.faithDetail === 'Buddhism') interests.push('religion:buddhism');
   if (['Judaism', 'General Spirituality'].includes(user.faithDetail)) interests.push('religion:general-spirituality');
 
-  // Inward paths (lightSource=In) → mood-boosters subs
   if (user.faithDetail === 'Mindfulness') interests.push('mood-boosters:calm');
   if (user.faithDetail === 'Manifestation') {
     interests.push('mood-boosters:manifestation', 'self-love:self-worth', 'mood-boosters:daily-motivation');
   }
   if (user.faithDetail === 'Stoicism') interests.push('mood-boosters:philosophy');
 
-  // Emotion → self-love
   if (['Anxious', 'Exhausted'].includes(user.primaryEmotion)) {
     interests.push('self-love:mental-health', 'self-love:rest-recharge');
   }
@@ -42,12 +39,10 @@ function deriveInterests(user: UserData): string[] {
     interests.push('self-love:self-worth');
   }
 
-  // Body image → body positivity
   if (user.emotionRoot?.includes('Self-image')) {
     interests.push('self-love:body-positivity');
   }
 
-  // Relationships — ex-partner path
   if (user.heartStatus === 'An ex-partner') {
     interests.push('relationships:letting-go');
   }
@@ -61,18 +56,15 @@ function deriveInterests(user: UserData): string[] {
     interests.push('relationships:family', 'relationships:friendship');
   }
 
-  // Role → empowerment
   if (user.heaviestRole === 'The Careerist') interests.push('empowerment:career');
   if (user.heaviestRole === 'The Critic') interests.push('self-love:self-worth');
 
-  // What helps → map to categories
   if (user.whatHelps === 'Encouragement') interests.push('empowerment:overcoming-obstacles');
   if (user.whatHelps === 'Wisdom') interests.push('mood-boosters:philosophy');
   if (user.whatHelps === 'Compassion') interests.push('self-love:mental-health');
   if (user.whatHelps === 'Understanding') interests.push('self-love:self-worth');
   if (user.whatHelps === 'Stillness') interests.push('mood-boosters:calm');
 
-  // App expectations → weight categories
   if (['A safe space for my thoughts', 'All of the above'].includes(user.appExpect)) {
     interests.push('self-love:rest-recharge');
   }
@@ -83,7 +75,6 @@ function deriveInterests(user: UserData): string[] {
     interests.push('self-love:self-worth', 'mood-boosters:calm');
   }
 
-  // Mood boosters (always include)
   interests.push('mood-boosters:daily-motivation');
   if (user.tonePreference === 'Gentle') interests.push('mood-boosters:calm');
   if (user.tonePreference === 'Playful') interests.push('mood-boosters:philosophy');
@@ -113,7 +104,6 @@ export default function CuratingScreen() {
 
   const [stepIndex, setStepIndex] = useState(0);
 
-  // Progress ring
   const RING_SIZE = 100 * s;
   const STROKE = 6 * s;
   const RADIUS = (RING_SIZE - STROKE) / 2;
@@ -124,12 +114,10 @@ export default function CuratingScreen() {
     posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'curating' });
   }, []);
 
-  // Animate progress ring over total duration
   useEffect(() => {
     progress.value = withTiming(1, { duration: 4000, easing: Easing.linear });
   }, []);
 
-  // Cycle through steps — 1s per step, no blink
   useEffect(() => {
     const interval = setInterval(() => {
       setStepIndex((prev) => {
@@ -149,7 +137,6 @@ export default function CuratingScreen() {
     strokeDashoffset: CIRCUMFERENCE * (1 - progress.value),
   }));
 
-  // Derive interests and navigate
   useEffect(() => {
     const interests = deriveInterests(user);
 
@@ -163,7 +150,7 @@ export default function CuratingScreen() {
         navigated.current = true;
         router.push('/onboarding/sneak-peek');
       }
-    }, 4500); // 4s visible + 0.5s buffer
+    }, 4500);
 
     return () => clearTimeout(timeout);
   }, []);
@@ -180,10 +167,8 @@ export default function CuratingScreen() {
             Preparing your whispers
           </Text>
 
-          {/* Progress ring */}
           <View style={{ width: RING_SIZE, height: RING_SIZE, marginBottom: 32 * s }}>
             <Svg width={RING_SIZE} height={RING_SIZE}>
-              {/* Background ring */}
               <Circle
                 cx={RING_SIZE / 2}
                 cy={RING_SIZE / 2}
@@ -192,7 +177,6 @@ export default function CuratingScreen() {
                 strokeWidth={STROKE}
                 fill="none"
               />
-              {/* Animated progress ring */}
               <AnimatedCircle
                 cx={RING_SIZE / 2}
                 cy={RING_SIZE / 2}
@@ -209,7 +193,6 @@ export default function CuratingScreen() {
             </Svg>
           </View>
 
-          {/* Dynamic step text */}
           <Animated.Text style={[styles.subtitle, { fontSize: 15 * s }, textStyle]}>
             {steps[stepIndex]}
           </Animated.Text>

@@ -6,7 +6,8 @@
     "source": "Bhagavad Gita 2:47",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "theme:career", "need:perspective", "need:permission", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-002",
@@ -15,16 +16,8 @@
     "source": "Bhagavad Gita 4:7",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-hinduism-003",
-    "text": "The soul is neither born, and nor does it die.",
-    "author": "Lord Krishna",
-    "source": "Bhagavad Gita 2:20",
-    "category": "religion",
-    "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-004",
@@ -33,7 +26,8 @@
     "source": "Bhagavad Gita 6:6",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:challenge", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-005",
@@ -42,7 +36,8 @@
     "source": "Rig Veda 1.164.46",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-006",
@@ -51,7 +46,8 @@
     "source": "Bhagavad Gita 3:42",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "emotion:peace", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-007",
@@ -60,7 +56,8 @@
     "source": "Bhagavad Gita 6:17",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:stillness", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-008",
@@ -69,7 +66,8 @@
     "source": "Bhagavad Gita 6:19",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:peace", "need:stillness", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-009",
@@ -78,7 +76,8 @@
     "source": "Bhagavad Gita 9:22",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:comfort", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-010",
@@ -87,7 +86,8 @@
     "source": "Bhagavad Gita 12:12",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-011",
@@ -96,7 +96,8 @@
     "source": "Bhagavad Gita 12:13-14",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "emotion:peace", "need:permission", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-012",
@@ -105,7 +106,8 @@
     "source": "Bhagavad Gita 18:66",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "emotion:grief", "need:comfort", "need:permission", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-013",
@@ -114,7 +116,8 @@
     "source": "Bhagavad Gita 2:71",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "emotion:grief", "emotion:longing", "need:stillness", "need:perspective", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-014",
@@ -123,7 +126,8 @@
     "source": "Bhagavad Gita 3:3",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:self-worth", "need:motivation", "need:challenge", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-015",
@@ -132,7 +136,8 @@
     "source": "Bhagavad Gita 6:2",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "need:stillness", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-016",
@@ -141,7 +146,8 @@
     "source": "Bhagavad Gita 9:7",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-017",
@@ -150,7 +156,8 @@
     "source": "Bhagavad Gita 14:20",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-018",
@@ -159,7 +166,8 @@
     "source": "Bhagavad Gita 16:1-3",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:motivation", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-019",
@@ -168,7 +176,8 @@
     "source": "Bhagavad Gita 17:20",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:body-image", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-020",
@@ -177,7 +186,8 @@
     "source": "Chandogya Upanishad 6:8:16",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "theme:self-worth", "need:validation", "need:perspective", "tone:sacred", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-021",
@@ -186,7 +196,8 @@
     "source": "Brihadaranyaka Upanishad 1:3:28",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:hope", "need:comfort", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-022",
@@ -195,7 +206,8 @@
     "source": "Isha Upanishad 1",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-023",
@@ -204,7 +216,8 @@
     "source": "Katha Upanishad 2:3:6",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:mortality", "theme:identity", "need:comfort", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-024",
@@ -213,7 +226,8 @@
     "source": "Chandogya Upanishad 6:1:2",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-025",
@@ -222,7 +236,8 @@
     "source": "Chandogya Upanishad 8:1:1",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:perspective", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-026",
@@ -231,16 +246,8 @@
     "source": "Katha Upanishad 1:2:22",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-hinduism-027",
-    "text": "Let this be the prayer: O Lord, lead me from the unreal to the real, from darkness to light, from death to immortality.",
-    "author": "Brihadaranyaka Upanishad",
-    "source": "Brihadaranyaka Upanishad 1:3:28",
-    "category": "religion",
-    "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:grief", "need:comfort", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-028",
@@ -249,7 +256,8 @@
     "source": "Rig Veda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-029",
@@ -258,7 +266,8 @@
     "source": "Rig Veda 10.22.8",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-030",
@@ -267,7 +276,8 @@
     "source": "Atharva Veda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-031",
@@ -275,7 +285,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:motivation", "need:challenge", "tone:fierce", "tone:direct"]
   },
   {
     "id": "religion-hinduism-032",
@@ -283,7 +294,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:growth", "need:motivation", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-hinduism-033",
@@ -291,7 +303,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:self-worth", "need:motivation", "need:validation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "religion-hinduism-034",
@@ -299,7 +312,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:boundaries", "theme:identity", "need:permission", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-hinduism-035",
@@ -307,7 +321,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-036",
@@ -315,7 +330,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:fear", "need:challenge", "tone:fierce", "tone:direct"]
   },
   {
     "id": "religion-hinduism-037",
@@ -323,7 +339,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "emotion:peace", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-hinduism-038",
@@ -331,7 +348,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:purpose", "theme:identity", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-039",
@@ -339,7 +357,8 @@
     "author": "Ramakrishna Paramhansa",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-040",
@@ -347,7 +366,8 @@
     "author": "Ramakrishna Paramhansa",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:stillness", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-041",
@@ -355,7 +375,8 @@
     "author": "Ramakrishna Paramhansa",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-042",
@@ -363,7 +384,8 @@
     "author": "Ramakrishna Paramhansa",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-043",
@@ -371,7 +393,8 @@
     "author": "Adi Shankaracharya",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-044",
@@ -379,7 +402,8 @@
     "author": "Adi Shankaracharya",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "theme:body-image", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-045",
@@ -387,7 +411,8 @@
     "author": "Adi Shankaracharya",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "theme:self-worth", "need:permission", "need:validation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-046",
@@ -395,15 +420,8 @@
     "author": "Adi Shankaracharya",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-hinduism-047",
-    "text": "You are not a drop in the ocean. You are the entire ocean in a drop.",
-    "author": "Sadhguru",
-    "category": "religion",
-    "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-048",
@@ -411,7 +429,8 @@
     "author": "Sadhguru",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-hinduism-049",
@@ -419,7 +438,8 @@
     "author": "Sadhguru",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:permission", "need:validation", "tone:direct", "tone:fierce"]
   },
   {
     "id": "religion-hinduism-050",
@@ -427,7 +447,8 @@
     "author": "Sadhguru",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:growth", "theme:letting-go", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-051",
@@ -435,7 +456,8 @@
     "author": "Sadhguru",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "theme:mortality", "emotion:fear", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-hinduism-052",
@@ -443,7 +465,8 @@
     "author": "Nisargadatta Maharaj",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-053",
@@ -451,7 +474,8 @@
     "author": "Nisargadatta Maharaj",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "tone:direct"]
   },
   {
     "id": "religion-hinduism-054",
@@ -459,7 +483,8 @@
     "author": "Nisargadatta Maharaj",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:peace", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-055",
@@ -467,7 +492,8 @@
     "author": "Nisargadatta Maharaj",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-056",
@@ -475,7 +501,8 @@
     "author": "Ramana Maharshi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:stillness", "need:validation", "tone:gentle", "tone:direct"]
   },
   {
     "id": "religion-hinduism-057",
@@ -483,7 +510,8 @@
     "author": "Ramana Maharshi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-058",
@@ -491,7 +519,8 @@
     "author": "Ramana Maharshi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:joy", "theme:self-worth", "need:permission", "need:validation", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-059",
@@ -499,7 +528,8 @@
     "author": "Ramana Maharshi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-hinduism-060",
@@ -507,15 +537,8 @@
     "author": "Ramana Maharshi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-hinduism-061",
-    "text": "The future belongs to those who believe in the beauty of their dreams.",
-    "author": "Sri Aurobindo",
-    "category": "religion",
-    "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:comfort", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-062",
@@ -523,7 +546,8 @@
     "author": "Sri Aurobindo",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:growth", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-063",
@@ -531,7 +555,8 @@
     "author": "Sri Aurobindo",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "theme:self-worth", "need:validation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-064",
@@ -539,7 +564,8 @@
     "author": "Sri Aurobindo",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:purpose", "theme:identity", "tone:direct"]
   },
   {
     "id": "religion-hinduism-065",
@@ -548,7 +574,8 @@
     "source": "Autobiography of a Yogi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:hope", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-066",
@@ -557,7 +584,8 @@
     "source": "Autobiography of a Yogi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:joy", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-067",
@@ -566,7 +594,8 @@
     "source": "Autobiography of a Yogi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:stillness", "need:permission", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-068",
@@ -575,7 +604,8 @@
     "source": "Autobiography of a Yogi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "need:stillness", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-069",
@@ -583,15 +613,8 @@
     "author": "Mahatma Gandhi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-hinduism-070",
-    "text": "Be the change you wish to see in the world.",
-    "author": "Mahatma Gandhi",
-    "category": "religion",
-    "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "tone:direct"]
   },
   {
     "id": "religion-hinduism-071",
@@ -599,15 +622,8 @@
     "author": "Mahatma Gandhi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-hinduism-072",
-    "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
-    "author": "Mahatma Gandhi",
-    "category": "religion",
-    "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-073",
@@ -615,7 +631,8 @@
     "author": "Mahatma Gandhi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-074",
@@ -623,7 +640,8 @@
     "author": "Amma",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:family", "emotion:peace", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-075",
@@ -631,7 +649,8 @@
     "author": "Amma",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:joy", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-076",
@@ -639,7 +658,8 @@
     "author": "Amma",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:stillness", "need:perspective", "tone:direct", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-077",
@@ -647,7 +667,8 @@
     "author": "Amma",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-078",
@@ -655,7 +676,8 @@
     "author": "Swami Sivananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-079",
@@ -663,7 +685,8 @@
     "author": "Swami Sivananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-hinduism-080",
@@ -671,7 +694,8 @@
     "author": "Swami Sivananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "emotion:peace", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-081",
@@ -679,7 +703,8 @@
     "author": "Swami Sivananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:stillness", "need:perspective", "tone:direct", "tone:fierce"]
   },
   {
     "id": "religion-hinduism-082",
@@ -687,7 +712,8 @@
     "author": "Swami Sivananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-hinduism-083",
@@ -695,7 +721,8 @@
     "author": "Swami Sivananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "theme:self-worth", "need:challenge", "tone:direct"]
   },
   {
     "id": "religion-hinduism-084",
@@ -703,7 +730,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-085",
@@ -711,7 +739,8 @@
     "author": "Ramakrishna Paramhansa",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:healing", "emotion:heartbreak", "need:comfort", "tone:gentle", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-086",
@@ -719,7 +748,8 @@
     "author": "Mahatma Gandhi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:money", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-087",
@@ -728,7 +758,8 @@
     "source": "Isha Upanishad",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:joy", "theme:self-worth", "need:perspective", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-088",
@@ -737,7 +768,8 @@
     "source": "Mandukya Upanishad",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:body-image", "theme:self-worth", "need:validation", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-089",
@@ -746,7 +778,8 @@
     "source": "Mandukya Upanishad",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:self-worth", "theme:identity", "need:validation", "tone:sacred", "tone:direct"]
   },
   {
     "id": "religion-hinduism-090",
@@ -755,7 +788,8 @@
     "source": "Mandukya Upanishad",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "theme:mortality", "need:perspective", "need:comfort", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-091",
@@ -764,7 +798,8 @@
     "source": "Bhagavad Gita 12:12",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "need:permission", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-092",
@@ -772,7 +807,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-093",
@@ -780,7 +816,8 @@
     "author": "Nisargadatta Maharaj",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "theme:self-worth", "need:validation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-094",
@@ -788,7 +825,8 @@
     "author": "Swami Sivananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:motivation", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-095",
@@ -796,7 +834,8 @@
     "author": "Ramana Maharshi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:stillness", "tone:gentle", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-096",
@@ -804,7 +843,8 @@
     "author": "Sri Aurobindo",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-097",
@@ -812,16 +852,8 @@
     "author": "Sadhguru",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-hinduism-098",
-    "text": "The soul does not age, does not decay, does not tire. It is eternal.",
-    "author": "Lord Krishna",
-    "source": "Bhagavad Gita 2:20",
-    "category": "religion",
-    "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-099",
@@ -829,7 +861,8 @@
     "author": "Adi Shankaracharya",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-100",
@@ -838,7 +871,8 @@
     "source": "Autobiography of a Yogi",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:self-worth", "theme:identity", "need:validation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-101",
@@ -846,15 +880,8 @@
     "author": "Adi Shankaracharya",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-hinduism-102",
-    "text": "You are the atman, eternal.",
-    "author": "Unknown",
-    "category": "religion",
-    "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:self-worth", "theme:identity", "need:validation", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-103",
@@ -862,7 +889,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-104",
@@ -870,7 +898,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:growth", "need:perspective", "tone:direct"]
   },
   {
     "id": "religion-hinduism-105",
@@ -879,15 +908,8 @@
     "source": "Bhagavad Gita",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
-  },
-  {
-    "id": "religion-hinduism-106",
-    "text": "The divine dwells in all beings.",
-    "author": "Unknown",
-    "category": "religion",
-    "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "need:permission", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-107",
@@ -895,7 +917,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:purpose", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-108",
@@ -903,7 +926,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "need:stillness", "tone:direct"]
   },
   {
     "id": "religion-hinduism-109",
@@ -911,7 +935,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:healing", "theme:growth", "emotion:hope", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-110",
@@ -919,7 +944,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-111",
@@ -928,7 +954,8 @@
     "source": "Bhagavad Gita",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:body-image", "theme:identity", "need:validation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-112",
@@ -936,7 +963,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:peace", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-113",
@@ -944,7 +972,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "need:perspective", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-114",
@@ -952,7 +981,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "need:permission", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-115",
@@ -960,7 +990,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:stillness", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-116",
@@ -968,7 +999,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "theme:identity", "need:permission", "tone:direct"]
   },
   {
     "id": "religion-hinduism-117",
@@ -976,7 +1008,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:mortality", "need:comfort", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-118",
@@ -985,15 +1018,8 @@
     "source": "Bhagavad Gita",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "direct"
-  },
-  {
-    "id": "religion-hinduism-119",
-    "text": "In every heart lives the divine.",
-    "author": "Unknown",
-    "category": "religion",
-    "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "direct",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:letting-go", "theme:career", "need:motivation", "tone:direct", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-120",
@@ -1001,7 +1027,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:direct"]
   },
   {
     "id": "religion-hinduism-121",
@@ -1009,7 +1036,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:self-worth", "theme:identity", "need:validation", "tone:poetic", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-122",
@@ -1017,7 +1045,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-123",
@@ -1025,7 +1054,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:mortality", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-124",
@@ -1033,7 +1063,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-125",
@@ -1041,7 +1072,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "theme:growth", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-126",
@@ -1049,7 +1081,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:stillness", "tone:poetic", "tone:sacred"]
   },
   {
     "id": "religion-hinduism-127",
@@ -1057,7 +1090,8 @@
     "author": "Swami Vivekananda",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-128",
@@ -1065,7 +1099,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-129",
@@ -1073,7 +1108,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:self-worth", "need:validation", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-130",
@@ -1081,7 +1117,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "emotion:peace", "emotion:fear", "need:stillness", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-131",
@@ -1089,7 +1126,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:perspective", "tone:poetic"]
   },
   {
     "id": "religion-hinduism-132",
@@ -1097,7 +1135,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-133",
@@ -1105,7 +1144,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "theme:identity", "theme:self-worth", "need:validation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-134",
@@ -1113,7 +1153,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:gentle"]
   },
   {
     "id": "religion-hinduism-135",
@@ -1121,7 +1162,8 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "need:motivation", "tone:direct"]
   },
   {
     "id": "religion-hinduism-136",
@@ -1129,6 +1171,7 @@
     "author": "Unknown",
     "category": "religion",
     "subcategory": "hinduism",
-    "tone": "gentle"
+    "tone": "gentle",
+    "tags": ["theme:faith", "theme:faith:hinduism", "tone:gentle", "tone:poetic"]
   }
 ]

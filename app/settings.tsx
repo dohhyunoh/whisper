@@ -3,21 +3,13 @@ import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
 import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { KeyboardAvoidingView, Modal, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const GENDER_OPTIONS = ['Female', 'Male', 'Other', 'Prefer not to say'];
-const HEART_STATUS_OPTIONS = ['Just me', 'A new partner', 'A long-term partner', 'An ex-partner', 'My family/friends'];
-const HEART_DETAIL_BY_STATUS: Record<string, string[]> = {
-  'Just me': ['Liberating', 'Lonely', 'Peaceful', 'Searching'],
-  'A new partner': ['Honeymoon bliss', 'Stormy seas', 'Comfortable silence', 'Distant'],
-  'A long-term partner': ['Honeymoon bliss', 'Stormy seas', 'Comfortable silence', 'Distant'],
-  'An ex-partner': ['Fresh wound', 'Scarring over', 'Letting go', 'Looking back'],
-};
-const ROLE_OPTIONS = ['The Careerist', 'The Caretaker', 'The People Pleaser', 'The Perfectionist', 'The Critic', 'The Strong One'];
 
-type PickerKind = 'name' | 'gender' | 'heartStatus' | 'heartDetail' | 'role' | null;
+type PickerKind = 'name' | 'gender' | null;
 
 export default function SettingsScreen() {
   const insets = useSafeAreaInsets();
@@ -35,11 +27,6 @@ export default function SettingsScreen() {
     dispatch({ type: 'SET_USER', payload: { ...defaultUserData, ...state.user, ...patch } });
   };
 
-  const heartDetailOptions = useMemo(
-    () => HEART_DETAIL_BY_STATUS[user.heartStatus] ?? [],
-    [user.heartStatus],
-  );
-
   const openPicker = (kind: PickerKind) => {
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     setPicker(kind);
@@ -48,14 +35,6 @@ export default function SettingsScreen() {
   const handleSelect = (value: string) => {
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     if (picker === 'gender') setUserField({ gender: value });
-    if (picker === 'heartStatus') {
-      const nextDetailValid = (HEART_DETAIL_BY_STATUS[value] ?? []).includes(user.heartDetail);
-      setUserField({ heartStatus: value, heartDetail: nextDetailValid ? user.heartDetail : '' });
-      setPicker(HEART_DETAIL_BY_STATUS[value] ? 'heartDetail' : null);
-      return;
-    }
-    if (picker === 'heartDetail') setUserField({ heartDetail: value });
-    if (picker === 'role') setUserField({ heaviestRole: value });
     setPicker(null);
   };
 
@@ -67,9 +46,6 @@ export default function SettingsScreen() {
 
   const optionPickers: Record<Exclude<PickerKind, 'name' | null>, { title: string; options: string[]; current: string }> = {
     gender: { title: 'I identify as...', options: GENDER_OPTIONS, current: user.gender },
-    heartStatus: { title: 'Who holds your heart?', options: HEART_STATUS_OPTIONS, current: user.heartStatus },
-    heartDetail: { title: 'How does that feel?', options: heartDetailOptions, current: user.heartDetail },
-    role: { title: 'Heaviest role you carry', options: ROLE_OPTIONS, current: user.heaviestRole },
   };
   const activeOptions = picker && picker !== 'name' ? optionPickers[picker] : null;
 
@@ -104,18 +80,30 @@ export default function SettingsScreen() {
         {renderRow('pencil', 'Name', user.name, () => openPicker('name'))}
         {renderRow('person.fill', 'Gender', user.gender, () => openPicker('gender'))}
 
-        <Text style={[styles.sectionLabel, styles.sectionLabelSpaced]}>Discover feed</Text>
-        <Text style={styles.intro}>Update these whenever your season of life changes.</Text>
-        {renderRow('heart.fill', 'Relationship', user.heartStatus, () => openPicker('heartStatus'))}
-        {!!HEART_DETAIL_BY_STATUS[user.heartStatus] &&
-          renderRow('sparkles', 'How it feels', user.heartDetail, () => openPicker('heartDetail'))}
-        {renderRow('person.fill', 'Heaviest role', user.heaviestRole, () => openPicker('role'))}
+        <Text style={[styles.sectionLabel, styles.sectionLabelSpaced]}>Library</Text>
+        {renderRow('heart.fill', 'Favorites', 'Quotes you saved', () => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.push('/favorites');
+        })}
+        {renderRow('pencil', 'My Quotes', 'Quotes you wrote', () => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.push('/own-quotes');
+        })}
+        {renderRow('paintpalette.fill', 'Themes', 'Fonts and backgrounds', () => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.push('/appearance');
+        })}
+        {renderRow('sparkles', 'Soul Signature', 'The Whisper you\'re becoming', () => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.push('/soul-signature');
+        })}
 
         <Text style={[styles.sectionLabel, styles.sectionLabelSpaced]}>App</Text>
         {renderRow('square.grid.2x2.fill', 'Widget Control', 'Customize your home & lock screen', () => {
           if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
           router.push('/widget-control');
         })}
+
       </ScrollView>
 
       <Modal
