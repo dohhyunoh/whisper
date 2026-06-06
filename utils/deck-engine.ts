@@ -1,8 +1,9 @@
 import { Quote } from '@/data/types';
 import { getJSON, setJSON } from './mmkv';
-import { getSeenIds, getWeights, markSeen } from './tag-weights';
+import { getSeenIds, getWeights, markSeen, SwipeDir } from './tag-weights';
 
 const KEY_DECK = 'deck.v1';
+const KEY_PROGRESS = 'deck.progress.v1';
 const DECK_SIZE = 10;
 const MOOD_BONUS = 5;
 const DIVERSITY_PENALTY_PER_REPEAT = 3;
@@ -12,6 +13,16 @@ const COLD_START_TONE_BONUS = 2;
 export interface StoredDeck {
   date: string;
   quoteIds: string[];
+}
+
+export interface SwipedRecord {
+  id: string;
+  dir: SwipeDir;
+}
+
+export interface DeckProgress {
+  date: string;
+  swipes: SwipedRecord[];
 }
 
 export interface BuildDeckInput {
@@ -139,4 +150,20 @@ export function getOrBuildTodayDeck(input: Omit<BuildDeckInput, 'todayDate'>): S
   const deck: StoredDeck = { date: today, quoteIds };
   saveDeck(deck);
   return deck;
+}
+
+// Returns swipe progress for today's deck only; stale (prior-day) progress is ignored.
+export function getTodayDeckProgress(): DeckProgress | null {
+  const progress = getJSON<DeckProgress>(KEY_PROGRESS);
+  if (!progress || progress.date !== todayKey()) return null;
+  return progress;
+}
+
+// Appends a swipe to today's progress, resetting if the stored progress is from a prior day.
+export function recordDeckSwipe(id: string, dir: SwipeDir): void {
+  const today = todayKey();
+  const existing = getJSON<DeckProgress>(KEY_PROGRESS);
+  const swipes = existing && existing.date === today ? existing.swipes : [];
+  if (swipes.some((s) => s.id === id)) return;
+  setJSON(KEY_PROGRESS, { date: today, swipes: [...swipes, { id, dir }] });
 }

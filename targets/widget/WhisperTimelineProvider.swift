@@ -5,11 +5,12 @@ struct QuoteEntry: TimelineEntry {
     let date: Date
     let quote: WidgetQuote?
     let isLiked: Bool
+    let locked: Bool
 }
 
 struct WhisperTimelineProvider: TimelineProvider {
     func placeholder(in context: Context) -> QuoteEntry {
-        QuoteEntry(date: Date(), quote: nil, isLiked: false)
+        QuoteEntry(date: Date(), quote: nil, isLiked: false, locked: false)
     }
 
     func getSnapshot(in context: Context, completion: @escaping (QuoteEntry) -> Void) {
@@ -33,7 +34,12 @@ struct WhisperTimelineProvider: TimelineProvider {
 
     private func makeEntry(date: Date) -> QuoteEntry {
         guard let data = loadWidgetData() else {
-            return QuoteEntry(date: date, quote: nil, isLiked: false)
+            return QuoteEntry(date: date, quote: nil, isLiked: false, locked: false)
+        }
+
+        // Premium-only lock: show the upgrade card, no quote content.
+        if data.locked == true {
+            return QuoteEntry(date: date, quote: nil, isLiked: false, locked: true)
         }
 
         // ~30% chance to show a liked quote if available
@@ -41,12 +47,12 @@ struct WhisperTimelineProvider: TimelineProvider {
 
         if showLiked {
             let quote = data.likedQuotes.randomElement()!
-            return QuoteEntry(date: date, quote: quote, isLiked: true)
+            return QuoteEntry(date: date, quote: quote, isLiked: true, locked: false)
         } else if !data.quotes.isEmpty {
             let quote = data.quotes.randomElement()!
-            return QuoteEntry(date: date, quote: quote, isLiked: false)
+            return QuoteEntry(date: date, quote: quote, isLiked: false, locked: false)
         }
 
-        return QuoteEntry(date: date, quote: nil, isLiked: false)
+        return QuoteEntry(date: date, quote: nil, isLiked: false, locked: false)
     }
 }

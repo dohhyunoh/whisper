@@ -36,6 +36,7 @@ const initialState: AppState = {
   moodHistory: [],
   hydrated: false,
   premium: defaultPremiumState,
+  swipeNonce: 0,
 };
 
 function reducer(state: AppState, action: AppAction): AppState {
@@ -44,6 +45,8 @@ function reducer(state: AppState, action: AppAction): AppState {
       return { ...state, user: action.payload };
     case 'COMPLETE_ONBOARDING':
       return { ...state, onboardingComplete: true };
+    case 'RECORD_SWIPE':
+      return { ...state, swipeNonce: state.swipeNonce + 1 };
     case 'TOGGLE_LIKE': {
       const id = action.payload;
       const liked = state.likedIds.includes(id);
@@ -342,18 +345,16 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     savePremiumSettings(state.premium.settings);
   }, [state.premium.settings, state.hydrated]);
 
-  // Sync widget data when quotes, likes, or category preferences change
-  const userInterests = state.user?.interests;
+  // Sync widget data when quotes, likes, or widget preferences change. The pool
+  // itself is ranked by the daily-deck swipe weights inside syncWidgetData.
   const includeFavorites = state.premium.settings.widget?.includeFavorites ?? true;
-  // Gate "Include Own Quotes" behind premium on the data side too
+  const includeOwnQuotes = state.premium.settings.widget?.includeOwnQuotes ?? true;
+  // Drives the premium-only widget lock (non-subscribers get the upgrade card).
   const isPremiumUser = hasPremiumAccess(state.premium.status);
-  const includeOwnQuotes = isPremiumUser
-    ? (state.premium.settings.widget?.includeOwnQuotes ?? true)
-    : false;
   useEffect(() => {
     if (!state.hydrated || !state.onboardingComplete) return;
-    syncWidgetData(state.likedIds, state.ownQuotes, userInterests ?? [], includeFavorites, includeOwnQuotes);
-  }, [state.hydrated, state.onboardingComplete, state.likedIds, state.ownQuotes, userInterests, includeFavorites, includeOwnQuotes]);
+    syncWidgetData(state.likedIds, state.ownQuotes, includeFavorites, includeOwnQuotes, isPremiumUser);
+  }, [state.hydrated, state.onboardingComplete, state.likedIds, state.ownQuotes, includeFavorites, includeOwnQuotes, isPremiumUser, state.swipeNonce]);
 
   return (
     <AppContext.Provider value={{ state, dispatch }}>

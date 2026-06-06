@@ -11,7 +11,9 @@ struct SmallWidgetView: View {
     let entry: QuoteEntry
 
     var body: some View {
-        if let quote = entry.quote {
+        if entry.locked {
+            lockedView
+        } else if let quote = entry.quote {
             VStack(alignment: .leading, spacing: 6) {
                 Text(quote.text)
                     .font(.system(size: 13, weight: .medium, design: .serif))
@@ -28,6 +30,23 @@ struct SmallWidgetView: View {
         } else {
             placeholderView
         }
+    }
+
+    private var lockedView: some View {
+        VStack(spacing: 6) {
+            Image(systemName: "sparkles")
+                .font(.system(size: 20))
+                .foregroundColor(textColor.opacity(0.5))
+            Text("A new chapter of Whisper.")
+                .font(.system(size: 13, weight: .semibold, design: .serif))
+                .foregroundColor(textColor)
+                .multilineTextAlignment(.center)
+            Text("Tap to begin.")
+                .font(.system(size: 11, weight: .regular, design: .serif))
+                .foregroundColor(textColor.opacity(0.6))
+                .multilineTextAlignment(.center)
+        }
+        .padding(14)
     }
 
     private var placeholderView: some View {
@@ -49,7 +68,9 @@ struct MediumWidgetView: View {
     let entry: QuoteEntry
 
     var body: some View {
-        if let quote = entry.quote {
+        if entry.locked {
+            lockedView
+        } else if let quote = entry.quote {
             VStack(alignment: .leading, spacing: 8) {
                 Image(systemName: "quote.opening")
                     .font(.system(size: 14))
@@ -74,6 +95,23 @@ struct MediumWidgetView: View {
         }
     }
 
+    private var lockedView: some View {
+        VStack(spacing: 8) {
+            Image(systemName: "sparkles")
+                .font(.system(size: 24))
+                .foregroundColor(textColor.opacity(0.5))
+            Text("A new chapter of Whisper.")
+                .font(.system(size: 16, weight: .semibold, design: .serif))
+                .foregroundColor(textColor)
+                .multilineTextAlignment(.center)
+            Text("Tap to begin.")
+                .font(.system(size: 13, weight: .regular, design: .serif))
+                .foregroundColor(textColor.opacity(0.6))
+                .multilineTextAlignment(.center)
+        }
+        .padding(16)
+    }
+
     private var placeholderView: some View {
         VStack(spacing: 10) {
             Image(systemName: "quote.opening")
@@ -93,7 +131,19 @@ struct AccessoryRectangularView: View {
     let entry: QuoteEntry
 
     var body: some View {
-        if let quote = entry.quote {
+        if entry.locked {
+            VStack(alignment: .leading, spacing: 2) {
+                HStack(spacing: 4) {
+                    Image(systemName: "sparkles")
+                        .font(.system(size: 12))
+                    Text("A new chapter of Whisper")
+                        .font(.system(size: 12, weight: .semibold, design: .serif))
+                }
+                Text("Tap to begin")
+                    .font(.system(size: 11, weight: .regular, design: .serif))
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+        } else if let quote = entry.quote {
             Text(quote.text)
                 .font(.system(size: 13, weight: .medium, design: .serif))
                 .lineLimit(3)
@@ -117,7 +167,7 @@ struct AccessoryCircularView: View {
     var body: some View {
         ZStack {
             AccessoryWidgetBackground()
-            Image(systemName: "quote.opening")
+            Image(systemName: entry.locked ? "sparkles" : "quote.opening")
                 .font(.system(size: 16, weight: .medium))
         }
     }

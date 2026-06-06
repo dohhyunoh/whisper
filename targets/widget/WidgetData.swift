@@ -11,6 +11,8 @@ struct WidgetData: Codable {
     let quotes: [WidgetQuote]
     let likedQuotes: [WidgetQuote]
     let updatedAt: Double
+    // Optional for backward-compat with payloads written before the premium-only lock.
+    let locked: Bool?
 }
 
 func loadWidgetData() -> WidgetData? {

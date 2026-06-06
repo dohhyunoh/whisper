@@ -56,7 +56,7 @@ export default function FreemiumUpgradeScreen() {
             entering={FadeInDown.duration(700).delay(300).easing(Easing.out(Easing.cubic))}
             style={[styles.title, { fontSize: 32 * s, marginTop: 14 * s }]}
           >
-            Whisper{'\n'}just evolved.
+            A new chapter{'\n'}of Whisper.
           </Animated.Text>
         </View>
 

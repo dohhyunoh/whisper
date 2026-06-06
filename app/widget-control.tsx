@@ -1,7 +1,6 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
 import { DEFAULT_WIDGET_SETTINGS } from '@/data/types';
-import { usePremium } from '@/hooks/use-premium';
 import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import React, { useState } from 'react';
@@ -11,12 +10,8 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 export default function WidgetControlScreen() {
   const insets = useSafeAreaInsets();
   const { state, dispatch } = useAppContext();
-  const { isPremium } = usePremium();
-  const storedWidget = state.premium.settings.widget ?? DEFAULT_WIDGET_SETTINGS;
-  // Free users can never have own quotes included in the widget
-  const widget = isPremium
-    ? storedWidget
-    : { ...storedWidget, includeOwnQuotes: false };
+  // Whisper is premium-only — only subscribers can reach this screen.
+  const widget = state.premium.settings.widget ?? DEFAULT_WIDGET_SETTINGS;
   const [helpOpen, setHelpOpen] = useState(false);
 
   const updateWidget = (patch: Partial<typeof widget>) => {
@@ -42,8 +37,8 @@ export default function WidgetControlScreen() {
         contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + 32 }]}
         showsVerticalScrollIndicator={false}
       >
-        {/* Feed match note */}
-        <Text style={styles.noteText}>Your widget matches with your home feed.</Text>
+        {/* Content source note */}
+        <Text style={styles.noteText}>Your widget reflects your interests and favorites.</Text>
 
         {/* Content */}
         <Text style={styles.sectionTitle}>Content</Text>
@@ -64,37 +59,21 @@ export default function WidgetControlScreen() {
 
           <View style={styles.divider} />
 
-          {isPremium ? (
-            <View style={styles.toggleRow}>
-              <View style={styles.toggleTextBlock}>
-                <Text style={styles.rowLabel}>Include Own Quotes</Text>
-                <Text style={styles.rowSub}>Mix in quotes you&rsquo;ve written yourself.</Text>
-              </View>
-              <Switch
-                value={widget.includeOwnQuotes}
-                onValueChange={(v) => updateWidget({ includeOwnQuotes: v })}
-                trackColor={{ false: '#B8C5CC', true: '#3A6B80' }}
-                ios_backgroundColor="#B8C5CC"
-                thumbColor="#FFFFFF"
-              />
+          <View style={styles.toggleRow}>
+            <View style={styles.toggleTextBlock}>
+              <Text style={styles.rowLabel}>Include Own Quotes</Text>
+              <Text style={styles.rowSub}>Mix in quotes you&rsquo;ve written yourself.</Text>
             </View>
-          ) : (
-            <Pressable
-              style={styles.toggleRow}
-              onPress={() => {
-                if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                router.push('/onboarding/paywall');
-              }}
-            >
-              <View style={styles.toggleTextBlock}>
-                <Text style={styles.rowLabel}>Include Own Quotes</Text>
-                <Text style={styles.rowSub}>Unlock with Premium to show your own quotes on the widget.</Text>
-              </View>
-              <IconSymbol name="lock.fill" size={18} color="#7B9AAA" />
-            </Pressable>
-          )}
+            <Switch
+              value={widget.includeOwnQuotes}
+              onValueChange={(v) => updateWidget({ includeOwnQuotes: v })}
+              trackColor={{ false: '#B8C5CC', true: '#3A6B80' }}
+              ios_backgroundColor="#B8C5CC"
+              thumbColor="#FFFFFF"
+            />
+          </View>
         </View>
-        <Text style={styles.cardFootnote}>The widget uses your home-feed quotes by default.</Text>
+        <Text style={styles.cardFootnote}>The widget uses quotes from your interests by default.</Text>
 
         {/* Help */}
         <Pressable

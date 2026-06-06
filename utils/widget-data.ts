@@ -3,6 +3,7 @@ import SharedGroupPreferences from 'react-native-shared-group-preferences';
 import { reloadAllTimelines } from 'react-native-widgetkit';
 import allQuotes from '@/data/quotes';
 import { Quote, OwnQuote } from '@/data/types';
+import { getWeights } from './tag-weights';
 
 const APP_GROUP = 'group.com.dohhyun.whisper';
 const WIDGET_DATA_KEY = 'widgetData';
@@ -18,11 +19,22 @@ interface WidgetData {
   quotes: WidgetQuote[];
   likedQuotes: WidgetQuote[];
   updatedAt: number;
+  // When true, the widget shows the "Whisper evolved" upgrade card instead of quotes.
+  locked: boolean;
 }
 
 function pickRandom<T>(arr: T[], count: number): T[] {
   const shuffled = [...arr].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, count);
+}
+
+// Mirror the daily deck's weighting: sum the swipe-learned tag weights for a quote.
+function scoreByWeights(q: Quote, weights: Record<string, number>): number {
+  let score = 0;
+  for (const tag of q.tags ?? []) {
+    score += weights[tag] ?? 0;
+  }
+  return score;
 }
 
 function toWidgetQuote(q: Quote | OwnQuote, isLiked: boolean): WidgetQuote {
@@ -37,38 +49,45 @@ function toWidgetQuote(q: Quote | OwnQuote, isLiked: boolean): WidgetQuote {
 export async function syncWidgetData(
   likedIds: string[],
   ownQuotes: OwnQuote[],
-  interests: string[],
   includeFavorites: boolean = true,
-  includeOwnQuotes: boolean = true
+  includeOwnQuotes: boolean = true,
+  isPremium: boolean = true
 ): Promise<void> {
   if (Platform.OS !== 'ios') return;
 
   try {
+    // Whisper is premium-only — non-subscribers get a locked upgrade card
+    // instead of quotes. Don't ship any quote content in that case.
+    if (!isPremium) {
+      await SharedGroupPreferences.setItem(
+        WIDGET_DATA_KEY,
+        { quotes: [], likedQuotes: [], updatedAt: Date.now(), locked: true } as WidgetData,
+        APP_GROUP
+      );
+      reloadAllTimelines();
+      return;
+    }
+
     const MAX_QUOTE_LENGTH = 50;
+    const WIDGET_POOL_SIZE = 50;
 
-    // Extract subcategories from interests (format: "category:subcategory")
-    const userSubcategories = interests
-      .filter((i) => i.includes(':'))
-      .map((i) => i.split(':')[1]);
-
-    // Filter quotes matching user's selected subcategories
-    const matchingQuotes = allQuotes.filter(
-      (q) =>
-        q.text.length <= MAX_QUOTE_LENGTH &&
-        q.subcategory &&
-        userSubcategories.includes(q.subcategory)
-    );
+    // Curate to short quotes that fit the widget, then rank by the same
+    // swipe-learned weights the daily deck uses. A touch of jitter keeps the
+    // pool rotating between syncs even when weights are unchanged.
+    const weights = getWeights();
+    const rankedPool = allQuotes
+      .filter((q) => q.text.length <= MAX_QUOTE_LENGTH)
+      .map((q) => ({ q, score: scoreByWeights(q, weights) + (Math.random() - 0.5) * 0.01 }))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, WIDGET_POOL_SIZE)
+      .map((s) => s.q);
 
     // Include short own quotes in the random pool
     const shortOwnQuotes = ownQuotes.filter((q) => q.text.length <= MAX_QUOTE_LENGTH);
-    const baseCategoryPool =
-      matchingQuotes.length >= 10
-        ? matchingQuotes
-        : allQuotes.filter((q) => q.text.length <= MAX_QUOTE_LENGTH);
-    // Exclude favorites from the category pool when Include Favorites is off
+    // Exclude favorites from the pool when Include Favorites is off
     const basePool = includeFavorites
-      ? baseCategoryPool
-      : baseCategoryPool.filter((q) => !likedIds.includes(q.id));
+      ? rankedPool
+      : rankedPool.filter((q) => !likedIds.includes(q.id));
     // Add own quotes to the pool only when Include Own Quotes is on
     const poolWithExtras = includeOwnQuotes
       ? [...basePool, ...shortOwnQuotes]
@@ -89,6 +108,7 @@ export async function syncWidgetData(
       quotes: randomQuotes,
       likedQuotes,
       updatedAt: Date.now(),
+      locked: false,
     };
 
     await SharedGroupPreferences.setItem(

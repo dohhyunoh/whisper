@@ -68,6 +68,8 @@ struct WhisperWidgetEntryView: View {
                 SmallWidgetView(entry: entry)
             }
         }
-        .widgetURL(URL(string: "whisper://home?quoteId=\(entry.quote?.id ?? "")"))
+        // Open the app root so index.tsx runs its routing/gating (locked users
+        // land on the upgrade screen). There is no "home" route — that path hung.
+        .widgetURL(URL(string: "whisper://"))
     }
 }

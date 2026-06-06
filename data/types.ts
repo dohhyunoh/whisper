@@ -139,12 +139,15 @@ export interface AppState {
   moodHistory: MoodHistoryEntry[];
   hydrated: boolean;
   premium: PremiumState;
+  // Bumped on every deck swipe so the widget re-syncs against updated weights.
+  swipeNonce: number;
 }
 
 export type AppAction =
   | { type: 'SET_USER'; payload: UserData }
   | { type: 'COMPLETE_ONBOARDING' }
   | { type: 'TOGGLE_LIKE'; payload: string }
+  | { type: 'RECORD_SWIPE' }
   | { type: 'HYDRATE'; payload: { user: UserData | null; onboardingComplete: boolean; likedIds: string[]; ownQuotes: OwnQuote[]; streakDates: string[]; moodHistory: MoodHistoryEntry[]; premium: PremiumState } }
   | { type: 'SET_PREMIUM_STATUS'; payload: PremiumStatus }
   | { type: 'SET_PREMIUM_FONT'; payload: PremiumFontKey }

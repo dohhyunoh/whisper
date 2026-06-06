@@ -1,4 +1,6 @@
+import { useAppContext } from '@/context/app-context';
 import { Quote } from '@/data/types';
+import { getTodayDeckProgress, recordDeckSwipe } from '@/utils/deck-engine';
 import { hasSeenDeckHint, markDeckHintSeen, recordSwipe, SwipeDir } from '@/utils/tag-weights';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
@@ -28,13 +30,30 @@ interface SwipeRecord {
 }
 
 export function SwipeDeck({ quotes, height, onFirstSwipe, onHeartTapped }: SwipeDeckProps) {
-  const [index, setIndex] = useState(0);
-  const [history, setHistory] = useState<SwipeRecord[]>([]);
+  const { dispatch } = useAppContext();
+  // Resume from persisted progress so a cold reopen doesn't replay today's deck.
+  const resumed = useState<{ index: number; history: SwipeRecord[] }>(() => {
+    const stored = getTodayDeckProgress();
+    if (!stored) return { index: 0, history: [] };
+    const byId = new Map(quotes.map((q) => [q.id, q]));
+    const history: SwipeRecord[] = [];
+    for (const s of stored.swipes) {
+      const quote = byId.get(s.id);
+      if (quote) history.push({ quote, dir: s.dir });
+    }
+    return { index: history.length, history };
+  })[0];
+
+  const [index, setIndex] = useState(resumed.index);
+  const [history, setHistory] = useState<SwipeRecord[]>(resumed.history);
   const [showHint] = useState(() => !hasSeenDeckHint());
 
   const handleSwipe = useCallback(
     (quote: Quote, dir: SwipeDir) => {
       recordSwipe(quote.id, quote.tags, dir);
+      recordDeckSwipe(quote.id, dir);
+      // Weights are now updated in MMKV; bump the nonce so the widget re-syncs.
+      dispatch({ type: 'RECORD_SWIPE' });
       if (!hasSeenDeckHint()) markDeckHintSeen();
       if (process.env.EXPO_OS === 'ios') {
         Haptics.impactAsync(
@@ -47,7 +66,7 @@ export function SwipeDeck({ quotes, height, onFirstSwipe, onHeartTapped }: Swipe
       });
       setIndex((i) => i + 1);
     },
-    [onFirstSwipe],
+    [onFirstSwipe, dispatch],
   );
 
   const totalSlots = quotes.length;

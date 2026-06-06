@@ -5,26 +5,11 @@ import { router } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
-import { usePremium } from '@/hooks/use-premium';
 
 export default function OwnQuotesScreen() {
   const insets = useSafeAreaInsets();
   const { state, dispatch } = useAppContext();
-  const { isPremium } = usePremium();
   const ownQuotes = state.ownQuotes;
-  const interests = state.user?.interests ?? [];
-  const isFollowed = interests.includes('ownQuotes');
-
-  const handleToggleHomeFeed = () => {
-    if (!isPremium) {
-      router.push('/onboarding/paywall');
-      return;
-    }
-    const updated = isFollowed
-      ? interests.filter((i) => i !== 'ownQuotes')
-      : [...interests, 'ownQuotes'];
-    dispatch({ type: 'SET_USER', payload: { ...state.user!, interests: updated } });
-  };
 
   const handleDelete = (id: string) => {
     Alert.alert(
@@ -55,23 +40,6 @@ export default function OwnQuotesScreen() {
           <IconSymbol name="plus" size={24} color="#3A6B80" />
         </Pressable>
       </View>
-
-      {/* View in Home Feed toggle */}
-      <Pressable onPress={() => {
-        if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-        handleToggleHomeFeed();
-      }} style={styles.homeFeedToggle}>
-        <Text style={styles.homeFeedLabel}>Show in Home Feed</Text>
-        {!isPremium ? (
-          <IconSymbol name="lock.fill" size={16} color="#7B9AAA" />
-        ) : (
-          <IconSymbol
-            name={isFollowed ? 'checkmark.circle.fill' : 'circle'}
-            size={22}
-            color={isFollowed ? '#3A6B80' : '#C5D5DC'}
-          />
-        )}
-      </Pressable>
 
       <ScrollView
         style={styles.scrollView}
@@ -156,21 +124,6 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 17,
     fontWeight: '600',
-    color: '#3A6B80',
-  },
-  homeFeedToggle: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginHorizontal: 20,
-    marginBottom: 16,
-    backgroundColor: 'rgba(255, 255, 255, 0.6)',
-    borderRadius: 12,
-    padding: 14,
-  },
-  homeFeedLabel: {
-    fontSize: 15,
-    fontWeight: '500',
     color: '#3A6B80',
   },
   scrollView: {
