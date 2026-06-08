@@ -18,7 +18,10 @@ export function usePremium() {
   const { state, dispatch } = useAppContext();
   const { premium } = state;
 
-  const isPremium = useMemo(() => hasPremiumAccess(premium.status), [premium.status]);
+  const isPremium = useMemo(
+    () => hasPremiumAccess(premium.status, premium.trialEndsAt),
+    [premium.status, premium.trialEndsAt]
+  );
 
   // Migrate old single customPhotoUri to customPhotoUris array
   const customPhotoUris = useMemo((): string[] => {

@@ -22,9 +22,19 @@ export default function Index() {
 
   // Existing user — show v2 migration screen once.
   if (!hasSeenV2Migration()) {
-    return hasPremiumAccess(state.premium.status)
+    return hasPremiumAccess(state.premium.status, state.premium.trialEndsAt)
       ? <Redirect href="/paid-announcement" />
       : <Redirect href="/freemium-upgrade" />;
+  }
+
+  // Premium-only: no subscription and no active trial → context-aware lock screen.
+  // A past trialEndsAt means a founding-member gift that lapsed; otherwise a new
+  // user who hasn't subscribed. Each screen leads to the paywall (with a chevron
+  // back to it), so the purchase flow is dismissible per App Store guidelines.
+  if (!hasPremiumAccess(state.premium.status, state.premium.trialEndsAt)) {
+    return state.premium.trialEndsAt != null
+      ? <Redirect href="/gift-ended" />
+      : <Redirect href="/subscription-required" />;
   }
 
   const today = getTodayDateString();

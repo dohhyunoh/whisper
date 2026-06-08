@@ -6,10 +6,11 @@ import { useAppContext } from '@/context/app-context';
 import allQuotes from '@/data/quotes';
 import { Quote } from '@/data/types';
 import { getOrBuildTodayDeck } from '@/utils/deck-engine';
+import { hasPremiumAccess } from '@/utils/premium-check';
 import { applyWeeklyDecayIfNeeded, hasSeenDeckHint } from '@/utils/tag-weights';
 import { RiveFileFactory, RiveView, useRive } from '@rive-app/react-native';
 import * as Haptics from 'expo-haptics';
-import { router } from 'expo-router';
+import { Redirect, router } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, View, useWindowDimensions } from 'react-native';
 import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
@@ -24,6 +25,18 @@ const MAX_SCREEN_WIDTH = 430;
 const quoteList: Quote[] = allQuotes as Quote[];
 
 export default function DailyDeckScreen() {
+  const { state } = useAppContext();
+  // Premium-only backstop: covers in-session/direct navigation that bypasses the
+  // launch gate in index.tsx (onboarding completion, paywall dismissal, etc.).
+  if (state.hydrated && !hasPremiumAccess(state.premium.status, state.premium.trialEndsAt)) {
+    return state.premium.trialEndsAt != null
+      ? <Redirect href="/gift-ended" />
+      : <Redirect href="/subscription-required" />;
+  }
+  return <DailyDeckContent />;
+}
+
+function DailyDeckContent() {
   const insets = useSafeAreaInsets();
   const { width: screenWidth, height: screenHeight } = useWindowDimensions();
   const { state } = useAppContext();

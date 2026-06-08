@@ -82,6 +82,8 @@ export default function RootLayout() {
             />
             <Stack.Screen name="paid-announcement" options={{ headerShown: false, gestureEnabled: false }} />
             <Stack.Screen name="freemium-upgrade" options={{ headerShown: false, gestureEnabled: false }} />
+            <Stack.Screen name="gift-ended" options={{ headerShown: false, gestureEnabled: false }} />
+            <Stack.Screen name="subscription-required" options={{ headerShown: false, gestureEnabled: false }} />
             <Stack.Screen
               name="daily-check-in"
               options={{

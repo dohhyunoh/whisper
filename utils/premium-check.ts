@@ -6,12 +6,14 @@ import {
   savePremiumStatus,
 } from './storage';
 import { checkEntitlement } from './revenuecat';
+import { getTrialEndsAt, isTrialActive } from './trial';
 
 export async function initializePremiumStatus(): Promise<PremiumState> {
   const [existingStatus, existingSettings] = await Promise.all([
     loadPremiumStatus(),
     loadPremiumSettings(),
   ]);
+  const trialEndsAt = getTrialEndsAt();
 
   // If user already has a status, check RevenueCat for standard_free users (handles reinstalls/restores)
   if (existingStatus) {
@@ -23,6 +25,7 @@ export async function initializePremiumStatus(): Promise<PremiumState> {
           return {
             status: 'premium_purchased',
             settings: existingSettings || DEFAULT_PREMIUM_SETTINGS,
+            trialEndsAt,
           };
         }
       } catch {
@@ -32,6 +35,7 @@ export async function initializePremiumStatus(): Promise<PremiumState> {
     return {
       status: existingStatus,
       settings: existingSettings || DEFAULT_PREMIUM_SETTINGS,
+      trialEndsAt,
     };
   }
 
@@ -41,9 +45,10 @@ export async function initializePremiumStatus(): Promise<PremiumState> {
   return {
     status: 'standard_free',
     settings: existingSettings || DEFAULT_PREMIUM_SETTINGS,
+    trialEndsAt,
   };
 }
 
-export function hasPremiumAccess(status: string): boolean {
-  return status === 'premium_purchased';
+export function hasPremiumAccess(status: string, trialEndsAt?: number | null): boolean {
+  return status === 'premium_purchased' || isTrialActive(trialEndsAt);
 }

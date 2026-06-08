@@ -1,7 +1,7 @@
 import { Quote } from '@/data/types';
 import { Ionicons } from '@expo/vector-icons';
 import { BlurView } from 'expo-blur';
-import React, { useEffect, useState } from 'react';
+import React, { useLayoutEffect, useState } from 'react';
 import { StyleSheet, useWindowDimensions, View } from 'react-native';
 import Animated, {
   interpolate,
@@ -50,15 +50,19 @@ export function SwipeDemo({ quotes, width, height, directions, loop = true }: Sw
 
   const advance = () => setTopIndex((i) => i + 1);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (quotes.length < 2) return;
+
+    // Re-center the promoted card on every advance — including when the demo has
+    // finished — so the card that was peeking behind becomes the visible top card
+    // instead of being stranded off-screen (which revealed the wrong quote).
+    translateX.value = 0;
     if (finished) return;
 
     const sign = currentDir === 'like' ? 1 : -1;
     const dragTarget = sign * screenWidth * 0.32;
     const exitTarget = sign * screenWidth * 1.4;
 
-    translateX.value = 0;
     translateX.value = withSequence(
       withDelay(SETTLE_MS, withTiming(dragTarget, { duration: DRAG_MS })),
       withTiming(exitTarget, { duration: FLY_MS }, (done) => {

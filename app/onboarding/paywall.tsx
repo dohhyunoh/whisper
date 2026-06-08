@@ -4,6 +4,7 @@ import { requestPermissions, scheduleTrialReminder } from '@/utils/notifications
 import { Events, posthog } from '@/utils/posthog';
 import { logSubscribeEvent } from '@/utils/appsflyer';
 import { checkTrialEligibility, restorePurchases } from '@/utils/revenuecat';
+import { markV2MigrationSeen } from '@/utils/migration';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -107,17 +108,33 @@ export default function PaywallScreen() {
   }, []);
 
   const { state } = useAppContext();
-  const isPostOnboarding = state.onboardingComplete;
+  // Hard paywall gate (premium-only enforcement).
+  const gated = from === 'gate';
+  // Capture onboarding-flow membership at mount, BEFORE the effect below flips
+  // onboardingComplete — otherwise post-purchase routing would misfire.
+  const [cameFromOnboarding] = useState(() => !state.onboardingComplete && !gated);
+
+  // New users reach this screen only after finishing the questionnaire. Mark
+  // onboarding complete on arrival so quitting here returns them straight to the
+  // paywall (via the index.tsx gate) instead of replaying the whole flow. Mark
+  // the v2 migration seen too, so index never routes them into the freemium gift.
+  useEffect(() => {
+    if (cameFromOnboarding) {
+      dispatch({ type: 'COMPLETE_ONBOARDING' });
+      markV2MigrationSeen();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const handleComplete = (purchased: boolean) => {
     if (purchased) {
       dispatch({ type: 'SET_PREMIUM_STATUS', payload: 'premium_purchased' });
     }
-    if (from === 'freemium-migration') {
+    if (from === 'freemium-migration' || gated) {
       router.replace('/daily-deck');
       return;
     }
-    if (!isPostOnboarding) {
+    if (cameFromOnboarding) {
       posthog.capture(Events.ONBOARDING_COMPLETED, { method: purchased ? 'purchased' : 'free' });
       router.replace('/onboarding/widget-promo');
       return;
@@ -178,8 +195,13 @@ export default function PaywallScreen() {
   const handleClose = () => {
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     posthog.capture(Events.PAYWALL_SKIPPED);
-    // Back button: return to whichever screen pushed the paywall.
-    if (from === 'freemium-migration') {
+    // Back button: return to whichever screen pushed the paywall. In gate mode
+    // that's the context lock screen (gift-ended / subscription-required), so the
+    // purchase flow stays dismissible without ever exposing the deck.
+    if (from === 'gate') {
+      if (router.canGoBack()) router.back();
+      else router.replace('/subscription-required');
+    } else if (from === 'freemium-migration') {
       router.replace('/freemium-upgrade');
     } else if (router.canGoBack()) {
       router.back();
@@ -248,7 +270,7 @@ interface PaywallProps {
   loading: boolean;
   onPurchase: () => void;
   onRestore: () => void;
-  onClose: () => void;
+  onClose?: () => void;
 }
 
 // ─── Footer ─────────────────────────────────────────────────────────────────
@@ -277,7 +299,11 @@ function RestoreLink({ s, onRestore, style }: { s: number; onRestore: () => void
   );
 }
 
-function BackButton({ s, onClose, style }: { s: number; onClose: () => void; style?: any }) {
+function BackButton({ s, onClose, style }: { s: number; onClose?: () => void; style?: any }) {
+  // Gate mode passes no handler — render a spacer to preserve the top-bar layout.
+  if (!onClose) {
+    return <View style={[style, { width: 32 * s, height: 32 * s }]} />;
+  }
   return (
     <Pressable style={style} onPress={onClose} hitSlop={12}>
       <View style={[styles.closeCircle, { width: 32 * s, height: 32 * s, borderRadius: 16 * s }]}>

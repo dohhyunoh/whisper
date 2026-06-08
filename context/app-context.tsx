@@ -25,6 +25,7 @@ import Purchases from 'react-native-purchases';
 const defaultPremiumState: PremiumState = {
   status: 'standard_free',
   settings: DEFAULT_PREMIUM_SETTINGS,
+  trialEndsAt: null,
 };
 
 const initialState: AppState = {
@@ -75,6 +76,14 @@ function reducer(state: AppState, action: AppAction): AppState {
         premium: {
           ...state.premium,
           status: action.payload,
+        },
+      };
+    case 'GRANT_TRIAL':
+      return {
+        ...state,
+        premium: {
+          ...state.premium,
+          trialEndsAt: action.payload,
         },
       };
     case 'SET_PREMIUM_FONT':
@@ -350,7 +359,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const includeFavorites = state.premium.settings.widget?.includeFavorites ?? true;
   const includeOwnQuotes = state.premium.settings.widget?.includeOwnQuotes ?? true;
   // Drives the premium-only widget lock (non-subscribers get the upgrade card).
-  const isPremiumUser = hasPremiumAccess(state.premium.status);
+  const isPremiumUser = hasPremiumAccess(state.premium.status, state.premium.trialEndsAt);
   useEffect(() => {
     if (!state.hydrated || !state.onboardingComplete) return;
     syncWidgetData(state.likedIds, state.ownQuotes, includeFavorites, includeOwnQuotes, isPremiumUser);

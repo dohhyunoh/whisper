@@ -123,6 +123,8 @@ export interface PremiumSettings {
 export interface PremiumState {
   status: PremiumStatus;
   settings: PremiumSettings;
+  // Timestamp (ms) when the gifted 30-day trial expires. null = no trial.
+  trialEndsAt?: number | null;
 }
 
 export interface MoodHistoryEntry {
@@ -150,6 +152,7 @@ export type AppAction =
   | { type: 'RECORD_SWIPE' }
   | { type: 'HYDRATE'; payload: { user: UserData | null; onboardingComplete: boolean; likedIds: string[]; ownQuotes: OwnQuote[]; streakDates: string[]; moodHistory: MoodHistoryEntry[]; premium: PremiumState } }
   | { type: 'SET_PREMIUM_STATUS'; payload: PremiumStatus }
+  | { type: 'GRANT_TRIAL'; payload: number }
   | { type: 'SET_PREMIUM_FONT'; payload: PremiumFontKey }
   | { type: 'SET_PREMIUM_BACKGROUND'; payload: BackgroundThemeKey }
   | { type: 'ADD_OWN_QUOTE'; payload: OwnQuote }
