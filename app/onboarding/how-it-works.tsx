@@ -3,6 +3,7 @@ import { useAppContext } from '@/context/app-context';
 import quotesData from '@/data/quotes';
 import { Quote } from '@/data/types';
 import { setFirstQuote } from '@/utils/first-quote';
+import { interestTagOverlap, tagsForInterests } from '@/utils/interest-tags';
 import { Events, posthog } from '@/utils/posthog';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
@@ -43,14 +44,9 @@ export default function HowItWorksScreen() {
 
   const demoQuotes = useMemo(() => {
     const short = allQuotes.filter((q) => q.text.length <= 90);
-    const matched = interests.length > 0
-      ? short.filter((q) => interests.some((interest) => {
-          if (interest.includes(':')) {
-            const [cat, sub] = interest.split(':');
-            return q.category === cat && q.subcategory === sub;
-          }
-          return q.category === interest;
-        }))
+    const interestTags = tagsForInterests(interests);
+    const matched = interestTags.size > 0
+      ? short.filter((q) => interestTagOverlap(q, interestTags) > 0)
       : short;
     const pool = matched.length >= 4 ? matched : short;
     const shuffled = [...pool].sort(() => Math.random() - 0.5);

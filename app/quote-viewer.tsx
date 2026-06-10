@@ -1,6 +1,6 @@
 import { QuoteFeed } from '@/components/quote-feed';
 import { useAppContext } from '@/context/app-context';
-import { Category, Quote } from '@/data/types';
+import { Quote } from '@/data/types';
 import { useLikes } from '@/hooks/use-likes';
 import { useQuotesByIds } from '@/hooks/use-quotes';
 import { useLocalSearchParams } from 'expo-router';
@@ -8,7 +8,7 @@ import React, { useMemo } from 'react';
 import { StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-export default function CategoryFeedScreen() {
+export default function QuoteViewerScreen() {
   const { favorites, ownQuotes: ownQuotesParam, ownQuoteId, favoriteId, hideTitle } = useLocalSearchParams<{
     favorites?: string;
     ownQuotes?: string;
@@ -35,7 +35,6 @@ export default function CategoryFeedScreen() {
       text: oq.text,
       author: oq.author || 'You',
       source: oq.source,
-      category: 'empowerment' as Category,
     }));
   }, [state.ownQuotes, ownQuoteId]);
 

@@ -1,11 +1,12 @@
 import { ConstellationView } from '@/components/constellation-view';
 import { IconSymbol } from '@/components/ui/icon-symbol';
+import { Events, posthog } from '@/utils/posthog';
 import { computeSignature } from '@/utils/soul-signature';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
 import * as Sharing from 'expo-sharing';
-import React, { useMemo, useRef } from 'react';
+import React, { useEffect, useMemo, useRef } from 'react';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import ViewShot, { captureRef } from 'react-native-view-shot';
@@ -21,7 +22,12 @@ export default function SoulSignatureScreen() {
 
   const hasData = signature.nodes.length > 0;
 
+  useEffect(() => {
+    posthog.capture(Events.SOUL_SIGNATURE_OPENED, { has_data: hasData });
+  }, []);
+
   const handleShare = async () => {
+    posthog.capture(Events.SOUL_SIGNATURE_SHARED);
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     try {
       const uri = await captureRef(captureRefView, { format: 'png', quality: 1 });

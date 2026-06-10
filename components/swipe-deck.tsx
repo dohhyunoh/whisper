@@ -1,12 +1,13 @@
 import { useAppContext } from '@/context/app-context';
 import { Quote } from '@/data/types';
 import { getTodayDeckProgress, recordDeckSwipe } from '@/utils/deck-engine';
+import { Events, posthog } from '@/utils/posthog';
 import { hasSeenDeckHint, markDeckHintSeen, recordSwipe, SwipeDir } from '@/utils/tag-weights';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import Animated, {
   interpolate,
@@ -47,9 +48,37 @@ export function SwipeDeck({ quotes, height, onFirstSwipe, onHeartTapped }: Swipe
   const [index, setIndex] = useState(resumed.index);
   const [history, setHistory] = useState<SwipeRecord[]>(resumed.history);
   const [showHint] = useState(() => !hasSeenDeckHint());
+  // When the current top card became visible, for dwell-time analytics.
+  const cardShownAt = useRef(Date.now());
+
+  useEffect(() => {
+    posthog.capture(Events.DECK_OPENED, {
+      progress: resumed.index,
+      deck_size: quotes.length,
+      completed: resumed.index >= quotes.length,
+    });
+    // Fire once per mount; resumed.index is fixed at mount time.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const handleSwipe = useCallback(
     (quote: Quote, dir: SwipeDir) => {
+      posthog.capture(Events.QUOTE_VIEWED, {
+        quote_id: quote.id,
+        tags: quote.tags ?? [],
+        author: quote.author,
+        direction: dir,
+        position_in_deck: index + 1,
+        dwell_ms: Date.now() - cardShownAt.current,
+      });
+      cardShownAt.current = Date.now();
+      if (index + 1 >= quotes.length) {
+        posthog.capture(Events.DECK_COMPLETED, {
+          deck_size: quotes.length,
+          liked_count:
+            history.filter((h) => h.dir === 'like').length + (dir === 'like' ? 1 : 0),
+        });
+      }
       recordSwipe(quote.id, quote.tags, dir);
       recordDeckSwipe(quote.id, dir);
       // Weights are now updated in MMKV; bump the nonce so the widget re-syncs.
@@ -66,7 +95,7 @@ export function SwipeDeck({ quotes, height, onFirstSwipe, onHeartTapped }: Swipe
       });
       setIndex((i) => i + 1);
     },
-    [onFirstSwipe, dispatch],
+    [onFirstSwipe, dispatch, index, history, quotes.length],
   );
 
   const totalSlots = quotes.length;
@@ -121,7 +150,7 @@ function DeckRecap({ height, history }: { height: number; history: SwipeRecord[]
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     }
     router.push({
-      pathname: '/category-feed',
+      pathname: '/quote-viewer',
       params: { favorites: 'true', favoriteId: quoteId, hideTitle: 'true' },
     });
   }, []);

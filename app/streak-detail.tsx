@@ -1,6 +1,7 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
 import { findMoodByLabel, MOODS } from '@/data/moods';
+import { Events, posthog } from '@/utils/posthog';
 import { computeMoodStreak, computeStreak, getTodayDateString } from '@/utils/streak';
 import { RiveFileFactory, RiveView } from '@rive-app/react-native';
 import * as Haptics from 'expo-haptics';
@@ -72,6 +73,10 @@ export default function StreakDetail() {
   const { state } = useAppContext();
   const streak = computeStreak(state.streakDates);
   const progress = Math.min(streak / MAX_STREAK_DISPLAY, 1);
+
+  useEffect(() => {
+    posthog.capture(Events.STREAK_DETAIL_OPENED, { streak_length: streak });
+  }, []);
 
   const currentMood = findMoodByLabel(state.user?.weatherMood) ?? MOODS[0];
   const ringColor = currentMood.color;

@@ -94,7 +94,7 @@ export default function RootLayout() {
               }}
             />
             <Stack.Screen
-              name="category-feed"
+              name="quote-viewer"
               options={{
                 presentation: 'modal',
                 headerShown: false,

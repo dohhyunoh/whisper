@@ -3,8 +3,6 @@
     "id": "rel-friend-001",
     "text": "Walking with a friend in the dark is better than walking alone in the light.",
     "author": "Helen Keller",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -17,8 +15,6 @@
     "id": "rel-friend-002",
     "text": "In the sweetness of friendship let there be laughter, and sharing of pleasures. For in the dew of little things the heart finds its morning and is refreshed.",
     "author": "Khalil Gibran",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -31,8 +27,6 @@
     "id": "rel-friend-003",
     "text": "One of the most beautiful qualities of true friendship is to understand and to be understood.",
     "author": "Lucius Annaeus Seneca",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -44,8 +38,6 @@
     "id": "rel-friend-004",
     "text": "There is nothing on this earth more to be prized than true friendship.",
     "author": "Thomas Aquinas",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -57,8 +49,6 @@
     "id": "rel-friend-005",
     "text": "Lovers have a right to betray you... friends don't.",
     "author": "Judy Holliday",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -71,8 +61,6 @@
     "id": "rel-friend-006",
     "text": "Remember that the most valuable antiques are dear old friends.",
     "author": "H. Jackson Brown, Jr.",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -84,8 +72,6 @@
     "id": "rel-friend-007",
     "text": "Friendship is unnecessary, like philosophy, like art... It has no survival value; rather it is one of those things that give value to survival.",
     "author": "C. S. Lewis",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -97,8 +83,6 @@
     "id": "rel-friend-008",
     "text": "A friend is someone who gives you total freedom to be yourself.",
     "author": "Jim Morrison",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -111,8 +95,6 @@
     "id": "rel-friend-009",
     "text": "There is a magnet in your heart that will attract true friends. That magnet is unselfishness, thinking of others first; when you learn to live for others, they will live for you.",
     "author": "Paramahansa Yogananda",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -124,8 +106,6 @@
     "id": "rel-friend-010",
     "text": "The language of friendship is not words but meanings.",
     "author": "Henry David Thoreau",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -136,8 +116,6 @@
     "id": "rel-friend-011",
     "text": "My best friend is the one who brings out the best in me.",
     "author": "Henry Ford",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -149,8 +127,6 @@
     "id": "rel-friend-012",
     "text": "It is more shameful to distrust our friends than to be deceived by them.",
     "author": "Confucius",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -162,8 +138,6 @@
     "id": "rel-friend-013",
     "text": "Friendship improves happiness and abates misery, by the doubling of our joy and the dividing of our grief.",
     "author": "Marcus Tullius Cicero",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -176,8 +150,6 @@
     "id": "rel-friend-014",
     "text": "Friendship... is not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything.",
     "author": "Muhammad Ali",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -189,8 +161,6 @@
     "id": "rel-friend-015",
     "text": "Be slow to fall into friendship; but when thou art in, continue firm and constant.",
     "author": "Socrates",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "direct",
     "tags": [
       "theme:friendship",
@@ -202,8 +172,6 @@
     "id": "rel-friend-016",
     "text": "A man's friendships are one of the best measures of his worth.",
     "author": "Charles Darwin",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -215,8 +183,6 @@
     "id": "rel-friend-019",
     "text": "The friend who can be silent with us in a moment of despair or confusion, who can stay with us in an hour of grief and bereavement, who can tolerate not knowing... not healing, not curing... that is a friend who cares.",
     "author": "Henri Nouwen",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -229,8 +195,6 @@
     "id": "rel-friend-020",
     "text": "A friend to all is a friend to none.",
     "author": "Aristotle",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -244,8 +208,6 @@
     "id": "rel-friend-021",
     "text": "Friendship needs no words - it is solitude delivered from the anguish of loneliness.",
     "author": "Dag Hammarskjold",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -259,8 +221,6 @@
     "id": "rel-friend-022",
     "text": "Of all possessions a friend is the most precious.",
     "author": "Herodotus",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -272,8 +232,6 @@
     "id": "rel-friend-023",
     "text": "When you choose your friends, don't be short-changed by choosing personality over character.",
     "author": "W. Somerset Maugham",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -285,8 +243,6 @@
     "id": "rel-friend-025",
     "text": "It's the friends you can call up at 4 a.m. that matter.",
     "author": "Marlene Dietrich",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -297,8 +253,6 @@
     "id": "rel-friend-026",
     "text": "A friend is what the heart needs all the time.",
     "author": "Henry Van Dyke",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -310,8 +264,6 @@
     "id": "rel-friend-028",
     "text": "An insincere and evil friend is more to be feared than a wild beast; a wild beast may wound your body, but an evil friend will wound your mind.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "direct",
     "tags": [
       "theme:friendship",
@@ -324,8 +276,6 @@
     "id": "rel-friend-029",
     "text": "Things are never quite as scary when you've got a best friend.",
     "author": "Bill Watterson",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -338,8 +288,6 @@
     "id": "rel-friend-030",
     "text": "Two persons cannot long be friends if they cannot forgive each other's little failings.",
     "author": "Jean de la Bruyere",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -352,8 +300,6 @@
     "id": "rel-friend-031",
     "text": "Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom.",
     "author": "Marcel Proust",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -366,8 +312,6 @@
     "id": "rel-friend-032",
     "text": "A real friend is one who walks in when the rest of the world walks out.",
     "author": "Walter Winchell",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -379,8 +323,6 @@
     "id": "rel-friend-033",
     "text": "There are no strangers here; Only friends you haven't yet met.",
     "author": "William Butler Yeats",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -392,8 +334,6 @@
     "id": "rel-friend-034",
     "text": "The only way to have a friend is to be one.",
     "author": "Ralph Waldo Emerson",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -405,8 +345,6 @@
     "id": "rel-friend-035",
     "text": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.",
     "author": "Oprah Winfrey",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -418,8 +356,6 @@
     "id": "rel-friend-036",
     "text": "I cannot even imagine where I would be today were it not for that handful of friends who have given me a heart full of joy. Let's face it, friends make life a lot more fun.",
     "author": "Charles R. Swindoll",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -431,8 +367,6 @@
     "id": "rel-friend-037",
     "text": "The greatest gift of life is friendship, and I have received it.",
     "author": "Hubert H. Humphrey",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -444,8 +378,6 @@
     "id": "rel-friend-038",
     "text": "Do I not destroy my enemies when I make them my friends?",
     "author": "Abraham Lincoln",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -457,8 +389,6 @@
     "id": "rel-friend-039",
     "text": "Friends show their love in times of trouble, not in happiness.",
     "author": "Euripides",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -470,8 +400,6 @@
     "id": "rel-friend-040",
     "text": "Some people go to priests; others to poetry; I to my friends.",
     "author": "Virginia Woolf",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -483,8 +411,6 @@
     "id": "rel-friend-041",
     "text": "A single rose can be my garden... a single friend, my world.",
     "author": "Leo Buscaglia",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -496,8 +422,6 @@
     "id": "rel-friend-043",
     "text": "My friends are my estate.",
     "author": "Emily Dickinson",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -508,8 +432,6 @@
     "id": "rel-friend-044",
     "text": "Friends are the siblings God never gave us.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -522,8 +444,6 @@
     "id": "rel-friend-046",
     "text": "I don't need a friend who changes when I change and who nods when I nod; my shadow does that much better.",
     "author": "Plutarch",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -536,8 +456,6 @@
     "id": "rel-friend-047",
     "text": "As iron sharpens iron, so a friend sharpens a friend.",
     "author": "King Solomon",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -549,8 +467,6 @@
     "id": "rel-friend-048",
     "text": "There is no friend like an old friend who has shared our morning days, no greeting like his welcome, no homage like his praise.",
     "author": "Oliver Wendell Holmes, Sr.",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -562,8 +478,6 @@
     "id": "rel-friend-049",
     "text": "I have learned that to be with those I like is enough.",
     "author": "Walt Whitman",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -575,8 +489,6 @@
     "id": "rel-friend-051",
     "text": "Sometimes being a friend means mastering the art of timing. There is a time for silence. A time to let go and allow people to hurl themselves into their own destiny. And a time to prepare to pick up the pieces when it's all over.",
     "author": "Octavia E. Butler",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -589,8 +501,6 @@
     "id": "rel-friend-052",
     "text": "It takes a long time to grow an old friend.",
     "author": "John Leonard",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -602,8 +512,6 @@
     "id": "rel-friend-053",
     "text": "A friend is a gift you give yourself.",
     "author": "Robert Louis Stevenson",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -614,8 +522,6 @@
     "id": "rel-friend-054",
     "text": "Be courteous to all, but intimate with few, and let those few be well tried before you give them your confidence.",
     "author": "George Washington",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "direct",
     "tags": [
       "theme:friendship",
@@ -628,8 +534,6 @@
     "id": "rel-friend-055",
     "text": "I have friends in overalls whose friendship I would not swap for the favor of the kings of the world.",
     "author": "Thomas A. Edison",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -641,8 +545,6 @@
     "id": "rel-friend-056",
     "text": "A true friend is someone who is there for you when he'd rather be anywhere else.",
     "author": "Len Wein",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -654,8 +556,6 @@
     "text": "Friendship … is born at the moment when one man says to another, 'What! You too? I thought that no one but myself…'",
     "author": "C.S. Lewis",
     "source": "The Four Loves",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -668,8 +568,6 @@
     "text": "Words are easy, like the wind; faithful friends are hard to find.",
     "author": "William Shakespeare",
     "source": "Passionate Pilgrim",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -682,8 +580,6 @@
     "text": "Growing apart doesn't change the fact that for a long time we grew side by side; our roots will always be tangled. I'm glad for that.",
     "author": "Ally Condie",
     "source": "Matched",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -698,8 +594,6 @@
     "text": "Courage. Kindness. Friendship. Character. These are the qualities that define us as human beings, and propel us, on occasion, to greatness.",
     "author": "R.J. Palacio",
     "source": "Wonder",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -713,8 +607,6 @@
     "text": "Friendship is everything. Friendship is more than talent. It is more than the government. It is almost the equal of family.",
     "author": "Mario Puzo",
     "source": "The Godfather",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -728,8 +620,6 @@
     "text": "Friendships take minutes to make, moments to break, years to repair.",
     "author": "Pierce Brown",
     "source": "Golden Son",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -742,8 +632,6 @@
     "text": "A real friend isn't capable of feeling sorry for you.",
     "author": "Jodi Picoult",
     "source": "My Sister's Keeper",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -756,8 +644,6 @@
     "text": "Without friends, no one would want to live, even if he had all other goods.",
     "author": "Aristotle",
     "source": "The Nicomachean Ethics",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -770,8 +656,6 @@
     "text": "Friends ask you questions; enemies question you.",
     "author": "Criss Jami",
     "source": "Healology",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -784,8 +668,6 @@
     "text": "If you have but one friend, make sure you choose her well.",
     "author": "Muriel Barbery",
     "source": "The Elegance of the Hedgehog",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -798,8 +680,6 @@
     "text": "There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.",
     "author": "Jane Austen",
     "source": "Northanger Abbey",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -811,8 +691,6 @@
     "text": "Never leave a friend behind. Friends are all we have to get us through this life—and they are the only things from this world that we could hope to see in the next.",
     "author": "Dean Koontz",
     "source": "Fear Nothing",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -824,8 +702,6 @@
     "text": "I got you to look after me, and you got me to look after you, and that's why.",
     "author": "John Steinbeck",
     "source": "Of Mice and Men",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -838,8 +714,6 @@
     "text": "If you care about somebody, you should want them to be happy. Even if you wind up being left out.",
     "author": "Stephen Chbosky",
     "source": "The Perks of Being a Wallflower",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -853,8 +727,6 @@
     "text": "Friendship is always a sweet responsibility, never an opportunity.",
     "author": "Khalil Gibran",
     "source": "The Collected Works",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -867,8 +739,6 @@
     "text": "One friend with whom you have a lot in common is better than three with whom you struggle to find things to talk about.",
     "author": "Mindy Kaling",
     "source": "Is Everyone Hanging Out Without Me?",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -881,8 +751,6 @@
     "text": "New friends can often have a better time together than old friends.",
     "author": "F. Scott Fitzgerald",
     "source": "Tender Is the Night",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -894,8 +762,6 @@
     "text": "A doubtful friend is worse than a certain enemy. Let a man be one thing or the other, and we then know how to meet him.",
     "author": "Aesop",
     "source": "Aesop's Fables",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "direct",
     "tags": [
       "theme:friendship",
@@ -909,8 +775,6 @@
     "text": "It's all very well to tell us to forgive our enemies; our enemies can never hurt us very much. But oh, what about forgiving our friends?",
     "author": "Willa Cather",
     "source": "My Mortal Enemy",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -924,8 +788,6 @@
     "text": "A snowball in the face is surely the perfect beginning to a lasting friendship.",
     "author": "Markus Zusak",
     "source": "The Book Thief",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -938,8 +800,6 @@
     "text": "My old grandmother always used to say, summer friends will melt away like summer snows, but winter friends are friends forever.",
     "author": "George R.R. Martin",
     "source": "A Feast for Crows",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -952,8 +812,6 @@
     "text": "It's not love or anything, but I think I like you, too.",
     "author": "Chuck Palahniuk",
     "source": "Fight Club",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -965,8 +823,6 @@
     "text": "Cutting people out of your life is easy, keeping them in is hard.",
     "author": "Walter Dean Myers",
     "source": "Slam!",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "direct",
     "tags": [
       "theme:friendship",
@@ -980,8 +836,6 @@
     "text": "You had to know a person well to make them laugh like that.",
     "author": "Cassandra Clare",
     "source": "Clockwork Prince",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -994,8 +848,6 @@
     "text": "You only really fall apart in front of the people you know can piece you back together.",
     "author": "Sarah Dessen",
     "source": "Saint Anything",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1008,8 +860,6 @@
     "id": "rel-friend-088",
     "text": "A good friend hears even what's left unsaid.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1021,8 +871,6 @@
     "id": "rel-friend-089",
     "text": "Friendship is built in small, consistent moments.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1034,8 +882,6 @@
     "id": "rel-friend-090",
     "text": "A true friend never counts favors.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1046,8 +892,6 @@
     "id": "rel-friend-091",
     "text": "Real friends laugh until everything feels lighter.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1059,8 +903,6 @@
     "id": "rel-friend-093",
     "text": "Distance doesn't dim a strong friendship.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1072,8 +914,6 @@
     "id": "rel-friend-094",
     "text": "Trust turns acquaintances into true friends.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1085,8 +925,6 @@
     "id": "rel-friend-095",
     "text": "Friendship means growing, even when it's hard.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1098,8 +936,6 @@
     "id": "rel-friend-096",
     "text": "A friend believes in you, especially when you don't.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1112,8 +948,6 @@
     "id": "rel-friend-097",
     "text": "One honest friend is worth a thousand polite smiles.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1125,8 +959,6 @@
     "id": "rel-friend-098",
     "text": "Friendship thrives on effort, not just convenience.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1138,8 +970,6 @@
     "id": "rel-friend-099",
     "text": "Loyal friends hold space for your messy days.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1152,8 +982,6 @@
     "id": "rel-friend-100",
     "text": "Real friends celebrate your weirdness without flinching.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1167,8 +995,6 @@
     "text": "If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you.",
     "author": "Joan Powers",
     "source": "Pooh's Little Instruction Book",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1181,8 +1007,6 @@
     "text": "You can't stay in your corner of the Forest waiting for others to come to you. You have to go to them sometimes.",
     "author": "A.A. Milne",
     "source": "Winnie-the-Pooh",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1195,8 +1019,6 @@
     "text": "Why did you do all this for me?' he asked. 'I don't deserve it. I've never done anything for you.' 'You have been my friend,' replied Charlotte. 'That in itself is a tremendous thing.",
     "author": "E.B. White",
     "source": "Charlotte's Web",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1210,8 +1032,6 @@
     "text": "It is more fun to talk with someone who doesn't use long, difficult words but rather short, easy words like 'What about lunch?'",
     "author": "A. A. Milne",
     "source": "Winnie-the-Pooh",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1224,8 +1044,6 @@
     "text": "A friend may be waiting behind a stranger's face.",
     "author": "Maya Angelou",
     "source": "Letter to My Daughter",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1238,8 +1056,6 @@
     "text": "Time doesn't take away from friendship, nor does separation.",
     "author": "Tennessee Williams",
     "source": "Memoirs",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1252,8 +1068,6 @@
     "text": "When friendships are real, they are not glass threads or frost work, but the solidest things we can know.",
     "author": "Ralph Waldo Emerson",
     "source": "Essays, First Series",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1266,8 +1080,6 @@
     "text": "An acquaintance merely enjoys your company, a fair-weather companion flatters when all is well, a true friend has your best interests at heart and the pluck to tell you what you need to hear.",
     "author": "E.A. Bucchianeri",
     "source": "Brushstrokes of a Gadfly",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "direct",
     "tags": [
       "theme:friendship",
@@ -1280,8 +1092,6 @@
     "text": "Of all the means to ensure happiness throughout the whole life, by far the most important is the acquisition of friends.",
     "author": "Epicurus",
     "source": "A Guide to Happiness",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1294,8 +1104,6 @@
     "text": "The only true test of friendship is the time your friend spends on you.",
     "author": "John Marsden",
     "source": "Circle of Flight",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1308,8 +1116,6 @@
     "text": "Life is an awful, ugly place to not have a best friend.",
     "author": "Sarah Dessen",
     "source": "Someone Like You",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1322,8 +1128,6 @@
     "text": "I am glad you are here with me. Here at the end of all things, Sam.",
     "author": "J.R.R. Tolkien",
     "source": "The Return of the King",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1336,8 +1140,6 @@
     "text": "Tis the privilege of friendship to talk nonsense, and to have her nonsense respected.",
     "author": "Charles Lamb",
     "source": "The Life, Letters and Writings of Charles Lamb Volume 3",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1350,8 +1152,6 @@
     "text": "There's not a word yet, for old friends who've just met.",
     "author": "Jim Henson",
     "source": "Favorite Songs From Jim Henson's Muppets",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1363,8 +1163,6 @@
     "text": "The pain of parting is nothing to the joy of meeting again.",
     "author": "Charles Dickens",
     "source": "Nicholas Nickleby",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1378,8 +1176,6 @@
     "text": "There is no happiness like that of being loved by your fellow creatures, and feeling that your presence is an addition to their comfort.",
     "author": "Charlotte Brontë",
     "source": "Jane Eyre",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1393,8 +1189,6 @@
     "text": "Friendships between women, as any woman will tell you, are built of a thousand small kindnesses… swapped back and forth and over again.",
     "author": "Michelle Obama",
     "source": "Becoming",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1406,8 +1200,6 @@
     "text": "Only a true best friend can protect you from your immortal enemies.",
     "author": "Richelle Mead",
     "source": "Vampire Academy",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1419,8 +1211,6 @@
     "text": "There are no faster or firmer friendships than those formed between people who love the same books.",
     "author": "Irving Stone",
     "source": "Clarence Darrow for the Defense",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1432,8 +1222,6 @@
     "text": "We always see our worst selves. Our most vulnerable selves. We need someone else to get close enough to tell us we're wrong. Someone we trust.",
     "author": "David Levithan",
     "source": "Naomi and Ely's No Kiss List",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1447,8 +1235,6 @@
     "text": "It is not often that someone comes along who is a true friend and a good writer.",
     "author": "E.B. White",
     "source": "Charlotte's Web",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1461,8 +1247,6 @@
     "text": "No friendship is an accident.",
     "author": "O. Henry",
     "source": "Heart of the West",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1474,8 +1258,6 @@
     "text": "What do you most value in your friends? Their continued existence.",
     "author": "Christopher Hitchens",
     "source": "Hitch 22: A Memoir",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1487,8 +1269,6 @@
     "text": "True friends are those who came into your life, saw the most negative part of you, but are not ready to leave you, no matter how contagious you are to them.",
     "author": "Michael Bassey Johnson",
     "source": "The Infinity Sign",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1502,8 +1282,6 @@
     "text": "To throw away an honest friend is, as it were, to throw your life away.",
     "author": "Sophocles",
     "source": "Oedipus Rex",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1516,8 +1294,6 @@
     "text": "A real relationship is two-way.",
     "author": "Sophie Kinsella",
     "source": "Can You Keep a Secret?",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1530,8 +1306,6 @@
     "text": "Never hold resentments for the person who tells you what you need to hear; count them among your truest, most caring, and valuable friends.",
     "author": "Mike Norton",
     "source": "Just Another War Story",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1543,8 +1317,6 @@
     "id": "rel-friend-135",
     "text": "Loneliness does not come from having no people around you, but from being unable to communicate the things that seem important to you.",
     "author": "Carl Jung",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1557,8 +1329,6 @@
     "id": "rel-friend-136",
     "text": "The capacity for friendship is God's way of apologizing for our families.",
     "author": "Jay McInerney",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1571,8 +1341,6 @@
     "text": "In my next life, I want to be me, and meet you again.",
     "author": "Killua Zoldyck",
     "source": "Hunter x Hunter",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1585,8 +1353,6 @@
     "text": "No matter what happens, even when it looks like you're gonna lose, when no one else believes in you, when you don't believe in yourself... I will believe!",
     "author": "Rem",
     "source": "Re:Zero",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "direct",
     "tags": [
       "theme:friendship",
@@ -1600,8 +1366,6 @@
     "text": "I won't leave you behind. I'll take you with me to the very end.",
     "author": "Shinei Nouzen",
     "source": "86 Eighty-Six",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "direct",
     "tags": [
       "theme:friendship",
@@ -1614,8 +1378,6 @@
     "text": "Some people are worth melting for.",
     "author": "Olaf",
     "source": "Frozen",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1628,8 +1390,6 @@
     "text": "You and I are a team. Nothing is more important than our friendship.",
     "author": "Mike Wazowski",
     "source": "Monsters, Inc.",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1640,8 +1400,6 @@
     "id": "rel-friend-142",
     "text": "Group chat is my therapy.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1652,8 +1410,6 @@
     "id": "rel-friend-143",
     "text": "She's not my sister, but she is.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1665,8 +1421,6 @@
     "id": "rel-friend-144",
     "text": "Best friends finish each other's sentences.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1677,8 +1431,6 @@
     "id": "rel-friend-145",
     "text": "We don't need plans. Just each other.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1689,8 +1441,6 @@
     "id": "rel-friend-146",
     "text": "My best friend knows my whole mess.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1702,8 +1452,6 @@
     "id": "rel-friend-147",
     "text": "Friends who roast you love you most.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1714,8 +1462,6 @@
     "id": "rel-friend-148",
     "text": "We laugh at things nobody else gets.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1727,8 +1473,6 @@
     "id": "rel-friend-149",
     "text": "She held my hand through it all.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1740,8 +1484,6 @@
     "id": "rel-friend-150",
     "text": "Matching energy since day one.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1752,8 +1494,6 @@
     "id": "rel-friend-151",
     "text": "No one gets me like you do.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1765,8 +1505,6 @@
     "id": "rel-friend-152",
     "text": "We grew up, but we grew together.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1778,8 +1516,6 @@
     "id": "rel-friend-153",
     "text": "That one friend who feels like home.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1791,8 +1527,6 @@
     "id": "rel-friend-154",
     "text": "Three-hour phone calls fix everything.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1804,8 +1538,6 @@
     "id": "rel-friend-155",
     "text": "She showed up. That said everything.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1817,8 +1549,6 @@
     "id": "rel-friend-156",
     "text": "Best friends don't judge your 2am texts.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1830,8 +1560,6 @@
     "id": "rel-friend-157",
     "text": "We've been through it all and stayed.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1842,8 +1570,6 @@
     "id": "rel-friend-158",
     "text": "Ride or die isn't a phrase. It's a person.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "direct",
     "tags": [
       "theme:friendship",
@@ -1854,8 +1580,6 @@
     "id": "rel-friend-159",
     "text": "She's my favorite notification.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "playful",
     "tags": [
       "theme:friendship",
@@ -1868,8 +1592,6 @@
     "text": "Love is putting someone else's needs before yours.",
     "author": "Olaf",
     "source": "Frozen",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1882,8 +1604,6 @@
     "text": "A day without a friend is like a pot without a single drop of honey left inside.",
     "author": "Winnie the Pooh",
     "source": "Winnie the Pooh",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1897,8 +1617,6 @@
     "text": "A hug is always the right size.",
     "author": "Winnie the Pooh",
     "source": "Winnie the Pooh",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1911,8 +1629,6 @@
     "text": "\"We'll be Friends Forever, won't we, Pooh?\" asked Piglet. \"Even longer,\" Pooh answered.",
     "author": "Winnie the Pooh",
     "source": "Winnie the Pooh",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1924,8 +1640,6 @@
     "text": "\"How do you spell 'love'?\" — Piglet. \"You don't spell it... you feel it.\" — Pooh.",
     "author": "Winnie the Pooh",
     "source": "Winnie the Pooh",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",
@@ -1936,8 +1650,6 @@
     "id": "rel-friend-167",
     "text": "It's about who stands in the rain with you, when they have a choice to be dry.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "friendship",
     "tone": "gentle",
     "tags": [
       "theme:friendship",

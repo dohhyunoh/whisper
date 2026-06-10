@@ -1,17 +1,3 @@
-export type Category =
-  | 'self-love'
-  | 'relationships'
-  | 'empowerment'
-  | 'religion'
-  | 'mood-boosters';
-
-export type SelfLoveSub = 'self-worth' | 'body-positivity' | 'mental-health' | 'rest-recharge';
-export type RelationshipSub = 'dating' | 'partnership' | 'friendship' | 'letting-go' | 'family' | 'attracting-love';
-export type EmpowermentSub = 'career' | 'overcoming-obstacles' | 'financial-independence' | 'finding-voice';
-export type ReligionSub = 'general-spirituality' | 'christianity' | 'islam' | 'hinduism' | 'buddhism';
-export type MoodBoosterSub = 'daily-motivation' | 'calm' | 'gratitude' | 'manifestation' | 'philosophy' | 'poetry';
-export type SubCategory = SelfLoveSub | RelationshipSub | EmpowermentSub | ReligionSub | MoodBoosterSub | null;
-
 export type ToneTag = 'gentle' | 'direct' | 'playful';
 
 export interface Quote {
@@ -19,8 +5,6 @@ export interface Quote {
   text: string;
   author: string;
   source?: string;
-  category: Category;
-  subcategory?: SubCategory;
   tone?: ToneTag;
   tags?: string[];
 }

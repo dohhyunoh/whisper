@@ -4,6 +4,7 @@ import { ALL_THEMES, BACKGROUND_THEMES, IMAGE_THEMES, isImageTheme } from '@/con
 import { Quote } from '@/data/types';
 import { useLikes } from '@/hooks/use-likes';
 import { usePremium } from '@/hooks/use-premium';
+import { Events, posthog } from '@/utils/posthog';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -46,10 +47,23 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
     opacity.value = withTiming(1, { duration: 400 });
   }, []);
 
+  const trackFavorited = useCallback(
+    (method: 'heart_button' | 'double_tap') => {
+      posthog.capture(Events.QUOTE_FAVORITED, {
+        quote_id: quote.id,
+        tags: quote.tags ?? [],
+        author: quote.author,
+        method,
+      });
+    },
+    [quote],
+  );
+
   const handleDoubleTap = useCallback(() => {
     // Only trigger like if not already liked
     if (!isLiked(quote.id)) {
       toggleLike(quote.id);
+      trackFavorited('double_tap');
       onLike?.();
     }
     // Always show heart animation on double-tap
@@ -66,7 +80,7 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
       withTiming(1, { duration: 600 }),
       withTiming(0, { duration: 200 })
     );
-  }, [isLiked, toggleLike, quote.id]);
+  }, [isLiked, toggleLike, quote.id, trackFavorited]);
 
   const doubleTapGesture = Gesture.Tap()
     .numberOfTaps(2)
@@ -227,7 +241,10 @@ export function QuoteCard({ quote, height, onLike }: QuoteCardProps) {
         onToggle={() => {
           const wasLiked = isLiked(quote.id);
           toggleLike(quote.id);
-          if (!wasLiked) onLike?.();
+          if (!wasLiked) {
+            trackFavorited('heart_button');
+            onLike?.();
+          }
         }}
         color={textColor}
       />

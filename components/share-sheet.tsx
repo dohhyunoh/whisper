@@ -1,5 +1,6 @@
 import { WhisperColors } from '@/constants/theme';
 import { Quote } from '@/data/types';
+import { Events, posthog } from '@/utils/posthog';
 import { Ionicons } from '@expo/vector-icons';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
@@ -263,13 +264,24 @@ export function ShareSheet({ visible, onClose, quote, onCaptureImage }: ShareShe
 
   // ── Actions ──────────────────────────────────────────
 
+  const trackShare = (method: string) => {
+    posthog.capture(Events.QUOTE_SHARED, {
+      quote_id: quote.id,
+      tags: quote.tags ?? [],
+      author: quote.author,
+      method,
+    });
+  };
+
   const handleCopyText = async () => {
+    trackShare('copy_text');
     await Clipboard.setStringAsync(formatQuoteText());
     if (process.env.EXPO_OS === 'ios') Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
     showToast('Copied to clipboard');
   };
 
   const handleMessages = async () => {
+    trackShare('messages');
     await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     // Small delay so haptic fires before app switch
     await new Promise((r) => setTimeout(r, 50));
@@ -278,6 +290,7 @@ export function ShareSheet({ visible, onClose, quote, onCaptureImage }: ShareShe
   };
 
   const handleSocialApp = async (target: ShareTarget) => {
+    trackShare(target.key);
     await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     // Small delay so haptic fires before app switch
     await new Promise((r) => setTimeout(r, 50));
@@ -337,12 +350,14 @@ export function ShareSheet({ visible, onClose, quote, onCaptureImage }: ShareShe
   const handleSaveImage = async () => {
     const saved = await saveImageToLibrary();
     if (saved) {
+      trackShare('save_image');
       if (process.env.EXPO_OS === 'ios') Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
       showToast('Saved to Photos');
     }
   };
 
   const handleMore = async () => {
+    trackShare('native_sheet');
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     setLoadingMore(true);
     // Clear spinner after a short delay — the native sheet takes over visually

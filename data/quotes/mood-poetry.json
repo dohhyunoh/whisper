@@ -3,8 +3,6 @@
     "id": "mood-poetry-001",
     "text": "I have loved the stars too fondly to be fearful of the night.",
     "author": "Sarah Williams",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -18,8 +16,6 @@
     "id": "mood-poetry-002",
     "text": "Hope is the thing with feathers that perches in the soul.",
     "author": "Emily Dickinson",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -32,8 +28,6 @@
     "id": "mood-poetry-003",
     "text": "Do I dare disturb the universe? In a minute there is time for decisions and revisions which a minute will reverse.",
     "author": "T.S. Eliot",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:anxiety",
@@ -47,8 +41,6 @@
     "id": "mood-poetry-004",
     "text": "I am not what happened to me. I am what I choose to become.",
     "author": "Carl Jung",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -61,8 +53,6 @@
     "id": "mood-poetry-005",
     "text": "She was beautiful, but not like those girls in the magazines. She was beautiful for the way she thought.",
     "author": "F. Scott Fitzgerald",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -74,8 +64,6 @@
     "id": "mood-poetry-006",
     "text": "I took a deep breath and listened to the old brag of my heart: I am, I am, I am.",
     "author": "Sylvia Plath",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -89,8 +77,6 @@
     "id": "mood-poetry-007",
     "text": "Out of the night that covers me, black as the pit from pole to pole, I thank whatever gods may be for my unconquerable soul.",
     "author": "William Ernest Henley",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -104,8 +90,6 @@
     "id": "mood-poetry-008",
     "text": "I dwell in possibility.",
     "author": "Emily Dickinson",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -118,8 +102,6 @@
     "id": "mood-poetry-009",
     "text": "Wild nights! Wild nights! Were I with thee, wild nights should be our luxury.",
     "author": "Emily Dickinson",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "playful",
     "tags": [
       "emotion:longing",
@@ -132,8 +114,6 @@
     "id": "mood-poetry-011",
     "text": "You do not have to be good. You do not have to walk on your knees for a hundred miles through the desert, repenting.",
     "author": "Mary Oliver",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -146,8 +126,6 @@
     "id": "mood-poetry-012",
     "text": "Tell me, what is it you plan to do with your one wild and precious life?",
     "author": "Mary Oliver",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:purpose",
@@ -160,8 +138,6 @@
     "id": "mood-poetry-013",
     "text": "I am the master of my fate, I am the captain of my soul.",
     "author": "William Ernest Henley",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -173,8 +149,6 @@
     "id": "mood-poetry-014",
     "text": "If you can keep your head when all about you are losing theirs and blaming it on you.",
     "author": "Rudyard Kipling",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "emotion:anxiety",
@@ -187,8 +161,6 @@
     "id": "mood-poetry-015",
     "text": "What if I fall? Oh, but my darling, what if you fly?",
     "author": "Erin Hanson",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:fear",
@@ -202,8 +174,6 @@
     "id": "mood-poetry-016",
     "text": "I carry your heart with me. I carry it in my heart.",
     "author": "E.E. Cummings",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:romantic-love",
@@ -216,8 +186,6 @@
     "id": "mood-poetry-017",
     "text": "She walks in beauty, like the night of cloudless climes and starry skies.",
     "author": "Lord Byron",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:romantic-love",
@@ -229,8 +197,6 @@
     "id": "mood-poetry-018",
     "text": "I have spread my dreams under your feet; tread softly because you tread on my dreams.",
     "author": "W.B. Yeats",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:romantic-love",
@@ -243,8 +209,6 @@
     "id": "mood-poetry-019",
     "text": "Two roads diverged in a wood, and I — I took the one less traveled by, and that has made all the difference.",
     "author": "Robert Frost",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:purpose",
@@ -258,8 +222,6 @@
     "id": "mood-poetry-020",
     "text": "Shall I compare thee to a summer's day? Thou art more lovely and more temperate.",
     "author": "William Shakespeare",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:romantic-love",
@@ -271,8 +233,6 @@
     "id": "mood-poetry-021",
     "text": "I said to my soul, be still, and wait without hope, for hope would be hope for the wrong thing.",
     "author": "T.S. Eliot",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:peace",
@@ -285,8 +245,6 @@
     "id": "mood-poetry-022",
     "text": "There is a crack in everything. That's how the light gets in.",
     "author": "Leonard Cohen",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:healing",
@@ -299,8 +257,6 @@
     "id": "mood-poetry-023",
     "text": "Still I rise.",
     "author": "Maya Angelou",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -313,8 +269,6 @@
     "id": "mood-poetry-025",
     "text": "Let me not to the marriage of true minds admit impediments. Love is not love which alters when it alteration finds.",
     "author": "William Shakespeare",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:romantic-love",
@@ -326,8 +280,6 @@
     "id": "mood-poetry-026",
     "text": "I measure every grief I meet with narrow, probing eyes; I wonder if it weighs like mine, or has an easier size.",
     "author": "Emily Dickinson",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:grief",
@@ -340,8 +292,6 @@
     "id": "mood-poetry-027",
     "text": "Come to the edge, he said. They said: We are afraid. Come to the edge. They came. He pushed them and they flew.",
     "author": "Guillaume Apollinaire",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "emotion:fear",
@@ -354,8 +304,6 @@
     "id": "mood-poetry-028",
     "text": "The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved.",
     "author": "Jack Kerouac",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "playful",
     "tags": [
       "emotion:joy",
@@ -368,8 +316,6 @@
     "id": "mood-poetry-029",
     "text": "And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.",
     "author": "Anaïs Nin",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:growth",
@@ -382,8 +328,6 @@
     "id": "mood-poetry-030",
     "text": "I am large, I contain multitudes.",
     "author": "Walt Whitman",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -396,8 +340,6 @@
     "id": "mood-poetry-031",
     "text": "Keep some room in your heart for the unimaginable.",
     "author": "Mary Oliver",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -410,8 +352,6 @@
     "id": "mood-poetry-032",
     "text": "To live is the rarest thing in the world. Most people exist, that is all.",
     "author": "Oscar Wilde",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:purpose",
@@ -424,8 +364,6 @@
     "id": "mood-poetry-034",
     "text": "Not all those who wander are lost.",
     "author": "J.R.R. Tolkien",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:identity",
@@ -439,8 +377,6 @@
     "id": "mood-poetry-035",
     "text": "I have been bent and broken, but — I hope — into a better shape.",
     "author": "Charles Dickens",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:healing",
@@ -454,8 +390,6 @@
     "id": "mood-poetry-036",
     "text": "One need not be a chamber to be haunted; one need not be a house; the brain has corridors surpassing material place.",
     "author": "Emily Dickinson",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:anxiety",
@@ -468,8 +402,6 @@
     "id": "mood-poetry-037",
     "text": "To be, or not to be, that is the question.",
     "author": "William Shakespeare",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -482,8 +414,6 @@
     "id": "mood-poetry-039",
     "text": "How do I love thee? Let me count the ways. I love thee to the depth and breadth and height my soul can reach.",
     "author": "Elizabeth Barrett Browning",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:romantic-love",
@@ -495,8 +425,6 @@
     "id": "mood-poetry-040",
     "text": "I know why the caged bird sings.",
     "author": "Maya Angelou",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -508,8 +436,6 @@
     "id": "mood-poetry-041",
     "text": "The art of losing isn't hard to master.",
     "author": "Elizabeth Bishop",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:letting-go",
@@ -523,8 +449,6 @@
     "id": "mood-poetry-042",
     "text": "If I can stop one heart from breaking, I shall not live in vain.",
     "author": "Emily Dickinson",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:purpose",
@@ -537,8 +461,6 @@
     "id": "mood-poetry-043",
     "text": "I must go down to the seas again, to the lonely sea and the sky, and all I ask is a tall ship and a star to steer her by.",
     "author": "John Masefield",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:longing",
@@ -550,8 +472,6 @@
     "id": "mood-poetry-044",
     "text": "The universe is not made of atoms; it's made of stories.",
     "author": "Muriel Rukeyser",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:purpose",
@@ -564,8 +484,6 @@
     "id": "mood-poetry-045",
     "text": "Whatever you are, be a good one.",
     "author": "Abraham Lincoln",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -577,8 +495,6 @@
     "id": "mood-poetry-046",
     "text": "I would like to be the air that inhabits you for a moment only. I would like to be that unnoticed and that necessary.",
     "author": "Margaret Atwood",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:romantic-love",
@@ -590,8 +506,6 @@
     "id": "mood-poetry-047",
     "text": "Let everything happen to you: beauty and terror. Just keep going. No feeling is final.",
     "author": "Rainer Maria Rilke",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "emotion:grief",
@@ -604,8 +518,6 @@
     "id": "mood-poetry-048",
     "text": "Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage.",
     "author": "Rainer Maria Rilke",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:fear",
@@ -618,8 +530,6 @@
     "id": "mood-poetry-050",
     "text": "You yourself, as much as anybody in the entire universe, deserve your love and affection.",
     "author": "Sharon Salzberg",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -632,8 +542,6 @@
     "text": "It is always darkest just before the Day dawneth.",
     "author": "Thomas Fuller",
     "source": "A Pisgah-Sight of Palestine and the Confines Thereof",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:exhaustion",
@@ -648,8 +556,6 @@
     "text": "If Winter comes, can Spring be far behind?",
     "author": "Percy Bysshe Shelley",
     "source": "Ode to the West Wind",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -663,8 +569,6 @@
     "text": "Though she be but little, she is fierce.",
     "author": "William Shakespeare",
     "source": "A Midsummer Night's Dream",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "playful",
     "tags": [
       "theme:self-worth",
@@ -678,8 +582,6 @@
     "text": "There are more things in heaven and earth, Horatio, than are dreamt of in your philosophy.",
     "author": "William Shakespeare",
     "source": "Hamlet",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "need:perspective",
@@ -692,8 +594,6 @@
     "text": "All that we see or seem is but a dream within a dream.",
     "author": "Edgar Allan Poe",
     "source": "A Dream Within a Dream",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "need:perspective",
@@ -706,8 +606,6 @@
     "text": "I wandered lonely as a cloud that floats on high o'er vales and hills.",
     "author": "William Wordsworth",
     "source": "I Wandered Lonely as a Cloud",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:loneliness",
@@ -720,8 +618,6 @@
     "id": "mood-poetry-057",
     "text": "Out of suffering have emerged the strongest souls; the most massive characters are seared with scars.",
     "author": "Khalil Gibran",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:growth",
@@ -736,8 +632,6 @@
     "text": "My candle burns at both ends; it will not last the night; but ah, my foes, and oh, my friends—it gives a lovely light!",
     "author": "Edna St. Vincent Millay",
     "source": "First Fig",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "playful",
     "tags": [
       "emotion:joy",
@@ -751,8 +645,6 @@
     "text": "Better by far you should forget and smile than that you should remember and be sad.",
     "author": "Christina Rossetti",
     "source": "Remember",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:grief",
@@ -767,8 +659,6 @@
     "text": "So much depends upon a red wheel barrow glazed with rain water beside the white chickens.",
     "author": "William Carlos Williams",
     "source": "The Red Wheelbarrow",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "need:stillness",
@@ -782,8 +672,6 @@
     "text": "The world is so full of a number of things, I'm sure we should all be as happy as kings.",
     "author": "Robert Louis Stevenson",
     "source": "A Child's Garden of Verses",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "playful",
     "tags": [
       "emotion:joy",
@@ -796,8 +684,6 @@
     "id": "mood-poetry-062",
     "text": "The temple bell stops — but the sound keeps coming out of the flowers.",
     "author": "Matsuo Bashō",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:peace",
@@ -811,8 +697,6 @@
     "text": "Even the darkest night will end and the sun will rise.",
     "author": "Victor Hugo",
     "source": "Les Misérables",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -826,8 +710,6 @@
     "text": "I am not afraid of storms, for I am learning how to sail my ship.",
     "author": "Louisa May Alcott",
     "source": "Little Women",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:growth",
@@ -841,8 +723,6 @@
     "id": "mood-poetry-065",
     "text": "We are all of us stars, and we deserve to twinkle.",
     "author": "Marilyn Monroe",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -856,8 +736,6 @@
     "text": "You may shoot me with your words, you may cut me with your eyes, you may kill me with your hatefulness, but still, like air, I'll rise.",
     "author": "Maya Angelou",
     "source": "Still I Rise",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -870,8 +748,6 @@
     "id": "mood-poetry-067",
     "text": "We dance for laughter, we dance for tears, we dance for madness, we dance for fears, we dance for hopes, we dance for screams, we are the dancers, we create the dreams.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "playful",
     "tags": [
       "emotion:joy",
@@ -884,8 +760,6 @@
     "id": "mood-poetry-068",
     "text": "They lose the day in expectation of the night, and the night in fear of the dawn.",
     "author": "Seneca",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:anxiety",
@@ -898,8 +772,6 @@
     "id": "mood-poetry-069",
     "text": "We romanticize the stars, but forget the dark is what made them visible.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "need:perspective",
@@ -911,8 +783,6 @@
     "id": "mood-poetry-070",
     "text": "Hearts are wild creatures. That's why our ribs are cages.",
     "author": "Mark Beech",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:identity",
@@ -924,8 +794,6 @@
     "id": "mood-poetry-071",
     "text": "You built the walls high enough to block the storm, but now you can't feel the sun either.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:numbness",
@@ -940,8 +808,6 @@
     "text": "The woods are lovely, dark and deep, but I have promises to keep.",
     "author": "Robert Frost",
     "source": "Stopping by Woods on a Snowy Evening",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:purpose",
@@ -955,8 +821,6 @@
     "text": "And miles to go before I sleep.",
     "author": "Robert Frost",
     "source": "Stopping by Woods on a Snowy Evening",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:purpose",
@@ -969,8 +833,6 @@
     "id": "mood-poetry-074",
     "text": "The soul selects her own society.",
     "author": "Emily Dickinson",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -984,8 +846,6 @@
     "text": "I'm nobody! Who are you?",
     "author": "Emily Dickinson",
     "source": "I'm Nobody! Who are you?",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "playful",
     "tags": [
       "theme:identity",
@@ -998,8 +858,6 @@
     "text": "We are such stuff as dreams are made on.",
     "author": "William Shakespeare",
     "source": "The Tempest",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "need:perspective",
@@ -1012,8 +870,6 @@
     "text": "My bounty is as boundless as the sea, my love as deep.",
     "author": "William Shakespeare",
     "source": "Romeo and Juliet",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:romantic-love",
@@ -1026,8 +882,6 @@
     "text": "Afoot and light-hearted I take to the open road.",
     "author": "Walt Whitman",
     "source": "Song of the Open Road",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "playful",
     "tags": [
       "theme:purpose",
@@ -1041,8 +895,6 @@
     "text": "I sound my barbaric yawp over the roofs of the world.",
     "author": "Walt Whitman",
     "source": "Song of Myself",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -1055,8 +907,6 @@
     "id": "mood-poetry-080",
     "text": "I want to do with you what spring does with the cherry trees.",
     "author": "Pablo Neruda",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:romantic-love",
@@ -1070,8 +920,6 @@
     "text": "The stars are not wanted now: put out every one.",
     "author": "W.H. Auden",
     "source": "Funeral Blues",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "emotion:grief",
@@ -1084,8 +932,6 @@
     "text": "What is this life if, full of care, we have no time to stand and stare?",
     "author": "W.H. Davies",
     "source": "Leisure",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "need:stillness",
@@ -1099,8 +945,6 @@
     "text": "I am the grass; I cover all.",
     "author": "Carl Sandburg",
     "source": "Grass",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:mortality",
@@ -1113,8 +957,6 @@
     "id": "mood-poetry-084",
     "text": "Tell all the truth but tell it slant.",
     "author": "Emily Dickinson",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "need:perspective",
@@ -1127,8 +969,6 @@
     "text": "Because I could not stop for Death, he kindly stopped for me.",
     "author": "Emily Dickinson",
     "source": "Because I could not stop for Death",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "gentle",
     "tags": [
       "theme:mortality",
@@ -1141,8 +981,6 @@
     "text": "All the world's a stage, and all the men and women merely players.",
     "author": "William Shakespeare",
     "source": "As You Like It",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -1156,8 +994,6 @@
     "text": "Some are born great, some achieve greatness, and some have greatness thrust upon 'em.",
     "author": "William Shakespeare",
     "source": "Twelfth Night",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -1170,8 +1006,6 @@
     "id": "mood-poetry-118",
     "text": "She had a smile worth dying for, but oh, when she laughed.",
     "author": "Clinton",
-    "category": "mood-boosters",
-    "subcategory": "poetry",
     "tone": "playful",
     "tags": [
       "theme:romantic-love",

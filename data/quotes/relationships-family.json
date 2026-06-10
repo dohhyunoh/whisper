@@ -3,8 +3,6 @@
     "id": "rel-family-001",
     "text": "My family is my strength and my weakness.",
     "author": "Aishwarya Rai Bachchan",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -16,8 +14,6 @@
     "id": "rel-family-002",
     "text": "To us, family means putting your arms around each other and being there.",
     "author": "Barbara Bush",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -29,8 +25,6 @@
     "id": "rel-family-003",
     "text": "The family is one of nature's masterpieces.",
     "author": "George Santayana",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -41,8 +35,6 @@
     "id": "rel-family-004",
     "text": "A family is a risky venture, because the greater the love, the greater the loss... That's the trade-off. But I'll take it all.",
     "author": "Brad Pitt",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -55,8 +47,6 @@
     "id": "rel-family-005",
     "text": "Having family responsibilities and concerns just has to make you a more understanding person.",
     "author": "Sandra Day O'Connor",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -69,8 +59,6 @@
     "id": "rel-family-007",
     "text": "The children have been a wonderful gift to me, and I'm thankful to have once again seen our world through their eyes. They restore my faith in the family's future.",
     "author": "Jackie Kennedy",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -83,8 +71,6 @@
     "id": "rel-family-008",
     "text": "The greatest thing in family life is to take a hint when a hint is intended-and not to take a hint when a hint isn't intended.",
     "author": "Robert Frost",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -96,8 +82,6 @@
     "id": "rel-family-009",
     "text": "The only rock I know that stays steady, the only institution I know that works, is the family.",
     "author": "Lee Iacocca",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -109,8 +93,6 @@
     "id": "rel-family-010",
     "text": "The family is the first essential cell of human society.",
     "author": "Pope John XXIII",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -121,8 +103,6 @@
     "id": "rel-family-011",
     "text": "Dignity is not negotiable. Dignity is the honor of the family.",
     "author": "Vartan Gregorian",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "direct",
     "tags": [
       "theme:family",
@@ -134,8 +114,6 @@
     "id": "rel-family-012",
     "text": "I find the family the most mysterious and fascinating institution in the world.",
     "author": "Amos Oz",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -146,8 +124,6 @@
     "id": "rel-family-013",
     "text": "The family is the test of freedom; because the family is the only thing that the free man makes for himself and by himself.",
     "author": "Gilbert K. Chesterton",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -159,8 +135,6 @@
     "id": "rel-family-014",
     "text": "Give a little love to a child, and you get a great deal back.",
     "author": "John Ruskin",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -172,8 +146,6 @@
     "id": "rel-family-017",
     "text": "I love cooking for myself and cooking for my family.",
     "author": "Al Roker",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -184,8 +156,6 @@
     "id": "rel-family-018",
     "text": "I woke up one morning thinking about wolves and realized that wolf packs function as families. Everyone has a role, and if you act within the parameters of your role, the whole pack succeeds, and when that falls apart, so does the pack.",
     "author": "Jodi Picoult",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -197,8 +167,6 @@
     "id": "rel-family-020",
     "text": "I am the family face; flesh perishes, I live on.",
     "author": "Thomas Hardy",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -211,8 +179,6 @@
     "id": "rel-family-022",
     "text": "I think togetherness is a very important ingredient to family life.",
     "author": "Barbara Bush",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -223,8 +189,6 @@
     "id": "rel-family-023",
     "text": "It takes a lot of work to put together a marriage, to put together a family and a home.",
     "author": "Elizabeth Edwards",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -237,8 +201,6 @@
     "id": "rel-family-024",
     "text": "The family is the nucleus of civilization.",
     "author": "Will Durant",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -249,8 +211,6 @@
     "id": "rel-family-026",
     "text": "Family is not an important thing. It's everything.",
     "author": "Michael J. Fox",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "direct",
     "tags": [
       "theme:family",
@@ -262,8 +222,6 @@
     "id": "rel-family-028",
     "text": "If a country is to be corruption free and become a nation of beautiful minds, I strongly feel there are three key societal members who can make a difference. They are the father, the mother and the teacher.",
     "author": "A. P. J. Abdul Kalam",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -276,8 +234,6 @@
     "id": "rel-family-029",
     "text": "Family is the most important thing in the world.",
     "author": "Princess Diana",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -288,8 +244,6 @@
     "id": "rel-family-032",
     "text": "Sister is probably the most competitive relationship within the family, but once the sisters are grown, it becomes the strongest relationship.",
     "author": "Margaret Mead",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -300,8 +254,6 @@
     "id": "rel-family-033",
     "text": "You are the bows from which your children as living arrows are sent forth.",
     "author": "Khalil Gibran",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -314,8 +266,6 @@
     "id": "rel-family-035",
     "text": "I believe the world is one big family, and we need to help each other.",
     "author": "Jet Li",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -327,8 +277,6 @@
     "id": "rel-family-040",
     "text": "A family is a place where principles are hammered and honed on the anvil of everyday living.",
     "author": "Charles R. Swindoll",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -340,8 +288,6 @@
     "id": "rel-family-045",
     "text": "A man should never neglect his family for business.",
     "author": "Walt Disney",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "direct",
     "tags": [
       "theme:family",
@@ -354,8 +300,6 @@
     "id": "rel-family-046",
     "text": "My father used to play with my brother and me in the yard. Mother would come out and say, 'You're tearing up the grass'; 'We're not raising grass,' Dad would reply. 'We're raising boys.'",
     "author": "Harmon Killebrew",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -368,8 +312,6 @@
     "id": "rel-family-049",
     "text": "My kids give me the balance to live right.",
     "author": "Celine Dion",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -382,8 +324,6 @@
     "id": "rel-family-050",
     "text": "I don't think anyone has a normal family.",
     "author": "Edward Furlong",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -395,8 +335,6 @@
     "id": "rel-family-051",
     "text": "Tennis is just a game, family is forever.",
     "author": "Serena Williams",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -408,8 +346,6 @@
     "id": "rel-family-052",
     "text": "It didn't matter how big our house was; it mattered that there was love in it.",
     "author": "Peter Buffett",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -421,8 +357,6 @@
     "id": "rel-family-053",
     "text": "Call it a clan, call it a network, call it a tribe, call it a family: Whatever you call it, whoever you are, you need one.",
     "author": "Jane Howard",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -434,8 +368,6 @@
     "id": "rel-family-054",
     "text": "We may have our differences, but nothing's more important than family.",
     "author": "Coco",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -447,8 +379,6 @@
     "id": "rel-family-055",
     "text": "The bond that links your true family is not one of blood, but of respect and joy in each other's life.",
     "author": "Richard Bach",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -461,8 +391,6 @@
     "id": "rel-family-056",
     "text": "Being a family means you are a part of something very wonderful. It means you will love and be loved for the rest of your life.",
     "author": "Lisa Weed",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -474,8 +402,6 @@
     "id": "rel-family-058",
     "text": "The strength of a family, like the strength of an army, lies in its loyalty to each other.",
     "author": "Mario Puzo",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -487,8 +413,6 @@
     "id": "rel-family-059",
     "text": "The most important thing in the world is family and love.",
     "author": "John Wooden",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -500,8 +424,6 @@
     "id": "rel-family-060",
     "text": "When everything goes to hell, the people who stand by you without flinching–they are your family.",
     "author": "Jim Butcher",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -514,8 +436,6 @@
     "id": "rel-family-061",
     "text": "In family life, love is the oil that eases friction, the cement that binds closer together, and the music that brings harmony.",
     "author": "Friedrich Nietzsche",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -527,8 +447,6 @@
     "id": "rel-family-063",
     "text": "Family faces are magic mirrors. Looking at people who belong to us, we see the past, present, and future.",
     "author": "Gail Lumet Buckley",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -540,8 +458,6 @@
     "id": "rel-family-064",
     "text": "Families are the compass that guides us. They are the inspiration to reach great heights, and our comfort when we occasionally falter.",
     "author": "Brad Henry",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -554,8 +470,6 @@
     "id": "rel-family-065",
     "text": "So much of what is best in us is bound up in our love of family, that it remains the measure of our stability because it measures our sense of loyalty.",
     "author": "Haniel Long",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -567,8 +481,6 @@
     "id": "rel-family-067",
     "text": "Everyone needs a house to live in, but a supportive family is what builds a home.",
     "author": "Anthony Liccione",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -579,8 +491,6 @@
     "id": "rel-family-069",
     "text": "You don't choose your family. They are God's gift to you, as you are to them.",
     "author": "Desmond Tutu",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -593,8 +503,6 @@
     "id": "rel-family-070",
     "text": "Parents are like God because you wanna know they're out there, and you want them to think well of you, but you really only call when you need something.",
     "author": "Chuck Palahniuk",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -605,8 +513,6 @@
     "id": "rel-family-071",
     "text": "The informality of family life is a blessed condition that allows us all to become our best while looking our worst.",
     "author": "Marge Kennedy",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -618,8 +524,6 @@
     "id": "rel-family-072",
     "text": "The greatest gift of family life is to be intimately acquainted with people you might never even introduce yourself to, had life not done it for you.",
     "author": "Kendall Hailey",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -631,8 +535,6 @@
     "id": "rel-family-073",
     "text": "Having a place to go is a home. Having someone to love is a family. Having both is a blessing.",
     "author": "Donna Hedges",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -644,8 +546,6 @@
     "id": "rel-family-075",
     "text": "That's what people do who love you. They put their arms around you and love you when you're not so lovable.",
     "author": "Deb Caletti",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -658,8 +558,6 @@
     "id": "rel-family-076",
     "text": "There's nothing that makes you more insane than family. Or more happy, or more exasperated, or more secure.",
     "author": "Jim Butcher",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -671,8 +569,6 @@
     "id": "rel-family-078",
     "text": "In time of test, family is best.",
     "author": "Burmese Proverb",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -684,8 +580,6 @@
     "id": "rel-family-079",
     "text": "If the family were a boat, it would be a canoe that makes no progress unless everyone paddles.",
     "author": "Letty Cottin Pogrebin",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -697,8 +591,6 @@
     "id": "rel-family-080",
     "text": "One day you will do things for me that you hate. That is what it means to be family.",
     "author": "Jonathan Safran Foer",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -711,8 +603,6 @@
     "text": "My dear young cousin, if there's one thing I've learned over the eons, it's that you can't give up on your family, no matter how tempting they make it.",
     "author": "Rick Riordan",
     "source": "Percy Jackson series",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -725,8 +615,6 @@
     "id": "rel-family-085",
     "text": "Rejoice with your family in the beautiful land of life.",
     "author": "Albert Einstein",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -738,8 +626,6 @@
     "id": "rel-family-088",
     "text": "What can you do to promote world peace? Go home and love your family.",
     "author": "Mother Teresa",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "direct",
     "tags": [
       "theme:family",
@@ -751,8 +637,6 @@
     "id": "rel-family-092",
     "text": "Family and friendships are two of the greatest facilitators of happiness.",
     "author": "John C. Maxwell",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -765,8 +649,6 @@
     "id": "rel-family-093",
     "text": "Parents were the only ones obligated to love you; from the rest of the world you had to earn it.",
     "author": "Ann Brashares",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -779,8 +661,6 @@
     "id": "rel-family-094",
     "text": "Nothing is better than going home to family and eating good food and relaxing.",
     "author": "Irina Shayk",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -792,8 +672,6 @@
     "id": "rel-family-095",
     "text": "Family and friends are hidden treasures, seek them and enjoy their riches.",
     "author": "Wanda Hope Carter",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -805,8 +683,6 @@
     "id": "rel-family-096",
     "text": "Friends are the family you choose.",
     "author": "Jess C. Scott",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -818,8 +694,6 @@
     "id": "rel-family-097",
     "text": "Other things may change us, but we start and end with the family.",
     "author": "Anthony Brandt",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -831,8 +705,6 @@
     "id": "rel-family-098",
     "text": "Stick to the basics, hold on to your family and friends – they will never go out of fashion.",
     "author": "Niki Taylor",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -845,8 +717,6 @@
     "id": "rel-family-100",
     "text": "The world, we'd discovered, doesn't love you like your family loves you.",
     "author": "Louis Zamperini",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -858,8 +728,6 @@
     "id": "rel-family-102",
     "text": "Home is people. Not a place. If you go back there after the people are gone, then all you can see is what is not there any more.",
     "author": "Robin Hobb",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -873,8 +741,6 @@
     "id": "rel-family-103",
     "text": "It is the smile of a child, the love of a mother, the joy of a father, the togetherness of a family.",
     "author": "Menacheim Begin",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -886,8 +752,6 @@
     "id": "rel-family-104",
     "text": "Home is where you are loved the most and act the worst.",
     "author": "Marjorie Pay Hinckley",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -900,8 +764,6 @@
     "text": "Ohana means family and family means nobody gets left behind or forgotten.",
     "author": "Stitch",
     "source": "Lilo & Stitch",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -912,8 +774,6 @@
     "id": "rel-family-108",
     "text": "There is no doubt that it is around the family and the home that all the greatest virtues… are created, strengthened and maintained.",
     "author": "Winston Churchill",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -925,8 +785,6 @@
     "id": "rel-family-110",
     "text": "You need a rock-solid foundation of friends and family to keep you where you need to be.",
     "author": "Lilly Singh",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -939,8 +797,6 @@
     "id": "rel-family-112",
     "text": "I sustain myself with the love of family.",
     "author": "Maya Angelou",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -952,8 +808,6 @@
     "id": "rel-family-113",
     "text": "Nothing purchased can come close to the renewed sense of gratitude for having family and friends.",
     "author": "Courtland Milloy",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -966,8 +820,6 @@
     "id": "rel-family-116",
     "text": "Life is beautiful. It's about giving. It's about family.",
     "author": "Walt Disney",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -978,8 +830,6 @@
     "id": "rel-family-118",
     "text": "A family is a bunch of people who keep confusing you with someone you were as a kid.",
     "author": "Robert Brault",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -991,8 +841,6 @@
     "id": "rel-family-120",
     "text": "Home isn't where you're from, it's where you find light when all grows dark.",
     "author": "Pierce Brown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1005,8 +853,6 @@
     "id": "rel-family-121",
     "text": "A dysfunctional family is any family with more than one person in it.",
     "author": "Mary Karr",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -1018,8 +864,6 @@
     "id": "rel-family-122",
     "text": "Our most basic instinct is not for survival but for family.",
     "author": "Paul Pearsall",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1031,8 +875,6 @@
     "id": "rel-family-125",
     "text": "A man travels the world over in search of what he needs, and returns home to find it.",
     "author": "George A. Moore",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -1045,8 +887,6 @@
     "id": "rel-family-126",
     "text": "I don't think quantity time is as special as quality time with your family.",
     "author": "Reba McEntire",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1058,8 +898,6 @@
     "id": "rel-family-127",
     "text": "You are born into your family and your family is born into you. No returns. No exchanges.",
     "author": "Elizabeth Berg",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1072,8 +910,6 @@
     "id": "rel-family-131",
     "text": "I have a wonderful shelter, which is my family.",
     "author": "José Carreras",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1085,8 +921,6 @@
     "id": "rel-family-132",
     "text": "In every conceivable manner, the family is a link to our past, bridge to our future.",
     "author": "Alex Haley",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1098,8 +932,6 @@
     "id": "rel-family-133",
     "text": "Your father’s greatest investment was not in property. It was you.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1111,8 +943,6 @@
     "id": "rel-family-134",
     "text": "Before success, there was a mother.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1124,8 +954,6 @@
     "id": "rel-family-135",
     "text": "Our parents are the bones on which we sharpen our teeth.",
     "author": "Joy Williams",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -1138,8 +966,6 @@
     "id": "rel-family-136",
     "text": "To the world, you are a mother. To your family, you are the world.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1152,8 +978,6 @@
     "id": "rel-family-137",
     "text": "A father’s goodness is higher than the mountain; a mother’s goodness is deeper than the sea.",
     "author": "Japanese Proverb",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1166,8 +990,6 @@
     "id": "rel-family-138",
     "text": "A mother is not a person to lean on, but a person to make leaning on easier.",
     "author": "Barbara De Angelis",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1180,8 +1002,6 @@
     "id": "rel-family-139",
     "text": "Success is never a solo act; it is a symphony played on the strings of a mother's prayers.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1194,8 +1014,6 @@
     "id": "rel-family-140",
     "text": "Reminder: Say \"I love you\" to your mom today.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1207,8 +1025,6 @@
     "id": "rel-family-141",
     "text": "Mother is the heartbeat in the home; and without her, there seems to be no heartthrob.",
     "author": "Leroy Brownlow",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1221,8 +1037,6 @@
     "text": "I'll love you forever. I'll like you for always. As long as I'm living, my mommy you'll be.",
     "author": "Robert Munsch",
     "source": "Love You Forever",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1234,8 +1048,6 @@
     "id": "rel-family-143",
     "text": "A mother is your first friend, your best friend, your forever friend.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1247,8 +1059,6 @@
     "id": "rel-family-144",
     "text": "Mother love is the fuel that enables a normal human being to do the impossible.",
     "author": "Marion C. Garretty",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1261,8 +1071,6 @@
     "id": "rel-family-145",
     "text": "A mother's arms are made of tenderness and children sleep soundly in them.",
     "author": "Victor Hugo",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1276,8 +1084,6 @@
     "id": "rel-family-147",
     "text": "A father is neither an anchor to hold us back nor a sail to take us there, but a guiding light whose love shows us the way.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1290,8 +1096,6 @@
     "id": "rel-family-148",
     "text": "Any man can be a father, but it takes someone special to be a dad.",
     "author": "Anne Geddes",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1304,8 +1108,6 @@
     "id": "rel-family-149",
     "text": "My father didn't tell me how to live. He lived, and let me watch him do it.",
     "author": "Clarence Budington Kelland",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1317,8 +1119,6 @@
     "id": "rel-family-150",
     "text": "A daughter needs a dad to be the standard against which she will judge all men.",
     "author": "Gregory E. Lang",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1330,8 +1130,6 @@
     "id": "rel-family-151",
     "text": "A father's love is forever imprinted on his child's heart.",
     "author": "Jennifer Williamson",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1343,8 +1141,6 @@
     "id": "rel-family-152",
     "text": "Children are not a distraction from more important work. They are the most important work.",
     "author": "C.S. Lewis",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "direct",
     "tags": [
       "theme:family",
@@ -1357,8 +1153,6 @@
     "id": "rel-family-153",
     "text": "A child can teach an adult three things: to be happy for no reason, to always be busy with something, and to know how to demand with all his might that which he desires.",
     "author": "Paulo Coelho",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1371,8 +1165,6 @@
     "id": "rel-family-154",
     "text": "Making the decision to have a child is momentous. It is to decide forever to have your heart go walking around outside your body.",
     "author": "Elizabeth Stone",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1385,8 +1177,6 @@
     "id": "rel-family-155",
     "text": "Before I had my child, I thought I knew all the boundaries of myself. Then I had this child, and I discovered depths I never knew existed.",
     "author": "Sheldon Kopp",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1399,8 +1189,6 @@
     "id": "rel-family-156",
     "text": "A grandmother is a little bit parent, a little bit teacher, and a little bit best friend.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1411,8 +1199,6 @@
     "id": "rel-family-157",
     "text": "Grandmothers hold our tiny hands for just a little while, but our hearts forever.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1423,8 +1209,6 @@
     "id": "rel-family-158",
     "text": "Nobody can do for little children what grandparents do. Grandparents sort of sprinkle stardust over the lives of little children.",
     "author": "Alex Haley",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1436,8 +1220,6 @@
     "id": "rel-family-159",
     "text": "A grandfather is someone with silver in his hair and gold in his heart.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1448,8 +1230,6 @@
     "id": "rel-family-160",
     "text": "My grandfather taught me that wisdom isn't something you find — it's something you live.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1461,8 +1241,6 @@
     "id": "rel-family-161",
     "text": "Grandparents are the footprints left for generations to follow.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1474,8 +1252,6 @@
     "id": "rel-family-162",
     "text": "The reason grandchildren and grandparents get along so well is that they have a common enemy.",
     "author": "Sam Levenson",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -1486,8 +1262,6 @@
     "id": "rel-family-163",
     "text": "Grandparents make the world a little softer, a little kinder, a little warmer.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1499,8 +1273,6 @@
     "id": "rel-family-164",
     "text": "A sibling is the one person who knows exactly where you came from and loves you anyway.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1512,8 +1284,6 @@
     "id": "rel-family-165",
     "text": "Brothers and sisters are as close as hands and feet.",
     "author": "Vietnamese Proverb",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1524,8 +1294,6 @@
     "id": "rel-family-166",
     "text": "A sister is both your mirror and your opposite.",
     "author": "Elizabeth Fishel",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1537,8 +1305,6 @@
     "id": "rel-family-167",
     "text": "Having a sister means you always have backup. For life.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1550,8 +1316,6 @@
     "id": "rel-family-168",
     "text": "The best thing about having a brother is that you always had a friend you didn't get to choose — and somehow it worked out perfectly.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1563,8 +1327,6 @@
     "id": "rel-family-169",
     "text": "Siblings: the only people who will pick on you for their own entertainment and then defend you fiercely to everyone else.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -1575,8 +1337,6 @@
     "id": "rel-family-170",
     "text": "Growing up, I thought I was annoyed by my sibling. Now I realize I was just practicing how much I'd miss them.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1588,8 +1348,6 @@
     "id": "rel-family-171",
     "text": "There is no better friend than a sibling. And there is no better sibling than you.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1601,8 +1359,6 @@
     "id": "rel-family-172",
     "text": "God could not be everywhere, and therefore he made mothers.",
     "author": "Jewish Proverb",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1616,8 +1372,6 @@
     "text": "A place where someone still thinks of you is a place you can call home.",
     "author": "Jiraiya",
     "source": "Naruto",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1631,8 +1385,6 @@
     "text": "To my dear daughter... I will always be watching over you, even from the stars. Happy 50th birthday.",
     "author": "Violet Evergarden",
     "source": "Violet Evergarden",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1645,8 +1397,6 @@
     "id": "rel-family-176",
     "text": "Home is wherever my family is.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1657,8 +1407,6 @@
     "id": "rel-family-177",
     "text": "Family is where life begins and love never ends.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1669,8 +1417,6 @@
     "id": "rel-family-178",
     "text": "Blood makes you related. Love makes you family.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1682,8 +1428,6 @@
     "id": "rel-family-179",
     "text": "Mama raised a warrior.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "direct",
     "tags": [
       "theme:family",
@@ -1696,8 +1440,6 @@
     "id": "rel-family-180",
     "text": "Family isn't perfect, but it's yours.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1709,8 +1451,6 @@
     "id": "rel-family-181",
     "text": "The love of a parent has no limit.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1722,8 +1462,6 @@
     "id": "rel-family-182",
     "text": "Call your parents. They miss you.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1735,8 +1473,6 @@
     "id": "rel-family-183",
     "text": "Siblings are built-in best friends.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "playful",
     "tags": [
       "theme:family",
@@ -1747,8 +1483,6 @@
     "id": "rel-family-184",
     "text": "Home is a feeling, not a place.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1760,8 +1494,6 @@
     "id": "rel-family-185",
     "text": "Your family roots run deep.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1773,8 +1505,6 @@
     "id": "rel-family-186",
     "text": "A mother's love is the first prayer.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1786,8 +1516,6 @@
     "id": "rel-family-187",
     "text": "Family memories are the best kind.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1798,8 +1526,6 @@
     "id": "rel-family-188",
     "text": "Family fights, but family stays.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1811,8 +1537,6 @@
     "id": "rel-family-189",
     "text": "Love them while they're here.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1825,8 +1549,6 @@
     "id": "rel-family-190",
     "text": "Your people are your power.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1838,8 +1560,6 @@
     "id": "rel-family-191",
     "text": "Grandparents are a gift from above.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1850,8 +1570,6 @@
     "id": "rel-family-192",
     "text": "The dinner table heals everything.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1863,8 +1581,6 @@
     "id": "rel-family-193",
     "text": "Family is the first place you learn love.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1875,8 +1591,6 @@
     "id": "rel-family-194",
     "text": "Home is where they understand you.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1888,8 +1602,6 @@
     "id": "rel-family-195",
     "text": "You are your ancestors' wildest dream.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1902,8 +1614,6 @@
     "id": "rel-family-196",
     "text": "Some roots grow stronger in the storm.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1916,8 +1626,6 @@
     "id": "rel-family-197",
     "text": "Chosen family counts too.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",
@@ -1930,8 +1638,6 @@
     "id": "rel-family-198",
     "text": "Hug your people a little tighter today.",
     "author": "Unknown",
-    "category": "relationships",
-    "subcategory": "family",
     "tone": "gentle",
     "tags": [
       "theme:family",

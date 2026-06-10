@@ -4,8 +4,6 @@
     "text": "When you let go of what you are, you become what you might be.",
     "author": "Lao Tzu",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "theme:growth", "theme:identity", "need:permission", "tone:gentle", "tone:poetic"]
   },
@@ -13,8 +11,6 @@
     "id": "religion-bud-002",
     "text": "Three things cannot be long hidden: the sun, the moon, and the truth.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
@@ -22,8 +18,6 @@
     "id": "religion-bud-003",
     "text": "In the end, only three things matter: how much you loved, how gently you lived, and how gracefully you let go of things not meant for you.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "theme:mortality", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -31,8 +25,6 @@
     "id": "religion-bud-004",
     "text": "Peace comes from within. Do not seek it without.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:peace", "need:stillness", "need:perspective", "tone:direct"]
   },
@@ -40,8 +32,6 @@
     "id": "religion-bud-005",
     "text": "Every morning we are born again. What we do today is what matters most.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "situation:new-chapter", "emotion:hope", "need:permission", "need:motivation", "tone:gentle"]
   },
@@ -50,8 +40,6 @@
     "text": "Mind is everything. What you think you become.",
     "author": "Buddha",
     "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:perspective", "need:motivation", "tone:direct"]
   },
@@ -60,8 +48,6 @@
     "text": "All that we are is the result of what we have thought. The mind is everything; what we think, we become.",
     "author": "Buddha",
     "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:perspective", "need:motivation", "tone:direct", "tone:sacred"]
   },
@@ -70,8 +56,6 @@
     "text": "Hatred does not cease by hatred, but only by love; this is the eternal rule.",
     "author": "Buddha",
     "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:forgiveness", "emotion:anger", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -80,8 +64,6 @@
     "text": "There is no fire like passion, no shark like hatred, no snare like folly, no torrent like greed and lust.",
     "author": "Buddha",
     "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -90,8 +72,6 @@
     "text": "The mind acts as a mirror: what you put in is what comes back to you.",
     "author": "Buddha",
     "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
@@ -100,8 +80,6 @@
     "text": "Easeful death is but a phase of transition and not a finale.",
     "author": "Buddha",
     "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:mortality", "need:comfort", "tone:sacred"]
   },
@@ -110,8 +88,6 @@
     "text": "The one who has renounced violence towards all living beings, weak or strong, who neither kills nor causes others to kill — him I call a brahmin.",
     "author": "Buddha",
     "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "tone:sacred"]
   },
@@ -120,8 +96,6 @@
     "text": "To conquer oneself is a mightier victory than to conquer all other men.",
     "author": "Buddha",
     "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:challenge", "need:motivation", "tone:direct", "tone:sacred"]
   },
@@ -130,8 +104,6 @@
     "text": "Life is a bridge; cross over it but do not build a house on it.",
     "author": "Buddha",
     "source": "Majjhima Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "theme:mortality", "need:perspective", "tone:poetic", "tone:sacred"]
   },
@@ -140,8 +112,6 @@
     "text": "A monk who has attained the unconditioned does not cling to life, does not cling to death, but waits with equanimity.",
     "author": "Buddha",
     "source": "Majjhima Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "theme:mortality", "emotion:peace", "tone:sacred"]
   },
@@ -150,8 +120,6 @@
     "text": "When the mind is free, there is no more suffering. This is the truth.",
     "author": "Buddha",
     "source": "Majjhima Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -160,8 +128,6 @@
     "text": "I teach one thing: suffering and the end of suffering.",
     "author": "Buddha",
     "source": "Majjhima Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "tone:direct", "tone:sacred"]
   },
@@ -170,8 +136,6 @@
     "text": "The middle way is the path that avoids extremes and leads to wisdom and clarity.",
     "author": "Buddha",
     "source": "Samyutta Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -180,8 +144,6 @@
     "text": "The river of suffering flows through all beings. The raft that carries you across is the practice of awareness.",
     "author": "Buddha",
     "source": "Samyutta Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:perspective", "tone:poetic", "tone:sacred"]
   },
@@ -190,8 +152,6 @@
     "text": "What is not eternal is not worth clinging to. Release and you will find freedom.",
     "author": "Buddha",
     "source": "Samyutta Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct", "tone:sacred"]
   },
@@ -200,8 +160,6 @@
     "text": "Impermanence is not a cause for grief; it is a teacher. Listen to it and you will understand the nature of existence.",
     "author": "Buddha",
     "source": "Samyutta Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:grief", "theme:letting-go", "need:perspective", "tone:gentle", "tone:sacred"]
   },
@@ -210,8 +168,6 @@
     "text": "Goodness comes to those who practice it. Evil comes to those who plant it.",
     "author": "Buddha",
     "source": "Samyutta Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -219,8 +175,6 @@
     "id": "religion-bud-024",
     "text": "When you sit in meditation, do not fight your thoughts. Simply notice them as clouds passing through the sky.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:stillness", "need:permission", "tone:gentle", "tone:poetic"]
   },
@@ -228,8 +182,6 @@
     "id": "religion-bud-025",
     "text": "The ego is the greatest obstacle to awakening. When you see through it, liberation is near.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "theme:letting-go", "need:challenge", "tone:direct"]
   },
@@ -237,8 +189,6 @@
     "id": "religion-bud-026",
     "text": "Compassion for all beings is the foundation of the spiritual life.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "tone:gentle"]
   },
@@ -246,8 +196,6 @@
     "id": "religion-bud-027",
     "text": "The eightfold path — right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, right concentration — is the road to the end of suffering.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:sacred"]
   },
@@ -255,8 +203,6 @@
     "id": "religion-bud-028",
     "text": "What you think, you become. What you feel, you attract. What you imagine, you create.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:motivation", "need:perspective", "tone:direct"]
   },
@@ -264,8 +210,6 @@
     "id": "religion-bud-029",
     "text": "The root of all suffering is attachment. Let go, and you will find peace.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "emotion:peace", "need:permission", "tone:direct"]
   },
@@ -273,8 +217,6 @@
     "id": "religion-bud-030",
     "text": "Karma is not fate. It is the sum of your choices, and it can be transformed by wisdom and right action.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:growth", "need:perspective", "need:motivation", "tone:direct"]
   },
@@ -283,8 +225,6 @@
     "text": "The present moment is the only moment available to us, and it is the doorway to all moments.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:perspective", "tone:gentle"]
   },
@@ -293,8 +233,6 @@
     "text": "Mindfulness is the miracle by which we master and restore ourselves.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:healing", "need:stillness", "tone:gentle"]
   },
@@ -303,8 +241,6 @@
     "text": "When you breathe, you connect yourself to the life-giving force of the universe. Each breath is a gift.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -313,8 +249,6 @@
     "text": "The miracle is not to walk on water. The miracle is to walk on the green earth, dwelling deeply in the present moment.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -323,8 +257,6 @@
     "text": "When we are truly aware, we see the interconnectedness of all living things.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:gentle"]
   },
@@ -333,8 +265,6 @@
     "text": "Smile, breathe, and go slowly. This is the way to happiness.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:joy", "need:stillness", "need:permission", "tone:gentle"]
   },
@@ -343,8 +273,6 @@
     "text": "We have more possibilities in each moment than we can imagine.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:hope", "need:perspective", "tone:gentle"]
   },
@@ -352,8 +280,6 @@
     "id": "religion-bud-039",
     "text": "Your compassion is the most meaningful gift you can offer the world.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "need:validation", "tone:gentle"]
   },
@@ -361,8 +287,6 @@
     "id": "religion-bud-040",
     "text": "If you want others to be happy, practice compassion. If you want to be happy, practice compassion.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:joy", "need:motivation", "tone:direct"]
   },
@@ -370,8 +294,6 @@
     "id": "religion-bud-041",
     "text": "The purpose of our lives is to be happy.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:purpose", "emotion:joy", "need:permission", "tone:direct"]
   },
@@ -379,8 +301,6 @@
     "id": "religion-bud-042",
     "text": "In the end, the only things that count are love, compassion, and wisdom. All else is decoration.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct"]
   },
@@ -388,8 +308,6 @@
     "id": "religion-bud-043",
     "text": "Sleep is the best meditation.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:exhaustion", "situation:burnout", "need:stillness", "need:permission", "tone:playful", "tone:direct"]
   },
@@ -397,8 +315,6 @@
     "id": "religion-bud-044",
     "text": "Inner peace is the ultimate source of happiness. One can achieve a kind of happiness even amidst great suffering if the mind is at peace.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:peace", "emotion:joy", "need:stillness", "need:perspective", "tone:gentle"]
   },
@@ -406,8 +322,6 @@
     "id": "religion-bud-045",
     "text": "If you lose, don't be discouraged. If you win, don't be arrogant. Just carry on.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "need:motivation", "tone:direct"]
   },
@@ -415,8 +329,6 @@
     "id": "religion-bud-046",
     "text": "The greatest happiness is to have no fixed mind, to drift along with the current of life.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "emotion:joy", "need:permission", "tone:gentle", "tone:poetic"]
   },
@@ -424,8 +336,6 @@
     "id": "religion-bud-047",
     "text": "To study the Buddha Way is to study the self. To study the self is to forget the self. To forget the self is to be verified by all things.",
     "author": "Dogen",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "theme:letting-go", "need:perspective", "tone:poetic", "tone:sacred"]
   },
@@ -434,8 +344,6 @@
     "text": "The way is not difficult for those who have no preferences. When love and hate are both absent everything becomes clear and undisguised.",
     "author": "Sengcan",
     "source": "Hsinhsin Ming",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct", "tone:poetic"]
   },
@@ -443,8 +351,6 @@
     "id": "religion-bud-049",
     "text": "Sitting quietly, doing nothing, spring comes, and the grass grows by itself.",
     "author": "Zenrin Kushu",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:permission", "tone:poetic"]
   },
@@ -453,8 +359,6 @@
     "text": "In the beginner's mind there are many possibilities, but in the expert's mind there are few.",
     "author": "Shunryu Suzuki",
     "source": "Zen Mind, Beginner's Mind",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:growth", "need:perspective", "tone:direct"]
   },
@@ -463,8 +367,6 @@
     "text": "The best way to control a cow is to give it a large, spacious meadow.",
     "author": "Shunryu Suzuki",
     "source": "Zen Mind, Beginner's Mind",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:gentle", "tone:poetic"]
   },
@@ -473,8 +375,6 @@
     "text": "Each of you is perfect the way you are. And you can use a little improvement.",
     "author": "Shunryu Suzuki",
     "source": "Zen Mind, Beginner's Mind",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "theme:growth", "need:validation", "need:permission", "tone:gentle", "tone:playful"]
   },
@@ -483,8 +383,6 @@
     "text": "We are all complete. The practice is simply the uncovering of that completeness.",
     "author": "Shunryu Suzuki",
     "source": "Zen Mind, Beginner's Mind",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "need:validation", "tone:gentle"]
   },
@@ -493,8 +391,6 @@
     "text": "If you walk the path, it walks you. Do not resist its rhythm.",
     "author": "Shunryu Suzuki",
     "source": "Zen Mind, Beginner's Mind",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:gentle", "tone:poetic"]
   },
@@ -503,8 +399,6 @@
     "text": "The most important thing in the world is feeling alive.",
     "author": "Pema Chodron",
     "source": "When Things Fall Apart",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:numbness", "need:permission", "tone:direct"]
   },
@@ -513,8 +407,6 @@
     "text": "The most fundamental aggression to yourself, the most destructive thing you can do to yourself, is to take the attitude that you are not worth your own time or energy.",
     "author": "Pema Chodron",
     "source": "When Things Fall Apart",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "need:validation", "need:permission", "tone:direct", "tone:fierce"]
   },
@@ -523,8 +415,6 @@
     "text": "When things fall apart and everything is in chaos, a very unconventional path becomes possible. This is the way.",
     "author": "Pema Chodron",
     "source": "When Things Fall Apart",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "situation:new-chapter", "emotion:hope", "need:perspective", "tone:direct"]
   },
@@ -533,8 +423,6 @@
     "text": "We can approach our meditation practice with the spirit of a warrior — not one who fights, but one who is awake.",
     "author": "Pema Chodron",
     "source": "When Things Fall Apart",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:motivation", "tone:gentle", "tone:fierce"]
   },
@@ -543,8 +431,6 @@
     "text": "Groundlessness — not having any ground — is the condition we most deeply fear. But it is also the most spacious and liberating state.",
     "author": "Pema Chodron",
     "source": "When Things Fall Apart",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:fear", "theme:letting-go", "need:perspective", "need:permission", "tone:direct"]
   },
@@ -552,8 +438,6 @@
     "id": "religion-bud-060",
     "text": "The practice of mindfulness is the practice of freedom. Each moment is a chance to begin again.",
     "author": "Sharon Salzberg",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "situation:new-chapter", "need:stillness", "need:permission", "tone:gentle"]
   },
@@ -561,8 +445,6 @@
     "id": "religion-bud-061",
     "text": "Loving-kindness is not a feeling; it is a practice. You cultivate it the way you cultivate any skill — with patience and repetition.",
     "author": "Sharon Salzberg",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct"]
   },
@@ -570,8 +452,6 @@
     "id": "religion-bud-062",
     "text": "You don't have to like your meditation. You just have to do it.",
     "author": "Sharon Salzberg",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:challenge", "tone:direct", "tone:playful"]
   },
@@ -579,8 +459,6 @@
     "id": "religion-bud-063",
     "text": "Mindfulness is simply paying attention to what is happening, right now, without judgment.",
     "author": "Sharon Salzberg",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:gentle"]
   },
@@ -588,8 +466,6 @@
     "id": "religion-bud-064",
     "text": "The whole secret of existence is to know what is our purpose. To find that, we must look within.",
     "author": "Ajahn Chah",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:purpose", "theme:identity", "need:perspective", "tone:direct"]
   },
@@ -597,8 +473,6 @@
     "id": "religion-bud-065",
     "text": "If you let go a little, you will have a little peace. If you let go a lot, you will have a lot of peace. If you let go completely, you will have complete peace.",
     "author": "Ajahn Chah",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "emotion:peace", "need:permission", "tone:gentle", "tone:direct"]
   },
@@ -606,8 +480,6 @@
     "id": "religion-bud-066",
     "text": "Try to be at peace with everything you see — man, woman, tree, mountain, river. If you cannot make peace with these things, you will never make peace with yourself.",
     "author": "Ajahn Chah",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:peace", "need:perspective", "tone:gentle"]
   },
@@ -615,8 +487,6 @@
     "id": "religion-bud-067",
     "text": "If you truly understand what emptiness is, and you truly understand what form is, then you understand life.",
     "author": "Ajahn Chah",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct"]
   },
@@ -624,8 +494,6 @@
     "id": "religion-bud-068",
     "text": "Emptiness is not nothingness. It is the space in which everything can arise.",
     "author": "Nagarjuna",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
@@ -633,8 +501,6 @@
     "id": "religion-bud-069",
     "text": "All phenomena are dependent on conditions. Nothing exists independently. This is the great truth of interdependence.",
     "author": "Nagarjuna",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct"]
   },
@@ -642,8 +508,6 @@
     "id": "religion-bud-070",
     "text": "If you understand emptiness, you understand compassion — for emptiness is the mother of all compassion.",
     "author": "Nagarjuna",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
@@ -651,8 +515,6 @@
     "id": "religion-bud-071",
     "text": "The mind that clings to nothing is already free.",
     "author": "Nagarjuna",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct"]
   },
@@ -660,8 +522,6 @@
     "id": "religion-bud-072",
     "text": "A man who has attained nirvana is not reborn, not not-reborn. He simply is beyond the reach of concepts.",
     "author": "Bodhidharma",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:mortality", "tone:sacred"]
   },
@@ -669,8 +529,6 @@
     "id": "religion-bud-073",
     "text": "The Buddha is not someone who lived long ago. The Buddha is the awakened mind in you, right now.",
     "author": "Bodhidharma",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "theme:self-worth", "need:validation", "tone:direct"]
   },
@@ -678,8 +536,6 @@
     "id": "religion-bud-074",
     "text": "Not knowing is most intimate.",
     "author": "Bodhidharma",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:permission", "tone:poetic"]
   },
@@ -687,8 +543,6 @@
     "id": "religion-bud-075",
     "text": "Wall-gazing is the gate to entering the way.",
     "author": "Bodhidharma",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:poetic"]
   },
@@ -697,8 +551,6 @@
     "text": "The way flows like water, naturally and without force. Do not push; let it come.",
     "author": "Lao Tzu",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:stillness", "need:permission", "tone:gentle", "tone:poetic"]
   },
@@ -707,8 +559,6 @@
     "text": "The greatest mistakes are made when we try to control life. Let it unfold.",
     "author": "Lao Tzu",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct"]
   },
@@ -717,8 +567,6 @@
     "text": "The empty space in a wheel is what makes it useful. The empty space in a cup is what makes it useful. Know the value of emptiness.",
     "author": "Lao Tzu",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
@@ -727,8 +575,6 @@
     "text": "The awakened one does not cling to the idea of awakening. That very clinging is the chain.",
     "author": "Buddha",
     "source": "Majjhima Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -736,8 +582,6 @@
     "id": "religion-bud-083",
     "text": "The mind that is still is the mind that knows.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:gentle"]
   },
@@ -746,8 +590,6 @@
     "text": "Suffering is a condition of existence. But the end of suffering — nibbana — is attainable.",
     "author": "Buddha",
     "source": "Samyutta Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:hope", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -756,8 +598,6 @@
     "text": "No one can do your spiritual work for you. You alone must walk the path.",
     "author": "Buddha",
     "source": "Majjhima Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:challenge", "need:motivation", "tone:direct", "tone:sacred"]
   },
@@ -766,8 +606,6 @@
     "text": "Do not be afraid of shadows — they are only the absence of light. And the light is always there.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:fear", "emotion:hope", "need:comfort", "tone:gentle"]
   },
@@ -776,8 +614,6 @@
     "text": "The way to take care of yourself is to take care of everyone else.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:gentle"]
   },
@@ -786,8 +622,6 @@
     "text": "When you touch someone with love, you touch yourself. We are all one.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -796,8 +630,6 @@
     "text": "Every moment of awareness is an invitation to come home to yourself.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:stillness", "tone:gentle"]
   },
@@ -805,8 +637,6 @@
     "id": "religion-bud-090",
     "text": "Do not rush. The flower does not rush and it blooms fully in its time.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:permission", "tone:gentle", "tone:poetic"]
   },
@@ -814,8 +644,6 @@
     "id": "religion-bud-091",
     "text": "Happiness cannot be found in external things. It is a state of mind.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:joy", "need:perspective", "tone:direct"]
   },
@@ -823,8 +651,6 @@
     "id": "religion-bud-092",
     "text": "The more you practice with an open heart, the more compassionate you will naturally become.",
     "author": "Dalai Lama",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:growth", "tone:gentle"]
   },
@@ -833,8 +659,6 @@
     "text": "All beings wish to be free from suffering. All beings wish to be happy. This is the ground on which compassion stands.",
     "author": "Buddha",
     "source": "Samyutta Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:gentle", "tone:sacred"]
   },
@@ -842,8 +666,6 @@
     "id": "religion-bud-095",
     "text": "The watcher and the watched are one. The seer and the seen are one. Realize this, and you are free.",
     "author": "Nagarjuna",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:perspective", "tone:poetic"]
   },
@@ -851,8 +673,6 @@
     "id": "religion-bud-096",
     "text": "Do not attach yourself to anything that will destroy your peace. Look within and find the stillness.",
     "author": "Ajahn Chah",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:boundaries", "theme:letting-go", "need:stillness", "need:permission", "tone:direct"]
   },
@@ -861,8 +681,6 @@
     "text": "The practice is not separate from life. Every moment is a chance to practice — eating, walking, speaking, breathing.",
     "author": "Pema Chodron",
     "source": "When Things Fall Apart",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:perspective", "tone:gentle"]
   },
@@ -871,8 +689,6 @@
     "text": "Only our own compassion and wisdom can truly set us free.",
     "author": "Buddha",
     "source": "Dhammapada",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct", "tone:sacred"]
   },
@@ -881,8 +697,6 @@
     "text": "Everything is impermanent. This is not a cause for despair — it is the invitation to be fully alive.",
     "author": "Thich Nhat Hanh",
     "source": "Plum Village",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "theme:mortality", "need:perspective", "tone:gentle"]
   },
@@ -891,8 +705,6 @@
     "text": "The Buddha said: Do not accept what I say because I said it. Test it as a goldsmith tests gold — by cutting, rubbing, and burning.",
     "author": "Buddha",
     "source": "Majjhima Nikaya",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:challenge", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -900,8 +712,6 @@
     "id": "religion-bud-101",
     "text": "Let go. That is the lesson.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct"]
   },
@@ -909,8 +719,6 @@
     "id": "religion-bud-103",
     "text": "Be where you are, not where you fear.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:fear", "need:stillness", "tone:direct"]
   },
@@ -918,8 +726,6 @@
     "id": "religion-bud-104",
     "text": "Attachment is the root of suffering.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct"]
   },
@@ -927,8 +733,6 @@
     "id": "religion-bud-105",
     "text": "Breathe in calm. Breathe out clinging.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "emotion:peace", "need:stillness", "tone:gentle"]
   },
@@ -936,8 +740,6 @@
     "id": "religion-bud-106",
     "text": "Stillness is the greatest teacher.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:gentle"]
   },
@@ -945,8 +747,6 @@
     "id": "religion-bud-107",
     "text": "Nothing is permanent but change.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct"]
   },
@@ -954,8 +754,6 @@
     "id": "religion-bud-108",
     "text": "The present moment is enough.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "need:permission", "tone:gentle"]
   },
@@ -963,8 +761,6 @@
     "id": "religion-bud-109",
     "text": "You are already what you seek.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "theme:identity", "need:validation", "tone:gentle"]
   },
@@ -972,8 +768,6 @@
     "id": "religion-bud-110",
     "text": "Suffering ends where acceptance begins.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct"]
   },
@@ -981,8 +775,6 @@
     "id": "religion-bud-111",
     "text": "Be a lamp unto yourself.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:self-worth", "theme:identity", "need:motivation", "need:validation", "tone:direct"]
   },
@@ -990,8 +782,6 @@
     "id": "religion-bud-112",
     "text": "This moment is all there is.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:direct"]
   },
@@ -999,8 +789,6 @@
     "id": "religion-bud-113",
     "text": "Compassion is the highest teaching.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "tone:gentle"]
   },
@@ -1008,8 +796,6 @@
     "id": "religion-bud-114",
     "text": "Let thoughts come. Let them go.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:stillness", "need:permission", "tone:gentle"]
   },
@@ -1017,8 +803,6 @@
     "id": "religion-bud-115",
     "text": "The lotus grows from the mud.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:healing", "theme:growth", "emotion:hope", "need:perspective", "tone:poetic"]
   },
@@ -1026,8 +810,6 @@
     "id": "religion-bud-116",
     "text": "Silence is the voice of wisdom.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:poetic"]
   },
@@ -1035,8 +817,6 @@
     "id": "religion-bud-117",
     "text": "Every ending is a new beginning.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "situation:new-chapter", "theme:letting-go", "emotion:hope", "need:comfort", "tone:gentle"]
   },
@@ -1044,8 +824,6 @@
     "id": "religion-bud-118",
     "text": "Your mind creates your world.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "need:perspective", "tone:direct"]
   },
@@ -1053,8 +831,6 @@
     "id": "religion-bud-119",
     "text": "Observe without judgment.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:direct"]
   },
@@ -1062,8 +838,6 @@
     "id": "religion-bud-120",
     "text": "Kindness is never wasted.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "tone:gentle"]
   },
@@ -1071,8 +845,6 @@
     "id": "religion-bud-121",
     "text": "The path is the destination.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:poetic"]
   },
@@ -1080,8 +852,6 @@
     "id": "religion-bud-122",
     "text": "Free your mind. Free your life.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:permission", "tone:direct"]
   },
@@ -1089,8 +859,6 @@
     "id": "religion-bud-123",
     "text": "Impermanence is the only truth.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:perspective", "tone:direct"]
   },
@@ -1098,8 +866,6 @@
     "id": "religion-bud-124",
     "text": "Suffering is optional.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "direct",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:permission", "need:perspective", "tone:direct"]
   },
@@ -1107,8 +873,6 @@
     "id": "religion-bud-125",
     "text": "Walk the middle way.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:direct"]
   },
@@ -1116,8 +880,6 @@
     "id": "religion-bud-126",
     "text": "Awareness is the beginning of change.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:growth", "need:perspective", "tone:direct"]
   },
@@ -1125,8 +887,6 @@
     "id": "religion-bud-127",
     "text": "Peace is every step.",
     "author": "Thich Nhat Hanh",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "emotion:peace", "need:stillness", "tone:gentle"]
   },
@@ -1134,8 +894,6 @@
     "id": "religion-bud-128",
     "text": "Do not dwell in the past.",
     "author": "Buddha",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "tone:direct"]
   },
@@ -1143,8 +901,6 @@
     "id": "religion-bud-129",
     "text": "You are the sky. Everything else is weather.",
     "author": "Pema Chödrön",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:identity", "theme:letting-go", "need:perspective", "need:comfort", "tone:gentle", "tone:poetic"]
   },
@@ -1152,8 +908,6 @@
     "id": "religion-bud-130",
     "text": "Meditate. Breathe. Release.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "theme:letting-go", "need:stillness", "tone:direct"]
   },
@@ -1161,8 +915,6 @@
     "id": "religion-bud-131",
     "text": "Wisdom begins in wonder.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:perspective", "tone:gentle"]
   },
@@ -1170,8 +922,6 @@
     "id": "religion-bud-132",
     "text": "The way out is in.",
     "author": "Thich Nhat Hanh",
-    "category": "religion",
-    "subcategory": "buddhism",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:buddhism", "need:stillness", "tone:direct", "tone:poetic"]
   }

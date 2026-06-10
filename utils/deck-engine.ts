@@ -1,10 +1,12 @@
 import { Quote } from '@/data/types';
+import { interestTagOverlap, moodMatchesQuote, tagsForInterests } from './interest-tags';
 import { getJSON, setJSON } from './mmkv';
 import { getSeenIds, getWeights, markSeen, SwipeDir } from './tag-weights';
 
 const KEY_DECK = 'deck.v1';
 const KEY_PROGRESS = 'deck.progress.v1';
 const DECK_SIZE = 10;
+const EXPLORATION_SLOTS = 2;
 const MOOD_BONUS = 5;
 const DIVERSITY_PENALTY_PER_REPEAT = 3;
 const COLD_START_INTEREST_BONUS = 4;
@@ -41,24 +43,11 @@ function todayKey(d: Date = new Date()): string {
   return `${yyyy}-${mm}-${dd}`;
 }
 
-function moodMatchesQuote(mood: string, quote: Quote): boolean {
-  if (!quote.tags) return false;
-  const moodLower = mood.toLowerCase();
-  return quote.tags.some((t) => t.startsWith('emotion:') && t.toLowerCase().includes(moodLower));
-}
-
-function interestMatchesQuote(interest: string, quote: Quote): boolean {
-  if (interest.includes(':')) {
-    const [cat, sub] = interest.split(':');
-    return quote.category === cat && quote.subcategory === sub;
-  }
-  return quote.category === interest;
-}
-
 function scoreQuote(
   quote: Quote,
   weights: Record<string, number>,
   hasHistory: boolean,
+  interestTags: Set<string>,
   input: BuildDeckInput,
 ): number {
   let score = 0;
@@ -72,13 +61,8 @@ function scoreQuote(
   }
 
   if (!hasHistory) {
-    if (input.interests?.length) {
-      for (const interest of input.interests) {
-        if (interestMatchesQuote(interest, quote)) {
-          score += COLD_START_INTEREST_BONUS;
-          break;
-        }
-      }
+    if (interestTagOverlap(quote, interestTags) > 0) {
+      score += COLD_START_INTEREST_BONUS;
     }
     if (input.tonePreference && quote.tone === input.tonePreference.toLowerCase()) {
       score += COLD_START_TONE_BONUS;
@@ -93,30 +77,66 @@ export function buildDailyDeck(input: BuildDeckInput): string[] {
   const liked = new Set(input.likedIds ?? []);
   const weights = getWeights();
   const hasHistory = Object.keys(weights).length > 0;
+  const interestTags = tagsForInterests(input.interests);
 
   const pool = input.allQuotes.filter(
     (q) => !seen.has(q.id) && !liked.has(q.id),
   );
 
   const scored = pool
-    .map((q) => ({ q, base: scoreQuote(q, weights, hasHistory, input) }))
+    .map((q) => ({ q, base: scoreQuote(q, weights, hasHistory, interestTags, input) }))
     .sort((a, b) => b.base - a.base + (Math.random() - 0.5) * 0.01);
 
+  // Greedy selection with a diversity penalty: each pick re-ranks the
+  // remaining candidates against tags already in the deck, so one dominant
+  // tag can't fill all slots. Only the top candidates can ever win a slot,
+  // so the scan is capped for speed.
+  const candidates = scored.slice(0, 200);
   const picks: Quote[] = [];
   const tagCounts: Record<string, number> = {};
+  // With swipe history, reserve slots for exploration wildcards — quotes the
+  // engine knows nothing about. Swipes on those teach it the most and keep
+  // the deck from narrowing onto early likes.
+  const personalizedTarget = hasHistory ? DECK_SIZE - EXPLORATION_SLOTS : DECK_SIZE;
 
-  for (const { q, base } of scored) {
-    if (picks.length >= DECK_SIZE) break;
-    let adjusted = base;
-    for (const tag of q.tags ?? []) {
-      const count = tagCounts[tag] ?? 0;
-      if (count >= 2) adjusted -= DIVERSITY_PENALTY_PER_REPEAT * (count - 1);
+  while (picks.length < personalizedTarget && candidates.length > 0) {
+    let bestIdx = 0;
+    let bestAdjusted = -Infinity;
+    for (let i = 0; i < candidates.length; i++) {
+      let adjusted = candidates[i].base;
+      for (const tag of candidates[i].q.tags ?? []) {
+        const count = tagCounts[tag] ?? 0;
+        if (count >= 2) adjusted -= DIVERSITY_PENALTY_PER_REPEAT * (count - 1);
+      }
+      if (adjusted > bestAdjusted) {
+        bestAdjusted = adjusted;
+        bestIdx = i;
+      }
     }
-    picks.push(q);
-    for (const tag of q.tags ?? []) {
+    const picked = candidates.splice(bestIdx, 1)[0].q;
+    picks.push(picked);
+    for (const tag of picked.tags ?? []) {
       tagCounts[tag] = (tagCounts[tag] ?? 0) + 1;
     }
-    void adjusted;
+  }
+
+  if (hasHistory) {
+    // Wildcards: random picks from the quotes whose tags carry the least
+    // learned signal (sum of absolute weights), i.e. unexplored territory.
+    const pickedIds = new Set(picks.map((q) => q.id));
+    const leastKnown = pool
+      .filter((q) => !pickedIds.has(q.id))
+      .map((q) => ({
+        q,
+        known: (q.tags ?? []).reduce((s, t) => s + Math.abs(weights[t] ?? 0), 0),
+      }))
+      .sort((a, b) => a.known - b.known)
+      .slice(0, 50)
+      .map((s) => s.q);
+    for (let i = 0; i < EXPLORATION_SLOTS && leastKnown.length > 0; i++) {
+      const idx = Math.floor(Math.random() * leastKnown.length);
+      picks.push(leastKnown.splice(idx, 1)[0]);
+    }
   }
 
   if (picks.length < DECK_SIZE) {
@@ -124,11 +144,14 @@ export function buildDailyDeck(input: BuildDeckInput): string[] {
   }
 
   const ids = picks.map((q) => q.id);
-  // Strongest hit lands at slot 4 (last free card before paywall).
-  // picks[0] is highest base score; swap into slot 4.
-  if (ids.length >= 5) {
-    [ids[0], ids[4]] = [ids[4], ids[0]];
+  if (hasHistory) {
+    // picks = 8 personalized (best first) + 2 wildcards. Strongest hit lands
+    // mid-deck at slot 4; wildcards spread to slots 2 and 7.
+    const [p0, p1, p2, p3, p4, p5, p6, p7, e0, e1] = ids;
+    return [p1, p2, e0, p3, p0, p4, p5, e1, p6, p7];
   }
+  // Cold start: strongest hit at slot 4.
+  [ids[0], ids[4]] = [ids[4], ids[0]];
   return ids;
 }
 

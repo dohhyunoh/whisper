@@ -110,9 +110,14 @@ export default function PaywallScreen() {
   const { state } = useAppContext();
   // Hard paywall gate (premium-only enforcement).
   const gated = from === 'gate';
-  // Capture onboarding-flow membership at mount, BEFORE the effect below flips
-  // onboardingComplete — otherwise post-purchase routing would misfire.
-  const [cameFromOnboarding] = useState(() => !state.onboardingComplete && !gated);
+  // Onboarding membership comes from the explicit param; the onboardingComplete
+  // inference (captured at mount, before the effect below flips it) only covers
+  // legacy callers. Inference alone breaks on re-entry: back-chevron + continue
+  // remounts this screen after onboardingComplete is already true, which made
+  // post-purchase routing bounce back to the trial-reminder screen.
+  const [cameFromOnboarding] = useState(
+    () => from === 'onboarding' || (!state.onboardingComplete && !gated),
+  );
 
   // New users reach this screen only after finishing the questionnaire. Mark
   // onboarding complete on arrival so quitting here returns them straight to the

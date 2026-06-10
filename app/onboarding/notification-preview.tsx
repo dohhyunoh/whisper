@@ -127,7 +127,7 @@ export default function NotificationPreviewScreen() {
     if (trialEligibleRef.current) {
       router.push('/onboarding/trial-offer');
     } else {
-      router.push('/onboarding/paywall');
+      router.push({ pathname: '/onboarding/paywall', params: { from: 'onboarding' } });
     }
   };
 

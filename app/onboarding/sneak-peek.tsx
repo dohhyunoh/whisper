@@ -2,6 +2,7 @@ import { useAppContext } from '@/context/app-context';
 import quotesData from '@/data/quotes';
 import { Quote } from '@/data/types';
 import { setFirstQuote } from '@/utils/first-quote';
+import { interestTagOverlap, moodMatchesQuote, tagsForInterests } from '@/utils/interest-tags';
 import { Events, posthog } from '@/utils/posthog';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -29,24 +30,27 @@ export default function SneakPeekScreen() {
   const interests = state.user?.interests ?? [];
   const emotionRoot = state.user?.emotionRoot || 'your journey';
 
+  // The user's very first quote: score every short quote against everything
+  // onboarding told us (interest tags, current emotion, tone preference) and
+  // pick from the handful of best hits.
   const quote = useMemo(() => {
     const short = allQuotes.filter((q) => q.text.length <= 120);
-    if (interests.length > 0) {
-      const matched = short.filter((q) =>
-        interests.some((interest) => {
-          if (interest.includes(':')) {
-            const [category, sub] = interest.split(':');
-            return q.category === category && q.subcategory === sub;
-          }
-          return q.category === interest;
-        }),
-      );
-      if (matched.length > 0) {
-        return matched[Math.floor(Math.random() * matched.length)];
-      }
-    }
-    return short[Math.floor(Math.random() * short.length)];
-  }, [interests]);
+    const interestTags = tagsForInterests(interests);
+    const mood = state.user?.primaryEmotion;
+    const tone = state.user?.tonePreference?.toLowerCase();
+
+    const scored = short
+      .map((q) => {
+        let score = interestTagOverlap(q, interestTags) * 2;
+        if (mood && moodMatchesQuote(mood, q)) score += 3;
+        if (tone && q.tone === tone) score += 1;
+        return { q, score };
+      })
+      .sort((a, b) => b.score - a.score);
+
+    const top = scored.slice(0, 5);
+    return top[Math.floor(Math.random() * top.length)].q;
+  }, [interests, state.user?.primaryEmotion, state.user?.tonePreference]);
 
   const labelOpacity = useSharedValue(0);
   const cardOpacity = useSharedValue(0);

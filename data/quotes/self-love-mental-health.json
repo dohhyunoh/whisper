@@ -4,8 +4,6 @@
     "text": "Sometimes the worst place you can be is in your own head.",
     "author": "Timothy Ferriss",
     "source": "The 4-Hour Workweek",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:anxiety", "need:perspective", "tone:direct"]
   },
@@ -14,8 +12,6 @@
     "text": "You are stronger than you think. You have gotten through every bad day in your life, and you are undefeated.",
     "author": "Lori Gottlieb",
     "source": "Maybe You Should Talk to Someone",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "theme:healing", "need:validation", "need:comfort", "tone:gentle"]
   },
@@ -24,8 +20,6 @@
     "text": "Rock bottom became the solid foundation on which I rebuilt my life.",
     "author": "J.K. Rowling",
     "source": "Very Good Lives",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["theme:healing", "theme:growth", "situation:new-chapter", "need:perspective", "emotion:hope", "tone:direct"]
   },
@@ -34,8 +28,6 @@
     "text": "The best way out is always through.",
     "author": "Robert Frost",
     "source": "A Servant to Servants",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["theme:healing", "need:challenge", "need:motivation", "tone:direct"]
   },
@@ -44,8 +36,6 @@
     "text": "Fall seven times, stand up eight.",
     "author": "Unknown",
     "source": "Japanese Proverb",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["need:motivation", "need:challenge", "tone:direct", "tone:fierce"]
   },
@@ -54,8 +44,6 @@
     "text": "It's not whether you get knocked down; it's whether you get up.",
     "author": "Vince Lombardi",
     "source": "What It Takes to Be Number One",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["need:motivation", "need:challenge", "tone:direct", "tone:fierce"]
   },
@@ -64,8 +52,6 @@
     "text": "The greatest weapon against stress is our ability to choose one thought over another.",
     "author": "William James",
     "source": "The Varieties of Religious Experience",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["emotion:anxiety", "need:perspective", "need:permission", "tone:direct"]
   },
@@ -74,8 +60,6 @@
     "text": "You may encounter many defeats, but you must not be defeated.",
     "author": "Maya Angelou",
     "source": "Letter to My Daughter",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["theme:identity", "need:motivation", "tone:direct", "tone:fierce"]
   },
@@ -84,8 +68,6 @@
     "text": "The sun himself is weak when he first rises, and gathers strength and courage as the day gets on.",
     "author": "Charles Dickens",
     "source": "The Old Curiosity Shop",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:exhaustion", "need:permission", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -94,8 +76,6 @@
     "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
     "author": "Winston Churchill",
     "source": "Churchill: A Life",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["need:perspective", "need:motivation", "tone:direct"]
   },
@@ -104,8 +84,6 @@
     "text": "You are not a drop in the ocean. You are the entire ocean in a drop.",
     "author": "Rumi",
     "source": "The Essential Rumi",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "playful",
     "tags": ["theme:self-worth", "theme:identity", "need:validation", "tone:poetic", "tone:fierce"]
   },
@@ -114,8 +92,6 @@
     "text": "You don't have to control your thoughts. You just have to stop letting them control you.",
     "author": "Dan Millman",
     "source": "Way of the Peaceful Warrior",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:anxiety", "theme:letting-go", "need:permission", "need:perspective", "tone:direct"]
   },
@@ -124,8 +100,6 @@
     "text": "Be soft. Do not let the world make you hard.",
     "author": "Iain S. Thomas",
     "source": "I Wrote This for You",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:identity", "need:permission", "tone:gentle", "tone:poetic"]
   },
@@ -134,8 +108,6 @@
     "text": "You are your best thing.",
     "author": "Toni Morrison",
     "source": "Beloved",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
@@ -144,8 +116,6 @@
     "text": "You don't have to be fearless. Doing it afraid is just as brave.",
     "author": "Susan Jeffers",
     "source": "Feel the Fear and Do It Anyway",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:fear", "need:permission", "need:motivation", "tone:gentle"]
   },
@@ -154,8 +124,6 @@
     "text": "Owning our story and loving ourselves through that process is the bravest thing that we'll ever do.",
     "author": "Brené Brown",
     "source": "The Gifts of Imperfection",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "theme:identity", "theme:healing", "need:permission", "tone:gentle"]
   },
@@ -164,8 +132,6 @@
     "text": "The only journey is the one within.",
     "author": "Rainer Maria Rilke",
     "source": "Letters to a Young Poet",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "playful",
     "tags": ["theme:identity", "need:perspective", "tone:poetic"]
   },
@@ -174,8 +140,6 @@
     "text": "It's never too late to be what you might have been.",
     "author": "George Eliot",
     "source": "Middlemarch",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:identity", "situation:new-chapter", "emotion:hope", "need:permission", "tone:gentle"]
   },
@@ -183,8 +147,6 @@
     "id": "self-love-mh-021",
     "text": "Healing takes time, and asking for help is a courageous step.",
     "author": "Mariska Hargitay",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "need:permission", "need:validation", "tone:gentle"]
   },
@@ -193,8 +155,6 @@
     "text": "Even the darkest night will end, and the sun will rise.",
     "author": "Victor Hugo",
     "source": "Les Misérables",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:hope", "need:comfort", "tone:gentle", "tone:poetic"]
   },
@@ -203,8 +163,6 @@
     "text": "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.",
     "author": "J.K. Rowling",
     "source": "Harry Potter and the Prisoner of Azkaban",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:hope", "emotion:joy", "need:perspective", "need:comfort", "tone:gentle"]
   },
@@ -213,8 +171,6 @@
     "text": "There is hope, even when your brain tells you there isn't.",
     "author": "John Green",
     "source": "Turtles All the Way Down",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:hope", "emotion:anxiety", "need:comfort", "need:validation", "tone:gentle"]
   },
@@ -223,8 +179,6 @@
     "text": "If you're going through hell, keep going.",
     "author": "Winston Churchill",
     "source": "Churchill: A Life",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["need:motivation", "need:challenge", "tone:direct", "tone:fierce"]
   },
@@ -233,8 +187,6 @@
     "text": "In the middle of winter, I at last discovered that there was in me an invincible summer.",
     "author": "Albert Camus",
     "source": "The Myth of Sisyphus",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "theme:identity", "emotion:hope", "need:validation", "tone:poetic"]
   },
@@ -243,8 +195,6 @@
     "text": "Just when the caterpillar thought the world was over, it became a butterfly.",
     "author": "Barbara Haines Howett",
     "source": "Ladies of the Borobudur",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "playful",
     "tags": ["theme:growth", "situation:new-chapter", "emotion:hope", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -253,8 +203,6 @@
     "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
     "author": "C.S. Lewis",
     "source": "Mere Christianity",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:growth", "theme:purpose", "need:perspective", "emotion:hope", "tone:gentle"]
   },
@@ -262,8 +210,6 @@
     "id": "self-love-mh-031",
     "text": "What mental health needs is more sunlight, more candor, and more unashamed conversation.",
     "author": "Glenn Close",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:shame", "need:permission", "tone:direct"]
   },
@@ -272,8 +218,6 @@
     "text": "Our wounds are often the openings into the best and most beautiful part of us.",
     "author": "David Richo",
     "source": "How to Be an Adult in Relationships",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "theme:growth", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -282,8 +226,6 @@
     "text": "The most beautiful people we have known are those who have known defeat, known suffering, known struggle, known loss, and have found their way out of the depths.",
     "author": "Elisabeth Kübler-Ross",
     "source": "Death: The Final Stage of Growth",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "theme:growth", "situation:loss", "need:perspective", "need:validation", "tone:gentle"]
   },
@@ -292,8 +234,6 @@
     "text": "Healing comes from taking responsibility: to realize that it is you - and no one else - that creates your thoughts, your feelings, and your actions.",
     "author": "Peter Shepherd",
     "source": "100 Ways to Overcome Depression",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["theme:healing", "theme:identity", "need:challenge", "need:permission", "tone:direct"]
   },
@@ -302,8 +242,6 @@
     "text": "Turn your wounds into wisdom.",
     "author": "Oprah Winfrey",
     "source": "What I Know For Sure",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["theme:healing", "theme:growth", "need:perspective", "tone:direct"]
   },
@@ -312,8 +250,6 @@
     "text": "You don't have to be strong all the time. It's okay to let your guard down.",
     "author": "Susan Jeffers",
     "source": "Feel the Fear and Do It Anyway",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:exhaustion", "need:permission", "need:comfort", "tone:gentle"]
   },
@@ -322,8 +258,6 @@
     "text": "To love ourselves and support each other in the process of becoming real is perhaps the greatest single act of daring greatly.",
     "author": "Brené Brown",
     "source": "Daring Greatly",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "theme:identity", "need:permission", "tone:gentle"]
   },
@@ -332,8 +266,6 @@
     "text": "Our sorrows and wounds are healed only when we touch them with compassion.",
     "author": "Jack Kornfield",
     "source": "The Wise Heart",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "emotion:grief", "need:comfort", "need:permission", "tone:gentle"]
   },
@@ -342,8 +274,6 @@
     "text": "Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.",
     "author": "Brené Brown",
     "source": "Daring Greatly",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:identity", "emotion:fear", "need:permission", "tone:direct"]
   },
@@ -352,8 +282,6 @@
     "text": "This too shall pass.",
     "author": "Unknown",
     "source": "Persian Proverb",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:comfort", "need:perspective", "tone:gentle"]
   },
@@ -361,8 +289,6 @@
     "id": "self-love-mh-043",
     "text": "I found that with depression, one of the most important things you can realize is that you're not alone. You're not the first to go through it, you're not gonna be the last to go through it.",
     "author": "Dwayne Johnson",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:loneliness", "need:validation", "need:comfort", "tone:gentle"]
   },
@@ -370,8 +296,6 @@
     "id": "self-love-mh-044",
     "text": "You are not alone. You are seen. I am with you. You are not alone.",
     "author": "Shonda Rhimes",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:loneliness", "need:comfort", "need:validation", "tone:gentle"]
   },
@@ -379,8 +303,6 @@
     "id": "self-love-mh-045",
     "text": "The experience I have had is that once you start talking about experiencing a mental health struggle, you realize that actually you're part of quite a big club.",
     "author": "Prince Harry",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:loneliness", "emotion:shame", "need:validation", "need:comfort", "tone:gentle"]
   },
@@ -388,8 +310,6 @@
     "id": "self-love-mh-049",
     "text": "Life doesn't make any sense without interdependence. We need each other, and the sooner we learn that, the better for us all.",
     "author": "Erik Erikson",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:friendship", "need:perspective", "need:permission", "tone:gentle"]
   },
@@ -397,8 +317,6 @@
     "id": "self-love-mh-050",
     "text": "Mental health problems don't define who you are. They are something you experience. You walk in the rain and you feel the rain, but, importantly, YOU ARE NOT THE RAIN.",
     "author": "Matt Haig",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:identity", "theme:self-worth", "emotion:shame", "need:perspective", "need:validation", "tone:gentle", "tone:direct"]
   },
@@ -406,8 +324,6 @@
     "id": "self-love-mh-051",
     "text": "Sometimes when you're in a dark place, you think you've been buried, but you've actually been planted.",
     "author": "Christine Caine",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "theme:growth", "emotion:hope", "need:perspective", "need:comfort", "tone:poetic"]
   },
@@ -415,8 +331,6 @@
     "id": "self-love-mh-052",
     "text": "Hope is being able to see that there is light despite all of the darkness.",
     "author": "Desmond Tutu",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:hope", "need:perspective", "need:comfort", "tone:gentle"]
   },
@@ -424,8 +338,6 @@
     "id": "self-love-mh-053",
     "text": "You don't have to see the whole staircase, just take the first step.",
     "author": "Martin Luther King Jr.",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:hope", "need:motivation", "need:permission", "tone:gentle", "tone:direct"]
   },
@@ -433,8 +345,6 @@
     "id": "self-love-mh-054",
     "text": "No feeling is final.",
     "author": "Rainer Maria Rilke",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "playful",
     "tags": ["emotion:grief", "emotion:anxiety", "need:comfort", "need:perspective", "tone:gentle"]
   },
@@ -442,8 +352,6 @@
     "id": "self-love-mh-055",
     "text": "You are allowed to be both a masterpiece and a work in progress, simultaneously.",
     "author": "Sophia Bush",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "theme:growth", "need:permission", "need:validation", "tone:gentle"]
   },
@@ -451,8 +359,6 @@
     "id": "self-love-mh-056",
     "text": "You may have to fight a battle more than once to win it.",
     "author": "Margaret Thatcher",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["need:perspective", "need:motivation", "tone:direct"]
   },
@@ -460,8 +366,6 @@
     "id": "self-love-mh-057",
     "text": "You never know how strong you are until being strong is your only choice.",
     "author": "Bob Marley",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["theme:self-worth", "need:validation", "need:motivation", "tone:direct"]
   },
@@ -469,8 +373,6 @@
     "id": "self-love-mh-058",
     "text": "She stood in the storm and when the wind did not blow her way, she adjusted her sails.",
     "author": "Elizabeth Edwards",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:letting-go", "theme:growth", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -478,8 +380,6 @@
     "id": "self-love-mh-059",
     "text": "On the days you feel too heavy to carry yourself, remember: you don't have to do this alone. Reaching out isn't weakness—it's the bravest thing you can do.",
     "author": "Morgan Harper Nichols",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:exhaustion", "emotion:loneliness", "need:permission", "need:comfort", "tone:gentle"]
   },
@@ -487,8 +387,6 @@
     "id": "self-love-mh-060",
     "text": "Your healing doesn't need to look like anyone else's. Some days you'll soar, and some days just getting out of bed is your victory. Both are enough.",
     "author": "Tanya Markul",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "emotion:exhaustion", "need:permission", "need:validation", "tone:gentle"]
   },
@@ -497,8 +395,6 @@
     "text": "There's a crack in everything. That's how the light gets in.",
     "author": "Leonard Cohen",
     "source": "Anthem",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "playful",
     "tags": ["theme:healing", "need:perspective", "tone:poetic"]
   },
@@ -506,8 +402,6 @@
     "id": "self-love-mh-062",
     "text": "If you're feeling fragile today, that's okay. You're not falling apart—you're falling into yourself, finding the pieces that need tenderness.",
     "author": "S.C. Lourie",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "emotion:exhaustion", "need:permission", "need:comfort", "tone:gentle", "tone:poetic"]
   },
@@ -515,8 +409,6 @@
     "id": "self-love-mh-063",
     "text": "The nights you think you can't make it are the exact nights your heart is learning how to rebuild itself in the dark.",
     "author": "Nikita Gill",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "emotion:exhaustion", "emotion:grief", "need:comfort", "need:validation", "tone:gentle", "tone:poetic"]
   },
@@ -525,8 +417,6 @@
     "text": "Asking for help is not giving up. It's refusing to give up.",
     "author": "Charlie Mackesy",
     "source": "The Boy, the Mole, the Fox and the Horse",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:permission", "need:validation", "tone:direct", "tone:gentle"]
   },
@@ -534,8 +424,6 @@
     "id": "self-love-mh-065",
     "text": "You are not too much. You have never been too much. The weight you carry is not who you are—it's what you're learning to set down.",
     "author": "Molly Burford",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "theme:identity", "theme:letting-go", "need:validation", "need:permission", "tone:gentle"]
   },
@@ -544,8 +432,6 @@
     "text": "Sometimes surviving is your greatest act of defiance. On those days, rest is your revolution.",
     "author": "Tricia Hersey",
     "source": "Rest Is Resistance",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:exhaustion", "situation:burnout", "need:permission", "need:stillness", "tone:fierce", "tone:direct"]
   },
@@ -553,8 +439,6 @@
     "id": "self-love-mh-067",
     "text": "You've weathered storms that would have broken others. Your scars aren't signs of failure—they're proof you fought to stay.",
     "author": "Nikita Gill",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "theme:self-worth", "need:validation", "need:comfort", "tone:gentle"]
   },
@@ -562,8 +446,6 @@
     "id": "self-love-mh-068",
     "text": "Healing is not linear. Some days you'll feel like you're back at the beginning. But you're not—you're spiraling upward, seeing old pain from new heights.",
     "author": "Yung Pueblo",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "need:perspective", "need:comfort", "need:permission", "tone:gentle"]
   },
@@ -571,8 +453,6 @@
     "id": "self-love-mh-069",
     "text": "When you can't find the strength to hold on, let yourself be held. There are hands reaching for you in the dark.",
     "author": "Morgan Harper Nichols",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:exhaustion", "emotion:loneliness", "need:permission", "need:comfort", "tone:gentle"]
   },
@@ -580,8 +460,6 @@
     "id": "self-love-mh-070",
     "text": "Your mental health struggles don't make you unworthy of love—they make you human. And being human, with all its messy beauty, is more than enough.",
     "author": "Alison Malee",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "emotion:shame", "need:validation", "need:permission", "tone:gentle"]
   },
@@ -589,8 +467,6 @@
     "id": "self-love-mh-071",
     "text": "We suffer more often in imagination than in reality.",
     "author": "Seneca",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "playful",
     "tags": ["emotion:anxiety", "need:perspective", "tone:direct"]
   },
@@ -598,8 +474,6 @@
     "id": "self-love-mh-072",
     "text": "An entire sea of water can't sink a ship unless it gets inside the ship.",
     "author": "Thich Nhat Hanh",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "playful",
     "tags": ["theme:boundaries", "need:perspective", "tone:poetic", "tone:direct"]
   },
@@ -607,8 +481,6 @@
     "id": "self-love-mh-073",
     "text": "Forgive others, not because they deserve forgiveness, but because you deserve peace.",
     "author": "Jonathan Lockwood Huie",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:forgiveness", "theme:letting-go", "emotion:peace", "need:permission", "tone:direct"]
   },
@@ -616,8 +488,6 @@
     "id": "self-love-mh-074",
     "text": "We are all bizarre. Some of us are just better at hiding it, that's all.",
     "author": "The Breakfast Club (1985)",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "playful",
     "tags": ["theme:identity", "need:validation", "tone:playful"]
   },
@@ -626,8 +496,6 @@
     "text": "The world is cursed, but still you find reasons to keep living.",
     "author": "Osa",
     "source": "Princess Mononoke (1997)",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:hope", "need:perspective", "need:motivation", "tone:direct"]
   },
@@ -635,8 +503,6 @@
     "id": "self-love-mh-076",
     "text": "What matters is the heart inside.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:identity", "theme:self-worth", "tone:gentle"]
   },
@@ -645,8 +511,6 @@
     "text": "It's okay to cry.",
     "author": "Marnie",
     "source": "When Marnie Was There (2014)",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:grief", "need:permission", "need:validation", "tone:gentle"]
   },
@@ -654,8 +518,6 @@
     "id": "self-love-mh-078",
     "text": "Forgive yourself for not knowing what only time could teach you.",
     "author": "Maya Angelou",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:forgiveness", "emotion:shame", "need:permission", "need:comfort", "tone:gentle"]
   },
@@ -663,8 +525,6 @@
     "id": "self-love-mh-079",
     "text": "I didn't know how hurt I was until someone was kind to me.",
     "author": "C.C. Aurel",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "emotion:grief", "need:validation", "tone:gentle", "tone:raw"]
   },
@@ -673,8 +533,6 @@
     "text": "Don't take everything personally. Not everyone thinks about you as much as you do.",
     "author": "Don Miguel Ruiz",
     "source": "The Four Agreements",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:anxiety", "need:perspective", "tone:direct"]
   },
@@ -682,8 +540,6 @@
     "id": "self-love-mh-082",
     "text": "You are not your worst days.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:identity", "theme:self-worth", "need:validation", "tone:gentle"]
   },
@@ -691,8 +547,6 @@
     "id": "self-love-mh-083",
     "text": "Be gentle with yourself today.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:permission", "need:comfort", "tone:gentle"]
   },
@@ -700,8 +554,6 @@
     "id": "self-love-mh-084",
     "text": "Your feelings are valid.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:validation", "need:permission", "tone:gentle"]
   },
@@ -709,8 +561,6 @@
     "id": "self-love-mh-085",
     "text": "It's okay to not be okay.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:permission", "need:validation", "tone:gentle"]
   },
@@ -718,8 +568,6 @@
     "id": "self-love-mh-086",
     "text": "You survived your hardest days.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "need:validation", "need:comfort", "tone:gentle"]
   },
@@ -727,8 +575,6 @@
     "id": "self-love-mh-087",
     "text": "Progress, not perfection.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:growth", "need:permission", "tone:direct"]
   },
@@ -736,8 +582,6 @@
     "id": "self-love-mh-088",
     "text": "You are more than your anxiety.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:identity", "emotion:anxiety", "need:validation", "need:perspective", "tone:gentle"]
   },
@@ -745,8 +589,6 @@
     "id": "self-love-mh-089",
     "text": "Rest your mind. You've earned it.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:exhaustion", "situation:burnout", "need:stillness", "need:permission", "tone:gentle"]
   },
@@ -754,8 +596,6 @@
     "id": "self-love-mh-090",
     "text": "Small steps still move you forward.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:growth", "need:motivation", "need:permission", "tone:gentle"]
   },
@@ -763,8 +603,6 @@
     "id": "self-love-mh-091",
     "text": "You don't have to carry it all.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:exhaustion", "need:permission", "tone:gentle"]
   },
@@ -772,8 +610,6 @@
     "id": "self-love-mh-092",
     "text": "Breathe. You're doing your best.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:anxiety", "need:stillness", "need:validation", "tone:gentle"]
   },
@@ -781,8 +617,6 @@
     "id": "self-love-mh-093",
     "text": "Your peace matters more than drama.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["emotion:peace", "theme:boundaries", "need:permission", "tone:direct"]
   },
@@ -790,8 +624,6 @@
     "id": "self-love-mh-094",
     "text": "Let go of what you can't control.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:letting-go", "emotion:anxiety", "need:permission", "tone:gentle"]
   },
@@ -799,8 +631,6 @@
     "id": "self-love-mh-095",
     "text": "Bad days don't mean a bad life.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:perspective", "need:comfort", "tone:gentle"]
   },
@@ -808,8 +638,6 @@
     "id": "self-love-mh-096",
     "text": "You are allowed to start over.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["situation:new-chapter", "need:permission", "tone:gentle"]
   },
@@ -817,8 +645,6 @@
     "id": "self-love-mh-097",
     "text": "Asking for help is strength.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:permission", "need:validation", "tone:direct"]
   },
@@ -826,8 +652,6 @@
     "id": "self-love-mh-098",
     "text": "You are enough, even now.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
@@ -835,8 +659,6 @@
     "id": "self-love-mh-099",
     "text": "Give yourself grace today.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:permission", "tone:gentle"]
   },
@@ -844,8 +666,6 @@
     "id": "self-love-mh-100",
     "text": "Healing takes time. Be patient.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "need:permission", "need:stillness", "tone:gentle"]
   },
@@ -853,8 +673,6 @@
     "id": "self-love-mh-101",
     "text": "Your scars tell a story of survival.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "need:validation", "tone:gentle"]
   },
@@ -862,8 +680,6 @@
     "id": "self-love-mh-102",
     "text": "One day at a time.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:permission", "need:stillness", "tone:gentle"]
   },
@@ -871,8 +687,6 @@
     "id": "self-love-mh-103",
     "text": "You are not a burden.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "emotion:shame", "need:validation", "tone:gentle"]
   },
@@ -880,8 +694,6 @@
     "id": "self-love-mh-104",
     "text": "Protect your energy fiercely.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["theme:boundaries", "need:permission", "tone:fierce", "tone:direct"]
   },
@@ -889,8 +701,6 @@
     "id": "self-love-mh-105",
     "text": "The storm will pass. Hold on.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:hope", "need:comfort", "need:perspective", "tone:gentle"]
   },
@@ -898,8 +708,6 @@
     "id": "self-love-mh-106",
     "text": "You are worthy of good things.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:self-worth", "need:validation", "tone:gentle"]
   },
@@ -907,8 +715,6 @@
     "id": "self-love-mh-107",
     "text": "Let yourself feel. Then let it go.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:letting-go", "emotion:grief", "need:permission", "tone:gentle"]
   },
@@ -916,8 +722,6 @@
     "id": "self-love-mh-108",
     "text": "Courage is being afraid and going on.",
     "author": "Maya Angelou",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:fear", "need:motivation", "need:permission", "tone:direct"]
   },
@@ -925,8 +729,6 @@
     "id": "self-love-mh-109",
     "text": "Your mental health comes first.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["theme:boundaries", "need:permission", "tone:direct", "tone:fierce"]
   },
@@ -934,8 +736,6 @@
     "id": "self-love-mh-110",
     "text": "I finally found my rhythm when I realized that even the steps backwards were part of the dance.",
     "author": "Melody Godfred",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "theme:growth", "need:perspective", "need:permission", "tone:gentle", "tone:poetic"]
   },
@@ -943,8 +743,6 @@
     "id": "self-love-mh-111",
     "text": "Peace feels weird when chaos raised you.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["theme:family", "theme:healing", "emotion:peace", "need:validation", "tone:raw", "tone:direct"]
   },
@@ -952,8 +750,6 @@
     "id": "self-love-mh-112",
     "text": "A negative mind will not give you a positive life.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["need:perspective", "need:challenge", "tone:direct"]
   },
@@ -961,8 +757,6 @@
     "id": "self-love-mh-113",
     "text": "Be gentle with yourself, it's your first time living too.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:permission", "need:comfort", "tone:gentle", "tone:playful"]
   },
@@ -970,8 +764,6 @@
     "id": "self-love-mh-114",
     "text": "When the world gets heavy, become a door, not a wall.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:identity", "emotion:exhaustion", "need:permission", "tone:poetic"]
   },
@@ -979,8 +771,6 @@
     "id": "self-love-mh-116",
     "text": "Let silence be a room you are not afraid to enter.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["need:stillness", "emotion:peace", "need:permission", "tone:poetic"]
   },
@@ -988,8 +778,6 @@
     "id": "self-love-mh-117",
     "text": "Some storms are not here to ruin you. Some come to clear the air.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -997,8 +785,6 @@
     "id": "self-love-mh-118",
     "text": "Even the dark has a way of teaching stars how to shine.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:growth", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -1006,8 +792,6 @@
     "id": "self-love-mh-119",
     "text": "Your ability to feel other people's pain doesn't mean it's your responsibility to fix it.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:boundaries", "need:permission", "tone:gentle"]
   },
@@ -1015,8 +799,6 @@
     "id": "self-love-mh-120",
     "text": "When someone is drowning, that is not the time to teach them how to swim.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["theme:healing", "need:comfort", "tone:gentle"]
   },
@@ -1024,8 +806,6 @@
     "id": "self-love-mh-121",
     "text": "If it costs me my peace, it'll cost you my presence.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "direct",
     "tags": ["theme:boundaries", "emotion:peace", "need:permission", "tone:direct", "tone:fierce"]
   },
@@ -1033,8 +813,6 @@
     "id": "self-love-mh-122",
     "text": "You'll find peace when you realize people are at war with themselves, not you.",
     "author": "Unknown",
-    "category": "self-love",
-    "subcategory": "mental-health",
     "tone": "gentle",
     "tags": ["emotion:peace", "need:perspective", "tone:gentle"]
   }

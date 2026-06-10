@@ -3,8 +3,6 @@
     "id": "religion-other-001",
     "text": "The soul would have no rainbow if the eyes had no tears.",
     "author": "Native American Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:healing", "emotion:grief", "need:perspective", "need:comfort", "tone:poetic", "tone:gentle"]
   },
@@ -13,8 +11,6 @@
     "text": "The Tao that can be told is not the eternal Tao. The name that can be named is not the eternal name.",
     "author": "Laozi",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "need:perspective", "tone:poetic", "tone:sacred"]
   },
@@ -23,8 +19,6 @@
     "text": "Water is the softest thing, yet it erodes mountains and stones. This is because it yields with ease. All things, one must change to be hard and stiff in order to resist death.",
     "author": "Laozi",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "theme:letting-go", "need:perspective", "tone:poetic", "tone:sacred"]
   },
@@ -33,8 +27,6 @@
     "text": "A journey of a thousand miles begins with a single step.",
     "author": "Laozi",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "need:motivation", "need:permission", "tone:direct", "tone:sacred"]
   },
@@ -43,8 +35,6 @@
     "text": "The wise man does not lay up his own treasures. The more he gives to others, the more he has for his own.",
     "author": "Laozi",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "theme:money", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -53,8 +43,6 @@
     "text": "Nature does not hurry, yet everything is accomplished.",
     "author": "Laozi",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "need:stillness", "need:perspective", "tone:gentle", "tone:poetic", "tone:sacred"]
   },
@@ -63,8 +51,6 @@
     "text": "To the mind that is still, the whole universe surrenders.",
     "author": "Laozi",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "need:stillness", "tone:poetic", "tone:sacred"]
   },
@@ -73,8 +59,6 @@
     "text": "Knowing others is wisdom. Knowing yourself is enlightenment.",
     "author": "Laozi",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "theme:identity", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -83,8 +67,6 @@
     "text": "The greatest victories are those won without a fight. The sharpest edge is that which cuts no one.",
     "author": "Laozi",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "theme:letting-go", "need:perspective", "tone:poetic", "tone:sacred"]
   },
@@ -93,8 +75,6 @@
     "text": "When you realize there is nothing lacking, the whole world belongs to you.",
     "author": "Laozi",
     "source": "Tao Te Ching",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "theme:self-worth", "need:validation", "need:perspective", "tone:gentle", "tone:sacred"]
   },
@@ -102,8 +82,6 @@
     "id": "religion-other-011",
     "text": "The butterfly dreams it is a man. The man dreams he is a butterfly. Between the two, there must be a distinction — but which is the dream?",
     "author": "Zhuangzi",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "theme:identity", "need:perspective", "tone:poetic"]
   },
@@ -111,8 +89,6 @@
     "id": "religion-other-012",
     "text": "The universe is not something separate from you. You are the universe looking at itself.",
     "author": "Zhuangzi",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "theme:identity", "theme:self-worth", "need:validation", "tone:poetic"]
   },
@@ -120,8 +96,6 @@
     "id": "religion-other-013",
     "text": "Once you have looked beyond the boundaries of convention, you will never be confined by them again.",
     "author": "Zhuangzi",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "theme:identity", "theme:boundaries", "need:permission", "tone:direct"]
   },
@@ -129,8 +103,6 @@
     "id": "religion-other-014",
     "text": "The fish trap exists because of the fish; once you have gotten the fish, you can forget the trap. The snare exists because of the rabbit; once you have gotten the rabbit, you can forget the snare.",
     "author": "Zhuangzi",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "theme:letting-go", "need:perspective", "tone:poetic"]
   },
@@ -138,8 +110,6 @@
     "id": "religion-other-015",
     "text": "To have attained the human form — just think how fortunate that is! To lose it again — just think how soon that comes! Yet a great master regards life as morning dew.",
     "author": "Zhuangzi",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:taoism", "theme:mortality", "need:perspective", "tone:poetic"]
   },
@@ -148,8 +118,6 @@
     "text": "Ik Onkar — There is only One God. He is the Truth.",
     "author": "Guru Nanak",
     "source": "Guru Granth Sahib",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "tone:sacred"]
   },
@@ -158,8 +126,6 @@
     "text": "God is one; he who forgets God shall be destroyed. Nanak says, remember Him always.",
     "author": "Guru Nanak",
     "source": "Guru Granth Sahib",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "tone:sacred"]
   },
@@ -168,8 +134,6 @@
     "text": "There is no Muslim and no Hindu. There is only a human soul on a journey toward the light.",
     "author": "Guru Nanak",
     "source": "Guru Granth Sahib",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "need:perspective", "tone:gentle", "tone:sacred"]
   },
@@ -178,8 +142,6 @@
     "text": "The world is not real, yet it is not unreal either. It is the stage upon which the soul plays its part.",
     "author": "Guru Nanak",
     "source": "Guru Granth Sahib",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "need:perspective", "tone:poetic", "tone:sacred"]
   },
@@ -188,8 +150,6 @@
     "text": "He who has no faith in himself can never have faith in God.",
     "author": "Guru Nanak",
     "source": "Guru Granth Sahib",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "theme:self-worth", "need:validation", "tone:direct", "tone:sacred"]
   },
@@ -197,8 +157,6 @@
     "id": "religion-other-021",
     "text": "Speak boldly and fearlessly, for the truth requires courage. The soldier of righteousness fears nothing but injustice.",
     "author": "Guru Gobind Singh",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "emotion:fear", "need:challenge", "need:motivation", "tone:fierce", "tone:direct"]
   },
@@ -206,8 +164,6 @@
     "id": "religion-other-022",
     "text": "The Khalsa is the pure one. When the Khalsa is pure, God's glory is upheld.",
     "author": "Guru Gobind Singh",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "tone:sacred"]
   },
@@ -215,8 +171,6 @@
     "id": "religion-other-023",
     "text": "There is no place in this world that is free of God. He pervades all creation without exception.",
     "author": "Guru Gobind Singh",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "need:perspective", "tone:sacred"]
   },
@@ -224,8 +178,6 @@
     "id": "religion-other-024",
     "text": "Naam Simran — remember God's name always. In that remembrance, you will find the peace that the world cannot give.",
     "author": "Guru Gobind Singh",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "emotion:peace", "need:stillness", "tone:gentle", "tone:sacred"]
   },
@@ -234,8 +186,6 @@
     "text": "The Guru is the light that dispels darkness. Seek the Guru, and you seek liberation.",
     "author": "Guru Arjan Dev",
     "source": "Guru Granth Sahib",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "emotion:hope", "tone:poetic", "tone:sacred"]
   },
@@ -244,8 +194,6 @@
     "text": "That which you call sin, the wise man calls opportunity. That which you call failure, the wise man calls learning.",
     "author": "Guru Tegh Bahadur",
     "source": "Guru Granth Sahib",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:sikhism", "theme:self-worth", "theme:growth", "need:perspective", "need:permission", "tone:direct", "tone:sacred"]
   },
@@ -254,8 +202,6 @@
     "text": "The Talmud teaches: He who saves a single soul, it is as if he has saved an entire world.",
     "author": "The Talmud",
     "source": "Talmud",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "need:perspective", "tone:sacred"]
   },
@@ -264,8 +210,6 @@
     "text": "Rabbi Hillel taught: If I am not for myself, who will be for me? But if I am only for myself, what am I? And if not now, when?",
     "author": "Hillel the Elder",
     "source": "Talmud",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "theme:self-worth", "theme:boundaries", "need:permission", "need:challenge", "tone:direct", "tone:sacred"]
   },
@@ -274,8 +218,6 @@
     "text": "Do not judge your fellow man until you have reached his place.",
     "author": "Hillel the Elder",
     "source": "Talmud",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -284,8 +226,6 @@
     "text": "The Torah says: Love your neighbor as yourself. This is the greatest commandment in all the law.",
     "author": "Torah",
     "source": "Leviticus 19:18",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "tone:sacred"]
   },
@@ -294,8 +234,6 @@
     "text": "Hear, O Israel: The Lord our God, the Lord is One. Love the Lord your God with all your heart and with all your soul and with all your strength.",
     "author": "Torah",
     "source": "Deuteronomy 6:4-5",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "tone:sacred", "tone:poetic"]
   },
@@ -304,8 +242,6 @@
     "text": "The measure of a man is not by what he accumulates, but by what he gives away. Generosity is the highest expression of faith.",
     "author": "The Talmud",
     "source": "Talmud",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "theme:money", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -314,8 +250,6 @@
     "text": "Torah study is equivalent to all the commandments combined. It is the foundation upon which all of life rests.",
     "author": "The Talmud",
     "source": "Talmud",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "tone:sacred"]
   },
@@ -324,8 +258,6 @@
     "text": "A person who repents sincerely is greater than one who has never sinned at all.",
     "author": "The Talmud",
     "source": "Talmud",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "theme:forgiveness", "emotion:shame", "need:permission", "need:validation", "tone:gentle", "tone:sacred"]
   },
@@ -333,8 +265,6 @@
     "id": "religion-other-035",
     "text": "Judaism teaches that God is not found only in heaven. He is found wherever you let Him in.",
     "author": "Maimonides",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "need:perspective", "tone:gentle"]
   },
@@ -342,8 +272,6 @@
     "id": "religion-other-036",
     "text": "The purpose of the whole creation is to know God. Everything else is commentary.",
     "author": "Maimonides",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "theme:purpose", "tone:direct"]
   },
@@ -351,8 +279,6 @@
     "id": "religion-other-037",
     "text": "The world was not created for your sake, but you were created for the sake of the world.",
     "author": "Elie Wiesel",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "theme:purpose", "need:perspective", "tone:direct"]
   },
@@ -361,8 +287,6 @@
     "text": "Never shall I forget the first night, which made me forget so many things, which transformed my life into one long night.",
     "author": "Elie Wiesel",
     "source": "Night",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "emotion:grief", "situation:loss", "tone:poetic", "tone:raw"]
   },
@@ -370,8 +294,6 @@
     "id": "religion-other-039",
     "text": "God's glory resides in questions, not in answers.",
     "author": "Rabbi Abraham Heschel",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:judaism", "need:permission", "need:perspective", "tone:direct", "tone:poetic"]
   },
@@ -379,8 +301,6 @@
     "id": "religion-other-040",
     "text": "The Cherokee teach: Do not judge each day by the harvest you reap, but by the seeds that you plant.",
     "author": "Cherokee Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "need:motivation", "tone:gentle", "tone:poetic"]
   },
@@ -388,8 +308,6 @@
     "id": "religion-other-041",
     "text": "The Lakota say: We are all related. Mitakuye Oyasin — all my relations.",
     "author": "Lakota Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -397,8 +315,6 @@
     "id": "religion-other-042",
     "text": "The earth does not belong to us; we belong to the earth.",
     "author": "Native American Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:direct", "tone:poetic"]
   },
@@ -406,8 +322,6 @@
     "id": "religion-other-043",
     "text": "The Navajo teach: Walk in beauty as it is here all around you. Above you walk in beauty, and through you.",
     "author": "Navajo Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "emotion:joy", "need:perspective", "tone:poetic"]
   },
@@ -415,8 +329,6 @@
     "id": "religion-other-044",
     "text": "Listen to the wind, the trees, the rain falling. Listen to yourself.",
     "author": "Apache Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:stillness", "tone:poetic"]
   },
@@ -424,8 +336,6 @@
     "id": "religion-other-045",
     "text": "The Ojibwe say: Look behind you and see all in peace, and ahead you see all in victory.",
     "author": "Ojibwe Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "emotion:peace", "emotion:hope", "need:perspective", "tone:gentle"]
   },
@@ -433,8 +343,6 @@
     "id": "religion-other-046",
     "text": "When you were born, you cried and the world rejoiced. Live your life so that when you die, the world cries and you rejoice.",
     "author": "Native American Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:mortality", "theme:purpose", "need:perspective", "tone:poetic"]
   },
@@ -442,8 +350,6 @@
     "id": "religion-other-047",
     "text": "The Crow nation says: Do not judge another person until you have walked a long distance in their moccasins.",
     "author": "Crow Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:direct"]
   },
@@ -451,8 +357,6 @@
     "id": "religion-other-048",
     "text": "The Sioux teach: The heart has always been the place closest to the spirit. Listen to yours.",
     "author": "Sioux Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:stillness", "need:permission", "tone:gentle"]
   },
@@ -460,8 +364,6 @@
     "id": "religion-other-049",
     "text": "It takes a village to raise a child.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:family", "theme:friendship", "need:perspective", "tone:direct"]
   },
@@ -469,8 +371,6 @@
     "id": "religion-other-050",
     "text": "A child who is not embraced by the village will be reclaimed by it to burn it down.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:family", "need:perspective", "tone:direct", "tone:raw"]
   },
@@ -478,8 +378,6 @@
     "id": "religion-other-051",
     "text": "No one is as wise as the person who has learned from everyone.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:growth", "need:perspective", "tone:direct"]
   },
@@ -487,8 +385,6 @@
     "id": "religion-other-052",
     "text": "When the music changes, so does the dance.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:letting-go", "situation:new-chapter", "need:perspective", "tone:poetic"]
   },
@@ -496,8 +392,6 @@
     "id": "religion-other-053",
     "text": "The river does not ask for permission to flow. It simply moves in the direction of its nature.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:identity", "need:permission", "tone:poetic"]
   },
@@ -505,8 +399,6 @@
     "id": "religion-other-054",
     "text": "Until the lions have their own historians, the history of the hunt will always favor the hunter.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:fierce", "tone:direct"]
   },
@@ -514,8 +406,6 @@
     "id": "religion-other-055",
     "text": "A man who is not brave enough to take a risk, anything he does will be mediocre.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:challenge", "need:motivation", "tone:direct", "tone:fierce"]
   },
@@ -523,8 +413,6 @@
     "id": "religion-other-056",
     "text": "The elders are the library of the community. When an elder dies, a library is burned.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:family", "theme:mortality", "situation:loss", "need:perspective", "tone:poetic"]
   },
@@ -532,8 +420,6 @@
     "id": "religion-other-057",
     "text": "If you want to go fast, go alone. If you want to go far, go together.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:friendship", "need:perspective", "tone:direct"]
   },
@@ -541,8 +427,6 @@
     "id": "religion-other-058",
     "text": "The rain does not fall on one roof alone. Every soul is touched by grace.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "need:comfort", "tone:poetic"]
   },
@@ -550,8 +434,6 @@
     "id": "religion-other-059",
     "text": "Ubuntu: I am because we are. A person is a person through other persons.",
     "author": "African Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:identity", "theme:friendship", "need:perspective", "tone:gentle"]
   },
@@ -559,8 +441,6 @@
     "id": "religion-other-060",
     "text": "The Zulu say: Even the mightiest tree bends in the storm. Strength is not in standing rigid; it is in bending without breaking.",
     "author": "Zulu Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:letting-go", "need:permission", "need:perspective", "tone:poetic"]
   },
@@ -568,8 +448,6 @@
     "id": "religion-other-061",
     "text": "The land is sacred. Those who walked it before us, and those who walk it after us — they are all one with the earth.",
     "author": "Australian Aboriginal Wisdom",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -577,8 +455,6 @@
     "id": "religion-other-062",
     "text": "The Dreaming is not a time in the past. It is happening now, in every breath, in every stone, in every creature.",
     "author": "Australian Aboriginal Wisdom",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:stillness", "need:perspective", "tone:poetic"]
   },
@@ -586,8 +462,6 @@
     "id": "religion-other-063",
     "text": "We did not inherit the land from our ancestors; we borrowed it from our children.",
     "author": "Australian Aboriginal Wisdom",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:family", "need:perspective", "tone:direct"]
   },
@@ -595,8 +469,6 @@
     "id": "religion-other-064",
     "text": "The stars are the ancestors watching over us. Every night, they return to remind us where we came from.",
     "author": "Australian Aboriginal Wisdom",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:family", "situation:loss", "need:comfort", "tone:gentle", "tone:poetic"]
   },
@@ -604,8 +476,6 @@
     "id": "religion-other-065",
     "text": "Country holds the soul. When you are separated from it, part of your spirit goes quiet.",
     "author": "Australian Aboriginal Wisdom",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:identity", "emotion:longing", "tone:poetic"]
   },
@@ -613,8 +483,6 @@
     "id": "religion-other-066",
     "text": "Kia ora — life is a gift. Receive it with open hands and a grateful heart.",
     "author": "Maori Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "emotion:joy", "need:perspective", "tone:gentle"]
   },
@@ -622,8 +490,6 @@
     "id": "religion-other-067",
     "text": "He aha te mea nui o te ao? He tangata, he tangata, he tangata. What is the greatest thing in the world? It is the people, the people, the people.",
     "author": "Maori Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:friendship", "theme:family", "need:perspective", "tone:poetic"]
   },
@@ -631,8 +497,6 @@
     "id": "religion-other-068",
     "text": "The whakapapa — the genealogy of all living things — connects us to every creature and to the gods themselves.",
     "author": "Maori Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:family", "need:perspective", "tone:poetic"]
   },
@@ -640,8 +504,6 @@
     "id": "religion-other-069",
     "text": "The sacred fire has burned since the beginning. It asks nothing of you but that you tend it with reverence.",
     "author": "Indigenous Wisdom",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "tone:poetic"]
   },
@@ -650,8 +512,6 @@
     "text": "Good thoughts, good words, good deeds. These three are the pillars upon which all truth stands.",
     "author": "Zarathustra",
     "source": "Avesta",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:zoroastrianism", "theme:identity", "need:motivation", "tone:direct", "tone:sacred"]
   },
@@ -660,8 +520,6 @@
     "text": "The battle is not between good and evil on the outside. It is within. Purify your own mind, and you purify the world.",
     "author": "Zarathustra",
     "source": "Avesta",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:zoroastrianism", "theme:identity", "need:perspective", "need:challenge", "tone:direct", "tone:sacred"]
   },
@@ -670,8 +528,6 @@
     "text": "Light is the symbol of truth and righteousness. Walk ever toward it, never away.",
     "author": "Zarathustra",
     "source": "Avesta",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:zoroastrianism", "emotion:hope", "need:motivation", "tone:direct", "tone:sacred"]
   },
@@ -680,8 +536,6 @@
     "text": "Ahura Mazda created the world in perfection. It is man's task to restore it when it has been made imperfect.",
     "author": "Zarathustra",
     "source": "Avesta",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:zoroastrianism", "theme:purpose", "tone:sacred"]
   },
@@ -690,8 +544,6 @@
     "text": "Righteousness is the foundation of all things. Without it, even the mightiest kingdom crumbles to dust.",
     "author": "Zarathustra",
     "source": "Avesta",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:zoroastrianism", "need:perspective", "tone:direct", "tone:sacred"]
   },
@@ -699,8 +551,6 @@
     "id": "religion-other-076",
     "text": "The unity of God is the first truth. All other truths flow from this single, infinite source.",
     "author": "Bahá'u'lláh",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:bahai", "tone:sacred"]
   },
@@ -708,8 +558,6 @@
     "id": "religion-other-077",
     "text": "The religions of the world are not enemies of one another. They are rivers flowing into the same ocean of truth.",
     "author": "Bahá'u'lláh",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:bahai", "need:perspective", "tone:poetic"]
   },
@@ -717,8 +565,6 @@
     "id": "religion-other-078",
     "text": "Treat thy neighbor even as thyself. Let no man's ignorance dim the light of thy love.",
     "author": "Bahá'u'lláh",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:bahai", "need:perspective", "tone:gentle", "tone:sacred"]
   },
@@ -726,8 +572,6 @@
     "id": "religion-other-079",
     "text": "The purpose of life is to unite the world in one common faith, one shared justice, and one universal peace.",
     "author": "Abdul-Baha",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:bahai", "theme:purpose", "emotion:peace", "tone:direct"]
   },
@@ -735,8 +579,6 @@
     "id": "religion-other-080",
     "text": "The light of the knowledge of God shall pervade the world; all nations shall become as one.",
     "author": "Abdul-Baha",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:bahai", "emotion:hope", "tone:poetic"]
   },
@@ -744,8 +586,6 @@
     "id": "religion-other-081",
     "text": "Ahimsa — non-violence — is the highest virtue. One who practices it truly has conquered the self.",
     "author": "Lord Mahavira",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:jainism", "theme:identity", "need:challenge", "tone:direct", "tone:sacred"]
   },
@@ -753,8 +593,6 @@
     "id": "religion-other-082",
     "text": "All souls in the universe have the same divine nature. The difference is only in the layers of karma that cover them.",
     "author": "Lord Mahavira",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:jainism", "theme:self-worth", "need:perspective", "need:validation", "tone:gentle"]
   },
@@ -762,8 +600,6 @@
     "id": "religion-other-083",
     "text": "Every soul is a king. Know yourself, and you know your kingdom.",
     "author": "Lord Mahavira",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:jainism", "theme:self-worth", "theme:identity", "need:validation", "tone:direct"]
   },
@@ -771,8 +607,6 @@
     "id": "religion-other-084",
     "text": "Faith without practice is like a seed without soil. It has the potential for great things, but without nourishment, it cannot grow.",
     "author": "Lord Mahavira",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:jainism", "theme:growth", "need:challenge", "need:motivation", "tone:direct", "tone:poetic"]
   },
@@ -780,8 +614,6 @@
     "id": "religion-other-085",
     "text": "The soul, freed from all attachment, shines with an infinite radiance. This is liberation.",
     "author": "Lord Mahavira",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:jainism", "theme:letting-go", "tone:poetic"]
   },
@@ -789,8 +621,6 @@
     "id": "religion-other-086",
     "text": "Your children need your presence more than your possessions.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:family", "situation:parenting", "need:perspective", "tone:direct"]
   },
@@ -799,8 +629,6 @@
     "text": "On giving: There are those who give with joy, and that joy is their reward and their plenty.",
     "author": "Khalil Gibran",
     "source": "The Prophet",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "emotion:joy", "need:perspective", "tone:gentle"]
   },
@@ -809,8 +637,6 @@
     "text": "Your pain is the breaking of the shell that encloses your understanding.",
     "author": "Khalil Gibran",
     "source": "The Prophet",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:healing", "theme:growth", "emotion:grief", "need:perspective", "tone:poetic", "tone:gentle"]
   },
@@ -819,8 +645,6 @@
     "text": "Out of suffering have emerged the greatest souls. The most mournful of creatures are the most blessed.",
     "author": "Khalil Gibran",
     "source": "The Prophet",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:healing", "emotion:grief", "need:perspective", "need:validation", "tone:poetic"]
   },
@@ -828,8 +652,6 @@
     "id": "religion-other-090",
     "text": "The soul unfolds itself, not in one but in many steps. Each step is a new dawn.",
     "author": "Rumi",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:islam", "theme:growth", "emotion:hope", "tone:poetic"]
   },
@@ -837,8 +659,6 @@
     "id": "religion-other-091",
     "text": "The heart knows truths that the mind can never reach. Trust the heart.",
     "author": "Rumi",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:islam", "need:permission", "tone:poetic"]
   },
@@ -846,8 +666,6 @@
     "id": "religion-other-093",
     "text": "The secret of attraction is to love yourself. Attractive people judge neither themselves nor others.",
     "author": "Deepak Chopra",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:self-worth", "theme:body-image", "need:validation", "tone:direct"]
   },
@@ -855,8 +673,6 @@
     "id": "religion-other-094",
     "text": "All faiths are roads. All religions soar to the same spirit, then stumble the moment they turn concrete into the divine.",
     "author": "Spiritual Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:poetic"]
   },
@@ -864,8 +680,6 @@
     "id": "religion-other-095",
     "text": "The divine does not live in temples or mosques. The divine lives in the space between two hearts that understand each other.",
     "author": "Spiritual Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:poetic"]
   },
@@ -873,8 +687,6 @@
     "id": "religion-other-096",
     "text": "Every tradition names the sacred differently. Every tradition points toward the same light.",
     "author": "Spiritual Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:gentle"]
   },
@@ -882,8 +694,6 @@
     "id": "religion-other-097",
     "text": "The universe conspires to bring the seeker to what is sought. Trust the journey.",
     "author": "Spiritual Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "emotion:hope", "need:comfort", "tone:gentle"]
   },
@@ -891,8 +701,6 @@
     "id": "religion-other-098",
     "text": "Compassion is the language all religions speak. It is the thread that binds all of humanity together.",
     "author": "Spiritual Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:gentle"]
   },
@@ -900,8 +708,6 @@
     "id": "religion-other-099",
     "text": "The greatest prayer is not the one spoken with words. It is the one lived with every breath.",
     "author": "Spiritual Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:stillness", "tone:poetic"]
   },
@@ -909,8 +715,6 @@
     "id": "religion-other-100",
     "text": "In the silence between the stars, the sacred whispers. Listen, and you will hear it speak your name.",
     "author": "Spiritual Proverb",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:stillness", "need:validation", "tone:poetic"]
   },
@@ -918,8 +722,6 @@
     "id": "religion-other-101",
     "text": "The soul knows what it needs.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:identity", "need:permission", "tone:gentle"]
   },
@@ -927,8 +729,6 @@
     "id": "religion-other-102",
     "text": "Every breath is a quiet prayer.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:stillness", "tone:gentle", "tone:poetic"]
   },
@@ -936,8 +736,6 @@
     "id": "religion-other-103",
     "text": "You are more than this body.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:body-image", "theme:identity", "need:validation", "tone:gentle"]
   },
@@ -945,8 +743,6 @@
     "id": "religion-other-104",
     "text": "Trust the journey of your soul.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:comfort", "need:permission", "tone:gentle"]
   },
@@ -954,8 +750,6 @@
     "id": "religion-other-105",
     "text": "The universe bends toward love.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "emotion:hope", "need:comfort", "tone:gentle"]
   },
@@ -963,8 +757,6 @@
     "id": "religion-other-106",
     "text": "Sacred moments hide in the ordinary.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:gentle", "tone:poetic"]
   },
@@ -972,8 +764,6 @@
     "id": "religion-other-107",
     "text": "Divinity lives within you.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:self-worth", "theme:identity", "need:validation", "tone:gentle"]
   },
@@ -981,8 +771,6 @@
     "id": "religion-other-108",
     "text": "Stillness is where the spirit speaks.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:stillness", "tone:gentle"]
   },
@@ -990,8 +778,6 @@
     "id": "religion-other-109",
     "text": "You are exactly where you need to be.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:comfort", "need:permission", "tone:gentle"]
   },
@@ -999,8 +785,6 @@
     "id": "religion-other-110",
     "text": "Faith is trusting what you can't see.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "emotion:hope", "need:comfort", "tone:gentle"]
   },
@@ -1008,8 +792,6 @@
     "id": "religion-other-111",
     "text": "When the world pushes you to your knees, you're in the perfect position to pray.",
     "author": "Rumi",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:faith:islam", "emotion:exhaustion", "need:comfort", "need:permission", "tone:gentle", "tone:poetic"]
   },
@@ -1017,8 +799,6 @@
     "id": "religion-other-112",
     "text": "The light in me honors the light in you.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:gentle"]
   },
@@ -1026,8 +806,6 @@
     "id": "religion-other-113",
     "text": "Your soul already knows the way.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:permission", "need:comfort", "tone:gentle"]
   },
@@ -1035,8 +813,6 @@
     "id": "religion-other-114",
     "text": "Be still and know.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:stillness", "tone:gentle"]
   },
@@ -1044,8 +820,6 @@
     "id": "religion-other-115",
     "text": "Grace finds you where you are.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:comfort", "emotion:shame", "tone:gentle"]
   },
@@ -1053,8 +827,6 @@
     "id": "religion-other-116",
     "text": "Spirit speaks in silence.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:stillness", "tone:gentle"]
   },
@@ -1062,8 +834,6 @@
     "id": "religion-other-117",
     "text": "You are a soul having a human moment.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:identity", "need:perspective", "tone:gentle"]
   },
@@ -1071,8 +841,6 @@
     "id": "religion-other-118",
     "text": "Let your spirit lead.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:permission", "tone:gentle"]
   },
@@ -1080,8 +848,6 @@
     "id": "religion-other-119",
     "text": "The divine is in the details.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:gentle"]
   },
@@ -1089,8 +855,6 @@
     "id": "religion-other-120",
     "text": "Surrender is not weakness. It's trust.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:letting-go", "need:permission", "tone:direct"]
   },
@@ -1098,8 +862,6 @@
     "id": "religion-other-121",
     "text": "Pray even when it's hard to believe.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "emotion:hope", "need:permission", "tone:gentle"]
   },
@@ -1107,8 +869,6 @@
     "id": "religion-other-122",
     "text": "Your existence is not an accident.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:purpose", "theme:self-worth", "need:validation", "tone:direct"]
   },
@@ -1116,8 +876,6 @@
     "id": "religion-other-123",
     "text": "Love is the highest prayer.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "tone:gentle"]
   },
@@ -1125,8 +883,6 @@
     "id": "religion-other-124",
     "text": "The universe is listening.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:validation", "need:comfort", "tone:gentle"]
   },
@@ -1134,8 +890,6 @@
     "id": "religion-other-125",
     "text": "Faith doesn't remove fear. It faces it.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "direct",
     "tags": ["theme:faith", "emotion:fear", "need:challenge", "need:motivation", "tone:direct"]
   },
@@ -1143,8 +897,6 @@
     "id": "religion-other-126",
     "text": "You were created with purpose.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "theme:purpose", "theme:self-worth", "need:validation", "tone:direct"]
   },
@@ -1152,8 +904,6 @@
     "id": "religion-other-128",
     "text": "Gratitude is a form of worship.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:gentle"]
   },
@@ -1161,8 +911,6 @@
     "id": "religion-other-129",
     "text": "Miracles live in the mundane.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:gentle"]
   },
@@ -1170,8 +918,6 @@
     "id": "religion-other-130",
     "text": "Heaven is closer than you think.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:comfort", "tone:gentle"]
   },
@@ -1179,8 +925,6 @@
     "id": "religion-other-131",
     "text": "Your prayer is already heard.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:comfort", "need:validation", "tone:gentle"]
   },
@@ -1188,8 +932,6 @@
     "id": "religion-other-132",
     "text": "Walk by faith, not by sight.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "emotion:hope", "need:motivation", "tone:direct"]
   },
@@ -1197,8 +939,6 @@
     "id": "religion-other-133",
     "text": "The sacred is all around you.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:perspective", "tone:gentle"]
   },
@@ -1206,8 +946,6 @@
     "id": "religion-other-134",
     "text": "Trust the pull of your spirit.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:permission", "tone:gentle"]
   },
@@ -1215,8 +953,6 @@
     "id": "religion-other-135",
     "text": "Kindness is the language of the soul.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "tone:gentle"]
   },
@@ -1224,8 +960,6 @@
     "id": "religion-other-136",
     "text": "You are never truly alone.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "emotion:loneliness", "need:comfort", "tone:gentle"]
   },
@@ -1233,8 +967,6 @@
     "id": "religion-other-137",
     "text": "The divine dwells in your breath.",
     "author": "Unknown",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "gentle",
     "tags": ["theme:faith", "need:stillness", "tone:gentle", "tone:poetic"]
   },
@@ -1242,8 +974,6 @@
     "id": "religion-other-138",
     "text": "The laws of nature are written by the hand of God in the language of mathematics.",
     "author": "Galileo Galilei",
-    "category": "religion",
-    "subcategory": "general-spirituality",
     "tone": "direct",
     "tags": ["theme:faith", "need:perspective", "tone:sacred", "tone:direct"]
   }

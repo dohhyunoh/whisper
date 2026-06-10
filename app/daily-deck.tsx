@@ -7,6 +7,7 @@ import allQuotes from '@/data/quotes';
 import { Quote } from '@/data/types';
 import { getOrBuildTodayDeck } from '@/utils/deck-engine';
 import { hasPremiumAccess } from '@/utils/premium-check';
+import { getTodayDateString } from '@/utils/streak';
 import { applyWeeklyDecayIfNeeded, hasSeenDeckHint } from '@/utils/tag-weights';
 import { RiveFileFactory, RiveView, useRive } from '@rive-app/react-native';
 import * as Haptics from 'expo-haptics';
@@ -71,14 +72,17 @@ function DailyDeckContent() {
 
   const deck = useMemo(() => {
     applyWeeklyDecayIfNeeded();
+    // Today's check-in mood drives the mood bonus; the onboarding emotion is
+    // only the fallback before the first check-in of the day.
+    const todayMood = state.moodHistory.find((e) => e.date === getTodayDateString())?.mood;
     return getOrBuildTodayDeck({
       allQuotes: quoteList,
-      mood: state.user?.primaryEmotion,
+      mood: todayMood ?? state.user?.primaryEmotion,
       interests: state.user?.interests,
       tonePreference: state.user?.tonePreference,
       likedIds: state.likedIds,
     });
-  }, [state.user, state.likedIds]);
+  }, [state.user, state.likedIds, state.moodHistory]);
 
   const quotes = useMemo(() => {
     const map = new Map(quoteList.map((q) => [q.id, q]));

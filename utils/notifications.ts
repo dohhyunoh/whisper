@@ -1,7 +1,9 @@
 import quotesData from '@/data/quotes';
 import { Quote } from '@/data/types';
+import { interestTagOverlap, tagsForInterests } from '@/utils/interest-tags';
 import { shuffle } from '@/utils/shuffle';
-import { saveNotificationPrefs } from '@/utils/storage';
+import { loadNotificationPrefs, saveNotificationPrefs } from '@/utils/storage';
+import { getWeights } from '@/utils/tag-weights';
 import * as Notifications from 'expo-notifications';
 
 const allQuotes: Quote[] = quotesData as Quote[];
@@ -16,41 +18,40 @@ Notifications.setNotificationHandler({
   }),
 });
 
-function filterByInterests(quotes: Quote[], interests: string[] | undefined): Quote[] {
-  if (!interests || interests.length === 0) {
-    return quotes;
-  }
-  return quotes.filter((q) => {
-    for (const interest of interests) {
-      if (interest.includes(':')) {
-        const [category, sub] = interest.split(':');
-        if (q.category === category && q.subcategory === sub) {
-          return true;
-        }
-      } else {
-        if (q.category === interest) {
-          return true;
-        }
-      }
-    }
-    return false;
-  });
-}
+// How many days of notifications to keep scheduled ahead. Refreshed on every
+// app open, so this is the safety margin for users who skip days.
+const DAYS_AHEAD = 3;
+const PERSONAL_POOL_SIZE = 100;
+const COLD_START_INTEREST_BONUS = 2;
 
-function pickRandomQuotes(interests: string[] | undefined, count: number): Quote[] {
-  const pool = filterByInterests(allQuotes, interests);
-  const shuffled = shuffle(pool);
-  return shuffled.slice(0, count);
+// Rank by the same swipe-learned tag weights the daily deck and widget use;
+// interest tags from onboarding break the cold-start tie before any swipes
+// exist. Picks randomly within the top pool so repeat schedules vary.
+function pickPersonalQuotes(interests: string[] | undefined, count: number): Quote[] {
+  const weights = getWeights();
+  const interestTags = tagsForInterests(interests);
+  const rankedPool = allQuotes
+    .map((q) => {
+      let score = (Math.random() - 0.5) * 0.01;
+      for (const tag of q.tags ?? []) score += weights[tag] ?? 0;
+      if (interestTagOverlap(q, interestTags) > 0) score += COLD_START_INTEREST_BONUS;
+      return { q, score };
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, PERSONAL_POOL_SIZE)
+    .map((s) => s.q);
+  return shuffle(rankedPool).slice(0, count);
 }
 
 function computeTimes(
   count: number,
   startHour: number,
   endHour: number,
+  daysFromNow: number,
 ): Date[] {
   const now = new Date();
   const tomorrow = new Date(now);
-  tomorrow.setDate(tomorrow.getDate() + 1);
+  tomorrow.setDate(tomorrow.getDate() + daysFromNow);
 
   const startMinutes = startHour * 60;
   const endMinutes = endHour * 60;
@@ -119,37 +120,65 @@ export async function requestPermissions(): Promise<boolean> {
   return status === 'granted';
 }
 
+// Cancels everything except the trial reminder, then schedules personalized
+// quote notifications for the next DAYS_AHEAD days.
+async function rescheduleQuoteNotifications(
+  perDay: number,
+  startHour: number,
+  endHour: number,
+  interests: string[] | undefined,
+): Promise<void> {
+  const scheduled = await Notifications.getAllScheduledNotificationsAsync();
+  await Promise.all(
+    scheduled
+      .filter((n) => n.identifier !== TRIAL_REMINDER_ID)
+      .map((n) => Notifications.cancelScheduledNotificationAsync(n.identifier)),
+  );
+
+  const quotes = pickPersonalQuotes(interests, perDay * DAYS_AHEAD);
+
+  for (let day = 0; day < DAYS_AHEAD; day++) {
+    const times = computeTimes(perDay, startHour, endHour, day + 1);
+    for (let i = 0; i < perDay; i++) {
+      const quote = quotes[day * perDay + i];
+      if (!quote) break;
+
+      await Notifications.scheduleNotificationAsync({
+        content: {
+          title: 'Whisper',
+          body: `"${quote.text}" — ${quote.author}`,
+          data: { quoteId: quote.id },
+        },
+        trigger: {
+          type: Notifications.SchedulableTriggerInputTypes.DATE,
+          date: times[i],
+        },
+      });
+    }
+  }
+}
+
 export async function scheduleQuoteNotifications(
   perDay: number,
   startHour: number,
   endHour: number,
   interests: string[] | undefined,
 ): Promise<void> {
-  // Cancel any previously scheduled notifications
-  await Notifications.cancelAllScheduledNotificationsAsync();
-
-  // Save preferences
   await saveNotificationPrefs({ perDay, startHour, endHour });
+  await rescheduleQuoteNotifications(perDay, startHour, endHour, interests);
+}
 
-  // Pick random quotes
-  const quotes = pickRandomQuotes(interests, perDay);
-  const times = computeTimes(perDay, startHour, endHour);
+// Re-picks and re-schedules upcoming notifications using the latest
+// swipe-learned weights. Called on app open; a no-op until the user has
+// enabled notifications (no saved prefs or no permission).
+export async function refreshQuoteNotifications(
+  interests: string[] | undefined,
+): Promise<void> {
+  const { status } = await Notifications.getPermissionsAsync();
+  if (status !== 'granted') return;
 
-  // Schedule each notification
-  for (let i = 0; i < quotes.length; i++) {
-    const quote = quotes[i];
-    const time = times[i];
+  const prefs = await loadNotificationPrefs();
+  if (!prefs) return;
 
-    await Notifications.scheduleNotificationAsync({
-      content: {
-        title: 'Whisper',
-        body: `"${quote.text}" — ${quote.author}`,
-        data: { quoteId: quote.id },
-      },
-      trigger: {
-        type: Notifications.SchedulableTriggerInputTypes.DATE,
-        date: time,
-      },
-    });
-  }
+  await rescheduleQuoteNotifications(prefs.perDay, prefs.startHour, prefs.endHour, interests);
 }

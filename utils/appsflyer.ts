@@ -17,7 +17,7 @@ export async function initializeAppsFlyer(): Promise<void> {
         onInstallConversionDataListener: true,
       },
       () => resolve(),
-      (error) => reject(error),
+      (error: unknown) => reject(error),
     );
   });
 }
@@ -31,7 +31,7 @@ export function logSubscribeEvent(revenue: number, currency: string): void {
 
 export function getAppsFlyerUID(): Promise<string> {
   return new Promise((resolve, reject) => {
-    appsFlyer.getAppsFlyerUID((err, uid) => {
+    appsFlyer.getAppsFlyerUID((err: unknown, uid: string) => {
       if (err) reject(err);
       else resolve(uid);
     });

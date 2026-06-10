@@ -31,7 +31,15 @@ export function recordSwipe(quoteId: string, tags: string[] | undefined, dir: Sw
   const weights = getWeights();
   const delta = dir === 'like' ? LIKE_BUMP : SKIP_PENALTY;
   if (tags && tags.length > 0) {
-    for (const tag of tags) {
+    // Don't learn on a parent tag when a more specific child is present
+    // (theme:faith alongside theme:faith:christianity): every specific-faith
+    // quote carries the generic tag, so learning it would boost other
+    // religions' quotes too. The generic weight should only grow from quotes
+    // tagged with the parent alone.
+    const specificTags = tags.filter(
+      (t) => !tags.some((other) => other !== t && other.startsWith(t + ':')),
+    );
+    for (const tag of specificTags) {
       weights[tag] = (weights[tag] ?? 0) + delta;
     }
     setWeights(weights);

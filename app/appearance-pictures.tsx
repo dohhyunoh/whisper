@@ -1,6 +1,7 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { IMAGE_THEMES } from '@/constants/premium';
 import { usePremium } from '@/hooks/use-premium';
+import { Events, posthog } from '@/utils/posthog';
 import { Directory, File, Paths } from 'expo-file-system';
 import * as Haptics from 'expo-haptics';
 import * as ImagePicker from 'expo-image-picker';
@@ -35,6 +36,10 @@ export default function AppearancePictures() {
     }
 
     addCustomPhotos(savedUris);
+    posthog.capture(Events.PHOTO_IMPORTED, {
+      count: savedUris.length,
+      source: useCamera ? 'camera' : 'library',
+    });
   }, [addCustomPhotos]);
 
   const handleAddPhoto = useCallback(() => {

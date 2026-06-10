@@ -144,7 +144,7 @@ export default function FavoritesScreen() {
               style={styles.quoteCard}
               onPress={() => {
                 if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                router.push({ pathname: '/category-feed', params: { favorites: 'true', favoriteId: quote.id } });
+                router.push({ pathname: '/quote-viewer', params: { favorites: 'true', favoriteId: quote.id } });
               }}
             >
               <Text style={styles.quoteText}>&ldquo;{quote.text}&rdquo;</Text>

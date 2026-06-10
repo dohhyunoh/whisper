@@ -3,8 +3,6 @@
     "id": "mood-manifest-001",
     "text": "I am a goddess.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -17,8 +15,6 @@
     "id": "mood-manifest-002",
     "text": "I am magnetic.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -30,8 +26,6 @@
     "id": "mood-manifest-003",
     "text": "I am enough, exactly as I am.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -43,8 +37,6 @@
     "id": "mood-manifest-004",
     "text": "I am worthy of love.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -56,8 +48,6 @@
     "id": "mood-manifest-005",
     "text": "I am deeply loved.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -69,8 +59,6 @@
     "id": "mood-manifest-006",
     "text": "I am radiant.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -82,8 +70,6 @@
     "id": "mood-manifest-007",
     "text": "I am abundant.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:money",
@@ -95,8 +81,6 @@
     "id": "mood-manifest-008",
     "text": "I am confident in who I am.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -108,8 +92,6 @@
     "id": "mood-manifest-009",
     "text": "I am soft and I am strong.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -121,8 +103,6 @@
     "id": "mood-manifest-010",
     "text": "I am beautiful inside and out.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -134,8 +114,6 @@
     "id": "mood-manifest-011",
     "text": "I am chosen.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -147,8 +125,6 @@
     "id": "mood-manifest-012",
     "text": "I am becoming who I was born to be.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -160,8 +136,6 @@
     "id": "mood-manifest-013",
     "text": "I am a magnet for miracles.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "emotion:hope",
@@ -173,8 +147,6 @@
     "id": "mood-manifest-014",
     "text": "I am exactly where I need to be.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -186,8 +158,6 @@
     "id": "mood-manifest-015",
     "text": "I am proud of the woman I am.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -199,8 +169,6 @@
     "id": "mood-manifest-016",
     "text": "I am held by the universe.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:faith",
@@ -212,8 +180,6 @@
     "id": "mood-manifest-017",
     "text": "I glow from the inside out.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "playful",
     "tags": [
       "theme:self-worth",
@@ -225,8 +191,6 @@
     "id": "mood-manifest-018",
     "text": "I trust myself completely.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -238,8 +202,6 @@
     "id": "mood-manifest-019",
     "text": "I attract the love I deserve.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:romantic-love",
@@ -252,8 +214,6 @@
     "id": "mood-manifest-020",
     "text": "I am worthy of soft love.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -265,8 +225,6 @@
     "id": "mood-manifest-021",
     "text": "Good things are coming to me.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -278,8 +236,6 @@
     "id": "mood-manifest-022",
     "text": "It's already coming to me.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -290,8 +246,6 @@
     "id": "mood-manifest-023",
     "text": "I am going to get everything I desire.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "emotion:hope",
@@ -304,8 +258,6 @@
     "id": "mood-manifest-024",
     "text": "My dreams are on their way.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -317,8 +269,6 @@
     "id": "mood-manifest-025",
     "text": "I am safe. I am loved. I am whole.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -331,8 +281,6 @@
     "id": "mood-manifest-026",
     "text": "I am rooted in peace.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "emotion:peace",
@@ -343,8 +291,6 @@
     "id": "mood-manifest-027",
     "text": "I am a soft landing for myself.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -356,8 +302,6 @@
     "id": "mood-manifest-028",
     "text": "I bloom where I am planted.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:growth",
@@ -369,8 +313,6 @@
     "id": "mood-manifest-029",
     "text": "I am the love I have been seeking.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -382,8 +324,6 @@
     "id": "mood-manifest-030",
     "text": "Abundance flows to me easily.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:money",
@@ -395,8 +335,6 @@
     "id": "mood-manifest-031",
     "text": "I am rich in all ways.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "playful",
     "tags": [
       "theme:money",
@@ -408,8 +346,6 @@
     "id": "mood-manifest-032",
     "text": "I am wildly loved.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "playful",
     "tags": [
       "theme:self-worth",
@@ -421,8 +357,6 @@
     "id": "mood-manifest-033",
     "text": "I am my own safe place.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -434,8 +368,6 @@
     "id": "mood-manifest-034",
     "text": "My energy is a gift.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -447,8 +379,6 @@
     "id": "mood-manifest-035",
     "text": "I am a work of art.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "playful",
     "tags": [
       "theme:self-worth",
@@ -460,8 +390,6 @@
     "id": "mood-manifest-036",
     "text": "I am the main character.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "playful",
     "tags": [
       "theme:identity",
@@ -474,8 +402,6 @@
     "id": "mood-manifest-037",
     "text": "My heart is open and healing.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:healing",
@@ -487,8 +413,6 @@
     "id": "mood-manifest-038",
     "text": "I am led by love.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -500,8 +424,6 @@
     "id": "mood-manifest-039",
     "text": "I choose joy today.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "emotion:joy",
@@ -513,8 +435,6 @@
     "id": "mood-manifest-040",
     "text": "I am thriving.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -526,8 +446,6 @@
     "id": "mood-manifest-041",
     "text": "I am allowed to take up space.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -540,8 +458,6 @@
     "id": "mood-manifest-042",
     "text": "My voice matters.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -553,8 +469,6 @@
     "id": "mood-manifest-043",
     "text": "I am proud of how far I've come.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -566,8 +480,6 @@
     "id": "mood-manifest-044",
     "text": "I am a beautiful soul.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -579,8 +491,6 @@
     "id": "mood-manifest-045",
     "text": "I attract kind, loving people.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -592,8 +502,6 @@
     "id": "mood-manifest-046",
     "text": "I am graceful under pressure.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -605,8 +513,6 @@
     "id": "mood-manifest-047",
     "text": "I am healing, day by day.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:healing",
@@ -618,8 +524,6 @@
     "id": "mood-manifest-048",
     "text": "My future is bright.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "emotion:hope",
@@ -631,8 +535,6 @@
     "id": "mood-manifest-049",
     "text": "I am magnetic to my dreams.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -644,8 +546,6 @@
     "id": "mood-manifest-050",
     "text": "I trust divine timing.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:faith",
@@ -657,8 +557,6 @@
     "id": "mood-manifest-051",
     "text": "I am a force of nature.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -671,8 +569,6 @@
     "id": "mood-manifest-052",
     "text": "My worth is not up for debate.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -685,8 +581,6 @@
     "id": "mood-manifest-053",
     "text": "I am becoming softer and stronger.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -698,8 +592,6 @@
     "id": "mood-manifest-054",
     "text": "I am a masterpiece in progress.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -711,8 +603,6 @@
     "id": "mood-manifest-055",
     "text": "I choose me.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -724,8 +614,6 @@
     "id": "mood-manifest-056",
     "text": "Everything meant for me is finding its way to me.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -737,8 +625,6 @@
     "id": "mood-manifest-057",
     "text": "I receive love without having to chase it.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -750,8 +636,6 @@
     "id": "mood-manifest-058",
     "text": "My desires are valid, and my dreams are possible.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -763,8 +647,6 @@
     "id": "mood-manifest-059",
     "text": "I am open to miracles in every form.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -776,8 +658,6 @@
     "id": "mood-manifest-060",
     "text": "I attract ease, beauty, and aligned opportunities.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -789,8 +669,6 @@
     "id": "mood-manifest-061",
     "text": "I am aligned with abundance in every area of my life.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -802,8 +680,6 @@
     "id": "mood-manifest-062",
     "text": "My dreams recognize me as their home.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -815,8 +691,6 @@
     "id": "mood-manifest-064",
     "text": "I move like someone who knows she is supported.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -828,8 +702,6 @@
     "id": "mood-manifest-065",
     "text": "The universe meets me with tenderness and timing.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -841,8 +713,6 @@
     "id": "mood-manifest-066",
     "text": "I call in softness, safety, and sincere love.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -854,8 +724,6 @@
     "id": "mood-manifest-067",
     "text": "I am available for joy today.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "emotion:joy",
@@ -867,8 +735,6 @@
     "id": "mood-manifest-068",
     "text": "My life is expanding in beautiful ways.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -880,8 +746,6 @@
     "id": "mood-manifest-069",
     "text": "I trust what is unfolding, even before I can see it.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -893,8 +757,6 @@
     "id": "mood-manifest-070",
     "text": "I attract opportunities that honor my worth.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -906,8 +768,6 @@
     "id": "mood-manifest-071",
     "text": "I am becoming the woman I once prayed to be.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -919,8 +779,6 @@
     "id": "mood-manifest-072",
     "text": "I am surrounded by support seen and unseen.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -932,8 +790,6 @@
     "id": "mood-manifest-073",
     "text": "My energy opens doors meant for me.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -945,8 +801,6 @@
     "id": "mood-manifest-074",
     "text": "I deserve a beautiful life and I am ready to receive it.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -958,8 +812,6 @@
     "id": "mood-manifest-075",
     "text": "I am ready for what I asked for.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -971,8 +823,6 @@
     "id": "mood-manifest-076",
     "text": "Good news finds me easily.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "playful",
     "tags": [
       "emotion:hope",
@@ -983,8 +833,6 @@
     "id": "mood-manifest-077",
     "text": "I am deeply supported in becoming myself.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -996,8 +844,6 @@
     "id": "mood-manifest-078",
     "text": "My timing is sacred.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -1009,8 +855,6 @@
     "id": "mood-manifest-079",
     "text": "I attract peace that feels like home.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -1022,8 +866,6 @@
     "id": "mood-manifest-080",
     "text": "I am stepping into my season.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -1035,8 +877,6 @@
     "id": "mood-manifest-081",
     "text": "The universe is my sugar daddy.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "manifestation",
     "tone": "playful",
     "tags": [
       "theme:money",

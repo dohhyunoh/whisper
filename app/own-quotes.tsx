@@ -65,7 +65,7 @@ export default function OwnQuotesScreen() {
               style={styles.quoteCard}
               onPress={() => {
                 if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-                router.push({ pathname: '/category-feed', params: { ownQuotes: 'true', ownQuoteId: quote.id } });
+                router.push({ pathname: '/quote-viewer', params: { ownQuotes: 'true', ownQuoteId: quote.id } });
               }}
             >
               <Text style={styles.quoteText}>"{quote.text}"</Text>

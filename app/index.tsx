@@ -1,12 +1,23 @@
 import { useAppContext } from '@/context/app-context';
+import { refreshQuoteNotifications } from '@/utils/notifications';
 import { hasPremiumAccess } from '@/utils/premium-check';
 import { hasSeenV2Migration } from '@/utils/migration';
 import { getTodayDateString } from '@/utils/streak';
 import { Redirect } from 'expo-router';
+import { useEffect, useRef } from 'react';
 import { ActivityIndicator, View } from 'react-native';
 
 export default function Index() {
   const { state } = useAppContext();
+
+  // Top up the next few days of personalized notifications once per launch,
+  // using the latest swipe-learned weights.
+  const notificationsRefreshed = useRef(false);
+  useEffect(() => {
+    if (!state.hydrated || !state.onboardingComplete || notificationsRefreshed.current) return;
+    notificationsRefreshed.current = true;
+    refreshQuoteNotifications(state.user?.interests).catch(() => {});
+  }, [state.hydrated, state.onboardingComplete, state.user?.interests]);
 
   if (!state.hydrated) {
     return (

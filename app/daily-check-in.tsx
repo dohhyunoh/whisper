@@ -5,7 +5,7 @@ import { getTodayDateString } from '@/utils/streak';
 import { RiveFileFactory, RiveView } from '@rive-app/react-native';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
-import { router } from 'expo-router';
+import { Redirect, router } from 'expo-router';
 import React, { useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import Animated, {
@@ -27,6 +27,21 @@ function getScale(screenW: number, screenH: number) {
 }
 
 export default function DailyCheckInScreen() {
+  const { state } = useAppContext();
+  // Self-guard: never ask twice on the same day, regardless of how this
+  // screen was reached (launch gate, widget deep link, future routes).
+  // Captured at mount so answering (which updates moodHistory) doesn't race
+  // this Redirect against the handler's own router.replace.
+  const [alreadyCheckedIn] = useState(() =>
+    state.moodHistory.some((e) => e.date === getTodayDateString()),
+  );
+  if (alreadyCheckedIn) {
+    return <Redirect href="/daily-deck" />;
+  }
+  return <DailyCheckInContent />;
+}
+
+function DailyCheckInContent() {
   const insets = useSafeAreaInsets();
   const { state, dispatch } = useAppContext();
   const { width: screenW, height: screenH } = useWindowDimensions();

@@ -93,7 +93,7 @@ export default function TrialReminderScreen() {
             ]}
             onPress={() => {
               if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-              router.push('/onboarding/paywall');
+              router.push({ pathname: '/onboarding/paywall', params: { from: 'onboarding' } });
             }}
           >
             <Text style={[styles.buttonText, { fontSize: 18 * s }]}>Continue</Text>

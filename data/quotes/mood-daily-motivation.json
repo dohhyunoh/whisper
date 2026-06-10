@@ -3,8 +3,6 @@
     "id": "mood-motiv-001",
     "text": "It does not matter how slowly you go as long as you do not stop.",
     "author": "Confucius",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -16,8 +14,6 @@
     "id": "mood-motiv-002",
     "text": "Good, better, best. Never let it rest. 'Til your good is better and your better is best.",
     "author": "St. Jerome",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -29,8 +25,6 @@
     "id": "mood-motiv-004",
     "text": "Either you run the day or the day runs you.",
     "author": "Jim Rohn",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -42,8 +36,6 @@
     "id": "mood-motiv-005",
     "text": "Life is 10% what happens to you and 90% how you react to it.",
     "author": "Charles R. Swindoll",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:perspective",
@@ -54,8 +46,6 @@
     "id": "mood-motiv-006",
     "text": "If you're going through hell, keep going.",
     "author": "Winston Churchill",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "emotion:exhaustion",
@@ -67,8 +57,6 @@
     "id": "mood-motiv-007",
     "text": "Failure will never overtake me if my determination to succeed is strong enough.",
     "author": "Og Mandino",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -80,8 +68,6 @@
     "id": "mood-motiv-008",
     "text": "When something is important enough, you do it even if the odds are not in your favor.",
     "author": "Elon Musk",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -93,8 +79,6 @@
     "id": "mood-motiv-009",
     "text": "If you can dream it, you can do it.",
     "author": "Walt Disney",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -106,8 +90,6 @@
     "id": "mood-motiv-010",
     "text": "What you do today can improve all your tomorrows.",
     "author": "Ralph Marston",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -119,8 +101,6 @@
     "id": "mood-motiv-011",
     "text": "You can't expect to hit the jackpot if you don't put a few nickels in the machine.",
     "author": "Flip Wilson",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -132,8 +112,6 @@
     "id": "mood-motiv-012",
     "text": "Quality is not an act, it is a habit.",
     "author": "Aristotle",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -145,8 +123,6 @@
     "id": "mood-motiv-013",
     "text": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
     "author": "Johann Wolfgang von Goethe",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -158,8 +134,6 @@
     "id": "mood-motiv-014",
     "text": "Keep your eyes on the stars, and your feet on the ground.",
     "author": "Theodore Roosevelt",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -171,8 +145,6 @@
     "id": "mood-motiv-015",
     "text": "When you reach the end of your rope, tie a knot in it and hang on.",
     "author": "Franklin D. Roosevelt",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -184,8 +156,6 @@
     "id": "mood-motiv-016",
     "text": "Perseverance is not a long race; it is many short races one after the other.",
     "author": "Walter Elliot",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -197,8 +167,6 @@
     "id": "mood-motiv-018",
     "text": "The most effective way to do it, is to do it.",
     "author": "Amelia Earhart",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -210,8 +178,6 @@
     "id": "mood-motiv-019",
     "text": "You just can't beat the person who never gives up.",
     "author": "Babe Ruth",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -223,8 +189,6 @@
     "id": "mood-motiv-020",
     "text": "Act as if what you do makes a difference. It does.",
     "author": "William James",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -236,8 +200,6 @@
     "id": "mood-motiv-021",
     "text": "Set your goals high, and don't stop till you get there.",
     "author": "Bo Jackson",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -249,8 +211,6 @@
     "id": "mood-motiv-022",
     "text": "Things do not happen. Things are made to happen.",
     "author": "John F. Kennedy",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -262,8 +222,6 @@
     "id": "mood-motiv-023",
     "text": "A creative man is motivated by the desire to achieve, not by the desire to beat others.",
     "author": "Ayn Rand",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -275,8 +233,6 @@
     "id": "mood-motiv-024",
     "text": "In order to succeed, we must first believe that we can.",
     "author": "Nikos Kazantzakis",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -288,8 +244,6 @@
     "id": "mood-motiv-025",
     "text": "The harder the conflict, the more glorious the triumph.",
     "author": "Thomas Paine",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -301,8 +255,6 @@
     "id": "mood-motiv-026",
     "text": "Only I can change my life. No one can do it for me.",
     "author": "Carol Burnett",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -314,8 +266,6 @@
     "id": "mood-motiv-027",
     "text": "Change your life today. Don't gamble on the future, act now, without delay.",
     "author": "Simone de Beauvoir",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -327,8 +277,6 @@
     "id": "mood-motiv-028",
     "text": "Do you want to know who you are? Don't ask. Act! Action will delineate and define you.",
     "author": "Thomas Jefferson",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -340,8 +288,6 @@
     "id": "mood-motiv-029",
     "text": "Do not wait to strike till the iron is hot; but make it hot by striking.",
     "author": "William Butler Yeats",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -353,8 +299,6 @@
     "id": "mood-motiv-030",
     "text": "If you fell down yesterday, stand up today.",
     "author": "H. G. Wells",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -366,8 +310,6 @@
     "id": "mood-motiv-031",
     "text": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
     "author": "Thomas A. Edison",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -379,8 +321,6 @@
     "id": "mood-motiv-032",
     "text": "Start where you are. Use what you have. Do what you can.",
     "author": "Arthur Ashe",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -392,8 +332,6 @@
     "id": "mood-motiv-033",
     "text": "A good plan violently executed now is better than a perfect plan executed next week.",
     "author": "George S. Patton",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -405,8 +343,6 @@
     "id": "mood-motiv-034",
     "text": "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
     "author": "Samuel Beckett",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "playful",
     "tags": [
       "emotion:fear",
@@ -418,8 +354,6 @@
     "id": "mood-motiv-035",
     "text": "I attribute my success to this - I never gave or took any excuse.",
     "author": "Florence Nightingale",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -431,8 +365,6 @@
     "id": "mood-motiv-036",
     "text": "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
     "author": "Helen Keller",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -444,8 +376,6 @@
     "id": "mood-motiv-037",
     "text": "Do the difficult things while they are easy and do the great things while they are small.",
     "author": "Lao Tzu",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -457,8 +387,6 @@
     "id": "mood-motiv-038",
     "text": "A journey of a thousand miles must begin with a single step.",
     "author": "Lao Tzu",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -470,8 +398,6 @@
     "id": "mood-motiv-040",
     "text": "With the new day comes new strength and new thoughts.",
     "author": "Eleanor Roosevelt",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -483,8 +409,6 @@
     "id": "mood-motiv-041",
     "text": "Don't watch the clock; do what it does. Keep going.",
     "author": "Sam Levenson",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -496,8 +420,6 @@
     "id": "mood-motiv-043",
     "text": "Be kind whenever possible. It is always possible.",
     "author": "Dalai Lama",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "gentle",
     "tags": [
       "theme:purpose",
@@ -509,8 +431,6 @@
     "id": "mood-motiv-044",
     "text": "Well done is better than well said.",
     "author": "Benjamin Franklin",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -522,8 +442,6 @@
     "id": "mood-motiv-045",
     "text": "We may encounter many defeats but we must not be defeated.",
     "author": "Maya Angelou",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -535,8 +453,6 @@
     "id": "mood-motiv-046",
     "text": "There is only one corner of the universe you can be certain of improving, and that's your own self.",
     "author": "Aldous Huxley",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -548,8 +464,6 @@
     "id": "mood-motiv-047",
     "text": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
     "author": "Zig Ziglar",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -561,8 +475,6 @@
     "id": "mood-motiv-048",
     "text": "Your talent is God's gift to you. What you do with it is your gift back to God.",
     "author": "Leo Buscaglia",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -574,8 +486,6 @@
     "id": "mood-motiv-049",
     "text": "Setting goals is the first step in turning the invisible into the visible.",
     "author": "Tony Robbins",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -587,8 +497,6 @@
     "id": "mood-motiv-050",
     "text": "You are never too old to set another goal or to dream a new dream.",
     "author": "Les Brown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -600,8 +508,6 @@
     "id": "mood-motiv-051",
     "text": "I am not afraid... I was born to do this.",
     "author": "Joan of Arc",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "emotion:fear",
@@ -615,8 +521,6 @@
     "id": "mood-motiv-052",
     "text": "The key is to keep company only with people who uplift you, whose presence calls forth your best.",
     "author": "Epictetus",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -628,8 +532,6 @@
     "id": "mood-motiv-053",
     "text": "Aim for the moon. If you miss, you may hit a star.",
     "author": "W. Clement Stone",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -641,8 +543,6 @@
     "id": "mood-motiv-054",
     "text": "Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice.",
     "author": "Wayne Dyer",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -654,8 +554,6 @@
     "id": "mood-motiv-055",
     "text": "You didn't come this far to only come this far.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -667,8 +565,6 @@
     "id": "mood-motiv-056",
     "text": "On the other side of fear is everything you've ever wanted.",
     "author": "George Addair",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -680,8 +576,6 @@
     "id": "mood-motiv-057",
     "text": "Someone who wants the best for you is what's best for you.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -693,8 +587,6 @@
     "id": "mood-motiv-058",
     "text": "The comeback is always stronger than the setback.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -706,8 +598,6 @@
     "id": "mood-motiv-060",
     "text": "Nothing can dim the light that shines from within.",
     "author": "Maya Angelou",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -719,8 +609,6 @@
     "id": "mood-motiv-061",
     "text": "You are allowed to be both a masterpiece and a work in progress simultaneously.",
     "author": "Sophia Bush",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -733,8 +621,6 @@
     "id": "mood-motiv-062",
     "text": "Everything you want is on the other side of hard.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -746,8 +632,6 @@
     "id": "mood-motiv-063",
     "text": "Don't downgrade your dream just to fit your reality. Upgrade your conviction to match your destiny.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -759,8 +643,6 @@
     "id": "mood-motiv-066",
     "text": "I hope you know you're capable and brave and significant. Even when it feels like you're not.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "gentle",
     "tags": [
       "theme:self-worth",
@@ -773,8 +655,6 @@
     "id": "mood-motiv-067",
     "text": "One day or day one. You decide.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -786,8 +666,6 @@
     "id": "mood-motiv-068",
     "text": "She believed she could, so she did.",
     "author": "R.S. Grey",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:self-worth",
@@ -799,8 +677,6 @@
     "id": "mood-motiv-070",
     "text": "The version of you a year from now will thank you for starting today.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -812,8 +688,6 @@
     "id": "mood-motiv-071",
     "text": "Don’t tell me the sky’s the limit when there are footprints on the moon.",
     "author": "Paul Brandt",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -825,8 +699,6 @@
     "id": "mood-motiv-072",
     "text": "If you want peace, prepare for war.",
     "author": "Publius Flavius Vegetius Renatus",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -839,8 +711,6 @@
     "text": "It's not how hard you hit. It's how hard you get hit...and keep moving forward.",
     "author": "Randy Pausch",
     "source": "The Last Lecture",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -852,8 +722,6 @@
     "id": "mood-motiv-074",
     "text": "What you're not changing, you're choosing.",
     "author": "Laurie Buchanan",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -865,8 +733,6 @@
     "id": "mood-motiv-075",
     "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
     "author": "Winston Churchill",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -879,8 +745,6 @@
     "text": "Lose? I don't lose, I WIN. That's my job, that's what I do.",
     "author": "Kevin Lomax",
     "source": "The Devil's Advocate",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -892,8 +756,6 @@
     "id": "mood-motiv-077",
     "text": "Push yourself because no one else is going to do it for you.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -905,8 +767,6 @@
     "id": "mood-motiv-078",
     "text": "You don't have to be great to start, but you have to start to be great.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -918,8 +778,6 @@
     "id": "mood-motiv-080",
     "text": "They told me I couldn't. That's why I did.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -931,8 +789,6 @@
     "id": "mood-motiv-081",
     "text": "The best revenge is massive success.",
     "author": "Frank Sinatra",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -944,8 +800,6 @@
     "id": "mood-motiv-082",
     "text": "Remember who told you it couldn't be done.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -957,8 +811,6 @@
     "id": "mood-motiv-083",
     "text": "Work until your idols become your rivals.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -970,8 +822,6 @@
     "id": "mood-motiv-084",
     "text": "Don't get bitter. Get better.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "emotion:anger",
@@ -984,8 +834,6 @@
     "id": "mood-motiv-085",
     "text": "They didn't believe in you. Make that your fuel, not your wound.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -997,8 +845,6 @@
     "id": "mood-motiv-086",
     "text": "The ones who said you wouldn't are watching now.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1010,8 +856,6 @@
     "id": "mood-motiv-087",
     "text": "One day the people that didn't believe in you will tell everyone how they knew you.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1024,8 +868,6 @@
     "text": "If you don't like the hand that fate's dealt you with, fight for a new one!",
     "author": "Naruto Uzumaki",
     "source": "Naruto",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:growth",
@@ -1039,8 +881,6 @@
     "text": "If you don't take risks, you can't create a future!",
     "author": "Monkey D. Luffy",
     "source": "One Piece",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "emotion:fear",
@@ -1053,8 +893,6 @@
     "id": "mood-motiv-091",
     "text": "Never give up on life. No matter how tragic it may be, keep living.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:mortality",
@@ -1066,8 +904,6 @@
     "id": "mood-motiv-092",
     "text": "Every day is a chance to become the person you want to be.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:identity",
@@ -1080,8 +916,6 @@
     "text": "If you win, you live. If you lose, you die. If you don't fight, you can't win.",
     "author": "Eren Yaeger",
     "source": "Attack on Titan",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1094,8 +928,6 @@
     "text": "The difference between a novice and a master is that a master has failed more times than the novice has tried.",
     "author": "Koro-sensei",
     "source": "Assassination Classroom",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:growth",
@@ -1108,8 +940,6 @@
     "text": "Being weak is nothing to be ashamed of… Staying weak is!",
     "author": "Fuegoleon Vermillion",
     "source": "Black Clover",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:growth",
@@ -1123,8 +953,6 @@
     "text": "A dropout will beat a genius through hard work.",
     "author": "Rock Lee",
     "source": "Naruto",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:growth",
@@ -1137,8 +965,6 @@
     "text": "Because my soldiers do not buckle or yield when faced with the cruelty of this world! My soldiers push forward! My soldiers scream out! My soldiers RAAAAAGE!",
     "author": "Erwin Smith",
     "source": "Attack on Titan",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1151,8 +977,6 @@
     "text": "Surpass your limits. Right here, right now.",
     "author": "Yami Sukehiro",
     "source": "Black Clover",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1165,8 +989,6 @@
     "text": "It's not about how long you lived. It's about what you did with the time you had.",
     "author": "Heiter",
     "source": "Frieren: Beyond Journey's End",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:mortality",
@@ -1180,8 +1002,6 @@
     "text": "No one knows what the future holds. That's why its potential is infinite.",
     "author": "Okabe Rintarou",
     "source": "Steins;Gate",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "emotion:hope",
@@ -1194,8 +1014,6 @@
     "text": "If you're gonna be a loser, at least be a loser with some guts!",
     "author": "Momo Ayase",
     "source": "Dandadan",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1208,8 +1026,6 @@
     "text": "If you're going to die anyway, you might as well die with your head held high.",
     "author": "Shinei Nouzen",
     "source": "86 Eighty-Six",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:mortality",
@@ -1223,8 +1039,6 @@
     "text": "The hunt begins now.",
     "author": "Sung Jin-Woo",
     "source": "Solo Leveling",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1237,8 +1051,6 @@
     "text": "Arise.",
     "author": "Sung Jin-Woo",
     "source": "Solo Leveling",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1251,8 +1063,6 @@
     "text": "I'm not fighting because I want to win, I'm fighting because I have to win!",
     "author": "Ichigo Kurosaki",
     "source": "Bleach",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1265,8 +1075,6 @@
     "text": "The wind is rising! We must try to live.",
     "author": "Jiro Horikoshi",
     "source": "The Wind Rises (2013)",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:purpose",
@@ -1279,8 +1087,6 @@
     "id": "mood-motiv-108",
     "text": "Just disappear, then go to war with the person in the mirror. Don't come back until you win.",
     "author": "Ash Dykes",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1292,8 +1098,6 @@
     "id": "mood-motiv-109",
     "text": "Today is your day.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -1305,8 +1109,6 @@
     "id": "mood-motiv-110",
     "text": "You showed up. That's half the battle.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "gentle",
     "tags": [
       "need:validation",
@@ -1317,8 +1119,6 @@
     "id": "mood-motiv-111",
     "text": "Make today count.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "need:motivation",
@@ -1329,8 +1129,6 @@
     "id": "mood-motiv-112",
     "text": "You are closer than you think.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "gentle",
     "tags": [
       "emotion:hope",
@@ -1342,8 +1140,6 @@
     "id": "mood-motiv-113",
     "text": "Keep going. You're almost there.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "gentle",
     "tags": [
       "need:motivation",
@@ -1355,8 +1151,6 @@
     "id": "mood-motiv-114",
     "text": "The magic you are looking for is in the work you are avoiding.",
     "author": "Chris Williamson",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:growth",
@@ -1369,8 +1163,6 @@
     "text": "Nobody can be uncheered with a balloon.",
     "author": "Winnie the Pooh",
     "source": "Winnie the Pooh",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "playful",
     "tags": [
       "emotion:joy",
@@ -1382,8 +1174,6 @@
     "text": "Time for something sweet.",
     "author": "Winnie the Pooh",
     "source": "Winnie the Pooh",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "playful",
     "tags": [
       "emotion:joy",
@@ -1395,8 +1185,6 @@
     "id": "mood-motiv-117",
     "text": "You can't add days to your life, but you can add life to your days.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "gentle",
     "tags": [
       "theme:mortality",
@@ -1409,8 +1197,6 @@
     "id": "mood-motiv-118",
     "text": "You will never reach your destination if you stop and throw stones at every dog that barks.",
     "author": "Winston Churchill",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:letting-go",
@@ -1422,8 +1208,6 @@
     "id": "mood-motiv-119",
     "text": "Be the change you wish to see in the world.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:purpose",
@@ -1435,8 +1219,6 @@
     "id": "mood-motiv-120",
     "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
     "author": "Unknown",
-    "category": "mood-boosters",
-    "subcategory": "daily-motivation",
     "tone": "direct",
     "tags": [
       "theme:mortality",
