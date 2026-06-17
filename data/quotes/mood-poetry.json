@@ -1013,5 +1013,36 @@
       "tone:poetic",
       "tone:playful"
     ]
+  },
+  {
+    "id": "mood-poetry-119",
+    "text": "Nothing is harder on the soul than the smell of dreams while they are evaporating.",
+    "author": "Mahmoud Darwish",
+    "tone": "gentle",
+    "tags": [
+      "emotion:grief",
+      "theme:letting-go",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "mood-poetry-120",
+    "text": "And the gentleness that comes, not from the absence of violence, but despite the abundance of it.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": [
+      "theme:healing",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "mood-poetry-121",
+    "text": "Rain remembers what the sun forgets.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": [
+      "emotion:grief",
+      "tone:poetic"
+    ]
   }
 ]

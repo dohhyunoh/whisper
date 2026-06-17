@@ -1480,17 +1480,6 @@
     ]
   },
   {
-    "id": "emp-obs-156",
-    "text": "Nothing can dim the light within you.",
-    "author": "Unknown",
-    "tone": "gentle",
-    "tags": [
-      "theme:self-worth",
-      "need:validation",
-      "tone:gentle"
-    ]
-  },
-  {
     "id": "emp-obs-157",
     "text": "You're not stuck. You're growing.",
     "author": "Unknown",
@@ -1682,6 +1671,52 @@
       "theme:growth",
       "need:motivation",
       "tone:direct",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "emp-obs-175",
+    "text": "You cannot learn to swim by reading a book. You have to get into the water.",
+    "author": "Shiv Khera",
+    "source": "You Can Win",
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "emp-obs-176",
+    "text": "No one can hold you back more than the parts of yourself.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": [
+      "theme:growth",
+      "need:challenge",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "emp-obs-177",
+    "text": "It may take everything, but it will change everything.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": [
+      "need:challenge",
+      "theme:growth",
+      "need:motivation",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "emp-obs-178",
+    "text": "She is the type of flower that can still grow after a forest fire.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": [
+      "theme:growth",
+      "theme:healing",
       "tone:poetic"
     ]
   }

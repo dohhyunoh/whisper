@@ -815,5 +815,40 @@
     "author": "Unknown",
     "tone": "gentle",
     "tags": ["emotion:peace", "need:perspective", "tone:gentle"]
+  },
+  {
+    "id": "self-love-mh-123",
+    "text": "Just because it hurts doesn't mean you made the wrong choice.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": ["need:comfort", "theme:healing", "tone:gentle"]
+  },
+  {
+    "id": "self-love-mh-124",
+    "text": "Sometimes we need to cry to stop our hearts from drowning.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": ["need:permission", "emotion:grief", "theme:healing", "tone:gentle"]
+  },
+  {
+    "id": "self-love-mh-125",
+    "text": "Everything I have lost makes room for what I need.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": ["theme:letting-go", "theme:healing", "emotion:hope", "tone:gentle"]
+  },
+  {
+    "id": "self-love-mh-126",
+    "text": "I don't know what it is to not have deep emotions. Even when I feel nothing, I feel it completely.",
+    "author": "Sylvia Plath",
+    "tone": "direct",
+    "tags": ["emotion:numbness", "theme:identity", "tone:raw"]
+  },
+  {
+    "id": "self-love-mh-127",
+    "text": "Healing isn't the absence of the scar; it's looking at the place you were broken and no longer feeling the burning of the fire that caused it.",
+    "author": "Beneath",
+    "tone": "gentle",
+    "tags": ["theme:healing", "need:perspective", "need:comfort", "tone:gentle", "tone:poetic"]
   }
 ]

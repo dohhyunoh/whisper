@@ -919,5 +919,75 @@
     "author": "Unknown",
     "tone": "direct",
     "tags": ["theme:self-worth", "emotion:fear", "need:motivation", "tone:direct"]
+  },
+  {
+    "id": "self-love-sw-141",
+    "text": "Maybe your garden isn't growing because every time a flower grows, you cut it to prove to someone that you're a gardener.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:poetic"]
+  },
+  {
+    "id": "self-love-sw-142",
+    "text": "Make yourself proud.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:validation", "tone:direct"]
+  },
+  {
+    "id": "self-love-sw-143",
+    "text": "If everything around seems dark, look again; you may be the light.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "emotion:hope", "tone:gentle"]
+  },
+  {
+    "id": "self-love-sw-144",
+    "text": "A woman whose mood improves with a book, a poem, a song, or a cup of coffee is not defeated by anyone; even life loses with her.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:stillness", "tone:gentle"]
+  },
+  {
+    "id": "self-love-sw-145",
+    "text": "Even if you are an angel, there will always be people disturbed by the sound of your wings.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": ["theme:self-worth", "need:perspective", "tone:direct"]
+  },
+  {
+    "id": "self-love-sw-146",
+    "text": "Your self respect has to be stronger than your feelings.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "tone:direct"]
+  },
+  {
+    "id": "self-love-sw-147",
+    "text": "You can be the sweetest peach on the tree, but some people just don't like peaches.",
+    "author": "Unknown",
+    "tone": "playful",
+    "tags": ["theme:self-worth", "need:validation", "tone:playful"]
+  },
+  {
+    "id": "self-love-sw-148",
+    "text": "I often asked myself: do I want love, or do I want proof that I'm lovable?",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "tone:raw"]
+  },
+  {
+    "id": "self-love-sw-149",
+    "text": "Never question your worth just because someone else couldn't see it. A masterpiece doesn't lose its value just because the viewer is blind.",
+    "author": "Beneath",
+    "tone": "gentle",
+    "tags": ["theme:self-worth", "need:validation", "need:perspective", "tone:gentle", "tone:poetic"]
+  },
+  {
+    "id": "self-love-sw-150",
+    "text": "Do not burn yourself to keep others warm. They will stand over your ashes complaining that you didn't give them enough light.",
+    "author": "Beneath",
+    "tone": "direct",
+    "tags": ["theme:self-worth", "theme:boundaries", "situation:burnout", "need:permission", "tone:direct", "tone:fierce"]
   }
 ]

@@ -21,7 +21,7 @@ import { useFonts } from 'expo-font';
 import { AppProvider } from '@/context/app-context';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { posthog } from '@/utils/posthog';
-import { configureRevenueCat, linkAppsFlyerToRevenueCat } from '@/utils/revenuecat';
+import { configureRevenueCat, linkAppsFlyerToRevenueCat, linkPostHogToRevenueCat } from '@/utils/revenuecat';
 import { initializeAppsFlyer } from '@/utils/appsflyer';
 import { PostHogProvider } from 'posthog-react-native';
 
@@ -46,6 +46,7 @@ export default function RootLayout() {
   useEffect(() => {
     async function init() {
       await configureRevenueCat();
+      linkPostHogToRevenueCat();
       await initializeAppsFlyer();
       await linkAppsFlyerToRevenueCat();
     }

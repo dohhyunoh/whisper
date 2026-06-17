@@ -1374,5 +1374,80 @@
       "need:perspective",
       "tone:gentle"
     ]
+  },
+  {
+    "id": "rel-partner-176",
+    "text": "A man bought twenty flowers, nineteen real and one fake. He said: I will love you until the last flower dies.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "rel-partner-177",
+    "text": "The highest form of love is consideration: when someone thinks about how things would make you feel, pays attention to detail, and holds you in regard when making decisions that could affect you. In any bond, how much they care about you can be found in how much they consider you.",
+    "author": "Kira J",
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
+  },
+  {
+    "id": "rel-partner-178",
+    "text": "I love you, most ardently.",
+    "author": "Jane Austen",
+    "source": "Pride and Prejudice",
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
+  },
+  {
+    "id": "rel-partner-179",
+    "text": "If you were the sun, I would continue to stare at you, even if it cost me my vision, for I would know the last thing I saw was perfection.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "rel-partner-180",
+    "text": "If a million loved you, I am one of them. If one loved you, it was me. If no one loved you, then know that I am dead.",
+    "author": "Franz Kafka",
+    "source": "Letters to Milena",
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "rel-partner-181",
+    "text": "I don't love you with my heart and mind. I love you with my soul, in case my mind forgets and my heart stops.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "rel-partner-182",
+    "text": "If everything around me is my imagination, then you're the best thing I've come up with.",
+    "author": "Unknown",
+    "tone": "playful",
+    "tags": [
+      "theme:romantic-love",
+      "tone:playful"
+    ]
   }
 ]

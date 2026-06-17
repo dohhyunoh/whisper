@@ -1,4 +1,3 @@
-import { usePremium } from '@/hooks/use-premium';
 import { GlassView, isGlassEffectAPIAvailable } from 'expo-glass-effect';
 import React from 'react';
 import { StyleProp, StyleSheet, View, ViewStyle } from 'react-native';
@@ -7,58 +6,42 @@ const useNativeGlass = isGlassEffectAPIAvailable();
 
 interface GlassContainerProps {
   style?: StyleProp<ViewStyle>;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export function GlassContainer({ style, children }: GlassContainerProps) {
-  const { currentTheme } = usePremium();
-  const isLightBackground = currentTheme.key.startsWith('classic') || currentTheme.key === 'default';
-
-  const containerStyle = isLightBackground ? styles.darkContainer : styles.lightContainer;
-
+  // Pure Liquid Glass — no background tint. Passing a backgroundColor here fills
+  // the glass with a flat color (the old dark pill), which kills the glass look.
   if (useNativeGlass) {
     return (
-      <GlassView style={[containerStyle, style]} glassEffectStyle="regular" isInteractive>
+      <GlassView style={[styles.container, style]} glassEffectStyle="regular" isInteractive>
         {children}
       </GlassView>
     );
   }
 
+  // Pre-iOS 26 has no Liquid Glass API; approximate with a faint translucent pill.
   return (
-    <View style={[containerStyle, style]}>
+    <View style={[styles.container, styles.fallback, style]}>
       {children}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  darkContainer: {
+  container: {
     overflow: 'hidden',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgba(20, 20, 20, 0.5)',
-    borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.15)',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
+    shadowOpacity: 0.15,
     shadowRadius: 10,
     elevation: 5,
   },
-  lightContainer: {
-    overflow: 'hidden',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'rgba(255, 255, 255, 0.15)',
+  fallback: {
+    backgroundColor: 'rgba(255, 255, 255, 0.25)',
     borderWidth: 1,
-    borderColor: 'rgba(255, 255, 255, 0.2)',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 10,
-    elevation: 5,
-  },
-  blur: {
-    ...StyleSheet.absoluteFillObject,
+    borderColor: 'rgba(255, 255, 255, 0.3)',
   },
 });

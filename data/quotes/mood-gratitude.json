@@ -1424,5 +1424,16 @@
       "need:perspective",
       "tone:gentle"
     ]
+  },
+  {
+    "id": "mood-grat-135",
+    "text": "Dead people receive more flowers than the living ones, because regret is stronger than gratitude.",
+    "author": "Anthony J. D'Angelo",
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "theme:mortality",
+      "tone:direct"
+    ]
   }
 ]

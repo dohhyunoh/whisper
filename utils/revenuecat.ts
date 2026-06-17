@@ -1,6 +1,7 @@
 import Purchases from 'react-native-purchases';
 import { REVENUECAT_API_KEY, REVENUECAT_ENTITLEMENT_ID } from '@/constants/premium';
 import { getAppsFlyerUID } from './appsflyer';
+import { posthog } from './posthog';
 
 let isConfigured = false;
 
@@ -39,6 +40,17 @@ export async function linkAppsFlyerToRevenueCat(): Promise<void> {
     Purchases.setAppsflyerID(appsflyerUID);
   } catch {
     // Silent fail — attribution is non-critical
+  }
+}
+
+// Tells RevenueCat which PostHog person this subscriber is, so the
+// RevenueCat → PostHog integration lands its events (trial start,
+// conversion, renewal, churn) on the same user timeline as in-app events.
+export function linkPostHogToRevenueCat(): void {
+  try {
+    Purchases.setAttributes({ $posthogUserId: posthog.getDistinctId() });
+  } catch {
+    // Silent fail — analytics linkage is non-critical
   }
 }
 

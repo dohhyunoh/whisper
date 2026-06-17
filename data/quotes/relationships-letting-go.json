@@ -1717,5 +1717,89 @@
       "tone:direct",
       "tone:playful"
     ]
+  },
+  {
+    "id": "rel-breakup-168",
+    "text": "I love the ocean. I always will. But do I really have to drown in it to prove that I do?",
+    "author": "Lang Leav",
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:boundaries",
+      "theme:romantic-love",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "rel-breakup-169",
+    "text": "Betrayal answers betrayal; the mask of love is answered by the disappearance of love.",
+    "author": "Albert Camus",
+    "tone": "direct",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:heartbreak",
+      "tone:raw"
+    ]
+  },
+  {
+    "id": "rel-breakup-170",
+    "text": "If it stays, it is love. If it ends, it's a love story. If it never begins, it is poetry.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "theme:letting-go",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "rel-breakup-171",
+    "text": "I'm not crying because of you; you're not worth it. I'm crying because my delusion of who you were was shattered by the truth of who you are.",
+    "author": "Steve Maraboli",
+    "source": "Unapologetically You",
+    "tone": "direct",
+    "tags": [
+      "theme:letting-go",
+      "emotion:heartbreak",
+      "situation:post-breakup",
+      "tone:raw"
+    ]
+  },
+  {
+    "id": "rel-breakup-172",
+    "text": "If you love something, let it go free. If it doesn't come back, you never had it. If it comes back, love it forever.",
+    "author": "Douglas Horton",
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:romantic-love",
+      "tone:gentle"
+    ]
+  },
+  {
+    "id": "rel-breakup-173",
+    "text": "Loving someone who doesn't love you is like writing a letter to someone who can't read; it will never be understood.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:longing",
+      "emotion:heartbreak",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "rel-breakup-174",
+    "text": "You are holding onto a version of them that only exists in your memories, trying to love a ghost while wondering why your hands are cold.",
+    "author": "Beneath",
+    "tone": "gentle",
+    "tags": [
+      "theme:letting-go",
+      "theme:romantic-love",
+      "emotion:longing",
+      "need:perspective",
+      "tone:poetic",
+      "tone:gentle"
+    ]
   }
 ]

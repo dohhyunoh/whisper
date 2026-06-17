@@ -23,6 +23,9 @@ interface SwipeDeckProps {
   height: number;
   onFirstSwipe?: () => void;
   onHeartTapped?: () => void;
+  // Fires when the deck switches between showing cards and the end-of-deck recap.
+  // The recap has its own (always-light) background, so floating controls need it.
+  onRecapChange?: (showingRecap: boolean) => void;
 }
 
 interface SwipeRecord {
@@ -30,7 +33,7 @@ interface SwipeRecord {
   dir: SwipeDir;
 }
 
-export function SwipeDeck({ quotes, height, onFirstSwipe, onHeartTapped }: SwipeDeckProps) {
+export function SwipeDeck({ quotes, height, onFirstSwipe, onHeartTapped, onRecapChange }: SwipeDeckProps) {
   const { dispatch } = useAppContext();
   // Resume from persisted progress so a cold reopen doesn't replay today's deck.
   const resumed = useState<{ index: number; history: SwipeRecord[] }>(() => {
@@ -99,8 +102,13 @@ export function SwipeDeck({ quotes, height, onFirstSwipe, onHeartTapped }: Swipe
   );
 
   const totalSlots = quotes.length;
+  const showingRecap = index >= totalSlots;
 
-  if (index >= totalSlots) {
+  useEffect(() => {
+    onRecapChange?.(showingRecap);
+  }, [showingRecap, onRecapChange]);
+
+  if (showingRecap) {
     return <DeckRecap height={height} history={history} />;
   }
 

@@ -705,5 +705,16 @@
       "tone:direct",
       "tone:fierce"
     ]
+  },
+  {
+    "id": "rel-attract-064",
+    "text": "Wait for someone who loves you differently, one who can see the fire in your soul, the child in your laugh, and the ocean in your heart.",
+    "author": "Matthew Perry",
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "emotion:hope",
+      "tone:poetic"
+    ]
   }
 ]

@@ -1644,5 +1644,16 @@
       "need:comfort",
       "tone:gentle"
     ]
+  },
+  {
+    "id": "rel-family-199",
+    "text": "Your face carries the features of ancestors you've never met.",
+    "author": "Unknown",
+    "tone": "gentle",
+    "tags": [
+      "theme:family",
+      "theme:identity",
+      "tone:poetic"
+    ]
   }
 ]

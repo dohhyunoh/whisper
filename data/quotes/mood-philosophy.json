@@ -1843,5 +1843,180 @@
       "tone:gentle",
       "tone:poetic"
     ]
+  },
+  {
+    "id": "mood-philo-195",
+    "text": "If you have two eyes, why do you see people with your ears?",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-196",
+    "text": "We all love ourselves more than other people, but care more about their opinion than our own.",
+    "author": "Marcus Aurelius",
+    "tone": "direct",
+    "tags": [
+      "need:validation",
+      "need:perspective",
+      "theme:self-worth",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-197",
+    "text": "Until you make the unconscious conscious, it will direct your life and you will call it fate.",
+    "author": "Carl Jung",
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "theme:growth",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-198",
+    "text": "You will never live if you keep looking for the meaning of life.",
+    "author": "Albert Camus",
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "theme:purpose",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-199",
+    "text": "A crooked tree lives its own life, but a straight tree is turned into wood.",
+    "author": "Zhuangzi",
+    "tone": "gentle",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "mood-philo-200",
+    "text": "You cannot give your life more time, so give your time more life.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": [
+      "theme:mortality",
+      "need:motivation",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-201",
+    "text": "A tragedy: when a mature mind and a romantic heart are in the same body.",
+    "author": "Nizar Qabbani",
+    "tone": "gentle",
+    "tags": [
+      "theme:romantic-love",
+      "need:perspective",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "mood-philo-202",
+    "text": "One of the greatest tragedies in life is that you will always be loved more than you will ever know.",
+    "author": "Alan Watts",
+    "tone": "gentle",
+    "tags": [
+      "need:comfort",
+      "emotion:loneliness",
+      "tone:gentle"
+    ]
+  },
+  {
+    "id": "mood-philo-203",
+    "text": "Nothing can be gained without losing; even heaven demands death.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": [
+      "theme:letting-go",
+      "theme:mortality",
+      "need:perspective",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-204",
+    "text": "The road to heaven feels like hell. The road to hell feels like heaven.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "theme:growth",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-205",
+    "text": "Someday you will be old enough to start reading fairy tales again.",
+    "author": "C.S. Lewis",
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "emotion:joy",
+      "tone:gentle"
+    ]
+  },
+  {
+    "id": "mood-philo-206",
+    "text": "Maybe the moon is beautiful only because it is far.",
+    "author": "Arabic Proverb",
+    "tone": "gentle",
+    "tags": [
+      "emotion:longing",
+      "need:perspective",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "mood-philo-207",
+    "text": "The world is full of magic things, patiently waiting for our senses to grow sharper.",
+    "author": "W.B. Yeats",
+    "tone": "gentle",
+    "tags": [
+      "need:perspective",
+      "emotion:joy",
+      "tone:poetic"
+    ]
+  },
+  {
+    "id": "mood-philo-208",
+    "text": "I know of no better life purpose than to perish in attempting the great and the impossible.",
+    "author": "Friedrich Nietzsche",
+    "tone": "direct",
+    "tags": [
+      "theme:purpose",
+      "need:challenge",
+      "tone:fierce"
+    ]
+  },
+  {
+    "id": "mood-philo-209",
+    "text": "Making it worse for others doesn't make it better for you.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "tone:direct"
+    ]
+  },
+  {
+    "id": "mood-philo-210",
+    "text": "Villains are always the villains if it is the hero telling the story.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": [
+      "need:perspective",
+      "tone:direct"
+    ]
   }
 ]

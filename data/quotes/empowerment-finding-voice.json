@@ -1010,5 +1010,16 @@
       "need:validation",
       "tone:direct"
     ]
+  },
+  {
+    "id": "emp-voice-129",
+    "text": "Never stop being a good person because of bad people.",
+    "author": "Unknown",
+    "tone": "direct",
+    "tags": [
+      "theme:identity",
+      "need:perspective",
+      "tone:direct"
+    ]
   }
 ]

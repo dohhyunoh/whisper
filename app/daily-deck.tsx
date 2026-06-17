@@ -6,6 +6,7 @@ import { useAppContext } from '@/context/app-context';
 import allQuotes from '@/data/quotes';
 import { Quote } from '@/data/types';
 import { getOrBuildTodayDeck } from '@/utils/deck-engine';
+import { usePremium } from '@/hooks/use-premium';
 import { hasPremiumAccess } from '@/utils/premium-check';
 import { getTodayDateString } from '@/utils/streak';
 import { applyWeeklyDecayIfNeeded, hasSeenDeckHint } from '@/utils/tag-weights';
@@ -41,6 +42,16 @@ function DailyDeckContent() {
   const insets = useSafeAreaInsets();
   const { width: screenWidth, height: screenHeight } = useWindowDimensions();
   const { state } = useAppContext();
+  const { currentTheme } = usePremium();
+
+  // The buttons float over two backgrounds: swipe cards (themed — dark for image
+  // themes) and the end-of-deck recap (always a light gradient). Pick the contrast
+  // from whichever is showing. Image/dark themes carry a white textColor.
+  const [showingRecap, setShowingRecap] = useState(false);
+  const themeIsDark = currentTheme.textColor === '#FFFFFF';
+  const buttonsDark = showingRecap ? true : !themeIsDark;
+  // In argo2.riv, `isDark=true` selects the dark (black) mascot art.
+  const mascotIsDark = buttonsDark;
 
   const scale = 1 + ((Math.min(screenWidth, MAX_SCREEN_WIDTH) - BASE_SCREEN_WIDTH) / (MAX_SCREEN_WIDTH - BASE_SCREEN_WIDTH)) * 0.3;
   const buttonSize = Math.round(BASE_BUTTON_SIZE * scale);
@@ -90,7 +101,7 @@ function DailyDeckContent() {
   }, [deck]);
 
   useEffect(() => {
-    RiveFileFactory.fromSource(require('@/assets/rive/argo.riv'), undefined)
+    RiveFileFactory.fromSource(require('@/assets/rive/argo2.riv'), undefined)
       .then(setRiveFile)
       .catch((err) => console.warn('Failed to load Rive file:', err));
   }, []);
@@ -103,6 +114,22 @@ function DailyDeckContent() {
     return () => clearInterval(interval);
   }, [riveViewRef]);
 
+  // Set the mascot color input. Wait for the native view to be ready first —
+  // setting it the instant the ref exists is a no-op (the state machine isn't
+  // initialized yet), which leaves the mascot on its white Entry/default state.
+  useEffect(() => {
+    if (!riveViewRef) return;
+    let cancelled = false;
+    riveViewRef.awaitViewReady().then(() => {
+      if (cancelled) return;
+      riveViewRef.setBooleanInputValue('isDark', mascotIsDark);
+      riveViewRef.playIfNeeded();
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [riveViewRef, mascotIsDark]);
+
   return (
     <View style={styles.container}>
       <SwipeDeck
@@ -110,6 +137,7 @@ function DailyDeckContent() {
         height={screenHeight}
         onFirstSwipe={handleFirstSwipe}
         onHeartTapped={handleHeartTapped}
+        onRecapChange={setShowingRecap}
       />
 
       <Toast
@@ -137,6 +165,7 @@ function DailyDeckContent() {
               <RiveView
                 hybridRef={setHybridRef}
                 file={riveFile}
+                artboardName="Artboard 3"
                 stateMachineName="State Machine 1"
                 autoPlay
                 style={{ width: buttonSize + 2, height: buttonSize + 2 }}
@@ -146,6 +175,7 @@ function DailyDeckContent() {
         )}
 
         <ProfileButton
+          dark={buttonsDark}
           style={[styles.profileButton, { bottom: insets.bottom + 20 }]}
         />
       </Animated.View>
