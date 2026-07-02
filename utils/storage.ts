@@ -18,7 +18,39 @@ const KEYS = {
   PREMIUM_SETTINGS: '@whisper_premium_settings',
   STREAK_DATES: '@whisper_streak_dates',
   MOOD_HISTORY: '@whisper_mood_history',
+  REVIEW_REQUESTED: '@whisper_review_requested',
+  NOTIF_QUOTES: '@whisper_notif_quotes_enabled',
+  NOTIF_MESSAGES: '@whisper_notif_messages_enabled',
 };
+
+// Notification toggles. Default ON (opt-out) — a null value means "never set",
+// which we treat as enabled so existing users keep their current behavior.
+export async function loadQuotesNotifEnabled(): Promise<boolean> {
+  const raw = await AsyncStorage.getItem(KEYS.NOTIF_QUOTES);
+  return raw === null ? true : raw === 'true';
+}
+
+export async function saveQuotesNotifEnabled(enabled: boolean): Promise<void> {
+  await AsyncStorage.setItem(KEYS.NOTIF_QUOTES, String(enabled));
+}
+
+export async function loadMessagesNotifEnabled(): Promise<boolean> {
+  const raw = await AsyncStorage.getItem(KEYS.NOTIF_MESSAGES);
+  return raw === null ? true : raw === 'true';
+}
+
+export async function saveMessagesNotifEnabled(enabled: boolean): Promise<void> {
+  await AsyncStorage.setItem(KEYS.NOTIF_MESSAGES, String(enabled));
+}
+
+export async function hasRequestedReview(): Promise<boolean> {
+  const raw = await AsyncStorage.getItem(KEYS.REVIEW_REQUESTED);
+  return raw === 'true';
+}
+
+export async function markReviewRequested(): Promise<void> {
+  await AsyncStorage.setItem(KEYS.REVIEW_REQUESTED, 'true');
+}
 
 export async function loadUser(): Promise<UserData | null> {
   const raw = await AsyncStorage.getItem(KEYS.USER);

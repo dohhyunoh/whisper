@@ -1,5 +1,6 @@
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { Stack } from 'expo-router';
+import * as Notifications from 'expo-notifications';
+import { router, Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
@@ -59,6 +60,15 @@ export default function RootLayout() {
     }
   }, [fontsLoaded]);
 
+  // Route notification taps (foreground and cold-start) to the right exchange
+  // screen. Exchange pushes carry a `screen` in their data payload.
+  const lastResponse = Notifications.useLastNotificationResponse();
+  useEffect(() => {
+    const screen = lastResponse?.notification.request.content.data?.screen;
+    if (screen === 'received') router.push('/exchange/received');
+    else if (screen === 'sent') router.push('/exchange/sent');
+  }, [lastResponse]);
+
   if (!fontsLoaded) {
     return null;
   }
@@ -85,6 +95,7 @@ export default function RootLayout() {
             <Stack.Screen name="freemium-upgrade" options={{ headerShown: false, gestureEnabled: false }} />
             <Stack.Screen name="gift-ended" options={{ headerShown: false, gestureEnabled: false }} />
             <Stack.Screen name="subscription-required" options={{ headerShown: false, gestureEnabled: false }} />
+            <Stack.Screen name="exchange-announcement" options={{ headerShown: false, gestureEnabled: false }} />
             <Stack.Screen
               name="daily-check-in"
               options={{
@@ -92,6 +103,32 @@ export default function RootLayout() {
                 gestureEnabled: false,
                 fullScreenGestureEnabled: false,
                 animation: 'fade',
+              }}
+            />
+            <Stack.Screen
+              name="exchange/respond"
+              options={{ headerShown: false, gestureEnabled: false, animation: 'fade' }}
+            />
+            <Stack.Screen
+              name="exchange/compose"
+              options={{ headerShown: false, gestureEnabled: false, animation: 'fade' }}
+            />
+            <Stack.Screen
+              name="exchange/received"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen
+              name="exchange/sent"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
               }}
             />
             <Stack.Screen
@@ -103,6 +140,15 @@ export default function RootLayout() {
             />
             <Stack.Screen
               name="settings"
+              options={{
+                presentation: 'card',
+                headerShown: false,
+                gestureEnabled: true,
+                fullScreenGestureEnabled: true,
+              }}
+            />
+            <Stack.Screen
+              name="notification-settings"
               options={{
                 presentation: 'card',
                 headerShown: false,

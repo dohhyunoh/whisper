@@ -25,6 +25,10 @@ const MAPPING = {
   'xmark': 'close',
   'crown.fill': 'workspace-premium',
   'person.circle': 'account-circle',
+  'envelope.fill': 'email',
+  'lock.fill': 'lock',
+  'doc.text.fill': 'description',
+  'bell.fill': 'notifications',
 } as IconMapping;
 
 /**

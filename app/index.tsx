@@ -1,7 +1,7 @@
 import { useAppContext } from '@/context/app-context';
 import { refreshQuoteNotifications } from '@/utils/notifications';
 import { hasPremiumAccess } from '@/utils/premium-check';
-import { hasSeenV2Migration } from '@/utils/migration';
+import { hasSeenExchangeAnnouncement, hasSeenV2Migration } from '@/utils/migration';
 import { getTodayDateString } from '@/utils/streak';
 import { Redirect } from 'expo-router';
 import { useEffect, useRef } from 'react';
@@ -46,6 +46,12 @@ export default function Index() {
     return state.premium.trialEndsAt != null
       ? <Redirect href="/gift-ended" />
       : <Redirect href="/subscription-required" />;
+  }
+
+  // One-time announcement of the letter exchange for existing subscribers.
+  // (New users saw it in onboarding and marked it seen there.)
+  if (!hasSeenExchangeAnnouncement()) {
+    return <Redirect href="/exchange-announcement" />;
   }
 
   const today = getTodayDateString();

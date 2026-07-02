@@ -10,7 +10,7 @@ import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useMemo, useState } from 'react';
-import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { Pressable, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import Animated, {
   Easing,
   FadeIn,
@@ -29,8 +29,8 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const allQuotes: Quote[] = quotesData as Quote[];
 
-type Scene = 'intro' | 'learns' | 'skip' | 'like';
-const SCENE_ORDER: Scene[] = ['intro', 'learns', 'skip', 'like'];
+type Scene = 'intro' | 'learns' | 'skip' | 'like' | 'exchange';
+const SCENE_ORDER: Scene[] = ['intro', 'learns', 'skip', 'like', 'exchange'];
 const SCENE_MS = 3500;
 
 export default function HowItWorksScreen() {
@@ -150,6 +150,16 @@ export default function HowItWorksScreen() {
               />
             </Animated.View>
           )}
+          {currentScene === 'exchange' && (
+            <Animated.View
+              key="exchange"
+              style={StyleSheet.absoluteFill}
+              entering={FadeIn.duration(500)}
+              exiting={FadeOut.duration(300)}
+            >
+              <ExchangeScene s={s} />
+            </Animated.View>
+          )}
         </View>
 
         <View style={styles.captionStage}>
@@ -195,7 +205,33 @@ function captionFor(scene: Scene): string {
     case 'learns': return 'The app learns from every swipe';
     case 'skip': return "Swipe left if it doesn't speak to you";
     case 'like': return 'Swipe right if it speaks to you';
+    case 'exchange': return 'also you can write to a stranger — and one writes back to you';
   }
+}
+
+// ─── Scene 5: Exchange ───────────────────────────────────────────────────────
+
+function ExchangeScene({ s }: { s: number }) {
+  return (
+    <View style={[StyleSheet.absoluteFill, styles.learnsCenter]}>
+      <Animated.View
+        entering={ZoomIn.duration(600).easing(Easing.out(Easing.back(1.3)))}
+        style={[
+          styles.brainCircle,
+          { width: 140 * s, height: 140 * s, borderRadius: 70 * s },
+        ]}
+      >
+        <Ionicons name="mail-outline" size={70 * s} color="#5A8BA8" />
+      </Animated.View>
+
+      <Animated.View
+        entering={ZoomIn.duration(500).delay(500)}
+        style={[styles.badge, { paddingHorizontal: 14 * s, paddingVertical: 6 * s, borderRadius: 999, marginTop: 24 * s, position: 'relative', top: 0, right: 0 }]}
+      >
+        <Text style={[styles.badgeText, { fontSize: 13 * s }]}>anonymous</Text>
+      </Animated.View>
+    </View>
+  );
 }
 
 // ─── Scene 1: Intro ──────────────────────────────────────────────────────────

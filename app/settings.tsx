@@ -4,7 +4,7 @@ import { defaultUserData } from '@/data/types';
 import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { KeyboardAvoidingView, Modal, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { KeyboardAvoidingView, Linking, Modal, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const GENDER_OPTIONS = ['Female', 'Male', 'Other', 'Prefer not to say'];
@@ -30,6 +30,11 @@ export default function SettingsScreen() {
   const openPicker = (kind: PickerKind) => {
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     setPicker(kind);
+  };
+
+  const openLink = (url: string) => {
+    if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    Linking.openURL(url).catch(() => {});
   };
 
   const handleSelect = (value: string) => {
@@ -103,6 +108,21 @@ export default function SettingsScreen() {
           if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
           router.push('/widget-control');
         })}
+        {renderRow('bell.fill', 'Notifications', 'Daily quotes and messages', () => {
+          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+          router.push('/notification-settings');
+        })}
+
+        <Text style={[styles.sectionLabel, styles.sectionLabelSpaced]}>Support</Text>
+        {renderRow('envelope.fill', 'Contact us', 'Questions or report a problem', () =>
+          openLink('https://www.whisperquotes.app/contact'),
+        )}
+        {renderRow('lock.fill', 'Privacy Policy', 'How we handle your data', () =>
+          openLink('https://www.whisperquotes.app/privacy'),
+        )}
+        {renderRow('doc.text.fill', 'Terms of Use', 'The rules of the road', () =>
+          openLink('https://www.whisperquotes.app/terms'),
+        )}
 
       </ScrollView>
 

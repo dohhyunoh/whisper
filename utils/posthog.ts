@@ -32,4 +32,19 @@ export const Events = {
   SOUL_SIGNATURE_OPENED: 'soul_signature_opened',
   SOUL_SIGNATURE_SHARED: 'soul_signature_shared',
   PHOTO_IMPORTED: 'photo_imported',
+  // Letter exchange — the v1 funnel. respond_shown→reply_sent answers
+  // "will people give?"; post_sent→reply_received answers "does giving get
+  // answered?". That ratio is the experiment (docs §6).
+  EXCHANGE_RESPOND_SHOWN: 'exchange_respond_shown',
+  EXCHANGE_SKIPPED: 'exchange_skipped',
+  EXCHANGE_REPLY_SENT: 'exchange_reply_sent',
+  EXCHANGE_POST_SENT: 'exchange_post_sent',
+  EXCHANGE_REPLY_RECEIVED: 'exchange_reply_received',
+  EXCHANGE_REPLY_OPENED: 'exchange_reply_opened',
+  EXCHANGE_REPORTED: 'exchange_reported',
+  EXCHANGE_BLOCKED: 'exchange_blocked',
+  EXCHANGE_LIKED: 'exchange_liked',
+  EXCHANGE_SENT_OPENED: 'exchange_sent_opened',
+  EXCHANGE_FILTER_BLOCKED: 'exchange_filter_blocked',
+  EXCHANGE_CRISIS_ROUTED: 'exchange_crisis_routed',
 } as const;

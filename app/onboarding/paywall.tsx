@@ -4,7 +4,7 @@ import { requestPermissions, scheduleTrialReminder } from '@/utils/notifications
 import { Events, posthog } from '@/utils/posthog';
 import { logSubscribeEvent } from '@/utils/appsflyer';
 import { checkTrialEligibility, restorePurchases } from '@/utils/revenuecat';
-import { markV2MigrationSeen } from '@/utils/migration';
+import { markExchangeAnnouncementSeen, markV2MigrationSeen } from '@/utils/migration';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -127,6 +127,7 @@ export default function PaywallScreen() {
     if (cameFromOnboarding) {
       dispatch({ type: 'COMPLETE_ONBOARDING' });
       markV2MigrationSeen();
+      markExchangeAnnouncementSeen();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

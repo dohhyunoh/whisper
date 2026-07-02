@@ -12,7 +12,8 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useAppContext } from '@/context/app-context';
 import { findMoodByLabel } from '@/data/moods';
-import { markV2MigrationSeen } from '@/utils/migration';
+import { markExchangeAnnouncementSeen, markV2MigrationSeen } from '@/utils/migration';
+import { hasPremiumAccess } from '@/utils/premium-check';
 import { getTodayDateString } from '@/utils/streak';
 
 export default function WidgetHomeScreen() {
@@ -34,9 +35,15 @@ export default function WidgetHomeScreen() {
       });
     }
     dispatch({ type: 'COMPLETE_ONBOARDING' });
-    // Brand-new users finishing onboarding never need to see the v2 migration screen.
+    // Brand-new users finishing onboarding never need to see the v2 migration or
+    // exchange announcement screens (they met the feature during onboarding).
     markV2MigrationSeen();
-    router.replace('/daily-deck');
+    markExchangeAnnouncementSeen();
+    // Onboarding already counted as today's check-in, so premium users would
+    // otherwise skip straight past the exchange. Drop them into it on day one
+    // (they can Skip → deck). Non-premium re-enter the gate → subscription wall.
+    const isPremium = hasPremiumAccess(state.premium.status, state.premium.trialEndsAt);
+    router.replace(isPremium ? '/exchange/respond' : '/');
   };
 
   return (

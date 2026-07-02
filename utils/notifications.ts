@@ -2,7 +2,7 @@ import quotesData from '@/data/quotes';
 import { Quote } from '@/data/types';
 import { interestTagOverlap, tagsForInterests } from '@/utils/interest-tags';
 import { shuffle } from '@/utils/shuffle';
-import { loadNotificationPrefs, saveNotificationPrefs } from '@/utils/storage';
+import { loadNotificationPrefs, loadQuotesNotifEnabled, saveNotificationPrefs, saveQuotesNotifEnabled } from '@/utils/storage';
 import { getWeights } from '@/utils/tag-weights';
 import * as Notifications from 'expo-notifications';
 
@@ -177,8 +177,37 @@ export async function refreshQuoteNotifications(
   const { status } = await Notifications.getPermissionsAsync();
   if (status !== 'granted') return;
 
+  // Respect the per-user quotes toggle (independent of message notifications).
+  if (!(await loadQuotesNotifEnabled())) return;
+
   const prefs = await loadNotificationPrefs();
   if (!prefs) return;
 
   await rescheduleQuoteNotifications(prefs.perDay, prefs.startHour, prefs.endHour, interests);
+}
+
+const DEFAULT_QUOTE_PREFS = { perDay: 3, startHour: 9, endHour: 21 };
+
+// Cancels all scheduled quote notifications (keeps the trial reminder).
+export async function cancelQuoteNotifications(): Promise<void> {
+  const scheduled = await Notifications.getAllScheduledNotificationsAsync();
+  await Promise.all(
+    scheduled
+      .filter((n) => n.identifier !== TRIAL_REMINDER_ID)
+      .map((n) => Notifications.cancelScheduledNotificationAsync(n.identifier)),
+  );
+}
+
+// Settings toggle for daily quote notifications.
+export async function setQuotesNotificationsEnabled(
+  enabled: boolean,
+  interests: string[] | undefined,
+): Promise<void> {
+  await saveQuotesNotifEnabled(enabled);
+  if (enabled) {
+    const prefs = (await loadNotificationPrefs()) ?? DEFAULT_QUOTE_PREFS;
+    await scheduleQuoteNotifications(prefs.perDay, prefs.startHour, prefs.endHour, interests);
+  } else {
+    await cancelQuoteNotifications();
+  }
 }

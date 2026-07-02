@@ -18,8 +18,8 @@ const SWIPE_VELOCITY_THRESHOLD = 800;
 const INDICATOR_REVEAL_RATIO = 0.18;
 const LIKE_COLOR = '#5A8BA8';
 const SKIP_COLOR = '#E85D75';
-const INDICATOR_SIZE = 96;
-const INDICATOR_TOP = 80;
+const INDICATOR_SIZE = 48;
+const INDICATOR_TOP = 130;
 
 interface SwipeCardProps {
   isTop: boolean;
@@ -116,13 +116,13 @@ export function SwipeCard({ isTop, onSwipe, children, showHint }: SwipeCardProps
 
         <Animated.View style={[styles.indicator, styles.likeIndicator, likeIndicatorStyle]} pointerEvents="none">
           <BlurView intensity={30} tint="light" style={styles.indicatorInner}>
-            <Ionicons name="heart" size={48} color={LIKE_COLOR} />
+            <Ionicons name="heart" size={24} color={LIKE_COLOR} />
           </BlurView>
         </Animated.View>
 
         <Animated.View style={[styles.indicator, styles.skipIndicator, skipIndicatorStyle]} pointerEvents="none">
           <BlurView intensity={30} tint="light" style={styles.indicatorInner}>
-            <Ionicons name="close" size={50} color={SKIP_COLOR} />
+            <Ionicons name="close" size={25} color={SKIP_COLOR} />
           </BlurView>
         </Animated.View>
       </Animated.View>

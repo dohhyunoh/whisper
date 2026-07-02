@@ -138,7 +138,9 @@ function DailyCheckInContent() {
       payload: { date: getTodayDateString(), moodId: mood.id, moodLabel: mood.label },
     });
 
-    router.replace('/daily-deck');
+    // Into the letter exchange (optional, skippable → deck). The gate lives at
+    // navigation level: respond → compose → deck; skip → deck.
+    router.replace('/exchange/respond');
   };
 
   return (
