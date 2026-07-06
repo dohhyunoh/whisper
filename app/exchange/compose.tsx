@@ -67,12 +67,15 @@ export default function ComposeScreen() {
     setSending(true);
 
     // Attach author context (gender + top soul-signature tags) so the responder
-    // can write something concrete. Omit "Prefer not to say".
+    // can write something concrete. Omit "Prefer not to say". Send the full
+    // namespaced tag (emotion:/tone:/theme:/…) — the respond screen needs the
+    // namespace to phrase each kind correctly ("carrying exhaustion" vs
+    // "gentle words land best").
     const gender =
       state.user?.gender && state.user.gender !== 'Prefer not to say'
         ? state.user.gender
         : null;
-    const tags = computeSignature().nodes.map((n) => n.label);
+    const tags = computeSignature().nodes.map((n) => n.tag);
 
     // Moderation happens server-side; act on the verdict it returns.
     const result = await submitPost(mood, text, { gender, tags });

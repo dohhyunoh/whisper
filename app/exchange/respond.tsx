@@ -1,5 +1,6 @@
 import { CrisisCard } from '@/components/exchange/crisis-card';
 import { MoodId, MOODS } from '@/data/moods';
+import allQuotes from '@/data/quotes';
 import {
   getStrangerPost,
   initExchange,
@@ -24,6 +25,7 @@ import {
   View,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import Animated, { FadeInDown } from 'react-native-reanimated';
 
 function moodWord(mood: MoodId): string {
   return (MOODS.find((m) => m.id === mood)?.label ?? 'something').toLowerCase();
@@ -34,6 +36,67 @@ function genderWord(gender: string | null): string {
   if (gender === 'Male') return 'A man';
   return 'Someone';
 }
+
+function joinWords(words: string[]): string {
+  if (words.length <= 1) return words[0] ?? '';
+  return `${words.slice(0, -1).join(', ')} and ${words[words.length - 1]}`;
+}
+
+const TAG_NAMESPACES = ['emotion', 'situation', 'theme', 'need', 'tone'];
+
+// Posts written before compose sent namespaced tags carry bare display labels
+// ("self worth", "gentle"). No label is used by two namespaces, so the
+// namespace can be recovered from the quote vocabulary — keeps the context
+// line alive on old posts until they expire. Built lazily, once.
+let labelNamespaces: Map<string, string> | null = null;
+function namespaceForLabel(label: string): string | null {
+  if (!labelNamespaces) {
+    labelNamespaces = new Map();
+    for (const q of allQuotes) {
+      for (const t of q.tags ?? []) {
+        const [ns, ...rest] = t.split(':');
+        if (rest.length > 0) labelNamespaces.set(rest.join(':').replace(/-/g, ' '), ns);
+      }
+    }
+  }
+  return labelNamespaces.get(label) ?? null;
+}
+
+// The author's soul-signature tags are namespaced (emotion:exhaustion,
+// tone:gentle, theme:self-worth, …) and each kind means something different:
+// emotions/situations are what they're carrying, themes/needs are what
+// comforts them, tones are how they like to be spoken to. Phrase each group
+// accordingly instead of prefixing everything with "finds comfort in".
+// Returns null (line hidden) only if no tag can be classified.
+function describeAuthor(tags: string[]): string | null {
+  const namespaced = tags
+    .map((t) => {
+      if (TAG_NAMESPACES.includes(t.split(':')[0])) return t;
+      const ns = namespaceForLabel(t);
+      return ns ? `${ns}:${t}` : null;
+    })
+    .filter((t): t is string => t !== null);
+
+  // Last segment so sub-namespaced tags read naturally
+  // (theme:faith:christianity → "christianity").
+  const label = (t: string) => (t.split(':').pop() ?? '').replace(/-/g, ' ');
+  const pick = (...namespaces: string[]) =>
+    namespaced.filter((t) => namespaces.includes(t.split(':')[0])).map(label);
+
+  const carrying = pick('emotion', 'situation');
+  const comforts = pick('theme', 'need');
+  const tones = pick('tone');
+
+  const parts: string[] = [];
+  if (carrying.length) parts.push(`carrying ${joinWords(carrying)} lately`);
+  if (comforts.length) parts.push(`finds comfort in ${joinWords(comforts)}`);
+  if (tones.length) parts.push(`${joinWords(tones)} words land best`);
+  if (parts.length === 0) return null;
+
+  const line = parts.join(' · ');
+  return line.charAt(0).toUpperCase() + line.slice(1);
+}
+
 
 export default function RespondScreen() {
   const insets = useSafeAreaInsets();
@@ -144,61 +207,71 @@ export default function RespondScreen() {
             </View>
           ) : (
             <>
-              <Text style={styles.eyebrow}>
-                {genderWord(post.author_gender)} feeling {moodWord(post.mood)} wrote
-              </Text>
+              <Animated.View entering={FadeInDown.duration(500)}>
+                <View style={styles.eyebrowRow}>
+                  {MOODS.find((m) => m.id === post.mood)?.icon(16, '#7B9AAA')}
+                  <Text style={styles.eyebrow}>
+                    {genderWord(post.author_gender)} feeling {moodWord(post.mood)} wrote
+                  </Text>
+                </View>
 
-              <View style={styles.strangerCard}>
-                <Text style={styles.strangerText}>{post.text}</Text>
-              </View>
+                <View style={styles.strangerCard}>
+                  <Text style={styles.strangerText}>{post.text}</Text>
+                </View>
 
-              {post.author_tags && post.author_tags.length > 0 && (
-                <Text style={styles.tagsLine}>
-                  Finds comfort in {post.author_tags.join(' · ')}
-                </Text>
-              )}
+                {post.author_tags &&
+                  post.author_tags.length > 0 &&
+                  (() => {
+                    const line = describeAuthor(post.author_tags);
+                    return line ? <Text style={styles.tagsLine}>{line}</Text> : null;
+                  })()}
+              </Animated.View>
 
-              <Text style={styles.askBack}>Write something back?</Text>
+              <Animated.View entering={FadeInDown.duration(500).delay(200)}>
+                <Text style={styles.askBack}>Write something back?</Text>
 
-              <TextInput
-                style={styles.input}
-                placeholder="A few kind words…"
-                placeholderTextColor="#A9BFCB"
-                value={reply}
-                onChangeText={(t) => {
-                  setReply(t);
-                  if (blocked) setBlocked(null);
-                }}
-                multiline
-                maxLength={500}
-                editable={!sending}
-                textAlignVertical="top"
-              />
+                <TextInput
+                  style={styles.input}
+                  placeholder="A few kind words…"
+                  placeholderTextColor="#A9BFCB"
+                  value={reply}
+                  onChangeText={(t) => {
+                    setReply(t);
+                    if (blocked) setBlocked(null);
+                  }}
+                  multiline
+                  maxLength={500}
+                  editable={!sending}
+                  textAlignVertical="top"
+                />
 
-              {reply.length > 450 && (
-                <Text style={styles.counter}>{reply.length}/500</Text>
-              )}
-              {blocked && <Text style={styles.blocked}>{blocked}</Text>}
-
-              <Pressable
-                style={[styles.primaryBtn, (!reply.trim() || sending) && styles.btnDisabled]}
-                onPress={handleSend}
-                disabled={!reply.trim() || sending}
-              >
-                {sending ? (
-                  <ActivityIndicator color="#5A8BA8" />
-                ) : (
-                  <Text style={styles.primaryText}>Send</Text>
+                {reply.length > 450 && (
+                  <Text style={styles.counter}>{reply.length}/500</Text>
                 )}
-              </Pressable>
+                {blocked && <Text style={styles.blocked}>{blocked}</Text>}
+              </Animated.View>
 
-              <Pressable style={styles.skipBtn} onPress={handleSkip} disabled={sending}>
-                <Text style={styles.skipText}>Skip for today</Text>
-              </Pressable>
+              <Animated.View entering={FadeInDown.duration(500).delay(350)}>
+                <Pressable
+                  style={[styles.primaryBtn, (!reply.trim() || sending) && styles.btnDisabled]}
+                  onPress={handleSend}
+                  disabled={!reply.trim() || sending}
+                >
+                  {sending ? (
+                    <ActivityIndicator color="#5A8BA8" />
+                  ) : (
+                    <Text style={styles.primaryText}>Send</Text>
+                  )}
+                </Pressable>
 
-              <Text style={styles.gateHint}>
-                Replying opens your own prompt. Skipping sits today out.
-              </Text>
+                <Pressable style={styles.skipBtn} onPress={handleSkip} disabled={sending}>
+                  <Text style={styles.skipText}>Skip for today</Text>
+                </Pressable>
+
+                <Text style={styles.gateHint}>
+                  Replying opens your own prompt. Skipping sits today out.
+                </Text>
+              </Animated.View>
             </>
           )}
         </ScrollView>
@@ -213,6 +286,12 @@ const styles = StyleSheet.create({
   container: { flex: 1 },
   scroll: { flexGrow: 1, paddingHorizontal: 28 },
   center: { flex: 1, justifyContent: 'center', alignItems: 'center' },
+  eyebrowRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 6,
+  },
   eyebrow: {
     fontSize: 13,
     fontWeight: '600',
