@@ -9,16 +9,20 @@ import { Alert, Platform, Pressable, StyleSheet, Text, View } from 'react-native
 
 export function NoteCard({
   text,
+  initialLiked = false,
   onReport,
   onBlock,
   onLike,
 }: {
   text: string;
+  initialLiked?: boolean;
   onReport: () => void;
   onBlock: () => void;
   onLike: () => void;
 }) {
-  const [liked, setLiked] = useState(false);
+  // Seed from the persisted like so the heart survives reload/refocus, rather
+  // than resetting to empty on every mount.
+  const [liked, setLiked] = useState(initialLiked);
 
   const handleLike = () => {
     if (liked) return;

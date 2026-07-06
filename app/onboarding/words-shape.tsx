@@ -1,11 +1,12 @@
 import * as Haptics from 'expo-haptics';
+import { AnimatedChoice } from '@/components/animated-choice';
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
 import { Events, posthog } from '@/utils/posthog';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const options = [
   'Absolutely',
@@ -40,16 +41,17 @@ export default function WordsShapeScreen() {
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>
-        {options.map((option) => {
+        {options.map((option, index) => {
           const active = selected === option;
           return (
-            <Pressable
+            <AnimatedChoice
               key={option}
-              style={({ pressed }) => [
+              index={index}
+              selected={active}
+              style={[
                 styles.pill,
                 { paddingVertical: 14 * s, paddingHorizontal: 20 * s },
                 active && styles.pillSelected,
-                pressed ? styles.pillPressed : undefined,
               ]}
               onPress={() => {
                 if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -63,7 +65,7 @@ export default function WordsShapeScreen() {
               <View style={[styles.radio, { width: 22 * s, height: 22 * s, borderRadius: 11 * s }, active && styles.radioSelected]}>
                 {active && <View style={[styles.radioDot, { width: 10 * s, height: 10 * s, borderRadius: 5 * s }]} />}
               </View>
-            </Pressable>
+            </AnimatedChoice>
           );
         })}
       </View>

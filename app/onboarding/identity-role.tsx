@@ -1,11 +1,12 @@
 import * as Haptics from 'expo-haptics';
+import { AnimatedChoice } from '@/components/animated-choice';
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { posthog, Events } from '@/utils/posthog';
-import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const options = [
   'The Careerist',
@@ -45,16 +46,17 @@ export default function IdentityRoleScreen() {
       buttonDisabled={!selected}
     >
       <View style={{ gap: 8 * s }}>
-        {options.map((option) => {
+        {options.map((option, index) => {
           const active = selected === option;
           return (
-            <Pressable
+            <AnimatedChoice
               key={option}
-              style={({ pressed }) => [
+              index={index}
+              selected={active}
+              style={[
                 styles.pill,
                 { paddingVertical: 11 * s, paddingHorizontal: 18 * s },
                 active && styles.pillSelected,
-                pressed ? styles.pillPressed : undefined,
               ]}
               onPress={() => {
                 if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -68,7 +70,7 @@ export default function IdentityRoleScreen() {
               <View style={[styles.radio, { width: 22 * s, height: 22 * s, borderRadius: 11 * s }, active && styles.radioSelected]}>
                 {active && <View style={[styles.radioDot, { width: 10 * s, height: 10 * s, borderRadius: 5 * s }]} />}
               </View>
-            </Pressable>
+            </AnimatedChoice>
           );
         })}
       </View>

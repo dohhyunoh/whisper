@@ -1,11 +1,12 @@
 import * as Haptics from 'expo-haptics';
+import { AnimatedChoice } from '@/components/animated-choice';
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { posthog, Events } from '@/utils/posthog';
-import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const options = [
   "I'm not good enough",
@@ -53,16 +54,17 @@ export default function NarrativeScreen() {
       buttonDisabled={selected.length === 0}
     >
       <View style={styles.wrap}>
-        {options.map((option) => {
+        {options.map((option, index) => {
           const active = selected.includes(option);
           return (
-            <Pressable
+            <AnimatedChoice
               key={option}
-              style={({ pressed }) => [
+              index={index}
+              selected={active}
+              style={[
                 styles.pill,
                 { paddingVertical: 12 * s, paddingHorizontal: 20 * s },
                 active && styles.pillSelected,
-                pressed ? styles.pillPressed : undefined,
               ]}
               onPress={() => {
                 toggle(option);
@@ -73,7 +75,7 @@ export default function NarrativeScreen() {
               <Text style={[styles.pillText, { fontSize: 14 * s }, active && styles.pillTextSelected]}>
                 {option}
               </Text>
-            </Pressable>
+            </AnimatedChoice>
           );
         })}
       </View>

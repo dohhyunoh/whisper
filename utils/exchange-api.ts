@@ -29,6 +29,7 @@ export interface ReceivedReply {
   created_at: string;
   post_text: string;
   post_mood: MoodId;
+  liked: boolean;
 }
 
 export interface SentReply {

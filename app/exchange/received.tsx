@@ -139,6 +139,7 @@ export default function ReceivedScreen() {
                   <NoteCard
                     key={r.id}
                     text={r.text}
+                    initialLiked={r.liked}
                     onReport={() => handleReport(r.id, r.text)}
                     onBlock={() => handleBlock(r.id)}
                     onLike={() => handleLike(r.id)}

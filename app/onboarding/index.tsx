@@ -1,8 +1,8 @@
+import { ArgoEmotionView } from '@/components/argo-emotion';
 import { useAppContext } from '@/context/app-context';
 import { MOODS } from '@/data/moods';
 import { defaultUserData } from '@/data/types';
 import { Events, posthog } from '@/utils/posthog';
-import { RiveFileFactory, RiveView } from '@rive-app/react-native';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
@@ -17,8 +17,6 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-
-type RiveFile = Awaited<ReturnType<typeof RiveFileFactory.fromSource>>;
 
 const MOOD_ICON_SIZE = 22;
 const moods = MOODS;
@@ -79,32 +77,13 @@ export default function OnboardingScreen() {
 
   const heroSize = 280 * s;
 
-  const [riveFiles, setRiveFiles] = useState<(RiveFile | null)[]>(() => moods.map(() => null));
   const [selectedIndex, setSelectedIndex] = useState<number>(-1);
 
   const displayIndex = selectedIndex >= 0 ? selectedIndex : 0; // default to Clear visually
   const displayMood = moods[displayIndex];
-  const heroRive = riveFiles[displayIndex];
 
   useEffect(() => {
     posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'welcome' });
-  }, []);
-
-  useEffect(() => {
-    let cancelled = false;
-    Promise.all(
-      moods.map((m) =>
-        RiveFileFactory.fromSource(m.rive, undefined).catch((err) => {
-          console.warn(`Failed to load Rive file for ${m.id}:`, err);
-          return null;
-        }),
-      ),
-    ).then((files) => {
-      if (!cancelled) setRiveFiles(files);
-    });
-    return () => {
-      cancelled = true;
-    };
   }, []);
 
   // Hero pop animation when selection changes
@@ -208,19 +187,15 @@ export default function OnboardingScreen() {
             heroStyle,
           ]}
         >
-          {heroRive && (
-            <RiveView
-              key={displayMood.id}
-              file={heroRive}
-              autoPlay
-              style={{
-                width: heroSize,
-                height: heroSize,
-                backgroundColor: 'transparent',
-                transform: [{ translateY: displayMood.id === 'stormy' ? 20 * s : 0 }],
-              }}
-            />
-          )}
+          <ArgoEmotionView
+            emotion={displayMood.emotion}
+            style={{
+              width: heroSize,
+              height: heroSize,
+              backgroundColor: 'transparent',
+            }}
+          />
+
         </Animated.View>
 
         {/* Selected label + message */}

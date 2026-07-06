@@ -28,7 +28,12 @@ export default function RestWelcomeScreen() {
   const name = state.user?.name || '';
   const mood = state.user?.weatherMood || '';
 
-  const [riveFile, setRiveFile] = useState<Awaited<ReturnType<typeof RiveFileFactory.fromSource>> | null>(null);
+  // Argo hi — rendered from argo_hi_v1.1 (the "main" artboard + state machine).
+  const [rive, setRive] = useState<{
+    file: Awaited<ReturnType<typeof RiveFileFactory.fromSource>>;
+    artboardName?: string;
+    stateMachineName: string;
+  } | null>(null);
 
   const titleOpacity = useSharedValue(0);
   const titleTranslateY = useSharedValue(15);
@@ -40,9 +45,21 @@ export default function RestWelcomeScreen() {
   }, []);
 
   useEffect(() => {
-    RiveFileFactory.fromSource(require('@/assets/rive/hi_argo.riv'), undefined)
-      .then(setRiveFile)
-      .catch((err) => console.warn('Failed to load Rive file:', err));
+    let cancelled = false;
+    (async () => {
+      try {
+        const file = await RiveFileFactory.fromSource(
+          require('@/assets/rive/argo_hi_v1.1.riv'),
+          undefined,
+        );
+        if (!cancelled) setRive({ file, artboardName: 'main', stateMachineName: 'main' });
+      } catch (err) {
+        console.warn('Failed to load Rive file:', err);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {
@@ -82,11 +99,12 @@ export default function RestWelcomeScreen() {
             <View style={[styles.wreathContainer, { transform: [{ rotate: '25deg' }, { translateX: -10 * s }] }]} pointerEvents="none">
               <WreathSvg size={250 * s} color="rgba(90,139,168,1)" />
             </View>
-            {riveFile && (
+            {rive && (
               <View style={styles.riveWrapper}>
                 <RiveView
-                  file={riveFile}
-                  stateMachineName="State Machine 1"
+                  file={rive.file}
+                  artboardName={rive.artboardName}
+                  stateMachineName={rive.stateMachineName}
                   autoPlay
                   style={{ width: 180 * s, height: 180 * s, backgroundColor: 'transparent' }}
                 />

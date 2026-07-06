@@ -1,11 +1,12 @@
 import * as Haptics from 'expo-haptics';
+import { AnimatedChoice } from '@/components/animated-choice';
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { posthog, Events } from '@/utils/posthog';
-import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const optionsMap: Record<string, string[]> = {
   Anxious: ['Fear of failure', 'Social pressure', 'Unknown future', 'Health', 'Self-image or appearance'],
@@ -54,16 +55,17 @@ export default function EmotionRootScreen() {
       buttonDisabled={selected.length === 0}
     >
       <View style={{ gap: 12 * s }}>
-        {options.map((option) => {
+        {options.map((option, index) => {
           const active = selected.includes(option);
           return (
-            <Pressable
+            <AnimatedChoice
               key={option}
-              style={({ pressed }) => [
+              index={index}
+              selected={active}
+              style={[
                 styles.pill,
                 { paddingVertical: 14 * s, paddingHorizontal: 20 * s },
                 active && styles.pillSelected,
-                pressed ? styles.pillPressed : undefined,
               ]}
               onPress={() => {
                 toggle(option);
@@ -77,7 +79,7 @@ export default function EmotionRootScreen() {
               <View style={[styles.checkbox, { width: 22 * s, height: 22 * s, borderRadius: 6 * s }, active && styles.checkboxSelected]}>
                 {active && <Text style={[styles.checkmark, { fontSize: 14 * s }]}>✓</Text>}
               </View>
-            </Pressable>
+            </AnimatedChoice>
           );
         })}
       </View>

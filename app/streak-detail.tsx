@@ -1,13 +1,13 @@
+import { ArgoEmotionView } from '@/components/argo-emotion';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
 import { findMoodByLabel, MOODS } from '@/data/moods';
 import { Events, posthog } from '@/utils/posthog';
 import { computeMoodStreak, computeStreak, getTodayDateString } from '@/utils/streak';
-import { RiveFileFactory, RiveView } from '@rive-app/react-native';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Animated, {
   Easing,
@@ -20,8 +20,6 @@ import Animated, {
 } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Svg, { Circle } from 'react-native-svg';
-
-type RiveFile = Awaited<ReturnType<typeof RiveFileFactory.fromSource>>;
 
 const MAX_STREAK_DISPLAY = 30;
 const RING_SIZE = 170;
@@ -99,19 +97,6 @@ export default function StreakDetail() {
     return { mood: m, count: moodStreak.count };
   }, [moodStreak]);
 
-  const [riveFile, setRiveFile] = useState<RiveFile | null>(null);
-  useEffect(() => {
-    let cancelled = false;
-    RiveFileFactory.fromSource(currentMood.rive, undefined)
-      .then((f) => {
-        if (!cancelled) setRiveFile(f);
-      })
-      .catch((err) => console.warn('Failed to load Rive file for streak-detail:', err));
-    return () => {
-      cancelled = true;
-    };
-  }, [currentMood.id]);
-
   const breathScale = useSharedValue(1);
   const arcProgress = useSharedValue(0);
 
@@ -168,19 +153,14 @@ export default function StreakDetail() {
         {/* Mascot section */}
         <View style={styles.mascotSection}>
           <View style={styles.riveWrapper}>
-            {riveFile && (
-              <RiveView
-                key={currentMood.id}
-                file={riveFile}
-                autoPlay
-                style={{
-                  width: RIVE_SIZE,
-                  height: RIVE_SIZE,
-                  backgroundColor: 'transparent',
-                  transform: [{ translateY: currentMood.id === 'stormy' ? 14 : 0 }],
-                }}
-              />
-            )}
+            <ArgoEmotionView
+              emotion={currentMood.emotion}
+              style={{
+                width: RIVE_SIZE,
+                height: RIVE_SIZE,
+                backgroundColor: 'transparent',
+              }}
+            />
           </View>
         </View>
 

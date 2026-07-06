@@ -1,11 +1,12 @@
 import * as Haptics from 'expo-haptics';
+import { AnimatedChoice } from '@/components/animated-choice';
 import { OnboardingLayout } from '@/components/onboarding-layout';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { posthog, Events } from '@/utils/posthog';
-import { Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 
 const options = ['Female', 'Male', 'Other', 'Prefer not to say'];
 
@@ -36,16 +37,17 @@ export default function GenderSelectionScreen() {
       buttonDisabled={!selected}
     >
       <View style={{ gap: 12 * s }}>
-        {options.map((option) => {
+        {options.map((option, index) => {
           const active = selected === option;
           return (
-            <Pressable
+            <AnimatedChoice
               key={option}
-              style={({ pressed }) => [
+              index={index}
+              selected={active}
+              style={[
                 styles.pill,
                 { paddingVertical: 14 * s, paddingHorizontal: 20 * s },
                 active && styles.pillSelected,
-                pressed ? styles.pillPressed : undefined,
               ]}
               onPress={() => {
                 if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -78,7 +80,7 @@ export default function GenderSelectionScreen() {
                   />
                 )}
               </View>
-            </Pressable>
+            </AnimatedChoice>
           );
         })}
       </View>

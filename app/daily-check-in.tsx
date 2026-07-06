@@ -1,8 +1,8 @@
+import { ArgoEmotionView } from '@/components/argo-emotion';
 import { useAppContext } from '@/context/app-context';
 import { MOODS } from '@/data/moods';
 import { Events, posthog } from '@/utils/posthog';
 import { getTodayDateString } from '@/utils/streak';
-import { RiveFileFactory, RiveView } from '@rive-app/react-native';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Redirect, router } from 'expo-router';
@@ -17,8 +17,6 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-
-type RiveFile = Awaited<ReturnType<typeof RiveFileFactory.fromSource>>;
 
 const MOOD_ICON_SIZE = 22;
 
@@ -49,36 +47,17 @@ function DailyCheckInContent() {
 
   const heroSize = 280 * s;
 
-  const [riveFiles, setRiveFiles] = useState<(RiveFile | null)[]>(() => MOODS.map(() => null));
   const [selectedIndex, setSelectedIndex] = useState<number>(-1);
   const [committing, setCommitting] = useState(false);
 
   const displayIndex = selectedIndex >= 0 ? selectedIndex : 0;
   const displayMood = MOODS[displayIndex];
-  const heroRive = riveFiles[displayIndex];
 
   const userName = state.user?.name?.trim();
   const greeting = userName ? `Good to see you, ${userName}` : 'Good to see you';
 
   useEffect(() => {
     posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'daily_check_in' });
-  }, []);
-
-  useEffect(() => {
-    let cancelled = false;
-    Promise.all(
-      MOODS.map((m) =>
-        RiveFileFactory.fromSource(m.rive, undefined).catch((err) => {
-          console.warn(`Failed to load Rive file for ${m.id}:`, err);
-          return null;
-        }),
-      ),
-    ).then((files) => {
-      if (!cancelled) setRiveFiles(files);
-    });
-    return () => {
-      cancelled = true;
-    };
   }, []);
 
   const heroScale = useSharedValue(1);
@@ -163,19 +142,15 @@ function DailyCheckInContent() {
             heroStyle,
           ]}
         >
-          {heroRive && (
-            <RiveView
-              key={displayMood.id}
-              file={heroRive}
-              autoPlay
-              style={{
-                width: heroSize,
-                height: heroSize,
-                backgroundColor: 'transparent',
-                transform: [{ translateY: displayMood.id === 'stormy' ? 20 * s : 0 }],
-              }}
-            />
-          )}
+          <ArgoEmotionView
+            emotion={displayMood.emotion}
+            style={{
+              width: heroSize,
+              height: heroSize,
+              backgroundColor: 'transparent',
+            }}
+          />
+
         </Animated.View>
 
         <Animated.View style={[styles.labelBlock, labelStyle]} pointerEvents="none">
