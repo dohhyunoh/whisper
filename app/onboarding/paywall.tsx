@@ -25,15 +25,15 @@ function getTrialTimelineSteps() {
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const now = new Date();
   const reminderDate = new Date(now);
-  reminderDate.setDate(reminderDate.getDate() + 2);
+  reminderDate.setDate(reminderDate.getDate() + 6);
   const billingDate = new Date(now);
-  billingDate.setDate(billingDate.getDate() + 3);
+  billingDate.setDate(billingDate.getDate() + 7);
   const fmt = (d: Date) => `${months[d.getMonth()]} ${d.getDate()}`;
   return [
     {
       icon: 'lock-open-outline' as const,
       title: 'Today - Free trial starts',
-      description: 'Enjoy full access, totally free for your first 3 days',
+      description: 'Enjoy full access, totally free for your first 7 days',
     },
     {
       icon: 'notifications-outline' as const,
@@ -56,10 +56,10 @@ export default function PaywallScreen() {
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
 
-  const [selectedPlan, setSelectedPlan] = useState<'annual' | 'weekly'>('annual');
+  const [selectedPlan, setSelectedPlan] = useState<'annual' | 'monthly'>('annual');
   const [packages, setPackages] = useState<{
     annual?: PurchasesPackage;
-    weekly?: PurchasesPackage;
+    monthly?: PurchasesPackage;
   }>({});
   const [loading, setLoading] = useState(false);
   const [trialEligible, setTrialEligible] = useState<boolean | null>(null);
@@ -85,8 +85,8 @@ export default function PaywallScreen() {
     async function fetchOfferings() {
       try {
         const offerings = await Purchases.getOfferings();
-        // Explicitly fetch the v2 offering ($3.99 weekly / $59.99 yearly) instead
-        // of offerings.current. This guarantees v1.0.16+ users always see v2 pricing
+        // Explicitly fetch the v2 offering ($6.99 monthly / $39.99 yearly) instead
+        // of offerings.current. This guarantees users always see v2 pricing
         // regardless of which offering is marked "Current" in the RC dashboard,
         // and keeps in-app marketing copy consistent with what Apple's reviewer sees.
         const offering = offerings.all['v2_pricing'] ?? offerings.current;
@@ -94,10 +94,10 @@ export default function PaywallScreen() {
           const annual = offering.availablePackages.find(
             (p) => p.packageType === 'ANNUAL',
           );
-          const weekly = offering.availablePackages.find(
-            (p) => p.packageType === 'WEEKLY',
+          const monthly = offering.availablePackages.find(
+            (p) => p.packageType === 'MONTHLY',
           );
-          setPackages({ annual, weekly });
+          setPackages({ annual, monthly });
         }
       } catch (error) {
         console.log('Error fetching offerings:', error);
@@ -154,7 +154,7 @@ export default function PaywallScreen() {
   };
 
   const handlePurchase = async () => {
-    const pkg = selectedPlan === 'annual' ? packages.annual : packages.weekly;
+    const pkg = selectedPlan === 'annual' ? packages.annual : packages.monthly;
     if (!pkg) {
       Alert.alert('Unavailable', 'This plan is not available right now.');
       return;
@@ -192,11 +192,11 @@ export default function PaywallScreen() {
     }
   };
 
-  const annualPrice = packages.annual?.product.priceString ?? '$59.99';
-  const weeklyPrice = packages.weekly?.product.priceString ?? '$3.99';
-  const annualWeeklyEquiv = packages.annual?.product.price
-    ? `$${(Math.floor((packages.annual.product.price / 52) * 100) / 100).toFixed(2)}`
-    : '$1.15';
+  const annualPrice = packages.annual?.product.priceString ?? '$39.99';
+  const monthlyPrice = packages.monthly?.product.priceString ?? '$6.99';
+  const annualMonthlyEquiv = packages.annual?.product.price
+    ? `$${(Math.floor((packages.annual.product.price / 12) * 100) / 100).toFixed(2)}`
+    : '$3.33';
 
   const handleClose = () => {
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -236,8 +236,8 @@ export default function PaywallScreen() {
         selectedPlan={selectedPlan}
         setSelectedPlan={setSelectedPlan}
         annualPrice={annualPrice}
-        weeklyPrice={weeklyPrice}
-        annualWeeklyEquiv={annualWeeklyEquiv}
+        monthlyPrice={monthlyPrice}
+        annualMonthlyEquiv={annualMonthlyEquiv}
         loading={loading}
         onPurchase={handlePurchase}
         onRestore={handleRestore}
@@ -253,8 +253,8 @@ export default function PaywallScreen() {
       selectedPlan={selectedPlan}
       setSelectedPlan={setSelectedPlan}
       annualPrice={annualPrice}
-      weeklyPrice={weeklyPrice}
-      annualWeeklyEquiv={annualWeeklyEquiv}
+      monthlyPrice={monthlyPrice}
+      annualMonthlyEquiv={annualMonthlyEquiv}
       loading={loading}
       onPurchase={handlePurchase}
       onRestore={handleRestore}
@@ -268,11 +268,11 @@ export default function PaywallScreen() {
 interface PaywallProps {
   s: number;
   insets: { top: number; bottom: number };
-  selectedPlan: 'annual' | 'weekly';
-  setSelectedPlan: (plan: 'annual' | 'weekly') => void;
+  selectedPlan: 'annual' | 'monthly';
+  setSelectedPlan: (plan: 'annual' | 'monthly') => void;
   annualPrice: string;
-  weeklyPrice: string;
-  annualWeeklyEquiv: string;
+  monthlyPrice: string;
+  annualMonthlyEquiv: string;
   loading: boolean;
   onPurchase: () => void;
   onRestore: () => void;
@@ -323,7 +323,7 @@ function BackButton({ s, onClose, style }: { s: number; onClose?: () => void; st
 
 function RegularPaywall({
   s, insets, selectedPlan, setSelectedPlan,
-  annualPrice, weeklyPrice, annualWeeklyEquiv, loading,
+  annualPrice, monthlyPrice, annualMonthlyEquiv, loading,
   onPurchase, onRestore, onClose,
 }: PaywallProps) {
   return (
@@ -412,25 +412,25 @@ function RegularPaywall({
               style={[
                 styles.planBox,
                 { paddingVertical: 24 * s, borderRadius: 14 * s },
-                selectedPlan === 'weekly' && styles.planBoxSelected,
+                selectedPlan === 'monthly' && styles.planBoxSelected,
               ]}
-              onPress={() => setSelectedPlan('weekly')}
+              onPress={() => setSelectedPlan('monthly')}
             >
               <Text
                 style={[
                   styles.planLabel, { fontSize: 15 * s },
-                  selectedPlan === 'weekly' && styles.planLabelSelected,
+                  selectedPlan === 'monthly' && styles.planLabelSelected,
                 ]}
               >
-                Weekly
+                Monthly
               </Text>
               <Text
                 style={[
                   styles.planPrice, { fontSize: 17 * s },
-                  selectedPlan === 'weekly' && styles.planPriceSelected,
+                  selectedPlan === 'monthly' && styles.planPriceSelected,
                 ]}
               >
-                {weeklyPrice}/week
+                {monthlyPrice}/month
               </Text>
             </Pressable>
           </View>
@@ -454,8 +454,8 @@ function RegularPaywall({
 
           <Text style={[styles.billingText, { fontSize: 12 * s }]}>
             {selectedPlan === 'annual'
-              ? `${annualWeeklyEquiv}/week, billed yearly as ${annualPrice}/year`
-              : `${weeklyPrice}/week, billed weekly`}
+              ? `${annualMonthlyEquiv}/month, billed yearly as ${annualPrice}/year`
+              : `${monthlyPrice}/month, billed monthly`}
           </Text>
 
           <Footer s={s} />
@@ -469,7 +469,7 @@ function RegularPaywall({
 
 function TrialPaywall({
   s, insets, selectedPlan, setSelectedPlan,
-  annualPrice, weeklyPrice, annualWeeklyEquiv, loading,
+  annualPrice, monthlyPrice, annualMonthlyEquiv, loading,
   onPurchase, onRestore, onClose,
 }: PaywallProps) {
   const timelineSteps = getTrialTimelineSteps();
@@ -533,7 +533,7 @@ function TrialPaywall({
             Get Whisper Pro
           </Text>
           <Text style={[styles.trialSubheading, { fontSize: 15 * s, marginBottom: 20 * s }]}>
-            Includes a 3-day free trial
+            Includes a 7-day free trial
           </Text>
 
           {/* Mascot */}
@@ -598,7 +598,7 @@ function TrialPaywall({
                 Yearly
               </Text>
               <Text style={[styles.trialPlanSubtitle, { fontSize: 12 * s }]}>
-                3-day free trial
+                7-day free trial
               </Text>
             </Pressable>
 
@@ -606,18 +606,18 @@ function TrialPaywall({
               style={[
                 styles.trialPlanBox,
                 { paddingVertical: 18 * s, paddingHorizontal: 12 * s, borderRadius: 14 * s },
-                selectedPlan === 'weekly' && styles.planBoxSelected,
+                selectedPlan === 'monthly' && styles.planBoxSelected,
               ]}
-              onPress={() => setSelectedPlan('weekly')}
+              onPress={() => setSelectedPlan('monthly')}
             >
-              <Text style={[styles.trialPlanPrice, { fontSize: 17 * s }, selectedPlan === 'weekly' && styles.planPriceSelected]}>
-                {weeklyPrice}/week
+              <Text style={[styles.trialPlanPrice, { fontSize: 17 * s }, selectedPlan === 'monthly' && styles.planPriceSelected]}>
+                {monthlyPrice}/month
               </Text>
-              <Text style={[styles.planLabel, { fontSize: 14 * s }, selectedPlan === 'weekly' && styles.planLabelSelected]}>
-                Weekly
+              <Text style={[styles.planLabel, { fontSize: 14 * s }, selectedPlan === 'monthly' && styles.planLabelSelected]}>
+                Monthly
               </Text>
               <Text style={[styles.trialPlanSubtitle, { fontSize: 12 * s }]}>
-                3-day free trial
+                7-day free trial
               </Text>
             </Pressable>
           </View>
@@ -656,8 +656,8 @@ function TrialPaywall({
           {/* Billing info */}
           <Text style={[styles.billingText, { fontSize: 12 * s }]}>
             {selectedPlan === 'annual'
-              ? `${annualWeeklyEquiv}/week, billed yearly as ${annualPrice}/year`
-              : `${weeklyPrice}/week, billed weekly`}
+              ? `${annualMonthlyEquiv}/month, billed yearly as ${annualPrice}/year`
+              : `${monthlyPrice}/month, billed monthly`}
           </Text>
 
           <Footer s={s} />

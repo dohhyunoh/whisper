@@ -24,7 +24,7 @@ export async function checkTrialEligibility(): Promise<boolean> {
   try {
     const eligibility = await Purchases.checkTrialOrIntroductoryPriceEligibility([
       'com.dohhyun.whisper.yearly.v2',
-      'com.dohhyun.whisper.weekly',
+      'com.dohhyun.whisper.monthly.v2',
     ]);
     return Object.values(eligibility).some(
       (result) => result.status === Purchases.INTRO_ELIGIBILITY_STATUS.INTRO_ELIGIBILITY_STATUS_ELIGIBLE,

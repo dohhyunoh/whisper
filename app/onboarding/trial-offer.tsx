@@ -63,7 +63,7 @@ export default function TrialOfferScreen() {
           <Animated.Text
             style={[styles.subtitle, { fontSize: 16 * s, marginTop: 12 * s }, subtitleStyle]}
           >
-            Enjoy 3 days of Whisper Pro,{'\n'}completely free
+            Enjoy 7 days of Whisper Pro,{'\n'}completely free
           </Animated.Text>
 
         </View>

@@ -84,7 +84,7 @@ export default function SubscriptionRequiredScreen() {
             </Text>
             <Text style={[styles.body, { fontSize: 16 * s, lineHeight: 24 * s, marginTop: 14 * s }]}>
               {trialEligible
-                ? 'Start with 3 days free to make it your own.'
+                ? 'Start with 7 days free to make it your own.'
                 : 'Subscribe to continue your practice.'}
             </Text>
           </Animated.View>

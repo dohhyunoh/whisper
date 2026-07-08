@@ -96,7 +96,7 @@ export async function scheduleTrialReminder(): Promise<void> {
   await Notifications.cancelScheduledNotificationAsync(TRIAL_REMINDER_ID).catch(() => {});
 
   const reminderDate = new Date();
-  reminderDate.setDate(reminderDate.getDate() + 2);
+  reminderDate.setDate(reminderDate.getDate() + 6);
   reminderDate.setHours(10, 0, 0, 0);
 
   await Notifications.scheduleNotificationAsync({
