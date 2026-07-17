@@ -115,19 +115,6 @@
     ]
   },
   {
-    "id": "emp-fin-019",
-    "text": "You can make EXCUSES and earn SYMPATHY, OR You can make MONEY and earn ADMIRATION. The choice is always yours...",
-    "author": "Manoj Arora",
-    "source": "From the Rat Race to Financial Freedom",
-    "tone": "direct",
-    "tags": [
-      "theme:money",
-      "need:motivation",
-      "tone:direct",
-      "tone:fierce"
-    ]
-  },
-  {
     "id": "emp-fin-020",
     "text": "If we were not impressed by job titles, suits, and jargon, we would demand that financial advisors show us their personal bank statements before they tell us what we could or should do with our own money.",
     "author": "Mokokoma Mokhonoana",
@@ -141,18 +128,6 @@
   {
     "id": "emp-fin-021",
     "text": "Sometimes the only way to win is to step outside the system—and build your own.",
-    "author": "Joseph C. Kunz Jr.",
-    "tone": "direct",
-    "tags": [
-      "theme:money",
-      "need:motivation",
-      "tone:direct",
-      "tone:fierce"
-    ]
-  },
-  {
-    "id": "emp-fin-022",
-    "text": "Comfort will keep you broke. Discomfort is where the money's made.",
     "author": "Joseph C. Kunz Jr.",
     "tone": "direct",
     "tags": [
@@ -377,18 +352,6 @@
     ]
   },
   {
-    "id": "emp-fin-059",
-    "text": "A big part of financial freedom is having your heart and mind free from worry about the what-ifs of life.",
-    "author": "Suze Orman",
-    "tone": "direct",
-    "tags": [
-      "theme:money",
-      "emotion:peace",
-      "emotion:anxiety",
-      "tone:direct"
-    ]
-  },
-  {
     "id": "emp-fin-060",
     "text": "Your financial security isn't about what you earn—it's about breaking the chains of living paycheck to paycheck and building something that can't be taken away from you.",
     "author": "Anonymous",
@@ -483,18 +446,6 @@
     ]
   },
   {
-    "id": "emp-fin-068",
-    "text": "The stress of being broke isn't just about money—it's about the loss of choices, the constant anxiety, the feeling that you're always one crisis away from collapse. You deserve better.",
-    "author": "Anonymous",
-    "tone": "direct",
-    "tags": [
-      "theme:money",
-      "emotion:anxiety",
-      "need:validation",
-      "tone:direct"
-    ]
-  },
-  {
     "id": "emp-fin-069",
     "text": "Investing in yourself—your education, your skills, your peace of mind—is the only investment that pays dividends every single day for the rest of your life.",
     "author": "Anonymous",
@@ -575,18 +526,6 @@
       "theme:money",
       "need:permission",
       "need:motivation",
-      "tone:direct"
-    ]
-  },
-  {
-    "id": "emp-fin-076",
-    "text": "Worrying about money at 3am is not a personality trait. It's a signal. Listen to it and do something about it.",
-    "author": "Unknown",
-    "tone": "direct",
-    "tags": [
-      "theme:money",
-      "emotion:anxiety",
-      "need:perspective",
       "tone:direct"
     ]
   },
@@ -732,18 +671,6 @@
       "theme:family",
       "need:motivation",
       "tone:direct"
-    ]
-  },
-  {
-    "id": "emp-fin-089",
-    "text": "Somebody 10x dumber than you is 10x richer because they were too stupid to think they could fail",
-    "author": "Unknown",
-    "tone": "playful",
-    "tags": [
-      "theme:money",
-      "emotion:fear",
-      "need:perspective",
-      "tone:playful"
     ]
   },
   {
@@ -1005,17 +932,6 @@
       "theme:money",
       "need:motivation",
       "tone:gentle"
-    ]
-  },
-  {
-    "id": "emp-fin-113",
-    "text": "Broke is temporary. Poor is a mindset.",
-    "author": "Unknown",
-    "tone": "direct",
-    "tags": [
-      "theme:money",
-      "need:perspective",
-      "tone:direct"
     ]
   },
   {

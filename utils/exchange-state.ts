@@ -14,6 +14,9 @@ interface ExchangeDayState {
   date: string;
   responded: boolean;
   posted: boolean;
+  // Replies sent today. Client-side mirror of the server's daily ceiling
+  // (submit-reply enforces MAX_REPLIES_PER_DAY) so the UI can show "N of 10".
+  replies?: number;
 }
 
 async function read(): Promise<ExchangeDayState> {
@@ -51,6 +54,36 @@ export async function markRespondedToday(): Promise<void> {
 export async function markPostedToday(): Promise<void> {
   const s = await read();
   await write({ ...s, posted: true });
+}
+
+export async function getRepliesSentToday(): Promise<number> {
+  const s = await read();
+  return s.replies ?? 0;
+}
+
+export async function incrementRepliesSentToday(): Promise<void> {
+  const s = await read();
+  await write({ ...s, replies: (s.replies ?? 0) + 1 });
+}
+
+// Lifetime hearts on notes you've sent. Notes expire within a day, so the
+// server can't count this for us — accumulate the ids of liked replies seen on
+// the Sent screen and count the union.
+const HEARTS_KEY = '@whisper_exchange_hearts';
+
+export async function recordHearts(likedReplyIds: string[]): Promise<number> {
+  try {
+    const raw = await AsyncStorage.getItem(HEARTS_KEY);
+    const ids: string[] = raw ? JSON.parse(raw) : [];
+    const set = new Set(ids);
+    for (const id of likedReplyIds) set.add(id);
+    if (set.size !== ids.length) {
+      await AsyncStorage.setItem(HEARTS_KEY, JSON.stringify([...set]));
+    }
+    return set.size;
+  } catch {
+    return likedReplyIds.length;
+  }
 }
 
 // When the user last opened "Notes for you" — used to count unread replies for

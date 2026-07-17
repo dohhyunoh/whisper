@@ -1,4 +1,6 @@
 import { getMySentReplies, initExchange, SentReply } from '@/utils/exchange-api';
+import { recordHearts } from '@/utils/exchange-state';
+import { fadesInLabel } from '@/utils/exchange-time';
 import { Events, posthog } from '@/utils/posthog';
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -20,10 +22,15 @@ export default function SentScreen() {
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const [notes, setNotes] = useState<SentReply[]>([]);
+  const [hearts, setHearts] = useState(0);
 
   const load = useCallback(async () => {
     await initExchange();
-    setNotes(await getMySentReplies());
+    const data = await getMySentReplies();
+    setNotes(data);
+    // Fold today's hearts into the lifetime tally (notes expire daily, so the
+    // running count lives on-device).
+    setHearts(await recordHearts(data.filter((n) => n.liked).map((n) => n.id)));
   }, []);
 
   useEffect(() => {
@@ -71,6 +78,15 @@ export default function SentScreen() {
             <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor="#5A8BA8" />
           }
         >
+          {hearts > 0 && (
+            <View style={styles.heartsRow}>
+              <Ionicons name="heart" size={15} color="#E8869B" />
+              <Text style={styles.heartsText}>
+                Your words reached {hearts} {hearts === 1 ? 'person' : 'people'}
+              </Text>
+            </View>
+          )}
+
           {notes.length === 0 ? (
             <View style={styles.empty}>
               <Text style={styles.emptyTitle}>Nothing yet</Text>
@@ -80,17 +96,25 @@ export default function SentScreen() {
               </Text>
             </View>
           ) : (
-            notes.map((n) => (
-              <View key={n.id} style={styles.card}>
-                <Text style={styles.cardText}>{n.text}</Text>
-                {n.liked && (
-                  <View style={styles.likedRow}>
-                    <Ionicons name="heart" size={16} color="#E8869B" />
-                    <Text style={styles.likedText}>Someone felt this</Text>
+            notes.map((n) => {
+              const fade = fadesInLabel(n.expires_at);
+              return (
+                <View key={n.id} style={styles.card}>
+                  <Text style={styles.cardText}>{n.text}</Text>
+                  <View style={styles.cardFooter}>
+                    {n.liked ? (
+                      <View style={styles.likedRow}>
+                        <Ionicons name="heart" size={16} color="#E8869B" />
+                        <Text style={styles.likedText}>Someone felt this</Text>
+                      </View>
+                    ) : (
+                      <View />
+                    )}
+                    {fade && <Text style={styles.fadeText}>{fade}</Text>}
                   </View>
-                )}
-              </View>
-            ))
+                </View>
+              );
+            })
           )}
         </ScrollView>
       )}
@@ -133,6 +157,21 @@ const styles = StyleSheet.create({
     shadowRadius: 14,
   },
   cardText: { fontSize: 17, lineHeight: 26, color: '#4E6B7A', fontWeight: '400' },
-  likedRow: { flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 10 },
+  likedRow: { flexDirection: 'row', alignItems: 'center', gap: 6 },
   likedText: { fontSize: 13, color: '#E8869B', fontWeight: '600' },
+  cardFooter: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 10,
+  },
+  fadeText: { fontSize: 11, color: '#9AAEBA', fontWeight: '500' },
+  heartsRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 6,
+    marginBottom: 16,
+  },
+  heartsText: { fontSize: 14, color: '#7B9AAA', fontWeight: '600' },
 });

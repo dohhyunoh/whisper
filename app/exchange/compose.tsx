@@ -1,4 +1,5 @@
 import { CrisisCard } from '@/components/exchange/crisis-card';
+import { MIN_POST_CHARS } from '@/constants/exchange';
 import { useAppContext } from '@/context/app-context';
 import { exchangePrompt } from '@/data/exchange-prompts';
 import { MoodId } from '@/data/moods';
@@ -31,7 +32,7 @@ export default function ComposeScreen() {
   // Today's checked-in mood drives the prompt; fall back gently if missing.
   const mood = (state.moodHistory.find((e) => e.date === getTodayDateString())?.mood ??
     'cloudy') as MoodId;
-  const prompt = exchangePrompt(mood);
+  const prompt = exchangePrompt(mood, new Date());
 
   const [checking, setChecking] = useState(true);
   const [answer, setAnswer] = useState('');
@@ -39,17 +40,17 @@ export default function ComposeScreen() {
   const [blocked, setBlocked] = useState<string | null>(null);
   const [showCrisis, setShowCrisis] = useState(false);
 
-  // Guard: you can only reach posting by passing the gate, and only once a day.
+  // Guard: posting is once a day. (The old reply-first gate is gone — the
+  // check-in flow now leads with confession and invites a reply afterwards.)
   useEffect(() => {
     let cancelled = false;
     (async () => {
-      const { responded, posted } = await getExchangeDayState();
+      const { posted } = await getExchangeDayState();
       if (cancelled) return;
-      // Gate: only reachable after replying, and once a day. In dev we skip it
-      // so `whisper://exchange/compose` can be deep-linked to test posting in
-      // isolation, repeatedly. (`__DEV__` is false in release, so the real gate
-      // still holds in production.)
-      if (!__DEV__ && (!responded || posted)) {
+      // In dev we skip the guard so `whisper://exchange/compose` can be
+      // deep-linked to test posting in isolation, repeatedly. (`__DEV__` is
+      // false in release, so the real guard still holds in production.)
+      if (!__DEV__ && posted) {
         router.replace('/daily-deck');
         return;
       }
@@ -62,7 +63,7 @@ export default function ComposeScreen() {
 
   const handleShare = async () => {
     const text = answer.trim();
-    if (!text || sending) return;
+    if (text.length < MIN_POST_CHARS || sending) return;
     setBlocked(null);
     setSending(true);
 
@@ -83,7 +84,9 @@ export default function ComposeScreen() {
       await markPostedToday();
       posthog.capture(Events.EXCHANGE_POST_SENT, { mood });
       if (Platform.OS === 'ios') Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-      router.replace('/daily-deck');
+      // Reciprocity moment: their note is out searching for a reader — invite
+      // them to be that reader for someone else while they wait.
+      router.replace({ pathname: '/exchange/respond', params: { from: 'post' } });
       return;
     }
 
@@ -131,7 +134,7 @@ export default function ComposeScreen() {
           ]}
           keyboardShouldPersistTaps="handled"
         >
-          <Text style={styles.eyebrow}>You gave comfort. Now it&apos;s your turn.</Text>
+          <Text style={styles.eyebrow}>Somewhere, a stranger is listening.</Text>
           <Text style={styles.prompt}>{prompt}</Text>
 
           <TextInput
@@ -150,15 +153,17 @@ export default function ComposeScreen() {
             textAlignVertical="top"
           />
 
-          {answer.length > 450 && (
+          {answer.trim().length > 0 && answer.trim().length < MIN_POST_CHARS ? (
+            <Text style={styles.counter}>{answer.trim().length}/{MIN_POST_CHARS}</Text>
+          ) : answer.length > 450 ? (
             <Text style={styles.counter}>{answer.length}/500</Text>
-          )}
+          ) : null}
           {blocked && <Text style={styles.blocked}>{blocked}</Text>}
 
           <Pressable
-            style={[styles.primaryBtn, (!answer.trim() || sending) && styles.btnDisabled]}
+            style={[styles.primaryBtn, (answer.trim().length < MIN_POST_CHARS || sending) && styles.btnDisabled]}
             onPress={handleShare}
-            disabled={!answer.trim() || sending}
+            disabled={answer.trim().length < MIN_POST_CHARS || sending}
           >
             {sending ? (
               <ActivityIndicator color="#5A8BA8" />

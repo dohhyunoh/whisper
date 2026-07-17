@@ -52,6 +52,35 @@ const EMOTION_TAGS: Record<string, string[]> = {
   windy: ['emotion:anxiety', 'emotion:longing', 'emotion:fear'],
 };
 
+// Onboarding faithDetail answer → religion interest key. Shared by onboarding
+// derivation (curating) and the settings Faith picker so the two can't drift.
+export const RELIGION_INTEREST_FOR_FAITH: Record<string, string> = {
+  Christianity: 'religion:christianity',
+  Islam: 'religion:islam',
+  Hinduism: 'religion:hinduism',
+  Buddhism: 'religion:buddhism',
+  Judaism: 'religion:general-spirituality',
+  'General Spirituality': 'religion:general-spirituality',
+};
+
+// Faith gate. Every faith quote carries theme:faith and religion-specific ones
+// additionally carry theme:faith:<religion> (verified across data/quotes).
+// - No religion signal → no faith quotes at all, wildcards included.
+// - Specific religion → own religion and generic-spirituality quotes only;
+//   never another religion's.
+export function filterQuotesByFaith(quotes: Quote[], interests: string[] | undefined): Quote[] {
+  const religionInterests = (interests ?? []).filter((i) => i.startsWith('religion:'));
+  if (religionInterests.length === 0) {
+    return quotes.filter((q) => !(q.tags ?? []).includes('theme:faith'));
+  }
+  const allowed = tagsForInterests(religionInterests);
+  return quotes.filter((q) => {
+    const specific = (q.tags ?? []).filter((t) => t.startsWith('theme:faith:'));
+    if (specific.length === 0) return true;
+    return specific.some((t) => allowed.has(t));
+  });
+}
+
 export function tagsForInterests(interests: string[] | undefined): Set<string> {
   const tags = new Set<string>();
   for (const interest of interests ?? []) {

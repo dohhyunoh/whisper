@@ -843,18 +843,6 @@
     ]
   },
   {
-    "id": "rel-partner-126",
-    "text": "It would be a privilege to have my heart broken by you.",
-    "author": "The Fault in Our Stars",
-    "source": "The Fault in Our Stars",
-    "tone": "playful",
-    "tags": [
-      "theme:romantic-love",
-      "emotion:longing",
-      "tone:playful"
-    ]
-  },
-  {
     "id": "rel-partner-127",
     "text": "I'm also just a girl, standing in front of a boy, asking him to love her.",
     "author": "Notting Hill",
@@ -1087,18 +1075,6 @@
       "theme:growth",
       "need:perspective",
       "tone:gentle"
-    ]
-  },
-  {
-    "id": "rel-partner-150",
-    "text": "A University degree, four books, and hundreds of articles and I still make mistakes when reading. You wrote me 'good morning' and I read it as 'I love you'.",
-    "author": "Mahmoud Darwish",
-    "tone": "gentle",
-    "tags": [
-      "theme:romantic-love",
-      "emotion:longing",
-      "tone:poetic",
-      "tone:playful"
     ]
   },
   {

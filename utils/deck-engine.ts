@@ -1,5 +1,5 @@
 import { Quote } from '@/data/types';
-import { interestTagOverlap, moodMatchesQuote, tagsForInterests } from './interest-tags';
+import { filterQuotesByFaith, interestTagOverlap, moodMatchesQuote, tagsForInterests } from './interest-tags';
 import { getJSON, setJSON } from './mmkv';
 import { getSeenIds, getWeights, markSeen, SwipeDir } from './tag-weights';
 
@@ -79,7 +79,9 @@ export function buildDailyDeck(input: BuildDeckInput): string[] {
   const hasHistory = Object.keys(weights).length > 0;
   const interestTags = tagsForInterests(input.interests);
 
-  const pool = input.allQuotes.filter(
+  // Faith gate applies to the whole pool, so personalized picks, cold-start
+  // decks, and exploration wildcards all respect it.
+  const pool = filterQuotesByFaith(input.allQuotes, input.interests).filter(
     (q) => !seen.has(q.id) && !liked.has(q.id),
   );
 
@@ -145,13 +147,17 @@ export function buildDailyDeck(input: BuildDeckInput): string[] {
 
   const ids = picks.map((q) => q.id);
   if (hasHistory) {
-    // picks = 8 personalized (best first) + 2 wildcards. Strongest hit lands
-    // mid-deck at slot 4; wildcards spread to slots 2 and 7.
+    // picks = 8 personalized (best first) + 2 wildcards. Open with the
+    // strongest cards: sessions are decided at cards 1-3 (28% of sessions end
+    // there; past card 3 most users finish all 10), so the decision window
+    // gets the ranker's best. Wildcards wait until slots 6 and 9, after the
+    // user is invested — skip data showed wildcards at slots 3/8 drew the
+    // deck's highest skip rates.
     const [p0, p1, p2, p3, p4, p5, p6, p7, e0, e1] = ids;
-    return [p1, p2, e0, p3, p0, p4, p5, e1, p6, p7];
+    return [p0, p1, p2, p3, p4, e0, p5, p6, e1, p7];
   }
-  // Cold start: strongest hit at slot 4.
-  [ids[0], ids[4]] = [ids[4], ids[0]];
+  // Cold start: already strongest-first; the first deck is the moment that
+  // confirms the purchase, so no reshuffling.
   return ids;
 }
 

@@ -57,17 +57,6 @@
     ]
   },
   {
-    "id": "mood-philo-010",
-    "text": "We suffer more often in imagination than in reality.",
-    "author": "Seneca",
-    "tone": "playful",
-    "tags": [
-      "emotion:anxiety",
-      "need:perspective",
-      "tone:gentle"
-    ]
-  },
-  {
     "id": "mood-philo-011",
     "text": "Luck is what happens when preparation meets opportunity.",
     "author": "Seneca",
@@ -134,17 +123,6 @@
       "need:motivation",
       "tone:direct",
       "tone:fierce"
-    ]
-  },
-  {
-    "id": "mood-philo-017",
-    "text": "Live to the point of tears.",
-    "author": "Albert Camus",
-    "tone": "playful",
-    "tags": [
-      "theme:purpose",
-      "need:motivation",
-      "tone:direct"
     ]
   },
   {

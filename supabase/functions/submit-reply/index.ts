@@ -24,7 +24,8 @@ Deno.serve(async (req) => {
     return json({ status: 'error' }, 400);
   }
   const { post_id, text } = payload ?? {};
-  if (typeof text !== 'string' || !text.trim() || typeof post_id !== 'string') {
+  // Length floor mirrors constants/exchange.ts (MIN_REPLY_CHARS).
+  if (typeof text !== 'string' || text.trim().length < 50 || typeof post_id !== 'string') {
     return json({ status: 'error' }, 400);
   }
 
@@ -55,6 +56,15 @@ Deno.serve(async (req) => {
     .eq('user_id', userId)
     .maybeSingle();
   if (banned) return json({ status: 'blocked' });
+
+  // Daily ceiling — mirrors constants/exchange.ts (MAX_REPLIES_PER_DAY). Keeps
+  // one person from flooding the pool while the client shows "N of 5 today".
+  const { count: recentReplies } = await admin
+    .from('replies')
+    .select('id', { count: 'exact', head: true })
+    .eq('author_id', userId)
+    .gte('created_at', new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString());
+  if ((recentReplies ?? 0) >= 5) return json({ status: 'error' }, 429);
 
   let mod;
   try {

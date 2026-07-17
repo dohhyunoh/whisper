@@ -1,7 +1,7 @@
 import { useAppContext } from '@/context/app-context';
 import { refreshQuoteNotifications } from '@/utils/notifications';
 import { hasPremiumAccess } from '@/utils/premium-check';
-import { hasSeenExchangeAnnouncement, hasSeenV2Migration } from '@/utils/migration';
+import { hasSeenExchangeAnnouncement, hasSeenV2Migration, isOnboardingPaywallPending } from '@/utils/migration';
 import { getTodayDateString } from '@/utils/streak';
 import { Redirect } from 'expo-router';
 import { useEffect, useRef } from 'react';
@@ -43,6 +43,12 @@ export default function Index() {
   // user who hasn't subscribed. Each screen leads to the paywall (with a chevron
   // back to it), so the purchase flow is dismissible per App Store guidelines.
   if (!hasPremiumAccess(state.premium.status, state.premium.trialEndsAt)) {
+    // A brand-new user who quit at the onboarding paywall isn't a lapsed
+    // subscriber — resume their onboarding paywall (personalized layout,
+    // widget-promo completion path) instead of the gate.
+    if (isOnboardingPaywallPending()) {
+      return <Redirect href={{ pathname: '/onboarding/paywall', params: { from: 'onboarding' } }} />;
+    }
     return state.premium.trialEndsAt != null
       ? <Redirect href="/gift-ended" />
       : <Redirect href="/subscription-required" />;

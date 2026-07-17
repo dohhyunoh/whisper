@@ -1,6 +1,7 @@
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useAppContext } from '@/context/app-context';
 import { defaultUserData } from '@/data/types';
+import { RELIGION_INTEREST_FOR_FAITH } from '@/utils/interest-tags';
 import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import React, { useEffect, useState } from 'react';
@@ -8,8 +9,9 @@ import { KeyboardAvoidingView, Linking, Modal, Platform, Pressable, ScrollView, 
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const GENDER_OPTIONS = ['Female', 'Male', 'Other', 'Prefer not to say'];
+const FAITH_OPTIONS = ['Christianity', 'Islam', 'Hinduism', 'Buddhism', 'Judaism', 'General Spirituality', 'No religion'];
 
-type PickerKind = 'name' | 'gender' | null;
+type PickerKind = 'name' | 'gender' | 'faith' | null;
 
 export default function SettingsScreen() {
   const insets = useSafeAreaInsets();
@@ -40,6 +42,15 @@ export default function SettingsScreen() {
   const handleSelect = (value: string) => {
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     if (picker === 'gender') setUserField({ gender: value });
+    if (picker === 'faith') {
+      // Rewrite the religion-derived interest so the deck's faith gate follows
+      // the new answer; all other interests stay untouched. "No religion" maps
+      // to nothing, which gates every faith quote.
+      const religionInterest = RELIGION_INTEREST_FOR_FAITH[value];
+      const interests = (state.user?.interests ?? []).filter((i) => !i.startsWith('religion:'));
+      if (religionInterest) interests.push(religionInterest);
+      setUserField({ faithDetail: value, interests });
+    }
     setPicker(null);
   };
 
@@ -49,8 +60,17 @@ export default function SettingsScreen() {
     setPicker(null);
   };
 
+  // Non-religious onboarding answers (Mindfulness, Stoicism, …) aren't in the
+  // picker's options: for the Faith setting they present as "No religion" —
+  // which matches how the quote gate already treats them (no religion:*
+  // interest → no faith quotes).
+  const faithDisplay = user.faithDetail
+    ? (FAITH_OPTIONS.includes(user.faithDetail) ? user.faithDetail : 'No religion')
+    : '';
+
   const optionPickers: Record<Exclude<PickerKind, 'name' | null>, { title: string; options: string[]; current: string }> = {
     gender: { title: 'I identify as...', options: GENDER_OPTIONS, current: user.gender },
+    faith: { title: 'Words from...', options: FAITH_OPTIONS, current: faithDisplay },
   };
   const activeOptions = picker && picker !== 'name' ? optionPickers[picker] : null;
 
@@ -84,6 +104,7 @@ export default function SettingsScreen() {
         <Text style={styles.sectionLabel}>About you</Text>
         {renderRow('pencil', 'Name', user.name, () => openPicker('name'))}
         {renderRow('person.fill', 'Gender', user.gender, () => openPicker('gender'))}
+        {renderRow('moon.stars.fill', 'Faith', faithDisplay, () => openPicker('faith'))}
 
         <Text style={[styles.sectionLabel, styles.sectionLabelSpaced]}>Library</Text>
         {renderRow('heart.fill', 'Favorites', 'Quotes you saved', () => {

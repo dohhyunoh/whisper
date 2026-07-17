@@ -30,6 +30,10 @@ export interface ReceivedReply {
   post_text: string;
   post_mood: MoodId;
   liked: boolean;
+  // Effective lifetime (earlier of reply/post expiry) and the post's own —
+  // both from migration 0013; undefined until that migration is applied.
+  expires_at?: string;
+  post_expires_at?: string;
 }
 
 export interface SentReply {
@@ -37,6 +41,7 @@ export interface SentReply {
   text: string;
   created_at: string;
   liked: boolean;
+  expires_at?: string;
 }
 
 export type ReportTargetKind = 'post' | 'reply';

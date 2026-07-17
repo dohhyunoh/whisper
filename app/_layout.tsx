@@ -110,6 +110,10 @@ export default function RootLayout() {
               options={{ headerShown: false, gestureEnabled: false, animation: 'fade' }}
             />
             <Stack.Screen
+              name="exchange/post-preview"
+              options={{ headerShown: false, gestureEnabled: false, animation: 'fade' }}
+            />
+            <Stack.Screen
               name="exchange/compose"
               options={{ headerShown: false, gestureEnabled: false, animation: 'fade' }}
             />

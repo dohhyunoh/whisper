@@ -20,10 +20,11 @@ export default function ExchangeAnnouncementScreen() {
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     markExchangeAnnouncementSeen();
     // If they've already checked in today, there's no check-in left — take them
-    // straight into the exchange so the announcement delivers the feature now.
-    // Otherwise re-enter the launch gate → today's check-in → respond.
+    // straight into the exchange so the announcement delivers the feature now
+    // (post-first: compose leads, and it has today's mood to build on).
+    // Otherwise re-enter the launch gate → today's check-in → compose.
     const checkedInToday = state.moodHistory.some((e) => e.date === getTodayDateString());
-    router.replace(checkedInToday ? '/exchange/respond' : '/');
+    router.replace(checkedInToday ? '/exchange/compose' : '/');
   };
 
   return (

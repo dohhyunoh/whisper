@@ -7,6 +7,8 @@ import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 import { moderate } from '../_shared/moderation.ts';
 
 const MOODS = ['clear', 'cloudy', 'stormy', 'windy'];
+// Server-side floor for low-effort content; mirrors constants/exchange.ts.
+const MIN_POST_CHARS = 30;
 
 function json(body: unknown, status = 200): Response {
   return new Response(JSON.stringify(body), {
@@ -26,7 +28,7 @@ Deno.serve(async (req) => {
     return json({ status: 'error' }, 400);
   }
   const { mood, text, gender, tags } = payload ?? {};
-  if (typeof text !== 'string' || !text.trim() || !MOODS.includes(mood)) {
+  if (typeof text !== 'string' || text.trim().length < MIN_POST_CHARS || !MOODS.includes(mood)) {
     return json({ status: 'error' }, 400);
   }
 

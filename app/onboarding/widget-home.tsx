@@ -39,11 +39,13 @@ export default function WidgetHomeScreen() {
     // exchange announcement screens (they met the feature during onboarding).
     markV2MigrationSeen();
     markExchangeAnnouncementSeen();
-    // Onboarding already counted as today's check-in, so premium users would
-    // otherwise skip straight past the exchange. Drop them into it on day one
-    // (they can Skip → deck). Non-premium re-enter the gate → subscription wall.
+    // Onboarding already recorded today's check-in (above), so routing through
+    // index would skip straight to the deck — the day-one exchange never shows.
+    // Drop premium users directly into the post-first ritual: compose (using the
+    // onboarding mood) → respond → deck. They can exit to the deck from compose.
+    // Non-premium re-enter the launch gate → subscription wall.
     const isPremium = hasPremiumAccess(state.premium.status, state.premium.trialEndsAt);
-    router.replace(isPremium ? '/exchange/respond' : '/');
+    router.replace(isPremium ? '/exchange/compose' : '/');
   };
 
   return (

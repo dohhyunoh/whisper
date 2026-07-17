@@ -2,8 +2,8 @@ import { SwipeDemo } from '@/components/swipe-demo';
 import { useAppContext } from '@/context/app-context';
 import quotesData from '@/data/quotes';
 import { Quote } from '@/data/types';
-import { setFirstQuote } from '@/utils/first-quote';
-import { interestTagOverlap, tagsForInterests } from '@/utils/interest-tags';
+import { getFirstQuote, setFirstQuote } from '@/utils/first-quote';
+import { filterQuotesByFaith, interestTagOverlap, tagsForInterests } from '@/utils/interest-tags';
 import { Events, posthog } from '@/utils/posthog';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
@@ -43,7 +43,10 @@ export default function HowItWorksScreen() {
   const interests = state.user?.interests ?? [];
 
   const demoQuotes = useMemo(() => {
-    const short = allQuotes.filter((q) => q.text.length <= 90);
+    // Faith gate applies to the demo deck too — a user who chose no religion
+    // must not meet scripture here (or on the paywall, which reuses quote #1).
+    const gated = filterQuotesByFaith(allQuotes, interests);
+    const short = gated.filter((q) => q.text.length <= 90);
     const interestTags = tagsForInterests(interests);
     const matched = interestTags.size > 0
       ? short.filter((q) => interestTagOverlap(q, interestTags) > 0)
@@ -59,7 +62,10 @@ export default function HowItWorksScreen() {
 
   useEffect(() => {
     posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'how_it_works' });
-    if (demoQuotes[0]) {
+    // Fallback only: sneak-peek already stored the deliberately-scored first
+    // quote — don't clobber it with a random demo card (the paywall's deck
+    // preview and the notification preview both reuse it).
+    if (demoQuotes[0] && !getFirstQuote()) {
       setFirstQuote(`"${demoQuotes[0].text}" — ${demoQuotes[0].author}`);
     }
   }, []);
@@ -205,7 +211,7 @@ function captionFor(scene: Scene): string {
     case 'learns': return 'The app learns from every swipe';
     case 'skip': return "Swipe left if it doesn't speak to you";
     case 'like': return 'Swipe right if it speaks to you';
-    case 'exchange': return 'also you can write to a stranger — and one writes back to you';
+    case 'exchange': return 'also you can write to a stranger and one writes back to you';
   }
 }
 

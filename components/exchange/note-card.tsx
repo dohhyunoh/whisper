@@ -10,12 +10,15 @@ import { Alert, Platform, Pressable, StyleSheet, Text, View } from 'react-native
 export function NoteCard({
   text,
   initialLiked = false,
+  fadeLabel,
   onReport,
   onBlock,
   onLike,
 }: {
   text: string;
   initialLiked?: boolean;
+  // e.g. "fades in 5h" — the note's remaining life, shown small and muted.
+  fadeLabel?: string | null;
   onReport: () => void;
   onBlock: () => void;
   onLike: () => void;
@@ -56,6 +59,7 @@ export function NoteCard({
           />
           {liked && <Text style={styles.likedText}>Thanked</Text>}
         </Pressable>
+        {fadeLabel ? <Text style={styles.fadeText}>{fadeLabel}</Text> : null}
         <Pressable hitSlop={10} onPress={openActions} style={styles.reportBtn}>
           <Text style={styles.reportText}>Report / Block</Text>
         </Pressable>
@@ -89,4 +93,5 @@ const styles = StyleSheet.create({
   likedText: { fontSize: 12, color: '#E8869B', fontWeight: '600' },
   reportBtn: { paddingVertical: 4, paddingHorizontal: 6 },
   reportText: { fontSize: 12, color: '#B0BFC8', fontWeight: '500' },
+  fadeText: { fontSize: 11, color: '#9AAEBA', fontWeight: '500' },
 });

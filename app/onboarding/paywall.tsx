@@ -1,25 +1,43 @@
 import { REVENUECAT_ENTITLEMENT_ID } from '@/constants/premium';
 import { useAppContext } from '@/context/app-context';
-import { requestPermissions, scheduleTrialReminder } from '@/utils/notifications';
-import { Events, posthog } from '@/utils/posthog';
 import { logSubscribeEvent } from '@/utils/appsflyer';
-import { checkTrialEligibility, restorePurchases } from '@/utils/revenuecat';
-import { markExchangeAnnouncementSeen, markV2MigrationSeen } from '@/utils/migration';
+import { isOnboardingPaywallPending, markExchangeAnnouncementSeen, markV2MigrationSeen, setOnboardingPaywallPending } from '@/utils/migration';
+import { requestPermissions, scheduleTrialReminder } from '@/utils/notifications';
+import { prefetchPaywallData } from '@/utils/paywall-prefetch';
+import { Events, posthog } from '@/utils/posthog';
+import { restorePurchases } from '@/utils/revenuecat';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Alert, Animated, Image, Linking, Pressable, StyleSheet, Switch, Text, View, useWindowDimensions } from 'react-native';
+import { ActivityIndicator, Alert, Animated, Image, Linking, Pressable, ScrollView, StyleSheet, Switch, Text, View, useWindowDimensions } from 'react-native';
 import Purchases, { PurchasesPackage } from 'react-native-purchases';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-const FEATURES = [
-  '10 daily quotes tuned to you',
-  'Learns deeper with every swipe',
-  'Save favorites and add your own',
-  'Premium themes, fonts, and widgets',
-];
+// Onboarding answers the paywall personalizes around. Assembled in the main
+// component; null means "render the generic paywall" (gate mode, cold re-entry).
+interface PersonalData {
+  name: string;
+  root: string;
+}
+
+// Outcome-framed benefits, ordered by what the user said helps them most:
+// people who chose "Feeling understood" see the letter exchange first.
+interface FeatureItem {
+  icon: keyof typeof Ionicons.glyphMap;
+  text: string;
+}
+
+function getFeatures(whatHelps?: string): FeatureItem[] {
+  const ritual: FeatureItem = { icon: 'albums-outline', text: '10 quotes, chosen for what you carry' };
+  const letters: FeatureItem = { icon: 'mail-outline', text: 'Exchange anonymous letters with someone who understands' };
+  const learns: FeatureItem = { icon: 'sparkles-outline', text: 'Learns you deeper with every swipe' };
+  const keep: FeatureItem = { icon: 'bookmark-outline', text: 'Save what lands, add your own words' };
+  return whatHelps === 'Understanding'
+    ? [letters, ritual, learns, keep]
+    : [ritual, letters, learns, keep];
+}
 
 function getTrialTimelineSteps() {
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -51,7 +69,7 @@ function getTrialTimelineSteps() {
 export default function PaywallScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const { dispatch } = useAppContext();
+  const { state, dispatch } = useAppContext();
   const { from } = useLocalSearchParams<{ from?: string }>();
   const { width, height } = useWindowDimensions();
   const s = Math.max(0.85, Math.min(1, Math.min(width / 390, height / 844)));
@@ -70,10 +88,17 @@ export default function PaywallScreen() {
 
   useEffect(() => {
     async function init() {
-      const [, eligible] = await Promise.all([
-        fetchOfferings(),
-        checkTrialEligibility(),
-      ]);
+      const { offerings, trialEligible: eligible } = await prefetchPaywallData();
+      const offering = offerings?.all['v2_pricing'] ?? offerings?.current;
+      if (offering) {
+        const annual = offering.availablePackages.find(
+          (p) => p.packageType === 'ANNUAL',
+        );
+        const monthly = offering.availablePackages.find(
+          (p) => p.packageType === 'MONTHLY',
+        );
+        setPackages({ annual, monthly });
+      }
       setTrialEligible(eligible);
       if (eligible) {
         posthog.capture(Events.PAYWALL_TRIAL_VIEWED);
@@ -82,70 +107,39 @@ export default function PaywallScreen() {
       }
     }
 
-    async function fetchOfferings() {
-      try {
-        const offerings = await Purchases.getOfferings();
-        // Explicitly fetch the v2 offering ($6.99 monthly / $39.99 yearly) instead
-        // of offerings.current. This guarantees users always see v2 pricing
-        // regardless of which offering is marked "Current" in the RC dashboard,
-        // and keeps in-app marketing copy consistent with what Apple's reviewer sees.
-        const offering = offerings.all['v2_pricing'] ?? offerings.current;
-        if (offering) {
-          const annual = offering.availablePackages.find(
-            (p) => p.packageType === 'ANNUAL',
-          );
-          const monthly = offering.availablePackages.find(
-            (p) => p.packageType === 'MONTHLY',
-          );
-          setPackages({ annual, monthly });
-        }
-      } catch (error) {
-        console.log('Error fetching offerings:', error);
-      }
-    }
-
     init();
   }, []);
 
-  const { state } = useAppContext();
-  // Hard paywall gate (premium-only enforcement).
   const gated = from === 'gate';
-  // Onboarding membership comes from the explicit param; the onboardingComplete
-  // inference (captured at mount, before the effect below flips it) only covers
-  // legacy callers. Inference alone breaks on re-entry: back-chevron + continue
-  // remounts this screen after onboardingComplete is already true, which made
-  // post-purchase routing bounce back to the trial-reminder screen.
   const [cameFromOnboarding] = useState(
     () => from === 'onboarding' || (!state.onboardingComplete && !gated),
   );
+  const [onboardingPending] = useState(() => isOnboardingPaywallPending());
+  const treatAsOnboarding = cameFromOnboarding || onboardingPending;
 
-  // New users reach this screen only after finishing the questionnaire. Mark
-  // onboarding complete on arrival so quitting here returns them straight to the
-  // paywall (via the index.tsx gate) instead of replaying the whole flow. Mark
-  // the v2 migration seen too, so index never routes them into the freemium gift.
   useEffect(() => {
     if (cameFromOnboarding) {
       dispatch({ type: 'COMPLETE_ONBOARDING' });
       markV2MigrationSeen();
       markExchangeAnnouncementSeen();
+      setOnboardingPaywallPending(true);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleComplete = (purchased: boolean) => {
+    setOnboardingPaywallPending(false);
     if (purchased) {
       dispatch({ type: 'SET_PREMIUM_STATUS', payload: 'premium_purchased' });
+    }
+    if (treatAsOnboarding) {
+      posthog.capture(Events.ONBOARDING_COMPLETED, { method: purchased ? 'purchased' : 'free' });
+      router.replace('/onboarding/widget-promo');
+      return;
     }
     if (from === 'freemium-migration' || gated) {
       router.replace('/daily-deck');
       return;
     }
-    if (cameFromOnboarding) {
-      posthog.capture(Events.ONBOARDING_COMPLETED, { method: purchased ? 'purchased' : 'free' });
-      router.replace('/onboarding/widget-promo');
-      return;
-    }
-    // Post-onboarding contextual call (theme picker, etc.): return to caller.
     if (router.canGoBack()) {
       router.back();
     } else {
@@ -198,12 +192,18 @@ export default function PaywallScreen() {
     ? `$${(Math.floor((packages.annual.product.price / 12) * 100) / 100).toFixed(2)}`
     : '$3.33';
 
+  const [personal] = useState<PersonalData | null>(() => {
+    if (!treatAsOnboarding) return null;
+    return {
+      name: state.user?.name?.trim().split(' ')[0] ?? '',
+      root: state.user?.emotionRoot?.split(', ')[0]?.toLowerCase() ?? '',
+    };
+  });
+  const features = getFeatures(state.user?.whatHelps);
+
   const handleClose = () => {
     if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     posthog.capture(Events.PAYWALL_SKIPPED);
-    // Back button: return to whichever screen pushed the paywall. In gate mode
-    // that's the context lock screen (gift-ended / subscription-required), so the
-    // purchase flow stays dismissible without ever exposing the deck.
     if (from === 'gate') {
       if (router.canGoBack()) router.back();
       else router.replace('/subscription-required');
@@ -242,6 +242,8 @@ export default function PaywallScreen() {
         onPurchase={handlePurchase}
         onRestore={handleRestore}
         onClose={handleClose}
+        personal={personal}
+        features={features}
       />
     );
   }
@@ -259,6 +261,8 @@ export default function PaywallScreen() {
       onPurchase={handlePurchase}
       onRestore={handleRestore}
       onClose={handleClose}
+      personal={personal}
+      features={features}
     />
   );
 }
@@ -277,6 +281,13 @@ interface PaywallProps {
   onPurchase: () => void;
   onRestore: () => void;
   onClose?: () => void;
+  personal: PersonalData | null;
+  features: FeatureItem[];
+}
+
+function paywallTitle(personal: PersonalData | null): string {
+  if (!personal) return 'Get Whisper Pro';
+  return personal.name ? `${personal.name}, your first 10 are ready` : 'Your first 10 are ready';
 }
 
 // ─── Footer ─────────────────────────────────────────────────────────────────
@@ -305,8 +316,9 @@ function RestoreLink({ s, onRestore, style }: { s: number; onRestore: () => void
   );
 }
 
+// ─── Back Button ────────────────────────────────────────────────────────────
+
 function BackButton({ s, onClose, style }: { s: number; onClose?: () => void; style?: any }) {
-  // Gate mode passes no handler — render a spacer to preserve the top-bar layout.
   if (!onClose) {
     return <View style={[style, { width: 32 * s, height: 32 * s }]} />;
   }
@@ -324,7 +336,7 @@ function BackButton({ s, onClose, style }: { s: number; onClose?: () => void; st
 function RegularPaywall({
   s, insets, selectedPlan, setSelectedPlan,
   annualPrice, monthlyPrice, annualMonthlyEquiv, loading,
-  onPurchase, onRestore, onClose,
+  onPurchase, onRestore, onClose, personal, features,
 }: PaywallProps) {
   return (
     <LinearGradient
@@ -332,15 +344,15 @@ function RegularPaywall({
       locations={[0, 0.3, 0.7, 1]}
       style={styles.container}
     >
-      <View
-        style={[
-          styles.content,
-          {
-            paddingTop: insets.top + 8,
-            paddingBottom: insets.bottom + 16 * s,
-            paddingHorizontal: 28 * s,
-          },
-        ]}
+      <ScrollView
+        style={styles.content}
+        contentContainerStyle={{
+          flexGrow: 1,
+          paddingTop: insets.top + 8,
+          paddingBottom: insets.bottom + 16 * s,
+          paddingHorizontal: 28 * s,
+        }}
+        showsVerticalScrollIndicator={false}
       >
         <View style={styles.topBar}>
           <BackButton s={s} onClose={onClose} />
@@ -348,33 +360,50 @@ function RegularPaywall({
         </View>
 
         <View style={styles.middle}>
-          <Text style={[styles.title, { fontSize: 28 * s, marginBottom: 20 * s }]}>
-            Get Whisper Pro
+          <Text style={[styles.title, { fontSize: personal ? 24 * s : 28 * s, marginBottom: personal ? 6 * s : 20 * s }]}>
+            {paywallTitle(personal)}
           </Text>
 
-          <View
-            style={[
-              styles.mascotContainer,
-              {
-                width: 100 * s,
-                height: 100 * s,
-                borderRadius: 50 * s,
-                marginBottom: 16 * s,
-              },
-            ]}
-          >
-            <Image source={require('@/assets/images/mascot.png')} style={{ width: 80 * s, height: 80 * s }} resizeMode="contain" />
-          </View>
+          {personal ? (
+            <Text style={[styles.personalLine, { fontSize: 15 * s, marginBottom: 48 * s }]}>
+              chosen for {personal.root || 'you'}
+            </Text>
+          ) : (
+            <>
+              <View
+                style={[
+                  styles.mascotContainer,
+                  {
+                    width: 100 * s,
+                    height: 100 * s,
+                    borderRadius: 50 * s,
+                    marginBottom: 16 * s,
+                  },
+                ]}
+              >
+                <Image source={require('@/assets/images/mascot.png')} style={{ width: 80 * s, height: 80 * s }} resizeMode="contain" />
+              </View>
 
-          <Text style={[styles.subtitle, { fontSize: 22 * s, marginBottom: 20 * s }]}>
-            Unlock Your Peace
-          </Text>
+              <Text style={[styles.subtitle, { fontSize: 22 * s, marginBottom: 48 * s }]}>
+                Unlock Your Peace
+              </Text>
+            </>
+          )}
 
-          <View style={[styles.features, { gap: 12 * s }]}>
-            {FEATURES.map((feature) => (
-              <View key={feature} style={[styles.featureRow, { gap: 10 * s }]}>
-                <Ionicons name="checkmark-circle" size={20 * s} color="#3A6B80" />
-                <Text style={[styles.featureText, { fontSize: 15 * s }]}>{feature}</Text>
+          <View style={[styles.featureCard, { borderRadius: 18 * s, paddingVertical: 4 * s }]}>
+            {features.map((feature, i) => (
+              <View
+                key={feature.text}
+                style={[
+                  styles.featureRow,
+                  { gap: 14 * s, paddingVertical: 13 * s, paddingHorizontal: 16 * s },
+                  i > 0 && styles.featureRowDivider,
+                ]}
+              >
+                <View style={[styles.featureIconCircle, { width: 34 * s, height: 34 * s, borderRadius: 17 * s }]}>
+                  <Ionicons name={feature.icon} size={17 * s} color="#3A6B80" />
+                </View>
+                <Text style={[styles.featureText, { fontSize: 15 * s, flex: 1 }]}>{feature.text}</Text>
               </View>
             ))}
           </View>
@@ -390,20 +419,10 @@ function RegularPaywall({
               ]}
               onPress={() => setSelectedPlan('annual')}
             >
-              <Text
-                style={[
-                  styles.planLabel, { fontSize: 15 * s },
-                  selectedPlan === 'annual' && styles.planLabelSelected,
-                ]}
-              >
+              <Text style={[styles.planLabel, { fontSize: 15 * s }, selectedPlan === 'annual' && styles.planLabelSelected]}>
                 Yearly
               </Text>
-              <Text
-                style={[
-                  styles.planPrice, { fontSize: 17 * s },
-                  selectedPlan === 'annual' && styles.planPriceSelected,
-                ]}
-              >
+              <Text style={[styles.planPrice, { fontSize: 17 * s }, selectedPlan === 'annual' && styles.planPriceSelected]}>
                 {annualPrice}/year
               </Text>
             </Pressable>
@@ -416,20 +435,10 @@ function RegularPaywall({
               ]}
               onPress={() => setSelectedPlan('monthly')}
             >
-              <Text
-                style={[
-                  styles.planLabel, { fontSize: 15 * s },
-                  selectedPlan === 'monthly' && styles.planLabelSelected,
-                ]}
-              >
+              <Text style={[styles.planLabel, { fontSize: 15 * s }, selectedPlan === 'monthly' && styles.planLabelSelected]}>
                 Monthly
               </Text>
-              <Text
-                style={[
-                  styles.planPrice, { fontSize: 17 * s },
-                  selectedPlan === 'monthly' && styles.planPriceSelected,
-                ]}
-              >
+              <Text style={[styles.planPrice, { fontSize: 17 * s }, selectedPlan === 'monthly' && styles.planPriceSelected]}>
                 {monthlyPrice}/month
               </Text>
             </Pressable>
@@ -454,13 +463,13 @@ function RegularPaywall({
 
           <Text style={[styles.billingText, { fontSize: 12 * s }]}>
             {selectedPlan === 'annual'
-              ? `${annualMonthlyEquiv}/month, billed yearly as ${annualPrice}/year`
-              : `${monthlyPrice}/month, billed monthly`}
+              ? `${annualMonthlyEquiv}/month, billed yearly as ${annualPrice}/year. Cancel anytime.`
+              : `${monthlyPrice}/month, billed monthly. Cancel anytime.`}
           </Text>
 
           <Footer s={s} />
         </View>
-      </View>
+      </ScrollView>
     </LinearGradient>
   );
 }
@@ -470,9 +479,10 @@ function RegularPaywall({
 function TrialPaywall({
   s, insets, selectedPlan, setSelectedPlan,
   annualPrice, monthlyPrice, annualMonthlyEquiv, loading,
-  onPurchase, onRestore, onClose,
+  onPurchase, onRestore, onClose, personal,
 }: PaywallProps) {
   const timelineSteps = getTrialTimelineSteps();
+  const billingDateLabel = timelineSteps[2].title.split(' - ')[0];
   const fadeAnims = useRef(timelineSteps.map(() => new Animated.Value(0))).current;
   const [reminderEnabled, setReminderEnabled] = useState(false);
 
@@ -511,45 +521,49 @@ function TrialPaywall({
       locations={[0, 0.3, 0.7, 1]}
       style={styles.container}
     >
-      <View
-        style={[
-          styles.content,
-          {
-            paddingTop: insets.top + 8,
-            paddingBottom: insets.bottom + 16 * s,
-            paddingHorizontal: 28 * s,
-          },
-        ]}
+      <ScrollView
+        style={styles.content}
+        contentContainerStyle={{
+          flexGrow: 1,
+          paddingTop: insets.top + 8,
+          paddingBottom: insets.bottom + 16 * s,
+          paddingHorizontal: 28 * s,
+        }}
+        showsVerticalScrollIndicator={false}
       >
-        {/* Top bar: Restore (left) + Close (right) */}
         <View style={styles.topBar}>
           <BackButton s={s} onClose={onClose} />
           <RestoreLink s={s} onRestore={onRestore} />
         </View>
 
-        {/* Middle */}
         <View style={styles.middle}>
-          <Text style={[styles.title, { fontSize: 26 * s, marginBottom: 6 * s }]}>
-            Get Whisper Pro
+          <Text style={[styles.title, { fontSize: personal ? 23 * s : 26 * s, marginBottom: 6 * s }]}>
+            {paywallTitle(personal)}
           </Text>
-          <Text style={[styles.trialSubheading, { fontSize: 15 * s, marginBottom: 20 * s }]}>
-            Includes a 7-day free trial
-          </Text>
-
-          {/* Mascot */}
-          <View
-            style={[
-              styles.mascotContainer,
-              {
-                width: 100 * s,
-                height: 100 * s,
-                borderRadius: 50 * s,
-                marginBottom: 20 * s,
-              },
-            ]}
-          >
-            <Image source={require('@/assets/images/mascot.png')} style={{ width: 80 * s, height: 80 * s }} resizeMode="contain" />
-          </View>
+          {personal ? (
+            <Text style={[styles.personalLine, { fontSize: 15 * s, marginBottom: 48 * s }]}>
+              chosen for {personal.root || 'you'}
+            </Text>
+          ) : (
+            <>
+              <Text style={[styles.trialSubheading, { fontSize: 15 * s, marginBottom: 20 * s }]}>
+                Includes a 7-day free trial
+              </Text>
+              <View
+                style={[
+                  styles.mascotContainer,
+                  {
+                    width: 100 * s,
+                    height: 100 * s,
+                    borderRadius: 50 * s,
+                    marginBottom: 48 * s,
+                  },
+                ]}
+              >
+                <Image source={require('@/assets/images/mascot.png')} style={{ width: 80 * s, height: 80 * s }} resizeMode="contain" />
+              </View>
+            </>
+          )}
 
           {/* Timeline - simple dots */}
           <View style={[styles.trialSimpleTimeline, { gap: 4 * s }]}>
@@ -579,9 +593,7 @@ function TrialPaywall({
           </View>
         </View>
 
-        {/* Bottom */}
         <View style={[styles.bottom, { gap: 12 * s }]}>
-          {/* Plan cards - price is most prominent */}
           <View style={[styles.plans, { gap: 12 * s }]}>
             <Pressable
               style={[
@@ -622,7 +634,6 @@ function TrialPaywall({
             </Pressable>
           </View>
 
-          {/* Reminder toggle */}
           <View style={[styles.reminderRow, { paddingVertical: 14 * s, paddingHorizontal: 18 * s, borderRadius: 14 * s }]}>
             <Text style={[styles.reminderText, { fontSize: 14 * s }]}>Reminder before trial ends</Text>
             <Switch
@@ -634,7 +645,6 @@ function TrialPaywall({
             />
           </View>
 
-          {/* CTA */}
           <Pressable
             style={({ pressed }) => [
               styles.continueButton,
@@ -653,16 +663,15 @@ function TrialPaywall({
             </Text>
           </Pressable>
 
-          {/* Billing info */}
           <Text style={[styles.billingText, { fontSize: 12 * s }]}>
             {selectedPlan === 'annual'
-              ? `${annualMonthlyEquiv}/month, billed yearly as ${annualPrice}/year`
-              : `${monthlyPrice}/month, billed monthly`}
+              ? `No charge until ${billingDateLabel}, then ${annualPrice}/year (${annualMonthlyEquiv}/month). Cancel anytime.`
+              : `No charge until ${billingDateLabel}, then ${monthlyPrice}/month. Cancel anytime.`}
           </Text>
 
           <Footer s={s} />
         </View>
-      </View>
+      </ScrollView>
     </LinearGradient>
   );
 }
@@ -721,23 +730,45 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  personalLine: {
+    fontWeight: '500',
+    fontStyle: 'italic',
+    color: '#5A8BA8',
+    textAlign: 'center',
+    letterSpacing: 0.2,
+  },
   subtitle: {
     fontWeight: '700',
     color: '#3A6B80',
     textAlign: 'center',
   },
-  features: {
+  featureCard: {
     alignSelf: 'stretch',
+    backgroundColor: 'rgba(255, 255, 255, 0.6)',
+    borderWidth: 1,
+    borderColor: 'rgba(90, 139, 168, 0.18)',
+    shadowColor: '#5A8BA8',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.08,
+    shadowRadius: 12,
   },
   featureRow: {
     flexDirection: 'row',
     alignItems: 'center',
   },
+  featureRowDivider: {
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(90, 139, 168, 0.1)',
+  },
+  featureIconCircle: {
+    backgroundColor: 'rgba(90, 139, 168, 0.12)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   featureText: {
     fontWeight: '500',
     color: '#3A6B80',
   },
-  // Trial timeline card
   trialTimelineCard: {
     alignSelf: 'stretch',
     backgroundColor: 'rgba(58, 107, 128, 0.08)',
@@ -776,7 +807,6 @@ const styles = StyleSheet.create({
     color: '#5A8BA8',
     marginTop: 3,
   },
-  // Simple timeline (dots)
   trialSimpleTimeline: {
     alignSelf: 'stretch',
     paddingLeft: 8,
@@ -811,7 +841,6 @@ const styles = StyleSheet.create({
     color: '#5A8BA8',
     marginTop: 2,
   },
-  // Trial plan box
   trialPlanBox: {
     flex: 1,
     borderWidth: 2,
@@ -837,7 +866,6 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     color: '#7B9AAA',
   },
-  // Plan toggle
   planToggle: {
     flexDirection: 'row',
     alignSelf: 'stretch',
@@ -863,7 +891,6 @@ const styles = StyleSheet.create({
   planToggleTextSelected: {
     color: '#3A6B80',
   },
-  // Plans
   plans: {
     flexDirection: 'row',
     alignSelf: 'stretch',
@@ -895,7 +922,6 @@ const styles = StyleSheet.create({
   planPriceSelected: {
     color: '#3A6B80',
   },
-  // Reminder toggle
   reminderRow: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -919,7 +945,6 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: '#3A6B80',
   },
-  // Bottom
   bottom: {
     alignItems: 'center',
   },

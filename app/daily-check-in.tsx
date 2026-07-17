@@ -117,9 +117,11 @@ function DailyCheckInContent() {
       payload: { date: getTodayDateString(), moodId: mood.id, moodLabel: mood.label },
     });
 
-    // Into the letter exchange (optional, skippable → deck). The gate lives at
-    // navigation level: respond → compose → deck; skip → deck.
-    router.replace('/exchange/respond');
+    // Into the letter exchange (optional, skippable → deck). Post-first order:
+    // confess (compose) → then invited to comfort a stranger (respond) → deck.
+    // Data (2026-07): the old reply-first gate let only 41% of visitors ever
+    // post; once through, 71% posted. Confession now leads.
+    router.replace('/exchange/compose');
   };
 
   return (

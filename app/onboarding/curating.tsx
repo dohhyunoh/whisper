@@ -1,5 +1,7 @@
 import { useAppContext } from '@/context/app-context';
 import { UserData, defaultUserData } from '@/data/types';
+import { RELIGION_INTEREST_FOR_FAITH } from '@/utils/interest-tags';
+import { prefetchPaywallData } from '@/utils/paywall-prefetch';
 import { Events, posthog } from '@/utils/posthog';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
@@ -20,11 +22,8 @@ const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 function deriveInterests(user: UserData): string[] {
   const interests: string[] = [];
 
-  if (user.faithDetail === 'Christianity') interests.push('religion:christianity');
-  if (user.faithDetail === 'Islam') interests.push('religion:islam');
-  if (user.faithDetail === 'Hinduism') interests.push('religion:hinduism');
-  if (user.faithDetail === 'Buddhism') interests.push('religion:buddhism');
-  if (['Judaism', 'General Spirituality'].includes(user.faithDetail)) interests.push('religion:general-spirituality');
+  const religionInterest = RELIGION_INTEREST_FOR_FAITH[user.faithDetail];
+  if (religionInterest) interests.push(religionInterest);
 
   if (user.faithDetail === 'Mindfulness') interests.push('mood-boosters:calm');
   if (user.faithDetail === 'Manifestation') {
@@ -112,6 +111,9 @@ export default function CuratingScreen() {
 
   useEffect(() => {
     posthog.capture(Events.ONBOARDING_SCREEN_VIEWED, { screen_name: 'curating' });
+    // Warm the paywall's RevenueCat lookups behind the progress ring so the
+    // paywall screen renders without its blocking spinner.
+    prefetchPaywallData();
   }, []);
 
   useEffect(() => {

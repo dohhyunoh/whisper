@@ -54,17 +54,6 @@
     ]
   },
   {
-    "id": "mood-motiv-007",
-    "text": "Failure will never overtake me if my determination to succeed is strong enough.",
-    "author": "Og Mandino",
-    "tone": "direct",
-    "tags": [
-      "need:motivation",
-      "theme:growth",
-      "tone:direct"
-    ]
-  },
-  {
     "id": "mood-motiv-008",
     "text": "When something is important enough, you do it even if the odds are not in your favor.",
     "author": "Elon Musk",
@@ -337,17 +326,6 @@
       "need:motivation",
       "theme:growth",
       "tone:direct"
-    ]
-  },
-  {
-    "id": "mood-motiv-034",
-    "text": "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
-    "author": "Samuel Beckett",
-    "tone": "playful",
-    "tags": [
-      "emotion:fear",
-      "need:motivation",
-      "tone:playful"
     ]
   },
   {
@@ -921,18 +899,6 @@
       "need:motivation",
       "tone:direct",
       "tone:fierce"
-    ]
-  },
-  {
-    "id": "mood-motiv-094",
-    "text": "The difference between a novice and a master is that a master has failed more times than the novice has tried.",
-    "author": "Koro-sensei",
-    "source": "Assassination Classroom",
-    "tone": "direct",
-    "tags": [
-      "theme:growth",
-      "need:perspective",
-      "tone:direct"
     ]
   },
   {

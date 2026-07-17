@@ -1,5 +1,7 @@
 import { CrisisCard } from '@/components/exchange/crisis-card';
+import { MAX_REPLIES_PER_DAY, MIN_REPLY_CHARS } from '@/constants/exchange';
 import { MoodId, MOODS } from '@/data/moods';
+import { replyStarters } from '@/data/reply-starters';
 import allQuotes from '@/data/quotes';
 import {
   getStrangerPost,
@@ -7,11 +9,11 @@ import {
   StrangerPost,
   submitReply,
 } from '@/utils/exchange-api';
-import { markRespondedToday } from '@/utils/exchange-state';
+import { getRepliesSentToday, incrementRepliesSentToday, markRespondedToday } from '@/utils/exchange-state';
 import { Events, posthog } from '@/utils/posthog';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import {
   ActivityIndicator,
@@ -68,7 +70,7 @@ function namespaceForLabel(label: string): string | null {
 // comforts them, tones are how they like to be spoken to. Phrase each group
 // accordingly instead of prefixing everything with "finds comfort in".
 // Returns null (line hidden) only if no tag can be classified.
-function describeAuthor(tags: string[]): string | null {
+export function describeAuthor(tags: string[]): string | null {
   const namespaced = tags
     .map((t) => {
       if (TAG_NAMESPACES.includes(t.split(':')[0])) return t;
@@ -100,6 +102,9 @@ function describeAuthor(tags: string[]): string | null {
 
 export default function RespondScreen() {
   const insets = useSafeAreaInsets();
+  const { from } = useLocalSearchParams<{ from?: string }>();
+  // Arrived right after posting: frame the reply ask as reciprocity-in-waiting.
+  const fromPost = from === 'post';
   const [loading, setLoading] = useState(true);
   const [offline, setOffline] = useState(false);
   const [post, setPost] = useState<StrangerPost | null>(null);
@@ -107,13 +112,15 @@ export default function RespondScreen() {
   const [sending, setSending] = useState(false);
   const [blocked, setBlocked] = useState<string | null>(null);
   const [showCrisis, setShowCrisis] = useState(false);
+  const [sentToday, setSentToday] = useState(0);
 
   useEffect(() => {
     posthog.capture(Events.EXCHANGE_RESPOND_SHOWN);
     let cancelled = false;
     (async () => {
-      const ready = await initExchange();
+      const [ready, count] = await Promise.all([initExchange(), getRepliesSentToday()]);
       if (cancelled) return;
+      setSentToday(count);
       if (!ready) {
         setOffline(true);
         setLoading(false);
@@ -138,7 +145,7 @@ export default function RespondScreen() {
 
   const handleSend = async () => {
     const text = reply.trim();
-    if (!text || sending || !post) return;
+    if (text.length < MIN_REPLY_CHARS || sending || !post) return;
     setBlocked(null);
     setSending(true);
 
@@ -146,9 +153,12 @@ export default function RespondScreen() {
     const result = await submitReply(post.id, text);
     if (result.status === 'ok') {
       await markRespondedToday();
+      await incrementRepliesSentToday();
       posthog.capture(Events.EXCHANGE_REPLY_SENT, { mood: post.mood });
       if (Platform.OS === 'ios') Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-      router.replace('/exchange/compose');
+      // Post-first order: composing happens before this screen (check-in →
+      // compose → respond), so a sent reply always returns to the deck.
+      toDeck();
       return;
     }
 
@@ -208,6 +218,9 @@ export default function RespondScreen() {
           ) : (
             <>
               <Animated.View entering={FadeInDown.duration(500)}>
+                {fromPost && (
+                  <Text style={styles.waitingLine}>While your note finds someone…</Text>
+                )}
                 <View style={styles.eyebrowRow}>
                   {MOODS.find((m) => m.id === post.mood)?.icon(16, '#7B9AAA')}
                   <Text style={styles.eyebrow}>
@@ -245,17 +258,38 @@ export default function RespondScreen() {
                   textAlignVertical="top"
                 />
 
-                {reply.length > 450 && (
+                {reply.trim().length > 0 && reply.trim().length < MIN_REPLY_CHARS ? (
+                  <Text style={styles.counter}>{reply.trim().length}/{MIN_REPLY_CHARS}</Text>
+                ) : reply.length > 450 ? (
                   <Text style={styles.counter}>{reply.length}/500</Text>
-                )}
+                ) : null}
                 {blocked && <Text style={styles.blocked}>{blocked}</Text>}
+
+                {/* Openers, not canned messages: a tap starts the note and the
+                    writer finishes the thought. Gone once anything is typed. */}
+                {reply.length === 0 && !sending && (
+                  <View style={styles.starters}>
+                    {replyStarters(post.mood).map((starter) => (
+                      <Pressable
+                        key={starter}
+                        style={styles.starterRow}
+                        onPress={() => {
+                          if (process.env.EXPO_OS === 'ios') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                          setReply(starter);
+                        }}
+                      >
+                        <Text style={styles.starterText}>{starter.trim()}…</Text>
+                      </Pressable>
+                    ))}
+                  </View>
+                )}
               </Animated.View>
 
               <Animated.View entering={FadeInDown.duration(500).delay(350)}>
                 <Pressable
-                  style={[styles.primaryBtn, (!reply.trim() || sending) && styles.btnDisabled]}
+                  style={[styles.primaryBtn, (reply.trim().length < MIN_REPLY_CHARS || sending) && styles.btnDisabled]}
                   onPress={handleSend}
-                  disabled={!reply.trim() || sending}
+                  disabled={reply.trim().length < MIN_REPLY_CHARS || sending}
                 >
                   {sending ? (
                     <ActivityIndicator color="#5A8BA8" />
@@ -265,11 +299,11 @@ export default function RespondScreen() {
                 </Pressable>
 
                 <Pressable style={styles.skipBtn} onPress={handleSkip} disabled={sending}>
-                  <Text style={styles.skipText}>Skip for today</Text>
+                  <Text style={styles.skipText}>Maybe later</Text>
                 </Pressable>
 
-                <Text style={styles.gateHint}>
-                  Replying opens your own prompt. Skipping sits today out.
+                <Text style={styles.quotaText}>
+                  {sentToday} of {MAX_REPLIES_PER_DAY} notes today
                 </Text>
               </Animated.View>
             </>
@@ -343,6 +377,16 @@ const styles = StyleSheet.create({
     color: '#3E5C6E',
   },
   counter: { fontSize: 12, color: '#9AAEBA', marginTop: 6, textAlign: 'right' },
+  starters: { marginTop: 12, gap: 8 },
+  starterRow: {
+    paddingVertical: 8,
+    paddingHorizontal: 14,
+    borderLeftWidth: 2,
+    borderLeftColor: 'rgba(90, 139, 168, 0.3)',
+    backgroundColor: 'rgba(255, 255, 255, 0.4)',
+    borderRadius: 10,
+  },
+  starterText: { fontSize: 14, color: '#7B9AAA', fontWeight: '400', fontStyle: 'italic' },
   blocked: { fontSize: 13.5, color: '#C98A7A', marginTop: 10, paddingHorizontal: 4 },
   primaryBtn: {
     marginTop: 22,
@@ -361,11 +405,12 @@ const styles = StyleSheet.create({
   primaryText: { fontSize: 17, fontWeight: '700', color: '#5A8BA8', letterSpacing: 0.5 },
   skipBtn: { marginTop: 16, alignSelf: 'center', paddingVertical: 8, paddingHorizontal: 20 },
   skipText: { fontSize: 15, fontWeight: '500', color: '#90A6B2' },
-  gateHint: {
-    fontSize: 12.5,
-    color: '#9AAEBA',
+  quotaText: { fontSize: 12, color: '#9AAEBA', textAlign: 'center', marginTop: 2 },
+  waitingLine: {
+    fontSize: 13,
+    color: '#8FA9B8',
+    fontStyle: 'italic',
     textAlign: 'center',
-    marginTop: 10,
-    lineHeight: 18,
+    marginBottom: 18,
   },
 });
