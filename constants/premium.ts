@@ -5,6 +5,9 @@ import { ImageSourcePropType } from 'react-native';
 export const REVENUECAT_API_KEY = 'appl_ztDnaUZoxdvOCUoQGYtZjTxccLn';
 export const REVENUECAT_ENTITLEMENT_ID = 'pro';
 
+// Flip to false to re-enable the paywall gate in hasPremiumAccess().
+export const APP_IS_FREE = true;
+
 export interface FontOption {
   key: PremiumFontKey;
   displayName: string;

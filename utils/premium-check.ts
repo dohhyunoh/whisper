@@ -1,5 +1,5 @@
 import { PremiumState } from '@/data/types';
-import { DEFAULT_PREMIUM_SETTINGS } from '@/constants/premium';
+import { APP_IS_FREE, DEFAULT_PREMIUM_SETTINGS } from '@/constants/premium';
 import {
   loadPremiumSettings,
   loadPremiumStatus,
@@ -50,5 +50,6 @@ export async function initializePremiumStatus(): Promise<PremiumState> {
 }
 
 export function hasPremiumAccess(status: string, trialEndsAt?: number | null): boolean {
+  if (APP_IS_FREE) return true;
   return status === 'premium_purchased' || isTrialActive(trialEndsAt);
 }
